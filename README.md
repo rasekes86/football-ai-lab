@@ -58,3 +58,15 @@ python -m football_ai_lab.ml --days 14
 ```
 
 [Arquitectura y estado exacto de las fases](docs/ARCHITECTURE.md).
+
+
+## Novedades v0.5 — datos, seguimiento prospectivo y auditoría
+Consulta [la guía detallada de las fases 1, 2 y 4](docs/FASES_1_2_4.md).
+
+- [Contexto de partidos](output/contexto_partidos.json): últimos 5 encuentros, tiros, descanso, enfrentamientos y cobertura.
+- [xG histórico verificado (muestra limitada)](output/contexto_xg.json): Understat/Machina si la fuente devuelve datos comprobables.
+- [Resultados reales y calibración](output/evaluacion_real.json): separa pronósticos archivados de backtests.
+- [Discrepancias entre modelos](output_ml/discrepancias.csv): diferencias informativas, nunca apuestas.
+- [Auditoría de pesos temporales](output_ml/auditoria_pesos.json): candidatos no aplicados automáticamente.
+
+Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 hasta que exista evidencia suficiente para cambiarlo.
