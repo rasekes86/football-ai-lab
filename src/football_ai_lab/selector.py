@@ -10,7 +10,7 @@ from datetime import date, datetime, timezone
 from math import exp, isfinite
 from .core import normalize_team, pmf
 
-VERSION = "market-selector-0.6"
+VERSION = "market-selector-0.7"
 MAX_GOALS = 18
 # Evita mercados casi triviales que carecerían de precio significativo.
 MIN_PROBABILITY = .55
@@ -155,6 +155,9 @@ def exploratory_counts(p:dict,games:list[dict],kickoff_date:date)->list[dict]:
                              f"Exploratorio: {len(hg)} partidos local, {len(ag)} visitante y {len(league)} ligueros",
                              "EXPLORATORIO_NO_VALIDADO")
                 c["muestra_local"]=len(hg);c["muestra_visitante"]=len(ag)
+                c["metrica"]=metric
+                c["linea"]=line
+                c["direccion"]="menos" if selection.startswith("Menos") else "mas"
                 results.append(c)
     return results
 
@@ -178,14 +181,41 @@ def offered_prices(prediction:dict,market_rows:list[dict],now:datetime)->dict[st
     return found
 
 def select_match(prediction:dict,history:list[dict],market_rows:list[dict],
-                 now:datetime,limit:int=MAX_TOP)->dict:
+                 now:datetime,limit:int=MAX_TOP,validation:dict|None=None)->dict:
     """Devuelve top probabilístico diversificado y top valor sólo con precios reales."""
     if prediction.get("tipo") not in ("REAL","DEMO"):raise ValueError("Modo no autorizado")
     cutoff=datetime.fromisoformat(prediction["fecha_utc"].replace("Z","+00:00"))
     if cutoff.tzinfo is None or cutoff<=now:raise ValueError("El encuentro ya ha empezado")
     candidates=goal_candidates(prediction)
     experimental=exploratory_counts(prediction,history,cutoff.date())
-    eligible=[c for c in candidates if c["probabilidad"]>=MIN_PROBABILITY
+    # A league-and-line specific retrospective gate is not proof of
+    # prospective calibration or a profitable offered price.
+    from .sources import LEAGUES
+    code=next((code for code,(label,_) in LEAGUES.items()
+               if label==prediction["liga"]),None)
+    allowed=set(validation.get("aprobados",[])) if isinstance(validation,dict) and (
+                validation.get("version")=="count-markets-walkforward-0.7") else set()
+    recently_validated=False
+    if allowed:
+        try:
+            timestamp=datetime.fromisoformat(validation["calculado_utc"].replace("Z","+00:00"))
+            recently_validated=(timestamp.tzinfo is not None
+                                and 0<=(now-timestamp).total_seconds()<=8*86400)
+        except (TypeError,ValueError,KeyError):
+            recently_validated=False
+    verified=[]
+    if code and recently_validated:
+        for candidate in experimental:
+            key=f'{code}|{candidate["metrica"]}|{candidate["linea"]:.1f}'
+            if key not in allowed:continue
+            checked=dict(candidate)
+            checked["familia"]=candidate["metrica"]
+            checked["nivel"]="BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA"
+            checked["origen"]="Modelo de conteos con auditoría temporal"
+            checked["motivo"]+="; superó Brier, logloss y calibración retrospectivos"
+            verified.append(checked)
+    eligible=[c for c in [*candidates,*verified]
+              if c["probabilidad"]>=MIN_PROBABILITY
               and c["cuota_justa"]>=MIN_FAIR_DECIMAL]
     eligible.sort(key=lambda c:(-c["probabilidad"],c["seleccion"]))
     selected=[];families=set()
@@ -222,6 +252,9 @@ def select_match(prediction:dict,history:list[dict],market_rows:list[dict],
             "top_probabilidad":selected,"top_valor_exploratorio":value,
             "mercados_goles_evaluados":len(candidates),
             "mercados_conteos_exploratorios":len(experimental),
+            "mercados_conteos_habilitados_retro":len(verified),
+            "estado_auditoria_conteos":("APROBADOS_RETROSPECTIVAMENTE" if verified else
+                "SIN_MERCADOS_APROBADOS"),
             "exploratorios":sorted(experimental,key=lambda x:-x["probabilidad"])[:10],
             "no_disponible":["Tiros individuales de jugadores",
                              "Goleadores individuales",
