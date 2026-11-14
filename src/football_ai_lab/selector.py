@@ -167,7 +167,7 @@ def offered_prices(prediction:dict,market_rows:list[dict],now:datetime)->dict[st
         if m.get("proveedor")!="The Odds API" or not m.get("casa"):continue
         try:
             at=datetime.fromisoformat(m["fecha_cuota_utc"].replace("Z","+00:00"))
-            if at.tzinfo is None or (now-at).total_seconds() not in range(0,6*3600+1):
+            if at.tzinfo is None or not 0 <= (now-at).total_seconds() <= 6*3600:
                 continue
             for outcome,key in ((prediction["local"],"cuota_local"),
                                 ("Empate","cuota_empate"),(prediction["visitante"],"cuota_visitante")):

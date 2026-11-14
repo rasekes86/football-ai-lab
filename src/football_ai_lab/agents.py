@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 class AgentLog:
-    ROLES=("datos","contexto","predictor","mercado","auditor","evaluador","publicador")
+    ROLES=("datos","contexto","predictor","mercado","selector","auditor","evaluador","publicador")
     def __init__(self,now:datetime):
         self.now=now
         self.events=[]

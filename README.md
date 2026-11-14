@@ -9,7 +9,7 @@ Sistema de análisis de fútbol alojado en GitHub Actions, sin instalaciones loc
 - [Contexto Machina Sports](output/contexto_machina.json): clasificaciones y, en Premier, bajas reportadas (NO necesariamente confirmadas).
 - [Comparaciones InferSports](output/mercados.csv): referencias sin margen, NO cuotas reales necesariamente disponibles.
 - [XGBoost experimental y validación](output_ml/validacion.json) y [predicciones ML](output_ml/predicciones_ml.csv).
-- [Estado de siete roles especializados](output/estado_agentes.json).
+- [Estado de los roles especializados](output/estado_agentes.json).
 - [Panel Google Sheets](https://docs.google.com/spreadsheets/d/1XSDuxhggZ3UCNkJDmakYG8WQdWPcqQtykj49DuIqJsU/edit): fotografía; las pestañas Auto requieren autorizar IMPORTDATA desde navegador de escritorio.
 
 ## Cómo preguntar al sistema desde ChatGPT
