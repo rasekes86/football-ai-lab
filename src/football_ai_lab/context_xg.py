@@ -89,9 +89,20 @@ def collect(now:datetime,football=None,reader=_short_http)->dict:
             continue
         result["consultas_xg"]+=1
         try:
-            xg=extract_xg(football.get_event_xg(event_id=chosen["event_id"]),chosen)
-            if xg:result["partidos"].append(xg)
-            else:result["errores"].append(lg+": xG no disponible/identidad no verificable")
+            response=football.get_event_xg(event_id=chosen["event_id"])
+            xg=extract_xg(response,chosen)
+            if xg:
+                result["partidos"].append(xg)
+            else:
+                d=response.get("data") if isinstance(response,dict) else {}
+                d=d if isinstance(d,dict) else {}
+                reason=(d.get("message") or response.get("message") or "Identidad/valores no verificables")
+                result["errores"].append(lg+": "+str(reason)[:160])
+                result.setdefault("diagnosticos",[]).append({
+                    "liga":lg,"evento":chosen["event_id"],"local":chosen["local"],
+                    "visitante":chosen["visitante"],"motivo":str(reason)[:160],
+                    "fuente_declarada":d.get("source",""),
+                    "n_equipos_xg":len(d.get("teams") or [])})
         except Exception as exc:
             result["errores"].append(lg+": xG "+type(exc).__name__)
     result["estado"]="CON_DATOS" if result["partidos"] else "SIN_XG_VERIFICADO"
