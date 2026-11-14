@@ -34,12 +34,18 @@ jobs:
         run: python -m football_ai_lab.ml --days 14
       - name: Publicar métricas y predicciones experimentales
         run: |
+          tar -cf /tmp/football-ml.tar output_ml/validacion.json output_ml/predicciones_ml.csv
+          git fetch origin main
+          if ! git diff --quiet HEAD origin/main -- src tests .github pyproject.toml; then
+            echo "El código cambió mientras se entrenaba; se omite publicación obsoleta."
+            exit 0
+          fi
+          git reset --hard origin/main
+          tar -xf /tmp/football-ml.tar
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add output_ml/validacion.json output_ml/predicciones_ml.csv
           if ! git diff --cached --quiet; then
             git commit -m 'Evalúa XGBoost cronológicamente [skip ci]'
-            git fetch origin main
-            git rebase origin/main
             git push
           fi
