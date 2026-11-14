@@ -7,7 +7,7 @@ permissions:
   issues: write
 jobs:
   consultar:
-    if: startsWith(github.event.issue.title, '[ANALISIS]') && github.event.issue.user.login == github.repository_owner
+    if: (startsWith(github.event.issue.title, '[ANALISIS]') || startsWith(github.event.issue.title, '[DIRECTO]')) && github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

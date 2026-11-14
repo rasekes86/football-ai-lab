@@ -12,6 +12,7 @@ from .core import normalize_team
 from .sources import LEAGUES,load_history,parse_espn_events,http_read,ESPN_URL
 from .pipeline import forecast
 from .infersports import get_infer_fair
+from .live import live_reply
 
 MADRID=ZoneInfo("Europe/Madrid")
 PATTERN=re.compile(r"^\[ANALISIS\]\s*(.+?)\s+vs\.?\s+(.+?)\s*\|\s*(\d{4}-\d{2}-\d{2})\s*$",re.I)
@@ -96,7 +97,8 @@ def main(argv=None):
     pa.add_argument("--out",required=True)
     a=pa.parse_args(argv)
     issue=json.loads(Path(a.event_path).read_text(encoding="utf-8")).get("issue") or {}
-    result=reply(str(issue.get("title","")))
+    title=str(issue.get("title",""))
+    result=live_reply(title) if title.startswith("[DIRECTO]") else reply(title)
     Path(a.out).write_text(result,encoding="utf-8")
     print(result[:500])
 
