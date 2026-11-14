@@ -1,0 +1,14 @@
+{
+  "calculado_utc": "2026-11-14T19:18:22.346785+00:00",
+  "estado": "SIN_XG_VERIFICADO",
+  "partidos": [],
+  "consultas_xg": 5,
+  "errores": [
+    "SP1: xG no disponible/identidad no verificable",
+    "E0: xG no disponible/identidad no verificable",
+    "D1: xG no disponible/identidad no verificable",
+    "I1: xG no disponible/identidad no verificable",
+    "F1: xG no disponible/identidad no verificable"
+  ],
+  "nota": "Sólo una muestra de partidos finalizados por liga. No representa xG de todos los equipos."
+}
