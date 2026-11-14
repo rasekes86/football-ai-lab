@@ -4,10 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "football-ai-lab"
-version = "0.2.0"
+version = "0.3.0"
 description = "Investigación estadística de fútbol con fuentes gratuitas"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.optional-dependencies]
+ml = ["xgboost>=2.1,<4"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
