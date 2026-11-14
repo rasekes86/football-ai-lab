@@ -67,54 +67,41 @@ def reply(title,now=None,fixtures=None,histories=None):
     if not predictions:
         return "Partido encontrado, pero sin historial suficiente. "+", ".join(rejected)+"\n"
     p=predictions[0]
-    lines=[
-        "## Football AI Lab · Análisis bajo demanda",
-        f'**{p["local"]} – {p["visitante"]}** · {p["liga"]}',
-        f'**Inicio:** {f["kickoff"].astimezone(MADRID).strftime("%d/%m/%Y %H:%M")} (Madrid)',
-        f'**Generado:** {now.isoformat()} · modelo {p["modelo"]}',
-        "",
-        "| Resultado | Modelo | Cuota justa matemática |",
-        "|---|---:|---:|",
-        f'| Local | {float(p["prob_local"])*100:.1f}% | {p["cuota_justa_local"]} |',
-        f'| Empate | {float(p["prob_empate"])*100:.1f}% | {p["cuota_justa_empate"]} |',
-        f'| Visitante | {float(p["prob_visitante"])*100:.1f}% | {p["cuota_justa_visitante"]} |',
-        f'Más de 2,5 goles: {float(p["prob_mas_2_5"])*100:.1f}%.',
-        f'Goles estimados: {p["goles_esperados_local"]} y {p["goles_esperados_visitante"]}.',
-    ]
+    validation=None
+    vpath=Path("output/validacion_conteos.json")
+    if vpath.is_file():
+        try:validation=json.loads(vpath.read_text(encoding="utf-8"))
+        except (OSError,ValueError):pass
+    selection=None
     try:
-        # Use the last published evidence only if its timestamp is fresh.
-        validation=None
-        vpath=Path("output/validacion_conteos.json")
-        if vpath.is_file():
-            try:
-                validation=json.loads(vpath.read_text(encoding="utf-8"))
-            except (ValueError,OSError):
-                validation=None
-        selected=select_markets(p,hist.get(f["league"],[]),[],now,validation=validation)
-        lines.extend(["","### Top 3 mercados por probabilidad (no apuestas recomendadas)"])
-        for i,item in enumerate(selected["top_probabilidad"],1):
-            lines.append(f'{i}. **{item["seleccion"]}** ({item["mercado"]}): '
-                         f'{item["probabilidad"]*100:.1f}% · cuota justa {item["cuota_justa"]:.2f}. '
-                         f'Fuente: {item["origen"]}.')
-        if selected["mercados_conteos_habilitados_retro"]:
-            lines.append("Los mercados de conteos incluidos superaron criterios retrospectivos por liga y línea, "
-                         "pero aún carecen de validación prospectiva.")
-        elif selected["exploratorios"]:
-            lines.append("Córners, tiros y tarjetas siguen fuera del Top 3: no han superado "
-                         "la auditoría temporal aplicable.")
-        lines.append("No se identifican apuestas de valor sin cuotas ofrecidas, recientes y verificadas.")
+        selection=select_markets(p,hist.get(f["league"],[]),[],now,validation=validation)
     except (ValueError,TypeError,KeyError):
-        lines.append("Selector no disponible por falta de datos fiables.")
+        selection=None
+    from .match_context import dossier as match_dossier
+    from .full_report import build_all,markdown
+    from .pipeline import read_csv
+    last_machina=None
+    machina_path=Path("output/contexto_machina.json")
+    if machina_path.exists():
+        try:
+            blob=json.loads(machina_path.read_text(encoding="utf-8"))
+            stamp=datetime.fromisoformat(blob["timestamp_utc"].replace("Z","+00:00"))
+            if stamp.tzinfo is not None and 0 <= (now-stamp).total_seconds() <= 8*86400:
+                last_machina=blob
+        except (KeyError,TypeError,ValueError,OSError):pass
+    detail=match_dossier(hist.get(f["league"],[]),f)
+    ml_rows=read_csv(Path("output_ml/predicciones_ml.csv"))
+    rendered=build_all([p],[detail],[selection] if selection else [],
+                       machina=last_machina,ml_rows=ml_rows,now=now)[0]
+    lines=[markdown(rendered)]
     infer=get_infer_fair([p],now).get(p["id"])
     if infer:
         q=infer["fair"]
-        lines.extend(["", "### Comparación informativa InferSports",
-                      f'Referencia sin margen: {q[0]*100:.1f}% / {q[1]*100:.1f}% / {q[2]*100:.1f}%.',
-                      "Fecha de referencia: "+infer["timestamp"]+"."])
+        lines.extend(["","### Referencia comparativa InferSports",
+                      f'Sin margen 1X2: {q[0]*100:.1f}% / {q[1]*100:.1f}% / {q[2]*100:.1f}%.',
+                      "Observada: "+infer["timestamp"]+". No es cuota ofrecida por una casa."])
     else:
-        lines.append("InferSports: sin referencia reciente y verificable.")
-    lines.append("**No es una recomendación de apuesta.** No incluye lesiones o alineaciones confirmadas. "
-                 "Las probabilidades del modelo no demuestran rentabilidad.")
+        lines.append("InferSports: sin referencia reciente y verificada.")
     return "\n".join(lines)+"\n"
 
 def main(argv=None):

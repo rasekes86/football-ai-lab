@@ -21,6 +21,10 @@ from .prospective import TRACK_FIELDS as PROSPECTIVE_FIELDS
 from .selector import select_match as select_markets, global_top as global_market_top
 from .selector import flat_rows as market_flat_rows, FIELDS as SELECTOR_FIELDS
 from .count_validation import validate as validate_counts, VERSION as COUNT_VALIDATION_VERSION
+from .market_prospective import archive as archive_selections, settle as settle_selections
+from .market_prospective import summary as selections_summary, FIELDS as MARKET_PROSPECTIVE_FIELDS
+from .full_report import build_all as all_dossiers, markdown as dossier_markdown
+from .player_data import collect as collect_players
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -201,6 +205,19 @@ def main(argv=None) -> None:
               f"Machina Sports: {len(context.get('clasificaciones',{}))} ligas; lesiones sólo Premier si disponibles")
     target.mkdir(parents=True,exist_ok=True)
     (target/"contexto_machina.json").write_text(json.dumps(context,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Optional bounded historical player sample. Never derive player picks from sparse data.
+    prior_players_path=target/"jugadores_historico.json"
+    prior_players={}
+    if prior_players_path.exists():
+        try:
+            prior_players=json.loads(prior_players_path.read_text(encoding="utf-8"))
+        except (OSError,ValueError):
+            prior_players={}
+    player_data=collect_players(now,existing=prior_players) if not args.demo else {
+        "estado":"DEMO","registros":[],"eventos_consultados":0,"jugadores_con_algun_dato":0}
+    prior_players_path.write_text(json.dumps(player_data,ensure_ascii=False,indent=2),encoding="utf-8")
+    book.mark("jugadores",player_data.get("estado","SIN_DATOS"),
+              f'{len(player_data.get("registros",[]))} observaciones históricas; NO predicciones individuales')
     # Genuine historical xG sample only; not an estimated metric.
     xg_snapshot=historic_xg(now) if not args.demo else {"estado":"DEMO","partidos":[],"consultas_xg":0}
     (target/"contexto_xg.json").write_text(json.dumps(xg_snapshot,ensure_ascii=False,indent=2),encoding="utf-8")
@@ -248,6 +265,27 @@ def main(argv=None) -> None:
                     "nota":"Ranking por probabilidad, con filtro de cuota justa mínima y una familia por partido. No son recomendaciones de apuestas."},
                     ensure_ascii=False,indent=2),encoding="utf-8")
     write_csv(target/"selecciones.csv",SELECTOR_FIELDS,market_flat_rows(selections))
+    # Immutable prospective picks: first eligible selection of each match only.
+    previous_selections=read_csv(target/"historico_selecciones.csv")
+    selections_frozen=archive_selections(previous_selections,selections,now)
+    write_csv(target/"historico_selecciones.csv",MARKET_PROSPECTIVE_FIELDS,selections_frozen)
+    tracked_selections=settle_selections(selections_frozen,histories,now)
+    write_csv(target/"seguimiento_selecciones.csv",MARKET_PROSPECTIVE_FIELDS,tracked_selections)
+    market_evaluation=selections_summary(tracked_selections,now)
+    (target/"evaluacion_selecciones.json").write_text(
+        json.dumps(market_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Unified reports are built exclusively from verified source records.
+    ml_rows=read_csv(Path("output_ml/predicciones_ml.csv")) if not args.demo else []
+    complete_reports=all_dossiers(predicted,dossiers,selections,context,ml_rows,markets,now)
+    (target/"informes_partidos.json").write_text(
+        json.dumps({"version":"dossier-0.8","calculado_utc":now.isoformat(),
+                    "partidos":complete_reports,"aviso":"Investigación experimental sin apostar"},
+                    ensure_ascii=False,indent=2),encoding="utf-8")
+    (target/"informes_partidos.md").write_text(
+        "# Football AI Lab — dossiers completos de la jornada\n\n"+
+        "\n\n---\n\n".join(dossier_markdown(item) for item in complete_reports)+"\n",
+        encoding="utf-8")
+
     book.mark("selector","OK",
               f'{len(selections)} partidos; {len(count_validation["aprobados"])} líneas de conteos aptas retrospectivamente; jugadores no habilitados',
               len(market_flat_rows(selections)))
@@ -272,6 +310,10 @@ def main(argv=None) -> None:
     book.mark("evaluador","OK",
               f'{prospective["finalizados_validos"]} finales verificados, {prospective["pendientes"]} pendientes',
               len(tracked))
+    book.mark("mercados_prospectivos","OK",
+              f'{market_evaluation["finalizadas"]} selecciones terminadas, '
+              f'{market_evaluation["pendientes"]} pendientes; '
+              'no confundir con backtest',len(selections_frozen))
     # Añadimos un resumen de las selecciones sin afirmar certeza de éxito.
     selector_lines=["","## Selector de mercados · probabilidades experimentales","",
                     "Top 3 de la próxima jornada: una selección por partido; "
@@ -285,6 +327,9 @@ def main(argv=None) -> None:
     if not top_jornada:
         selector_lines.append("| — | — | Sin selecciones elegibles | — | — |")
     selector_lines.extend(["",
+                           f'Seguimiento real del Top 3: **{market_evaluation["registradas"]}** selecciones '
+                           f'archivadas antes del partido; **{market_evaluation["finalizadas"]}** resueltas.',
+                           'Informe completo de cada encuentro: output/informes_partidos.md.',
                            f'Líneas de córners/tiros/tarjetas aprobadas en backtest: **{len(count_validation["aprobados"])}**. '
                            "Solo las aprobadas retrospectivamente pueden competir por el Top 3; "
                            "no tienen validación prospectiva.",
