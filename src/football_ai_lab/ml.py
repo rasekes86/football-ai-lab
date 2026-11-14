@@ -18,7 +18,7 @@ from .ensemble import predict as poisson_elo_predict
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG=logging.getLogger(__name__)
-VERSION="xgboost-temporal-0.3"
+VERSION="xgboost-temporal-0.5"
 LEAGUE_KEYS=list(LEAGUES)
 COLUMNS=["fecha_utc","liga","local","visitante","ml_prob_local","ml_prob_empate",
          "ml_prob_visitante","modelo","fecha_analisis_utc","estado"]
@@ -38,14 +38,27 @@ def update(s:dict,game:dict)->None:
     h,a=normalize_team(game["home"]),normalize_team(game["away"])
     d=game["date"]
     hg,ag=game["home_goals"],game["away_goals"]
-    s["all"][h].append((d,hg,ag,3 if hg>ag else 1 if hg==ag else 0))
-    s["all"][a].append((d,ag,hg,3 if ag>hg else 1 if ag==hg else 0))
-    s["home"][h].append((d,hg,ag,3 if hg>ag else 1 if hg==ag else 0))
-    s["away"][a].append((d,ag,hg,3 if ag>hg else 1 if ag==hg else 0))
+    # Optional recorded stats: absent values remain None rather than fake zeros.
+    row_h=(d,hg,ag,3 if hg>ag else 1 if hg==ag else 0,
+           game.get("home_shots"),game.get("home_on_target"),game.get("home_corners"))
+    row_a=(d,ag,hg,3 if ag>hg else 1 if ag==hg else 0,
+           game.get("away_shots"),game.get("away_on_target"),game.get("away_corners"))
+    s["all"][h].append(row_h)
+    s["all"][a].append(row_a)
+    s["home"][h].append(row_h)
+    s["away"][a].append(row_a)
     s["league"].append((hg,ag))
 
 def _mean(seq:list[tuple],index:int,default:float)->float:
     return sum(x[index] for x in seq)/len(seq) if seq else default
+
+def _available_stat(rows:list[tuple],index:int)->list[float]:
+    last=rows[-5:]
+    available=[float(row[index]) for row in last if row[index] is not None]
+    # Return mean + availability fraction to distinguish missing from genuine 0.
+    return [sum(available)/len(available) if available else 0.0,
+            len(available)/len(last) if last else 0.0]
+
 
 def _features(s:dict,code:str,home:str,away:str,when:date)->list[float]|None:
     h,a=normalize_team(home),normalize_team(away)
@@ -69,6 +82,10 @@ def _features(s:dict,code:str,home:str,away:str,when:date)->list[float]|None:
        min(len(ha),12),min(len(aa),12),avg_h,avg_a,
     ]
     fh.extend(1.0 if code==key else 0.0 for key in LEAGUE_KEYS)
+    # Data-provider measured stats, not xG estimates. Missingness is explicit.
+    for team_games in (ha,aa):
+        for idx in (4,5,6):
+            fh.extend(_available_stat(team_games,idx))
     return [float(x) for x in fh]
 
 def build_samples(histories:dict[str,list[dict]])->list[tuple]:
@@ -197,6 +214,31 @@ def train_and_evaluate(histories:dict,fixtures:list,now:datetime)->tuple[list[di
     report["predictions"]=len(results)
     return results,report
 
+def compare_to_production(ml_rows:list[dict],production_rows:list[dict])->list[dict]:
+    def key(row):
+        return (row.get("fecha_utc"),row.get("liga"),
+                normalize_team(row.get("local","")),normalize_team(row.get("visitante","")))
+    indexed={key(p):p for p in production_rows}
+    result=[]
+    for ml in ml_rows:
+        base=indexed.get(key(ml))
+        if base is None:continue
+        try:
+            real=[float(base[x]) for x in ("prob_local","prob_empate","prob_visitante")]
+            experimental=[float(ml[x]) for x in ("ml_prob_local","ml_prob_empate","ml_prob_visitante")]
+        except (ValueError,KeyError):continue
+        discrepancy=max(abs(a-b) for a,b in zip(real,experimental))
+        flag="REVISAR" if discrepancy>=.15 else "VIGILAR" if discrepancy>=.08 else "COINCIDEN"
+        result.append({"fecha_utc":ml["fecha_utc"],"liga":ml["liga"],
+                       "local":ml["local"],"visitante":ml["visitante"],
+                       "modelo_principal_local":f"{real[0]:.5f}",
+                       "modelo_experimental_local":f"{experimental[0]:.5f}",
+                       "max_diferencia_pp":f"{100*discrepancy:.2f}",
+                       "alerta":flag,
+                       "nota":"Discrepancia informativa; NO combinar modelos ni realizar apuestas"})
+    return sorted(result,key=lambda x:float(x["max_diferencia_pp"]),reverse=True)
+
+
 def main(argv=None):
     pa=argparse.ArgumentParser()
     pa.add_argument("--days",type=int,default=14)
@@ -215,6 +257,23 @@ def main(argv=None):
     with (out/"predicciones_ml.csv").open("w",newline="",encoding="utf-8") as fh:
         w=csv.DictWriter(fh,fieldnames=COLUMNS)
         w.writeheader();w.writerows(rows)
+    # Compare only predictions for the exact same scheduled match and kickoff.
+    prod_path=Path("output/predicciones.csv")
+    prod=[]
+    if prod_path.exists():
+        with prod_path.open(newline="",encoding="utf-8") as f:
+            prod=list(csv.DictReader(f))
+    comparison=compare_to_production(rows,prod)
+    fields=["fecha_utc","liga","local","visitante","modelo_principal_local",
+            "modelo_experimental_local","max_diferencia_pp","alerta","nota"]
+    with (out/"discrepancias.csv").open("w",newline="",encoding="utf-8") as f:
+        writer=csv.DictWriter(f,fieldnames=fields)
+        writer.writeheader();writer.writerows(comparison)
+    high=sum(x["alerta"]=="REVISAR" for x in comparison)
+    report["comparacion_futuros"]={"partidos_comunes":len(comparison),
+                                    "discrepancias_15pp_o_mas":high}
+    (out/"validacion.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"ML: {report['status']} | training: {report['train_rows']} | validation: {report['validation_rows']} | forecasts: {len(rows)}")
+
 if __name__=="__main__":
     main()
