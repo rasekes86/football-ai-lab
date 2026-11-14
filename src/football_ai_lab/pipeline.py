@@ -25,6 +25,7 @@ from .market_prospective import archive as archive_selections, settle as settle_
 from .market_prospective import summary as selections_summary, FIELDS as MARKET_PROSPECTIVE_FIELDS
 from .full_report import build_all as all_dossiers, markdown as dossier_markdown
 from .player_data import collect as collect_players
+from .player_readiness import report as player_coverage
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -216,8 +217,13 @@ def main(argv=None) -> None:
     player_data=collect_players(now,existing=prior_players) if not args.demo else {
         "estado":"DEMO","registros":[],"eventos_consultados":0,"jugadores_con_algun_dato":0}
     prior_players_path.write_text(json.dumps(player_data,ensure_ascii=False,indent=2),encoding="utf-8")
+    readiness=player_coverage(player_data,now)
+    (target/"cobertura_jugadores.json").write_text(
+        json.dumps(readiness,ensure_ascii=False,indent=2),encoding="utf-8")
     book.mark("jugadores",player_data.get("estado","SIN_DATOS"),
-              f'{len(player_data.get("registros",[]))} observaciones históricas; NO predicciones individuales')
+              f'{len(player_data.get("registros",[]))} registros; '
+              f'{readiness["participaciones_confirmadas"]} participaciones verificadas; '
+              'sin apuestas individuales')
     # Genuine historical xG sample only; not an estimated metric.
     xg_snapshot=historic_xg(now) if not args.demo else {"estado":"DEMO","partidos":[],"consultas_xg":0}
     (target/"contexto_xg.json").write_text(json.dumps(xg_snapshot,ensure_ascii=False,indent=2),encoding="utf-8")

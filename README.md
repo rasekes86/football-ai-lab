@@ -99,3 +99,6 @@ Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 has
 - [Guía de la nueva versión](docs/AVANCES_V08.md): capacidades reales, datos ausentes y requisitos pendientes.
 
 **No se ha activado ninguna API de pago, no se han conectado casas de apuestas y no hay apuestas automáticas.**
+
+
+- [Cobertura y calidad de las estadísticas individuales](output/cobertura_jugadores.json): distingue partidos realmente jugados de suplentes no utilizados y cuantifica cuándo hay muestras históricas suficientes para INVESTIGAR, nunca para activar automáticamente apuestas de jugadores.
