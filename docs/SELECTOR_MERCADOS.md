@@ -5,7 +5,7 @@ Generar un Top 3 por partido y un Top 3 global para la próxima jornada, sin col
 
 ## Modelos y mercados
 - Probabilidades de resultado 1X2 y doble oportunidad (1X, X2, 12) calculadas exclusivamente mediante el consenso Poisson/Elo.
-- Más/menos goles totales (0,5 a 4,5), goles de cada equipo (0,5 a 2,5), ambos marcan y hándicaps europeos de medio gol mediante distribución Poisson de goles.
+- Más/menos goles totales (0,5 a 4,5), goles de cada equipo (0,5 a 2,5), ambos marcan y hándicaps de medio gol (dos vías) mediante distribución Poisson de goles.
 - 1X2 Poisson/Elo y mercados de goles Poisson **no son perfectamente coherentes entre sí** por la mezcla Elo. Se identifica siempre la procedencia en cada selección.
 - Córners, tiros, tiros a puerta y tarjetas: estimaciones exploratorias basadas en muestras históricas, dispersión y condición local/visitante; no se muestran en el Top 3 principal sin validación temporal específica.
 - Los mercados de tiros de jugador, goleador o tarjetas de jugador no están implementados y nunca se inventan.

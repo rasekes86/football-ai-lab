@@ -73,7 +73,7 @@ Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 has
 
 
 ## Nuevo selector de mercados (v0.6)
-- Calcula un **Top 3 por partido** y un **Top 3 general** basado en probabilidades experimentales: 1X2, doble oportunidad, total de goles, ambos marcan, goles por equipo y hándicaps de medio gol.
+- Calcula un **Top 3 por partido** y un **Top 3 general** basado en probabilidades experimentales: 1X2, doble oportunidad, total de goles, ambos marcan, goles por equipo y hándicaps de medio gol (dos vías).
 - Para evitar tres selecciones casi idénticas, usa como máximo una de cada familia por partido. Se aplica un mínimo de probabilidad del 55 % y una **cuota justa matemática mínima de 1,15**, no una cuota ofrecida.
 - Los córners, tiros, tiros a puerta y tarjetas se calculan solo como **exploratorios** cuando hay muestras históricas suficientes; no aparecen en el Top 3 hasta superar validación temporal por mercado.
 - **Jugadores** (tiros, goleadores, tarjetas) siguen bloqueados hasta disponer de datos de participación y métricas individuales válidas.

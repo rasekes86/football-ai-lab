@@ -83,7 +83,7 @@ def goal_candidates(p: dict) -> list[dict]:
     for team,label in ((True,home),(False,away)):
         for line in (-1.5,1.5,2.5):
             probability=q(lambda h,a,l=line,team=team:(h-a+l if team else a-h+l)>0)
-            entries.append(_candidate("Hándicap europeo (medio gol)",
+            entries.append(_candidate("Hándicap 2 vías (medio gol)",
                            label+" "+("+" if line>0 else "")+str(line).replace(".",","),
                            "resultado",probability,"Poisson de goles",
                            "Hándicap de medio gol: sin posibilidad de devolución"))

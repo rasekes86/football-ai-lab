@@ -72,6 +72,7 @@ def reply(title,now=None,fixtures=None,histories=None):
         f'**{p["local"]} – {p["visitante"]}** · {p["liga"]}',
         f'**Inicio:** {f["kickoff"].astimezone(MADRID).strftime("%d/%m/%Y %H:%M")} (Madrid)',
         f'**Generado:** {now.isoformat()} · modelo {p["modelo"]}',
+        "",
         "| Resultado | Modelo | Cuota justa matemática |",
         "|---|---:|---:|",
         f'| Local | {float(p["prob_local"])*100:.1f}% | {p["cuota_justa_local"]} |',
@@ -102,7 +103,7 @@ def reply(title,now=None,fixtures=None,histories=None):
         lines.append("InferSports: sin referencia reciente y verificable.")
     lines.append("**No es una recomendación de apuesta.** No incluye lesiones o alineaciones confirmadas. "
                  "Las probabilidades del modelo no demuestran rentabilidad.")
-    return "\n\n".join(lines)+"\n"
+    return "\n".join(lines)+"\n"
 
 def main(argv=None):
     pa=argparse.ArgumentParser()
