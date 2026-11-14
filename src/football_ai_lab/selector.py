@@ -197,7 +197,13 @@ def select_match(prediction:dict,history:list[dict],market_rows:list[dict],
     prices=offered_prices(prediction,market_rows,now)
     value=[]
     for c in candidates:
-        quote=prices.get(c["seleccion"])
+        # Etiqueta 1X2 de usuario frente al nombre puro del equipo en la API.
+        if c["mercado"]!="1X2":
+            continue
+        quote_name=(prediction["local"] if c["seleccion"]==prediction["local"]+" gana"
+                    else prediction["visitante"] if c["seleccion"]==prediction["visitante"]+" gana"
+                    else "Empate")
+        quote=prices.get(quote_name)
         if not quote:continue
         ev=c["probabilidad"]*quote["precio"]-1
         if ev<=.03:continue
