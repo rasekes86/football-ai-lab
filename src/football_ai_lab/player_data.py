@@ -53,6 +53,8 @@ def normalize_summary(payload:dict,match:dict)->list[dict]:
                          "visitante":match["visitante"],"equipo":team,
                          "jugador_id":player_id,"jugador":player_name,
                          "titular":bool(p.get("starter")),
+                         "entro_desde_banquillo":bool(p.get("subbedIn")),
+                         "participacion_confirmada":bool(p.get("starter") or p.get("subbedIn")),
                          "estadisticas":stats,"fuente":"ESPN summary público no oficial"})
     return rows
 
@@ -85,7 +87,8 @@ def collect(now:datetime,existing:dict|None=None,reader=_fetch)->dict:
     matchlist=sorted(unique.values(),key=lambda x:x["fecha_utc"],reverse=True)
     for m in matchlist:
         if result["eventos_consultados"]>=4:break
-        if any(event_id==m["event_id"] for event_id,_ in known):continue
+        if any(event_id==m["event_id"] and "participacion_confirmada" in p
+               for (event_id,_),p in known.items()):continue
         url=ESPN_URL.format(code=LEAGUES[m["league"]][1]).replace("/scoreboard","/summary")+\
             "?event="+m["event_id"]
         result["eventos_consultados"]+=1
