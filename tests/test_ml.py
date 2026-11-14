@@ -1,7 +1,7 @@
 """Verifica la causalidad de las features sin necesitar instalar XGBoost."""
 import unittest
 from datetime import date,datetime,timedelta,timezone
-from football_ai_lab.ml import build_samples,feature_for_fixture,split_by_date,score
+from football_ai_lab.ml import build_samples,feature_for_fixture,split_by_date,score,calibration_by_outcome
 
 class MLTemporalTests(unittest.TestCase):
     def sample(self):
@@ -38,6 +38,10 @@ class MLTemporalTests(unittest.TestCase):
         self.assertTrue(train and test)
         self.assertLess(max(r[0] for r in train),boundary)
         self.assertGreaterEqual(min(r[0] for r in test),boundary)
+    def test_calibration(self):
+        b=calibration_by_outcome([0,1,2],[[1.,0.,0.],[0.,1.,0.],[0.,0.,1.]])
+        self.assertEqual(len(b["local"]),2)
+        self.assertEqual(b["local"][-1]["observado"],1.0)
     def test_scores(self):
         self.assertAlmostEqual(score([0,1],[[1.,0.,0.],[0.,1.,0.]])["brier"],0.)
         self.assertGreater(score([0],[[0.1,0.6,0.3]])["logloss"],0.)

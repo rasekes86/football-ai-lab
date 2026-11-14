@@ -14,6 +14,7 @@ import logging
 from pathlib import Path
 
 from .core import normalize_team
+from .ensemble import predict as poisson_elo_predict
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG=logging.getLogger(__name__)
@@ -70,7 +71,7 @@ def _features(s:dict,code:str,home:str,away:str,when:date)->list[float]|None:
     fh.extend(1.0 if code==key else 0.0 for key in LEAGUE_KEYS)
     return [float(x) for x in fh]
 
-def build_samples(histories:dict[str,list[dict]])->list[tuple[date,str,list[float],int]]:
+def build_samples(histories:dict[str,list[dict]])->list[tuple]:
     rows=[]
     for code,games in histories.items():
         st=state()
@@ -81,7 +82,7 @@ def build_samples(histories:dict[str,list[dict]])->list[tuple[date,str,list[floa
             for match in todays:
                 f=_features(st,code,match["home"],match["away"],day)
                 if f is not None:
-                    rows.append((day,code,f,outcome(match)))
+                    rows.append((day,code,f,outcome(match),match["home"],match["away"]))
             for match in todays:
                 update(st,match)
     return sorted(rows,key=lambda r:(r[0],r[1]))
@@ -111,6 +112,23 @@ def score(actual:list[int],p:list[list[float]])->dict:
     logloss=sum(-log(max(1e-9,row[y])) for y,row in zip(actual,p))/n
     return {"brier":round(brier,6),"logloss":round(logloss,6)}
 
+def calibration_by_outcome(y:list[int],p:list[list[float]],bins:int=5)->dict:
+    """Diagnóstico de fiabilidad por clases sin afirmar calibración causal."""
+    table={}
+    for k,label in enumerate(("local","empate","visitante")):
+        rows=[]
+        for bin_id in range(bins):
+            subset=[(yt,row[k]) for yt,row in zip(y,p)
+                    if min(bins-1,int(min(1.0,row[k])*bins))==bin_id]
+            if not subset:continue
+            rows.append({"rango":f"{bin_id/bins:.1f}-{(bin_id+1)/bins:.1f}",
+                         "n":len(subset),
+                         "estimado":round(sum(x[1] for x in subset)/len(subset),4),
+                         "observado":round(sum(yt==k for yt,_ in subset)/len(subset),4)})
+        table[label]=rows
+    return table
+
+
 def train_and_evaluate(histories:dict,fixtures:list,now:datetime)->tuple[list[dict],dict]:
     data=build_samples(histories)
     train,valid,boundary=split_by_date(data)
@@ -133,11 +151,30 @@ def train_and_evaluate(histories:dict,fixtures:list,now:datetime)->tuple[list[di
     baseline=[freq for _ in valid]
     real=score(vy,yp)
     reference=score(vy,baseline)
+    # Same held-out fixtures for a fair comparison with the production model.
+    paired=[]
+    for idx,record in enumerate(valid):
+        day,league,features,outcome_num,home,away=record
+        existing=poisson_elo_predict(histories[league],home,away,day)
+        if existing is None:continue
+        paired.append((outcome_num,yp[idx],
+                       [existing[key] for key in ("home","draw","away")],
+                       baseline[idx]))
+    comparison={"muestra":len(paired),
+                "nota":"Solo partidos comunes del mismo holdout posterior al entrenamiento."}
+    if paired:
+        yy=[x[0] for x in paired]
+        comparison.update({"xgboost":score(yy,[x[1] for x in paired]),
+                           "poisson_elo":score(yy,[x[2] for x in paired]),
+                           "frecuencia_historica":score(yy,[x[3] for x in paired])})
+
     report.update({"status":"VALIDADO_RETROSPECTIVAMENTE",
                    "holdout_start":min(r[0] for r in valid).isoformat(),
                    "holdout_end":max(r[0] for r in valid).isoformat(),
                    "xgboost_holdout":real,"frecuencia_historica":reference,
                    "beats_frequency_brier":real["brier"]<reference["brier"],
+                   "comparacion_misma_muestra":comparison,
+                   "calibracion_diagnostica":calibration_by_outcome(vy,yp),
                    "warnings":["Estas métricas no son pruebas prospectivas ni rentabilidad.",
                                "El modelo NO participa en el consenso Poisson/Elo hasta una revisión independiente."]})
     # Training full history only after finishing the held-out validation.
