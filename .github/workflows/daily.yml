@@ -45,5 +45,7 @@ jobs:
           git add output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json
           if ! git diff --cached --quiet; then
             git commit -m 'Actualiza pronósticos y seguimiento [skip ci]'
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
