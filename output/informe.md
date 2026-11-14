@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-14T15:49:19.842424+00:00
+**UTC:** 2026-11-14T15:58:16.399676+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 17
 **Descartados por insuficiencia de datos:** 5
@@ -32,7 +32,7 @@
 - No hay cuotas actuales; las cuotas justas son cálculos matemáticos y no precios de mercado.
 - No hay datos de lesiones, xG de eventos o alineaciones.
 - ESPN no garantiza acceso a su endpoint público.
-- Este modelo aún no ha superado un backtest independiente.
+- El backtest retrospectivo no sustituye una validación prospectiva ni comparaciones con cuotas reales.
 
 ## Backtesting walk-forward (retrospectivo)
 
