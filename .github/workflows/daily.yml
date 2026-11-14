@@ -29,12 +29,12 @@ jobs:
       - name: Ejecutar pruebas
         run: python -m unittest discover -s tests -v
       - name: Ejecutar análisis
-        run: python -m football_ai_lab.pipeline --days 7
+        run: python -m football_ai_lab.pipeline --days 14 --backtest-games 120
       - name: Guardar resultados derivados
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md
+          git add output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json
           if ! git diff --cached --quiet; then
             git commit -m 'Actualiza pronósticos y seguimiento [skip ci]'
             git push
