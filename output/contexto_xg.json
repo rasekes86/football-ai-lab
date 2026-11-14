@@ -1,14 +1,61 @@
 {
-  "calculado_utc": "2026-11-14T19:18:22.346785+00:00",
+  "calculado_utc": "2026-11-14T19:20:59.951053+00:00",
   "estado": "SIN_XG_VERIFICADO",
   "partidos": [],
   "consultas_xg": 5,
   "errores": [
-    "SP1: xG no disponible/identidad no verificable",
-    "E0: xG no disponible/identidad no verificable",
-    "D1: xG no disponible/identidad no verificable",
-    "I1: xG no disponible/identidad no verificable",
-    "F1: xG no disponible/identidad no verificable"
+    "SP1: Match not found on Understat",
+    "E0: Match not found on Understat",
+    "D1: Match not found on Understat",
+    "I1: Match not found on Understat",
+    "F1: Match not found on Understat"
   ],
-  "nota": "Sólo una muestra de partidos finalizados por liga. No representa xG de todos los equipos."
+  "nota": "Sólo una muestra de partidos finalizados por liga. No representa xG de todos los equipos.",
+  "diagnosticos": [
+    {
+      "liga": "SP1",
+      "evento": "401882809",
+      "local": "Sevilla",
+      "visitante": "Alavés",
+      "motivo": "Match not found on Understat",
+      "fuente_declarada": "",
+      "n_equipos_xg": 0
+    },
+    {
+      "liga": "E0",
+      "evento": "401879242",
+      "local": "Everton",
+      "visitante": "Coventry City",
+      "motivo": "Match not found on Understat",
+      "fuente_declarada": "",
+      "n_equipos_xg": 0
+    },
+    {
+      "liga": "D1",
+      "evento": "401884739",
+      "local": "Hamburg SV",
+      "visitante": "Borussia Mönchengladbach",
+      "motivo": "Match not found on Understat",
+      "fuente_declarada": "",
+      "n_equipos_xg": 0
+    },
+    {
+      "liga": "I1",
+      "evento": "401874815",
+      "local": "Venezia",
+      "visitante": "Udinese",
+      "motivo": "Match not found on Understat",
+      "fuente_declarada": "",
+      "n_equipos_xg": 0
+    },
+    {
+      "liga": "F1",
+      "evento": "401876405",
+      "local": "Toulouse",
+      "visitante": "Strasbourg",
+      "motivo": "Match not found on Understat",
+      "fuente_declarada": "",
+      "n_equipos_xg": 0
+    }
+  ]
 }
