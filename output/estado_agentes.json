@@ -1,53 +1,53 @@
 {
-  "utc": "2026-11-14T16:05:59.105567+00:00",
+  "utc": "2026-11-14T16:08:58.291924+00:00",
   "modo": "automatización Python — sin LLM en cada ejecución",
   "agentes": [
     {
       "agente": "datos",
       "estado": "OK",
       "detalle": "2 ligas; 22 encuentros en 14 días",
-      "utc": "2026-11-14T16:05:59.105567+00:00",
+      "utc": "2026-11-14T16:08:58.291924+00:00",
       "registros": 2499
     },
     {
       "agente": "contexto",
       "estado": "NO_CONFIGURADO",
       "detalle": "No se han consultado alineaciones/lesiones; no se inventan.",
-      "utc": "2026-11-14T16:05:59.105567+00:00"
+      "utc": "2026-11-14T16:08:58.291924+00:00"
     },
     {
       "agente": "predictor",
       "estado": "OK",
       "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 5",
-      "utc": "2026-11-14T16:05:59.105567+00:00",
+      "utc": "2026-11-14T16:08:58.291924+00:00",
       "registros": 17
     },
     {
       "agente": "mercado",
-      "estado": "DESACTIVADO",
-      "detalle": "Sin API key/ENABLE_ODDS; sin consumo de créditos",
-      "utc": "2026-11-14T16:05:59.105567+00:00",
-      "registros": 0
+      "estado": "REFERENCIAS",
+      "detalle": "InferSports keyless: 1 coincidencias (máximo tres consultas); The Odds API: sin clave",
+      "utc": "2026-11-14T16:08:58.291924+00:00",
+      "registros": 1
     },
     {
       "agente": "auditor",
       "estado": "OK",
       "detalle": "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",
-      "utc": "2026-11-14T16:05:59.105567+00:00",
+      "utc": "2026-11-14T16:08:58.291924+00:00",
       "registros": 192
     },
     {
       "agente": "evaluador",
       "estado": "OK",
       "detalle": "Seguimiento prospectivo de predicciones guardadas",
-      "utc": "2026-11-14T16:05:59.105567+00:00",
+      "utc": "2026-11-14T16:08:58.291924+00:00",
       "registros": 17
     },
     {
       "agente": "publicador",
       "estado": "OK",
       "detalle": "Archivos de salida escritos en output",
-      "utc": "2026-11-14T16:05:59.105567+00:00"
+      "utc": "2026-11-14T16:08:58.291924+00:00"
     }
   ]
 }
