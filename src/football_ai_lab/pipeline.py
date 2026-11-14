@@ -12,6 +12,7 @@ from .backtest import FIELDS as BACKTEST_FIELDS, run_backtest
 from .odds import MARKET_FIELDS, get_optional_quotes, build_market_rows
 from .infersports import get_infer_fair, merge_infer_prices
 from .agents import AgentLog
+from .context_machina import collect as machina_context
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -197,7 +198,11 @@ def main(argv=None) -> None:
             raise SystemExit("Sin históricos disponibles; no se sobrescribe el último informe válido")
         fixtures=[f for league in LEAGUES for f in load_fixtures(league,now.date(),args.days)]
     book.mark("datos","OK",f"{len(histories)} ligas; {len(fixtures)} encuentros en {args.days} días",count=sum(map(len,histories.values())))
-    book.mark("contexto","NO_CONFIGURADO","No se han consultado alineaciones/lesiones; no se inventan.")
+    context=machina_context(now) if not args.demo else {"estado":"DEMO","timestamp_utc":now.isoformat()}
+    book.mark("contexto",context["estado"],
+              f"Machina Sports: {len(context.get('clasificaciones',{}))} ligas; lesiones sólo Premier si disponibles")
+    target.mkdir(parents=True,exist_ok=True)
+    (target/"contexto_machina.json").write_text(json.dumps(context,ensure_ascii=False,indent=2),encoding="utf-8")
     LOG.info("Partidos encontrados %s; históricos %s",len(fixtures),sum(map(len,histories.values())))
     predicted,rejected=forecast(histories,fixtures,now,"DEMO" if args.demo else "REAL")
     book.mark("predictor","OK",f"Ensemble Poisson 70% / Elo 30%. Descartados: {len(rejected)}",len(predicted))
