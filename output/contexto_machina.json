@@ -1,0 +1,509 @@
+{
+  "timestamp_utc": "2026-11-14T16:49:46.089558+00:00",
+  "fuente": "sports-skills / Machina Sports",
+  "estado": "PARCIAL",
+  "clasificaciones": {
+    "E0": {
+      "temporada": "premier-league-2026",
+      "top10": [
+        {
+          "nombre": "Arsenal",
+          "posicion": 1,
+          "puntos": 27,
+          "jugados": 10
+        },
+        {
+          "nombre": "Brighton & Hove Albion",
+          "posicion": 2,
+          "puntos": 22,
+          "jugados": 10
+        },
+        {
+          "nombre": "Manchester City",
+          "posicion": 3,
+          "puntos": 21,
+          "jugados": 10
+        },
+        {
+          "nombre": "Liverpool",
+          "posicion": 4,
+          "puntos": 18,
+          "jugados": 10
+        },
+        {
+          "nombre": "Chelsea",
+          "posicion": 5,
+          "puntos": 16,
+          "jugados": 10
+        },
+        {
+          "nombre": "Everton",
+          "posicion": 6,
+          "puntos": 16,
+          "jugados": 10
+        },
+        {
+          "nombre": "AFC Bournemouth",
+          "posicion": 7,
+          "puntos": 15,
+          "jugados": 10
+        },
+        {
+          "nombre": "Brentford",
+          "posicion": 8,
+          "puntos": 14,
+          "jugados": 10
+        },
+        {
+          "nombre": "Leeds United",
+          "posicion": 9,
+          "puntos": 14,
+          "jugados": 10
+        },
+        {
+          "nombre": "Aston Villa",
+          "posicion": 10,
+          "puntos": 13,
+          "jugados": 10
+        }
+      ]
+    },
+    "SP1": {
+      "temporada": "la-liga-2026",
+      "top10": [
+        {
+          "nombre": "Barcelona",
+          "posicion": 1,
+          "puntos": 33,
+          "jugados": 12
+        },
+        {
+          "nombre": "Real Madrid",
+          "posicion": 2,
+          "puntos": 30,
+          "jugados": 12
+        },
+        {
+          "nombre": "Atlético Madrid",
+          "posicion": 3,
+          "puntos": 28,
+          "jugados": 12
+        },
+        {
+          "nombre": "Real Betis",
+          "posicion": 4,
+          "puntos": 26,
+          "jugados": 12
+        },
+        {
+          "nombre": "Real Sociedad",
+          "posicion": 5,
+          "puntos": 22,
+          "jugados": 12
+        },
+        {
+          "nombre": "Sevilla",
+          "posicion": 6,
+          "puntos": 18,
+          "jugados": 12
+        },
+        {
+          "nombre": "Athletic Club",
+          "posicion": 7,
+          "puntos": 16,
+          "jugados": 11
+        },
+        {
+          "nombre": "Villarreal",
+          "posicion": 8,
+          "puntos": 15,
+          "jugados": 12
+        },
+        {
+          "nombre": "Deportivo",
+          "posicion": 9,
+          "puntos": 15,
+          "jugados": 12
+        },
+        {
+          "nombre": "Racing Santander",
+          "posicion": 10,
+          "puntos": 14,
+          "jugados": 12
+        }
+      ]
+    },
+    "D1": {
+      "temporada": "bundesliga-2026",
+      "top10": [
+        {
+          "nombre": "Bayern Munich",
+          "posicion": 1,
+          "puntos": 21,
+          "jugados": 9
+        },
+        {
+          "nombre": "Borussia Dortmund",
+          "posicion": 2,
+          "puntos": 21,
+          "jugados": 9
+        },
+        {
+          "nombre": "SC Freiburg",
+          "posicion": 3,
+          "puntos": 19,
+          "jugados": 9
+        },
+        {
+          "nombre": "RB Leipzig",
+          "posicion": 4,
+          "puntos": 18,
+          "jugados": 9
+        },
+        {
+          "nombre": "Bayer Leverkusen",
+          "posicion": 5,
+          "puntos": 16,
+          "jugados": 9
+        },
+        {
+          "nombre": "Werder Bremen",
+          "posicion": 6,
+          "puntos": 15,
+          "jugados": 9
+        },
+        {
+          "nombre": "SV Elversberg",
+          "posicion": 7,
+          "puntos": 13,
+          "jugados": 9
+        },
+        {
+          "nombre": "VfB Stuttgart",
+          "posicion": 8,
+          "puntos": 12,
+          "jugados": 9
+        },
+        {
+          "nombre": "TSG Hoffenheim",
+          "posicion": 9,
+          "puntos": 12,
+          "jugados": 9
+        },
+        {
+          "nombre": "Eintracht Frankfurt",
+          "posicion": 10,
+          "puntos": 12,
+          "jugados": 9
+        }
+      ]
+    },
+    "I1": {
+      "temporada": "serie-a-2026",
+      "top10": [
+        {
+          "nombre": "Lazio",
+          "posicion": 1,
+          "puntos": 29,
+          "jugados": 11
+        },
+        {
+          "nombre": "Internazionale",
+          "posicion": 2,
+          "puntos": 28,
+          "jugados": 11
+        },
+        {
+          "nombre": "AS Roma",
+          "posicion": 3,
+          "puntos": 27,
+          "jugados": 11
+        },
+        {
+          "nombre": "AC Milan",
+          "posicion": 4,
+          "puntos": 24,
+          "jugados": 11
+        },
+        {
+          "nombre": "Como",
+          "posicion": 5,
+          "puntos": 23,
+          "jugados": 11
+        },
+        {
+          "nombre": "Frosinone",
+          "posicion": 6,
+          "puntos": 20,
+          "jugados": 11
+        },
+        {
+          "nombre": "Juventus",
+          "posicion": 7,
+          "puntos": 18,
+          "jugados": 11
+        },
+        {
+          "nombre": "Bologna",
+          "posicion": 8,
+          "puntos": 17,
+          "jugados": 11
+        },
+        {
+          "nombre": "Cagliari",
+          "posicion": 9,
+          "puntos": 16,
+          "jugados": 11
+        },
+        {
+          "nombre": "Napoli",
+          "posicion": 10,
+          "puntos": 15,
+          "jugados": 11
+        }
+      ]
+    },
+    "F1": {
+      "temporada": "ligue-1-2026",
+      "top10": [
+        {
+          "nombre": "Paris Saint-Germain",
+          "posicion": 1,
+          "puntos": 23,
+          "jugados": 10
+        },
+        {
+          "nombre": "Lille",
+          "posicion": 2,
+          "puntos": 21,
+          "jugados": 10
+        },
+        {
+          "nombre": "Paris FC",
+          "posicion": 3,
+          "puntos": 20,
+          "jugados": 10
+        },
+        {
+          "nombre": "Marseille",
+          "posicion": 4,
+          "puntos": 18,
+          "jugados": 10
+        },
+        {
+          "nombre": "Lyon",
+          "posicion": 5,
+          "puntos": 17,
+          "jugados": 10
+        },
+        {
+          "nombre": "Nice",
+          "posicion": 6,
+          "puntos": 17,
+          "jugados": 10
+        },
+        {
+          "nombre": "AS Monaco",
+          "posicion": 7,
+          "puntos": 16,
+          "jugados": 10
+        },
+        {
+          "nombre": "Stade Rennais",
+          "posicion": 8,
+          "puntos": 16,
+          "jugados": 10
+        },
+        {
+          "nombre": "Brest",
+          "posicion": 9,
+          "puntos": 15,
+          "jugados": 10
+        },
+        {
+          "nombre": "Lorient",
+          "posicion": 10,
+          "puntos": 15,
+          "jugados": 10
+        }
+      ]
+    }
+  },
+  "bajas_premier": [
+    {
+      "equipo": "Arsenal",
+      "bajas_reportadas": 7,
+      "estados": {
+        "injured": 1,
+        "unavailable": 5,
+        "suspended": 1
+      }
+    },
+    {
+      "equipo": "Aston Villa",
+      "bajas_reportadas": 11,
+      "estados": {
+        "unavailable": 7,
+        "injured": 2,
+        "doubtful": 2
+      }
+    },
+    {
+      "equipo": "Bournemouth",
+      "bajas_reportadas": 6,
+      "estados": {
+        "unavailable": 2,
+        "injured": 4
+      }
+    },
+    {
+      "equipo": "Brentford",
+      "bajas_reportadas": 6,
+      "estados": {
+        "injured": 4,
+        "doubtful": 1,
+        "suspended": 1
+      }
+    },
+    {
+      "equipo": "Brighton",
+      "bajas_reportadas": 13,
+      "estados": {
+        "unavailable": 5,
+        "injured": 6,
+        "doubtful": 2
+      }
+    },
+    {
+      "equipo": "Chelsea",
+      "bajas_reportadas": 14,
+      "estados": {
+        "doubtful": 2,
+        "unavailable": 7,
+        "injured": 5
+      }
+    },
+    {
+      "equipo": "Coventry City",
+      "bajas_reportadas": 13,
+      "estados": {
+        "doubtful": 2,
+        "unavailable": 7,
+        "injured": 4
+      }
+    },
+    {
+      "equipo": "Crystal Palace",
+      "bajas_reportadas": 12,
+      "estados": {
+        "unavailable": 7,
+        "injured": 3,
+        "doubtful": 1,
+        "suspended": 1
+      }
+    },
+    {
+      "equipo": "Everton",
+      "bajas_reportadas": 3,
+      "estados": {
+        "unavailable": 3
+      }
+    },
+    {
+      "equipo": "Fulham",
+      "bajas_reportadas": 3,
+      "estados": {
+        "unavailable": 2,
+        "injured": 1
+      }
+    },
+    {
+      "equipo": "Hull City",
+      "bajas_reportadas": 16,
+      "estados": {
+        "unavailable": 9,
+        "injured": 5,
+        "doubtful": 2
+      }
+    },
+    {
+      "equipo": "Ipswich Town",
+      "bajas_reportadas": 8,
+      "estados": {
+        "unavailable": 8
+      }
+    },
+    {
+      "equipo": "Leeds",
+      "bajas_reportadas": 8,
+      "estados": {
+        "unavailable": 5,
+        "doubtful": 2,
+        "injured": 1
+      }
+    },
+    {
+      "equipo": "Liverpool",
+      "bajas_reportadas": 12,
+      "estados": {
+        "unavailable": 5,
+        "injured": 5,
+        "doubtful": 2
+      }
+    },
+    {
+      "equipo": "Man City",
+      "bajas_reportadas": 10,
+      "estados": {
+        "doubtful": 2,
+        "unavailable": 7,
+        "injured": 1
+      }
+    },
+    {
+      "equipo": "Man Utd",
+      "bajas_reportadas": 11,
+      "estados": {
+        "injured": 5,
+        "unavailable": 4,
+        "doubtful": 2
+      }
+    },
+    {
+      "equipo": "Newcastle",
+      "bajas_reportadas": 6,
+      "estados": {
+        "injured": 2,
+        "unavailable": 4
+      }
+    },
+    {
+      "equipo": "Nott'm Forest",
+      "bajas_reportadas": 7,
+      "estados": {
+        "unavailable": 5,
+        "injured": 2
+      }
+    },
+    {
+      "equipo": "Spurs",
+      "bajas_reportadas": 15,
+      "estados": {
+        "injured": 5,
+        "unavailable": 9,
+        "doubtful": 1
+      }
+    },
+    {
+      "equipo": "Sunderland",
+      "bajas_reportadas": 10,
+      "estados": {
+        "unavailable": 5,
+        "injured": 3,
+        "doubtful": 2
+      }
+    }
+  ],
+  "errores": [],
+  "advertencia": "No se usan automáticamente para modificar probabilidades."
+}
