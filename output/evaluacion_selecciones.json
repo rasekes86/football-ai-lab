@@ -1,0 +1,22 @@
+{
+  "version": "market-prospective-0.8",
+  "calculado_utc": "2026-11-14T21:22:01.095559+00:00",
+  "registradas": 141,
+  "finalizadas": 0,
+  "pendientes": 141,
+  "sin_resultado": 0,
+  "sin_estadistica": 0,
+  "excluidas": 0,
+  "global": {
+    "muestra": 0,
+    "acierto_pct": null,
+    "brier": null,
+    "logloss": null,
+    "ece": null,
+    "advertencia": "Muestra inexistente"
+  },
+  "por_mercado": {},
+  "por_liga": {},
+  "por_origen": {},
+  "advertencia": "Solo las primeras selecciones guardadas ANTES del partido. Sin usar resultados retrospectivos como pronósticos reales."
+}

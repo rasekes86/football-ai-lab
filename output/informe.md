@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-14T21:19:31.001375+00:00
+**UTC:** 2026-11-14T21:22:01.095559+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 47
 **Descartados por insuficiencia de datos:** 6
@@ -109,6 +109,8 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 | Liverpool – Manchester United | Total goles | Menos de 4,5 goles | 86.9% | 1.15 |
 | Getafe – Atlético Madrid | Hándicap 2 vías (medio gol) | Getafe +1,5 | 86.9% | 1.15 |
 
+Seguimiento real del Top 3: **141** selecciones archivadas antes del partido; **0** resueltas.
+Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **27**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
