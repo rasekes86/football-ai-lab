@@ -1,6 +1,12 @@
 name: Validación XGBoost semanal (sin apuestas)
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/football_ai_lab/ml.py"
+      - "tests/test_ml.py"
+      - ".github/workflows/ml.yml"
   schedule:
     - cron: '43 6 * * 1'
 permissions:

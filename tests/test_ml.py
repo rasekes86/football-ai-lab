@@ -18,8 +18,8 @@ class MLTemporalTests(unittest.TestCase):
         original=self.sample()
         features=build_samples({"E0":original})
         changed=[dict(x) for x in original]
-        changed[-1]["home_goals"]=45
-        changed[-1]["away_goals"]=0
+        changed[-1]["home_goals"]=0
+        changed[-1]["away_goals"]=45
         new=build_samples({"E0":changed})
         self.assertEqual(len(features),len(new))
         self.assertEqual(features[-1][2],new[-1][2])
