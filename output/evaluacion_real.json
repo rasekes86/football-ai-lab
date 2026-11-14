@@ -1,0 +1,21 @@
+{
+  "version": "prospectivo-0.5",
+  "calculado_utc": "2026-11-14T19:10:20.903715+00:00",
+  "proporcion": "1X2 prepartido archivado; Brier dividido entre 3",
+  "registrados": 47,
+  "finalizados_validos": 0,
+  "pendientes": 47,
+  "sin_resultado": 0,
+  "excluidos": 0,
+  "global": {
+    "muestra": 0,
+    "brier_medio": null,
+    "logloss_medio": null,
+    "acierto_favorito_pct": null,
+    "ece": null,
+    "calibracion": []
+  },
+  "por_liga": {},
+  "por_modelo": {},
+  "aviso": "La muestra prospectiva será cero hasta finalizar los encuentros; no confundir con backtest retrospectivo."
+}

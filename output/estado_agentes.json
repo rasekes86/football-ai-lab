@@ -1,53 +1,53 @@
 {
-  "utc": "2026-11-14T19:08:52.986821+00:00",
+  "utc": "2026-11-14T19:10:20.903715+00:00",
   "modo": "automatización Python — sin LLM en cada ejecución",
   "agentes": [
     {
       "agente": "datos",
       "estado": "OK",
       "detalle": "5 ligas; 53 encuentros en 14 días",
-      "utc": "2026-11-14T19:08:52.986821+00:00",
+      "utc": "2026-11-14T19:10:20.903715+00:00",
       "registros": 5756
     },
     {
       "agente": "contexto",
       "estado": "PARCIAL",
       "detalle": "Machina Sports: 5 ligas; lesiones sólo Premier si disponibles",
-      "utc": "2026-11-14T19:08:52.986821+00:00"
+      "utc": "2026-11-14T19:10:20.903715+00:00"
     },
     {
       "agente": "predictor",
       "estado": "OK",
       "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 6",
-      "utc": "2026-11-14T19:08:52.986821+00:00",
+      "utc": "2026-11-14T19:10:20.903715+00:00",
       "registros": 47
     },
     {
       "agente": "mercado",
       "estado": "SIN_REFERENCIAS",
       "detalle": "InferSports keyless: 0 coincidencias (máximo tres consultas); The Odds API: sin clave",
-      "utc": "2026-11-14T19:08:52.986821+00:00",
+      "utc": "2026-11-14T19:10:20.903715+00:00",
       "registros": 0
     },
     {
       "agente": "auditor",
       "estado": "OK",
       "detalle": "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",
-      "utc": "2026-11-14T19:08:52.986821+00:00",
+      "utc": "2026-11-14T19:10:20.903715+00:00",
       "registros": 507
     },
     {
       "agente": "evaluador",
       "estado": "OK",
-      "detalle": "Seguimiento prospectivo de predicciones guardadas",
-      "utc": "2026-11-14T19:08:52.986821+00:00",
+      "detalle": "0 finales verificados, 47 pendientes",
+      "utc": "2026-11-14T19:10:20.903715+00:00",
       "registros": 47
     },
     {
       "agente": "publicador",
       "estado": "OK",
       "detalle": "Archivos de salida escritos en output",
-      "utc": "2026-11-14T19:08:52.986821+00:00"
+      "utc": "2026-11-14T19:10:20.903715+00:00"
     }
   ]
 }
