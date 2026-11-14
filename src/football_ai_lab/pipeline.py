@@ -13,6 +13,7 @@ from .odds import MARKET_FIELDS, get_optional_quotes, build_market_rows
 from .infersports import get_infer_fair, merge_infer_prices
 from .agents import AgentLog
 from .context_machina import collect as machina_context
+from .context_xg import collect as historic_xg
 from .match_context import dossier as match_dossier
 from .prospective import evaluate as prospective_evaluate
 from .prospective import summarize as prospective_summary
@@ -197,6 +198,11 @@ def main(argv=None) -> None:
               f"Machina Sports: {len(context.get('clasificaciones',{}))} ligas; lesiones sólo Premier si disponibles")
     target.mkdir(parents=True,exist_ok=True)
     (target/"contexto_machina.json").write_text(json.dumps(context,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Genuine historical xG sample only; not an estimated metric.
+    xg_snapshot=historic_xg(now) if not args.demo else {"estado":"DEMO","partidos":[],"consultas_xg":0}
+    (target/"contexto_xg.json").write_text(json.dumps(xg_snapshot,ensure_ascii=False,indent=2),encoding="utf-8")
+    LOG.info("xG verificable en %s partidos previos; estado %s",
+             len(xg_snapshot.get("partidos",[])),xg_snapshot["estado"])
     LOG.info("Partidos encontrados %s; históricos %s",len(fixtures),sum(map(len,histories.values())))
     # Informes causales: no alteran el modelo estadístico existente.
     dossiers=[match_dossier(histories.get(f["league"],[]),f) for f in fixtures]

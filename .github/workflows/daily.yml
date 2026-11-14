@@ -41,10 +41,11 @@ jobs:
         env:
           ENABLE_INFERSPORTS: '1'
           ENABLE_MACHINA: '1'
+          ENABLE_HISTORIC_XG: '1'
         run: python -m football_ai_lab.pipeline --days 14 --backtest-games 120
       - name: Guardar resultados derivados
         run: |
-          tar -cf /tmp/football-out.tar output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json output/contexto_machina.json output/contexto_partidos.json output/evaluacion_real.json
+          tar -cf /tmp/football-out.tar output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json output/contexto_machina.json output/contexto_partidos.json output/evaluacion_real.json output/contexto_xg.json
           git fetch origin main
           if ! git diff --quiet HEAD origin/main -- src tests .github pyproject.toml; then
             echo "El código cambió mientras se calculaba; se omite una publicación obsoleta."
@@ -54,7 +55,7 @@ jobs:
           tar -xf /tmp/football-out.tar
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json output/contexto_machina.json output/contexto_partidos.json output/evaluacion_real.json
+          git add output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json output/contexto_machina.json output/contexto_partidos.json output/evaluacion_real.json output/contexto_xg.json
           if ! git diff --cached --quiet; then
             git commit -m 'Actualiza pronósticos y seguimiento [skip ci]'
             git push

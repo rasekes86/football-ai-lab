@@ -6,6 +6,10 @@ on:
     paths:
       - "src/football_ai_lab/ml.py"
       - "tests/test_ml.py"
+      - "tests/test_ml_extra.py"
+      - "src/football_ai_lab/model_research.py"
+      - "tests/test_model_research.py"
+      - "src/football_ai_lab/sources.py"
       - "pyproject.toml"
       - ".github/workflows/ml.yml"
   schedule:
@@ -32,9 +36,11 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Entrenar y validar fuera de muestra temporal
         run: python -m football_ai_lab.ml --days 14
+      - name: Auditar pesos de Poisson y Elo con corte cronológico
+        run: python -m football_ai_lab.model_research --max-games 150
       - name: Publicar métricas y predicciones experimentales
         run: |
-          tar -cf /tmp/football-ml.tar output_ml/validacion.json output_ml/predicciones_ml.csv
+          tar -cf /tmp/football-ml.tar output_ml/validacion.json output_ml/predicciones_ml.csv output_ml/discrepancias.csv output_ml/auditoria_pesos.json
           git fetch origin main
           if ! git diff --quiet HEAD origin/main -- src tests .github pyproject.toml; then
             echo "El código cambió mientras se entrenaba; se omite publicación obsoleta."
@@ -44,7 +50,7 @@ jobs:
           tar -xf /tmp/football-ml.tar
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output_ml/validacion.json output_ml/predicciones_ml.csv
+          git add output_ml/validacion.json output_ml/predicciones_ml.csv output_ml/discrepancias.csv output_ml/auditoria_pesos.json
           if ! git diff --cached --quiet; then
             git commit -m 'Evalúa XGBoost cronológicamente [skip ci]'
             git push
