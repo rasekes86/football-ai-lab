@@ -1,63 +1,60 @@
-# Football AI Lab
+# Football AI Lab — versión 0.4 experimental
 
-Sistema experimental de análisis prepartido de fútbol en la nube. Sin instalar software local, sin apuestas automáticas y sin APIs de pago en el MVP.
+Sistema de análisis de fútbol alojado en GitHub Actions, sin instalaciones locales y sin apuestas automáticas. Todo el proyecto es público. **No garantiza ganancias.**
 
-## ¿Qué hace?
-- Descarga resultados históricos de LaLiga y Premier League de [football-data.co.uk](https://www.football-data.co.uk/).
-- Consulta calendarios públicos mediante el endpoint no oficial de ESPN (puede cambiar o fallar).
-- Predice probabilidades 1X2 y over 2,5 con un modelo Poisson regularizado.
-- Conserva las primeras predicciones realizadas antes de cada encuentro, y las evalúa cuando termina.
-- Genera CSV derivados para Google Sheets y un informe en Markdown.
-- Ejecuta pruebas y pipeline diariamente mediante GitHub Actions.
+## Abrir los resultados
+- [Informe de los cinco campeonatos](output/informe.md): LaLiga, Premier League, Bundesliga, Serie A y Ligue 1; pronósticos para los siguientes 14 días.
+- [Pronósticos del modelo Poisson/Elo](output/predicciones.csv).
+- [Backtest retrospectivo Poisson/Elo](output/backtest_resumen.json) y [detalle](output/backtest.csv).
+- [Contexto Machina Sports](output/contexto_machina.json): clasificaciones y, en Premier, bajas reportadas (NO necesariamente confirmadas).
+- [Comparaciones InferSports](output/mercados.csv): referencias sin margen, NO cuotas reales necesariamente disponibles.
+- [XGBoost experimental y validación](output_ml/validacion.json) y [predicciones ML](output_ml/predicciones_ml.csv).
+- [Estado de siete roles especializados](output/estado_agentes.json).
+- [Panel Google Sheets](https://docs.google.com/spreadsheets/d/1XSDuxhggZ3UCNkJDmakYG8WQdWPcqQtykj49DuIqJsU/edit): fotografía; las pestañas Auto requieren autorizar IMPORTDATA desde navegador de escritorio.
 
-## Uso en la nube
-En **Actions → Analisis futbol diario → Run workflow** puedes ejecutar el análisis manualmente. Automáticamente se intenta ejecutar cada día a las 07:17 UTC; la programación puede sufrir retrasos. Los CSV se publican en la carpeta output; no hay datos de demostración en esos archivos.
+## Cómo preguntar al sistema desde ChatGPT
 
-## Panel Google Sheets
-[Ver panel](https://docs.google.com/spreadsheets/d/1XSDuxhggZ3UCNkJDmakYG8WQdWPcqQtykj49DuIqJsU/edit).
+Gracias a la conexión GitHub, podemos generar solicitudes que GitHub Actions responde en un Issue público.
 
-Para vincular los CSV, Google Sheets puede requerir autorización de la función IMPORTDATA desde navegador de escritorio. Más detalles en docs/CLOUD_SETUP.md.
+- **Prepartido:** título del Issue `[ANALISIS] Athletic Club vs Espanyol | 2026-11-20`.
+- **Instantánea de directo:** título del Issue `[DIRECTO] Manchester City vs Fulham | 2026-11-21`.
 
-## Desarrollo y pruebas
-Python >=3.11, biblioteca estándar, sin clave API.
+El usuario puede pedírmelo en lenguaje natural desde ChatGPT; el flujo utiliza los títulos estandarizados. El análisis en directo consulta el proveedor en ese momento y rechaza instantáneas obsoletas. **No es vigilancia continua**, ni un modelo nuestro de predicción minuto a minuto. Ver [guía de solicitudes](docs/REQUESTS.md) y [Issue de prueba real](https://github.com/rasekes86/football-ai-lab/issues/1).
 
-~~~bash
+## Componentes del sistema
+
+1. **Datos:** resultados CSV de football-data.co.uk + calendario del endpoint público no oficial de ESPN.
+2. **Contexto:** Machina Sports / sports-skills (clasificaciones en cinco ligas, bajas reportadas de Premier).
+3. **Predicción habitual:** Poisson/Elo de ponderación fija 70/30, sin calibración prospectiva.
+4. **ML experimental:** XGBoost con 4.261 partidos de entrenamiento y 1.096 posteriores para evaluación en el primer ensayo. Se recalcula semanalmente. NO se mezcla automáticamente.
+5. **Mercado:** InferSports keyless, hasta tres consultas por ejecución, con control de antigüedad y consistencia. The Odds API permanece desactivada sin clave y activación explícita.
+6. **Auditoría:** walk-forward Brier/log loss y comparación entre modelos sobre una muestra de validación temporal.
+7. **Publicación:** GitHub Actions escribe CSV, JSON y Markdown; seguimiento histórico de predicciones prepartido.
+
+Las skills MIT originales de Machina Sports, Football Match Predictor e InferSports están disponibles en `.agents/skills/` y `.claude/skills/`. La skill de auditoría está adaptada de Claude Quant y conserva atribución en [proveniencia](third_party/UPSTREAM.md). Las skills no equivalen a agentes LLM autónomos ejecutándose diariamente: el cron funciona con Python y evita consumo de tokens de IA por partido.
+
+## Automatización gratis
+- [Daily](.github/workflows/daily.yml): diariamente a las 07:17 UTC y manualmente.
+- [ML](.github/workflows/ml.yml): los lunes a las 06:43 UTC y manualmente.
+- [Requests](.github/workflows/request.yml): cuando el propietario abre un Issue con los prefijos admitidos.
+
+Los programas corren en runners públicos de GitHub; las fuentes gratuitas tienen límites y condiciones, por lo que no se garantiza coste cero fuera de las cuotas incluidas o si se activan servicios de pago. No se capturan cuotas de casas de apuestas para apostar con dinero real.
+
+## Principales límites
+- Datos gratuitos con cobertura desigual, horarios y nombres que pueden cambiar.
+- Ni XGBoost ni Poisson/Elo han probado ventaja sobre precios reales de casas; métricas históricas no demuestran rentabilidad.
+- Machina informa contextos que todavía NO se usan como features predictivas.
+- Directo bajo demanda no sustituye a un monitor de baja latencia para toda una jornada.
+- Google Sheets necesita permitir la importación externa para sincronizar automáticamente.
+- No se ha desplegado un servidor continuo ni LangGraph: los "agentes" del flujo automático son roles deterministas Python.
+
+## Desarrollo
+```sh
 python -m pip install -e .
 python -m unittest discover -s tests -v
-python -m football_ai_lab.pipeline --demo
-python -m football_ai_lab.pipeline --days 7
-~~~
+python -m football_ai_lab.pipeline --days 14 --backtest-games 120
+python -m pip install -e '.[ml]'
+python -m football_ai_lab.ml --days 14
+```
 
-Los datos ficticios se escriben exclusivamente en output_demo, nunca en output.
-
-## Limitaciones
-- Los pronósticos NO equivalen a recomendaciones de apuestas, ni está demostrada ventaja económica.
-- Sin cuotas de casas reales, sin lesiones, alineaciones, xG detallado ni análisis en directo.
-- Fuentes públicas con posibles límites, errores o cambios de formato.
-- Puede haber partidos sin pronóstico por nombres incompatibles o histórico insuficiente.
-- Calibración y backtest walk-forward son el siguiente paso.
-- No redistribuir datos externos sin autorización. Solo se guardan predicciones derivadas.
-
-## Estructura
-- src/football_ai_lab/sources.py: ingesta de datos.
-- src/football_ai_lab/core.py: modelo Poisson.
-- src/football_ai_lab/pipeline.py: generación y seguimiento.
-- tests/: controles básicos de calidad.
-- .github/workflows/daily.yml: ejecución en nube.
-- AGENTS.md / CLAUDE.md: normas para Codex / Claude Code.
-
-
-## Actualización v0.2 — fases 2 a 5
-- Motor de consenso **70 % Poisson + 30 % Elo**; si Elo no dispone de suficientes datos, solo Poisson.
-- Calendario consultado para **14 días**, no solo siete.
-- Backtesting **walk-forward retrospectivo** (hasta 120 encuentros por liga) con Brier y log loss comparados con frecuencia histórica.
-- Mercado: comparación 1X2 opcional mediante The Odds API, desactivada sin THE_ODDS_API_KEY y ENABLE_ODDS=1. No realiza apuestas.
-- Agentes operativos: datos, contexto (sin configurar), predictor, mercado, auditor, evaluador y publicador. Son funciones Python, no LLM autónomos.
-- Nuevos archivos: output/backtest.csv, output/backtest_resumen.json, output/mercados.csv y output/estado_agentes.json.
-- Skills originales de Machina Sports, Football Match Predictor e InferSports disponibles en .agents/skills y .claude/skills. Skill de auditoría adaptada de Claude Quant.
-- **Las skills externas no se ejecutan automáticamente en GitHub Actions** salvo pruebas offline de sus scripts. Consulta third_party/UPSTREAM.md y docs/ARCHITECTURE.md.
-- **Google Sheets** aún requiere autorizar la importación automática desde navegador de escritorio; los datos presentes son una fotografía de los últimos resultados publicados.
-
-
-## InferSports keyless en el pipeline (experimental)
-El módulo src/football_ai_lab/infersports.py consulta **como máximo tres partidos por ejecución**, por medio de los scripts oficiales de InferSports. Rechaza resultados caducados, equipos distintos y probabilidades mal normalizadas. GitHub Actions habilita ENABLE_INFERSPORTS=1; si la fuente gratuita falla, los pronósticos Poisson/Elo siguen disponibles. No se obtienen cuotas ofrecidas de esa referencia, solo probabilidades de mercado sin margen. La comparación es informativa y no implica una apuesta recomendable.
+[Arquitectura y estado exacto de las fases](docs/ARCHITECTURE.md).
