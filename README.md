@@ -57,3 +57,7 @@ Los datos ficticios se escriben exclusivamente en output_demo, nunca en output.
 - Skills originales de Machina Sports, Football Match Predictor e InferSports disponibles en .agents/skills y .claude/skills. Skill de auditoría adaptada de Claude Quant.
 - **Las skills externas no se ejecutan automáticamente en GitHub Actions** salvo pruebas offline de sus scripts. Consulta third_party/UPSTREAM.md y docs/ARCHITECTURE.md.
 - **Google Sheets** aún requiere autorizar la importación automática desde navegador de escritorio; los datos presentes son una fotografía de los últimos resultados publicados.
+
+
+## InferSports keyless en el pipeline (experimental)
+El módulo src/football_ai_lab/infersports.py consulta **como máximo tres partidos por ejecución**, por medio de los scripts oficiales de InferSports. Rechaza resultados caducados, equipos distintos y probabilidades mal normalizadas. GitHub Actions habilita ENABLE_INFERSPORTS=1; si la fuente gratuita falla, los pronósticos Poisson/Elo siguen disponibles. No se obtienen cuotas ofrecidas de esa referencia, solo probabilidades de mercado sin margen. La comparación es informativa y no implica una apuesta recomendable.

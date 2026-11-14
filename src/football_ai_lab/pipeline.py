@@ -10,6 +10,7 @@ from .core import normalize_team
 from .ensemble import predict as ensemble_predict, VERSION as MODEL_VERSION
 from .backtest import FIELDS as BACKTEST_FIELDS, run_backtest
 from .odds import MARKET_FIELDS, get_optional_quotes, build_market_rows
+from .infersports import get_infer_fair, merge_infer_prices
 from .agents import AgentLog
 from .sources import LEAGUES, load_history, load_fixtures
 
@@ -150,10 +151,10 @@ def report(now: datetime, predictions: list[dict], rejected: list[str], tracked:
         if not any(not k.startswith("_") for k in metrics):
             lines.append("| — | 0 | — | — | — | — |")
     if markets is not None:
-        live=sum(x["estado"]=="COMPARACIÓN_SIN_VALIDAR" for x in markets)
+        live=sum(x["estado"] in ("COMPARACIÓN_SIN_VALIDAR","REFERENCIA_INFERSPORTS_SIN_VALIDAR") for x in markets)
         lines.extend(["", "## Cuotas externas", "",
                       f"Mercados comparados: **{live}** / {len(markets)}. Las diferencias NO son apuestas recomendadas.",
-                      "Sin clave ni autorización explícita, The Odds API queda desactivada (0 peticiones)."])
+                      "The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas."])
     if rejected:
         lines.extend(["","## Encuentros descartados",""] + [f"- {x}" for x in rejected[:35]])
     return "\n".join(lines) + "\n"
@@ -203,9 +204,12 @@ def main(argv=None) -> None:
     # El módulo de cuotas no ejecuta peticiones sin consentimiento expreso y clave.
     events={} if args.demo else get_optional_quotes(list(LEAGUES))
     markets=build_market_rows(predicted,events,now)
-    book.mark("mercado","ACTIVO" if events else "DESACTIVADO",
-              "Cuotas verificadas (si se activó API)" if events else "Sin API key/ENABLE_ODDS; sin consumo de créditos",
-              sum(x["estado"]=="COMPARACIÓN_SIN_VALIDAR" for x in markets))
+    infer=get_infer_fair(predicted,now) if not args.demo else {}
+    markets=merge_infer_prices(markets,infer,predicted)
+    found=sum(x["estado"] in ("COMPARACIÓN_SIN_VALIDAR","REFERENCIA_INFERSPORTS_SIN_VALIDAR") for x in markets)
+    book.mark("mercado","REFERENCIAS" if found else "SIN_REFERENCIAS",
+              f"InferSports keyless: {len(infer)} coincidencias (máximo tres consultas); The Odds API: {'activo' if events else 'sin clave'}",
+              found)
     back_rows,metrics=run_backtest(histories,LEAGUES,args.backtest_games) if args.backtest_games else ([],{})
     book.mark("auditor","OK" if back_rows else "SIN_MUESTRA",
               "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",

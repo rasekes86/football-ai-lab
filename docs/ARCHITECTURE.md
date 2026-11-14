@@ -18,3 +18,7 @@ Consulta output/predicciones.csv, output/backtest.csv, output/mercados.csv, outp
 
 ## Riesgos
 El calendario depende de un endpoint público no oficial; los nombres pueden ser distintos entre fuentes. No se publican pronósticos con datos insuficientes. El backtest mide error predictivo y no rentabilidad; ninguna comparación de cuotas sería fiable sin marca temporal y validación.
+
+
+### Extensión InferSports
+Se añadió un adaptador Python para la skill original: consulta fair.sh de forma limitada y solo incorpora referencias de probabilidades si coinciden los equipos, la fecha y la marca temporal, sin clave. No coloca apuestas, no modifica el modelo y no garantiza datos para cada encuentro. La integración de The Odds API sigue siendo opcional, bajo consentimiento explícito mediante secretos.

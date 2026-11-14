@@ -35,6 +35,8 @@ jobs:
           python .agents/skills/predicting-football-matches/scripts/match_model.py --help
           bash .agents/skills/infersports/scripts/today.sh --limit 3
       - name: Ejecutar análisis
+        env:
+          ENABLE_INFERSPORTS: '1'
         run: python -m football_ai_lab.pipeline --days 14 --backtest-games 120
       - name: Guardar resultados derivados
         run: |
