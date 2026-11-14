@@ -6,6 +6,7 @@ on:
     paths:
       - "src/football_ai_lab/ml.py"
       - "tests/test_ml.py"
+      - "pyproject.toml"
       - ".github/workflows/ml.yml"
   schedule:
     - cron: '43 6 * * 1'
