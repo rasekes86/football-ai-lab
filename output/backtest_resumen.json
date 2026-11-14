@@ -1,0 +1,19 @@
+{
+  "LaLiga": {
+    "muestra": 91,
+    "brier_modelo": 0.18997,
+    "logloss_modelo": 0.96349,
+    "brier_base": 0.21841,
+    "logloss_base": 1.08043,
+    "modelo_mejor_brier": true
+  },
+  "Premier League": {
+    "muestra": 101,
+    "brier_modelo": 0.20973,
+    "logloss_modelo": 1.04602,
+    "brier_base": 0.21933,
+    "logloss_base": 1.08615,
+    "modelo_mejor_brier": true
+  },
+  "_aviso": "Evaluación retrospectiva, no prueba prospectiva de rentabilidad. No usa cuotas."
+}
