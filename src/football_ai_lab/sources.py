@@ -9,7 +9,11 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 LOG = logging.getLogger(__name__)
-LEAGUES = {"SP1": ("LaLiga", "esp.1"), "E0": ("Premier League", "eng.1")}
+LEAGUES = {
+    "SP1": ("LaLiga", "esp.1"), "E0": ("Premier League", "eng.1"),
+    "D1": ("Bundesliga", "ger.1"), "I1": ("Serie A", "ita.1"),
+    "F1": ("Ligue 1", "fra.1"),
+}
 HISTORY_URL = "https://www.football-data.co.uk/mmz4281/{season}/{league}.csv"
 ESPN_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard"
 

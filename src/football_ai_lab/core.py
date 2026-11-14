@@ -33,6 +33,43 @@ ALIASES = {
     "fulham fc": "fulham", "brentford fc": "brentford",
     "chelsea fc": "chelsea", "arsenal fc": "arsenal", "liverpool fc": "liverpool",
     "everton fc": "everton",
+
+    # Bundesliga: nombres ESPN frente a football-data.co.uk
+    "borussia dortmund": "dortmund", "bvb dortmund": "dortmund",
+    "bayer leverkusen": "leverkusen", "bayer 04 leverkusen": "leverkusen",
+    "eintracht frankfurt": "ein frankfurt", "eintracht frankfurt am main": "ein frankfurt",
+    "vfb stuttgart": "stuttgart", "sc freiburg": "freiburg",
+    "rb leipzig": "leipzig", "rasenballsport leipzig": "leipzig",
+    "tsg hoffenheim": "hoffenheim", "hoffenheim 1899": "hoffenheim",
+    "mainz 05": "mainz", "fsv mainz": "mainz", "fsv mainz 05": "mainz",
+    "vfl wolfsburg": "wolfsburg", "fc bayern munich": "bayern munich",
+    "borussia monchengladbach": "m gladbach", "borussia m gladbach": "m gladbach",
+    "monchengladbach": "m gladbach",
+    "fc cologne": "fc koln", "1 fc koln": "fc koln", "koln": "fc koln",
+    "fc st pauli": "st pauli", "fc augsburg": "augsburg",
+    "werder bremen": "werder bremen", "sv werder bremen": "werder bremen",
+    # Serie A
+    "inter milan": "inter", "internazionale": "inter", "fc internazionale": "inter",
+    "ac milan": "milan", "as roma": "roma", "ss lazio": "lazio",
+    "ssc napoli": "napoli", "torino fc": "torino", "hellas verona": "verona",
+    "acf fiorentina": "fiorentina", "atalanta bc": "atalanta",
+    "bologna fc": "bologna", "juventus fc": "juventus",
+    "udinese calcio": "udinese", "parma calcio": "parma",
+    "como 1907": "como", "genoa cfc": "genoa",
+    # Ligue 1
+    "paris saint germain": "paris sg", "psg": "paris sg",
+    "olympique marseille": "marseille", "olympique de marseille": "marseille",
+    "olympique lyonnais": "lyon", "olympique lyon": "lyon",
+    "lille osc": "lille", "as monaco": "monaco",
+    "saint etienne": "st etienne", "as saint etienne": "st etienne",
+    "stade rennais": "rennes", "stade rennais fc": "rennes",
+    "rc lens": "lens", "ogc nice": "nice",
+    "montpellier hsc": "montpellier",
+    "rc strasbourg": "strasbourg", "rc strasbourg alsace": "strasbourg",
+    "fc nantes": "nantes", "stade brestois": "brest",
+    "stade de reims": "reims", "toulouse fc": "toulouse",
+    "aj auxerre": "auxerre", "angers sco": "angers",
+
 }
 
 

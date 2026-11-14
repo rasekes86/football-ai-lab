@@ -9,7 +9,9 @@ from .core import normalize_team
 from .sources import http_read
 
 LOG = logging.getLogger(__name__)
-ODDS_API={"SP1":"soccer_spain_la_liga","E0":"soccer_epl"}
+ODDS_API={"SP1":"soccer_spain_la_liga","E0":"soccer_epl",
+          "D1":"soccer_germany_bundesliga","I1":"soccer_italy_serie_a",
+          "F1":"soccer_france_ligue_one"}
 MARKET_FIELDS=["id","fecha_utc","liga","local","visitante","estado","proveedor","casa",
                "fecha_cuota_utc","cuota_local","cuota_empate","cuota_visitante",
                "prob_mercado_local","prob_mercado_empate","prob_mercado_visitante",
@@ -73,7 +75,7 @@ def find_quote(prediction: dict, events: list[dict], now: datetime) -> dict | No
     return None
 
 def build_market_rows(predictions: list[dict], events_by_league: dict, now: datetime) -> list[dict]:
-    codes={"LaLiga":"SP1","Premier League":"E0"}
+    codes={"LaLiga":"SP1","Premier League":"E0","Bundesliga":"D1","Serie A":"I1","Ligue 1":"F1"}
     out=[]
     for p in predictions:
         code=codes.get(p["liga"],"")

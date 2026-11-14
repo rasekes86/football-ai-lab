@@ -15,6 +15,12 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(normalize_team("Atlético de Madrid"),normalize_team("Ath Madrid"))
         self.assertEqual(normalize_team("Manchester City"),normalize_team("Man City"))
         self.assertEqual(normalize_team("Espanol"),normalize_team("Espanyol"))
+        self.assertEqual(normalize_team("Bayer Leverkusen"),normalize_team("Leverkusen"))
+        self.assertEqual(normalize_team("FC Cologne"),normalize_team("FC Koln"))
+        self.assertEqual(normalize_team("Internazionale"),normalize_team("Inter"))
+        self.assertEqual(normalize_team("Paris Saint-Germain"),normalize_team("Paris SG"))
+        self.assertEqual(normalize_team("Olympique Lyonnais"),normalize_team("Lyon"))
+
     def test_csv_parsing(self):
         b=b"Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR\nE0,04/11/2026,Arsenal,Chelsea,2,0,H\nE0,05/11/2026,Arsenal,Chelsea,,,\n"
         self.assertEqual(len(parse_history(b)),1)
