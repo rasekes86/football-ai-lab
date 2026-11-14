@@ -57,7 +57,11 @@ def extract_xg(envelope:dict,fixture:dict)->dict|None:
                 fuente="Understat vía sports-skills",
                 tipo="HISTORICO_FINALIZADO_NO_PRONOSTICO")
 
-def collect(now:datetime,football=None,reader=http_read)->dict:
+def _short_http(url:str)->bytes:
+    # Bound public-provider latency so the daily workflow stays within quota.
+    return http_read(url,timeout=8)
+
+def collect(now:datetime,football=None,reader=_short_http)->dict:
     result={"calculado_utc":now.isoformat(),"estado":"DESACTIVADO","partidos":[],
             "consultas_xg":0,"errores":[],
             "nota":"Sólo una muestra de partidos finalizados por liga. No representa xG de todos los equipos."}
