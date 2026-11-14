@@ -1,9 +1,9 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-14T16:51:04.045099+00:00
+**UTC:** 2026-11-14T19:06:56.570867+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 42
-**Descartados por insuficiencia de datos:** 11
+**Próximos partidos con pronóstico:** 47
+**Descartados por insuficiencia de datos:** 6
 **Históricos evaluados:** 0
 **Brier 1X2 medio:** pendiente
 
@@ -21,15 +21,19 @@
 | Premier League | 2026-11-21T15:00 | AFC Bournemouth - Nottingham Forest | 47.0% | 26.5% | 26.5% |
 | Premier League | 2026-11-21T15:00 | Aston Villa - Sunderland | 53.4% | 25.3% | 21.2% |
 | Premier League | 2026-11-21T15:00 | Chelsea - Leeds United | 49.1% | 25.5% | 25.3% |
+| Premier League | 2026-11-21T15:00 | Coventry City - Crystal Palace | 43.1% | 26.2% | 30.7% |
 | Premier League | 2026-11-21T15:00 | Tottenham Hotspur - Ipswich Town | 42.2% | 24.9% | 32.8% |
 | Premier League | 2026-11-21T17:30 | Newcastle United - Arsenal | 22.6% | 25.7% | 51.7% |
+| Premier League | 2026-11-22T14:00 | Hull City - Brighton & Hove Albion | 35.5% | 27.0% | 37.5% |
 | Premier League | 2026-11-22T16:30 | Liverpool - Manchester United | 44.3% | 26.8% | 29.0% |
 | Premier League | 2026-11-23T20:00 | Brentford - Everton | 45.2% | 27.7% | 27.1% |
 | Premier League | 2026-11-27T20:00 | Nottingham Forest - Chelsea | 30.1% | 27.8% | 42.2% |
 | Bundesliga | 2026-11-20T19:30 | Bayern Munich - FC Cologne | 81.0% | 13.5% | 5.6% |
+| Bundesliga | 2026-11-21T14:30 | 1. FC Union Berlin - RB Leipzig | 35.5% | 23.9% | 40.6% |
 | Bundesliga | 2026-11-21T14:30 | Borussia Mönchengladbach - Borussia Dortmund | 20.1% | 22.0% | 57.9% |
 | Bundesliga | 2026-11-21T14:30 | Eintracht Frankfurt - TSG Hoffenheim | 45.3% | 22.1% | 32.6% |
 | Bundesliga | 2026-11-22T14:30 | FC Augsburg - Mainz | 37.1% | 23.6% | 39.3% |
+| Bundesliga | 2026-11-22T16:30 | Werder Bremen - Hamburg SV | 47.8% | 25.1% | 27.1% |
 | Bundesliga | 2026-11-27T19:30 | Werder Bremen - Borussia Mönchengladbach | 47.4% | 24.6% | 28.0% |
 | Serie A | 2026-11-21T14:00 | Como - Cagliari | 63.4% | 21.5% | 15.2% |
 | Serie A | 2026-11-21T14:00 | Lazio - Lecce | 54.6% | 24.6% | 20.9% |
@@ -42,6 +46,7 @@
 | Serie A | 2026-11-22T19:45 | Atalanta - Internazionale | 26.8% | 24.0% | 49.3% |
 | Serie A | 2026-11-23T19:45 | Monza - Fiorentina | 28.3% | 23.8% | 47.9% |
 | Serie A | 2026-11-27T19:45 | Venezia - Bologna | 23.2% | 24.2% | 52.6% |
+| Ligue 1 | 2026-11-20T19:45 | Troyes - Le Havre AC | 41.3% | 25.2% | 33.5% |
 | Ligue 1 | 2026-11-21T16:15 | Nice - Paris Saint-Germain | 22.0% | 22.7% | 55.3% |
 | Ligue 1 | 2026-11-21T19:45 | AS Monaco - AJ Auxerre | 60.4% | 21.3% | 18.3% |
 | Ligue 1 | 2026-11-21T19:45 | Lens - Toulouse | 49.3% | 24.6% | 26.0% |
@@ -74,7 +79,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **1** / 42. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **0** / 47. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Encuentros descartados
@@ -82,11 +87,6 @@ The Odds API se desactiva sin clave y autorización. InferSports usa el acceso s
 - Alavés - Deportivo: historial insuficiente o nombre desconocido
 - Racing Santander - Real Sociedad: historial insuficiente o nombre desconocido
 - Levante - Racing Santander: historial insuficiente o nombre desconocido
-- Coventry City - Crystal Palace: historial insuficiente o nombre desconocido
-- Hull City - Brighton & Hove Albion: historial insuficiente o nombre desconocido
-- 1. FC Union Berlin - RB Leipzig: historial insuficiente o nombre desconocido
 - Bayer Leverkusen - SC Paderborn 07: historial insuficiente o nombre desconocido
 - SV Elversberg - SC Freiburg: historial insuficiente o nombre desconocido
 - Schalke 04 - VfB Stuttgart: historial insuficiente o nombre desconocido
-- Werder Bremen - Hamburg SV: historial insuficiente o nombre desconocido
-- Troyes - Le Havre AC: historial insuficiente o nombre desconocido

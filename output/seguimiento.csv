@@ -41,3 +41,8 @@ F1|202611221400|paris fc|angers,2026-11-22T14:00:00+00:00,Ligue 1,Paris FC,Anger
 F1|202611221615|lorient|rennes,2026-11-22T16:15:00+00:00,Ligue 1,Lorient,Stade Rennais,0.44530,0.21399,0.34071,,,,,PENDIENTE
 F1|202611221945|marseille|le mans,2026-11-22T19:45:00+00:00,Ligue 1,Marseille,Le Mans,0.64687,0.18945,0.16368,,,,,PENDIENTE
 F1|202611271945|brest|paris fc,2026-11-27T19:45:00+00:00,Ligue 1,Brest,Paris FC,0.41703,0.25878,0.32419,,,,,PENDIENTE
+E0|202611211500|coventry|crystal palace,2026-11-21T15:00:00+00:00,Premier League,Coventry City,Crystal Palace,0.43123,0.26183,0.30694,,,,,PENDIENTE
+E0|202611221400|hull|brighton,2026-11-22T14:00:00+00:00,Premier League,Hull City,Brighton & Hove Albion,0.35505,0.26984,0.37511,,,,,PENDIENTE
+D1|202611211430|union berlin|leipzig,2026-11-21T14:30:00+00:00,Bundesliga,1. FC Union Berlin,RB Leipzig,0.35503,0.23881,0.40616,,,,,PENDIENTE
+D1|202611221630|werder bremen|hamburg,2026-11-22T16:30:00+00:00,Bundesliga,Werder Bremen,Hamburg SV,0.47812,0.25125,0.27063,,,,,PENDIENTE
+F1|202611201945|troyes|le havre,2026-11-20T19:45:00+00:00,Ligue 1,Troyes,Le Havre AC,0.41263,0.25222,0.33515,,,,,PENDIENTE
