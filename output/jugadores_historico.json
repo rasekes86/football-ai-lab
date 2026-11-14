@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-14T21:22:01.095559+00:00",
+  "actualizado_utc": "2026-11-14T21:27:11.893755+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -13,6 +13,8 @@
       "jugador_id": "159135",
       "jugador": "Odisseas Vlachodimos",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -31,6 +33,8 @@
       "jugador_id": "334163",
       "jugador": "Enrique Salas",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -49,6 +53,8 @@
       "jugador_id": "304213",
       "jugador": "Arouna Sangante",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -67,6 +73,8 @@
       "jugador_id": "222037",
       "jugador": "Gabriel Suazo",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -85,6 +93,8 @@
       "jugador_id": "279738",
       "jugador": "Juan Iglesias",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -103,6 +113,8 @@
       "jugador_id": "365821",
       "jugador": "Isaac Romero",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -121,6 +133,8 @@
       "jugador_id": "282289",
       "jugador": "Lucien Agoumé",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -139,6 +153,8 @@
       "jugador_id": "277307",
       "jugador": "Youssouf Fofana",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -157,6 +173,8 @@
       "jugador_id": "323033",
       "jugador": "Lucas Stassin",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -175,6 +193,8 @@
       "jugador_id": "288900",
       "jugador": "Felix Correia",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -193,6 +213,8 @@
       "jugador_id": "259513",
       "jugador": "Rubén Vargas",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -211,6 +233,8 @@
       "jugador_id": "387493",
       "jugador": "Julio Díaz",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -229,6 +253,8 @@
       "jugador_id": "332246",
       "jugador": "Andrés Castrín",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -247,6 +273,8 @@
       "jugador_id": "215386",
       "jugador": "Fábio Cardoso",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -265,6 +293,8 @@
       "jugador_id": "422137",
       "jugador": "Nico Guillén",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -283,6 +313,8 @@
       "jugador_id": "362874",
       "jugador": "Fran González",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -301,6 +333,8 @@
       "jugador_id": "254320",
       "jugador": "Jon Guridi",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -319,6 +353,8 @@
       "jugador_id": "415742",
       "jugador": "Iker Ortín",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -337,6 +373,8 @@
       "jugador_id": "271635",
       "jugador": "Alfonso González",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -355,6 +393,8 @@
       "jugador_id": "258923",
       "jugador": "Giorgi Kochorashvili",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -373,6 +413,8 @@
       "jugador_id": "250508",
       "jugador": "Pepe Carmona",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -391,6 +433,8 @@
       "jugador_id": "254270",
       "jugador": "Chidera Ejuke",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -409,6 +453,8 @@
       "jugador_id": "322993",
       "jugador": "Robbie Ure",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -427,6 +473,8 @@
       "jugador_id": "200910",
       "jugador": "Antonio Sivera",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -445,6 +493,8 @@
       "jugador_id": "149306",
       "jugador": "Ville Koski",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -463,6 +513,8 @@
       "jugador_id": "318084",
       "jugador": "Nicolás Valentini",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -481,6 +533,8 @@
       "jugador_id": "262491",
       "jugador": "Nahuel Tenaglia",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -499,6 +553,8 @@
       "jugador_id": "106326",
       "jugador": "Pablo Ibáñez",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -517,6 +573,8 @@
       "jugador_id": "260256",
       "jugador": "Ander Guevara",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -535,6 +593,8 @@
       "jugador_id": "265997",
       "jugador": "Antonio Blanco",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -553,6 +613,8 @@
       "jugador_id": "382532",
       "jugador": "Youssef Lekhedim",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -571,6 +633,8 @@
       "jugador_id": "374621",
       "jugador": "Ángel Pérez",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -589,6 +653,8 @@
       "jugador_id": "207236",
       "jugador": "Lucas Boyé",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -607,6 +673,8 @@
       "jugador_id": "181757",
       "jugador": "Toni Martínez",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -625,6 +693,8 @@
       "jugador_id": "163068",
       "jugador": "Denis Suárez",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -643,6 +713,8 @@
       "jugador_id": "150374",
       "jugador": "Adrián Rodríguez",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -661,6 +733,8 @@
       "jugador_id": "198832",
       "jugador": "Mariano Díaz",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -679,6 +753,8 @@
       "jugador_id": "415276",
       "jugador": "Xanet Oláiz",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -697,6 +773,8 @@
       "jugador_id": "83494",
       "jugador": "Miguel Rodríguez",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -715,6 +793,8 @@
       "jugador_id": "305608",
       "jugador": "Hugo Novoa",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -733,6 +813,8 @@
       "jugador_id": "379231",
       "jugador": "Aitor Mañas",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -751,6 +833,8 @@
       "jugador_id": "367996",
       "jugador": "Selu Diallo",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -769,6 +853,8 @@
       "jugador_id": "345991",
       "jugador": "Abde Rebbach",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -787,6 +873,8 @@
       "jugador_id": "253754",
       "jugador": "Carlos Protesoni",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -805,6 +893,8 @@
       "jugador_id": "233802",
       "jugador": "Carles Aleñá",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -823,6 +913,8 @@
       "jugador_id": "176312",
       "jugador": "Jonny",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -841,6 +933,8 @@
       "jugador_id": "159443",
       "jugador": "Jordan Pickford",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -859,6 +953,8 @@
       "jugador_id": "286965",
       "jugador": "Jarrad Branthwaite",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -877,6 +973,8 @@
       "jugador_id": "155226",
       "jugador": "James Tarkowski",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -895,6 +993,8 @@
       "jugador_id": "262594",
       "jugador": "Vitaliy Mykolenko",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -913,6 +1013,8 @@
       "jugador_id": "311963",
       "jugador": "Merlin Röhl",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -931,6 +1033,8 @@
       "jugador_id": "252389",
       "jugador": "Kiernan Dewsbury-Hall",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -949,6 +1053,8 @@
       "jugador_id": "276220",
       "jugador": "James Garner",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -967,6 +1073,8 @@
       "jugador_id": "378458",
       "jugador": "Harrison Armstrong",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -985,6 +1093,8 @@
       "jugador_id": "301166",
       "jugador": "Thierno Barry",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1003,6 +1113,8 @@
       "jugador_id": "368864",
       "jugador": "Tyrique George",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1021,6 +1133,8 @@
       "jugador_id": "340640",
       "jugador": "Tyler Dibling",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1039,6 +1153,8 @@
       "jugador_id": "283586",
       "jugador": "Jake O'Brien",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1057,6 +1173,8 @@
       "jugador_id": "367559",
       "jugador": "Braiden Graham",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1075,6 +1193,8 @@
       "jugador_id": "4946",
       "jugador": "Michael Keane",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1093,6 +1213,8 @@
       "jugador_id": "302162",
       "jugador": "Charly Alcaraz",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1111,6 +1233,8 @@
       "jugador_id": "7441",
       "jugador": "Mark Travers",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1129,6 +1253,8 @@
       "jugador_id": "291307",
       "jugador": "Brennan Johnson",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1147,6 +1273,8 @@
       "jugador_id": "178077",
       "jugador": "Christian Nørgaard",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1165,6 +1293,8 @@
       "jugador_id": "214402",
       "jugador": "Ainsley Maitland-Niles",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1183,6 +1313,8 @@
       "jugador_id": "282978",
       "jugador": "Hayden Hackney",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1201,6 +1333,8 @@
       "jugador_id": "307069",
       "jugador": "Carl Rushworth",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1219,6 +1353,8 @@
       "jugador_id": "241093",
       "jugador": "Ethan Pinnock",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1237,6 +1373,8 @@
       "jugador_id": "374220",
       "jugador": "Stephen Mfuni",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1255,6 +1393,8 @@
       "jugador_id": "206172",
       "jugador": "Jay Da Silva",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1273,6 +1413,8 @@
       "jugador_id": "281139",
       "jugador": "Milan van Ewijk",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1291,6 +1433,8 @@
       "jugador_id": "286967",
       "jugador": "Jack Rudoni",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1309,6 +1453,8 @@
       "jugador_id": "256015",
       "jugador": "Victor Torp",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1327,6 +1473,8 @@
       "jugador_id": "387659",
       "jugador": "Caleb Yirenkyi",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -1345,6 +1493,8 @@
       "jugador_id": "194686",
       "jugador": "Taiwo Awoniyi",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1363,6 +1513,8 @@
       "jugador_id": "277383",
       "jugador": "Yann Gboho",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1381,6 +1533,8 @@
       "jugador_id": "302002",
       "jugador": "Tatsuhiro Sakamoto",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1399,6 +1553,8 @@
       "jugador_id": "260168",
       "jugador": "Joel Latibeaudiere",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1417,6 +1573,8 @@
       "jugador_id": "366817",
       "jugador": "Sidiki Cherif",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1435,6 +1593,8 @@
       "jugador_id": "324541",
       "jugador": "Loum Tchaouna",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1453,6 +1613,8 @@
       "jugador_id": "191337",
       "jugador": "Matt Grimes",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1471,6 +1633,8 @@
       "jugador_id": "236912",
       "jugador": "Gustavo Hamer",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1489,6 +1653,8 @@
       "jugador_id": "143007",
       "jugador": "Daniel Bentley",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1507,6 +1673,8 @@
       "jugador_id": "294308",
       "jugador": "Kaine Kesler Hayden",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1525,6 +1693,8 @@
       "jugador_id": "240495",
       "jugador": "Brandon Thomas-Asante",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1543,6 +1713,8 @@
       "jugador_id": "282647",
       "jugador": "Ellis Simms",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1561,6 +1733,8 @@
       "jugador_id": "324289",
       "jugador": "Guillaume Restes",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1579,6 +1753,8 @@
       "jugador_id": "238213",
       "jugador": "Rasmus Nicolaisen",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1597,6 +1773,8 @@
       "jugador_id": "77072",
       "jugador": "Mark McKenzie",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1615,6 +1793,8 @@
       "jugador_id": "385000",
       "jugador": "Christ Tapé",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -1633,6 +1813,8 @@
       "jugador_id": "397384",
       "jugador": "Ismail Diallo",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1651,6 +1833,8 @@
       "jugador_id": "363538",
       "jugador": "Niko Sigur",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -1669,6 +1853,8 @@
       "jugador_id": "271244",
       "jugador": "Cristian Cásseres Jr.",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1687,6 +1873,8 @@
       "jugador_id": "399428",
       "jugador": "Sion Oppong",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1705,6 +1893,8 @@
       "jugador_id": "362777",
       "jugador": "Thomas Jørgensen",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -1723,6 +1913,8 @@
       "jugador_id": "306664",
       "jugador": "Casper Tengstedt",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1741,6 +1933,8 @@
       "jugador_id": "338873",
       "jugador": "Santiago Hidalgo",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1759,6 +1953,8 @@
       "jugador_id": "380400",
       "jugador": "Julián Vignolo",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1777,6 +1973,8 @@
       "jugador_id": "408252",
       "jugador": "Seny Koumbassa",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1795,6 +1993,8 @@
       "jugador_id": "403310",
       "jugador": "Ilyas Azizi",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1813,6 +2013,8 @@
       "jugador_id": "422969",
       "jugador": "Aymen Ammaouch",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1831,6 +2033,8 @@
       "jugador_id": "297121",
       "jugador": "Jacen Russell-Rowe",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1849,6 +2053,8 @@
       "jugador_id": "408255",
       "jugador": "Gaetan Bakhouche",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1867,6 +2073,8 @@
       "jugador_id": "408251",
       "jugador": "Alexis Vossah",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1885,6 +2093,8 @@
       "jugador_id": "371559",
       "jugador": "Mathys Niflore",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1903,6 +2113,8 @@
       "jugador_id": "225565",
       "jugador": "Niklas Schmidt",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1921,6 +2133,8 @@
       "jugador_id": "304256",
       "jugador": "Filip Jørgensen",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1939,6 +2153,8 @@
       "jugador_id": "224074",
       "jugador": "Karim Coulibaly",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -1957,6 +2173,8 @@
       "jugador_id": "305935",
       "jugador": "Ismael Doukoure",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1975,6 +2193,8 @@
       "jugador_id": "377782",
       "jugador": "Oso",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -1993,6 +2213,8 @@
       "jugador_id": "359934",
       "jugador": "Lucas Høgsberg",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2011,6 +2233,8 @@
       "jugador_id": "378491",
       "jugador": "Samir El Mourabet",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2029,6 +2253,8 @@
       "jugador_id": "290230",
       "jugador": "Giovanni Reyna",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2047,6 +2273,8 @@
       "jugador_id": "316560",
       "jugador": "Dário Essugo",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2065,6 +2293,8 @@
       "jugador_id": "362794",
       "jugador": "Conrad Harder",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2083,6 +2313,8 @@
       "jugador_id": "348301",
       "jugador": "Martial Godo",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2101,6 +2333,8 @@
       "jugador_id": "379012",
       "jugador": "Gessime Yassine",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -2119,6 +2353,8 @@
       "jugador_id": "353378",
       "jugador": "Pape Diop",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2137,6 +2373,8 @@
       "jugador_id": "418506",
       "jugador": "Tyrese Noubissie",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2155,6 +2393,8 @@
       "jugador_id": "3117410",
       "jugador": "Jacobo Ortega Conde",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -2173,6 +2413,8 @@
       "jugador_id": "303787",
       "jugador": "Sebastian Nanasi",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2191,6 +2433,8 @@
       "jugador_id": "418786",
       "jugador": "Yoann Becker",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2209,6 +2453,8 @@
       "jugador_id": "368325",
       "jugador": "Diogo Sousa",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2227,6 +2473,8 @@
       "jugador_id": "374221",
       "jugador": "Genesis Antwi",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2245,6 +2493,8 @@
       "jugador_id": "350501",
       "jugador": "Samuel Amo-Ameyaw",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2263,6 +2513,8 @@
       "jugador_id": "371973",
       "jugador": "Milosz Piekutowski",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2281,6 +2533,8 @@
       "jugador_id": "289560",
       "jugador": "Filip Stankovic",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2299,6 +2553,8 @@
       "jugador_id": "186457",
       "jugador": "Matías Moreno",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2317,6 +2573,8 @@
       "jugador_id": "170663",
       "jugador": "Juan Jesus",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2335,6 +2593,8 @@
       "jugador_id": "328300",
       "jugador": "Redouane Halhal",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2353,6 +2613,8 @@
       "jugador_id": "221057",
       "jugador": "Toma Basic",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2371,6 +2633,8 @@
       "jugador_id": "276636",
       "jugador": "Enrique Perez",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2389,6 +2653,8 @@
       "jugador_id": "275015",
       "jugador": "Simon Sohm",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2407,6 +2673,8 @@
       "jugador_id": "260188",
       "jugador": "Pasquale Mazzocchi",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -2425,6 +2693,8 @@
       "jugador_id": "346916",
       "jugador": "Antoine Hainaut",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2443,6 +2713,8 @@
       "jugador_id": "288472",
       "jugador": "Akor Adams",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2461,6 +2733,8 @@
       "jugador_id": "265926",
       "jugador": "John Yeboah",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2479,6 +2753,8 @@
       "jugador_id": "275227",
       "jugador": "Thorir Johann Helgason",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2497,6 +2773,8 @@
       "jugador_id": "366972",
       "jugador": "Matteo Dagasso",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2515,6 +2793,8 @@
       "jugador_id": "361838",
       "jugador": "Lamine Dabo",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2533,6 +2813,8 @@
       "jugador_id": "275983",
       "jugador": "Thierry Correia",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2551,6 +2833,8 @@
       "jugador_id": "263705",
       "jugador": "Gianluca Busio",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2569,6 +2853,8 @@
       "jugador_id": "345713",
       "jugador": "Richie Sagrado",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2587,6 +2873,8 @@
       "jugador_id": "286128",
       "jugador": "Armel Bella-Kotchap",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2605,6 +2893,8 @@
       "jugador_id": "184737",
       "jugador": "Lorenzo Montipò",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2623,6 +2913,8 @@
       "jugador_id": "405754",
       "jugador": "Kornel Lisman",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2641,6 +2933,8 @@
       "jugador_id": "342763",
       "jugador": "Albion Rrahmani",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2659,6 +2953,8 @@
       "jugador_id": "259357",
       "jugador": "Lion Lauberbach",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2677,6 +2973,8 @@
       "jugador_id": "181192",
       "jugador": "Ridgeciano Haps",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2695,6 +2993,8 @@
       "jugador_id": "173282",
       "jugador": "Alfred Duncan",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2713,6 +3013,8 @@
       "jugador_id": "345152",
       "jugador": "Joel Schingtienne",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2731,6 +3033,8 @@
       "jugador_id": "388285",
       "jugador": "Toni Fernández",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2749,6 +3053,8 @@
       "jugador_id": "295476",
       "jugador": "Maduka Okoye",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2767,6 +3073,8 @@
       "jugador_id": "384519",
       "jugador": "Matteo Palma",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 1.0,
@@ -2785,6 +3093,8 @@
       "jugador_id": "261066",
       "jugador": "Oumar Solet",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2803,6 +3113,8 @@
       "jugador_id": "342837",
       "jugador": "James Abankwah",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2821,6 +3133,8 @@
       "jugador_id": "237055",
       "jugador": "Jesper Karlström",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2839,6 +3153,8 @@
       "jugador_id": "276267",
       "jugador": "Jakub Piotrowski",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2857,6 +3173,8 @@
       "jugador_id": "193919",
       "jugador": "Hassane Kamara",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2875,6 +3193,8 @@
       "jugador_id": "221436",
       "jugador": "Mërgim Vojvoda",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2893,6 +3213,8 @@
       "jugador_id": "233654",
       "jugador": "Keinan Davis",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2911,6 +3233,8 @@
       "jugador_id": "270817",
       "jugador": "Jurgen Ekkelenkamp",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2929,6 +3253,8 @@
       "jugador_id": "251388",
       "jugador": "Nicolò Zaniolo",
       "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2947,6 +3273,8 @@
       "jugador_id": "360207",
       "jugador": "Juan David Arizala",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2965,6 +3293,8 @@
       "jugador_id": "319437",
       "jugador": "Nicolò Bertola",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -2983,6 +3313,8 @@
       "jugador_id": "93816",
       "jugador": "Daniele Padelli",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3001,6 +3333,8 @@
       "jugador_id": "258933",
       "jugador": "Giorgi Chakvetadze",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3019,6 +3353,8 @@
       "jugador_id": "258424",
       "jugador": "Bartosz Mrozek",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3037,6 +3373,8 @@
       "jugador_id": "263508",
       "jugador": "Bayo Youssouf",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3055,6 +3393,8 @@
       "jugador_id": "362376",
       "jugador": "Unai Gómez",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3073,6 +3413,8 @@
       "jugador_id": "242601",
       "jugador": "Enzo Ebosse",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3091,6 +3433,8 @@
       "jugador_id": "150081",
       "jugador": "Christian Kabasele",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3109,6 +3453,8 @@
       "jugador_id": "306579",
       "jugador": "Oier Zarraga",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3127,6 +3473,8 @@
       "jugador_id": "347009",
       "jugador": "Lennon Miller",
       "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3145,6 +3493,8 @@
       "jugador_id": "219725",
       "jugador": "Sandi Lovric",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3163,6 +3513,8 @@
       "jugador_id": "408146",
       "jugador": "Giulio Vinciati",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -3181,6 +3533,8 @@
       "jugador_id": "252323",
       "jugador": "Lazar Jovanovic",
       "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
