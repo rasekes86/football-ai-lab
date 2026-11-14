@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-14T15:28:15.909561+00:00
+**UTC:** 2026-11-14T15:28:53.168884+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 0
 **Descartados por insuficiencia de datos:** 1
