@@ -1,6 +1,6 @@
 {
   "version": "xgboost-temporal-0.3",
-  "as_of_utc": "2026-11-14T16:45:52.342715+00:00",
+  "as_of_utc": "2026-11-14T16:52:46.113950+00:00",
   "status": "VALIDADO_RETROSPECTIVAMENTE",
   "historic_rows": 5357,
   "train_rows": 4261,
@@ -21,5 +21,101 @@
     "logloss": 1.067663
   },
   "beats_frequency_brier": true,
+  "comparacion_misma_muestra": {
+    "muestra": 1050,
+    "nota": "Solo partidos comunes del mismo holdout posterior al entrenamiento.",
+    "xgboost": {
+      "brier": 0.203655,
+      "logloss": 1.02227
+    },
+    "poisson_elo": {
+      "brier": 0.197894,
+      "logloss": 0.995803
+    },
+    "frecuencia_historica": {
+      "brier": 0.215224,
+      "logloss": 1.06732
+    }
+  },
+  "calibracion_diagnostica": {
+    "local": [
+      {
+        "rango": "0.0-0.2",
+        "n": 71,
+        "estimado": 0.1682,
+        "observado": 0.1972
+      },
+      {
+        "rango": "0.2-0.4",
+        "n": 440,
+        "estimado": 0.3067,
+        "observado": 0.3477
+      },
+      {
+        "rango": "0.4-0.6",
+        "n": 394,
+        "estimado": 0.4882,
+        "observado": 0.4746
+      },
+      {
+        "rango": "0.6-0.8",
+        "n": 183,
+        "estimado": 0.6786,
+        "observado": 0.6831
+      },
+      {
+        "rango": "0.8-1.0",
+        "n": 8,
+        "estimado": 0.8184,
+        "observado": 1.0
+      }
+    ],
+    "empate": [
+      {
+        "rango": "0.0-0.2",
+        "n": 138,
+        "estimado": 0.1672,
+        "observado": 0.0942
+      },
+      {
+        "rango": "0.2-0.4",
+        "n": 953,
+        "estimado": 0.279,
+        "observado": 0.2623
+      },
+      {
+        "rango": "0.4-0.6",
+        "n": 5,
+        "estimado": 0.4163,
+        "observado": 0.0
+      }
+    ],
+    "visitante": [
+      {
+        "rango": "0.0-0.2",
+        "n": 315,
+        "estimado": 0.1396,
+        "observado": 0.1841
+      },
+      {
+        "rango": "0.2-0.4",
+        "n": 488,
+        "estimado": 0.2965,
+        "observado": 0.2992
+      },
+      {
+        "rango": "0.4-0.6",
+        "n": 264,
+        "estimado": 0.4841,
+        "observado": 0.4621
+      },
+      {
+        "rango": "0.6-0.8",
+        "n": 29,
+        "estimado": 0.6383,
+        "observado": 0.6897
+      }
+    ]
+  },
   "predictions": 43
 }
