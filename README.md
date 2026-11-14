@@ -1,4 +1,4 @@
-# Football AI Lab — versión 0.4 experimental
+# Football AI Lab — versión 0.8 experimental
 
 Sistema de análisis de fútbol alojado en GitHub Actions, sin instalaciones locales y sin apuestas automáticas. Todo el proyecto es público. **No garantiza ganancias.**
 
@@ -88,3 +88,14 @@ Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 has
 - **Solo** las líneas que superen todos los filtros pueden competir con los mercados de goles en el Top 3, como **aptas retrospectivamente y pendientes de confirmación prospectiva**.
 - Si ninguna línea supera la auditoría, no se incorpora ninguna al ranking. No se inventan tiros de jugadores ni cuotas reales.
 - Las solicitudes desde ChatGPT reutilizan la auditoría publicada únicamente si tiene menos de ocho días.
+
+
+## Fase v0.8 — seguimiento por mercado, dossier completo y jugadores
+- [Informe unificado de partidos (Markdown)](output/informes_partidos.md) y [datos estructurados](output/informes_partidos.json). Incluye pronóstico, forma, tiros/córners, descanso, historial, Top 3, XGBoost cuando sea reciente y explícitas ausencias de datos.
+- [Selecciones originales congeladas](output/historico_selecciones.csv): primera publicación prepartido, no se sustituye retrospectivamente por un Top 3 posterior.
+- [Resultados y liquidación de cada mercado](output/seguimiento_selecciones.csv) y [métricas prospectivas](output/evaluacion_selecciones.json): por liga, mercado y origen del modelo; sin penalizar estadísticas ausentes.
+- [Muestra de jugadores ya disputados](output/jugadores_historico.json): consulta acotada de ESPN summary (público no oficial) y registro de titularidad y estadísticas existentes, nunca supuestas. **No predice todavía tiros/goles individuales.** Esta fuente es experimental, de cobertura variable y no autoriza uso comercial.
+- [Telegram opcional](docs/TELEGRAM.md): el módulo envía un resumen en ejecuciones manuales o programadas solo si se configuran en GitHub los dos secretos; no requiere pagos. Actualmente sin activar en la cuenta.
+- [Guía de la nueva versión](docs/AVANCES_V08.md): capacidades reales, datos ausentes y requisitos pendientes.
+
+**No se ha activado ninguna API de pago, no se han conectado casas de apuestas y no hay apuestas automáticas.**
