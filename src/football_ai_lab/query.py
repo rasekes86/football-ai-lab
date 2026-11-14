@@ -82,14 +82,26 @@ def reply(title,now=None,fixtures=None,histories=None):
         f'Goles estimados: {p["goles_esperados_local"]} y {p["goles_esperados_visitante"]}.',
     ]
     try:
-        selected=select_markets(p,hist.get(f["league"],[]),[],now)
+        # Use the last published evidence only if its timestamp is fresh.
+        validation=None
+        vpath=Path("output/validacion_conteos.json")
+        if vpath.is_file():
+            try:
+                validation=json.loads(vpath.read_text(encoding="utf-8"))
+            except (ValueError,OSError):
+                validation=None
+        selected=select_markets(p,hist.get(f["league"],[]),[],now,validation=validation)
         lines.extend(["","### Top 3 mercados por probabilidad (no apuestas recomendadas)"])
         for i,item in enumerate(selected["top_probabilidad"],1):
             lines.append(f'{i}. **{item["seleccion"]}** ({item["mercado"]}): '
                          f'{item["probabilidad"]*100:.1f}% · cuota justa {item["cuota_justa"]:.2f}. '
                          f'Fuente: {item["origen"]}.')
-        if selected["exploratorios"]:
-            lines.append("Córners, tiros y tarjetas: estimaciones exploratorias NO validadas; excluidas del Top 3.")
+        if selected["mercados_conteos_habilitados_retro"]:
+            lines.append("Los mercados de conteos incluidos superaron criterios retrospectivos por liga y línea, "
+                         "pero aún carecen de validación prospectiva.")
+        elif selected["exploratorios"]:
+            lines.append("Córners, tiros y tarjetas siguen fuera del Top 3: no han superado "
+                         "la auditoría temporal aplicable.")
         lines.append("No se identifican apuestas de valor sin cuotas ofrecidas, recientes y verificadas.")
     except (ValueError,TypeError,KeyError):
         lines.append("Selector no disponible por falta de datos fiables.")

@@ -80,3 +80,11 @@ Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 has
 - **Valor esperado exploratorio**: únicamente si existen cuotas 1X2 realmente ofrecidas y recientes de The Odds API con activación explícita; no inventa cuotas para goles ni dobles oportunidades. La fuente InferSports solo aporta referencias fair (no ofrecidas).
 - Archivos [selecciones.json](output/selecciones.json), [selecciones.csv](output/selecciones.csv); también aparece un resumen en el [informe diario](output/informe.md) y al analizar un partido mediante GitHub Issues.
 - Son estimaciones experimentales para investigación; no constituyen apuestas recomendadas ni tienen una ventaja financiera demostrada.
+
+
+## Validación temporal de córners, tiros y tarjetas (v0.7)
+- Nuevo auditor [`output/validacion_conteos.json`](output/validacion_conteos.json): prueba cada mercado y línea contra la frecuencia histórica conocida **antes** del partido en cinco ligas.
+- Exige al menos 85 observaciones válidas, cobertura mínima 65 %, mejora mínima de Brier de 0,003, mejora mínima de log loss de 0,005 y error de calibración ECE ≤0,09.
+- **Solo** las líneas que superen todos los filtros pueden competir con los mercados de goles en el Top 3, como **aptas retrospectivamente y pendientes de confirmación prospectiva**.
+- Si ninguna línea supera la auditoría, no se incorpora ninguna al ranking. No se inventan tiros de jugadores ni cuotas reales.
+- Las solicitudes desde ChatGPT reutilizan la auditoría publicada únicamente si tiene menos de ocho días.

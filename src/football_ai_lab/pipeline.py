@@ -20,6 +20,7 @@ from .prospective import summarize as prospective_summary
 from .prospective import TRACK_FIELDS as PROSPECTIVE_FIELDS
 from .selector import select_match as select_markets, global_top as global_market_top
 from .selector import flat_rows as market_flat_rows, FIELDS as SELECTOR_FIELDS
+from .count_validation import validate as validate_counts, VERSION as COUNT_VALIDATION_VERSION
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -222,6 +223,12 @@ def main(argv=None) -> None:
     markets=build_market_rows(predicted,events,now)
     infer=get_infer_fair(predicted,now) if not args.demo else {}
     markets=merge_infer_prices(markets,infer,predicted)
+    # Walk-forward on prior matches: never promote count markets without a pass.
+    count_validation=validate_counts(histories,now,max_games=180)
+    (target/"validacion_conteos.json").write_text(
+        json.dumps(count_validation,ensure_ascii=False,indent=2),encoding="utf-8")
+    LOG.info("Líneas de conteos aprobadas retrospectivamente: %d",
+             len(count_validation["aprobados"]))
     # Picks are experimental and informational; no betting execution.
     league_lookup={label[0]:code for code,label in LEAGUES.items()}
     selections=[]
@@ -229,18 +236,20 @@ def main(argv=None) -> None:
         code=league_lookup.get(prediction["liga"])
         if code is None:continue
         try:
-            selections.append(select_markets(prediction,histories.get(code,[]),markets,now))
+            selections.append(select_markets(prediction,histories.get(code,[]),markets,now,
+                                             validation=count_validation))
         except (ValueError,TypeError,KeyError) as exc:
             LOG.warning("Selector descartó %s: %s",prediction["id"],type(exc).__name__)
     top_jornada=global_market_top(selections)
     (target/"selecciones.json").write_text(
-        json.dumps({"version":"market-selector-0.6","calculado_utc":now.isoformat(),
+        json.dumps({"version":"market-selector-0.7","calculado_utc":now.isoformat(),
+                    "lineas_conteos_aprobadas_retro":count_validation["aprobados"],
                     "top_3_jornada":top_jornada,"partidos":selections,
                     "nota":"Ranking por probabilidad, con filtro de cuota justa mínima y una familia por partido. No son recomendaciones de apuestas."},
                     ensure_ascii=False,indent=2),encoding="utf-8")
     write_csv(target/"selecciones.csv",SELECTOR_FIELDS,market_flat_rows(selections))
     book.mark("selector","OK",
-              f'{len(selections)} partidos, {len(top_jornada)} selecciones generales; mercados de jugador no habilitados',
+              f'{len(selections)} partidos; {len(count_validation["aprobados"])} líneas de conteos aptas retrospectivamente; jugadores no habilitados',
               len(market_flat_rows(selections)))
     found=sum(x["estado"] in ("COMPARACIÓN_SIN_VALIDAR","REFERENCIA_INFERSPORTS_SIN_VALIDAR") for x in markets)
     book.mark("mercado","REFERENCIAS" if found else "SIN_REFERENCIAS",
@@ -275,9 +284,13 @@ def main(argv=None) -> None:
                               f'{entry["probabilidad"]*100:.1f}% | {entry["cuota_justa"]:.2f} |')
     if not top_jornada:
         selector_lines.append("| — | — | Sin selecciones elegibles | — | — |")
-    selector_lines.extend(["","Las cuotas justas son valores matemáticos, no precios ofrecidos.",
-                           "Córners, tiros y tarjetas están en exploración; jugadores no disponibles.",
-                           "El ranking de valor se deja vacío sin cuotas reales verificadas por mercado."])
+    selector_lines.extend(["",
+                           f'Líneas de córners/tiros/tarjetas aprobadas en backtest: **{len(count_validation["aprobados"])}**. '
+                           "Solo las aprobadas retrospectivamente pueden competir por el Top 3; "
+                           "no tienen validación prospectiva.",
+                           "Cuotas justas = valores matemáticos, NO precios ofrecidos.",
+                           "Tiros y goleadores individuales no disponibles.",
+                           "Ranking de valor vacío sin cuotas reales verificadas por mercado."])
     (target/"informe.md").write_text(report(now,predicted,rejected,tracked,
         "DEMO" if args.demo else "REAL",metrics,markets,prospective)
         +"\n".join(selector_lines)+"\n",encoding="utf-8")
