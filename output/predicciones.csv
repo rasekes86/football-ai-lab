@@ -1,2 +1,2 @@
 id,fecha_utc,liga,local,visitante,prob_local,prob_empate,prob_visitante,prob_mas_2_5,goles_esperados_local,goles_esperados_visitante,cuota_justa_local,cuota_justa_empate,cuota_justa_visitante,fecha_analisis_utc,modelo,origen_estadisticas,origen_calendario,tipo
-SP1|202611202000|ath bilbao|espanyol,2026-11-20T20:00:00+00:00,LaLiga,Athletic Club,Espanyol,0.42744,0.27379,0.29876,0.42938,1.331,1.065,2.34,3.65,3.35,2026-11-14T15:30:50.342830+00:00,poisson-split-0.1.0,football-data.co.uk,ESPN (no oficial),REAL
+SP1|202611202000|ath bilbao|espanyol,2026-11-20T20:00:00+00:00,LaLiga,Athletic Club,Espanyol,0.42744,0.27379,0.29876,0.42938,1.331,1.065,2.34,3.65,3.35,2026-11-14T15:46:41.871629+00:00,poisson-split-0.1.0,football-data.co.uk,ESPN (no oficial),REAL
