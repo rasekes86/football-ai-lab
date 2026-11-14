@@ -13,6 +13,7 @@ from .sources import LEAGUES,load_history,parse_espn_events,http_read,ESPN_URL
 from .pipeline import forecast
 from .infersports import get_infer_fair
 from .live import live_reply
+from .selector import select_match as select_markets
 
 MADRID=ZoneInfo("Europe/Madrid")
 PATTERN=re.compile(r"^\[ANALISIS\]\s*(.+?)\s+vs\.?\s+(.+?)\s*\|\s*(\d{4}-\d{2}-\d{2})\s*$",re.I)
@@ -79,6 +80,18 @@ def reply(title,now=None,fixtures=None,histories=None):
         f'Más de 2,5 goles: {float(p["prob_mas_2_5"])*100:.1f}%.',
         f'Goles estimados: {p["goles_esperados_local"]} y {p["goles_esperados_visitante"]}.',
     ]
+    try:
+        selected=select_markets(p,hist.get(f["league"],[]),[],now)
+        lines.extend(["","### Top 3 mercados por probabilidad (no apuestas recomendadas)"])
+        for i,item in enumerate(selected["top_probabilidad"],1):
+            lines.append(f'{i}. **{item["seleccion"]}** ({item["mercado"]}): '
+                         f'{item["probabilidad"]*100:.1f}% · cuota justa {item["cuota_justa"]:.2f}. '
+                         f'Fuente: {item["origen"]}.')
+        if selected["exploratorios"]:
+            lines.append("Córners, tiros y tarjetas: estimaciones exploratorias NO validadas; excluidas del Top 3.")
+        lines.append("No se identifican apuestas de valor sin cuotas ofrecidas, recientes y verificadas.")
+    except (ValueError,TypeError,KeyError):
+        lines.append("Selector no disponible por falta de datos fiables.")
     infer=get_infer_fair([p],now).get(p["id"])
     if infer:
         q=infer["fair"]

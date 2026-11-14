@@ -18,6 +18,8 @@ from .match_context import dossier as match_dossier
 from .prospective import evaluate as prospective_evaluate
 from .prospective import summarize as prospective_summary
 from .prospective import TRACK_FIELDS as PROSPECTIVE_FIELDS
+from .selector import select_match as select_markets, global_top as global_market_top
+from .selector import flat_rows as market_flat_rows, FIELDS as SELECTOR_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -220,6 +222,26 @@ def main(argv=None) -> None:
     markets=build_market_rows(predicted,events,now)
     infer=get_infer_fair(predicted,now) if not args.demo else {}
     markets=merge_infer_prices(markets,infer,predicted)
+    # Picks are experimental and informational; no betting execution.
+    league_lookup={label[0]:code for code,label in LEAGUES.items()}
+    selections=[]
+    for prediction in predicted:
+        code=league_lookup.get(prediction["liga"])
+        if code is None:continue
+        try:
+            selections.append(select_markets(prediction,histories.get(code,[]),markets,now))
+        except (ValueError,TypeError,KeyError) as exc:
+            LOG.warning("Selector descartó %s: %s",prediction["id"],type(exc).__name__)
+    top_jornada=global_market_top(selections)
+    (target/"selecciones.json").write_text(
+        json.dumps({"version":"market-selector-0.6","calculado_utc":now.isoformat(),
+                    "top_3_jornada":top_jornada,"partidos":selections,
+                    "nota":"Ranking por probabilidad, con filtro de cuota justa mínima y una familia por partido. No son recomendaciones de apuestas."},
+                    ensure_ascii=False,indent=2),encoding="utf-8")
+    write_csv(target/"selecciones.csv",SELECTOR_FIELDS,market_flat_rows(selections))
+    book.mark("selector","OK",
+              f'{len(selections)} partidos, {len(top_jornada)} selecciones generales; mercados de jugador no habilitados',
+              len(market_flat_rows(selections)))
     found=sum(x["estado"] in ("COMPARACIÓN_SIN_VALIDAR","REFERENCIA_INFERSPORTS_SIN_VALIDAR") for x in markets)
     book.mark("mercado","REFERENCIAS" if found else "SIN_REFERENCIAS",
               f"InferSports keyless: {len(infer)} coincidencias (máximo tres consultas); The Odds API: {'activo' if events else 'sin clave'}",
@@ -241,8 +263,24 @@ def main(argv=None) -> None:
     book.mark("evaluador","OK",
               f'{prospective["finalizados_validos"]} finales verificados, {prospective["pendientes"]} pendientes',
               len(tracked))
+    # Añadimos un resumen de las selecciones sin afirmar certeza de éxito.
+    selector_lines=["","## Selector de mercados · probabilidades experimentales","",
+                    "Top 3 de la próxima jornada: una selección por partido; "
+                    "no hay correlación ni rentabilidad garantizada.","",
+                    "| Partido | Mercado | Selección | Prob. modelo | Cuota justa |",
+                    "|---|---|---|---:|---:|"]
+    for entry in top_jornada:
+        selector_lines.append(f'| {entry["local"]} – {entry["visitante"]} | '
+                              f'{entry["mercado"]} | {entry["seleccion"]} | '
+                              f'{entry["probabilidad"]*100:.1f}% | {entry["cuota_justa"]:.2f} |')
+    if not top_jornada:
+        selector_lines.append("| — | — | Sin selecciones elegibles | — | — |")
+    selector_lines.extend(["","Las cuotas justas son valores matemáticos, no precios ofrecidos.",
+                           "Córners, tiros y tarjetas están en exploración; jugadores no disponibles.",
+                           "El ranking de valor se deja vacío sin cuotas reales verificadas por mercado."])
     (target/"informe.md").write_text(report(now,predicted,rejected,tracked,
-        "DEMO" if args.demo else "REAL",metrics,markets,prospective),encoding="utf-8")
+        "DEMO" if args.demo else "REAL",metrics,markets,prospective)
+        +"\n".join(selector_lines)+"\n",encoding="utf-8")
     book.mark("publicador","OK",f"Archivos de salida escritos en {target}")
     (target/"estado_agentes.json").write_text(json.dumps(book.export(),ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"Pronósticos: {len(predicted)}, descartados: {len(rejected)}, backtest: {len(back_rows)}")
