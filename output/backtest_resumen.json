@@ -15,5 +15,29 @@
     "logloss_base": 1.08615,
     "modelo_mejor_brier": true
   },
+  "Bundesliga": {
+    "muestra": 94,
+    "brier_modelo": 0.18814,
+    "logloss_modelo": 0.95179,
+    "brier_base": 0.21199,
+    "logloss_base": 1.05295,
+    "modelo_mejor_brier": true
+  },
+  "Serie A": {
+    "muestra": 120,
+    "brier_modelo": 0.17992,
+    "logloss_modelo": 0.92392,
+    "brier_base": 0.21206,
+    "logloss_base": 1.05011,
+    "modelo_mejor_brier": true
+  },
+  "Ligue 1": {
+    "muestra": 101,
+    "brier_modelo": 0.2046,
+    "logloss_modelo": 1.02129,
+    "brier_base": 0.21327,
+    "logloss_base": 1.05885,
+    "modelo_mejor_brier": true
+  },
   "_aviso": "Evaluación retrospectiva, no prueba prospectiva de rentabilidad. No usa cuotas."
 }

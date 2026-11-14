@@ -16,3 +16,28 @@ E0|202611211730|newcastle|arsenal,2026-11-21T17:30:00+00:00,Premier League,Newca
 E0|202611221630|liverpool|man united,2026-11-22T16:30:00+00:00,Premier League,Liverpool,Manchester United,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 E0|202611232000|brentford|everton,2026-11-23T20:00:00+00:00,Premier League,Brentford,Everton,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 E0|202611272000|nott m forest|chelsea,2026-11-27T20:00:00+00:00,Premier League,Nottingham Forest,Chelsea,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+D1|202611201930|bayern munich|fc koln,2026-11-20T19:30:00+00:00,Bundesliga,Bayern Munich,FC Cologne,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+D1|202611211430|m gladbach|dortmund,2026-11-21T14:30:00+00:00,Bundesliga,Borussia Mönchengladbach,Borussia Dortmund,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+D1|202611211430|ein frankfurt|hoffenheim,2026-11-21T14:30:00+00:00,Bundesliga,Eintracht Frankfurt,TSG Hoffenheim,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+D1|202611221430|augsburg|mainz,2026-11-22T14:30:00+00:00,Bundesliga,FC Augsburg,Mainz,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+D1|202611271930|werder bremen|m gladbach,2026-11-27T19:30:00+00:00,Bundesliga,Werder Bremen,Borussia Mönchengladbach,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611211400|como|cagliari,2026-11-21T14:00:00+00:00,Serie A,Como,Cagliari,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611211400|lazio|lecce,2026-11-21T14:00:00+00:00,Serie A,Lazio,Lecce,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611211700|parma|roma,2026-11-21T17:00:00+00:00,Serie A,Parma,AS Roma,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611211945|napoli|torino,2026-11-21T19:45:00+00:00,Serie A,Napoli,Torino,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611221130|juventus|venezia,2026-11-22T11:30:00+00:00,Serie A,Juventus,Venezia,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611221400|bologna|udinese,2026-11-22T14:00:00+00:00,Serie A,Bologna,Udinese,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611221400|sassuolo|genoa,2026-11-22T14:00:00+00:00,Serie A,Sassuolo,Genoa,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611221700|milan|frosinone,2026-11-22T17:00:00+00:00,Serie A,AC Milan,Frosinone,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611221945|atalanta|inter,2026-11-22T19:45:00+00:00,Serie A,Atalanta,Internazionale,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611231945|monza|fiorentina,2026-11-23T19:45:00+00:00,Serie A,Monza,Fiorentina,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611271945|venezia|bologna,2026-11-27T19:45:00+00:00,Serie A,Venezia,Bologna,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611211615|nice|paris sg,2026-11-21T16:15:00+00:00,Ligue 1,Nice,Paris Saint-Germain,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611211945|monaco|auxerre,2026-11-21T19:45:00+00:00,Ligue 1,AS Monaco,AJ Auxerre,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611211945|lens|toulouse,2026-11-21T19:45:00+00:00,Ligue 1,Lens,Toulouse,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611211945|lille|lyon,2026-11-21T19:45:00+00:00,Ligue 1,Lille,Lyon,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611211945|strasbourg|brest,2026-11-21T19:45:00+00:00,Ligue 1,Strasbourg,Brest,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611221400|paris fc|angers,2026-11-22T14:00:00+00:00,Ligue 1,Paris FC,Angers,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611221615|lorient|rennes,2026-11-22T16:15:00+00:00,Ligue 1,Lorient,Stade Rennais,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611221945|marseille|le mans,2026-11-22T19:45:00+00:00,Ligue 1,Marseille,Le Mans,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611271945|brest|paris fc,2026-11-27T19:45:00+00:00,Ligue 1,Brest,Paris FC,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
