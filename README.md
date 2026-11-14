@@ -45,3 +45,15 @@ Los datos ficticios se escriben exclusivamente en output_demo, nunca en output.
 - tests/: controles básicos de calidad.
 - .github/workflows/daily.yml: ejecución en nube.
 - AGENTS.md / CLAUDE.md: normas para Codex / Claude Code.
+
+
+## Actualización v0.2 — fases 2 a 5
+- Motor de consenso **70 % Poisson + 30 % Elo**; si Elo no dispone de suficientes datos, solo Poisson.
+- Calendario consultado para **14 días**, no solo siete.
+- Backtesting **walk-forward retrospectivo** (hasta 120 encuentros por liga) con Brier y log loss comparados con frecuencia histórica.
+- Mercado: comparación 1X2 opcional mediante The Odds API, desactivada sin THE_ODDS_API_KEY y ENABLE_ODDS=1. No realiza apuestas.
+- Agentes operativos: datos, contexto (sin configurar), predictor, mercado, auditor, evaluador y publicador. Son funciones Python, no LLM autónomos.
+- Nuevos archivos: output/backtest.csv, output/backtest_resumen.json, output/mercados.csv y output/estado_agentes.json.
+- Skills originales de Machina Sports, Football Match Predictor e InferSports disponibles en .agents/skills y .claude/skills. Skill de auditoría adaptada de Claude Quant.
+- **Las skills externas no se ejecutan automáticamente en GitHub Actions** salvo pruebas offline de sus scripts. Consulta third_party/UPSTREAM.md y docs/ARCHITECTURE.md.
+- **Google Sheets** aún requiere autorizar la importación automática desde navegador de escritorio; los datos presentes son una fotografía de los últimos resultados publicados.

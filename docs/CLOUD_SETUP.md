@@ -14,3 +14,7 @@ Este repositorio público aloja el código y CSV derivados, no los datos histór
 
 Para repositorios privados, IMPORTDATA no podrá leer sin autenticación. Se necesitaría otro puente a Sheets API.
 No compartas claves API en commits.
+
+
+## Avance v0.2
+El repositorio ya está publicado. El motor automatizado produce informe, comparación de mercado (desactivada sin API), backtest y bitácora de agentes. La hoja de Google Sheets requiere autorización IMPORTDATA para importación desatendida; desde ChatGPT pueden consultarse los archivos publicados en GitHub.

@@ -7,3 +7,5 @@
 - No comitees claves ni bases de datos de terceros; usa GitHub Secrets si algún día son necesarios.
 - Esta versión no consulta cuotas reales ni emite alertas de value betting verificadas.
 - ESPN es un endpoint público no oficial y reemplazable.
+
+Skills para Codex: .agents/skills/football-data, .agents/skills/predicting-football-matches, .agents/skills/infersports, .agents/skills/football-quant-audit. No asumir que una skill instalada ya ejecuta servicios externos en el cron.

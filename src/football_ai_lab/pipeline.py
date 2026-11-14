@@ -136,7 +136,7 @@ def report(now: datetime, predictions: list[dict], rejected: list[str], tracked:
                   "- No hay cuotas actuales; las cuotas justas son cálculos matemáticos y no precios de mercado.",
                   "- No hay datos de lesiones, xG de eventos o alineaciones.",
                   "- ESPN no garantiza acceso a su endpoint público.",
-                  "- Este modelo aún no ha superado un backtest independiente."])
+                  "- El backtest retrospectivo no sustituye una validación prospectiva ni comparaciones con cuotas reales."])
     if metrics is not None:
         lines.extend(["","## Backtesting walk-forward (retrospectivo)","",
                       "Las cifras siguientes son simulaciones históricas. No son pronósticos que existieran antes de aquellos partidos.",
@@ -199,7 +199,7 @@ def main(argv=None) -> None:
     book.mark("contexto","NO_CONFIGURADO","No se han consultado alineaciones/lesiones; no se inventan.")
     LOG.info("Partidos encontrados %s; históricos %s",len(fixtures),sum(map(len,histories.values())))
     predicted,rejected=forecast(histories,fixtures,now,"DEMO" if args.demo else "REAL")
-    book.mark("predictor","OK",f"Ensemble Poisson 70%% / Elo 30%%. Descartados: {len(rejected)}",len(predicted))
+    book.mark("predictor","OK",f"Ensemble Poisson 70% / Elo 30%. Descartados: {len(rejected)}",len(predicted))
     # El módulo de cuotas no ejecuta peticiones sin consentimiento expreso y clave.
     events={} if args.demo else get_optional_quotes(list(LEAGUES))
     markets=build_market_rows(predicted,events,now)
