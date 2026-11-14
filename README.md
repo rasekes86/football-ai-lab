@@ -102,3 +102,9 @@ Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 has
 
 
 - [Cobertura y calidad de las estadísticas individuales](output/cobertura_jugadores.json): distingue partidos realmente jugados de suplentes no utilizados y cuantifica cuándo hay muestras históricas suficientes para INVESTIGAR, nunca para activar automáticamente apuestas de jugadores.
+
+
+## Derechos y condiciones de las fuentes
+
+Consulta [las notas sobre licencias y límites de uso](docs/FUENTES_Y_DERECHOS.md).
+La gratuidad de los datos no implica autorización ilimitada para bots, IA o uso comercial.
