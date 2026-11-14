@@ -1,1 +1,25 @@
-{"status":"PENDIENTE_PRIMER_ENTRENAMIENTO","aviso":"No hay resultados ML todavía."}
+{
+  "version": "xgboost-temporal-0.3",
+  "as_of_utc": "2026-11-14T16:43:09.543468+00:00",
+  "status": "VALIDADO_RETROSPECTIVAMENTE",
+  "historic_rows": 5357,
+  "train_rows": 4261,
+  "validation_rows": 1096,
+  "split_date": "2026-02-14",
+  "warnings": [
+    "Estas métricas no son pruebas prospectivas ni rentabilidad.",
+    "El modelo NO participa en el consenso Poisson/Elo hasta una revisión independiente."
+  ],
+  "holdout_start": "2026-02-14",
+  "holdout_end": "2026-11-08",
+  "xgboost_holdout": {
+    "brier": 0.203149,
+    "logloss": 1.020235
+  },
+  "frecuencia_historica": {
+    "brier": 0.215263,
+    "logloss": 1.067663
+  },
+  "beats_frequency_brier": true,
+  "predictions": 43
+}
