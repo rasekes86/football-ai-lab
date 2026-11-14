@@ -27,8 +27,6 @@ class CountValidationTests(unittest.TestCase):
         assert recent is not None
         old=_baseline(rows[:200],"corners",9.5)
         self.assertLess(recent,old)
-        self.assertEqual(recent,_baseline(rows+[{"date":first+timedelta(days=999),
-                 "home_corners":999,"away_corners":0}],"corners",9.5) if False else recent)
         self.assertEqual(market_key("SP1","corners",9.5),"SP1|corners|9.5")
 
     def test_unapproved_corners_never_enter_top3(self):
