@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-14T20:44:52.899453+00:00
+**UTC:** 2026-11-14T20:47:22.855828+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 47
 **Descartados por insuficiencia de datos:** 6
@@ -107,7 +107,7 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 |---|---|---|---:|---:|
 | Borussia Mönchengladbach – Borussia Dortmund | Goles equipo | Borussia Dortmund: más de 0,5 goles | 86.9% | 1.15 |
 | Liverpool – Manchester United | Total goles | Menos de 4,5 goles | 86.9% | 1.15 |
-| Getafe – Atlético Madrid | Hándicap europeo (medio gol) | Getafe +1,5 | 86.9% | 1.15 |
+| Getafe – Atlético Madrid | Hándicap 2 vías (medio gol) | Getafe +1,5 | 86.9% | 1.15 |
 
 Las cuotas justas son valores matemáticos, no precios ofrecidos.
 Córners, tiros y tarjetas están en exploración; jugadores no disponibles.
