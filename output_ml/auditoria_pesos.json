@@ -1,0 +1,59 @@
+{
+  "version": "weight-audit-0.5",
+  "estado": "COMPARACION_COMPLETADA",
+  "peso_produccion": 0.3,
+  "se_aplica_automaticamente": false,
+  "observaciones": 657,
+  "entrenamiento": 393,
+  "prueba_posterior": 264,
+  "fecha_corte": "2026-09-13",
+  "pesos_candidatos": [
+    0.0,
+    0.15,
+    0.3,
+    0.45,
+    0.6
+  ],
+  "entrenamiento_por_peso": {
+    "0.0": {
+      "muestra": 393,
+      "brier": 0.204128,
+      "logloss": 1.022837
+    },
+    "0.15": {
+      "muestra": 393,
+      "brier": 0.204189,
+      "logloss": 1.023118
+    },
+    "0.3": {
+      "muestra": 393,
+      "brier": 0.204393,
+      "logloss": 1.024077
+    },
+    "0.45": {
+      "muestra": 393,
+      "brier": 0.204741,
+      "logloss": 1.025673
+    },
+    "0.6": {
+      "muestra": 393,
+      "brier": 0.205233,
+      "logloss": 1.027879
+    }
+  },
+  "peso_seleccionado_con_pasado": 0.0,
+  "prueba_posterior_peso_base": {
+    "muestra": 264,
+    "brier": 0.18487,
+    "logloss": 0.940057
+  },
+  "prueba_posterior_peso_elegido": {
+    "muestra": 264,
+    "brier": 0.185993,
+    "logloss": 0.944069
+  },
+  "mejora_both_metrics_threshold": false,
+  "recomendacion": "MANTENER_0_30",
+  "aviso": "El holdout está usado para contrastar, no entrenar el peso. No introducir pesos sin prueba prospectiva.",
+  "calculado_utc": "2026-11-14T19:16:07.728651+00:00"
+}

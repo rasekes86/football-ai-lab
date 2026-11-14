@@ -1,0 +1,48 @@
+fecha_utc,liga,local,visitante,modelo_principal_local,modelo_experimental_local,max_diferencia_pp,alerta,nota
+2026-11-22T17:00:00+00:00,Serie A,AC Milan,Frosinone,0.61448,0.33645,27.80,REVISAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T20:00:00+00:00,LaLiga,Real Madrid,Celta Vigo,0.59456,0.83009,23.55,REVISAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T14:00:00+00:00,Premier League,Hull City,Brighton & Hove Albion,0.35505,0.21687,17.46,REVISAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T14:30:00+00:00,Bundesliga,FC Augsburg,Mainz,0.37070,0.52156,15.09,REVISAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T14:00:00+00:00,Serie A,Bologna,Udinese,0.41092,0.53016,14.66,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T11:30:00+00:00,Serie A,Juventus,Venezia,0.69628,0.55696,13.93,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T20:00:00+00:00,LaLiga,Getafe,Atlético Madrid,0.31732,0.19451,13.29,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T14:30:00+00:00,Bundesliga,1. FC Union Berlin,RB Leipzig,0.35503,0.22419,13.08,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T15:00:00+00:00,Premier League,Tottenham Hotspur,Ipswich Town,0.42218,0.51347,12.92,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-20T19:45:00+00:00,Ligue 1,Troyes,Le Havre AC,0.41263,0.28952,12.31,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T15:00:00+00:00,Premier League,Aston Villa,Sunderland,0.53443,0.41287,12.16,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T14:00:00+00:00,Ligue 1,Paris FC,Angers,0.58075,0.70220,12.15,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T17:00:00+00:00,Serie A,Parma,AS Roma,0.18836,0.13422,10.74,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T19:45:00+00:00,Ligue 1,Strasbourg,Brest,0.57647,0.47282,10.37,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-27T19:30:00+00:00,Bundesliga,Werder Bremen,Borussia Mönchengladbach,0.47390,0.57481,10.09,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T15:00:00+00:00,Premier League,Coventry City,Crystal Palace,0.43123,0.46315,9.75,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T14:00:00+00:00,Serie A,Como,Cagliari,0.63361,0.54842,8.52,VIGILAR,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T19:45:00+00:00,Ligue 1,Lille,Lyon,0.46034,0.38295,7.74,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T14:00:00+00:00,Serie A,Lazio,Lecce,0.54552,0.60076,7.30,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T17:30:00+00:00,Premier League,Newcastle United,Arsenal,0.22569,0.18329,7.23,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T17:30:00+00:00,LaLiga,Sevilla,Real Betis,0.32054,0.24934,7.12,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T17:30:00+00:00,LaLiga,Osasuna,Málaga,0.51510,0.44570,6.94,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-27T19:45:00+00:00,Ligue 1,Brest,Paris FC,0.41703,0.48640,6.94,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T19:45:00+00:00,Serie A,Atalanta,Internazionale,0.26766,0.21845,6.79,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-23T19:45:00+00:00,Serie A,Monza,Fiorentina,0.28331,0.28850,6.72,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T14:30:00+00:00,Bundesliga,Eintracht Frankfurt,TSG Hoffenheim,0.45307,0.38783,6.52,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-20T20:00:00+00:00,LaLiga,Athletic Club,Espanyol,0.45144,0.51350,6.21,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T16:15:00+00:00,Ligue 1,Lorient,Stade Rennais,0.44530,0.38333,6.20,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-20T19:30:00+00:00,Bundesliga,Bayern Munich,FC Cologne,0.80961,0.83627,5.92,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T15:15:00+00:00,LaLiga,Rayo Vallecano,Valencia,0.48194,0.54060,5.87,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T14:00:00+00:00,Serie A,Sassuolo,Genoa,0.38650,0.39839,5.60,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T13:00:00+00:00,LaLiga,Barcelona,Villarreal,0.70177,0.75307,5.49,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-27T19:45:00+00:00,Serie A,Venezia,Bologna,0.23178,0.17752,5.43,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-23T20:00:00+00:00,Premier League,Brentford,Everton,0.45209,0.40126,5.08,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T12:30:00+00:00,Premier League,Manchester City,Fulham,0.64740,0.68629,4.89,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T15:00:00+00:00,Premier League,AFC Bournemouth,Nottingham Forest,0.46956,0.46350,4.89,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T19:45:00+00:00,Serie A,Napoli,Torino,0.61871,0.58591,4.67,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T19:45:00+00:00,Ligue 1,Lens,Toulouse,0.49343,0.51370,4.64,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-27T20:00:00+00:00,Premier League,Nottingham Forest,Chelsea,0.30059,0.31797,4.60,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T14:30:00+00:00,Bundesliga,Borussia Mönchengladbach,Borussia Dortmund,0.20101,0.23088,3.41,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T16:30:00+00:00,Bundesliga,Werder Bremen,Hamburg SV,0.47812,0.45914,2.62,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T19:45:00+00:00,Ligue 1,AS Monaco,AJ Auxerre,0.60394,0.58807,2.47,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T15:00:00+00:00,Premier League,Chelsea,Leeds United,0.49125,0.46744,2.38,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-23T20:00:00+00:00,LaLiga,Levante,Elche,0.43604,0.41360,2.24,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T16:30:00+00:00,Premier League,Liverpool,Manchester United,0.44288,0.43732,2.13,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-21T16:15:00+00:00,Ligue 1,Nice,Paris Saint-Germain,0.22030,0.23936,1.94,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
+2026-11-22T19:45:00+00:00,Ligue 1,Marseille,Le Mans,0.64687,0.64447,0.53,COINCIDEN,Discrepancia informativa; NO combinar modelos ni realizar apuestas
