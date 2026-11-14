@@ -1,6 +1,13 @@
 name: Analisis futbol diario
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'pyproject.toml'
+      - '.github/workflows/daily.yml'
   schedule:
     - cron: '17 7 * * *'
 permissions:
