@@ -13,6 +13,10 @@ from .odds import MARKET_FIELDS, get_optional_quotes, build_market_rows
 from .infersports import get_infer_fair, merge_infer_prices
 from .agents import AgentLog
 from .context_machina import collect as machina_context
+from .match_context import dossier as match_dossier
+from .prospective import evaluate as prospective_evaluate
+from .prospective import summarize as prospective_summary
+from .prospective import TRACK_FIELDS as PROSPECTIVE_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -21,8 +25,7 @@ FIELDS = ["id","fecha_utc","liga","local","visitante","prob_local","prob_empate"
           "cuota_justa_empate","cuota_justa_visitante","fecha_analisis_utc","modelo",
           "origen_estadisticas","origen_calendario","tipo","prob_elo_local","prob_elo_empate",
           "prob_elo_visitante","peso_elo","diferencia_elo"]
-TRACK_FIELDS = ["id","fecha_utc","liga","local","visitante","prob_local","prob_empate","prob_visitante",
-                "resultado_local","resultado_visitante","resultado_real","brier_1x2","estado"]
+TRACK_FIELDS = PROSPECTIVE_FIELDS
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -90,34 +93,14 @@ def audit_history(path: Path, predictions: list[dict]) -> list[dict]:
     return old
 
 
-def evaluate(predictions: list[dict], histories: dict) -> list[dict]:
-    lookup = {}
-    for league, games in histories.items():
-        for g in games:
-            lookup[(league, g["date"], normalize_team(g["home"]), normalize_team(g["away"]))] = g
-    results = []
-    for p in predictions:
-        league = next((key for key, value in LEAGUES.items() if value[0] == p["liga"]), None)
-        if league is None:
-            continue
-        kickoff = datetime.fromisoformat(p["fecha_utc"]).date()
-        match = lookup.get((league, kickoff, normalize_team(p["local"]), normalize_team(p["visitante"])))
-        item = {key: p.get(key, "") for key in TRACK_FIELDS}
-        if match:
-            real = "H" if match["home_goals"] > match["away_goals"] else "D" if match["home_goals"] == match["away_goals"] else "A"
-            outcomes = {"H":(1,0,0), "D":(0,1,0), "A":(0,0,1)}
-            predicted = [float(p[x]) for x in ("prob_local","prob_empate","prob_visitante")]
-            brier = sum((x-y)**2 for x,y in zip(predicted, outcomes[real])) / 3
-            item.update({"resultado_local":match["home_goals"],"resultado_visitante":match["away_goals"],
-                         "resultado_real":real,"brier_1x2":f"{brier:.5f}","estado":"FINALIZADO"})
-        else:
-            item.update({"estado":"PENDIENTE"})
-        results.append(item)
-    return results
+def evaluate(predictions: list[dict], histories: dict, now: datetime | None = None) -> list[dict]:
+    """Compatibilidad con versiones anteriores: mismo auditor prospectivo."""
+    return prospective_evaluate(predictions,histories,now or datetime.now(timezone.utc))
 
 
 def report(now: datetime, predictions: list[dict], rejected: list[str], tracked: list[dict], mode: str,
-           metrics: dict | None = None, markets: list[dict] | None = None) -> str:
+           metrics: dict | None = None, markets: list[dict] | None = None,
+           prospective: dict | None = None) -> str:
     completed = [x for x in tracked if x["estado"] == "FINALIZADO"]
     mean_brier = sum(float(x["brier_1x2"]) for x in completed) / len(completed) if completed else None
     lines = ["# Football AI Lab — Informe diario", "",f"**UTC:** {now.isoformat()}",
@@ -156,6 +139,17 @@ def report(now: datetime, predictions: list[dict], rejected: list[str], tracked:
         lines.extend(["", "## Cuotas externas", "",
                       f"Mercados comparados: **{live}** / {len(markets)}. Las diferencias NO son apuestas recomendadas.",
                       "The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas."])
+    if prospective is not None:
+        lines.extend(["","## Seguimiento prospectivo real","",
+              f'Pronósticos archivados: **{prospective["registrados"]}**',
+              f'Resultados reales verificados: **{prospective["finalizados_validos"]}**',
+              f'Sin resultado en la fuente: **{prospective["sin_resultado"]}**',
+              f'Excluidos por calidad/temporalidad: **{prospective["excluidos"]}**',
+              "Este apartado no incluye los backtests retrospectivos."])
+        if prospective["global"]["muestra"]:
+            g=prospective["global"]
+            lines.append(f'Brier prospectivo: **{g["brier_medio"]}**; log loss: **{g["logloss_medio"]}**. '
+                         f'Acierto del favorito: **{g["acierto_favorito_pct"]}%**.')
     if rejected:
         lines.extend(["","## Encuentros descartados",""] + [f"- {x}" for x in rejected[:35]])
     return "\n".join(lines) + "\n"
@@ -204,6 +198,15 @@ def main(argv=None) -> None:
     target.mkdir(parents=True,exist_ok=True)
     (target/"contexto_machina.json").write_text(json.dumps(context,ensure_ascii=False,indent=2),encoding="utf-8")
     LOG.info("Partidos encontrados %s; históricos %s",len(fixtures),sum(map(len,histories.values())))
+    # Informes causales: no alteran el modelo estadístico existente.
+    dossiers=[match_dossier(histories.get(f["league"],[]),f) for f in fixtures]
+    coverage={"publicados":0,"rechazados":0,
+              "identificacion_insuficiente":sum(
+                  bool(d["calidad"]["motivos"]) for d in dossiers)}
+    (target/"contexto_partidos.json").write_text(
+        json.dumps({"calculado_utc":now.isoformat(),"partidos":dossiers,
+                    "nota":"Métricas de partidos anteriores exclusivamente; sin inventar xG."},
+                    ensure_ascii=False,indent=2),encoding="utf-8")
     predicted,rejected=forecast(histories,fixtures,now,"DEMO" if args.demo else "REAL")
     book.mark("predictor","OK",f"Ensemble Poisson 70% / Elo 30%. Descartados: {len(rejected)}",len(predicted))
     # El módulo de cuotas no ejecuta peticiones sin consentimiento expreso y clave.
@@ -224,11 +227,16 @@ def main(argv=None) -> None:
     write_csv(target/"backtest.csv",BACKTEST_FIELDS,back_rows)
     (target/"backtest_resumen.json").write_text(json.dumps(metrics,ensure_ascii=False,indent=2),encoding="utf-8")
     past=audit_history(target/"historico_predicciones.csv",predicted)
-    tracked=evaluate(past,histories)
+    tracked=evaluate(past,histories,now)
+    prospective=prospective_summary(tracked,now)
     write_csv(target/"seguimiento.csv",TRACK_FIELDS,tracked)
-    book.mark("evaluador","OK","Seguimiento prospectivo de predicciones guardadas",len(tracked))
+    (target/"evaluacion_real.json").write_text(
+        json.dumps(prospective,ensure_ascii=False,indent=2),encoding="utf-8")
+    book.mark("evaluador","OK",
+              f'{prospective["finalizados_validos"]} finales verificados, {prospective["pendientes"]} pendientes',
+              len(tracked))
     (target/"informe.md").write_text(report(now,predicted,rejected,tracked,
-        "DEMO" if args.demo else "REAL",metrics,markets),encoding="utf-8")
+        "DEMO" if args.demo else "REAL",metrics,markets,prospective),encoding="utf-8")
     book.mark("publicador","OK",f"Archivos de salida escritos en {target}")
     (target/"estado_agentes.json").write_text(json.dumps(book.export(),ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"Pronósticos: {len(predicted)}, descartados: {len(rejected)}, backtest: {len(back_rows)}")
