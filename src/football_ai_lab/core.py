@@ -11,7 +11,7 @@ ALIASES = {
     "athletic club": "ath bilbao", "athletic bilbao": "ath bilbao",
     "real betis": "betis", "real sociedad": "sociedad",
     "fc barcelona": "barcelona", "barca": "barcelona",
-    "rcd espanyol": "espanyol", "espanyol barcelona": "espanyol",
+    "rcd espanyol": "espanyol", "espanyol barcelona": "espanyol", "espanol": "espanyol",
     "deportivo alaves": "alaves", "celta vigo": "celta", "rc celta": "celta",
     "rayo vallecano": "vallecano", "real oviedo": "oviedo",
     "real valladolid": "valladolid", "ud las palmas": "las palmas",
