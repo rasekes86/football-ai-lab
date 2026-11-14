@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-14T19:20:59.951053+00:00
+**UTC:** 2026-11-14T20:44:52.899453+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 47
 **Descartados por insuficiencia de datos:** 6
@@ -79,7 +79,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **0** / 47. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **1** / 47. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
@@ -98,3 +98,17 @@ Este apartado no incluye los backtests retrospectivos.
 - Bayer Leverkusen - SC Paderborn 07: historial insuficiente o nombre desconocido
 - SV Elversberg - SC Freiburg: historial insuficiente o nombre desconocido
 - Schalke 04 - VfB Stuttgart: historial insuficiente o nombre desconocido
+
+## Selector de mercados · probabilidades experimentales
+
+Top 3 de la próxima jornada: una selección por partido; no hay correlación ni rentabilidad garantizada.
+
+| Partido | Mercado | Selección | Prob. modelo | Cuota justa |
+|---|---|---|---:|---:|
+| Borussia Mönchengladbach – Borussia Dortmund | Goles equipo | Borussia Dortmund: más de 0,5 goles | 86.9% | 1.15 |
+| Liverpool – Manchester United | Total goles | Menos de 4,5 goles | 86.9% | 1.15 |
+| Getafe – Atlético Madrid | Hándicap europeo (medio gol) | Getafe +1,5 | 86.9% | 1.15 |
+
+Las cuotas justas son valores matemáticos, no precios ofrecidos.
+Córners, tiros y tarjetas están en exploración; jugadores no disponibles.
+El ranking de valor se deja vacío sin cuotas reales verificadas por mercado.
