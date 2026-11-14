@@ -51,7 +51,16 @@ def parse_history(body: bytes) -> list[dict]:
             continue
         h, a = (row.get("HomeTeam") or "").strip(), (row.get("AwayTeam") or "").strip()
         if d and h and a:
-            records.append({"date": d, "home": h, "away": a, "home_goals": hg, "away_goals": ag})
+            match={"date":d, "home":h, "away":a, "home_goals":hg, "away_goals":ag}
+            # Only completed historical matches. Missing metrics remain None; never zero.
+            optional={"home_shots":"HS","away_shots":"AS","home_on_target":"HST",
+                      "away_on_target":"AST","home_corners":"HC","away_corners":"AC",
+                      "home_yellow":"HY","away_yellow":"AY","home_red":"HR","away_red":"AR"}
+            for field,original in optional.items():
+                value=(row.get(original) or "").strip()
+                try:match[field]=max(0,int(float(value))) if value else None
+                except ValueError:match[field]=None
+            records.append(match)
     return records
 
 

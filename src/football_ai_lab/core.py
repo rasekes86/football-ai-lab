@@ -33,6 +33,14 @@ ALIASES = {
     "fulham fc": "fulham", "brentford fc": "brentford",
     "chelsea fc": "chelsea", "arsenal fc": "arsenal", "liverpool fc": "liverpool",
     "everton fc": "everton",
+    "1 fc union berlin": "union berlin", "fc union berlin": "union berlin",
+    "hamburger sv": "hamburg", "hamburg sv": "hamburg",
+    "sc paderborn 07": "paderborn", "sc paderborn": "paderborn",
+    "le havre ac": "le havre", "estac troyes": "troyes",
+    "coventry city": "coventry", "hull city": "hull",
+    "deportivo la coruna": "deportivo", "deportivo de la coruna": "deportivo",
+    "racing santander": "racing", "real racing club": "racing",
+
 
     # Bundesliga: nombres ESPN frente a football-data.co.uk
     "borussia dortmund": "dortmund", "bvb dortmund": "dortmund",
