@@ -39,7 +39,7 @@ def _score(y:list[int],model:list[float],base:list[float])->dict:
 
 def _baseline(prior:list[dict],metric:str,line:float)->float|None:
     hk,ak="home_"+metric,"away_"+metric
-    sample=[g[hk]+g[ak] for g in reversed(prior)
+    sample=[g[hk]+g[ak] for g in prior
             if isinstance(g.get(hk),(int,float)) and isinstance(g.get(ak),(int,float))][-380:]
     if len(sample)<120:return None
     # Simple benchmark with Laplace smoothing and no results of current match.
