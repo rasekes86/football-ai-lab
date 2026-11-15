@@ -1,9 +1,9 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-15T14:45:02.421413+00:00
+**UTC:** 2026-11-15T22:51:47.453277+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 85
-**Descartados por insuficiencia de datos:** 9
+**Próximos partidos con pronóstico:** 84
+**Descartados por insuficiencia de datos:** 7
 **Históricos evaluados:** 0
 **Brier 1X2 medio:** pendiente
 
@@ -21,9 +21,7 @@
 | LaLiga | 2026-11-28T15:15 | Málaga - Athletic Club | 37.3% | 25.0% | 37.7% |
 | LaLiga | 2026-11-28T17:30 | Elche - Atlético Madrid | 29.4% | 25.5% | 45.1% |
 | LaLiga | 2026-11-28T20:00 | Real Madrid - Alavés | 72.1% | 18.5% | 9.4% |
-| Segunda División | 2026-11-15T15:15 | Granada - Las Palmas | 42.5% | 24.8% | 32.8% |
-| Segunda División | 2026-11-15T17:30 | Eibar - Cádiz | 59.1% | 22.9% | 17.9% |
-| Segunda División | 2026-11-15T17:30 | Eldense - CD Sabadell | 37.5% | 27.2% | 35.3% |
+| Segunda División | 2026-11-16T19:30 | Albacete - RC Celta Fortuna | 45.8% | 24.0% | 30.3% |
 | Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 48.1% | 24.5% | 27.4% |
 | Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.7% | 26.1% | 29.2% |
 | Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 45.0% | 24.8% | 30.2% |
@@ -32,6 +30,7 @@
 | Segunda División | 2026-11-22T13:00 | Córdoba - Real Oviedo | 35.0% | 25.2% | 39.8% |
 | Segunda División | 2026-11-22T15:15 | Sporting Gijón - Las Palmas | 43.6% | 24.7% | 31.7% |
 | Segunda División | 2026-11-22T17:30 | Girona - Eibar | 45.2% | 26.0% | 28.8% |
+| Segunda División | 2026-11-22T17:30 | RC Celta Fortuna - Real Valladolid | 47.6% | 22.5% | 29.8% |
 | Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.9% | 28.5% | 23.6% |
 | Segunda División | 2026-11-23T19:30 | Ceuta - Almería | 29.5% | 24.8% | 45.6% |
 | Segunda División | 2026-11-27T19:30 | Leganés - CD Sabadell | 36.8% | 29.2% | 34.0% |
@@ -118,14 +117,14 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **3** / 85. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **1** / 84. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **86**
+Pronósticos archivados: **88**
 Resultados reales verificados: **0**
-Sin resultado en la fuente: **0**
+Sin resultado en la fuente: **4**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
 
@@ -134,8 +133,6 @@ Este apartado no incluye los backtests retrospectivos.
 - Alavés - Deportivo: historial insuficiente o nombre desconocido
 - Racing Santander - Real Sociedad: historial insuficiente o nombre desconocido
 - Levante - Racing Santander: historial insuficiente o nombre desconocido
-- Albacete - RC Celta Fortuna: historial insuficiente o nombre desconocido
-- RC Celta Fortuna - Real Valladolid: historial insuficiente o nombre desconocido
 - Bayer Leverkusen - SC Paderborn 07: historial insuficiente o nombre desconocido
 - SV Elversberg - SC Freiburg: historial insuficiente o nombre desconocido
 - Schalke 04 - VfB Stuttgart: historial insuficiente o nombre desconocido
@@ -153,10 +150,10 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **4**; finalizadas: **0**; pendientes: **4**.
+Selecciones archivadas: **4**; finalizadas: **0**; pendientes: **0**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **258** selecciones archivadas antes del partido; **0** resueltas.
+Seguimiento real del Top 3: **264** selecciones archivadas antes del partido; **0** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **36**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.

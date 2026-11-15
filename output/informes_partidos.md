@@ -561,131 +561,39 @@
 
 ---
 
-## Granada – Las Palmas
+## Albacete – RC Celta Fortuna
 
-**Segunda División · 2026-11-15T15:15:00+00:00 · modelo poisson70-elo30-0.2**
+**Segunda División · 2026-11-16T19:30:00+00:00 · modelo poisson70-elo30-0.2**
 
 ### Probabilidades del modelo principal
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 42.5% | 24.8% | 32.8% | 49.1% |
+| 45.8% | 24.0% | 30.3% | 53.5% |
 
 ### Forma, descanso y estadísticas
 
-**Granada:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 11,8, a puerta 4,0, córners 3,2, amarillas 1,4
-
-**Las Palmas:** clasificación no disponible en datos recuperados.
+**Albacete:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
-- Días desde el último partido liguero registrado: 6
-- Medias recientes: Tiros 8,8, a puerta 3,4, córners 4,2, amarillas 3,4
+- Días desde el último partido liguero registrado: 9
+- Medias recientes: Tiros 10,8, a puerta 2,8, córners 6,4, amarillas 3,4
 
-### Enfrentamientos previos
-- 2026-04-02: Las Palmas 2-0 Granada
-- 2025-10-10: Granada 0-0 Las Palmas
-
-### Tres selecciones del modelo (experimentales)
-1. **Granada: menos de 2,5 goles** (Goles equipo): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 79.3% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Las Palmas +1,5** (Hándicap 2 vías (medio gol)): 79.0% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T14:45:46+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Eibar – Cádiz
-
-**Segunda División · 2026-11-15T17:30:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 59.1% | 22.9% | 17.9% | 49.8% |
-
-### Forma, descanso y estadísticas
-
-**Eibar:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 14,6, a puerta 5,2, córners 3,4, amarillas 2,0
-
-**Cádiz:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · V · D · D
-- Días desde el último partido liguero registrado: 8
-- Medias recientes: Tiros 10,2, a puerta 2,8, córners 5,2, amarillas 2,8
-
-### Enfrentamientos previos
-- 2026-03-01: Eibar 3-1 Cadiz
-- 2025-09-13: Cadiz 1-0 Eibar
-- 2025-03-31: Cadiz 0-0 Eibar
-- 2024-10-23: Eibar 1-0 Cadiz
-
-### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Cádiz +2,5** (Hándicap 2 vías (medio gol)): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Eibar: más de 0,5 goles** (Goles equipo): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T14:45:38+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Eldense – CD Sabadell
-
-**Segunda División · 2026-11-15T17:30:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 37.5% | 27.2% | 35.3% | 36.9% |
-
-### Forma, descanso y estadísticas
-
-**Eldense:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · D · V · V
-- Días desde el último partido liguero registrado: 6
-- Medias recientes: Tiros 11,4, a puerta 3,4, córners 3,6, amarillas 4,0
-
-**CD Sabadell:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
-- Días desde el último partido liguero registrado: 6
-- Medias recientes: Tiros 15,2, a puerta 3,4, córners 4,2, amarillas 2,8
+**RC Celta Fortuna:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · D · E · V
+- Días desde el último partido liguero registrado: 9
+- Medias recientes: Tiros 11,0, a puerta 4,6, córners 2,4, amarillas 3,2
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **CD Sabadell +1,5** (Hándicap 2 vías (medio gol)): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 82.5% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 71.8% · cuota justa 1.39; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Albacete: más de 0,5 goles** (Goles equipo): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **RC Celta Fortuna +1,5** (Hándicap 2 vías (medio gol)): 76.7% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T14:45:46+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T22:38:22+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -1041,6 +949,50 @@
 1. **Girona: menos de 2,5 goles** (Goles equipo): 84.0% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Menos de 3,5 goles** (Total goles): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Eibar: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## RC Celta Fortuna – Real Valladolid
+
+**Segunda División · 2026-11-22T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 47.6% | 22.5% | 29.8% | 62.2% |
+
+### Forma, descanso y estadísticas
+
+**RC Celta Fortuna:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · D · E · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 11,0, a puerta 4,6, córners 2,4, amarillas 3,2
+
+**Real Valladolid:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 16,2, a puerta 7,2, córners 7,2, amarillas 2,8
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Real Valladolid: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **RC Celta Fortuna: más de 0,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada

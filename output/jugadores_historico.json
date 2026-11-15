@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-15T14:45:02.421413+00:00",
+  "actualizado_utc": "2026-11-15T22:51:47.453277+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -13564,6 +13564,3666 @@
       "fuente": "ESPN summary público no oficial"
     },
     {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "252406",
+      "jugador": "Lucas Perri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "239120",
+      "jugador": "Adrian Ismajli",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "367168",
+      "jugador": "Pietro Comuzzo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "274258",
+      "jugador": "Saúl Coco",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "305589",
+      "jugador": "Kian Fitz-Jim",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "206378",
+      "jugador": "Nikola Vlasic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "290592",
+      "jugador": "Daniel Bragança",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "403148",
+      "jugador": "Alessio Cacciamani",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "364590",
+      "jugador": "Rafik Belghali",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "189974",
+      "jugador": "Giovanni Simeone",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "245538",
+      "jugador": "Sandro Kulenovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "368006",
+      "jugador": "Diego Mascardi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "277865",
+      "jugador": "Zakaria Aboukhlal",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "251141",
+      "jugador": "Pietro Pellegri",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "330707",
+      "jugador": "Emirhan Ilkhan",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "367321",
+      "jugador": "Lapo Siviero",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "338266",
+      "jugador": "Gvidas Gineitis",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "336394",
+      "jugador": "Cesare Casadei",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "213725",
+      "jugador": "Ché Adams",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "297786",
+      "jugador": "Gaetano Oristanio",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "271191",
+      "jugador": "Nathan Patterson",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "152044",
+      "jugador": "Cristiano Biraghi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "231697",
+      "jugador": "Eray Cömert",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "210392",
+      "jugador": "Rolando Mandragora",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Torino",
+      "jugador_id": "193644",
+      "jugador": "Duván Zapata",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "177812",
+      "jugador": "Wladimiro Falcone",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "318604",
+      "jugador": "Kialonda Gaspar",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "379865",
+      "jugador": "Tiago Gabriel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "344844",
+      "jugador": "Danilo Veiga",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "241405",
+      "jugador": "Youssef Maleh",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "223292",
+      "jugador": "Mohamed Kaba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "334793",
+      "jugador": "Oumar Ngom",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "277441",
+      "jugador": "Antonino Gallo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "356576",
+      "jugador": "Ali Dembélé",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "330550",
+      "jugador": "Amar Ahmed",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "304512",
+      "jugador": "Nikola Stulic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "286582",
+      "jugador": "Konan N’Dri",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "223947",
+      "jugador": "Lassana Coulibaly",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "3123406",
+      "jugador": "Francisco Esteban Sánchez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "374812",
+      "jugador": "Olaf Gorter",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "287673",
+      "jugador": "Corrie Ndaba",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "346283",
+      "jugador": "Gaby Jean",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "308318",
+      "jugador": "Alexandru Borbei",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "324661",
+      "jugador": "Sadik Fofana",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "307391",
+      "jugador": "Jamil Siebert",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "399632",
+      "jugador": "Elijah Scott",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "326642",
+      "jugador": "Omri Gandelman",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "259744",
+      "jugador": "Willem Geubbels",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874811",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Torino",
+      "visitante": "Lecce",
+      "equipo": "Lecce",
+      "jugador_id": "192570",
+      "jugador": "Marco Bleve",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "278987",
+      "jugador": "Elia Caprile",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "361506",
+      "jugador": "Juan Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "346596",
+      "jugador": "Raphael Kofler",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "411232",
+      "jugador": "Nicola Grandu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "332684",
+      "jugador": "Zé Pedro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "6729",
+      "jugador": "Alessandro Romano",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "186437",
+      "jugador": "Alessandro Deiola",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "272745",
+      "jugador": "Michel Adopo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "418819",
+      "jugador": "Paul Mendy",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "290545",
+      "jugador": "Daniel Maldini",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "407931",
+      "jugador": "Yael Trepy",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "224187",
+      "jugador": "Boris Radunovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "407932",
+      "jugador": "Ivan Sulev",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "407930",
+      "jugador": "Joseph Liteta",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "387844",
+      "jugador": "Alessandro Sugamele",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "306210",
+      "jugador": "Alen Sherri",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "399563",
+      "jugador": "Demi Akarakiri",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "333938",
+      "jugador": "Jacopo Fazzini",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "265965",
+      "jugador": "Yukinari Sugawara",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "193977",
+      "jugador": "Roberto Gagliardini",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "5331494",
+      "jugador": "Márton Prettenhoffer",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "307860",
+      "jugador": "Riccardo Ciervo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "304151",
+      "jugador": "Kevin Carlos",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Cagliari",
+      "jugador_id": "345390",
+      "jugador": "Yanis Massolin",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "325056",
+      "jugador": "Lorenzo Palmisani",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "300001",
+      "jugador": "Ilario Monterisi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "352751",
+      "jugador": "Gabriele Calvani",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "346974",
+      "jugador": "Gabriele Bracaglia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "315213",
+      "jugador": "Anthony Oyono",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "238296",
+      "jugador": "Romano Schmid",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "236038",
+      "jugador": "Giacomo Calo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "388779",
+      "jugador": "Matteo Cichella",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "335061",
+      "jugador": "Daniel Birligea",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 9.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "360714",
+      "jugador": "Giorgi Kvernadze",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "356536",
+      "jugador": "Farès Ghedjemis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "177652",
+      "jugador": "Kevin Akpoguma",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "323108",
+      "jugador": "Sebastiano Desplanches",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "306390",
+      "jugador": "Tomas Bobcek",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "198150",
+      "jugador": "Matteo Pisseri",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "368011",
+      "jugador": "Omar Fayed",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "334986",
+      "jugador": "Enzo Tchato",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "346840",
+      "jugador": "Patrizio Masini",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "324433",
+      "jugador": "Anouar El Azzouzi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "333598",
+      "jugador": "Giorgio Cittadini",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "347409",
+      "jugador": "Seydou Fini",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "318394",
+      "jugador": "Wisdom Amey",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "252447",
+      "jugador": "Alessio Zerbin",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874791",
+      "liga": "I1",
+      "fecha_utc": "2026-11-07T14:00:00+00:00",
+      "local": "Cagliari",
+      "visitante": "Frosinone",
+      "equipo": "Frosinone",
+      "jugador_id": "364685",
+      "jugador": "Luis Hasa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "240624",
+      "jugador": "Alfonso Herrero",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "310869",
+      "jugador": "Álex Pastor",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "192430",
+      "jugador": "Einar Galilea",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "261199",
+      "jugador": "Fernando Calero",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "379032",
+      "jugador": "Adam Aznou",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "376166",
+      "jugador": "Rafa Garrido",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "292225",
+      "jugador": "Ramón Enríquez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "331533",
+      "jugador": "Daniel Lorenzo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "324098",
+      "jugador": "Carlos Dotor",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "388602",
+      "jugador": "Chupete",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "373542",
+      "jugador": "Adrián Niño",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 4.0,
+        "totalShots": 8.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "270610",
+      "jugador": "Eneko Jauregui",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "262061",
+      "jugador": "Juan Berrocal",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "371564",
+      "jugador": "Izan Merino",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "357858",
+      "jugador": "Rafa Rodríguez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "184488",
+      "jugador": "José Salinas",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "274971",
+      "jugador": "Jens Cajuste",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "271151",
+      "jugador": "Pablo Martínez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "3110513",
+      "jugador": "Juani",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "355503",
+      "jugador": "Carlos López",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "297828",
+      "jugador": "David Larrubia",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "180444",
+      "jugador": "Joaquín Muñoz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Málaga",
+      "jugador_id": "319783",
+      "jugador": "Ángel Recio",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "323970",
+      "jugador": "Julen Agirrezabala",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "333927",
+      "jugador": "Jeanuël Belocian",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "361455",
+      "jugador": "Pedro Felipe",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "178237",
+      "jugador": "Jorge Salinas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "282672",
+      "jugador": "Pablo Ramon",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "125383",
+      "jugador": "Sergio Canales",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "107960",
+      "jugador": "Matteo Prati",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "330545",
+      "jugador": "Iván Martín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "390389",
+      "jugador": "Yassir Zabiri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "284699",
+      "jugador": "Iñigo Vicente",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "417258",
+      "jugador": "Iker Luque",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "286604",
+      "jugador": "André Almeida",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "279699",
+      "jugador": "Íñigo Sainz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "222365",
+      "jugador": "Asier Villalibre",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "399278",
+      "jugador": "Pablo García",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "242007",
+      "jugador": "Aarón Martín",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "342654",
+      "jugador": "Maguette Gueye",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "259839",
+      "jugador": "Manu",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "400222",
+      "jugador": "Simon Eriksson",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "367499",
+      "jugador": "Facundo González",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "334268",
+      "jugador": "Juan Carlos Arana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "3100788",
+      "jugador": "Hugo Pérez Sañudo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882812",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-07T13:00:00+00:00",
+      "local": "Málaga",
+      "visitante": "Racing Santander",
+      "equipo": "Racing Santander",
+      "jugador_id": "289439",
+      "jugador": "Giorgi Guliashvili",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "307118",
+      "jugador": "James Trafford",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "212237",
+      "jugador": "Nico Elvedi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "318390",
+      "jugador": "Tarik Muharemovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "231863",
+      "jugador": "James Justin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "253173",
+      "jugador": "Ao Tanaka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "241317",
+      "jugador": "Ethan Ampadu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "250166",
+      "jugador": "Gabriel Gudmundsson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "243408",
+      "jugador": "Jayden Bogle",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "197717",
+      "jugador": "Dominic Calvert-Lewin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "258956",
+      "jugador": "Lukas Nmecha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "251658",
+      "jugador": "Sean Longstaff",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "232325",
+      "jugador": "Joe Rodon",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "184550",
+      "jugador": "Michael Zetterer",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "270641",
+      "jugador": "Noah Okafor",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "265923",
+      "jugador": "Melvin Bard",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "30116",
+      "jugador": "Ilia Gruev",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "259653",
+      "jugador": "Brenden Aaronson",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "203072",
+      "jugador": "Daniel James",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "274649",
+      "jugador": "Jaka Bijol",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Leeds United",
+      "jugador_id": "194801",
+      "jugador": "Harry Wilson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "324393",
+      "jugador": "Antonín Kinsky",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "296512",
+      "jugador": "Micky van de Ven",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "282583",
+      "jugador": "Jan Paul van Hecke",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "104943",
+      "jugador": "Andy Robertson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "268533",
+      "jugador": "Pedro Porro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "346820",
+      "jugador": "Mateus Fernandes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "328050",
+      "jugador": "Archie Gray",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "261047",
+      "jugador": "Sandro Tonali",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "303745",
+      "jugador": "Omar Marmoush",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "325042",
+      "jugador": "Mathys Tel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "266599",
+      "jugador": "Mohammed Kudus",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "215772",
+      "jugador": "Rodrigo Bentancur",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "6327",
+      "jugador": "Ben Davies",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "194450",
+      "jugador": "James Maddison",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "395939",
+      "jugador": "Luca Williams-Barnett",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "272695",
+      "jugador": "Dejan Kulusevski",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "266696",
+      "jugador": "Conor Gallagher",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "359158",
+      "jugador": "Luca Gunter",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "233945",
+      "jugador": "Marcos Senesi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878758",
+      "liga": "E0",
+      "fecha_utc": "2026-11-07T12:30:00+00:00",
+      "local": "Leeds United",
+      "visitante": "Tottenham Hotspur",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "194115",
+      "jugador": "Dominic Solanke",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
       "event_id": "401882809",
       "liga": "SP1",
       "fecha_utc": "2026-11-06T20:00:00+00:00",
@@ -17108,6 +20768,6 @@
   "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 20,
-  "jugadores_con_algun_dato": 855
+  "partidos_archivados": 24,
+  "jugadores_con_algun_dato": 1038
 }

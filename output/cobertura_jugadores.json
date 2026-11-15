@@ -1,10 +1,10 @@
 {
   "version": "players-readiness-0.8",
-  "fecha_utc": "2026-11-15T14:45:02.421413+00:00",
-  "eventos_distintos": 20,
-  "registros_totales": 855,
-  "participaciones_confirmadas": 627,
-  "jugadores_diferentes": 627,
+  "fecha_utc": "2026-11-15T22:51:47.453277+00:00",
+  "eventos_distintos": 24,
+  "registros_totales": 1038,
+  "participaciones_confirmadas": 755,
+  "jugadores_diferentes": 755,
   "jugadores_con_muestra_inicial": 0,
   "jugadores": [
     {

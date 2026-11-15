@@ -1,6 +1,6 @@
 {
   "version": "dossier-0.8",
-  "calculado_utc": "2026-11-15T14:45:02.421413+00:00",
+  "calculado_utc": "2026-11-15T22:51:47.453277+00:00",
   "partidos": [
     {
       "version": "dossier-0.8",
@@ -9,7 +9,7 @@
       "liga": "LaLiga",
       "local": "Athletic Club",
       "visitante": "Espanyol",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45144",
@@ -255,7 +255,7 @@
       "liga": "LaLiga",
       "local": "Rayo Vallecano",
       "visitante": "Valencia",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48194",
@@ -503,7 +503,7 @@
       "liga": "LaLiga",
       "local": "Sevilla",
       "visitante": "Real Betis",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32054",
@@ -754,7 +754,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Celta Vigo",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.59456",
@@ -1006,7 +1006,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Villarreal",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.70177",
@@ -1257,7 +1257,7 @@
       "liga": "LaLiga",
       "local": "Osasuna",
       "visitante": "Málaga",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51510",
@@ -1464,7 +1464,7 @@
       "liga": "LaLiga",
       "local": "Getafe",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.31732",
@@ -1711,7 +1711,7 @@
       "liga": "LaLiga",
       "local": "Levante",
       "visitante": "Elche",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43604",
@@ -1931,7 +1931,7 @@
       "liga": "LaLiga",
       "local": "Real Betis",
       "visitante": "Rayo Vallecano",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58329",
@@ -2173,7 +2173,7 @@
       "liga": "LaLiga",
       "local": "Málaga",
       "visitante": "Athletic Club",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37275",
@@ -2379,7 +2379,7 @@
       "liga": "LaLiga",
       "local": "Elche",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.29448",
@@ -2608,7 +2608,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Alavés",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.72073",
@@ -2845,304 +2845,78 @@
     },
     {
       "version": "dossier-0.8",
-      "id": "SP2|202611151515|granada|las palmas",
-      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "id": "SP2|202611161930|albacete|celta b",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
       "liga": "Segunda División",
-      "local": "Granada",
-      "visitante": "Las Palmas",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
-        "local": "0.42482",
-        "empate": "0.24758",
-        "visitante": "0.32759",
-        "mas_2_5": "0.49065"
+        "local": "0.45774",
+        "empate": "0.23955",
+        "visitante": "0.30271",
+        "mas_2_5": "0.53488"
       },
       "goles_estimados": {
-        "local": "1.454",
-        "visitante": "1.182"
+        "local": "1.585",
+        "visitante": "1.233"
       },
       "equipos": {
         "local": {
-          "clasificacion": null,
-          "reciente": {
-            "partidos": 5,
-            "v": 5,
-            "e": 0,
-            "d": 0,
-            "goles_favor": 10,
-            "goles_contra": 3,
-            "puntos": 15,
-            "dias_descanso": 14,
-            "ultimos": [
-              {
-                "fecha": "2026-11-01",
-                "local": "Eldense",
-                "visitante": "Granada",
-                "marcador": "0-2",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-23",
-                "local": "Granada",
-                "visitante": "Valladolid",
-                "marcador": "2-1",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-18",
-                "local": "Granada",
-                "visitante": "Cadiz",
-                "marcador": "2-0",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-12",
-                "local": "Burgos",
-                "visitante": "Granada",
-                "marcador": "0-1",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-04",
-                "local": "Sociedad B",
-                "visitante": "Granada",
-                "marcador": "2-3",
-                "resultado": "V"
-              }
-            ],
-            "medias": {
-              "tiros": 11.8,
-              "tiros_puerta": 4.0,
-              "corners": 3.2,
-              "amarillas": 1.4,
-              "rojas": 0.0
-            }
-          }
-        },
-        "visitante": {
           "clasificacion": null,
           "reciente": {
             "partidos": 5,
             "v": 3,
             "e": 0,
             "d": 2,
-            "goles_favor": 7,
-            "goles_contra": 8,
+            "goles_favor": 8,
+            "goles_contra": 9,
             "puntos": 9,
-            "dias_descanso": 6,
+            "dias_descanso": 9,
             "ultimos": [
               {
-                "fecha": "2026-11-09",
-                "local": "Las Palmas",
+                "fecha": "2026-11-07",
+                "local": "Leganes",
+                "visitante": "Albacete",
+                "marcador": "1-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Albacete",
+                "visitante": "Sabadell",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Albacete",
                 "visitante": "Eldense",
                 "marcador": "2-0",
                 "resultado": "V"
               },
               {
-                "fecha": "2026-11-02",
-                "local": "Oviedo",
-                "visitante": "Las Palmas",
-                "marcador": "2-3",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-24",
-                "local": "Las Palmas",
-                "visitante": "Sociedad B",
-                "marcador": "1-0",
-                "resultado": "V"
-              },
-              {
                 "fecha": "2026-10-17",
-                "local": "Las Palmas",
-                "visitante": "Castellon",
-                "marcador": "0-3",
+                "local": "Sp Gijon",
+                "visitante": "Albacete",
+                "marcador": "2-1",
                 "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-11",
-                "local": "Mallorca",
-                "visitante": "Las Palmas",
-                "marcador": "3-1",
-                "resultado": "D"
-              }
-            ],
-            "medias": {
-              "tiros": 8.8,
-              "tiros_puerta": 3.4,
-              "corners": 4.2,
-              "amarillas": 3.4,
-              "rojas": 0.0
-            }
-          }
-        }
-      },
-      "cara_a_cara": [
-        {
-          "fecha": "2026-04-02",
-          "local": "Las Palmas",
-          "visitante": "Granada",
-          "marcador": "2-0"
-        },
-        {
-          "fecha": "2025-10-10",
-          "local": "Granada",
-          "visitante": "Las Palmas",
-          "marcador": "0-0"
-        }
-      ],
-      "calidad": {
-        "equipos": {
-          "local": {
-            "todos": 96,
-            "recinto": 47,
-            "identificado": true
-          },
-          "visitante": {
-            "todos": 55,
-            "recinto": 27,
-            "identificado": true
-          }
-        },
-        "motivos": [],
-        "suficiente_modelo_actual": true
-      },
-      "top_3": [
-        {
-          "mercado": "Goles equipo",
-          "seleccion": "Granada: menos de 2,5 goles",
-          "familia": "goles_local",
-          "probabilidad": 0.820302,
-          "cuota_justa": 1.219,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Goles esperados del equipo",
-          "posicion": 1
-        },
-        {
-          "mercado": "Tiros totales",
-          "seleccion": "Más de 19,5 tiros totales",
-          "familia": "shots",
-          "probabilidad": 0.792633,
-          "cuota_justa": 1.262,
-          "origen": "Modelo de conteos con auditoría temporal",
-          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
-          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
-          "muestra_local": 25,
-          "muestra_visitante": 25,
-          "metrica": "shots",
-          "linea": 19.5,
-          "direccion": "mas",
-          "posicion": 2
-        },
-        {
-          "mercado": "Hándicap 2 vías (medio gol)",
-          "seleccion": "Las Palmas +1,5",
-          "familia": "resultado",
-          "probabilidad": 0.789675,
-          "cuota_justa": 1.266,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
-          "posicion": 3
-        }
-      ],
-      "conteos_aprobados_retro": 18,
-      "valor_comparado": [],
-      "xg": {
-        "estado": "NO_DISPONIBLE_EN_CSV",
-        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
-      },
-      "ml": null,
-      "mercado_referencias": [
-        {
-          "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-15T14:45:46+00:00",
-          "estado": "Referencia de mercado sin margen, no cuota ofrecida"
-        }
-      ],
-      "limitaciones": [
-        "xG auténtico no integrado en las probabilidades",
-        "Lesiones y alineaciones no incorporadas al predictor",
-        "No se ha demostrado ventaja frente a cuotas reales"
-      ],
-      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
-    },
-    {
-      "version": "dossier-0.8",
-      "id": "SP2|202611151730|eibar|cadiz",
-      "fecha_utc": "2026-11-15T17:30:00+00:00",
-      "liga": "Segunda División",
-      "local": "Eibar",
-      "visitante": "Cádiz",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
-      "modelo": "poisson70-elo30-0.2",
-      "probabilidades": {
-        "local": "0.59133",
-        "empate": "0.22919",
-        "visitante": "0.17948",
-        "mas_2_5": "0.49796"
-      },
-      "goles_estimados": {
-        "local": "1.765",
-        "visitante": "0.901"
-      },
-      "equipos": {
-        "local": {
-          "clasificacion": null,
-          "reciente": {
-            "partidos": 5,
-            "v": 1,
-            "e": 2,
-            "d": 2,
-            "goles_favor": 6,
-            "goles_contra": 8,
-            "puntos": 5,
-            "dias_descanso": 15,
-            "ultimos": [
-              {
-                "fecha": "2026-10-31",
-                "local": "Eibar",
-                "visitante": "Almeria",
-                "marcador": "1-1",
-                "resultado": "E"
-              },
-              {
-                "fecha": "2026-10-24",
-                "local": "Cordoba",
-                "visitante": "Eibar",
-                "marcador": "2-0",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-17",
-                "local": "Eibar",
-                "visitante": "Mallorca",
-                "marcador": "1-1",
-                "resultado": "E"
               },
               {
                 "fecha": "2026-10-12",
-                "local": "Oviedo",
-                "visitante": "Eibar",
-                "marcador": "3-1",
+                "local": "Valladolid",
+                "visitante": "Albacete",
+                "marcador": "5-0",
                 "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-03",
-                "local": "Albacete",
-                "visitante": "Eibar",
-                "marcador": "1-3",
-                "resultado": "V"
               }
             ],
             "medias": {
-              "tiros": 14.6,
-              "tiros_puerta": 5.2,
-              "corners": 3.4,
-              "amarillas": 2.0,
-              "rojas": 0.0
+              "tiros": 10.8,
+              "tiros_puerta": 2.8,
+              "corners": 6.4,
+              "amarillas": 3.4,
+              "rojas": 0.2
             }
           }
         },
@@ -3151,95 +2925,70 @@
           "reciente": {
             "partidos": 5,
             "v": 1,
-            "e": 0,
-            "d": 4,
-            "goles_favor": 5,
-            "goles_contra": 8,
-            "puntos": 3,
-            "dias_descanso": 8,
+            "e": 2,
+            "d": 2,
+            "goles_favor": 9,
+            "goles_contra": 11,
+            "puntos": 5,
+            "dias_descanso": 9,
             "ultimos": [
               {
                 "fecha": "2026-11-07",
-                "local": "Cadiz",
-                "visitante": "Oviedo",
-                "marcador": "1-2",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-11-02",
-                "local": "Mallorca",
-                "visitante": "Cadiz",
+                "local": "Burgos",
+                "visitante": "Celta B",
                 "marcador": "2-1",
                 "resultado": "D"
               },
               {
-                "fecha": "2026-10-25",
-                "local": "Cadiz",
-                "visitante": "Ceuta",
-                "marcador": "3-1",
+                "fecha": "2026-10-31",
+                "local": "Celta B",
+                "visitante": "Cordoba",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Girona",
+                "visitante": "Celta B",
+                "marcador": "5-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Celta B",
+                "visitante": "Tenerife",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Celta B",
+                "visitante": "Sociedad B",
+                "marcador": "4-1",
                 "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-18",
-                "local": "Granada",
-                "visitante": "Cadiz",
-                "marcador": "2-0",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-11",
-                "local": "Cadiz",
-                "visitante": "Sp Gijon",
-                "marcador": "0-1",
-                "resultado": "D"
               }
             ],
             "medias": {
-              "tiros": 10.2,
-              "tiros_puerta": 2.8,
-              "corners": 5.2,
-              "amarillas": 2.8,
-              "rojas": 0.0
+              "tiros": 11.0,
+              "tiros_puerta": 4.6,
+              "corners": 2.4,
+              "amarillas": 3.2,
+              "rojas": 0.2
             }
           }
         }
       },
-      "cara_a_cara": [
-        {
-          "fecha": "2026-03-01",
-          "local": "Eibar",
-          "visitante": "Cadiz",
-          "marcador": "3-1"
-        },
-        {
-          "fecha": "2025-09-13",
-          "local": "Cadiz",
-          "visitante": "Eibar",
-          "marcador": "1-0"
-        },
-        {
-          "fecha": "2025-03-31",
-          "local": "Cadiz",
-          "visitante": "Eibar",
-          "marcador": "0-0"
-        },
-        {
-          "fecha": "2024-10-23",
-          "local": "Eibar",
-          "visitante": "Cadiz",
-          "marcador": "1-0"
-        }
-      ],
+      "cara_a_cara": [],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 138,
+            "todos": 139,
             "recinto": 69,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
-            "recinto": 47,
+            "todos": 13,
+            "recinto": 6,
             "identificado": true
           }
         },
@@ -3251,241 +3000,33 @@
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
           "familia": "total_goles",
-          "probabilidad": 0.867926,
-          "cuota_justa": 1.152,
+          "probabilidad": 0.844862,
+          "cuota_justa": 1.184,
           "origen": "Poisson de goles",
           "nivel": "MODELO_NO_CALIBRADO",
           "motivo": "Distribución conjunta de goles del modelo",
           "posicion": 1
         },
         {
-          "mercado": "Hándicap 2 vías (medio gol)",
-          "seleccion": "Cádiz +2,5",
-          "familia": "resultado",
-          "probabilidad": 0.850548,
-          "cuota_justa": 1.176,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
-          "posicion": 2
-        },
-        {
           "mercado": "Goles equipo",
-          "seleccion": "Eibar: más de 0,5 goles",
+          "seleccion": "Albacete: más de 0,5 goles",
           "familia": "goles_local",
-          "probabilidad": 0.828813,
-          "cuota_justa": 1.207,
+          "probabilidad": 0.795052,
+          "cuota_justa": 1.258,
           "origen": "Poisson de goles",
           "nivel": "MODELO_NO_CALIBRADO",
           "motivo": "Goles esperados del equipo",
-          "posicion": 3
-        }
-      ],
-      "conteos_aprobados_retro": 18,
-      "valor_comparado": [],
-      "xg": {
-        "estado": "NO_DISPONIBLE_EN_CSV",
-        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
-      },
-      "ml": null,
-      "mercado_referencias": [
-        {
-          "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-15T14:45:38+00:00",
-          "estado": "Referencia de mercado sin margen, no cuota ofrecida"
-        }
-      ],
-      "limitaciones": [
-        "xG auténtico no integrado en las probabilidades",
-        "Lesiones y alineaciones no incorporadas al predictor",
-        "No se ha demostrado ventaja frente a cuotas reales"
-      ],
-      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
-    },
-    {
-      "version": "dossier-0.8",
-      "id": "SP2|202611151730|eldense|sabadell",
-      "fecha_utc": "2026-11-15T17:30:00+00:00",
-      "liga": "Segunda División",
-      "local": "Eldense",
-      "visitante": "CD Sabadell",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
-      "modelo": "poisson70-elo30-0.2",
-      "probabilidades": {
-        "local": "0.37497",
-        "empate": "0.27169",
-        "visitante": "0.35334",
-        "mas_2_5": "0.36937"
-      },
-      "goles_estimados": {
-        "local": "1.124",
-        "visitante": "1.047"
-      },
-      "equipos": {
-        "local": {
-          "clasificacion": null,
-          "reciente": {
-            "partidos": 5,
-            "v": 2,
-            "e": 0,
-            "d": 3,
-            "goles_favor": 5,
-            "goles_contra": 9,
-            "puntos": 6,
-            "dias_descanso": 6,
-            "ultimos": [
-              {
-                "fecha": "2026-11-09",
-                "local": "Las Palmas",
-                "visitante": "Eldense",
-                "marcador": "2-0",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-11-01",
-                "local": "Eldense",
-                "visitante": "Granada",
-                "marcador": "0-2",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-25",
-                "local": "Albacete",
-                "visitante": "Eldense",
-                "marcador": "2-0",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-18",
-                "local": "Valladolid",
-                "visitante": "Eldense",
-                "marcador": "2-3",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-10",
-                "local": "Eldense",
-                "visitante": "Cordoba",
-                "marcador": "2-1",
-                "resultado": "V"
-              }
-            ],
-            "medias": {
-              "tiros": 11.4,
-              "tiros_puerta": 3.4,
-              "corners": 3.6,
-              "amarillas": 4.0,
-              "rojas": 0.0
-            }
-          }
-        },
-        "visitante": {
-          "clasificacion": null,
-          "reciente": {
-            "partidos": 5,
-            "v": 1,
-            "e": 2,
-            "d": 2,
-            "goles_favor": 4,
-            "goles_contra": 5,
-            "puntos": 5,
-            "dias_descanso": 6,
-            "ultimos": [
-              {
-                "fecha": "2026-11-09",
-                "local": "Sabadell",
-                "visitante": "Sociedad B",
-                "marcador": "0-0",
-                "resultado": "E"
-              },
-              {
-                "fecha": "2026-10-31",
-                "local": "Albacete",
-                "visitante": "Sabadell",
-                "marcador": "2-1",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-25",
-                "local": "Sabadell",
-                "visitante": "Tenerife",
-                "marcador": "1-1",
-                "resultado": "E"
-              },
-              {
-                "fecha": "2026-10-18",
-                "local": "Burgos",
-                "visitante": "Sabadell",
-                "marcador": "1-0",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-10",
-                "local": "Ceuta",
-                "visitante": "Sabadell",
-                "marcador": "1-2",
-                "resultado": "V"
-              }
-            ],
-            "medias": {
-              "tiros": 15.2,
-              "tiros_puerta": 3.4,
-              "corners": 4.2,
-              "amarillas": 2.8,
-              "rojas": 0.2
-            }
-          }
-        }
-      },
-      "cara_a_cara": [],
-      "calidad": {
-        "equipos": {
-          "local": {
-            "todos": 97,
-            "recinto": 48,
-            "identificado": true
-          },
-          "visitante": {
-            "todos": 13,
-            "recinto": 7,
-            "identificado": true
-          }
-        },
-        "motivos": [],
-        "suficiente_modelo_actual": true
-      },
-      "top_3": [
-        {
-          "mercado": "Hándicap 2 vías (medio gol)",
-          "seleccion": "CD Sabadell +1,5",
-          "familia": "resultado",
-          "probabilidad": 0.847174,
-          "cuota_justa": 1.18,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
-          "posicion": 1
-        },
-        {
-          "mercado": "Total goles",
-          "seleccion": "Menos de 3,5 goles",
-          "familia": "total_goles",
-          "probabilidad": 0.825024,
-          "cuota_justa": 1.212,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Distribución conjunta de goles del modelo",
           "posicion": 2
         },
         {
-          "mercado": "Goles equipo",
-          "seleccion": "CD Sabadell: menos de 1,5 goles",
-          "familia": "goles_visitante",
-          "probabilidad": 0.718475,
-          "cuota_justa": 1.392,
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "RC Celta Fortuna +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.767263,
+          "cuota_justa": 1.303,
           "origen": "Poisson de goles",
           "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Goles esperados del equipo",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
           "posicion": 3
         }
       ],
@@ -3499,7 +3040,7 @@
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-15T14:45:46+00:00",
+          "fecha": "2026-11-15T22:38:22+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -3517,7 +3058,7 @@
       "liga": "Segunda División",
       "local": "FC Andorra",
       "visitante": "Leganés",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48133",
@@ -3749,7 +3290,7 @@
       "liga": "Segunda División",
       "local": "CD Sabadell",
       "visitante": "Granada",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44655",
@@ -3951,7 +3492,7 @@
       "liga": "Segunda División",
       "local": "Real Sociedad II",
       "visitante": "Cádiz",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44987",
@@ -4171,7 +3712,7 @@
       "liga": "Segunda División",
       "local": "Castellón",
       "visitante": "Eldense",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65416",
@@ -4391,7 +3932,7 @@
       "liga": "Segunda División",
       "local": "Tenerife",
       "visitante": "Mallorca",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37750",
@@ -4593,7 +4134,7 @@
       "liga": "Segunda División",
       "local": "Córdoba",
       "visitante": "Real Oviedo",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35031",
@@ -4813,7 +4354,7 @@
       "liga": "Segunda División",
       "local": "Sporting Gijón",
       "visitante": "Las Palmas",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43591",
@@ -5033,7 +4574,7 @@
       "liga": "Segunda División",
       "local": "Girona",
       "visitante": "Eibar",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45200",
@@ -5230,12 +4771,214 @@
     },
     {
       "version": "dossier-0.8",
+      "id": "SP2|202611221730|celta b|valladolid",
+      "fecha_utc": "2026-11-22T17:30:00+00:00",
+      "liga": "Segunda División",
+      "local": "RC Celta Fortuna",
+      "visitante": "Real Valladolid",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.47621",
+        "empate": "0.22542",
+        "visitante": "0.29837",
+        "mas_2_5": "0.62159"
+      },
+      "goles_estimados": {
+        "local": "1.840",
+        "visitante": "1.367"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 2,
+            "d": 2,
+            "goles_favor": 9,
+            "goles_contra": 11,
+            "puntos": 5,
+            "dias_descanso": 15,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Burgos",
+                "visitante": "Celta B",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Celta B",
+                "visitante": "Cordoba",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Girona",
+                "visitante": "Celta B",
+                "marcador": "5-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Celta B",
+                "visitante": "Tenerife",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Celta B",
+                "visitante": "Sociedad B",
+                "marcador": "4-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 11.0,
+              "tiros_puerta": 4.6,
+              "corners": 2.4,
+              "amarillas": 3.2,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 0,
+            "d": 2,
+            "goles_favor": 14,
+            "goles_contra": 9,
+            "puntos": 9,
+            "dias_descanso": 14,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Sp Gijon",
+                "visitante": "Valladolid",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Valladolid",
+                "visitante": "Leganes",
+                "marcador": "4-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-23",
+                "local": "Granada",
+                "visitante": "Valladolid",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Valladolid",
+                "visitante": "Eldense",
+                "marcador": "2-3",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-12",
+                "local": "Valladolid",
+                "visitante": "Albacete",
+                "marcador": "5-0",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 16.2,
+              "tiros_puerta": 7.2,
+              "corners": 7.2,
+              "amarillas": 2.8,
+              "rojas": 0.4
+            }
+          }
+        }
+      },
+      "cara_a_cara": [],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 13,
+            "recinto": 7,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 97,
+            "recinto": 49,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Real Valladolid: menos de 2,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.841415,
+          "cuota_justa": 1.188,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "RC Celta Fortuna: más de 0,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.841183,
+          "cuota_justa": 1.189,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.82971,
+          "cuota_justa": 1.205,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 0,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
       "id": "SP2|202611222000|burgos|albacete",
       "fecha_utc": "2026-11-22T20:00:00+00:00",
       "liga": "Segunda División",
       "local": "Burgos",
       "visitante": "Albacete",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47857",
@@ -5473,7 +5216,7 @@
       "liga": "Segunda División",
       "local": "Ceuta",
       "visitante": "Almería",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.29529",
@@ -5693,7 +5436,7 @@
       "liga": "Segunda División",
       "local": "Leganés",
       "visitante": "CD Sabadell",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.36818",
@@ -5895,7 +5638,7 @@
       "liga": "Segunda División",
       "local": "Las Palmas",
       "visitante": "FC Andorra",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51707",
@@ -6115,7 +5858,7 @@
       "liga": "Segunda División",
       "local": "Albacete",
       "visitante": "Tenerife",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50596",
@@ -6347,7 +6090,7 @@
       "liga": "Segunda División",
       "local": "Eldense",
       "visitante": "Girona",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.33278",
@@ -6549,7 +6292,7 @@
       "liga": "Segunda División",
       "local": "Eibar",
       "visitante": "Burgos",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43151",
@@ -6782,7 +6525,7 @@
       "liga": "Segunda División",
       "local": "Real Valladolid",
       "visitante": "Real Sociedad II",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45086",
@@ -6997,7 +6740,7 @@
       "liga": "Premier League",
       "local": "Manchester City",
       "visitante": "Fulham",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.64740",
@@ -7239,7 +6982,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Nottingham Forest",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46956",
@@ -7481,7 +7224,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Sunderland",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.53443",
@@ -7705,7 +7448,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Leeds United",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49125",
@@ -7933,7 +7676,7 @@
       "liga": "Premier League",
       "local": "Coventry City",
       "visitante": "Crystal Palace",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43123",
@@ -8140,7 +7883,7 @@
       "liga": "Premier League",
       "local": "Tottenham Hotspur",
       "visitante": "Ipswich Town",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.42218",
@@ -8360,7 +8103,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Arsenal",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.22569",
@@ -8602,7 +8345,7 @@
       "liga": "Premier League",
       "local": "Hull City",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35505",
@@ -8813,7 +8556,7 @@
       "liga": "Premier League",
       "local": "Liverpool",
       "visitante": "Manchester United",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44288",
@@ -9055,7 +8798,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Everton",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45209",
@@ -9301,7 +9044,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Chelsea",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30059",
@@ -9543,7 +9286,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Coventry City",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54272",
@@ -9749,7 +9492,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Brentford",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50495",
@@ -9986,7 +9729,7 @@
       "liga": "Premier League",
       "local": "Ipswich Town",
       "visitante": "Aston Villa",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20387",
@@ -10205,7 +9948,7 @@
       "liga": "Bundesliga",
       "local": "Bayern Munich",
       "visitante": "FC Cologne",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.80961",
@@ -10446,7 +10189,7 @@
       "liga": "Bundesliga",
       "local": "1. FC Union Berlin",
       "visitante": "RB Leipzig",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35503",
@@ -10688,7 +10431,7 @@
       "liga": "Bundesliga",
       "local": "Borussia Mönchengladbach",
       "visitante": "Borussia Dortmund",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20101",
@@ -10930,7 +10673,7 @@
       "liga": "Bundesliga",
       "local": "Eintracht Frankfurt",
       "visitante": "TSG Hoffenheim",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45307",
@@ -11181,7 +10924,7 @@
       "liga": "Bundesliga",
       "local": "FC Augsburg",
       "visitante": "Mainz",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37070",
@@ -11424,7 +11167,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Hamburg SV",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47812",
@@ -11653,7 +11396,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Borussia Mönchengladbach",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47390",
@@ -11900,7 +11643,7 @@
       "liga": "Bundesliga",
       "local": "Hamburg SV",
       "visitante": "Bayern Munich",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.14138",
@@ -12129,7 +11872,7 @@
       "liga": "Bundesliga",
       "local": "Mainz",
       "visitante": "1. FC Union Berlin",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45784",
@@ -12362,7 +12105,7 @@
       "liga": "Bundesliga",
       "local": "SC Paderborn 07",
       "visitante": "Schalke 04",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45475",
@@ -12564,7 +12307,7 @@
       "liga": "Bundesliga",
       "local": "VfB Stuttgart",
       "visitante": "Eintracht Frankfurt",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51530",
@@ -12805,7 +12548,7 @@
       "liga": "Serie A",
       "local": "Como",
       "visitante": "Cagliari",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.63361",
@@ -13045,7 +12788,7 @@
       "liga": "Serie A",
       "local": "Lazio",
       "visitante": "Lecce",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54552",
@@ -13287,7 +13030,7 @@
       "liga": "Serie A",
       "local": "Parma",
       "visitante": "AS Roma",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.18836",
@@ -13523,7 +13266,7 @@
       "liga": "Serie A",
       "local": "Napoli",
       "visitante": "Torino",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.61871",
@@ -13765,7 +13508,7 @@
       "liga": "Serie A",
       "local": "Juventus",
       "visitante": "Venezia",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.69628",
@@ -13989,7 +13732,7 @@
       "liga": "Serie A",
       "local": "Bologna",
       "visitante": "Udinese",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41092",
@@ -14231,7 +13974,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Genoa",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.38650",
@@ -14463,7 +14206,7 @@
       "liga": "Serie A",
       "local": "AC Milan",
       "visitante": "Frosinone",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.61448",
@@ -14691,7 +14434,7 @@
       "liga": "Serie A",
       "local": "Atalanta",
       "visitante": "Internazionale",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26766",
@@ -14933,7 +14676,7 @@
       "liga": "Serie A",
       "local": "Monza",
       "visitante": "Fiorentina",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.28331",
@@ -15165,7 +14908,7 @@
       "liga": "Serie A",
       "local": "Venezia",
       "visitante": "Bologna",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23178",
@@ -15389,7 +15132,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Parma",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49351",
@@ -15595,7 +15338,7 @@
       "liga": "Serie A",
       "local": "Torino",
       "visitante": "Lazio",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26098",
@@ -15832,7 +15575,7 @@
       "liga": "Serie A",
       "local": "Internazionale",
       "visitante": "Genoa",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.70334",
@@ -16069,7 +15812,7 @@
       "liga": "Ligue 1",
       "local": "Troyes",
       "visitante": "Le Havre AC",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41263",
@@ -16276,7 +16019,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Paris Saint-Germain",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.22030",
@@ -16522,7 +16265,7 @@
       "liga": "Ligue 1",
       "local": "AS Monaco",
       "visitante": "AJ Auxerre",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.60394",
@@ -16763,7 +16506,7 @@
       "liga": "Ligue 1",
       "local": "Lens",
       "visitante": "Toulouse",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49343",
@@ -17001,7 +16744,7 @@
       "liga": "Ligue 1",
       "local": "Lille",
       "visitante": "Lyon",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46034",
@@ -17247,7 +16990,7 @@
       "liga": "Ligue 1",
       "local": "Strasbourg",
       "visitante": "Brest",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57647",
@@ -17494,7 +17237,7 @@
       "liga": "Ligue 1",
       "local": "Paris FC",
       "visitante": "Angers",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58075",
@@ -17718,7 +17461,7 @@
       "liga": "Ligue 1",
       "local": "Lorient",
       "visitante": "Stade Rennais",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44530",
@@ -17958,7 +17701,7 @@
       "liga": "Ligue 1",
       "local": "Marseille",
       "visitante": "Le Mans",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.64687",
@@ -18169,7 +17912,7 @@
       "liga": "Ligue 1",
       "local": "Brest",
       "visitante": "Paris FC",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41703",
@@ -18397,7 +18140,7 @@
       "liga": "Ligue 1",
       "local": "Angers",
       "visitante": "Lens",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23207",
@@ -18624,7 +18367,7 @@
       "liga": "Ligue 1",
       "local": "Le Havre AC",
       "visitante": "Strasbourg",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30519",
@@ -18857,7 +18600,7 @@
       "liga": "Ligue 1",
       "local": "Le Mans",
       "visitante": "Lille",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26003",
@@ -19063,7 +18806,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Troyes",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47106",
@@ -19269,7 +19012,7 @@
       "liga": "Ligue 1",
       "local": "Paris Saint-Germain",
       "visitante": "Lorient",
-      "creado_utc": "2026-11-15T14:45:02.421413+00:00",
+      "creado_utc": "2026-11-15T22:51:47.453277+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65266",

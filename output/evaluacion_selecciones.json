@@ -1,10 +1,10 @@
 {
   "version": "market-prospective-0.8",
-  "calculado_utc": "2026-11-15T14:45:02.421413+00:00",
-  "registradas": 258,
+  "calculado_utc": "2026-11-15T22:51:47.453277+00:00",
+  "registradas": 264,
   "finalizadas": 0,
-  "pendientes": 258,
-  "sin_resultado": 0,
+  "pendientes": 252,
+  "sin_resultado": 12,
   "sin_estadistica": 0,
   "excluidas": 0,
   "global": {
