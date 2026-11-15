@@ -1,14 +1,14 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-15T22:51:47.453277+00:00",
-  "registradas": 4,
+  "generado_utc": "2026-11-15T22:55:44.976336+00:00",
+  "registradas": 5,
   "finalizadas": 0,
-  "pendientes": 0,
+  "pendientes": 1,
   "resultados_no_disponibles": 4,
   "estadisticas_no_disponibles": 0,
   "excluidas": 0,
   "global": {
-    "registradas": 4,
+    "registradas": 5,
     "evaluadas": 0,
     "aciertos": 0,
     "acierto_pct": null,
@@ -19,7 +19,7 @@
   },
   "por_tipo_cuota": {
     "INDICATIVA_NO_VERIFICADA": {
-      "registradas": 4,
+      "registradas": 5,
       "evaluadas": 0,
       "aciertos": 0,
       "acierto_pct": null,
@@ -41,7 +41,7 @@
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Doble oportunidad": {
-      "registradas": 1,
+      "registradas": 2,
       "evaluadas": 0,
       "aciertos": 0,
       "acierto_pct": null,
@@ -53,7 +53,7 @@
   },
   "por_liga": {
     "Segunda División": {
-      "registradas": 4,
+      "registradas": 5,
       "evaluadas": 0,
       "aciertos": 0,
       "acierto_pct": null,
