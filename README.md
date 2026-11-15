@@ -3,7 +3,7 @@
 Sistema de análisis de fútbol alojado en GitHub Actions, sin instalaciones locales y sin apuestas automáticas. Todo el proyecto es público. **No garantiza ganancias.**
 
 ## Abrir los resultados
-- [Informe de los cinco campeonatos](output/informe.md): LaLiga, Premier League, Bundesliga, Serie A y Ligue 1; pronósticos para los siguientes 14 días.
+- [Informe de las seis competiciones](output/informe.md): LaLiga, Segunda División, Premier League, Bundesliga, Serie A y Ligue 1; pronósticos para los siguientes 14 días.
 - [Pronósticos del modelo Poisson/Elo](output/predicciones.csv).
 - [Backtest retrospectivo Poisson/Elo](output/backtest_resumen.json) y [detalle](output/backtest.csv).
 - [Contexto Machina Sports](output/contexto_machina.json): clasificaciones y, en Premier, bajas reportadas (NO necesariamente confirmadas).
@@ -108,3 +108,12 @@ Las probabilidades oficiales siguen utilizando el consenso Poisson/Elo 70/30 has
 
 Consulta [las notas sobre licencias y límites de uso](docs/FUENTES_Y_DERECHOS.md).
 La gratuidad de los datos no implica autorización ilimitada para bots, IA o uso comercial.
+
+
+## LaLiga Hypermotion — Segunda División (SP2)
+Segunda División se ha integrado como sexta competición con CSV históricos de
+Football-Data y calendario de ESPN (código `esp.2`). Los cálculos y las
+auditorías de mercado se separan de los de Primera; no se habilitan
+automáticamente córners, tiros ni tarjetas si su validación no es suficiente.
+Las cuotas externas, xG auténtico y alineaciones siguen sujetos a cobertura.
+[Guía de la integración](docs/SEGUNDA_DIVISION.md).
