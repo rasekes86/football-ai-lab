@@ -1,9 +1,9 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-15T00:20:20.113210+00:00
+**UTC:** 2026-11-15T00:32:45.928110+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 83
-**Descartados por insuficiencia de datos:** 12
+**Próximos partidos con pronóstico:** 86
+**Descartados por insuficiencia de datos:** 9
 **Históricos evaluados:** 0
 **Brier 1X2 medio:** pendiente
 
@@ -24,7 +24,9 @@
 | Segunda División | 2026-11-15T13:00 | Tenerife - Ceuta | 50.6% | 24.7% | 24.7% |
 | Segunda División | 2026-11-15T15:15 | Granada - Las Palmas | 42.5% | 24.8% | 32.8% |
 | Segunda División | 2026-11-15T17:30 | Eibar - Cádiz | 59.1% | 22.9% | 17.9% |
+| Segunda División | 2026-11-15T17:30 | Eldense - CD Sabadell | 37.5% | 27.2% | 35.3% |
 | Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 48.1% | 24.5% | 27.4% |
+| Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.7% | 26.1% | 29.2% |
 | Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 45.0% | 24.8% | 30.2% |
 | Segunda División | 2026-11-21T17:30 | Castellón - Eldense | 65.4% | 20.6% | 14.0% |
 | Segunda División | 2026-11-21T20:00 | Tenerife - Mallorca | 37.8% | 30.8% | 31.5% |
@@ -33,6 +35,7 @@
 | Segunda División | 2026-11-22T17:30 | Girona - Eibar | 45.2% | 26.0% | 28.8% |
 | Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.9% | 28.5% | 23.6% |
 | Segunda División | 2026-11-23T19:30 | Ceuta - Almería | 29.5% | 24.8% | 45.6% |
+| Segunda División | 2026-11-27T19:30 | Leganés - CD Sabadell | 36.8% | 29.2% | 34.0% |
 | Segunda División | 2026-11-28T13:00 | Las Palmas - FC Andorra | 51.7% | 24.8% | 23.5% |
 | Segunda División | 2026-11-28T15:15 | Albacete - Tenerife | 50.6% | 24.4% | 25.0% |
 | Segunda División | 2026-11-28T15:15 | Eldense - Girona | 33.3% | 25.2% | 41.6% |
@@ -116,12 +119,12 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **3** / 83. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **3** / 86. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **83**
+Pronósticos archivados: **86**
 Resultados reales verificados: **0**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
@@ -132,11 +135,8 @@ Este apartado no incluye los backtests retrospectivos.
 - Alavés - Deportivo: historial insuficiente o nombre desconocido
 - Racing Santander - Real Sociedad: historial insuficiente o nombre desconocido
 - Levante - Racing Santander: historial insuficiente o nombre desconocido
-- Eldense - CD Sabadell: historial insuficiente o nombre desconocido
 - Albacete - RC Celta Fortuna: historial insuficiente o nombre desconocido
-- CD Sabadell - Granada: historial insuficiente o nombre desconocido
 - RC Celta Fortuna - Real Valladolid: historial insuficiente o nombre desconocido
-- Leganés - CD Sabadell: historial insuficiente o nombre desconocido
 - Bayer Leverkusen - SC Paderborn 07: historial insuficiente o nombre desconocido
 - SV Elversberg - SC Freiburg: historial insuficiente o nombre desconocido
 - Schalke 04 - VfB Stuttgart: historial insuficiente o nombre desconocido
@@ -152,7 +152,7 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 | Real Sociedad II – Cádiz | Hándicap 2 vías (medio gol) | Real Sociedad II +1,5 | 87.0% | 1.15 |
 | Castellón – Eldense | Goles equipo | Castellón: más de 0,5 goles | 86.9% | 1.15 |
 
-Seguimiento real del Top 3: **249** selecciones archivadas antes del partido; **0** resueltas.
+Seguimiento real del Top 3: **258** selecciones archivadas antes del partido; **0** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **36**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.

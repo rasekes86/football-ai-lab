@@ -685,7 +685,51 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T00:10:45+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T00:29:45+00:00)
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Eldense – CD Sabadell
+
+**Segunda División · 2026-11-15T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 37.5% | 27.2% | 35.3% | 36.9% |
+
+### Forma, descanso y estadísticas
+
+**Eldense:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · D · V · V
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 11,4, a puerta 3,4, córners 3,6, amarillas 4,0
+
+**CD Sabadell:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 15,2, a puerta 3,4, córners 4,2, amarillas 2,8
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **CD Sabadell +1,5** (Hándicap 2 vías (medio gol)): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 82.5% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 71.8% · cuota justa 1.39; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -729,6 +773,50 @@
 1. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 2. **FC Andorra: menos de 2,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **12: gana uno de los dos** (Doble oportunidad): 75.5% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## CD Sabadell – Granada
+
+**Segunda División · 2026-11-21T13:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 44.7% | 26.1% | 29.2% | 40.3% |
+
+### Forma, descanso y estadísticas
+
+**CD Sabadell:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 15,2, a puerta 3,4, córners 4,2, amarillas 2,8
+
+**Granada:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 20
+- Medias recientes: Tiros 11,8, a puerta 4,0, córners 3,2, amarillas 1,4
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **CD Sabadell: menos de 2,5 goles** (Goles equipo): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Granada +1,5** (Hándicap 2 vías (medio gol)): 79.2% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1090,6 +1178,50 @@
 1. **Almería: menos de 2,5 goles** (Goles equipo): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 21,5 tiros totales** (Tiros totales): 80.4% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 3. **Ceuta +1,5** (Hándicap 2 vías (medio gol)): 79.1% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Leganés – CD Sabadell
+
+**Segunda División · 2026-11-27T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 36.8% | 29.2% | 34.0% | 28.5% |
+
+### Forma, descanso y estadísticas
+
+**Leganés:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
+- Días desde el último partido liguero registrado: 20
+- Medias recientes: Tiros 13,4, a puerta 4,8, córners 5,2, amarillas 4,8
+
+**CD Sabadell:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
+- Días desde el último partido liguero registrado: 18
+- Medias recientes: Tiros 15,2, a puerta 3,4, córners 4,2, amarillas 2,8
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **CD Sabadell +1,5** (Hándicap 2 vías (medio gol)): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 0,5 goles** (Total goles): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada

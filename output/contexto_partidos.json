@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-15T00:20:20.113210+00:00",
+  "calculado_utc": "2026-11-15T00:32:45.928110+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -2824,21 +2824,57 @@
         }
       },
       "visitante_datos": {
-        "partidos": 0,
-        "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
+        "partidos": 5,
+        "v": 1,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 4,
+        "goles_contra": 5,
+        "puntos": 5,
+        "dias_descanso": 6,
+        "ultimos": [
+          {
+            "fecha": "2026-11-09",
+            "local": "Sabadell",
+            "visitante": "Sociedad B",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Albacete",
+            "visitante": "Sabadell",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Sabadell",
+            "visitante": "Tenerife",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Burgos",
+            "visitante": "Sabadell",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Ceuta",
+            "visitante": "Sabadell",
+            "marcador": "1-2",
+            "resultado": "V"
+          }
+        ],
         "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
+          "tiros": 15.2,
+          "tiros_puerta": 3.4,
+          "corners": 4.2,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [],
@@ -2850,15 +2886,13 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 13,
+            "recinto": 7,
+            "identificado": true
           }
         },
-        "motivos": [
-          "visitante: nombre o club sin histórico de primera división"
-        ],
-        "suficiente_modelo_actual": false
+        "motivos": [],
+        "suficiente_modelo_actual": true
       },
       "xg": {
         "estado": "NO_DISPONIBLE_EN_CSV",
@@ -3153,21 +3187,57 @@
       "version": "prepartido-history-0.5",
       "fecha_corte": "2026-11-21",
       "local_datos": {
-        "partidos": 0,
-        "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
+        "partidos": 5,
+        "v": 1,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 4,
+        "goles_contra": 5,
+        "puntos": 5,
+        "dias_descanso": 12,
+        "ultimos": [
+          {
+            "fecha": "2026-11-09",
+            "local": "Sabadell",
+            "visitante": "Sociedad B",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Albacete",
+            "visitante": "Sabadell",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Sabadell",
+            "visitante": "Tenerife",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Burgos",
+            "visitante": "Sabadell",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Ceuta",
+            "visitante": "Sabadell",
+            "marcador": "1-2",
+            "resultado": "V"
+          }
+        ],
         "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
+          "tiros": 15.2,
+          "tiros_puerta": 3.4,
+          "corners": 4.2,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "visitante_datos": {
@@ -3228,9 +3298,9 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 13,
+            "recinto": 6,
+            "identificado": true
           },
           "visitante": {
             "todos": 96,
@@ -3238,10 +3308,8 @@
             "identificado": true
           }
         },
-        "motivos": [
-          "local: nombre o club sin histórico de primera división"
-        ],
-        "suficiente_modelo_actual": false
+        "motivos": [],
+        "suficiente_modelo_actual": true
       },
       "xg": {
         "estado": "NO_DISPONIBLE_EN_CSV",
@@ -4655,21 +4723,57 @@
         }
       },
       "visitante_datos": {
-        "partidos": 0,
-        "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
+        "partidos": 5,
+        "v": 1,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 4,
+        "goles_contra": 5,
+        "puntos": 5,
+        "dias_descanso": 18,
+        "ultimos": [
+          {
+            "fecha": "2026-11-09",
+            "local": "Sabadell",
+            "visitante": "Sociedad B",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Albacete",
+            "visitante": "Sabadell",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Sabadell",
+            "visitante": "Tenerife",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Burgos",
+            "visitante": "Sabadell",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Ceuta",
+            "visitante": "Sabadell",
+            "marcador": "1-2",
+            "resultado": "V"
+          }
+        ],
         "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
+          "tiros": 15.2,
+          "tiros_puerta": 3.4,
+          "corners": 4.2,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [],
@@ -4681,15 +4785,13 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 13,
+            "recinto": 7,
+            "identificado": true
           }
         },
-        "motivos": [
-          "visitante: nombre o club sin histórico de primera división"
-        ],
-        "suficiente_modelo_actual": false
+        "motivos": [],
+        "suficiente_modelo_actual": true
       },
       "xg": {
         "estado": "NO_DISPONIBLE_EN_CSV",
