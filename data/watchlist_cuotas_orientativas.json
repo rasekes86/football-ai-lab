@@ -1,6 +1,6 @@
 {
   "version": "watchlist-conversacion-2026-11-15",
-  "descripcion": "Cuatro cuotas orientativas comentadas antes de la jornada. NO se comprobó que fueran precios reales contratables; no usar como resultado económico.",
+  "descripcion": "Selecciones comentadas antes de sus encuentros, con cotizaciones orientativas no verificadas. Primeras cuatro: jornada 15/11/2026; nueva: Albacete–Celta Fortuna 16/11/2026.",
   "selecciones": [
     {
       "id": "SP2|202611151730|eldense|sabadell",
@@ -61,6 +61,21 @@
       "tipo_cuota": "INDICATIVA_NO_VERIFICADA",
       "origen_cuota": "Precio mencionado en conversación; publicación y disponibilidad no verificadas",
       "ref_modelo_utc": "2026-11-15T00:32:45.928110+00:00"
+    },
+    {
+      "id": "SP2|202611161930|albacete|celta b",
+      "liga": "Segunda División",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "mercado": "Doble oportunidad",
+      "seleccion": "X2: empate o RC Celta Fortuna",
+      "familia": "resultado",
+      "probabilidad": 0.54226,
+      "cuota_decimal": 2.113,
+      "tipo_cuota": "INDICATIVA_NO_VERIFICADA",
+      "origen_cuota": "1xBet España: https://1xbet.es/es/line/football/27687-spain-segunda-division/769525478-albacete-balompie-celta-fortuna · cuota 2,113 visible al consultar el 15/11/2026; no comprobada como ejecutable ni registro temporal certificado",
+      "ref_modelo_utc": "2026-11-15T22:51:47.453277+00:00"
     }
   ]
 }
