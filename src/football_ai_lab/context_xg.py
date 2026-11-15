@@ -74,6 +74,8 @@ def collect(now:datetime,football=None,reader=_short_http)->dict:
             return result
     # A deliberately small bounded set; high-traffic API calls remain capped.
     for lg,(title,code) in LEAGUES.items():
+        # Understat coverage is for the top divisions; SP2 is not supported.
+        if lg=="SP2":continue
         chosen=None
         for days_ago in (2,5,8,12):
             d=(now-timedelta(days=days_ago)).date()

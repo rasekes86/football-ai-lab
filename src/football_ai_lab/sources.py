@@ -10,7 +10,8 @@ from urllib.request import Request, urlopen
 
 LOG = logging.getLogger(__name__)
 LEAGUES = {
-    "SP1": ("LaLiga", "esp.1"), "E0": ("Premier League", "eng.1"),
+    "SP1": ("LaLiga", "esp.1"), "SP2": ("Segunda División", "esp.2"),
+    "E0": ("Premier League", "eng.1"),
     "D1": ("Bundesliga", "ger.1"), "I1": ("Serie A", "ita.1"),
     "F1": ("Ligue 1", "fra.1"),
 }

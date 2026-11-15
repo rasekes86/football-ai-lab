@@ -40,6 +40,29 @@ ALIASES = {
     "coventry city": "coventry", "hull city": "hull",
     "deportivo la coruna": "deportivo", "deportivo de la coruna": "deportivo",
     "racing santander": "racing", "real racing club": "racing",
+    # Segunda División (LaLiga Hypermotion): equivalencias explícitas ESPN/CSV.
+    # Distinguir filiales de los primeros equipos.
+    "real sociedad ii": "sociedad b", "real sociedad b": "sociedad b",
+    "real sociedad 2": "sociedad b", "sociedad b": "sociedad b",
+    "cd mirandes": "mirandes", "mirandes": "mirandes",
+    "sporting gijon": "sp gijon", "real sporting": "sp gijon",
+    "real sporting de gijon": "sp gijon", "sporting de gijon": "sp gijon",
+    "cd leganes": "leganes", "club deportivo leganes": "leganes",
+    "real zaragoza": "zaragoza", "real zaragoza sad": "zaragoza",
+    "burgos cf": "burgos", "burgos club de futbol": "burgos",
+    "cordoba cf": "cordoba", "cordoba club de futbol": "cordoba",
+    "cd castellon": "castellon", "club deportivo castellon": "castellon",
+    "ud almeria": "almeria", "union deportiva almeria": "almeria",
+    "albacete balompie": "albacete", "albacete bp": "albacete",
+    "sd huesca": "huesca", "huesca cf": "huesca",
+    "sd eibar": "eibar", "eibar": "eibar",
+    "fc andorra": "andorra", "andorra cf": "andorra",
+    "ad ceuta fc": "ceuta", "ad ceuta": "ceuta",
+    "cultural leonesa": "cult leonesa", "cultural y deportiva leonesa": "cult leonesa",
+    "cd malaga": "malaga", "malaga cf": "malaga",
+    "granada cf": "granada", "deportivo la coruna": "deportivo",
+    "racing de santander": "racing",
+
 
 
     # Bundesliga: nombres ESPN frente a football-data.co.uk

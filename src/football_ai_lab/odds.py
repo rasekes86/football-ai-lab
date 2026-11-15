@@ -75,7 +75,7 @@ def find_quote(prediction: dict, events: list[dict], now: datetime) -> dict | No
     return None
 
 def build_market_rows(predictions: list[dict], events_by_league: dict, now: datetime) -> list[dict]:
-    codes={"LaLiga":"SP1","Premier League":"E0","Bundesliga":"D1","Serie A":"I1","Ligue 1":"F1"}
+    codes={name:code for code,(name,_) in __import__("football_ai_lab.sources",fromlist=["LEAGUES"]).LEAGUES.items()}
     out=[]
     for p in predictions:
         code=codes.get(p["liga"],"")
