@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-15T00:32:45.928110+00:00
+**UTC:** 2026-11-15T00:47:52.768115+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 86
 **Descartados por insuficiencia de datos:** 9
@@ -151,6 +151,11 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 | Elche – Atlético Madrid | Hándicap 2 vías (medio gol) | Atlético Madrid +1,5 | 87.0% | 1.15 |
 | Real Sociedad II – Cádiz | Hándicap 2 vías (medio gol) | Real Sociedad II +1,5 | 87.0% | 1.15 |
 | Castellón – Eldense | Goles equipo | Castellón: más de 0,5 goles | 86.9% | 1.15 |
+
+## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
+
+Selecciones archivadas: **4**; finalizadas: **0**; pendientes: **4**.
+Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
 Seguimiento real del Top 3: **258** selecciones archivadas antes del partido; **0** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.

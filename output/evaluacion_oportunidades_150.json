@@ -1,0 +1,67 @@
+{
+  "version": "value-watchlist-0.9",
+  "generado_utc": "2026-11-15T00:47:52.768115+00:00",
+  "registradas": 4,
+  "finalizadas": 0,
+  "pendientes": 4,
+  "resultados_no_disponibles": 0,
+  "estadisticas_no_disponibles": 0,
+  "excluidas": 0,
+  "global": {
+    "registradas": 4,
+    "evaluadas": 0,
+    "aciertos": 0,
+    "acierto_pct": null,
+    "brier_medio": null,
+    "retorno_simulado_unidad": null,
+    "roi_simulado_pct": null,
+    "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+  },
+  "por_tipo_cuota": {
+    "INDICATIVA_NO_VERIFICADA": {
+      "registradas": 4,
+      "evaluadas": 0,
+      "aciertos": 0,
+      "acierto_pct": null,
+      "brier_medio": null,
+      "retorno_simulado_unidad": null,
+      "roi_simulado_pct": null,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    }
+  },
+  "por_mercado": {
+    "Total goles": {
+      "registradas": 3,
+      "evaluadas": 0,
+      "aciertos": 0,
+      "acierto_pct": null,
+      "brier_medio": null,
+      "retorno_simulado_unidad": null,
+      "roi_simulado_pct": null,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Doble oportunidad": {
+      "registradas": 1,
+      "evaluadas": 0,
+      "aciertos": 0,
+      "acierto_pct": null,
+      "brier_medio": null,
+      "retorno_simulado_unidad": null,
+      "roi_simulado_pct": null,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    }
+  },
+  "por_liga": {
+    "Segunda División": {
+      "registradas": 4,
+      "evaluadas": 0,
+      "aciertos": 0,
+      "acierto_pct": null,
+      "brier_medio": null,
+      "retorno_simulado_unidad": null,
+      "roi_simulado_pct": null,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    }
+  },
+  "nota": "Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro."
+}
