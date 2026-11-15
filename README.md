@@ -117,3 +117,10 @@ auditorías de mercado se separan de los de Primera; no se habilitan
 automáticamente córners, tiros ni tarjetas si su validación no es suficiente.
 Las cuotas externas, xG auténtico y alineaciones siguen sujetos a cobertura.
 [Guía de la integración](docs/SEGUNDA_DIVISION.md).
+
+
+## Cuotas >1,50: evaluación también después del partido
+
+Se guardan por separado las cuatro selecciones de Segunda comentadas el 15/11/2026, con las probabilidades **prepartido congeladas** y las cuotas anotadas como **INDICATIVAS_NO_VERIFICADAS**. Cuando se conozca el resultado, [seguimiento_oportunidades_150.csv](output/seguimiento_oportunidades_150.csv) calcula acierto/error, Brier y retorno **hipotético** de una unidad; [evaluacion_oportunidades_150.json](output/evaluacion_oportunidades_150.json) resume los resultados y [oportunidades_150.md](output/oportunidades_150.md) los presenta de forma legible.
+
+Solo en caso de contar con una oferta real registrada por API y fecha se distinguirá el análisis del precio capturado; no hay apuestas ejecutadas ni beneficio realizado. [Documentación](docs/SEGUIMIENTO_CUOTAS_150.md).

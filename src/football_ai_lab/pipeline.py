@@ -26,6 +26,8 @@ from .market_prospective import summary as selections_summary, FIELDS as MARKET_
 from .full_report import build_all as all_dossiers, markdown as dossier_markdown
 from .player_data import collect as collect_players
 from .player_readiness import report as player_coverage
+from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offers
+from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
 
 LOG = logging.getLogger(__name__)
@@ -280,6 +282,31 @@ def main(argv=None) -> None:
     market_evaluation=selections_summary(tracked_selections,now)
     (target/"evaluacion_selecciones.json").write_text(
         json.dumps(market_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Secondary track: four pre-match 1.50+ quotes mentioned in the chat,
+    # plus actual API 1X2 offers when independently timestamped and enabled.
+    # Chat quotes remain UNVERIFIED and financial performance is simulation only.
+    offer_source=Path("data/watchlist_cuotas_orientativas.json")
+    if offer_source.is_file() and not args.demo:
+        try:
+            manual_offers=json.loads(offer_source.read_text(encoding="utf-8"))
+        except (OSError,ValueError):
+            LOG.warning("Muestra manual de cuotas no disponible o con JSON inválido")
+            manual_offers={"selecciones":[]}
+    else:
+        manual_offers={"selecciones":[]}
+    frozen_offers=freeze_offers(read_csv(target/"historico_oportunidades_150.csv"),
+                               manual_offers,selections,now)
+    write_csv(target/"historico_oportunidades_150.csv",OFFER_FIELDS,frozen_offers)
+    tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,histories,now)
+    write_csv(target/"seguimiento_oportunidades_150.csv",OFFER_FIELDS,tracked_offers)
+    (target/"evaluacion_oportunidades_150.json").write_text(
+        json.dumps(offer_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
+    (target/"oportunidades_150.md").write_text(
+        offers_markdown(tracked_offers,offer_evaluation),encoding="utf-8")
+    book.mark("oportunidades_150","OK",
+              f'{offer_evaluation["registradas"]} cotizaciones archivadas; '
+              f'{offer_evaluation["finalizadas"]} mercados liquidados; '
+              'cuotas conversacionales NO verificadas',len(frozen_offers))
     # Unified reports are built exclusively from verified source records.
     ml_rows=read_csv(Path("output_ml/predicciones_ml.csv")) if not args.demo else []
     complete_reports=all_dossiers(predicted,dossiers,selections,context,ml_rows,markets,now)
@@ -332,6 +359,14 @@ def main(argv=None) -> None:
                               f'{entry["probabilidad"]*100:.1f}% | {entry["cuota_justa"]:.2f} |')
     if not top_jornada:
         selector_lines.append("| — | — | Sin selecciones elegibles | — | — |")
+    selector_lines.extend(["",
+        "## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)","",
+        f'Selecciones archivadas: **{offer_evaluation["registradas"]}**; '
+        f'finalizadas: **{offer_evaluation["finalizadas"]}**; '
+        f'pendientes: **{offer_evaluation["pendientes"]}**.',
+        "Véase output/oportunidades_150.md para los resultados por partido. "
+        "Precios conversacionales NO verificados; retornos solo simulados.",
+    ])
     selector_lines.extend(["",
                            f'Seguimiento real del Top 3: **{market_evaluation["registradas"]}** selecciones '
                            f'archivadas antes del partido; **{market_evaluation["finalizadas"]}** resueltas.',
