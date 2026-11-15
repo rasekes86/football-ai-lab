@@ -17,6 +17,9 @@ class SegundaDivisionTests(unittest.TestCase):
         self.assertEqual(normalize_team("Cultural Leonesa"),normalize_team("Cult Leonesa"))
         self.assertEqual(normalize_team("Real Sporting"),normalize_team("Sp Gijon"))
         self.assertEqual(normalize_team("Real Zaragoza"),normalize_team("Zaragoza"))
+        self.assertEqual(normalize_team("RC Celta Fortuna"),normalize_team("Celta B"))
+        self.assertEqual(normalize_team("Celta de Vigo II"),normalize_team("Celta B"))
+        self.assertNotEqual(normalize_team("RC Celta Fortuna"),normalize_team("Celta Vigo"))
         self.assertEqual(normalize_team("CD Sabadell"),normalize_team("Sabadell"))
         self.assertEqual(normalize_team("CE Sabadell"),normalize_team("Sabadell"))
     def test_historical_sp2_csv(self):

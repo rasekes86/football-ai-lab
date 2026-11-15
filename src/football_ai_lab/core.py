@@ -42,6 +42,10 @@ ALIASES = {
     "racing santander": "racing", "real racing club": "racing",
     # Segunda División (LaLiga Hypermotion): equivalencias explícitas ESPN/CSV.
     # Distinguir filiales de los primeros equipos.
+    "rc celta fortuna": "celta b", "celta fortuna": "celta b",
+    "rc celta b": "celta b", "rc celta de vigo b": "celta b",
+    "celta de vigo ii": "celta b", "celta de vigo b": "celta b",
+    "celta vigo ii": "celta b", "celta vigo b": "celta b",
     "real sociedad ii": "sociedad b", "real sociedad b": "sociedad b",
     "real sociedad 2": "sociedad b", "sociedad b": "sociedad b",
     "cd mirandes": "mirandes", "mirandes": "mirandes",
