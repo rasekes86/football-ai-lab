@@ -17,6 +17,8 @@ class SegundaDivisionTests(unittest.TestCase):
         self.assertEqual(normalize_team("Cultural Leonesa"),normalize_team("Cult Leonesa"))
         self.assertEqual(normalize_team("Real Sporting"),normalize_team("Sp Gijon"))
         self.assertEqual(normalize_team("Real Zaragoza"),normalize_team("Zaragoza"))
+        self.assertEqual(normalize_team("CD Sabadell"),normalize_team("Sabadell"))
+        self.assertEqual(normalize_team("CE Sabadell"),normalize_team("Sabadell"))
     def test_historical_sp2_csv(self):
         csv=b"Date,HomeTeam,AwayTeam,FTHG,FTAG,HS,AS,HST,AST,HC,AC,HY,AY\n12/11/2026,Zaragoza,Albacete,1,0,8,9,3,4,6,5,1,3\n"
         rows=parse_history(csv)
