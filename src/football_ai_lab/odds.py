@@ -6,7 +6,7 @@ import logging
 import os
 from urllib.parse import urlencode
 from .core import normalize_team
-from .sources import http_read
+from .sources import http_read, LEAGUES
 
 LOG = logging.getLogger(__name__)
 ODDS_API={"SP1":"soccer_spain_la_liga","E0":"soccer_epl",
@@ -75,7 +75,7 @@ def find_quote(prediction: dict, events: list[dict], now: datetime) -> dict | No
     return None
 
 def build_market_rows(predictions: list[dict], events_by_league: dict, now: datetime) -> list[dict]:
-    codes={name:code for code,(name,_) in __import__("football_ai_lab.sources",fromlist=["LEAGUES"]).LEAGUES.items()}
+    codes={name:code for code,(name,_) in LEAGUES.items()}
     out=[]
     for p in predictions:
         code=codes.get(p["liga"],"")
