@@ -1,0 +1,66 @@
+{
+  "version": "watchlist-conversacion-2026-11-15",
+  "descripcion": "Cuatro cuotas orientativas comentadas antes de la jornada. NO se comprobó que fueran precios reales contratables; no usar como resultado económico.",
+  "selecciones": [
+    {
+      "id": "SP2|202611151730|eldense|sabadell",
+      "liga": "Segunda División",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "mercado": "Total goles",
+      "seleccion": "Menos de 2,5 goles",
+      "familia": "total_goles",
+      "probabilidad": 0.63063,
+      "cuota_decimal": 1.65,
+      "tipo_cuota": "INDICATIVA_NO_VERIFICADA",
+      "origen_cuota": "Precio mencionado en conversación; publicación y disponibilidad no verificadas",
+      "ref_modelo_utc": "2026-11-15T00:32:45.928110+00:00"
+    },
+    {
+      "id": "SP2|202611151300|tenerife|ceuta",
+      "liga": "Segunda División",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "mercado": "Total goles",
+      "seleccion": "Menos de 2,5 goles",
+      "familia": "total_goles",
+      "probabilidad": 0.57017,
+      "cuota_decimal": 1.93,
+      "tipo_cuota": "INDICATIVA_NO_VERIFICADA",
+      "origen_cuota": "Precio mencionado en conversación; publicación y disponibilidad no verificadas",
+      "ref_modelo_utc": "2026-11-15T00:32:45.928110+00:00"
+    },
+    {
+      "id": "SP2|202611151515|granada|las palmas",
+      "liga": "Segunda División",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "mercado": "Doble oportunidad",
+      "seleccion": "X2: empate o Las Palmas",
+      "familia": "resultado",
+      "probabilidad": 0.57517,
+      "cuota_decimal": 1.8,
+      "tipo_cuota": "INDICATIVA_NO_VERIFICADA",
+      "origen_cuota": "Precio mencionado en conversación; publicación y disponibilidad no verificadas",
+      "ref_modelo_utc": "2026-11-15T00:32:45.928110+00:00"
+    },
+    {
+      "id": "SP2|202611151730|eibar|cadiz",
+      "liga": "Segunda División",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "mercado": "Total goles",
+      "seleccion": "Menos de 2,5 goles",
+      "familia": "total_goles",
+      "probabilidad": 0.50204,
+      "cuota_decimal": 2.17,
+      "tipo_cuota": "INDICATIVA_NO_VERIFICADA",
+      "origen_cuota": "Precio mencionado en conversación; publicación y disponibilidad no verificadas",
+      "ref_modelo_utc": "2026-11-15T00:32:45.928110+00:00"
+    }
+  ]
+}
