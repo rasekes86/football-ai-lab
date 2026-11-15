@@ -561,50 +561,6 @@
 
 ---
 
-## Tenerife – Ceuta
-
-**Segunda División · 2026-11-15T13:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 50.6% | 24.7% | 24.7% | 43.0% |
-
-### Forma, descanso y estadísticas
-
-**Tenerife:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 4E · 1D; secuencia: E · E · E · E · D
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 9,4, a puerta 2,6, córners 4,6, amarillas 3,4
-
-**Ceuta:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 8
-- Medias recientes: Tiros 19,0, a puerta 5,2, córners 7,4, amarillas 3,4
-
-### Enfrentamientos previos
-- No disponibles en el histórico consultado
-
-### Tres selecciones del modelo (experimentales)
-1. **Más de 17,5 tiros totales** (Tiros totales): 83.3% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Tenerife: menos de 2,5 goles** (Goles equipo): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Ceuta: menos de 1,5 goles** (Goles equipo): 78.3% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T00:15:16+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Granada – Las Palmas
 
 **Segunda División · 2026-11-15T15:15:00+00:00 · modelo poisson70-elo30-0.2**
@@ -638,7 +594,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T00:19:25+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T14:45:46+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -685,7 +641,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T00:29:45+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T14:45:38+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -729,7 +685,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T14:45:46+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

@@ -1,8 +1,8 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-15T00:47:52.768115+00:00
+**UTC:** 2026-11-15T14:45:02.421413+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 86
+**Próximos partidos con pronóstico:** 85
 **Descartados por insuficiencia de datos:** 9
 **Históricos evaluados:** 0
 **Brier 1X2 medio:** pendiente
@@ -21,7 +21,6 @@
 | LaLiga | 2026-11-28T15:15 | Málaga - Athletic Club | 37.3% | 25.0% | 37.7% |
 | LaLiga | 2026-11-28T17:30 | Elche - Atlético Madrid | 29.4% | 25.5% | 45.1% |
 | LaLiga | 2026-11-28T20:00 | Real Madrid - Alavés | 72.1% | 18.5% | 9.4% |
-| Segunda División | 2026-11-15T13:00 | Tenerife - Ceuta | 50.6% | 24.7% | 24.7% |
 | Segunda División | 2026-11-15T15:15 | Granada - Las Palmas | 42.5% | 24.8% | 32.8% |
 | Segunda División | 2026-11-15T17:30 | Eibar - Cádiz | 59.1% | 22.9% | 17.9% |
 | Segunda División | 2026-11-15T17:30 | Eldense - CD Sabadell | 37.5% | 27.2% | 35.3% |
@@ -119,7 +118,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **3** / 86. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **3** / 85. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real

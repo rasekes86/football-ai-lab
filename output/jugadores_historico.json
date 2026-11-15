@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-15T00:47:52.768115+00:00",
+  "actualizado_utc": "2026-11-15T14:45:02.421413+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -10384,6 +10384,3186 @@
       "fuente": "ESPN summary público no oficial"
     },
     {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "238544",
+      "jugador": "Gregor Kobel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "286828",
+      "jugador": "Nico Schlotterbeck",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "220714",
+      "jugador": "Waldemar Anton",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "310709",
+      "jugador": "Daniel Svensson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "371500",
+      "jugador": "Kouakou Gadou",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "240912",
+      "jugador": "Joey Veerman",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "281122",
+      "jugador": "Felix Nmecha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "324820",
+      "jugador": "Jobe Bellingham",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "291629",
+      "jugador": "Fábio Silva",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "294317",
+      "jugador": "Carney Chukwuemeka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "357801",
+      "jugador": "Konstantinos Karetsas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "222991",
+      "jugador": "Julian Ryerson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "178380",
+      "jugador": "Alexander Meyer",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "173907",
+      "jugador": "Marcel Sabitzer",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "403781",
+      "jugador": "Mathis Albert",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "349733",
+      "jugador": "Ethan Nwaneri",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "290639",
+      "jugador": "Maximilian Beier",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "220703",
+      "jugador": "Ramy Bensebaini",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "413817",
+      "jugador": "Luca Reggiani",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "Borussia Dortmund",
+      "jugador_id": "403833",
+      "jugador": "Samuele Inácio",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "324021",
+      "jugador": "Nicolas Kristof",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "190167",
+      "jugador": "Maximilian Rohr",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "341826",
+      "jugador": "Lukas Finn Pinckert",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "321061",
+      "jugador": "Lasse Günther",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "323882",
+      "jugador": "Luca Sirch",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "379180",
+      "jugador": "Francis-Ikechukwu Onyeka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "326499",
+      "jugador": "Lukasz Poreba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "340739",
+      "jugador": "Felix Keidel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "398004",
+      "jugador": "David Mokwa",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "358496",
+      "jugador": "Maurice Krattenmacher",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "310692",
+      "jugador": "Lukas Petkov",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "386454",
+      "jugador": "Frederik Schmahl",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "417336",
+      "jugador": "Raif Adam",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "306991",
+      "jugador": "Noel Futkeu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "222614",
+      "jugador": "Amara Conde",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "275987",
+      "jugador": "Nicholas Mickelson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "207335",
+      "jugador": "Luca Schnellbacher",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "379024",
+      "jugador": "Cole Campbell",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "275817",
+      "jugador": "Tim Boss",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884745",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Borussia Dortmund",
+      "visitante": "SV Elversberg",
+      "equipo": "SV Elversberg",
+      "jugador_id": "215035",
+      "jugador": "Florian Le Joncour",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "277377",
+      "jugador": "Maarten Vandevoordt",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "319100",
+      "jugador": "Castello Lukeba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "162162",
+      "jugador": "Willi Orbán",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "249548",
+      "jugador": "David Raum",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "258963",
+      "jugador": "Ridle Baku",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "222176",
+      "jugador": "Christopher Nkunku",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "330233",
+      "jugador": "Ezechiel Banzuzi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "323807",
+      "jugador": "Neil El Aynaoui",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "324766",
+      "jugador": "Rômulo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "366911",
+      "jugador": "Tidiam Gomis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "357683",
+      "jugador": "Brajan Gruda",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "384380",
+      "jugador": "Abdoul Koné",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "305956",
+      "jugador": "Nicolas Seiwald",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "318316",
+      "jugador": "Maxime Estève",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "307364",
+      "jugador": "Rocco Reitz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "372232",
+      "jugador": "Andrija Maksimovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "220711",
+      "jugador": "Benjamin Henrichs",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "274897",
+      "jugador": "Christoph Baumgartner",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "193610",
+      "jugador": "Ørjan Nyland",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "RB Leipzig",
+      "jugador_id": "319368",
+      "jugador": "Antonio Nusa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "228507",
+      "jugador": "Finn Dahmen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "140624",
+      "jugador": "Jeffrey Gouweleeuw",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "297165",
+      "jugador": "Chrislain Matsima",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "266657",
+      "jugador": "Yannik Keitel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "308908",
+      "jugador": "Fabian Rieder",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "282885",
+      "jugador": "Han-Noah Massengo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "399214",
+      "jugador": "Hennes Behrens",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "306928",
+      "jugador": "Robin Fellhauer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "332689",
+      "jugador": "Rodrigo Ribeiro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "333400",
+      "jugador": "Arijon Ibrahimovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "333837",
+      "jugador": "Anton Kade",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 4.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "207623",
+      "jugador": "Marius Wolf",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "416416",
+      "jugador": "Tim Schnitzer",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "228503",
+      "jugador": "Alexis Claude-Maurice",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "302793",
+      "jugador": "Seol Young-Woo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "413727",
+      "jugador": "Loris Husic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "146804",
+      "jugador": "Michael Gregoritsch",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "359207",
+      "jugador": "Mert Kömür",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "322693",
+      "jugador": "Nediljko Labrovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884744",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "RB Leipzig",
+      "visitante": "FC Augsburg",
+      "equipo": "FC Augsburg",
+      "jugador_id": "406851",
+      "jugador": "Uchenna Ogundu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "206114",
+      "jugador": "Robin Zentner",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "399746",
+      "jugador": "Fabio Gruber",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "375371",
+      "jugador": "Kacper Potulski",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "154603",
+      "jugador": "Danny da Costa",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "134103",
+      "jugador": "Lee Jae-Sung",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "210818",
+      "jugador": "Nadiem Amiri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "357030",
+      "jugador": "Kaishu Sano",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "175905",
+      "jugador": "Silvan Widmer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "241297",
+      "jugador": "Anthony Caci",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "195027",
+      "jugador": "Sheraldo Becker",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "300961",
+      "jugador": "Ransford-Yeboah Königsdörffer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "234376",
+      "jugador": "Phillip Tietz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "290398",
+      "jugador": "Eric Martel",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "307282",
+      "jugador": "Paul Nebel",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "3121808",
+      "jugador": "Rael-Tshimbela Nakuzola",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "333646",
+      "jugador": "Sota Kawasaki",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "144620",
+      "jugador": "Stefan Bell",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "307515",
+      "jugador": "Benedict Hollerbach",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "267798",
+      "jugador": "Lennard Maloney",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Mainz",
+      "jugador_id": "156416",
+      "jugador": "Alexander Schwolow",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "84774",
+      "jugador": "Manuel Neuer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "188052",
+      "jugador": "Jonathan Tah",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "222793",
+      "jugador": "Dayot Upamecano",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "276329",
+      "jugador": "Josip Stanisic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "169189",
+      "jugador": "Konrad Laimer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "402841",
+      "jugador": "Lennart Karl",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "359370",
+      "jugador": "Aleksandar Pavlovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "190161",
+      "jugador": "Joshua Kimmich",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "142200",
+      "jugador": "Harry Kane",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "120829",
+      "jugador": "Nathaniel Brown",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "286831",
+      "jugador": "Michael Olise",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "287225",
+      "jugador": "Sacha Boey",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "323790",
+      "jugador": "Jonas Urbig",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "236721",
+      "jugador": "Alphonso Davies",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "324660",
+      "jugador": "Tom Bischof",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "97111",
+      "jugador": "Hiroki Ito",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "113733",
+      "jugador": "Sven Ulreich",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "157688",
+      "jugador": "Kim Min-Jae",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884740",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "Mainz",
+      "visitante": "Bayern Munich",
+      "equipo": "Bayern Munich",
+      "jugador_id": "3104151",
+      "jugador": "Tim Binder",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "319415",
+      "jugador": "Nahuel Nicolas Noll",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "371806",
+      "jugador": "Tjark Scheller",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "364892",
+      "jugador": "Mattes Hansen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "366370",
+      "jugador": "Jano Horst",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "323936",
+      "jugador": "Gabriel Vidovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "220823",
+      "jugador": "Tom Baack",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "338837",
+      "jugador": "Santiago Castaneda",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "251639",
+      "jugador": "Raphael Obermair",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "364593",
+      "jugador": "Laurin Curda",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "332543",
+      "jugador": "Stefano Marino",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "406466",
+      "jugador": "Ruben Müller",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "366828",
+      "jugador": "Jonah Sticker",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "345394",
+      "jugador": "Laurin Ulrich",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "312389",
+      "jugador": "Marvin Pieringer",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "245940",
+      "jugador": "Felix Götze",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "3098337",
+      "jugador": "Clemens Lippmann",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "225579",
+      "jugador": "Markus Schubert",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "291849",
+      "jugador": "Rayan Philippe",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "386466",
+      "jugador": "Deniz Zeitler",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "SC Paderborn 07",
+      "jugador_id": "231764",
+      "jugador": "Steffen Tigges",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "321064",
+      "jugador": "Noah Atubolu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "290141",
+      "jugador": "Lilian Brassier",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "208285",
+      "jugador": "Robin Koch",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "372788",
+      "jugador": "Elias Baum",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "305555",
+      "jugador": "Ansgar Knauff",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "355369",
+      "jugador": "Can Uzun",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "352179",
+      "jugador": "Noël Aséko",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "320882",
+      "jugador": "Raphael Onyedika",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "274887",
+      "jugador": "Jonathan Burkardt",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "337306",
+      "jugador": "Farès Chaïbi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "219627",
+      "jugador": "Ritsu Doan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "365997",
+      "jugador": "Oscar Højlund",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "418030",
+      "jugador": "Malik Pimpong",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "3109554",
+      "jugador": "Niko Iličević",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "399423",
+      "jugador": "Love Arrhov",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "305556",
+      "jugador": "Nnamdi Collins",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "338950",
+      "jugador": "Kauã Santos",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "128521",
+      "jugador": "Timothy Chandler",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "359793",
+      "jugador": "Younes Ebnoutalib",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884737",
+      "liga": "D1",
+      "fecha_utc": "2026-11-07T14:30:00+00:00",
+      "local": "SC Paderborn 07",
+      "visitante": "Eintracht Frankfurt",
+      "equipo": "Eintracht Frankfurt",
+      "jugador_id": "406374",
+      "jugador": "Jeremiaha Maluze",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
       "event_id": "401882809",
       "liga": "SP1",
       "fecha_utc": "2026-11-06T20:00:00+00:00",
@@ -13928,6 +17108,6 @@
   "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 16,
-  "jugadores_con_algun_dato": 696
+  "partidos_archivados": 20,
+  "jugadores_con_algun_dato": 855
 }
