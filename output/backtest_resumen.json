@@ -7,6 +7,14 @@
     "logloss_base": 1.08043,
     "modelo_mejor_brier": true
   },
+  "Segunda División": {
+    "muestra": 89,
+    "brier_modelo": 0.20398,
+    "logloss_modelo": 1.01814,
+    "brier_base": 0.21465,
+    "logloss_base": 1.06212,
+    "modelo_mejor_brier": true
+  },
   "Premier League": {
     "muestra": 101,
     "brier_modelo": 0.20973,
