@@ -69,6 +69,12 @@ jobs:
           fi
           git reset --hard origin/main
           tar -xf /tmp/football-out.tar
+          # Un push de código no consulta las APIs por seguridad/cuota.
+          # Conservar la última captura real, sin sustituirla por DESACTIVADO.
+          # Su validez temporal se comprueba en el comparador y el bot.
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            git restore --source=origin/main -- output/cuotas_reales_verificadas.json output/comparacion_cuotas_reales.json output/historico_cuotas_reales.json
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add output/predicciones.csv output/historico_predicciones.csv output/seguimiento.csv output/informe.md output/mercados.csv output/backtest.csv output/backtest_resumen.json output/estado_agentes.json output/contexto_machina.json output/contexto_partidos.json output/evaluacion_real.json output/contexto_xg.json output/selecciones.json output/selecciones.csv output/validacion_conteos.json output/jugadores_historico.json output/cobertura_jugadores.json output/historico_selecciones.csv output/seguimiento_selecciones.csv output/evaluacion_selecciones.json output/informes_partidos.json output/informes_partidos.md output/historico_oportunidades_150.csv output/seguimiento_oportunidades_150.csv output/evaluacion_oportunidades_150.json output/oportunidades_150.md output/estadisticas_finales_verificadas.json output/desglose_postpartido.json output/mercados_historicos.json output/pronosticos_mercados_futuros.json output/radar_contexto_equipos.json output/fiabilidad_mercados_futuros.json output/seguimiento_mercados_futuros.csv output/historico_mercados_futuros.csv output/cuotas_reales_verificadas.json output/comparacion_cuotas_reales.json output/historico_cuotas_reales.json
