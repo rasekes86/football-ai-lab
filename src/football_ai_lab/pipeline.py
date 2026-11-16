@@ -33,6 +33,10 @@ from .verified_results import augment_results
 from .postmatch_stats import enrich_statistics
 from .postmatch_breakdown import build_breakdown
 from .market_history import build_market_history
+from .future_market_audit import (
+    FIELDS as FUTURE_AUDIT_FIELDS, archive_future_markets,
+    settle_future_markets, audit_future_markets,
+)
 
 LOG = logging.getLogger(__name__)
 FIELDS = ["id","fecha_utc","liga","local","visitante","prob_local","prob_empate","prob_visitante",
@@ -215,7 +219,8 @@ def main(argv=None) -> None:
     if not args.demo:
         past_snapshots=(read_csv(target/"historico_predicciones.csv")
             +read_csv(target/"historico_selecciones.csv")
-            +read_csv(target/"historico_oportunidades_150.csv"))
+            +read_csv(target/"historico_oportunidades_150.csv")
+            +read_csv(target/"historico_mercados_futuros.csv"))
         settlement_histories,check=augment_results(histories,past_snapshots,now)
         book.mark("marcadores_finales","OK" if not check["sin_marcador"] else "PARCIAL",
                   f'Oficiales: {check["agregados_laliga"]}; ESPN: {check["agregados_espn"]}; '
@@ -308,11 +313,30 @@ def main(argv=None) -> None:
         "version":"future-markets-1.0","calculado_utc":now.isoformat(),
         "partidos":previews,
         "nota":("Estas son estimaciones prepartido experimentales y NO apuestas ofrecidas. "
-                "Las líneas distintas del Top 3 archivado no son apuestas registradas "
-                "ni se puntúan como pronósticos prospectivos. "
+                "Todas las líneas visibles se congelan en un seguimiento prospectivo "
+                "SEPARADO del Top 3. La evaluación solo empieza tras archivarlas. "
                 "Los conteos no calibrados prospectivamente se identifican. "
                 "No existe modelo prepartido de faltas o tarjetas rojas."),
     },ensure_ascii=False,separators=(",",":")),encoding="utf-8")
+    # FASE 4: primer snapshot por partido antes del inicio.
+    # Archivo distinto del histórico Top 3 y sin reconstrucción de partidos pasados.
+    prior_future=read_csv(target/"historico_mercados_futuros.csv")
+    frozen_future,freeze_report=archive_future_markets(prior_future,previews,now)
+    write_csv(target/"historico_mercados_futuros.csv",
+              FUTURE_AUDIT_FIELDS,frozen_future)
+    tracked_future=settle_future_markets(frozen_future,settlement_histories,now)
+    write_csv(target/"seguimiento_mercados_futuros.csv",
+              FUTURE_AUDIT_FIELDS,tracked_future)
+    future_audit=audit_future_markets(tracked_future,now)
+    future_audit["registro_nuevo"]=freeze_report
+    (target/"fiabilidad_mercados_futuros.json").write_text(
+        json.dumps(future_audit,ensure_ascii=False,separators=(",",":")),
+        encoding="utf-8")
+    book.mark("auditoria_mercados_futuros","OK",
+              f'Archivo propio: {freeze_report["nuevos"]} nuevas líneas, '
+              f'{future_audit["finalizadas"]}/{future_audit["registradas"]} '
+              'evaluadas; no modifica el Top 3 original',
+              future_audit["registradas"])
     top_jornada=global_market_top(selections)
     # No crecer el JSON legado con un dataset que tiene su propia ruta pública.
     public_selections=[{key:value for key,value in m.items()
@@ -428,6 +452,10 @@ def main(argv=None) -> None:
                            f'Líneas de córners/tiros/tarjetas aprobadas en backtest: **{len(count_validation["aprobados"])}**. '
                            "Solo las aprobadas retrospectivamente pueden competir por el Top 3; "
                            "no tienen validación prospectiva.",
+                           f'Seguimiento futuro por mercados (FASE 4): '
+                           f'{future_audit["registradas"]} líneas congeladas, '
+                           f'{future_audit["finalizadas"]} evaluadas, '
+                           'independiente del Top 3.',
                            "Cuotas justas = valores matemáticos, NO precios ofrecidos.",
                            "Tiros y goleadores individuales no disponibles.",
                            "Ranking de valor vacío sin cuotas reales verificadas por mercado."])

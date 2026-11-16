@@ -136,13 +136,47 @@
               <option value="exploratory">Exploratorios sin validar</option>
             </select></label>
             <label class="field"><span>ORDENAR</span><select id="marketOrder"><option value="kickoff">Próximo partido primero</option><option value="confidence">Probabilidad estimada</option></select></label>
+            <label class="field"><span>PROBABILIDAD MÍNIMA</span><select id="marketMinProbability">
+              <option value="0">Todas las probabilidades</option><option value="0.55">Desde 55 %</option>
+              <option value="0.65">Desde 65 %</option><option value="0.75">Desde 75 %</option><option value="0.85">Desde 85 %</option>
+            </select></label>
+            <label class="field"><span>CUOTA JUSTA TEÓRICA</span><select id="marketMinFair">
+              <option value="0">Todas</option><option value="1.25">Desde 1,25</option>
+              <option value="1.50">Desde 1,50</option><option value="1.75">Desde 1,75</option>
+              <option value="2.00">Desde 2,00</option>
+            </select></label>
           </div>
           <div id="marketFutureNotice" class="explanation market-notice" role="status"></div>
           <div id="marketFutureKpis" class="kpi-grid" aria-live="polite"></div>
           <div class="section-heading"><div><span class="overline">PRÓXIMOS ENCUENTROS</span><h2 id="marketFutureTitle">Pronósticos futuros</h2></div><span id="marketFutureCount" class="section-side-note"></span></div>
           <div id="marketFutureGrid" class="future-market-grid"></div>
           <div class="load-wrap"><button type="button" id="marketFutureMore" class="btn btn-outline" hidden>Mostrar más partidos ↓</button></div>
-          <p class="fine-print">Las probabilidades son estimaciones del modelo, no cuotas de una casa de apuestas ni garantías de acierto. Las líneas que no forman parte del Top 3 original no se contabilizan como predicciones prospectivas archivadas.</p>
+          <p class="fine-print">Las probabilidades son estimaciones del modelo, no cuotas ofrecidas por casas de apuestas. Desde la activación de la Fase 4, todas las líneas mostradas se congelan en un registro prospectivo independiente; el Top 3 original y su historial no se alteran.</p>
+          <section class="market-reliability" aria-labelledby="marketReliabilityTitle">
+            <div class="section-heading"><div><span class="overline">FASE 4 / SEGUIMIENTO REAL</span><h2 id="marketReliabilityTitle">Fiabilidad <em>prospectiva.</em></h2></div>
+              <span id="marketReliabilityNote" class="section-side-note">Solo selecciones guardadas antes del inicio</span>
+            </div>
+            <div id="marketReliabilityNotice" class="explanation market-notice" role="status"></div>
+            <div id="marketReliabilityKpis" class="kpi-grid"></div>
+            <div class="dashboard-grid market-dashboard-grid">
+              <article class="panel">
+                <div class="panel-heading"><div><span class="overline">COMPARATIVA</span><h3>Calibración del modelo</h3></div><span class="panel-mini" id="marketCalibrationSample">SIN MUESTRA</span></div>
+                <div class="calibration-legend"><span><i class="calib-dot predicted"></i> Probabilidad estimada</span><span><i class="calib-dot observed"></i> Acierto observado</span></div>
+                <div id="marketCalibrationChart" class="market-calibration-chart"></div>
+                <p class="fine-print">La ECE mide la diferencia media entre confianza estimada y acierto observado por franjas. Con muestras pequeñas no permite validar el modelo.</p>
+              </article>
+              <article class="panel">
+                <div class="panel-heading"><div><span class="overline">AUDITORÍA</span><h3>Fiabilidad por liga</h3></div><span class="panel-mini">MERCADO SELECCIONADO</span></div>
+                <div id="marketReliabilityLeagues" class="market-reliability-leagues"></div>
+              </article>
+            </div>
+            <div class="panel table-panel">
+              <div class="panel-heading"><div><span class="overline">PRONÓSTICOS ARCHIVADOS</span><h3>Últimas evaluaciones</h3></div>
+                <a class="inline-link" href="https://github.com/rasekes86/football-ai-lab/blob/main/output/seguimiento_mercados_futuros.csv" target="_blank" rel="noopener noreferrer">Archivo íntegro ↗</a></div>
+              <div class="table-scroll"><table class="data-table"><thead><tr><th>Partido</th><th>Selección congelada</th><th>Probabilidad</th><th>Estado</th></tr></thead><tbody id="marketReliabilityRows"></tbody></table></div>
+            </div>
+            <p class="fine-print">La fiabilidad y calibración calculadas aquí son exclusivamente prospectivas desde la activación de la Fase 4. Un partido puede generar varias líneas correlacionadas: por eso se informa también del número de partidos distintos. No se presenta ROI sin cuotas reales verificadas.</p>
+          </section>
 
           <details id="marketHistoryDetails" class="market-history-details">
             <summary><span><strong>Estadísticas históricas y comparativas</strong><small>Medias, frecuencias reales, ligas y partidos disputados</small></span><span class="market-history-chevron" aria-hidden="true">⌄</span></summary>

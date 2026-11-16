@@ -4,6 +4,7 @@ import {
 } from "./data.mjs";
 import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mjs";
 import { futureMarketSnapshot } from "./future_markets.mjs";
+import { reliabilitySnapshot } from "./reliability.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -418,6 +419,79 @@ function marketFutureCard(m) {
     </div>
   </article>`;
 }
+function renderMarketReliability() {
+  const d=state.data;
+  if(!d)return;
+  const market=$("marketFilter").value,league=$("marketLeagueFilter").value,
+    quality=$("marketQualityFilter").value;
+  const view=reliabilitySnapshot(d.futureMarketAudit,{market,league,quality});
+  const r=view.metrics,n=r.muestra||0;
+  $("marketReliabilityNote").textContent="Archivo independiente · sin recalcular el Top 3";
+  if(!view.available){
+    $("marketReliabilityNotice").innerHTML="<strong>Aún no se ha publicado el registro prospectivo de la Fase 4.</strong> " +
+      "La siguiente ejecución del motor creará el archivo inicial; no se reconstruirán resultados anteriores.";
+  }else if(!n){
+    $("marketReliabilityNotice").innerHTML="<strong>Seguimiento activado, sin partidos liquidados todavía con estos filtros.</strong> " +
+      "Hay "+integer(r.registradas)+" selecciones archivadas desde el inicio de la Fase 4. " +
+      "El acierto, Brier y calibración aparecerán únicamente tras verificar los resultados de partidos futuros.";
+  }else if(!view.uniqueEnough){
+    $("marketReliabilityNotice").innerHTML="<strong>Resultados prospectivos disponibles, pero todavía con muestra pequeña.</strong> " +
+      "Hay "+integer(n)+" selecciones resueltas de "+integer(r.partidos_unicos)+" partidos distintos. " +
+      "Varias líneas de un mismo encuentro están correlacionadas; no se puede afirmar que el modelo esté calibrado.";
+  }else{
+    $("marketReliabilityNotice").innerHTML="<strong>Evaluación prospectiva observacional.</strong> " +
+      integer(n)+" selecciones de "+integer(r.partidos_unicos)+" partidos distintos, " +
+      "sin reconstrucciones retrospectivas. No equivale a una ventaja de apuestas.";
+  }
+  const pct=value=>value===null||value===undefined?"—":numberFmt.format(value)+" %";
+  const metric=value=>value===null||value===undefined?"—":
+    new Intl.NumberFormat("es-ES",{minimumFractionDigits:3,maximumFractionDigits:3}).format(value);
+  inner("marketReliabilityKpis",
+    kpi("Líneas archivadas",integer(r.registradas),"Primer snapshot prepartido")+
+    kpi("Evaluadas",integer(n),integer(r.partidos_unicos)+" partidos únicos",true)+
+    kpi("Acierto observado",pct(r.acierto_pct),r.aciertos+" aciertos · "+integer(r.pendientes)+" pendientes")+
+    kpi("Brier / ECE",metric(r.brier)+" / "+metric(r.ece),
+      "Menor es mejor · probabilidad media "+pct(r.probabilidad_media_pct))
+  );
+  $("marketCalibrationSample").textContent=n+" evaluadas";
+  inner("marketCalibrationChart",r.calibracion?.length?r.calibracion.map(point=>`
+    <div class="calibration-row">
+      <span class="calibration-range">${escapeHtml(point.rango)}</span>
+      <div class="calibration-bars">
+        <span class="calibration-estimated" style="width:${Math.max(0,Math.min(100,point.probabilidad_media_pct))}%"></span>
+        <span class="calibration-actual" style="width:${Math.max(0,Math.min(100,point.acierto_pct))}%"></span>
+      </div>
+      <span class="calibration-value">${pct(point.probabilidad_media_pct)} / ${pct(point.acierto_pct)}
+        <small>n=${integer(point.muestra)}</small></span>
+    </div>`).join(""):empty("Aún no hay resultados suficientes para representar la calibración."));
+  inner("marketReliabilityLeagues",view.leagues.length?
+    view.leagues.map(row=>`<div class="league-row">
+      ${leagueLogo(row.liga)}
+      <div class="league-info">
+        <div class="league-name">${escapeHtml(row.liga)}</div>
+        <div class="league-sub">${integer(row.muestra)} selecciones · ${integer(row.partidos_unicos)} partidos distintos</div>
+      </div>
+      <span class="market-mini-percent">${pct(row.acierto_pct)}</span>
+    </div>`).join("") :empty("No hay predicciones archivadas de este mercado y liga."));
+  inner("marketReliabilityRows",view.recent.length?view.recent.map(row=>{
+    const label=row.estado==="FINALIZADO"?
+      (String(row.resultado)==="1"?"ACIERTO":"FALLO"):
+      row.estado==="ESTADISTICA_NO_DISPONIBLE"?"SIN ESTADÍSTICA":
+      row.estado==="RESULTADO_NO_DISPONIBLE"?"SIN MARCADOR":"NO RESUELTA";
+    const cls=row.estado!=="FINALIZADO"?"missing":String(row.resultado)==="1"?"final":"loss";
+    return `<tr>
+      <td><div class="main-cell">${teamPair(row)}</div>
+        <div class="sub-cell">${escapeHtml(displayDay(row.fecha_utc))} · ${escapeHtml(row.liga)}</div></td>
+      <td><strong>${escapeHtml(row.seleccion)}</strong>
+        <div class="sub-cell">${escapeHtml(forecastLevel(row.nivel).text)}
+          ${["1","2","3"].includes(String(row.posicion_top3))?" · También Top 3":""}
+          ${row.valor_real!==""?" · Observado: "+escapeHtml(row.valor_real):""}
+        </div></td>
+      <td>${percent(numberOrNull(row.probabilidad))}</td>
+      <td><span class="status-pill ${cls}">${label}</span></td></tr>`;
+  }).join(""):`<tr><td class="empty" colspan="4">Todavía no hay selecciones evaluadas de este mercado con estos filtros.</td></tr>`);
+}
+
 function renderFutureMarkets() {
   const d=state.data;
   if(!d)return;
@@ -426,7 +500,9 @@ function renderFutureMarkets() {
     league:$("marketLeagueFilter").value,
     team:$("marketTeam").value,
     quality:$("marketQualityFilter").value,
-    order:$("marketOrder").value
+    order:$("marketOrder").value,
+    minProbability:$("marketMinProbability").value,
+    minFair:$("marketMinFair").value
   };
   const result=futureMarketSnapshot(d,filters);
   const {fixtures,market,qualityCounts}=result;
@@ -461,6 +537,7 @@ function renderFutureMarkets() {
   inner("marketFutureGrid",rows.length?rows.map(marketFutureCard).join(""):
     '<div class="empty-state">No hay predicciones prepartido disponibles para este mercado y filtros.</div>');
   $("marketFutureMore").hidden=rows.length>=fixtures.length;
+  renderMarketReliability();
 }
 
 function renderMarkets() {
@@ -713,7 +790,7 @@ function wire() {
     `<button class="market-chip ${x.key==="corners"?"active":""}" type="button"
       data-market-key="${escapeHtml(x.key)}" aria-pressed="${x.key==="corners"}">${escapeHtml(x.label)}</button>`).join(""));
   marketLineOptions();
-  for(const id of ["marketFilter","marketLeagueFilter","marketPeriod","marketLine","marketTeam","marketQualityFilter","marketOrder"]){
+  for(const id of ["marketFilter","marketLeagueFilter","marketPeriod","marketLine","marketTeam","marketQualityFilter","marketOrder","marketMinProbability","marketMinFair"]){
     $(id).addEventListener(id==="marketTeam"?"input":"change",()=>{
       if(id==="marketFilter")marketLineOptions();
       state.marketLimit=35;state.futureMarketLimit=18;renderMarkets();

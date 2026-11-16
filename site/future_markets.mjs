@@ -11,6 +11,10 @@ export function futureMarketSnapshot(model, filters={}, now=new Date()) {
   const league=String(filters.league||"");
   const query=folded(filters.team||"").trim();
   const quality=String(filters.quality||"all");
+  const minimum=Number(filters.minProbability||0);
+  const fairMinimum=Number(filters.minFair||0);
+  const safeMinimum=Number.isFinite(minimum)?Math.max(0,Math.min(1,minimum)):0;
+  const safeFair=Number.isFinite(fairMinimum)?Math.max(0,fairMinimum):0;
   const order=filters.order==="confidence"?"confidence":"kickoff";
   const list=Array.isArray(model?.marketFutures)?model.marketFutures:[];
   const cutoff=now.getTime(),seen=new Set();
@@ -27,6 +31,8 @@ export function futureMarketSnapshot(model, filters={}, now=new Date()) {
     const predictions=Array.isArray(match.mercados?.[market.key])?
       match.mercados[market.key].filter(p=>validProbability(p.probabilidad)): [];
     const eligible=predictions.filter(p=>{
+      if(p.probabilidad<safeMinimum)return false;
+      if(safeFair>0&&(!Number.isFinite(p.cuota_justa)||p.cuota_justa<safeFair))return false;
       if(quality==="top3")return Number.isInteger(p.posicion_top3) && p.posicion_top3>=1;
       if(quality==="audited")return p.nivel==="BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA";
       if(quality==="exploratory")return p.nivel==="EXPLORATORIO_NO_VALIDADO";
