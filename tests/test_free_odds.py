@@ -187,3 +187,50 @@ class FreeOddsTest(unittest.TestCase):
 
 
 if __name__=="__main__":unittest.main()
+
+
+class BalancedFiveLeagueQuotaTest(unittest.TestCase):
+    def test_free_cap_distributes_over_five_major_leagues(self):
+        """El primer lote no debe expulsar Premier/Bundesliga del presupuesto."""
+        ligas=[
+            ("LaLiga","La Liga"),("Premier League","Premier League"),
+            ("Bundesliga","Bundesliga"),("Serie A","Serie A"),
+            ("Ligue 1","Ligue 1"),
+        ]
+        fixtures=[]
+        events=[]
+        for league_no,(label,provider_label) in enumerate(ligas):
+            for game_no in range(4):
+                event_id=5100+league_no*10+game_no
+                home=f"Home {league_no} {game_no}"
+                away=f"Away {league_no} {game_no}"
+                fixtures.append({
+                    "id":f"{label}-{game_no}","liga":label,
+                    "fecha_utc":FDATE,"local":home,"visitante":away})
+                events.append({
+                    "id":event_id,"league":{"name":provider_label},
+                    "teams":{"home":{"name":home},"away":{"name":away}},
+                    "kickoff_utc":FDATE
+                })
+        requests=[]
+        def fetcher(url,headers):
+            self.assertEqual(headers["Authorization"],"Bearer SECRET-FIVE")
+            requests.append(url)
+            if "/fixtures?" in url:
+                return {"success":1,"data":events}
+            event_id=int(url.split("/fixtures/")[1].split("/")[0])
+            payload=five_prices()
+            payload["data"]["fixture_id"]=event_id
+            return payload
+
+        data=get_five_odds(fixtures,NOW,FIVE_ENV,fetcher)
+        self.assertEqual(data["estado"],"CON_CUOTAS")
+        self.assertEqual(data["auditoria"]["partidos"],14)
+        self.assertEqual(data["auditoria"]["consultas"],15)
+        self.assertEqual(data["auditoria"]["eventos_emparejados"],20)
+        self.assertEqual(set(data["auditoria"]["ligas_seleccionadas"]),
+                         set(label for label,_ in ligas))
+        self.assertTrue(all(data["auditoria"]["partidos_por_liga"][label]>=2
+                            for label,_ in ligas))
+        self.assertEqual(len([u for u in requests if "/odds" in u]),14)
+        self.assertNotIn("SECRET-FIVE",json.dumps(data))
