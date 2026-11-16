@@ -231,8 +231,11 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
     # Ventanas de días UTC completos (el proveedor limita a 24h).
     days=sorted({ _dt(f["fecha_utc"]).date() for f in selected
                   if _dt(f["fecha_utc"])<=now+timedelta(days=MAX_DAYS)})
-    quotes=[]
-    matched=set()
+    # Recoger primero todos los encuentros compatibles de la ventana.
+    # Sin esta fase, los primeros 14 de un fin de semana consumen el cupo
+    # y pueden excluir por completo a Premier League y Bundesliga.
+    candidates={}
+    ambiguous=set()
     for day in days:
         begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)
         url=f"{FIVE_URL}/fixtures?"+urlencode({
@@ -248,24 +251,60 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
             for event in entries:
                 if not isinstance(event,dict) or not event.get("id"):continue
                 match=_match(event,selected,now)
-                if not match or match["id"] in matched or len(matched)>=limit:continue
-                matched.add(match["id"])
-                try:
-                    obj=fetcher(f"{FIVE_URL}/fixtures/{event['id']}/odds",headers)
-                    audit["consultas"]+=1
-                    if not isinstance(obj,dict) or obj.get("success") not in (1,True):
-                        raise ValueError("Respuesta de cuotas inválida")
-                    payload=obj.get("data") or {}
-                    if str(payload.get("fixture_id"))!=str(event["id"]):continue
-                    quotes.extend(_five_fixture_rows(match,event["id"],payload,now))
-                except Exception:
-                    audit["errores"]+=1
+                if not match:continue
+                ident=match["id"]
+                if ident in candidates and str(candidates[ident][1]["id"])!=str(event["id"]):
+                    ambiguous.add(ident) # Nunca elegir un evento de API ambiguo.
+                else:
+                    candidates.setdefault(ident,(match,event))
         except Exception:
             audit["errores"]+=1
-    audit["partidos"]=len(matched);audit["cuotas"]=len(quotes)
+    for ident in ambiguous:
+        candidates.pop(ident,None)
+
+    # Repartir las consultas de /odds por rondas de ligas. Se mantiene
+    # exactamente el máximo anterior (14): no aumenta el consumo del plan Free.
+    by_league=defaultdict(list)
+    for match,event in candidates.values():
+        by_league[match["liga"]].append((match,event))
+    for games in by_league.values():
+        games.sort(key=lambda pair:(_dt(pair[0]["fecha_utc"]),str(pair[0]["id"])))
+    league_order=("LaLiga","Premier League","Bundesliga","Serie A",
+                  "Ligue 1","Segunda División")
+    balanced=[]
+    while len(balanced)<limit:
+        advanced=False
+        for league in league_order:
+            if by_league.get(league):
+                balanced.append(by_league[league].pop(0))
+                advanced=True
+                if len(balanced)>=limit:break
+        if not advanced:break
+
+    audit["eventos_emparejados"]=len(candidates)
+    audit["ligas_emparejadas"]=sorted({m["liga"] for m,_ in candidates.values()})
+    audit["ligas_seleccionadas"]=sorted({m["liga"] for m,_ in balanced})
+    audit["partidos_por_liga"]={
+        league:sum(m["liga"]==league for m,_ in balanced)
+        for league in league_order if any(m["liga"]==league for m,_ in balanced)
+    }
+    quotes=[]
+    for match,event in balanced:
+        try:
+            obj=fetcher(f"{FIVE_URL}/fixtures/{event['id']}/odds",headers)
+            audit["consultas"]+=1
+            if not isinstance(obj,dict) or obj.get("success") not in (1,True):
+                raise ValueError("Respuesta de cuotas inválida")
+            payload=obj.get("data") or {}
+            if str(payload.get("fixture_id"))!=str(event["id"]):continue
+            quotes.extend(_five_fixture_rows(match,event["id"],payload,now))
+        except Exception:
+            audit["errores"]+=1
+    audit["partidos"]=len(balanced)
+    audit["cuotas"]=len(quotes)
+    audit["ligas_con_cuotas"]=sorted({q["liga"] for q in quotes})
     audit["estado"]="PARCIAL" if audit["errores"] else "CON_CUOTAS" if quotes else "SIN_COINCIDENCIAS"
     return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit}
-
 
 def _api_values(bet):
     """No se infieren bet IDs. Identificamos nombres explícitos de mercado."""
