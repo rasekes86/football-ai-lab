@@ -169,3 +169,12 @@ no infiere cuotas inexistentes y **no afirma rentabilidad**.
 Guía de alta, costes y metodología:
 [docs/FASE_8_CUOTAS_REALES.md](docs/FASE_8_CUOTAS_REALES.md).
 
+
+### Fase 8 · Fuentes gratuitas adicionales (sin scraping)
+
+Ahora el comparador también admite 5DollarFootballAPI (plan gratis para las
+5 grandes ligas, mercados de 1X2/goles/córners/BTTS) y API-Football
+(respaldo opcional, incluidas amarillas solo si el mercado las especifica).
+Se mantienen separadas las cuotas verificadas y las estimaciones del modelo,
+y no se consulta ninguna API sin autorización y secretos privados.
+[Configurar las fuentes gratuitas](docs/FASE_8_FUENTES_GRATUITAS.md).

@@ -17,6 +17,7 @@ from collections import defaultdict
 
 from .core import normalize_team
 from .sources import LEAGUES
+from .free_odds import collect_free_odds, FIVE_NAME, API_NAME
 
 VERSION = "real-odds-comparator-1.0"
 API_ROOT = "https://api.the-odds-api.com/v4/sports/"
@@ -295,7 +296,18 @@ def _model_outcome(market,selection,fixture):
         if abs(point%1-.5)>1e-6 or not 0.5<=point<=10.5:
             return None
         return ("totals","over" if match.group(1)=="Más" else "under",point)
-    # Sin cuotas verificadas de 1X/X2/12, ambos marcan o conteos.
+    if market in ("corners","yellow"):
+        m=re.fullmatch(r"(Más|Menos) de (\d+[,.]\d+) (?:córners|tarjetas amarillas) totales",selection)
+        if m is None:
+            return None
+        line=float(m.group(2).replace(",","."))
+        if line<.5 or line>25.5 or abs(line%1-.5)>1e-6:
+            return None
+        return (market,"over" if m.group(1)=="Más" else "under",line)
+    if market=="btts":
+        if selection in ("Sí","Si"):return ("btts","yes",None)
+        if selection=="No":return ("btts","no",None)
+    # Sin cuotas verificadas para 1X/X2/12, tiros y combinados.
     return None
 
 
@@ -312,7 +324,7 @@ def compare_forecasts(fixtures,quotes_payload,now):
         price=_price(quote.get("cuota"))
         if not (updated and kickoff and price and
                 updated<=now+timedelta(minutes=5) and now-updated<=MAX_QUOTE_AGE
-                and kickoff>now and updated<kickoff and quote.get("proveedor")==SOURCE):
+                and kickoff>now and updated<kickoff and quote.get("proveedor") in (SOURCE,FIVE_NAME,API_NAME)):
             continue
         by_fixture[quote.get("fixture_id")].append(quote)
     output=[]
@@ -326,7 +338,7 @@ def compare_forecasts(fixtures,quotes_payload,now):
         if not candidates:
             continue
         fixtures_seen+=1
-        for cat in ("result","goals"):
+        for cat in ("result","goals","corners","yellow","btts"):
             rows=(match.get("mercados") or {}).get(cat) or []
             for forecast in rows:
                 if not isinstance(forecast,dict):
@@ -363,7 +375,10 @@ def compare_forecasts(fixtures,quotes_payload,now):
                         "actualizado_utc":q["actualizado_utc"],
                         "capturado_utc":q["capturado_utc"],
                         "evento_id":q["evento_id"],
-                        "fuente":q["fuente"],"proveedor":SOURCE,
+                        "fuente":q["fuente"],"proveedor":q["proveedor"],
+                        "marca_tiempo_tipo":q.get("marca_tiempo_tipo","ACTUALIZACION_PROVEEDOR"),
+                        "fase_cuota":q.get("fase_cuota","OBSERVADA_PREPARTIDO"),
+                        "definicion_mercado":q.get("definicion_mercado",""),
                         "etiqueta":"COMPARACION_INFORMATIVA_NO_VALIDADA",
                     })
     output.sort(key=lambda x:(x["fecha_utc"],x["fixture_id"],x["categoria"],x["seleccion"],x["bookmaker"]))
@@ -372,9 +387,9 @@ def compare_forecasts(fixtures,quotes_payload,now):
         "partidos_con_precios":len({x["fixture_id"] for x in output}),
         "partidos_candidatos":len(fixtures),
         "partidos_proveedor":fixtures_seen,
-        "mercados_soportados":["1X2","Total goles"],
-        "mercados_sin_cuota_verificada":["Doble oportunidad","Ambos marcan",
-                                        "Córners","Tiros","Tarjetas","Faltas"],
+        "mercados_soportados":["1X2","Total goles","Córners totales","Amarillas explícitas","Ambos marcan"],
+        "mercados_sin_cuota_verificada":["Doble oportunidad","Tiros","Faltas",
+                                        "Tarjetas genéricas sin regla de amarillas"],
         "metodologia":"Cuota decimal de bookmaker y pronóstico para el mismo mercado, "
                       "línea, dirección, equipos y partido futuro. Margen retirado solo "
                       "dentro del mismo bookmaker y mercado completo.",
@@ -398,7 +413,7 @@ def archive_snapshots(previous,quotes_payload,now):
     for row in previous if isinstance(previous,list) else []:
         if not isinstance(row,dict):
             continue
-        key=(row.get("capturado_utc","")[:10],row.get("fixture_id"),
+        key=(row.get("capturado_utc","")[:10],row.get("proveedor"),row.get("fixture_id"),
              row.get("evento_id"),row.get("bookmaker_id"),row.get("mercado"),
              row.get("resultado"),str(row.get("linea")))
         if all(key[:6]):
@@ -407,7 +422,7 @@ def archive_snapshots(previous,quotes_payload,now):
     for row in quotes_payload.get("cuotas") or []:
         if _utc(row.get("fecha_utc")) is None or _utc(row["fecha_utc"])<=now:
             continue
-        key=(row["capturado_utc"][:10],row["fixture_id"],row["evento_id"],
+        key=(row["capturado_utc"][:10],row["proveedor"],row["fixture_id"],row["evento_id"],
              row["bookmaker_id"],row["mercado"],row["resultado"],str(row["linea"]))
         # Conservar la primera observación del día, no sobrescribirla.
         unique.setdefault(key,dict(row))
@@ -421,8 +436,36 @@ def archive_snapshots(previous,quotes_payload,now):
     }
 
 
-def build_real_odds(fixtures,now,existing=None,env=None,fetcher=None):
-    quote_payload=retrieve_odds(fixtures,now,env=env,fetcher=fetcher)
+def build_real_odds(fixtures,now,existing=None,env=None,fetcher=None,
+                    five_fetcher=None,api_fetcher=None):
+    """Unifica fuentes sin cambiar los pronósticos ni modificar el Top3.
+
+    Sin claves o banderas no hay consultas HTTP. Cada fuente conserva
+    proveedor, bookmaker, fecha y tipo de mercado en sus observaciones.
+    """
+    env=env or {}
+    original=retrieve_odds(fixtures,now,env=env,fetcher=fetcher)
+    free=collect_free_odds(fixtures,now,env=env,
+                           five_fetcher=five_fetcher,api_fetcher=api_fetcher)
+    quotes=[*original["cuotas"],*free["cuotas"]]
+    audit=dict(original["auditoria"])
+    audit["fuentes_gratuitas"]=free["auditoria"]["fuentes_gratuitas"]
+    audit["proveedores_activos"]=sorted(set(q["proveedor"] for q in quotes))
+    audit["cuotas_validadas"]=len(quotes)
+    audit["partidos_cruzados"]=len(set(q["fixture_id"] for q in quotes))
+    statuses=(original["estado"],free["estado"])
+    if any(s=="PARCIAL" for s in statuses):
+        status="PARCIAL"
+    elif quotes:
+        status="CON_CUOTAS"
+    elif all(s=="DESACTIVADO" for s in statuses):
+        status="DESACTIVADO"
+    elif all(s in ("SIN_CLAVE","DESACTIVADO") for s in statuses):
+        status="SIN_CLAVE" if any(s=="SIN_CLAVE" for s in statuses) else "DESACTIVADO"
+    else:
+        status="SIN_COINCIDENCIAS"
+    quote_payload={"version":VERSION,"capturado_utc":_utc(now).isoformat(),
+                   "estado":status,"auditoria":audit,"cuotas":quotes}
     comparison=compare_forecasts(fixtures,quote_payload,now)
     archive=archive_snapshots((existing or {}).get("cuotas") or [],quote_payload,now)
     return quote_payload,comparison,archive

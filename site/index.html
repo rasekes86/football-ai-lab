@@ -314,11 +314,12 @@
             </div>
           </div>
           <div class="panel realodds-filter-panel">
-            <div class="panel-heading"><div><span class="overline">PRECIOS DE PROVEEDOR · NO CUOTAS JUSTAS INVENTADAS</span><h3>Comparar mercados cubiertos</h3></div><span class="panel-mini">FUENTE: THE ODDS API V4</span></div>
+            <div class="panel-heading"><div><span class="overline">PRECIOS DE PROVEEDOR · NO CUOTAS JUSTAS INVENTADAS</span><h3>Comparar mercados cubiertos</h3></div><span class="panel-mini">3 FUENTES OPCIONALES · GRATUITAS</span></div>
             <div class="realodds-filters">
               <label class="field"><span>LIGA</span><select id="realOddsLeague"><option value="">Todas las ligas</option></select></label>
               <label class="field"><span>MERCADO</span><select id="realOddsMarket">
-                <option value="">1X2 y goles totales</option><option value="result">Resultado 1X2</option><option value="goals">Total de goles</option>
+                <option value="">Todos los mercados disponibles</option><option value="result">Resultado 1X2</option><option value="goals">Total de goles</option>
+                <option value="corners">Córners totales</option><option value="yellow">Amarillas explícitas</option><option value="btts">Ambos marcan</option>
               </select></label>
               <label class="field"><span>CASA (OBSERVADA)</span><select id="realOddsBookmaker"><option value="">Todas las casas</option></select></label>
               <label class="field"><span>PROBABILIDAD MÍN.</span><select id="realOddsProbability">
@@ -337,11 +338,11 @@
             <div class="panel-heading"><div><span class="overline">METODOLOGÍA DE COMPARACIÓN</span><h3>Qué podemos contrastar</h3></div></div>
             <div class="method-grid">
               <div><span class="method-number">01</span><strong>Mismo encuentro</strong><p>Se exige coincidencia de ambos equipos, liga, horario e identidad única. No se usan cuotas anteriores como si fueran actuales.</p></div>
-              <div><span class="method-number">02</span><strong>Mismo mercado y línea</strong><p>Se aceptan únicamente 1X2 y totales de goles con dirección y línea exactas. No se deducen ofertas de doble oportunidad, córners ni tiros.</p></div>
+              <div><span class="method-number">02</span><strong>Mismo mercado y línea</strong><p>Admite 1X2, total de goles, córners y ambos marcan; las amarillas solo cuando la casa identifica explícitamente ese mercado. Las líneas asiáticas con posible devolución y las tarjetas genéricas no se equiparan.</p></div>
               <div><span class="method-number">03</span><strong>Margen de la casa</strong><p>Se contrasta la probabilidad implícita y se estima la probabilidad sin margen usando únicamente las alternativas completas de la misma casa y mercado.</p></div>
             </div>
-            <p class="fine-print">Las cuotas proceden de The Odds API y se observan una vez por ejecución autorizada. Se guardan con fecha y origen. El cálculo EV = p del modelo × cuota − 1 es un escenario matemático sujeto al error del modelo y no demuestra rentabilidad. Sin clave de API, el panel no muestra ofertas.</p>
-            <p class="fine-print">Fuente técnica: <a href="https://the-odds-api.com/liveapi/guides/v4/" target="_blank" rel="noopener noreferrer">The Odds API · documentación oficial ↗</a> · <a href="https://github.com/rasekes86/football-ai-lab/blob/main/docs/FASE_8_CUOTAS_REALES.md" target="_blank" rel="noopener noreferrer">Configuración privada y criterios de verificación ↗</a></p>
+            <p class="fine-print">Las cuotas proceden de 5DollarFootballAPI, API-Football o The Odds API según qué proveedor habilites y se capturan únicamente en ejecuciones autorizadas. Se guardan con fecha y origen. El cálculo EV = p del modelo × cuota − 1 es un escenario matemático sujeto al error del modelo y no demuestra rentabilidad. Sin clave de API, el panel no muestra ofertas.</p>
+            <p class="fine-print"><a href="https://5dollarfootballapi.com/" rel="nofollow noopener noreferrer" target="_blank">Football data by 5DollarFootballAPI</a> · <a href="https://www.api-football.com/" rel="noopener noreferrer" target="_blank">API-Football</a> · Fuente técnica: <a href="https://the-odds-api.com/liveapi/guides/v4/" target="_blank" rel="noopener noreferrer">The Odds API · documentación oficial ↗</a> · <a href="https://github.com/rasekes86/football-ai-lab/blob/main/docs/FASE_8_CUOTAS_REALES.md" target="_blank" rel="noopener noreferrer">Configuración privada y criterios de verificación ↗</a></p>
           </div>
         </section>
 

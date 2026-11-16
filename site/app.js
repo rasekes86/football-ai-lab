@@ -345,11 +345,11 @@ function realOddsCard(item) {
   const ev=Number(q.ev_teorico_unidad);
   const evText=(ev>0?"+":"")+numberFmt.format(ev)+" u./u. (hipotético)";
   const alternatives=item.opciones.length>1 ? `<details class="realodds-alternatives">
-    <summary>Otras ${integer(item.opciones.length-1)} casas observadas <span aria-hidden="true">⌄</span></summary>
+    <summary>Otras ${integer(item.opciones.length-1)} cotizaciones <span aria-hidden="true">⌄</span></summary>
     ${item.opciones.slice(1).map(other=>`<div class="realodds-option">
-      <strong>${escapeHtml(other.bookmaker)}</strong>
+      <strong>${escapeHtml(other.bookmaker)} · ${escapeHtml(other.proveedor)}</strong>
       <span>Cuota ${decimal(other.cuota_real)} · margen ${percent(other.margen_casa)}
-        · última actualización ${escapeHtml(displayDate(other.actualizado_utc))}</span>
+        · ${other.marca_tiempo_tipo==="CAPTURA_NO_ACTUALIZACION"?"capturada":"actualizada"} ${escapeHtml(displayDate(other.actualizado_utc))}</span>
     </div>`).join("")}
   </details>` : "";
   const marker=item.posicion_top3>=1 && item.posicion_top3<=3?
@@ -360,13 +360,13 @@ function realOddsCard(item) {
     <div class="realodds-teams">
       ${teamCrest(item.liga,item.local,true)}<strong>${escapeHtml(item.local)} – ${escapeHtml(item.visitante)}</strong>
       ${teamCrest(item.liga,item.visitante,true)}</div>
-    <div class="realodds-selection"><small>${item.categoria==="result"?"RESULTADO 1X2":"GOLES TOTALES"}</small>
+    <div class="realodds-selection"><small>${escapeHtml(({result:"RESULTADO 1X2",goals:"GOLES TOTALES",corners:"CÓRNERS TOTALES",yellow:"AMARILLAS TOTALES",btts:"AMBOS MARCAN"})[item.categoria]||"MERCADO")}</small>
       <strong>${escapeHtml(item.seleccion)}</strong></div>
     <div class="realodds-number-grid">
       <div><span>Prob. del modelo</span><strong>${percent(item.probabilidad_modelo)}</strong></div>
       <div><span>Cuota justa teórica</span><strong>${decimal(1/item.probabilidad_modelo)}</strong></div>
       <div class="realodds-main-price"><span>Cuota observada</span><strong>${decimal(q.cuota_real)}</strong>
-        <small>${escapeHtml(q.bookmaker)}</small></div>
+        <small>${escapeHtml(q.bookmaker)} · ${escapeHtml(q.proveedor)}</small></div>
     </div>
     <div class="realodds-explanation">
       <div><span>Prob. implícita</span><strong>${percent(q.p_implicita)}</strong></div>
@@ -378,7 +378,7 @@ function realOddsCard(item) {
       <small>¹ Ajuste calculado con todos los resultados de la misma casa y mercado;
       no predice ganancia ni demuestra calibración.</small></div>
     <div class="realodds-card-foot">
-      <div class="realodds-source">The Odds API · actualizada ${escapeHtml(displayDate(q.actualizado_utc))}
+      <div class="realodds-source">${escapeHtml(q.proveedor)} · ${q.marca_tiempo_tipo==="CAPTURA_NO_ACTUALIZACION"?"consulta registrada":"actualización del proveedor"} ${escapeHtml(displayDate(q.actualizado_utc))}
         · capturada ${escapeHtml(displayDate(q.capturado_utc))}</div>
       ${alternatives}
       <button type="button" class="inline-link" data-open-id="${escapeHtml(item.fixture_id)}">Ver ficha del partido ↗</button>
@@ -410,17 +410,17 @@ function renderRealOdds() {
   );
   const status={
     SIN_PUBLICAR:"Los archivos de esta fase todavía no se han publicado. Se mostrarán tras ejecutar el motor.",
-    DESACTIVADO:"Comparación preparada, pero desactivada. Activa ENABLE_REAL_ODDS y añade THE_ODDS_API_KEY como secreto en GitHub. No se ha consultado ningún bookmaker.",
-    SIN_CLAVE:"La consulta está solicitada, pero no existe clave privada THE_ODDS_API_KEY. No hay precios verificados.",
+    DESACTIVADO:"Comparación preparada, pero desactivada. Puedes habilitar 5DollarFootballAPI (gratuito), API-Football o The Odds API mediante claves privadas de GitHub. Sin ellas no se ha consultado ningún bookmaker.",
+    SIN_CLAVE:"Hay un proveedor activado sin su clave privada en GitHub Secrets. No hay ofertas verificadas para mostrar.",
     SIN_COINCIDENCIAS:"No hay cuotas actuales verificadas para estos partidos o mercados. No se emplearán cuotas antiguas, teóricas ni aproximadas.",
     PARCIAL:"El proveedor respondió parcialmente o con errores; solo se muestran precios que pasaron todas las verificaciones.",
-    CON_CUOTAS:"Cuotas de The Odds API cruzadas con partidos futuros y selecciones exactas. No son cotizaciones garantizadas.",
+    CON_CUOTAS:"Precios prepartido de proveedores identificados, cruzados con partidos futuros y líneas exactas. No se garantiza disponibilidad ni rentabilidad.",
     INICIADO:"Consulta pendiente de completar."
   };
   const text=status[view.status]||"No hay precios prepartido verificables para la selección.";
   $("realOddsNotice").innerHTML="<strong>"+escapeHtml(text)+"</strong> "+
     (view.cards.length?"Se muestran primero los encuentros más próximos. ":"")+
-    "Únicamente 1X2 y total de goles. Los mercados no cubiertos permanecen sin cuota.";
+    "Solo 1X2, goles, córners, BTTS y amarillas explícitas; mercados sin equivalencia o datos permanecen sin cuota.";
   const rows=view.cards.slice(0,state.realOddsLimit);
   inner("realOddsCards",rows.length?rows.map(realOddsCard).join("") :
     empty(view.configured

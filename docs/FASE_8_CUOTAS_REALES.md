@@ -123,3 +123,10 @@ Las restricciones de licencia y redistribución de datos pueden variar
 según el plan del proveedor. Comprueba las condiciones de The Odds API
 antes de mostrar sus datos en una web pública. La integración no procesa
 pagos ni ejecuta apuestas.
+
+## Ampliación gratuita
+
+Existe también la [Fase 8 con fuentes gratuitas](FASE_8_FUENTES_GRATUITAS.md):
+5DollarFootballAPI y API-Football, con control de peticiones y
+admisión conservadora de córners y amarillas explícitas. La versión original
+de The Odds API sigue siendo opcional, no obligatoria.

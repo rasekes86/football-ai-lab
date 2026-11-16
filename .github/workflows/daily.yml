@@ -47,6 +47,12 @@ jobs:
           ENABLE_REAL_ODDS: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.ENABLE_REAL_ODDS || 'false' }}
           THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
           REAL_ODDS_LEAGUES: ${{ vars.REAL_ODDS_LEAGUES }}
+          ENABLE_FREE_ODDS: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.ENABLE_FREE_ODDS || 'false' }}
+          FIVEDOLLAR_API_KEY: ${{ secrets.FIVEDOLLAR_API_KEY }}
+          FREE_ODDS_MAX_FIXTURES: ${{ vars.FREE_ODDS_MAX_FIXTURES }}
+          ENABLE_API_FOOTBALL_ODDS: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.ENABLE_API_FOOTBALL_ODDS || 'false' }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_MAX_FIXTURES: ${{ vars.API_FOOTBALL_MAX_FIXTURES }}
         run: python -m football_ai_lab.pipeline --days 14 --backtest-games 120
       - name: Comprobar resumen Telegram sin enviar
         env:

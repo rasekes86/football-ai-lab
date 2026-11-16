@@ -3,7 +3,10 @@ const MAX_AGE_MS=24*3600*1000;
 export const REAL_ODDS_CATEGORIES=Object.freeze([
   {key:"",label:"1X2 y goles"},
   {key:"result",label:"Resultado 1X2"},
-  {key:"goals",label:"Total goles"}
+  {key:"goals",label:"Total goles"},
+  {key:"corners",label:"Córners totales"},
+  {key:"yellow",label:"Amarillas totales (solo mercado explícito)"},
+  {key:"btts",label:"Ambos marcan"}
 ]);
 const valid = x => typeof x==="number" && Number.isFinite(x);
 const fold = s => String(s||"").normalize("NFD")
@@ -21,9 +24,9 @@ export function realOddsSnapshot(model,filter={},now=new Date()){
   const minModel=valid(minProbability)?Math.max(0,Math.min(1,minProbability)):0;
   const nowMs=now.getTime();
   const validQuote=(q)=>{
-    if(!q||q.proveedor!=="The Odds API V4"||
+    if(!q||!["The Odds API V4","5DollarFootballAPI","API-Football"].includes(q.proveedor)||
        q.etiqueta!=="COMPARACION_INFORMATIVA_NO_VALIDADA"||
-       !["result","goals"].includes(q.categoria))return false;
+       !["result","goals","corners","yellow","btts"].includes(q.categoria))return false;
     const changed=Date.parse(q.actualizado_utc),kickoff=Date.parse(q.fecha_utc);
     if(!Number.isFinite(changed)||!Number.isFinite(kickoff)||
        changed>nowMs+300000||nowMs-changed>MAX_AGE_MS||kickoff<=nowMs||
@@ -62,7 +65,7 @@ export function realOddsSnapshot(model,filter={},now=new Date()){
       };
       groups.set(key,entry);
     }
-    if(!entry.opciones.some(x=>x.bookmaker_id===q.bookmaker_id))
+    if(!entry.opciones.some(x=>x.bookmaker_id===q.bookmaker_id && x.proveedor===q.proveedor))
       entry.opciones.push(q);
   }
   const cards=[...groups.values()].map(x=>{
