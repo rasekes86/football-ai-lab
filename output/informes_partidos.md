@@ -705,50 +705,6 @@
 
 ---
 
-## Albacete – RC Celta Fortuna
-
-**Segunda División · 2026-11-16T19:30:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 45.8% | 23.9% | 30.3% | 53.4% |
-
-### Forma, descanso y estadísticas
-
-**Albacete:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
-- Días desde el último partido liguero registrado: 9
-- Medias recientes: Tiros 10,8, a puerta 2,8, córners 6,4, amarillas 3,4
-
-**RC Celta Fortuna:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · D · E · V
-- Días desde el último partido liguero registrado: 9
-- Medias recientes: Tiros 11,0, a puerta 4,6, córners 2,4, amarillas 3,2
-
-### Enfrentamientos previos
-- No disponibles en el histórico consultado
-
-### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Albacete: más de 0,5 goles** (Goles equipo): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **RC Celta Fortuna +1,5** (Hándicap 2 vías (medio gol)): 76.7% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 42.3% / 27.1% / 30.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T19:00:13+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## FC Andorra – Leganés
 
 **Segunda División · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -4167,7 +4123,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T19:47:35+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

@@ -1,8 +1,8 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-16T18:59:24.745933+00:00
+**UTC:** 2026-11-16T20:28:15.299590+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 107
+**Próximos partidos con pronóstico:** 106
 **Descartados por insuficiencia de datos:** 8
 **Históricos evaluados:** 4
 **Brier 1X2 medio:** 0.2026
@@ -24,7 +24,6 @@
 | LaLiga | 2026-11-29T13:00 | Valencia - Osasuna | 45.5% | 26.2% | 28.3% |
 | LaLiga | 2026-11-29T17:30 | Celta Vigo - Villarreal | 37.3% | 25.2% | 37.5% |
 | LaLiga | 2026-11-29T20:00 | Real Sociedad - Sevilla | 48.2% | 22.5% | 29.2% |
-| Segunda División | 2026-11-16T19:30 | Albacete - RC Celta Fortuna | 45.8% | 23.9% | 30.3% |
 | Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 47.6% | 24.4% | 28.0% |
 | Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.0% | 26.0% | 29.9% |
 | Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 44.8% | 25.5% | 29.7% |
@@ -140,7 +139,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **1** / 107. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **1** / 106. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real

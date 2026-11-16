@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-16T18:59:24.745933+00:00",
+  "timestamp_utc": "2026-11-16T20:28:15.299590+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -332,10 +332,11 @@
   "bajas_premier": [
     {
       "equipo": "Arsenal",
-      "bajas_reportadas": 7,
+      "bajas_reportadas": 8,
       "estados": {
         "injured": 1,
         "unavailable": 5,
+        "doubtful": 1,
         "suspended": 1
       }
     },
@@ -358,10 +359,10 @@
     },
     {
       "equipo": "Brentford",
-      "bajas_reportadas": 6,
+      "bajas_reportadas": 7,
       "estados": {
+        "doubtful": 2,
         "injured": 4,
-        "doubtful": 1,
         "suspended": 1
       }
     },
@@ -419,11 +420,11 @@
     },
     {
       "equipo": "Hull City",
-      "bajas_reportadas": 16,
+      "bajas_reportadas": 17,
       "estados": {
         "unavailable": 9,
         "injured": 5,
-        "doubtful": 2
+        "doubtful": 3
       }
     },
     {
@@ -479,11 +480,11 @@
     },
     {
       "equipo": "Nott'm Forest",
-      "bajas_reportadas": 8,
+      "bajas_reportadas": 9,
       "estados": {
+        "doubtful": 2,
         "unavailable": 5,
-        "injured": 2,
-        "doubtful": 1
+        "injured": 2
       }
     },
     {
