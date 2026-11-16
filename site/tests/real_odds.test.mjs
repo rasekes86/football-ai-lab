@@ -49,7 +49,7 @@ test("sin fuente real no crea supuestas oportunidades ni precios",()=>{
   assert.equal(x.configured,false);
   assert.equal(x.cards.length,0);
   assert.equal(x.quotes,0);
-  assert.equal(REAL_ODDS_CATEGORIES.length,3);
+  assert.equal(REAL_ODDS_CATEGORIES.length,6);
 });
 test("agrupa por partido mercado y selección, mejor precio se identifica por bookmaker",()=>{
   const x=realOddsSnapshot(MODEL,{},NOW);
