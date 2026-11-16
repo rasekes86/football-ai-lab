@@ -239,7 +239,7 @@ function questionLeague(q){
 }
 function questionMarket(q){
  const terms=[
-  [/\b(corner|corners|corners totales|corners|corners de|corners del|corners en|corners para|corneres)\b/,"corners"],
+  [/\b(corner|corners|corneres)\b/,"corners"],
   [/\btiros? a puerta\b/,"on_target"],[/\b(tiros|remates)\b/,"shots"],
   [/\b(amarillas|tarjetas amarillas)\b/,"yellow"],
   [/\bdoble oportunidad\b/,"double"],[/\bambos marcan\b/,"btts"],
@@ -286,9 +286,14 @@ function naturalDigest(list,action,now){
    m.mercados?.[key]||[]).filter(x=>Number.isInteger(x.posicion_top3)&&
     x.posicion_top3>=1&&x.posicion_top3<=3)
     .sort((a,b)=>a.posicion_top3-b.posicion_top3).slice(0,3);
+  const published=(key==="all"?Object.values(m.mercados||{}).flat():
+   m.mercados?.[key]||[]).slice(0,2);
   const lines=values.length?values.map(x=>"   • "+x.seleccion+
    " · "+pct(x.probabilidad)+" · justa "+dec(x.cuota_justa)).join("\n"):
-   "   Sin selecciones Top 3 publicadas para este filtro";
+   published.length?"   Selecciones publicadas (sin ranking Top 3):\n"+
+    published.map(x=>"   • "+x.seleccion+" · "+pct(x.probabilidad)+
+    " · justa "+dec(x.cuota_justa)).join("\n"):
+   "   Sin selecciones publicadas para este filtro";
   return (page*perPage+i+1)+". "+showDate(m.fecha_utc)+" · "+
    title(m)+"\n"+lines;
  }).join("\n\n");
