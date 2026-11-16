@@ -144,3 +144,7 @@ real se mantiene en un desplegable secundario. La fuente es
 `output/pronosticos_mercados_futuros.json`, actualizada con el motor diario.
 Se distingue el Top 3 original de los pronósticos adicionales y no se inventan
 probabilidades de faltas ni tarjetas rojas, mercados aún sin modelo prepartido.
+
+### Fase 4 — Auditoría prospectiva de mercados
+
+El [Explorador de mercados](https://rasekes86.github.io/football-ai-lab/#markets) permite consultar los pronósticos futuros y, debajo, un cuadro de **fiabilidad y calibración prospectivas** por categoría y liga. Se archivan las primeras probabilidades de cada partido antes del inicio, se liquidan solo con datos verificables y se calculan tasa de acierto, Brier, logloss y ECE, con advertencias de muestra pequeña. No altera el Top 3 original ni reescribe históricos: [metodología](docs/FASE_4_AUDITORIA.md). Los informes nuevos son `output/historico_mercados_futuros.csv`, `output/seguimiento_mercados_futuros.csv` y `output/fiabilidad_mercados_futuros.json`.

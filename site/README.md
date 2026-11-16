@@ -81,3 +81,11 @@ de la probabilidad estimada, **no ofertas de casas de apuestas**.
 
 Pruebas: `site/tests/future_markets.test.mjs` y
 `tests/test_future_markets.py`.
+
+## Fase 4 — Fiabilidad prospectiva
+
+Desde la activación del sistema, todas las líneas publicadas en `output/pronosticos_mercados_futuros.json` se congelan antes de su encuentro en `output/historico_mercados_futuros.csv` (primer snapshot por partido). El seguimiento va en `output/seguimiento_mercados_futuros.csv`, la fiabilidad y calibración por mercado/liga/calidad en `output/fiabilidad_mercados_futuros.json`. El Top 3 mantiene sus ficheros intactos y **no se reconstruyen pronósticos antiguos**.
+
+La pestaña **Explorar mercados** muestra ahora medias y calibración basadas en resultados prospectivos comprobados, número de partidos únicos y advertencias por muestras pequeñas. Se pueden filtrar los futuros por probabilidad y cuota justa teórica mínima; esto no constituye precios reales ni filtra retrospectivamente la auditoría. El histórico estadístico general sigue separado y accesible.
+
+Detalles metodológicos: `docs/FASE_4_AUDITORIA.md`.
