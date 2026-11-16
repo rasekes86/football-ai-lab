@@ -92,3 +92,31 @@ test("fecha de Madrid y antigüedad del modelo",()=>{
  assert.equal(isFresh(source,new Date("2026-11-21T20:00:00Z")),false);
  assert.match(reply("p:0",feeds,new Date("2026-11-21T20:00:00Z")).text,/No encuentro/);
 });
+
+test("consulta gratuita: combina Segunda División y mañana sin mezclar Primera",()=>{
+ const now=new Date("2026-11-17T14:00:00Z");
+ const action=interpret("Analízame los partidos de Segunda de mañana");
+ assert.equal(action,"nl:SP2:tomorrow:all:0");
+ const msg=reply(action,feeds,now);
+ assert.match(msg.text,/Segunda División/);
+ assert.match(msg.text,/Tenerife/);
+ assert.doesNotMatch(msg.text,/Athletic Club/);
+ assert.ok(msg.reply_markup.inline_keyboard.flat().some(
+  b=>b.callback_data==="f:"+hash("SP2|later")));
+});
+test("consulta de Primera con mercado y fecha conserva filtros",()=>{
+ assert.equal(interpret("Goles de Primera mañana"),"nl:SP1:tomorrow:goals:0");
+ const msg=reply(interpret("¿Qué pronósticos hay mañana?"),feeds,NOW);
+ assert.match(msg.text,/Athletic Club/);
+ assert.doesNotMatch(msg.text,/Tenerife/);
+ assert.match(msg.text,/cuotas justas/i);
+ assert.equal(interpret("¿Cuotas mayores de 1,50 en Segunda mañana?"),"q");
+});
+test("las consultas compuestas no exponen datos antiguos ni alteran otros comandos",()=>{
+ const old=new Date("2026-11-21T20:00:00Z");
+ assert.match(reply("nl:SP2:tomorrow:all:0",feeds,old).text,/No encuentro un pronóstico/);
+ assert.equal(interpret("/menu"),"menu");
+ assert.equal(interpret("¿Y los córners?"),"k:corners:0");
+ assert.equal(interpret("¿Cómo van los aciertos?"),"results");
+ assert.match(reply("nl:SP2:tomorrow:desconocido:0",feeds,NOW).text,/Puedes usar/);
+});
