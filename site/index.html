@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#090f1b">
+  <meta name="description" content="Football AI Lab · pronósticos de seis ligas, seguimiento de las tres selecciones por partido y resultados verificados.">
+  <title>Football AI Lab · Dashboard</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <a class="brand" href="#overview" aria-label="Football AI Lab, inicio">
+        <span class="brand-mark" aria-hidden="true"><span>F</span><small>AI</small></span>
+        <span class="brand-copy"><strong>FOOTBALL<span>AI</span>LAB</strong><small>INTELLIGENCE HUB</small></span>
+      </a>
+      <div class="sidebar-caption">WORKSPACE</div>
+      <nav class="nav" aria-label="Secciones">
+        <button type="button" class="nav-link active" data-view="overview" aria-current="page"><span class="nav-symbol" aria-hidden="true">◫</span>Visión general</button>
+        <button type="button" class="nav-link" data-view="matches"><span class="nav-symbol" aria-hidden="true">⚽</span>Partidos <span id="navMatchCount" class="nav-counter">—</span></button>
+        <button type="button" class="nav-link" data-view="history"><span class="nav-symbol" aria-hidden="true">▤</span>Histórico Top 3</button>
+        <button type="button" class="nav-link" data-view="odds"><span class="nav-symbol" aria-hidden="true">◈</span>Cuotas +1,50</button>
+        <button type="button" class="nav-link" data-view="model"><span class="nav-symbol" aria-hidden="true">▥</span>El modelo</button>
+      </nav>
+      <div class="sidebar-caption caption-resources">RECURSOS</div>
+      <a class="resource-link" href="https://github.com/rasekes86/football-ai-lab" target="_blank" rel="noopener noreferrer">Repositorio GitHub <span aria-hidden="true">↗</span></a>
+      <a class="resource-link" href="https://docs.google.com/spreadsheets/d/1XSDuxhggZ3UCNkJDmakYG8WQdWPcqQtykj49DuIqJsU/edit" target="_blank" rel="noopener noreferrer">Google Sheets <span aria-hidden="true">↗</span></a>
+      <div class="sidebar-bottom">
+        <div class="sidebar-glow"></div>
+        <span class="tiny-label">LAB NOTE / 01</span>
+        <strong>Los datos cuentan la historia.</strong>
+        <p>Predicciones experimentales, sin ejecución de apuestas.</p>
+        <span class="sidebar-edition">EDICIÓN 2026 • V1.0</span>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="topbar-kicker">ANALYTICS <span aria-hidden="true">/</span> LIVE DATA</div>
+          <div class="topbar-title">Panel de control <span class="topbar-rule">/</span> 6 ligas</div>
+        </div>
+        <div class="topbar-right">
+          <div class="sync-status" id="syncStatus" role="status"><span class="status-dot"></span><span id="syncText">Conectando datos…</span></div>
+          <div class="sync-time" id="updatedLabel">Última publicación: —</div>
+          <button type="button" class="refresh-btn" id="refreshButton" title="Volver a descargar los datos" aria-label="Actualizar datos">↻ <span>Actualizar</span></button>
+        </div>
+      </header>
+
+      <nav class="mobile-nav" aria-label="Navegación móvil">
+        <button type="button" class="mobile-link active" data-view="overview">Resumen</button>
+        <button type="button" class="mobile-link" data-view="matches">Partidos</button>
+        <button type="button" class="mobile-link" data-view="history">Top 3</button>
+        <button type="button" class="mobile-link" data-view="odds">Cuotas</button>
+        <button type="button" class="mobile-link" data-view="model">Modelo</button>
+      </nav>
+
+      <main id="main" tabindex="-1">
+        <div id="errorBanner" class="error-banner" role="alert" hidden></div>
+
+        <section class="view" id="view-overview" aria-labelledby="overviewTitle">
+          <div class="hero">
+            <div class="pitch-art" aria-hidden="true"><span class="pitch-center"></span><span class="pitch-goal"></span></div>
+            <div class="hero-content">
+              <div class="eyebrow"><span class="eyebrow-line"></span> INTELIGENCIA FUTBOLÍSTICA <span class="hero-version">01 / DASHBOARD</span></div>
+              <h1 id="overviewTitle">El fútbol.<br><em>En datos.</em></h1>
+              <p>Seis grandes ligas. Tres pronósticos por partido. Un seguimiento transparente de cada acierto, fallo y dato pendiente.</p>
+              <div class="hero-actions"><button type="button" class="btn btn-bright" data-go="matches">Explorar partidos <span aria-hidden="true">↗</span></button><button type="button" class="btn btn-outline" data-go="history">Ver seguimiento</button></div>
+            </div>
+            <div class="hero-aside"><span class="hero-aside-top">RESEARCH / NOT BETTING</span><span class="hero-aside-number">06</span><span class="hero-aside-bottom">LIGAS BAJO ANÁLISIS</span></div>
+          </div>
+
+          <div class="section-heading"><div><span class="overline">01 / MONITOR</span><h2>Un vistazo al modelo</h2></div><span class="section-side-note">Datos públicos del repositorio</span></div>
+          <div id="kpiGrid" class="kpi-grid" aria-live="polite"><div class="skeleton kpi-skeleton"></div><div class="skeleton kpi-skeleton"></div><div class="skeleton kpi-skeleton"></div><div class="skeleton kpi-skeleton"></div></div>
+          <div class="dashboard-grid">
+            <article class="panel panel-leagues">
+              <div class="panel-heading"><div><span class="overline">COBERTURA</span><h3>Las seis ligas</h3></div><span class="panel-mini">TOP 3</span></div>
+              <div id="leagueOverview" class="leagues-list"><div class="empty">Cargando competiciones…</div></div>
+            </article>
+            <article class="panel panel-signal">
+              <div class="panel-heading"><div><span class="overline">RESULTADOS</span><h3>Calidad de predicción</h3></div><span class="panel-mini">MUESTRA REAL</span></div>
+              <div id="accuracyOverview" class="accuracy-module"></div>
+              <div id="accuracyChart" class="accuracy-chart" role="img" aria-label="Tasas de acierto por liga"></div>
+              <p class="fine-print">El acierto retrospectivo no garantiza un rendimiento futuro.</p>
+            </article>
+          </div>
+          <div class="dashboard-grid">
+            <article class="panel">
+              <div class="panel-heading"><div><span class="overline">PRÓXIMAMENTE</span><h3>Próximos partidos</h3></div><button class="inline-link" type="button" data-go="matches">Ver todos ↗</button></div>
+              <div id="upcomingList" class="compact-matches"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading"><div><span class="overline">AUDITORÍA</span><h3>Últimos verificados</h3></div><button class="inline-link" type="button" data-go="history">Ver histórico ↗</button></div>
+              <div id="reviewedList" class="compact-matches"></div>
+            </article>
+          </div>
+          <div id="oddsOverview" class="simulation-banner"></div>
+        </section>
+
+        <section class="view" id="view-matches" aria-labelledby="matchesTitle" hidden>
+          <div class="page-intro"><div><span class="overline">02 / FIXTURE INTELLIGENCE</span><h1 id="matchesTitle">Todos los <em>partidos.</em></h1><p>Abre cada encuentro para ver sus tres pronósticos originales y su liquidación.</p></div><div class="intro-art" aria-hidden="true">90<span>’</span></div></div>
+          <div class="panel filters">
+            <label class="field field-search"><span>BUSCAR EQUIPO</span><input type="search" id="matchSearch" placeholder="Equipo, mercado o rival…" autocomplete="off"></label>
+            <label class="field"><span>LIGA</span><select id="leagueFilter"><option value="">Todas las ligas</option></select></label>
+            <label class="field"><span>ESTADO TOP 3</span><select id="statusFilter"><option value="">Todos</option><option value="FINALIZADO">Finalizados</option><option value="PARCIAL">Parciales</option><option value="SIN_DATOS">Sin datos</option><option value="PENDIENTE">Pendientes</option></select></label>
+            <label class="field"><span>PERIODO</span><select id="periodFilter"><option value="all">Todos</option><option value="next">Próximos</option><option value="past">Ya disputados</option></select></label>
+            <label class="field"><span>ORDEN</span><select id="sortFilter"><option value="asc">Fecha próxima primero</option><option value="desc">Más recientes primero</option></select></label>
+          </div>
+          <div class="results-bar"><span id="matchCount">—</span><span class="results-legend"><i class="legend-dot success"></i> Acierto <i class="legend-dot danger"></i> Fallo <i class="legend-dot neutral"></i> Sin verificar</span></div>
+          <div id="matchesGrid" class="matches-grid"></div>
+          <div class="load-wrap"><button type="button" id="loadMore" class="btn btn-outline" hidden>Mostrar más partidos ↓</button></div>
+        </section>
+
+        <section class="view" id="view-history" aria-labelledby="historyTitle" hidden>
+          <div class="page-intro"><div><span class="overline">03 / TRACK RECORD</span><h1 id="historyTitle">Histórico <em>Top 3.</em></h1><p>Selecciones congeladas antes del inicio. Cada mercado se verifica por separado y nunca se cuenta dos veces.</p></div><div class="intro-art" aria-hidden="true">03<span>×</span></div></div>
+          <div id="historySummary" class="kpi-grid history-kpis"></div>
+          <div class="panel filters history-filters">
+            <label class="field"><span>LIGA</span><select id="historyLeagueFilter"><option value="">Todas las ligas</option></select></label>
+            <label class="field"><span>MERCADO</span><select id="historyMarketFilter"><option value="">Todos los mercados</option></select></label>
+            <label class="field"><span>RESULTADO</span><select id="historyStatusFilter"><option value="">Todos</option><option value="win">Acertados</option><option value="loss">Fallados</option><option value="pending">Pendientes / sin verificar</option></select></label>
+            <label class="field field-search"><span>BUSCAR</span><input type="search" id="historySearch" placeholder="Equipo o selección…"></label>
+          </div>
+          <div class="panel table-panel"><div class="panel-heading"><div><span class="overline">REGISTRO ORIGINAL</span><h3>Selecciones auditadas</h3></div><span id="historyCount" class="panel-mini"></span></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Fecha / partido</th><th>Liga</th><th>Mercado y selección</th><th>Prob.</th><th>Estado</th><th></th></tr></thead><tbody id="historyRows"></tbody></table></div><div class="load-wrap"><button type="button" id="historyMore" class="btn btn-outline" hidden>Mostrar más registros ↓</button></div></div>
+          <div class="explanation"><strong>¿Por qué hay selecciones sin resolver?</strong> Para tiros, córners o tarjetas necesitamos estadísticas finales verificadas. La ausencia de datos no equivale a un fallo.</div>
+        </section>
+
+        <section class="view" id="view-odds" aria-labelledby="oddsTitle" hidden>
+          <div class="page-intro"><div><span class="overline">04 / SCENARIO LAB</span><h1 id="oddsTitle">Cuotas y <em>simulación.</em></h1><p>Experimento de una unidad por selección liquidada. Cuotas orientativas, sin apuestas reales.</p></div><div class="intro-art" aria-hidden="true">1<span>,50</span></div></div>
+          <div class="warning-notice"><span class="notice-icon">!</span><div><strong>Estas cuotas no representan operaciones reales.</strong><p>La mayoría son referencias indicativas sin verificación de disponibilidad. El ROI es exclusivamente hipotético.</p></div></div>
+          <div id="oddsSummary" class="kpi-grid"></div>
+          <div class="dashboard-grid odds-layout">
+            <article class="panel"><div class="panel-heading"><div><span class="overline">SIMULACIÓN · 1 U.</span><h3>Evolución acumulada</h3></div><span class="panel-mini">SOLO FINALIZADOS</span></div><div id="oddsChart" class="linechart"></div><p class="fine-print">El balance se calcula únicamente con retornos simulados registrados; no incluye pendientes.</p></article>
+            <article class="panel"><div class="panel-heading"><div><span class="overline">METODOLOGÍA</span><h3>Cómo lo calculamos</h3></div></div><div class="method-grid"><div><span class="method-number">01</span><strong>Primero archivamos</strong><p>La predicción y la cuota quedan registradas antes del inicio.</p></div><div><span class="method-number">02</span><strong>Después verificamos</strong><p>Comprobamos marcador y estadística necesaria.</p></div><div><span class="method-number">03</span><strong>Simulamos 1 unidad</strong><p>Acierto: cuota menos 1. Fallo: −1. Sin dato: no computa.</p></div></div></article>
+          </div>
+          <div class="panel table-panel"><div class="panel-heading"><div><span class="overline">TODAS LAS CUOTAS</span><h3>Registro de oportunidades</h3></div><span id="oddsCount" class="panel-mini"></span></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Fecha / partido</th><th>Selección</th><th>Cuota</th><th>Resultado</th><th>Simulación</th><th></th></tr></thead><tbody id="oddsRows"></tbody></table></div></div>
+        </section>
+
+        <section class="view" id="view-model" aria-labelledby="modelTitle" hidden>
+          <div class="page-intro"><div><span class="overline">05 / TRANSPARENCY</span><h1 id="modelTitle">Dentro del <em>modelo.</em></h1><p>Qué medimos, de dónde viene cada dato y qué limitaciones tienen las estimaciones.</p></div><div class="intro-art" aria-hidden="true">AI<span>LAB</span></div></div>
+          <div class="dashboard-grid">
+            <article class="panel"><div class="panel-heading"><div><span class="overline">POR COMPETICIÓN</span><h3>Resultados del Top 3</h3></div></div><div id="modelLeagues" class="model-league-list"></div></article>
+            <article class="panel"><div class="panel-heading"><div><span class="overline">ESTADO DEL SISTEMA</span><h3>Fuente y actualización</h3></div></div><div id="modelQuality" class="model-quality"></div></article>
+          </div>
+          <div class="panel methodology-panel"><div class="panel-heading"><div><span class="overline">LEER LOS DATOS</span><h3>Reglas que seguimos</h3></div></div><div class="methodology-list"><div><span>01</span><div><strong>Pronósticos experimentales</strong><p>Las probabilidades provienen de Poisson/Elo y de modelos de conteos en investigación. No representan certezas ni recomendaciones financieras.</p></div></div><div><span>02</span><div><strong>Histórico prepartido inmutable</strong><p>Las tres primeras selecciones archivadas se mantienen aunque un análisis posterior cambie de opinión.</p></div></div><div><span>03</span><div><strong>Fuentes y liquidación</strong><p>Marcadores contrastados; cuando no hay estadísticas fiables de tiros, córners o tarjetas, el resultado queda pendiente.</p></div></div><div><span>04</span><div><strong>Sin apuestas automáticas</strong><p>El ROI mostrado es simulado con las cuotas registradas. La mayor parte no están verificadas como ofertas ejecutables.</p></div></div></div></div>
+        </section>
+      </main>
+      <footer class="footer"><div>FOOTBALL AI LAB <span>© 2026 · PROYECTO EXPERIMENTAL</span></div><div>Resultados publicados por GitHub Actions. <a href="https://github.com/rasekes86/football-ai-lab" target="_blank" rel="noopener noreferrer">Ver metodología ↗</a></div></footer>
+    </div>
+  </div>
+
+  <div class="dialog-backdrop" id="dialogBackdrop" hidden>
+    <div class="match-dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle" tabindex="-1" id="matchDialog">
+      <div class="dialog-head"><span class="overline">FICHA DE PARTIDO · PRONÓSTICOS ARCHIVADOS</span><button type="button" id="dialogClose" class="dialog-close" aria-label="Cerrar ficha">×</button></div>
+      <div id="dialogBody"></div>
+    </div>
+  </div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

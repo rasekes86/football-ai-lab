@@ -1,0 +1,74 @@
+name: Publicar Football AI Lab Dashboard
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: football-ai-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar código JS
+        run: |
+          node --check site/data.mjs
+          node --check site/app.js
+      - name: Pruebas de CSV, histórico y simulación
+        run: node --test site/tests/*.test.mjs
+      - name: Comprobar fuentes de publicación
+        run: |
+          python - <<'PY'
+          import csv, json
+          from pathlib import Path
+          out=Path('output')
+          required = {
+            'predicciones.csv': {'id','liga','fecha_utc','local','visitante'},
+            'historico_predicciones.csv': {'id','fecha_analisis_utc'},
+            'selecciones.csv': {'id','seleccion','mercado','probabilidad'},
+            'historico_selecciones.csv': {'id','clave','archivado_utc'},
+            'seguimiento_selecciones.csv': {'id','clave','resultado','estado'},
+            'seguimiento.csv': {'id','estado','resultado_real'},
+            'seguimiento_oportunidades_150.csv': {'id','estado','retorno_simulado_unidad'},
+          }
+          for name, fields in required.items():
+              with (out/name).open(newline='',encoding='utf-8-sig') as f:
+                  header=set(next(csv.reader(f)))
+                  assert fields<=header, f'{name}: missing {fields-header}'
+          for name in ('evaluacion_selecciones.json','evaluacion_oportunidades_150.json','evaluacion_real.json'):
+              json.loads((out/name).read_text(encoding='utf-8'))
+          for name in ('index.html','styles.css','app.js','data.mjs'):
+              assert (Path('site')/name).is_file(),name
+          print('CSV, JSON y assets de la web verificados.')
+          PY
+      - name: Preparar sitio
+        run: |
+          touch site/.nojekyll
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Subir sitio estático
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
