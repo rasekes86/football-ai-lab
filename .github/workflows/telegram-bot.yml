@@ -21,7 +21,9 @@ jobs:
         working-directory: telegram-bot
         run: npm test
   deploy:
-    if: github.event_name == 'workflow_dispatch'
+    # En main, los cambios del bot se despliegan tras superar las pruebas.
+    # Solo se ejecuta al cambiar telegram-bot/** o este workflow.
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'
     needs: tests
     runs-on: ubuntu-latest
     timeout-minutes: 12
@@ -84,7 +86,7 @@ jobs:
               "url":base+"/telegram",
               "secret_token":hashlib.sha256(token.encode("utf-8")).hexdigest(),
               "allowed_updates":["message","callback_query"],
-              "drop_pending_updates":True,
+              "drop_pending_updates":False,
               "max_connections":10
           })
           post("setMyCommands",{"commands":[
