@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-16T10:28:20.281888+00:00
+**UTC:** 2026-11-16T12:39:16.130658+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 107
 **Descartados por insuficiencia de datos:** 8
@@ -24,28 +24,28 @@
 | LaLiga | 2026-11-29T13:00 | Valencia - Osasuna | 45.5% | 26.2% | 28.3% |
 | LaLiga | 2026-11-29T17:30 | Celta Vigo - Villarreal | 37.3% | 25.2% | 37.5% |
 | LaLiga | 2026-11-29T20:00 | Real Sociedad - Sevilla | 48.2% | 22.5% | 29.2% |
-| Segunda División | 2026-11-16T19:30 | Albacete - RC Celta Fortuna | 45.8% | 24.0% | 30.3% |
-| Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 48.1% | 24.5% | 27.4% |
-| Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.7% | 26.1% | 29.2% |
-| Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 45.0% | 24.8% | 30.2% |
-| Segunda División | 2026-11-21T17:30 | Castellón - Eldense | 65.4% | 20.6% | 14.0% |
-| Segunda División | 2026-11-21T20:00 | Tenerife - Mallorca | 37.8% | 30.8% | 31.5% |
-| Segunda División | 2026-11-22T13:00 | Córdoba - Real Oviedo | 35.0% | 25.2% | 39.8% |
-| Segunda División | 2026-11-22T15:15 | Sporting Gijón - Las Palmas | 43.6% | 24.7% | 31.7% |
-| Segunda División | 2026-11-22T17:30 | Girona - Eibar | 45.2% | 26.0% | 28.8% |
-| Segunda División | 2026-11-22T17:30 | RC Celta Fortuna - Real Valladolid | 47.6% | 22.5% | 29.8% |
-| Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.9% | 28.5% | 23.6% |
-| Segunda División | 2026-11-23T19:30 | Ceuta - Almería | 29.5% | 24.8% | 45.6% |
-| Segunda División | 2026-11-27T19:30 | Leganés - CD Sabadell | 36.8% | 29.2% | 34.0% |
-| Segunda División | 2026-11-28T13:00 | Las Palmas - FC Andorra | 51.7% | 24.8% | 23.5% |
-| Segunda División | 2026-11-28T15:15 | Albacete - Tenerife | 50.6% | 24.4% | 25.0% |
-| Segunda División | 2026-11-28T15:15 | Eldense - Girona | 33.3% | 25.2% | 41.6% |
-| Segunda División | 2026-11-28T17:30 | Eibar - Burgos | 43.2% | 26.3% | 30.5% |
-| Segunda División | 2026-11-28T20:00 | Real Valladolid - Real Sociedad II | 45.1% | 24.3% | 30.6% |
-| Segunda División | 2026-11-29T13:00 | Granada - Ceuta | 55.6% | 22.6% | 21.9% |
-| Segunda División | 2026-11-29T15:15 | Mallorca - Castellón | 40.5% | 26.6% | 32.9% |
-| Segunda División | 2026-11-29T17:30 | Cádiz - Córdoba | 30.5% | 23.5% | 46.0% |
-| Segunda División | 2026-11-29T20:00 | Almería - Sporting Gijón | 59.0% | 20.6% | 20.4% |
+| Segunda División | 2026-11-16T19:30 | Albacete - RC Celta Fortuna | 45.8% | 23.9% | 30.3% |
+| Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 47.6% | 24.4% | 28.0% |
+| Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.0% | 26.0% | 29.9% |
+| Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 44.8% | 25.5% | 29.7% |
+| Segunda División | 2026-11-21T17:30 | Castellón - Eldense | 65.4% | 20.6% | 14.1% |
+| Segunda División | 2026-11-21T20:00 | Tenerife - Mallorca | 39.1% | 30.6% | 30.3% |
+| Segunda División | 2026-11-22T13:00 | Córdoba - Real Oviedo | 35.6% | 25.2% | 39.2% |
+| Segunda División | 2026-11-22T15:15 | Sporting Gijón - Las Palmas | 44.9% | 24.5% | 30.6% |
+| Segunda División | 2026-11-22T17:30 | Girona - Eibar | 45.9% | 25.9% | 28.2% |
+| Segunda División | 2026-11-22T17:30 | RC Celta Fortuna - Real Valladolid | 47.9% | 22.5% | 29.6% |
+| Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.5% | 28.5% | 23.9% |
+| Segunda División | 2026-11-23T19:30 | Ceuta - Almería | 29.2% | 24.8% | 46.0% |
+| Segunda División | 2026-11-27T19:30 | Leganés - CD Sabadell | 41.0% | 28.5% | 30.5% |
+| Segunda División | 2026-11-28T13:00 | Las Palmas - FC Andorra | 51.2% | 24.7% | 24.1% |
+| Segunda División | 2026-11-28T15:15 | Albacete - Tenerife | 50.4% | 24.4% | 25.3% |
+| Segunda División | 2026-11-28T15:15 | Eldense - Girona | 32.4% | 24.7% | 42.8% |
+| Segunda División | 2026-11-28T17:30 | Eibar - Burgos | 43.6% | 26.2% | 30.2% |
+| Segunda División | 2026-11-28T20:00 | Real Valladolid - Real Sociedad II | 43.2% | 24.7% | 32.1% |
+| Segunda División | 2026-11-29T13:00 | Granada - Ceuta | 58.0% | 22.6% | 19.4% |
+| Segunda División | 2026-11-29T15:15 | Mallorca - Castellón | 38.8% | 25.6% | 35.5% |
+| Segunda División | 2026-11-29T17:30 | Cádiz - Córdoba | 30.7% | 23.1% | 46.2% |
+| Segunda División | 2026-11-29T20:00 | Almería - Sporting Gijón | 58.7% | 20.6% | 20.7% |
 | Premier League | 2026-11-21T12:30 | Manchester City - Fulham | 64.7% | 22.1% | 13.1% |
 | Premier League | 2026-11-21T15:00 | AFC Bournemouth - Nottingham Forest | 47.0% | 26.5% | 26.5% |
 | Premier League | 2026-11-21T15:00 | Aston Villa - Sunderland | 53.4% | 25.3% | 21.2% |
@@ -132,7 +132,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 | Liga | Muestra | Brier modelo | Brier base | Log loss modelo | Log loss base |
 |---|---:|---:|---:|---:|---:|
 | LaLiga | 91 | 0.18997 | 0.21841 | 0.96349 | 1.08043 |
-| Segunda División | 89 | 0.20398 | 0.21465 | 1.01814 | 1.06212 |
+| Segunda División | 94 | 0.20468 | 0.21316 | 1.02118 | 1.05719 |
 | Premier League | 101 | 0.20973 | 0.21933 | 1.04602 | 1.08615 |
 | Bundesliga | 94 | 0.18814 | 0.21199 | 0.95179 | 1.05295 |
 | Serie A | 120 | 0.17992 | 0.21206 | 0.92392 | 1.05011 |
@@ -140,7 +140,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **2** / 107. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **1** / 107. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
@@ -170,17 +170,17 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 | Partido | Mercado | Selección | Prob. modelo | Cuota justa |
 |---|---|---|---:|---:|
 | Elche – Atlético Madrid | Hándicap 2 vías (medio gol) | Atlético Madrid +1,5 | 87.0% | 1.15 |
-| Real Sociedad II – Cádiz | Hándicap 2 vías (medio gol) | Real Sociedad II +1,5 | 87.0% | 1.15 |
-| Castellón – Eldense | Goles equipo | Castellón: más de 0,5 goles | 86.9% | 1.15 |
+| Borussia Mönchengladbach – Borussia Dortmund | Goles equipo | Borussia Dortmund: más de 0,5 goles | 86.9% | 1.15 |
+| Liverpool – Manchester United | Total goles | Menos de 4,5 goles | 86.9% | 1.15 |
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
 Selecciones archivadas: **5**; finalizadas: **4**; pendientes: **1**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **333** selecciones archivadas antes del partido; **10** resueltas.
+Seguimiento real del Top 3: **333** selecciones archivadas antes del partido; **12** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
-Líneas de córners/tiros/tarjetas aprobadas en backtest: **36**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
+Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

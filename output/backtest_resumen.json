@@ -8,11 +8,11 @@
     "modelo_mejor_brier": true
   },
   "Segunda División": {
-    "muestra": 89,
-    "brier_modelo": 0.20398,
-    "logloss_modelo": 1.01814,
-    "brier_base": 0.21465,
-    "logloss_base": 1.06212,
+    "muestra": 94,
+    "brier_modelo": 0.20468,
+    "logloss_modelo": 1.02118,
+    "brier_base": 0.21316,
+    "logloss_base": 1.05719,
     "modelo_mejor_brier": true
   },
   "Premier League": {

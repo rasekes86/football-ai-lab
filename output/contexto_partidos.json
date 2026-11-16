@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-16T10:28:20.281888+00:00",
+  "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -3077,13 +3077,20 @@
       "local_datos": {
         "partidos": 5,
         "v": 1,
-        "e": 2,
-        "d": 2,
-        "goles_favor": 5,
-        "goles_contra": 7,
-        "puntos": 5,
-        "dias_descanso": 18,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 6,
+        "goles_contra": 9,
+        "puntos": 4,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Almeria",
+            "visitante": "Andorra",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-02",
             "local": "Tenerife",
@@ -3111,33 +3118,33 @@
             "visitante": "Castellon",
             "marcador": "1-0",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Sabadell",
-            "visitante": "Andorra",
-            "marcador": "0-0",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 11.4,
-          "tiros_puerta": 5.2,
-          "corners": 4.0,
-          "amarillas": 3.8,
-          "rojas": 0.4
+          "tiros": 13.8,
+          "tiros_puerta": 6.2,
+          "corners": 5.2,
+          "amarillas": 3.6,
+          "rojas": 0.6
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 0,
+        "v": 1,
         "e": 1,
-        "d": 4,
-        "goles_favor": 5,
-        "goles_contra": 12,
-        "puntos": 1,
-        "dias_descanso": 13,
+        "d": 3,
+        "goles_favor": 8,
+        "goles_contra": 10,
+        "puntos": 4,
+        "dias_descanso": 7,
         "ultimos": [
+          {
+            "fecha": "2026-11-13",
+            "local": "Leganes",
+            "visitante": "Burgos",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Leganes",
@@ -3165,20 +3172,13 @@
             "visitante": "Cordoba",
             "marcador": "0-1",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Almeria",
-            "visitante": "Leganes",
-            "marcador": "3-0",
-            "resultado": "D"
           }
         ],
         "medias": {
           "tiros": 13.4,
-          "tiros_puerta": 4.8,
-          "corners": 5.2,
-          "amarillas": 4.8,
+          "tiros_puerta": 5.2,
+          "corners": 5.4,
+          "amarillas": 4.4,
           "rojas": 0.4
         }
       },
@@ -3211,12 +3211,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 96,
+            "todos": 97,
             "recinto": 48,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 49,
             "identificado": true
           }
@@ -3243,14 +3243,21 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 1,
+        "v": 0,
         "e": 2,
-        "d": 2,
-        "goles_favor": 4,
-        "goles_contra": 5,
-        "puntos": 5,
-        "dias_descanso": 12,
+        "d": 3,
+        "goles_favor": 2,
+        "goles_contra": 6,
+        "puntos": 2,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eldense",
+            "visitante": "Sabadell",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Sabadell",
@@ -3278,19 +3285,12 @@
             "visitante": "Sabadell",
             "marcador": "1-0",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Ceuta",
-            "visitante": "Sabadell",
-            "marcador": "1-2",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 15.2,
-          "tiros_puerta": 3.4,
-          "corners": 4.2,
+          "tiros": 14.0,
+          "tiros_puerta": 2.8,
+          "corners": 4.0,
           "amarillas": 2.8,
           "rojas": 0.2
         }
@@ -3300,11 +3300,18 @@
         "v": 5,
         "e": 0,
         "d": 0,
-        "goles_favor": 10,
-        "goles_contra": 3,
+        "goles_favor": 8,
+        "goles_contra": 1,
         "puntos": 15,
-        "dias_descanso": 20,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Granada",
+            "visitante": "Las Palmas",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-01",
             "local": "Eldense",
@@ -3332,20 +3339,13 @@
             "visitante": "Granada",
             "marcador": "0-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Sociedad B",
-            "visitante": "Granada",
-            "marcador": "2-3",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 11.8,
-          "tiros_puerta": 4.0,
-          "corners": 3.2,
-          "amarillas": 1.4,
+          "tiros": 10.6,
+          "tiros_puerta": 3.6,
+          "corners": 2.2,
+          "amarillas": 1.6,
           "rojas": 0.0
         }
       },
@@ -3353,12 +3353,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 13,
+            "todos": 14,
             "recinto": 6,
             "identificado": true
           },
           "visitante": {
-            "todos": 96,
+            "todos": 97,
             "recinto": 49,
             "identificado": true
           }
@@ -3386,13 +3386,20 @@
       "local_datos": {
         "partidos": 5,
         "v": 1,
-        "e": 1,
-        "d": 3,
-        "goles_favor": 4,
-        "goles_contra": 9,
-        "puntos": 4,
-        "dias_descanso": 12,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 5,
+        "goles_contra": 7,
+        "puntos": 5,
+        "dias_descanso": 7,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Sociedad B",
+            "visitante": "Sp Gijon",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Sabadell",
@@ -3420,33 +3427,33 @@
             "visitante": "Almeria",
             "marcador": "2-4",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Celta B",
-            "visitante": "Sociedad B",
-            "marcador": "4-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 16.0,
-          "tiros_puerta": 4.6,
-          "corners": 6.4,
-          "amarillas": 3.4,
+          "tiros": 15.0,
+          "tiros_puerta": 4.4,
+          "corners": 5.6,
+          "amarillas": 3.2,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
         "v": 1,
-        "e": 0,
-        "d": 4,
-        "goles_favor": 5,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 6,
         "goles_contra": 8,
-        "puntos": 3,
-        "dias_descanso": 14,
+        "puntos": 4,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eibar",
+            "visitante": "Cadiz",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cadiz",
@@ -3474,20 +3481,13 @@
             "visitante": "Cadiz",
             "marcador": "2-0",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Cadiz",
-            "visitante": "Sp Gijon",
-            "marcador": "0-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 10.2,
-          "tiros_puerta": 2.8,
-          "corners": 5.2,
-          "amarillas": 2.8,
+          "tiros": 10.4,
+          "tiros_puerta": 3.6,
+          "corners": 4.0,
+          "amarillas": 3.0,
           "rojas": 0.0
         }
       },
@@ -3508,13 +3508,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 55,
-            "recinto": 27,
+            "todos": 56,
+            "recinto": 28,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
-            "recinto": 47,
+            "todos": 98,
+            "recinto": 48,
             "identificado": true
           }
         },
@@ -3540,14 +3540,21 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 2,
+        "v": 3,
+        "e": 1,
         "d": 1,
         "goles_favor": 9,
-        "goles_contra": 3,
-        "puntos": 8,
-        "dias_descanso": 20,
+        "goles_contra": 2,
+        "puntos": 10,
+        "dias_descanso": 7,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Valladolid",
+            "visitante": "Castellon",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-01",
             "local": "Burgos",
@@ -3575,20 +3582,13 @@
             "visitante": "Castellon",
             "marcador": "1-0",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Castellon",
-            "visitante": "Ceuta",
-            "marcador": "1-1",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 11.2,
-          "tiros_puerta": 3.8,
-          "corners": 3.8,
-          "amarillas": 1.8,
+          "tiros": 12.2,
+          "tiros_puerta": 4.0,
+          "corners": 5.0,
+          "amarillas": 2.2,
           "rojas": 0.2
         }
       },
@@ -3598,10 +3598,17 @@
         "e": 0,
         "d": 3,
         "goles_favor": 5,
-        "goles_contra": 9,
+        "goles_contra": 8,
         "puntos": 6,
-        "dias_descanso": 12,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eldense",
+            "visitante": "Sabadell",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Las Palmas",
@@ -3629,20 +3636,13 @@
             "visitante": "Eldense",
             "marcador": "2-3",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Eldense",
-            "visitante": "Cordoba",
-            "marcador": "2-1",
-            "resultado": "V"
           }
         ],
         "medias": {
           "tiros": 11.4,
-          "tiros_puerta": 3.4,
-          "corners": 3.6,
-          "amarillas": 4.0,
+          "tiros_puerta": 3.8,
+          "corners": 2.6,
+          "amarillas": 3.8,
           "rojas": 0.0
         }
       },
@@ -3663,12 +3663,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 96,
+            "todos": 97,
             "recinto": 47,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 49,
             "identificado": true
           }
@@ -3695,14 +3695,21 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 0,
+        "v": 1,
         "e": 4,
-        "d": 1,
+        "d": 0,
         "goles_favor": 7,
-        "goles_contra": 8,
-        "puntos": 4,
-        "dias_descanso": 19,
+        "goles_contra": 5,
+        "puntos": 7,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Tenerife",
+            "visitante": "Ceuta",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-02",
             "local": "Tenerife",
@@ -3730,21 +3737,14 @@
             "visitante": "Girona",
             "marcador": "1-1",
             "resultado": "E"
-          },
-          {
-            "fecha": "2026-10-05",
-            "local": "Cordoba",
-            "visitante": "Tenerife",
-            "marcador": "3-2",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 9.4,
-          "tiros_puerta": 2.6,
-          "corners": 4.6,
-          "amarillas": 3.4,
-          "rojas": 0.4
+          "tiros": 9.6,
+          "tiros_puerta": 3.2,
+          "corners": 4.0,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "visitante_datos": {
@@ -3752,11 +3752,18 @@
         "v": 2,
         "e": 3,
         "d": 0,
-        "goles_favor": 7,
-        "goles_contra": 4,
+        "goles_favor": 10,
+        "goles_contra": 7,
         "puntos": 9,
-        "dias_descanso": 19,
+        "dias_descanso": 7,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Mallorca",
+            "visitante": "Cordoba",
+            "marcador": "3-3",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-02",
             "local": "Mallorca",
@@ -3784,20 +3791,13 @@
             "visitante": "Las Palmas",
             "marcador": "3-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Girona",
-            "visitante": "Mallorca",
-            "marcador": "0-0",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 14.0,
-          "tiros_puerta": 4.0,
-          "corners": 7.0,
-          "amarillas": 3.0,
+          "tiros": 15.4,
+          "tiros_puerta": 5.4,
+          "corners": 7.2,
+          "amarillas": 2.4,
           "rojas": 0.2
         }
       },
@@ -3805,12 +3805,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 96,
-            "recinto": 48,
+            "todos": 97,
+            "recinto": 49,
             "identificado": true
           },
           "visitante": {
-            "todos": 12,
+            "todos": 13,
             "recinto": 6,
             "identificado": true
           }
@@ -3838,13 +3838,20 @@
       "local_datos": {
         "partidos": 5,
         "v": 3,
-        "e": 1,
-        "d": 1,
-        "goles_favor": 9,
-        "goles_contra": 4,
-        "puntos": 10,
-        "dias_descanso": 15,
+        "e": 2,
+        "d": 0,
+        "goles_favor": 11,
+        "goles_contra": 5,
+        "puntos": 11,
+        "dias_descanso": 8,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Mallorca",
+            "visitante": "Cordoba",
+            "marcador": "3-3",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cordoba",
@@ -3872,33 +3879,33 @@
             "visitante": "Cordoba",
             "marcador": "0-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Eldense",
-            "visitante": "Cordoba",
-            "marcador": "2-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 16.2,
-          "tiros_puerta": 6.4,
-          "corners": 9.0,
-          "amarillas": 3.4,
+          "tiros": 16.6,
+          "tiros_puerta": 6.0,
+          "corners": 8.8,
+          "amarillas": 3.8,
           "rojas": 0.4
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 2,
         "e": 1,
-        "d": 1,
-        "goles_favor": 11,
-        "goles_contra": 8,
-        "puntos": 10,
-        "dias_descanso": 15,
+        "d": 2,
+        "goles_favor": 9,
+        "goles_contra": 9,
+        "puntos": 7,
+        "dias_descanso": 8,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Oviedo",
+            "visitante": "Girona",
+            "marcador": "1-2",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cadiz",
@@ -3926,20 +3933,13 @@
             "visitante": "Oviedo",
             "marcador": "1-2",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Oviedo",
-            "visitante": "Eibar",
-            "marcador": "3-1",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 17.2,
-          "tiros_puerta": 7.0,
-          "corners": 6.0,
-          "amarillas": 3.8,
+          "tiros": 17.4,
+          "tiros_puerta": 6.6,
+          "corners": 5.2,
+          "amarillas": 3.4,
           "rojas": 0.0
         }
       },
@@ -3960,12 +3960,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 48,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 49,
             "identificado": true
           }
@@ -3992,14 +3992,21 @@
       "fecha_corte": "2026-11-22",
       "local_datos": {
         "partidos": 5,
-        "v": 3,
-        "e": 0,
+        "v": 2,
+        "e": 1,
         "d": 2,
-        "goles_favor": 6,
-        "goles_contra": 7,
-        "puntos": 9,
-        "dias_descanso": 14,
+        "goles_favor": 7,
+        "goles_contra": 9,
+        "puntos": 7,
+        "dias_descanso": 8,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Sociedad B",
+            "visitante": "Sp Gijon",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Sp Gijon",
@@ -4027,21 +4034,14 @@
             "visitante": "Albacete",
             "marcador": "2-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Cadiz",
-            "visitante": "Sp Gijon",
-            "marcador": "0-1",
-            "resultado": "V"
           }
         ],
         "medias": {
           "tiros": 14.6,
-          "tiros_puerta": 4.6,
+          "tiros_puerta": 5.2,
           "corners": 4.8,
-          "amarillas": 3.0,
-          "rojas": 0.2
+          "amarillas": 3.4,
+          "rojas": 0.4
         }
       },
       "visitante_datos": {
@@ -4049,11 +4049,18 @@
         "v": 3,
         "e": 0,
         "d": 2,
-        "goles_favor": 7,
-        "goles_contra": 8,
+        "goles_favor": 6,
+        "goles_contra": 6,
         "puntos": 9,
-        "dias_descanso": 13,
+        "dias_descanso": 7,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Granada",
+            "visitante": "Las Palmas",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Las Palmas",
@@ -4081,21 +4088,14 @@
             "visitante": "Castellon",
             "marcador": "0-3",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Mallorca",
-            "visitante": "Las Palmas",
-            "marcador": "3-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 8.8,
-          "tiros_puerta": 3.4,
-          "corners": 4.2,
+          "tiros": 10.4,
+          "tiros_puerta": 4.2,
+          "corners": 5.2,
           "amarillas": 3.4,
-          "rojas": 0.0
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [
@@ -4115,13 +4115,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 139,
+            "todos": 140,
             "recinto": 70,
             "identificado": true
           },
           "visitante": {
-            "todos": 55,
-            "recinto": 27,
+            "todos": 56,
+            "recinto": 28,
             "identificado": true
           }
         },
@@ -4147,14 +4147,21 @@
       "fecha_corte": "2026-11-22",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
-        "goles_favor": 8,
+        "goles_favor": 9,
         "goles_contra": 4,
-        "puntos": 7,
-        "dias_descanso": 14,
+        "puntos": 9,
+        "dias_descanso": 8,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Oviedo",
+            "visitante": "Girona",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Girona",
@@ -4182,33 +4189,33 @@
             "visitante": "Andorra",
             "marcador": "2-0",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Tenerife",
-            "visitante": "Girona",
-            "marcador": "1-1",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 13.6,
-          "tiros_puerta": 4.4,
-          "corners": 4.0,
-          "amarillas": 2.6,
+          "tiros": 14.6,
+          "tiros_puerta": 4.6,
+          "corners": 4.6,
+          "amarillas": 2.2,
           "rojas": 0.2
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 1,
-        "e": 2,
+        "v": 0,
+        "e": 3,
         "d": 2,
-        "goles_favor": 6,
+        "goles_favor": 4,
         "goles_contra": 8,
-        "puntos": 5,
-        "dias_descanso": 22,
+        "puntos": 3,
+        "dias_descanso": 7,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eibar",
+            "visitante": "Cadiz",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-10-31",
             "local": "Eibar",
@@ -4236,19 +4243,12 @@
             "visitante": "Eibar",
             "marcador": "3-1",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-03",
-            "local": "Albacete",
-            "visitante": "Eibar",
-            "marcador": "1-3",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 14.6,
-          "tiros_puerta": 5.2,
-          "corners": 3.4,
+          "tiros": 16.6,
+          "tiros_puerta": 5.8,
+          "corners": 4.2,
           "amarillas": 2.0,
           "rojas": 0.0
         }
@@ -4257,12 +4257,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 13,
+            "todos": 14,
             "recinto": 8,
             "identificado": true
           },
           "visitante": {
-            "todos": 138,
+            "todos": 139,
             "recinto": 69,
             "identificado": true
           }
@@ -4343,14 +4343,21 @@
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 2,
         "e": 0,
-        "d": 2,
-        "goles_favor": 14,
-        "goles_contra": 9,
-        "puntos": 9,
-        "dias_descanso": 14,
+        "d": 3,
+        "goles_favor": 9,
+        "goles_contra": 10,
+        "puntos": 6,
+        "dias_descanso": 8,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Valladolid",
+            "visitante": "Castellon",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Sp Gijon",
@@ -4378,20 +4385,13 @@
             "visitante": "Eldense",
             "marcador": "2-3",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Valladolid",
-            "visitante": "Albacete",
-            "marcador": "5-0",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 16.2,
-          "tiros_puerta": 7.2,
-          "corners": 7.2,
-          "amarillas": 2.8,
+          "tiros": 13.8,
+          "tiros_puerta": 6.4,
+          "corners": 6.4,
+          "amarillas": 3.2,
           "rojas": 0.4
         }
       },
@@ -4404,7 +4404,7 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 49,
             "identificado": true
           }
@@ -4434,11 +4434,18 @@
         "v": 3,
         "e": 1,
         "d": 1,
-        "goles_favor": 7,
-        "goles_contra": 5,
+        "goles_favor": 8,
+        "goles_contra": 7,
         "puntos": 10,
-        "dias_descanso": 15,
+        "dias_descanso": 9,
         "ultimos": [
+          {
+            "fecha": "2026-11-13",
+            "local": "Leganes",
+            "visitante": "Burgos",
+            "marcador": "3-1",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Burgos",
@@ -4466,19 +4473,12 @@
             "visitante": "Sabadell",
             "marcador": "1-0",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Burgos",
-            "visitante": "Granada",
-            "marcador": "0-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 15.4,
-          "tiros_puerta": 6.0,
-          "corners": 5.6,
+          "tiros": 15.0,
+          "tiros_puerta": 5.4,
+          "corners": 6.6,
           "amarillas": 2.2,
           "rojas": 0.0
         }
@@ -4572,7 +4572,7 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 139,
+            "todos": 140,
             "recinto": 71,
             "identificado": true
           },
@@ -4607,11 +4607,18 @@
         "v": 0,
         "e": 0,
         "d": 5,
-        "goles_favor": 3,
+        "goles_favor": 2,
         "goles_contra": 12,
         "puntos": 0,
-        "dias_descanso": 16,
+        "dias_descanso": 8,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Tenerife",
+            "visitante": "Ceuta",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cordoba",
@@ -4639,20 +4646,13 @@
             "visitante": "Oviedo",
             "marcador": "1-2",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Ceuta",
-            "visitante": "Sabadell",
-            "marcador": "1-2",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 19.0,
-          "tiros_puerta": 5.2,
-          "corners": 7.4,
-          "amarillas": 3.4,
+          "tiros": 18.6,
+          "tiros_puerta": 4.8,
+          "corners": 8.4,
+          "amarillas": 3.6,
           "rojas": 0.0
         }
       },
@@ -4661,11 +4661,18 @@
         "v": 3,
         "e": 2,
         "d": 0,
-        "goles_favor": 11,
-        "goles_contra": 5,
+        "goles_favor": 10,
+        "goles_contra": 6,
         "puntos": 11,
-        "dias_descanso": 15,
+        "dias_descanso": 9,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Almeria",
+            "visitante": "Andorra",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Girona",
@@ -4693,20 +4700,13 @@
             "visitante": "Almeria",
             "marcador": "2-4",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Almeria",
-            "visitante": "Leganes",
-            "marcador": "3-0",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 11.4,
-          "tiros_puerta": 4.2,
-          "corners": 3.8,
-          "amarillas": 2.2,
+          "tiros": 8.8,
+          "tiros_puerta": 3.4,
+          "corners": 2.2,
+          "amarillas": 2.0,
           "rojas": 0.0
         }
       },
@@ -4727,12 +4727,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 55,
+            "todos": 56,
             "recinto": 28,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 49,
             "identificado": true
           }
@@ -4759,14 +4759,21 @@
       "fecha_corte": "2026-11-27",
       "local_datos": {
         "partidos": 5,
-        "v": 0,
+        "v": 1,
         "e": 1,
-        "d": 4,
-        "goles_favor": 5,
-        "goles_contra": 12,
-        "puntos": 1,
-        "dias_descanso": 20,
+        "d": 3,
+        "goles_favor": 8,
+        "goles_contra": 10,
+        "puntos": 4,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-13",
+            "local": "Leganes",
+            "visitante": "Burgos",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Leganes",
@@ -4794,33 +4801,33 @@
             "visitante": "Cordoba",
             "marcador": "0-1",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Almeria",
-            "visitante": "Leganes",
-            "marcador": "3-0",
-            "resultado": "D"
           }
         ],
         "medias": {
           "tiros": 13.4,
-          "tiros_puerta": 4.8,
-          "corners": 5.2,
-          "amarillas": 4.8,
+          "tiros_puerta": 5.2,
+          "corners": 5.4,
+          "amarillas": 4.4,
           "rojas": 0.4
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 1,
+        "v": 0,
         "e": 2,
-        "d": 2,
-        "goles_favor": 4,
-        "goles_contra": 5,
-        "puntos": 5,
-        "dias_descanso": 18,
+        "d": 3,
+        "goles_favor": 2,
+        "goles_contra": 6,
+        "puntos": 2,
+        "dias_descanso": 12,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eldense",
+            "visitante": "Sabadell",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Sabadell",
@@ -4848,19 +4855,12 @@
             "visitante": "Sabadell",
             "marcador": "1-0",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Ceuta",
-            "visitante": "Sabadell",
-            "marcador": "1-2",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 15.2,
-          "tiros_puerta": 3.4,
-          "corners": 4.2,
+          "tiros": 14.0,
+          "tiros_puerta": 2.8,
+          "corners": 4.0,
           "amarillas": 2.8,
           "rojas": 0.2
         }
@@ -4869,13 +4869,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 97,
-            "recinto": 48,
+            "todos": 98,
+            "recinto": 49,
             "identificado": true
           },
           "visitante": {
-            "todos": 13,
-            "recinto": 7,
+            "todos": 14,
+            "recinto": 8,
             "identificado": true
           }
         },
@@ -4904,11 +4904,18 @@
         "v": 3,
         "e": 0,
         "d": 2,
-        "goles_favor": 7,
-        "goles_contra": 8,
+        "goles_favor": 6,
+        "goles_contra": 6,
         "puntos": 9,
-        "dias_descanso": 19,
+        "dias_descanso": 13,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Granada",
+            "visitante": "Las Palmas",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Las Palmas",
@@ -4936,33 +4943,33 @@
             "visitante": "Castellon",
             "marcador": "0-3",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Mallorca",
-            "visitante": "Las Palmas",
-            "marcador": "3-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 8.8,
-          "tiros_puerta": 3.4,
-          "corners": 4.2,
+          "tiros": 10.4,
+          "tiros_puerta": 4.2,
+          "corners": 5.2,
           "amarillas": 3.4,
-          "rojas": 0.0
+          "rojas": 0.2
         }
       },
       "visitante_datos": {
         "partidos": 5,
         "v": 1,
-        "e": 2,
-        "d": 2,
-        "goles_favor": 5,
-        "goles_contra": 7,
-        "puntos": 5,
-        "dias_descanso": 26,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 6,
+        "goles_contra": 9,
+        "puntos": 4,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Almeria",
+            "visitante": "Andorra",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-02",
             "local": "Tenerife",
@@ -4990,21 +4997,14 @@
             "visitante": "Castellon",
             "marcador": "1-0",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Sabadell",
-            "visitante": "Andorra",
-            "marcador": "0-0",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 11.4,
-          "tiros_puerta": 5.2,
-          "corners": 4.0,
-          "amarillas": 3.8,
-          "rojas": 0.4
+          "tiros": 13.8,
+          "tiros_puerta": 6.2,
+          "corners": 5.2,
+          "amarillas": 3.6,
+          "rojas": 0.6
         }
       },
       "enfrentamientos": [
@@ -5024,13 +5024,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 55,
+            "todos": 56,
             "recinto": 28,
             "identificado": true
           },
           "visitante": {
-            "todos": 96,
-            "recinto": 48,
+            "todos": 97,
+            "recinto": 49,
             "identificado": true
           }
         },
@@ -5110,14 +5110,21 @@
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 0,
+        "v": 1,
         "e": 4,
-        "d": 1,
+        "d": 0,
         "goles_favor": 7,
-        "goles_contra": 8,
-        "puntos": 4,
-        "dias_descanso": 26,
+        "goles_contra": 5,
+        "puntos": 7,
+        "dias_descanso": 13,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Tenerife",
+            "visitante": "Ceuta",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-02",
             "local": "Tenerife",
@@ -5145,21 +5152,14 @@
             "visitante": "Girona",
             "marcador": "1-1",
             "resultado": "E"
-          },
-          {
-            "fecha": "2026-10-05",
-            "local": "Cordoba",
-            "visitante": "Tenerife",
-            "marcador": "3-2",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 9.4,
-          "tiros_puerta": 2.6,
-          "corners": 4.6,
-          "amarillas": 3.4,
-          "rojas": 0.4
+          "tiros": 9.6,
+          "tiros_puerta": 3.2,
+          "corners": 4.0,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [
@@ -5196,7 +5196,7 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 96,
+            "todos": 97,
             "recinto": 48,
             "identificado": true
           }
@@ -5227,10 +5227,17 @@
         "e": 0,
         "d": 3,
         "goles_favor": 5,
-        "goles_contra": 9,
+        "goles_contra": 8,
         "puntos": 6,
-        "dias_descanso": 19,
+        "dias_descanso": 13,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eldense",
+            "visitante": "Sabadell",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Las Palmas",
@@ -5258,33 +5265,33 @@
             "visitante": "Eldense",
             "marcador": "2-3",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Eldense",
-            "visitante": "Cordoba",
-            "marcador": "2-1",
-            "resultado": "V"
           }
         ],
         "medias": {
           "tiros": 11.4,
-          "tiros_puerta": 3.4,
-          "corners": 3.6,
-          "amarillas": 4.0,
+          "tiros_puerta": 3.8,
+          "corners": 2.6,
+          "amarillas": 3.8,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
-        "goles_favor": 8,
+        "goles_favor": 9,
         "goles_contra": 4,
-        "puntos": 7,
-        "dias_descanso": 20,
+        "puntos": 9,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Oviedo",
+            "visitante": "Girona",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Girona",
@@ -5312,20 +5319,13 @@
             "visitante": "Andorra",
             "marcador": "2-0",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Tenerife",
-            "visitante": "Girona",
-            "marcador": "1-1",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 13.6,
-          "tiros_puerta": 4.4,
-          "corners": 4.0,
-          "amarillas": 2.6,
+          "tiros": 14.6,
+          "tiros_puerta": 4.6,
+          "corners": 4.6,
+          "amarillas": 2.2,
           "rojas": 0.2
         }
       },
@@ -5333,13 +5333,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 97,
-            "recinto": 48,
+            "todos": 98,
+            "recinto": 49,
             "identificado": true
           },
           "visitante": {
-            "todos": 13,
-            "recinto": 5,
+            "todos": 14,
+            "recinto": 6,
             "identificado": true
           }
         },
@@ -5365,14 +5365,21 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 1,
-        "e": 2,
+        "v": 0,
+        "e": 3,
         "d": 2,
-        "goles_favor": 6,
+        "goles_favor": 4,
         "goles_contra": 8,
-        "puntos": 5,
-        "dias_descanso": 28,
+        "puntos": 3,
+        "dias_descanso": 13,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eibar",
+            "visitante": "Cadiz",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-10-31",
             "local": "Eibar",
@@ -5400,19 +5407,12 @@
             "visitante": "Eibar",
             "marcador": "3-1",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-03",
-            "local": "Albacete",
-            "visitante": "Eibar",
-            "marcador": "1-3",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 14.6,
-          "tiros_puerta": 5.2,
-          "corners": 3.4,
+          "tiros": 16.6,
+          "tiros_puerta": 5.8,
+          "corners": 4.2,
           "amarillas": 2.0,
           "rojas": 0.0
         }
@@ -5422,11 +5422,18 @@
         "v": 3,
         "e": 1,
         "d": 1,
-        "goles_favor": 7,
-        "goles_contra": 5,
+        "goles_favor": 8,
+        "goles_contra": 7,
         "puntos": 10,
-        "dias_descanso": 21,
+        "dias_descanso": 15,
         "ultimos": [
+          {
+            "fecha": "2026-11-13",
+            "local": "Leganes",
+            "visitante": "Burgos",
+            "marcador": "3-1",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Burgos",
@@ -5454,19 +5461,12 @@
             "visitante": "Sabadell",
             "marcador": "1-0",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Burgos",
-            "visitante": "Granada",
-            "marcador": "0-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 15.4,
-          "tiros_puerta": 6.0,
-          "corners": 5.6,
+          "tiros": 15.0,
+          "tiros_puerta": 5.4,
+          "corners": 6.6,
           "amarillas": 2.2,
           "rojas": 0.0
         }
@@ -5506,13 +5506,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 138,
-            "recinto": 69,
+            "todos": 139,
+            "recinto": 70,
             "identificado": true
           },
           "visitante": {
-            "todos": 139,
-            "recinto": 68,
+            "todos": 140,
+            "recinto": 69,
             "identificado": true
           }
         },
@@ -5538,14 +5538,21 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 2,
         "e": 0,
-        "d": 2,
-        "goles_favor": 14,
-        "goles_contra": 9,
-        "puntos": 9,
-        "dias_descanso": 20,
+        "d": 3,
+        "goles_favor": 9,
+        "goles_contra": 10,
+        "puntos": 6,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Valladolid",
+            "visitante": "Castellon",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Sp Gijon",
@@ -5573,33 +5580,33 @@
             "visitante": "Eldense",
             "marcador": "2-3",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Valladolid",
-            "visitante": "Albacete",
-            "marcador": "5-0",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 16.2,
-          "tiros_puerta": 7.2,
-          "corners": 7.2,
-          "amarillas": 2.8,
+          "tiros": 13.8,
+          "tiros_puerta": 6.4,
+          "corners": 6.4,
+          "amarillas": 3.2,
           "rojas": 0.4
         }
       },
       "visitante_datos": {
         "partidos": 5,
         "v": 1,
-        "e": 1,
-        "d": 3,
-        "goles_favor": 4,
-        "goles_contra": 9,
-        "puntos": 4,
-        "dias_descanso": 19,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 5,
+        "goles_contra": 7,
+        "puntos": 5,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Sociedad B",
+            "visitante": "Sp Gijon",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-09",
             "local": "Sabadell",
@@ -5627,20 +5634,13 @@
             "visitante": "Almeria",
             "marcador": "2-4",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Celta B",
-            "visitante": "Sociedad B",
-            "marcador": "4-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 16.0,
-          "tiros_puerta": 4.6,
-          "corners": 6.4,
-          "amarillas": 3.4,
+          "tiros": 15.0,
+          "tiros_puerta": 4.4,
+          "corners": 5.6,
+          "amarillas": 3.2,
           "rojas": 0.0
         }
       },
@@ -5661,12 +5661,12 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 97,
-            "recinto": 48,
+            "todos": 98,
+            "recinto": 49,
             "identificado": true
           },
           "visitante": {
-            "todos": 55,
+            "todos": 56,
             "recinto": 28,
             "identificado": true
           }
@@ -5696,11 +5696,18 @@
         "v": 5,
         "e": 0,
         "d": 0,
-        "goles_favor": 10,
-        "goles_contra": 3,
+        "goles_favor": 8,
+        "goles_contra": 1,
         "puntos": 15,
-        "dias_descanso": 28,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Granada",
+            "visitante": "Las Palmas",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-01",
             "local": "Eldense",
@@ -5728,20 +5735,13 @@
             "visitante": "Granada",
             "marcador": "0-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Sociedad B",
-            "visitante": "Granada",
-            "marcador": "2-3",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 11.8,
-          "tiros_puerta": 4.0,
-          "corners": 3.2,
-          "amarillas": 1.4,
+          "tiros": 10.6,
+          "tiros_puerta": 3.6,
+          "corners": 2.2,
+          "amarillas": 1.6,
           "rojas": 0.0
         }
       },
@@ -5750,11 +5750,18 @@
         "v": 0,
         "e": 0,
         "d": 5,
-        "goles_favor": 3,
+        "goles_favor": 2,
         "goles_contra": 12,
         "puntos": 0,
-        "dias_descanso": 22,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Tenerife",
+            "visitante": "Ceuta",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cordoba",
@@ -5782,20 +5789,13 @@
             "visitante": "Oviedo",
             "marcador": "1-2",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Ceuta",
-            "visitante": "Sabadell",
-            "marcador": "1-2",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 19.0,
-          "tiros_puerta": 5.2,
-          "corners": 7.4,
-          "amarillas": 3.4,
+          "tiros": 18.6,
+          "tiros_puerta": 4.8,
+          "corners": 8.4,
+          "amarillas": 3.6,
           "rojas": 0.0
         }
       },
@@ -5816,13 +5816,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 96,
-            "recinto": 47,
+            "todos": 97,
+            "recinto": 48,
             "identificado": true
           },
           "visitante": {
-            "todos": 55,
-            "recinto": 27,
+            "todos": 56,
+            "recinto": 28,
             "identificado": true
           }
         },
@@ -5851,11 +5851,18 @@
         "v": 2,
         "e": 3,
         "d": 0,
-        "goles_favor": 7,
-        "goles_contra": 4,
+        "goles_favor": 10,
+        "goles_contra": 7,
         "puntos": 9,
-        "dias_descanso": 27,
+        "dias_descanso": 15,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Mallorca",
+            "visitante": "Cordoba",
+            "marcador": "3-3",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-02",
             "local": "Mallorca",
@@ -5883,33 +5890,33 @@
             "visitante": "Las Palmas",
             "marcador": "3-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Girona",
-            "visitante": "Mallorca",
-            "marcador": "0-0",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 14.0,
-          "tiros_puerta": 4.0,
-          "corners": 7.0,
-          "amarillas": 3.0,
+          "tiros": 15.4,
+          "tiros_puerta": 5.4,
+          "corners": 7.2,
+          "amarillas": 2.4,
           "rojas": 0.2
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 2,
+        "v": 3,
+        "e": 1,
         "d": 1,
         "goles_favor": 9,
-        "goles_contra": 3,
-        "puntos": 8,
-        "dias_descanso": 28,
+        "goles_contra": 2,
+        "puntos": 10,
+        "dias_descanso": 15,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Valladolid",
+            "visitante": "Castellon",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-01",
             "local": "Burgos",
@@ -5937,20 +5944,13 @@
             "visitante": "Castellon",
             "marcador": "1-0",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-04",
-            "local": "Castellon",
-            "visitante": "Ceuta",
-            "marcador": "1-1",
-            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 11.2,
-          "tiros_puerta": 3.8,
-          "corners": 3.8,
-          "amarillas": 1.8,
+          "tiros": 12.2,
+          "tiros_puerta": 4.0,
+          "corners": 5.0,
+          "amarillas": 2.2,
           "rojas": 0.2
         }
       },
@@ -5958,13 +5958,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 12,
-            "recinto": 6,
+            "todos": 13,
+            "recinto": 7,
             "identificado": true
           },
           "visitante": {
-            "todos": 96,
-            "recinto": 49,
+            "todos": 97,
+            "recinto": 50,
             "identificado": true
           }
         },
@@ -5991,13 +5991,20 @@
       "local_datos": {
         "partidos": 5,
         "v": 1,
-        "e": 0,
-        "d": 4,
-        "goles_favor": 5,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 6,
         "goles_contra": 8,
-        "puntos": 3,
-        "dias_descanso": 22,
+        "puntos": 4,
+        "dias_descanso": 14,
         "ultimos": [
+          {
+            "fecha": "2026-11-15",
+            "local": "Eibar",
+            "visitante": "Cadiz",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cadiz",
@@ -6025,33 +6032,33 @@
             "visitante": "Cadiz",
             "marcador": "2-0",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Cadiz",
-            "visitante": "Sp Gijon",
-            "marcador": "0-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 10.2,
-          "tiros_puerta": 2.8,
-          "corners": 5.2,
-          "amarillas": 2.8,
+          "tiros": 10.4,
+          "tiros_puerta": 3.6,
+          "corners": 4.0,
+          "amarillas": 3.0,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
         "v": 3,
-        "e": 1,
-        "d": 1,
-        "goles_favor": 9,
-        "goles_contra": 4,
-        "puntos": 10,
-        "dias_descanso": 22,
+        "e": 2,
+        "d": 0,
+        "goles_favor": 11,
+        "goles_contra": 5,
+        "puntos": 11,
+        "dias_descanso": 15,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Mallorca",
+            "visitante": "Cordoba",
+            "marcador": "3-3",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Cordoba",
@@ -6079,20 +6086,13 @@
             "visitante": "Cordoba",
             "marcador": "0-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Eldense",
-            "visitante": "Cordoba",
-            "marcador": "2-1",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 16.2,
-          "tiros_puerta": 6.4,
-          "corners": 9.0,
-          "amarillas": 3.4,
+          "tiros": 16.6,
+          "tiros_puerta": 6.0,
+          "corners": 8.8,
+          "amarillas": 3.8,
           "rojas": 0.4
         }
       },
@@ -6125,13 +6125,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 97,
+            "todos": 98,
             "recinto": 50,
             "identificado": true
           },
           "visitante": {
-            "todos": 97,
-            "recinto": 49,
+            "todos": 98,
+            "recinto": 50,
             "identificado": true
           }
         },
@@ -6160,11 +6160,18 @@
         "v": 3,
         "e": 2,
         "d": 0,
-        "goles_favor": 11,
-        "goles_contra": 5,
+        "goles_favor": 10,
+        "goles_contra": 6,
         "puntos": 11,
-        "dias_descanso": 21,
+        "dias_descanso": 15,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Almeria",
+            "visitante": "Andorra",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Girona",
@@ -6192,33 +6199,33 @@
             "visitante": "Almeria",
             "marcador": "2-4",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Almeria",
-            "visitante": "Leganes",
-            "marcador": "3-0",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 11.4,
-          "tiros_puerta": 4.2,
-          "corners": 3.8,
-          "amarillas": 2.2,
+          "tiros": 8.8,
+          "tiros_puerta": 3.4,
+          "corners": 2.2,
+          "amarillas": 2.0,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
-        "e": 0,
+        "v": 2,
+        "e": 1,
         "d": 2,
-        "goles_favor": 6,
-        "goles_contra": 7,
-        "puntos": 9,
-        "dias_descanso": 21,
+        "goles_favor": 7,
+        "goles_contra": 9,
+        "puntos": 7,
+        "dias_descanso": 15,
         "ultimos": [
+          {
+            "fecha": "2026-11-14",
+            "local": "Sociedad B",
+            "visitante": "Sp Gijon",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
           {
             "fecha": "2026-11-08",
             "local": "Sp Gijon",
@@ -6246,21 +6253,14 @@
             "visitante": "Albacete",
             "marcador": "2-1",
             "resultado": "V"
-          },
-          {
-            "fecha": "2026-10-11",
-            "local": "Cadiz",
-            "visitante": "Sp Gijon",
-            "marcador": "0-1",
-            "resultado": "V"
           }
         ],
         "medias": {
           "tiros": 14.6,
-          "tiros_puerta": 4.6,
+          "tiros_puerta": 5.2,
           "corners": 4.8,
-          "amarillas": 3.0,
-          "rojas": 0.2
+          "amarillas": 3.4,
+          "rojas": 0.4
         }
       },
       "enfrentamientos": [
@@ -6292,13 +6292,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 97,
-            "recinto": 48,
+            "todos": 98,
+            "recinto": 49,
             "identificado": true
           },
           "visitante": {
-            "todos": 139,
-            "recinto": 69,
+            "todos": 140,
+            "recinto": 70,
             "identificado": true
           }
         },

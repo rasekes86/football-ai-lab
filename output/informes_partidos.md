@@ -713,7 +713,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 45.8% | 24.0% | 30.3% | 53.5% |
+| 45.8% | 23.9% | 30.3% | 53.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -737,7 +737,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T10:29:08+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T12:38:50+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -757,19 +757,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 48.1% | 24.5% | 27.4% | 48.4% |
+| 47.6% | 24.4% | 28.0% | 48.1% |
 
 ### Forma, descanso y estadísticas
 
 **FC Andorra:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · D · V · E
-- Días desde el último partido liguero registrado: 18
-- Medias recientes: Tiros 11,4, a puerta 5,2, córners 4,0, amarillas 3,8
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · E · D · D · V
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 13,8, a puerta 6,2, córners 5,2, amarillas 3,6
 
 **Leganés:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 13,4, a puerta 4,8, córners 5,2, amarillas 4,8
+- Últimos partidos: 1V · 1E · 3D; secuencia: V · D · D · E · D
+- Días desde el último partido liguero registrado: 7
+- Medias recientes: Tiros 13,4, a puerta 5,2, córners 5,4, amarillas 4,4
 
 ### Enfrentamientos previos
 - 2026-04-26: Leganes 0-4 Andorra
@@ -779,12 +779,12 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **FC Andorra: menos de 2,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 75.5% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **FC Andorra: menos de 2,5 goles** (Goles equipo): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 75.6% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T10:02:35+00:00)
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -804,19 +804,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.7% | 26.1% | 29.2% | 40.3% |
+| 44.0% | 26.0% | 29.9% | 40.3% |
 
 ### Forma, descanso y estadísticas
 
 **CD Sabadell:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
-- Días desde el último partido liguero registrado: 12
-- Medias recientes: Tiros 15,2, a puerta 3,4, córners 4,2, amarillas 2,8
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · E · D · E · D
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 14,0, a puerta 2,8, córners 4,0, amarillas 2,8
 
 **Granada:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 11,8, a puerta 4,0, córners 3,2, amarillas 1,4
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 10,6, a puerta 3,6, córners 2,2, amarillas 1,6
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
@@ -824,7 +824,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **CD Sabadell: menos de 2,5 goles** (Goles equipo): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Menos de 3,5 goles** (Total goles): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Granada +1,5** (Hándicap 2 vías (medio gol)): 79.2% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Granada +1,5** (Hándicap 2 vías (medio gol)): 79.3% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -848,28 +848,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 45.0% | 24.8% | 30.2% | 49.1% |
+| 44.8% | 25.5% | 29.7% | 44.3% |
 
 ### Forma, descanso y estadísticas
 
 **Real Sociedad II:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 1E · 3D; secuencia: E · V · D · D · D
-- Días desde el último partido liguero registrado: 12
-- Medias recientes: Tiros 16,0, a puerta 4,6, córners 6,4, amarillas 3,4
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · E · V · D · D
+- Días desde el último partido liguero registrado: 7
+- Medias recientes: Tiros 15,0, a puerta 4,4, córners 5,6, amarillas 3,2
 
 **Cádiz:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · V · D · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 10,2, a puerta 2,8, córners 5,2, amarillas 2,8
+- Últimos partidos: 1V · 1E · 3D; secuencia: E · D · D · V · D
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 10,4, a puerta 3,6, córners 4,0, amarillas 3,0
 
 ### Enfrentamientos previos
 - 2026-02-23: Cadiz 0-2 Sociedad B
 - 2025-09-07: Sociedad B 3-3 Cadiz
 
 ### Tres selecciones del modelo (experimentales)
-1. **Real Sociedad II +1,5** (Hándicap 2 vías (medio gol)): 87.0% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 19,5 tiros totales** (Tiros totales): 81.1% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 81.4% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Cádiz +1,5** (Hándicap 2 vías (medio gol)): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -893,28 +893,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 65.4% | 20.6% | 14.0% | 53.1% |
+| 65.4% | 20.6% | 14.1% | 52.8% |
 
 ### Forma, descanso y estadísticas
 
 **Castellón:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 2E · 1D; secuencia: E · V · V · D · E
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 11,2, a puerta 3,8, córners 3,8, amarillas 1,8
+- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
+- Días desde el último partido liguero registrado: 7
+- Medias recientes: Tiros 12,2, a puerta 4,0, córners 5,0, amarillas 2,2
 
 **Eldense:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · D · V · V
-- Días desde el último partido liguero registrado: 12
-- Medias recientes: Tiros 11,4, a puerta 3,4, córners 3,6, amarillas 4,0
+- Últimos partidos: 2V · 0E · 3D; secuencia: V · D · D · D · V
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 11,4, a puerta 3,8, córners 2,6, amarillas 3,8
 
 ### Enfrentamientos previos
 - 2025-05-18: Castellon 1-1 Eldense
 - 2024-10-06: Eldense 2-3 Castellon
 
 ### Tres selecciones del modelo (experimentales)
-1. **Castellón: más de 0,5 goles** (Goles equipo): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **1X: Castellón o empate** (Doble oportunidad): 86.0% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Castellón: más de 0,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **1X: Castellón o empate** (Doble oportunidad): 85.9% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+3. **Más de 19,5 tiros totales** (Tiros totales): 84.9% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -938,26 +938,26 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 37.8% | 30.8% | 31.5% | 22.7% |
+| 39.1% | 30.6% | 30.3% | 22.8% |
 
 ### Forma, descanso y estadísticas
 
 **Tenerife:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 4E · 1D; secuencia: E · E · E · E · D
-- Días desde el último partido liguero registrado: 19
-- Medias recientes: Tiros 9,4, a puerta 2,6, córners 4,6, amarillas 3,4
+- Últimos partidos: 1V · 4E · 0D; secuencia: V · E · E · E · E
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 9,6, a puerta 3,2, córners 4,0, amarillas 2,8
 
 **Mallorca:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 3E · 0D; secuencia: V · E · E · V · E
-- Días desde el último partido liguero registrado: 19
-- Medias recientes: Tiros 14,0, a puerta 4,0, córners 7,0, amarillas 3,0
+- Últimos partidos: 2V · 3E · 0D; secuencia: E · V · E · E · V
+- Días desde el último partido liguero registrado: 7
+- Medias recientes: Tiros 15,4, a puerta 5,4, córners 7,2, amarillas 2,4
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Mallorca +1,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Mallorca: menos de 1,5 goles** (Goles equipo): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Mallorca +1,5** (Hándicap 2 vías (medio gol)): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Mallorca: menos de 1,5 goles** (Goles equipo): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Más de 0,5 goles** (Total goles): 80.6% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -982,19 +982,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 35.0% | 25.2% | 39.8% | 47.3% |
+| 35.6% | 25.2% | 39.2% | 47.1% |
 
 ### Forma, descanso y estadísticas
 
 **Córdoba:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 16,2, a puerta 6,4, córners 9,0, amarillas 3,4
+- Últimos partidos: 3V · 2E · 0D; secuencia: E · V · E · V · V
+- Días desde el último partido liguero registrado: 8
+- Medias recientes: Tiros 16,6, a puerta 6,0, córners 8,8, amarillas 3,8
 
 **Real Oviedo:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: V · D · E · V · V
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 17,2, a puerta 7,0, córners 6,0, amarillas 3,8
+- Últimos partidos: 2V · 1E · 2D; secuencia: D · V · D · E · V
+- Días desde el último partido liguero registrado: 8
+- Medias recientes: Tiros 17,4, a puerta 6,6, córners 5,2, amarillas 3,4
 
 ### Enfrentamientos previos
 - 2025-04-20: Cordoba 0-0 Oviedo
@@ -1002,7 +1002,7 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Real Oviedo +1,5** (Hándicap 2 vías (medio gol)): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Oviedo: menos de 2,5 goles** (Goles equipo): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Real Oviedo: menos de 2,5 goles** (Goles equipo): 84.8% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Más de 21,5 tiros totales** (Tiros totales): 78.5% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
@@ -1027,28 +1027,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.6% | 24.7% | 31.7% | 49.0% |
+| 44.9% | 24.5% | 30.6% | 48.8% |
 
 ### Forma, descanso y estadísticas
 
 **Sporting Gijón:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 14,6, a puerta 4,6, córners 4,8, amarillas 3,0
+- Últimos partidos: 2V · 1E · 2D; secuencia: E · D · V · D · V
+- Días desde el último partido liguero registrado: 8
+- Medias recientes: Tiros 14,6, a puerta 5,2, córners 4,8, amarillas 3,4
 
 **Las Palmas:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 8,8, a puerta 3,4, córners 4,2, amarillas 3,4
+- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · V · V · D
+- Días desde el último partido liguero registrado: 7
+- Medias recientes: Tiros 10,4, a puerta 4,2, córners 5,2, amarillas 3,4
 
 ### Enfrentamientos previos
 - 2026-03-22: Las Palmas 1-0 Sp Gijon
 - 2025-11-02: Sp Gijon 0-0 Las Palmas
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 81.3% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Sporting Gijón: menos de 2,5 goles** (Goles equipo): 81.3% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Las Palmas +1,5** (Hándicap 2 vías (medio gol)): 77.9% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 19,5 tiros totales** (Tiros totales): 82.4% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Sporting Gijón: menos de 2,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Las Palmas +1,5** (Hándicap 2 vías (medio gol)): 76.9% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1072,27 +1072,27 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 45.2% | 26.0% | 28.8% | 39.2% |
+| 45.9% | 25.9% | 28.2% | 39.1% |
 
 ### Forma, descanso y estadísticas
 
 **Girona:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: D · D · V · V · E
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 13,6, a puerta 4,4, córners 4,0, amarillas 2,6
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
+- Días desde el último partido liguero registrado: 8
+- Medias recientes: Tiros 14,6, a puerta 4,6, córners 4,6, amarillas 2,2
 
 **Eibar:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
-- Días desde el último partido liguero registrado: 22
-- Medias recientes: Tiros 14,6, a puerta 5,2, córners 3,4, amarillas 2,0
+- Últimos partidos: 0V · 3E · 2D; secuencia: E · E · D · E · D
+- Días desde el último partido liguero registrado: 7
+- Medias recientes: Tiros 16,6, a puerta 5,8, córners 4,2, amarillas 2,0
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Girona: menos de 2,5 goles** (Goles equipo): 84.0% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Eibar: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Girona: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Eibar: menos de 1,5 goles** (Goles equipo): 77.9% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1116,7 +1116,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 47.6% | 22.5% | 29.8% | 62.2% |
+| 47.9% | 22.5% | 29.6% | 62.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -1126,17 +1126,17 @@
 - Medias recientes: Tiros 11,0, a puerta 4,6, córners 2,4, amarillas 3,2
 
 **Real Valladolid:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 16,2, a puerta 7,2, córners 7,2, amarillas 2,8
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · V · D · D
+- Días desde el último partido liguero registrado: 8
+- Medias recientes: Tiros 13,8, a puerta 6,4, córners 6,4, amarillas 3,2
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Real Valladolid: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Real Valladolid: menos de 2,5 goles** (Goles equipo): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **RC Celta Fortuna: más de 0,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 1,5 goles** (Total goles): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1160,14 +1160,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 47.9% | 28.5% | 23.6% | 28.9% |
+| 47.5% | 28.5% | 23.9% | 28.8% |
 
 ### Forma, descanso y estadísticas
 
 **Burgos:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 15,4, a puerta 6,0, córners 5,6, amarillas 2,2
+- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · E · V · V
+- Días desde el último partido liguero registrado: 9
+- Medias recientes: Tiros 15,0, a puerta 5,4, córners 6,6, amarillas 2,2
 
 **Albacete:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
@@ -1208,28 +1208,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 29.5% | 24.8% | 45.6% | 48.6% |
+| 29.2% | 24.8% | 46.0% | 48.3% |
 
 ### Forma, descanso y estadísticas
 
 **Ceuta:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 16
-- Medias recientes: Tiros 19,0, a puerta 5,2, córners 7,4, amarillas 3,4
+- Días desde el último partido liguero registrado: 8
+- Medias recientes: Tiros 18,6, a puerta 4,8, córners 8,4, amarillas 3,6
 
 **Almería:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · E · V · V
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 11,4, a puerta 4,2, córners 3,8, amarillas 2,2
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · E · E · V
+- Días desde el último partido liguero registrado: 9
+- Medias recientes: Tiros 8,8, a puerta 3,4, córners 2,2, amarillas 2,0
 
 ### Enfrentamientos previos
 - 2026-02-01: Almeria 4-2 Ceuta
 - 2025-11-26: Ceuta 3-2 Almeria
 
 ### Tres selecciones del modelo (experimentales)
-1. **Almería: menos de 2,5 goles** (Goles equipo): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Almería: menos de 2,5 goles** (Goles equipo): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 21,5 tiros totales** (Tiros totales): 80.4% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Ceuta +1,5** (Hándicap 2 vías (medio gol)): 79.1% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Ceuta +1,5** (Hándicap 2 vías (medio gol)): 79.2% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1253,27 +1253,27 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 36.8% | 29.2% | 34.0% | 28.5% |
+| 41.0% | 28.5% | 30.5% | 30.0% |
 
 ### Forma, descanso y estadísticas
 
 **Leganés:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 13,4, a puerta 4,8, córners 5,2, amarillas 4,8
+- Últimos partidos: 1V · 1E · 3D; secuencia: V · D · D · E · D
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 13,4, a puerta 5,2, córners 5,4, amarillas 4,4
 
 **CD Sabadell:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
-- Días desde el último partido liguero registrado: 18
-- Medias recientes: Tiros 15,2, a puerta 3,4, córners 4,2, amarillas 2,8
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · E · D · E · D
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 14,0, a puerta 2,8, córners 4,0, amarillas 2,8
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **CD Sabadell +1,5** (Hándicap 2 vías (medio gol)): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 0,5 goles** (Total goles): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 0,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **CD Sabadell +1,5** (Hándicap 2 vías (medio gol)): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1297,28 +1297,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 51.7% | 24.8% | 23.5% | 45.1% |
+| 51.2% | 24.7% | 24.1% | 45.5% |
 
 ### Forma, descanso y estadísticas
 
 **Las Palmas:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
-- Días desde el último partido liguero registrado: 19
-- Medias recientes: Tiros 8,8, a puerta 3,4, córners 4,2, amarillas 3,4
+- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · V · V · D
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 10,4, a puerta 4,2, córners 5,2, amarillas 3,4
 
 **FC Andorra:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · D · V · E
-- Días desde el último partido liguero registrado: 26
-- Medias recientes: Tiros 11,4, a puerta 5,2, córners 4,0, amarillas 3,8
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · E · D · D · V
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 13,8, a puerta 6,2, córners 5,2, amarillas 3,6
 
 ### Enfrentamientos previos
 - 2026-05-10: Andorra 5-1 Las Palmas
 - 2025-08-17: Las Palmas 1-1 Andorra
 
 ### Tres selecciones del modelo (experimentales)
-1. **Las Palmas: menos de 2,5 goles** (Goles equipo): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 79.4% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **1X: Las Palmas o empate** (Doble oportunidad): 76.5% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **Las Palmas: menos de 2,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 78.9% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **1X: Las Palmas o empate** (Doble oportunidad): 75.9% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1342,7 +1342,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 50.6% | 24.4% | 25.0% | 46.3% |
+| 50.4% | 24.4% | 25.3% | 46.1% |
 
 ### Forma, descanso y estadísticas
 
@@ -1352,9 +1352,9 @@
 - Medias recientes: Tiros 10,8, a puerta 2,8, córners 6,4, amarillas 3,4
 
 **Tenerife:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 4E · 1D; secuencia: E · E · E · E · D
-- Días desde el último partido liguero registrado: 26
-- Medias recientes: Tiros 9,4, a puerta 2,6, córners 4,6, amarillas 3,4
+- Últimos partidos: 1V · 4E · 0D; secuencia: V · E · E · E · E
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 9,6, a puerta 3,2, córners 4,0, amarillas 2,8
 
 ### Enfrentamientos previos
 - 2025-02-02: Tenerife 3-1 Albacete
@@ -1364,7 +1364,7 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 19,5 tiros totales** (Tiros totales): 80.9% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Albacete: menos de 2,5 goles** (Goles equipo): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Albacete: menos de 2,5 goles** (Goles equipo): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **12: gana uno de los dos** (Doble oportunidad): 75.6% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -1389,27 +1389,27 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 33.3% | 25.2% | 41.6% | 46.9% |
+| 32.4% | 24.7% | 42.8% | 48.7% |
 
 ### Forma, descanso y estadísticas
 
 **Eldense:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · D · V · V
-- Días desde el último partido liguero registrado: 19
-- Medias recientes: Tiros 11,4, a puerta 3,4, córners 3,6, amarillas 4,0
+- Últimos partidos: 2V · 0E · 3D; secuencia: V · D · D · D · V
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 11,4, a puerta 3,8, córners 2,6, amarillas 3,8
 
 **Girona:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: D · D · V · V · E
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 13,6, a puerta 4,4, córners 4,0, amarillas 2,6
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 14,6, a puerta 4,6, córners 4,6, amarillas 2,2
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Girona: menos de 2,5 goles** (Goles equipo): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Eldense +1,5** (Hándicap 2 vías (medio gol)): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 74.7% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Girona: menos de 2,5 goles** (Goles equipo): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Eldense +1,5** (Hándicap 2 vías (medio gol)): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 73.7% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1433,19 +1433,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.2% | 26.3% | 30.5% | 39.9% |
+| 43.6% | 26.2% | 30.2% | 39.9% |
 
 ### Forma, descanso y estadísticas
 
 **Eibar:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · E · D · V
-- Días desde el último partido liguero registrado: 28
-- Medias recientes: Tiros 14,6, a puerta 5,2, córners 3,4, amarillas 2,0
+- Últimos partidos: 0V · 3E · 2D; secuencia: E · E · D · E · D
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 16,6, a puerta 5,8, córners 4,2, amarillas 2,0
 
 **Burgos:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 15,4, a puerta 6,0, córners 5,6, amarillas 2,2
+- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · E · V · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 15,0, a puerta 5,4, córners 6,6, amarillas 2,2
 
 ### Enfrentamientos previos
 - 2026-03-15: Eibar 0-0 Burgos
@@ -1455,8 +1455,8 @@
 - 2024-03-10: Eibar 0-1 Burgos
 
 ### Tres selecciones del modelo (experimentales)
-1. **Eibar: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Burgos +1,5** (Hándicap 2 vías (medio gol)): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Eibar: menos de 2,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Burgos +1,5** (Hándicap 2 vías (medio gol)): 80.6% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Menos de 3,5 goles** (Total goles): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -1481,28 +1481,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 45.1% | 24.3% | 30.6% | 52.0% |
+| 43.2% | 24.7% | 32.1% | 49.4% |
 
 ### Forma, descanso y estadísticas
 
 **Real Valladolid:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 16,2, a puerta 7,2, córners 7,2, amarillas 2,8
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · V · D · D
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 13,8, a puerta 6,4, córners 6,4, amarillas 3,2
 
 **Real Sociedad II:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 1E · 3D; secuencia: E · V · D · D · D
-- Días desde el último partido liguero registrado: 19
-- Medias recientes: Tiros 16,0, a puerta 4,6, córners 6,4, amarillas 3,4
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · E · V · D · D
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 15,0, a puerta 4,4, córners 5,6, amarillas 3,2
 
 ### Enfrentamientos previos
 - 2026-04-25: Valladolid 1-0 Sociedad B
 - 2025-11-24: Sociedad B 1-0 Valladolid
 
 ### Tres selecciones del modelo (experimentales)
-1. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Valladolid +1,5** (Hándicap 2 vías (medio gol)): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 4,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Real Valladolid +1,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Real Valladolid: menos de 2,5 goles** (Goles equipo): 83.2% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 21,5 tiros totales** (Tiros totales): 80.9% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1526,28 +1526,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 55.6% | 22.6% | 21.9% | 54.0% |
+| 58.0% | 22.6% | 19.4% | 49.8% |
 
 ### Forma, descanso y estadísticas
 
 **Granada:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
-- Días desde el último partido liguero registrado: 28
-- Medias recientes: Tiros 11,8, a puerta 4,0, córners 3,2, amarillas 1,4
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 10,6, a puerta 3,6, córners 2,2, amarillas 1,6
 
 **Ceuta:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 22
-- Medias recientes: Tiros 19,0, a puerta 5,2, córners 7,4, amarillas 3,4
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 18,6, a puerta 4,8, córners 8,4, amarillas 3,6
 
 ### Enfrentamientos previos
 - 2026-02-20: Ceuta 2-1 Granada
 - 2025-12-07: Granada 1-1 Ceuta
 
 ### Tres selecciones del modelo (experimentales)
-1. **Ceuta +2,5** (Hándicap 2 vías (medio gol)): 84.9% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Granada: más de 0,5 goles** (Goles equipo): 84.0% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Ceuta +2,5** (Hándicap 2 vías (medio gol)): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Granada: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1571,27 +1571,27 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 40.5% | 26.6% | 32.9% | 38.6% |
+| 38.8% | 25.6% | 35.5% | 44.3% |
 
 ### Forma, descanso y estadísticas
 
 **Mallorca:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 3E · 0D; secuencia: V · E · E · V · E
-- Días desde el último partido liguero registrado: 27
-- Medias recientes: Tiros 14,0, a puerta 4,0, córners 7,0, amarillas 3,0
+- Últimos partidos: 2V · 3E · 0D; secuencia: E · V · E · E · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 15,4, a puerta 5,4, córners 7,2, amarillas 2,4
 
 **Castellón:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 2E · 1D; secuencia: E · V · V · D · E
-- Días desde el último partido liguero registrado: 28
-- Medias recientes: Tiros 11,2, a puerta 3,8, córners 3,8, amarillas 1,8
+- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 12,2, a puerta 4,0, córners 5,0, amarillas 2,2
 
 ### Enfrentamientos previos
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Castellón +1,5** (Hándicap 2 vías (medio gol)): 81.4% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 81.2% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Castellón: menos de 1,5 goles** (Goles equipo): 73.9% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Mallorca +1,5** (Hándicap 2 vías (medio gol)): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Mallorca: menos de 2,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 76.8% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1615,19 +1615,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 30.5% | 23.5% | 46.0% | 56.1% |
+| 30.7% | 23.1% | 46.2% | 58.4% |
 
 ### Forma, descanso y estadísticas
 
 **Cádiz:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · V · D · D
-- Días desde el último partido liguero registrado: 22
-- Medias recientes: Tiros 10,2, a puerta 2,8, córners 5,2, amarillas 2,8
+- Últimos partidos: 1V · 1E · 3D; secuencia: E · D · D · V · D
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 10,4, a puerta 3,6, córners 4,0, amarillas 3,0
 
 **Córdoba:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
-- Días desde el último partido liguero registrado: 22
-- Medias recientes: Tiros 16,2, a puerta 6,4, córners 9,0, amarillas 3,4
+- Últimos partidos: 3V · 2E · 0D; secuencia: E · V · E · V · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 16,6, a puerta 6,0, córners 8,8, amarillas 3,8
 
 ### Enfrentamientos previos
 - 2026-04-04: Cadiz 1-3 Cordoba
@@ -1636,9 +1636,9 @@
 - 2024-11-17: Cadiz 2-0 Cordoba
 
 ### Tres selecciones del modelo (experimentales)
-1. **Cádiz: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 82.7% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Córdoba: más de 0,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Cádiz: menos de 2,5 goles** (Goles equipo): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Córdoba: más de 0,5 goles** (Goles equipo): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 goles** (Total goles): 81.0% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -1662,19 +1662,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 59.0% | 20.6% | 20.4% | 65.9% |
+| 58.7% | 20.6% | 20.7% | 66.2% |
 
 ### Forma, descanso y estadísticas
 
 **Almería:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · E · V · V
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 11,4, a puerta 4,2, córners 3,8, amarillas 2,2
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · E · E · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 8,8, a puerta 3,4, córners 2,2, amarillas 2,0
 
 **Sporting Gijón:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 14,6, a puerta 4,6, córners 4,8, amarillas 3,0
+- Últimos partidos: 2V · 1E · 2D; secuencia: E · D · V · D · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 14,6, a puerta 5,2, córners 4,8, amarillas 3,4
 
 ### Enfrentamientos previos
 - 2026-05-24: Sp Gijon 3-1 Almeria
@@ -1683,9 +1683,9 @@
 - 2024-08-31: Almeria 1-1 Sp Gijon
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 85.9% · cuota justa 1.16; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Más de 1,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Sporting Gijón +2,5** (Hándicap 2 vías (medio gol)): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 1,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 85.1% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Sporting Gijón +2,5** (Hándicap 2 vías (medio gol)): 80.4% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada

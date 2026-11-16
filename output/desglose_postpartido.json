@@ -1,0 +1,5117 @@
+{
+  "version": "postmatch-breakdown-1.0",
+  "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
+  "auditoria_estadisticas": {
+    "version": "postmatch-stats-1.0",
+    "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
+    "objetivos_conteo": 2,
+    "completos": 2,
+    "incompletos": 0,
+    "scoreboards_consultados": 0,
+    "summaries_consultados": 0,
+    "campos_recuperados": 0,
+    "campos_recuperados_cache": 0,
+    "conflictos_marcador": 0,
+    "fallos_fuente": 0,
+    "limites": {
+      "scoreboards": 24,
+      "summaries": 18
+    },
+    "nota": "Solo estadísticas de partidos finalizados e identidades y marcadores concordantes. La ausencia se conserva, nunca equivale a cero. No contamina pronósticos."
+  },
+  "partidos": [
+    {
+      "id": "SP2|202611151300|tenerife|ceuta",
+      "liga": "Segunda División",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "marcador": "2-0",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 11,
+          "visitante": 15,
+          "total": 26,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 5,
+          "visitante": 2,
+          "total": 7,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 5,
+          "visitante": 7,
+          "total": 12,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        }
+      },
+      "selecciones": [
+        {
+          "clave": "SP2|202611151300|tenerife|ceuta|Tiros totales|Más de 17,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 17,5 tiros totales",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "26",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: Tiros totales: 11 local + 15 visitante = 26; línea 17.5."
+        },
+        {
+          "clave": "SP2|202611151300|tenerife|ceuta|Goles equipo|Tenerife: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Tenerife: menos de 2,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
+        },
+        {
+          "clave": "SP2|202611151300|tenerife|ceuta|Goles equipo|Ceuta: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Ceuta: menos de 1,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 0."
+        }
+      ],
+      "evaluadas": 3,
+      "aciertos": 3
+    },
+    {
+      "id": "SP2|202611151515|granada|las palmas",
+      "liga": "Segunda División",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "marcador": "1-0",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 17,
+          "visitante": 12,
+          "total": 29,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 3,
+          "visitante": 6,
+          "total": 9,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 2,
+          "visitante": 7,
+          "total": 9,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 3,
+          "visitante": 3,
+          "total": 6,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 1,
+          "total": 1,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        }
+      },
+      "selecciones": [
+        {
+          "clave": "SP2|202611151515|granada|las palmas|Goles equipo|Granada: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Granada: menos de 2,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
+        },
+        {
+          "clave": "SP2|202611151515|granada|las palmas|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "29",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: Tiros totales: 17 local + 12 visitante = 29; línea 19.5."
+        },
+        {
+          "clave": "SP2|202611151515|granada|las palmas|Hándicap 2 vías (medio gol)|Las Palmas +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Las Palmas +1,5",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "-1",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado -1."
+        }
+      ],
+      "evaluadas": 3,
+      "aciertos": 3
+    },
+    {
+      "id": "SP2|202611151730|eibar|cadiz",
+      "liga": "Segunda División",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "marcador": "1-1",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 18,
+          "visitante": 8,
+          "total": 26,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 9,
+          "visitante": 5,
+          "total": 14,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 4,
+          "visitante": 2,
+          "total": 6,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 1,
+          "visitante": 2,
+          "total": 3,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        }
+      },
+      "selecciones": [
+        {
+          "clave": "SP2|202611151730|eibar|cadiz|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
+        },
+        {
+          "clave": "SP2|202611151730|eibar|cadiz|Hándicap 2 vías (medio gol)|Cádiz +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Cádiz +2,5",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado 0."
+        },
+        {
+          "clave": "SP2|202611151730|eibar|cadiz|Goles equipo|Eibar: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Eibar: más de 0,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
+        }
+      ],
+      "evaluadas": 3,
+      "aciertos": 3
+    },
+    {
+      "id": "SP2|202611151730|eldense|sabadell",
+      "liga": "Segunda División",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "marcador": "2-0",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 14,
+          "visitante": 5,
+          "total": 19,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 6,
+          "visitante": 0,
+          "total": 6,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 1,
+          "visitante": 2,
+          "total": 3,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 1,
+          "total": 1,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        }
+      },
+      "selecciones": [
+        {
+          "clave": "SP2|202611151730|eldense|sabadell|Hándicap 2 vías (medio gol)|CD Sabadell +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "CD Sabadell +1,5",
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "-2",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "FALLO: marcador final 2-0; resultado observado -2."
+        },
+        {
+          "clave": "SP2|202611151730|eldense|sabadell|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
+        },
+        {
+          "clave": "SP2|202611151730|eldense|sabadell|Goles equipo|CD Sabadell: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "CD Sabadell: menos de 1,5 goles",
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 0."
+        }
+      ],
+      "evaluadas": 3,
+      "aciertos": 2
+    },
+    {
+      "id": "SP2|202611161930|albacete|celta b",
+      "liga": "Segunda División",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611161930|albacete|celta b|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611161930|albacete|celta b|Goles equipo|Albacete: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Albacete: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611161930|albacete|celta b|Hándicap 2 vías (medio gol)|RC Celta Fortuna +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "RC Celta Fortuna +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611201930|bayern munich|fc koln",
+      "liga": "Bundesliga",
+      "local": "Bayern Munich",
+      "visitante": "FC Cologne",
+      "fecha_utc": "2026-11-20T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611201930|bayern munich|fc koln|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611201930|bayern munich|fc koln|Total goles|Más de 2,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611201930|bayern munich|fc koln|Tiros a puerta totales|Más de 7,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 7,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611201930|andorra|leganes",
+      "liga": "Segunda División",
+      "local": "FC Andorra",
+      "visitante": "Leganés",
+      "fecha_utc": "2026-11-20T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611201930|andorra|leganes|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611201930|andorra|leganes|Goles equipo|FC Andorra: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "FC Andorra: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611201930|andorra|leganes|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611201945|troyes|le havre",
+      "liga": "Ligue 1",
+      "local": "Troyes",
+      "visitante": "Le Havre AC",
+      "fecha_utc": "2026-11-20T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611201945|troyes|le havre|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611201945|troyes|le havre|Goles equipo|Troyes: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Troyes: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611201945|troyes|le havre|Hándicap 2 vías (medio gol)|Le Havre AC +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Le Havre AC +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611202000|ath bilbao|espanyol",
+      "liga": "LaLiga",
+      "local": "Athletic Club",
+      "visitante": "Espanyol",
+      "fecha_utc": "2026-11-20T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611202000|ath bilbao|espanyol|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611202000|ath bilbao|espanyol|Goles equipo|Athletic Club: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Athletic Club: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611202000|ath bilbao|espanyol|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211230|man city|fulham",
+      "liga": "Premier League",
+      "local": "Manchester City",
+      "visitante": "Fulham",
+      "fecha_utc": "2026-11-21T12:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211230|man city|fulham|Doble oportunidad|1X: Manchester City o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Manchester City o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211230|man city|fulham|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211230|man city|fulham|Goles equipo|Fulham: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Fulham: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611211300|sabadell|granada",
+      "liga": "Segunda División",
+      "local": "CD Sabadell",
+      "visitante": "Granada",
+      "fecha_utc": "2026-11-21T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611211300|sabadell|granada|Goles equipo|CD Sabadell: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "CD Sabadell: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611211300|sabadell|granada|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611211300|sabadell|granada|Hándicap 2 vías (medio gol)|Granada +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Granada +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611211400|como|cagliari",
+      "liga": "Serie A",
+      "local": "Como",
+      "visitante": "Cagliari",
+      "fecha_utc": "2026-11-21T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611211400|como|cagliari|Doble oportunidad|1X: Como o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Como o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211400|como|cagliari|Goles equipo|Como: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Como: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211400|como|cagliari|Goles equipo|Cagliari: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Cagliari: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611211400|lazio|lecce",
+      "liga": "Serie A",
+      "local": "Lazio",
+      "visitante": "Lecce",
+      "fecha_utc": "2026-11-21T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611211400|lazio|lecce|Goles equipo|Lazio: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lazio: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211400|lazio|lecce|Doble oportunidad|1X: Lazio o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Lazio o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211400|lazio|lecce|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611211430|ein frankfurt|hoffenheim",
+      "liga": "Bundesliga",
+      "local": "Eintracht Frankfurt",
+      "visitante": "TSG Hoffenheim",
+      "fecha_utc": "2026-11-21T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611211430|ein frankfurt|hoffenheim|Goles equipo|Eintracht Frankfurt: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Eintracht Frankfurt: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611211430|ein frankfurt|hoffenheim|Hándicap 2 vías (medio gol)|Eintracht Frankfurt +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Eintracht Frankfurt +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611211430|ein frankfurt|hoffenheim|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611211430|m gladbach|dortmund",
+      "liga": "Bundesliga",
+      "local": "Borussia Mönchengladbach",
+      "visitante": "Borussia Dortmund",
+      "fecha_utc": "2026-11-21T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611211430|m gladbach|dortmund|Goles equipo|Borussia Dortmund: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Borussia Dortmund: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611211430|m gladbach|dortmund|Hándicap 2 vías (medio gol)|Borussia Mönchengladbach +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Borussia Mönchengladbach +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611211430|m gladbach|dortmund|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611211430|union berlin|leipzig",
+      "liga": "Bundesliga",
+      "local": "1. FC Union Berlin",
+      "visitante": "RB Leipzig",
+      "fecha_utc": "2026-11-21T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611211430|union berlin|leipzig|Hándicap 2 vías (medio gol)|1. FC Union Berlin +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "1. FC Union Berlin +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611211430|union berlin|leipzig|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611211430|union berlin|leipzig|Goles equipo|RB Leipzig: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "RB Leipzig: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211500|aston villa|sunderland",
+      "liga": "Premier League",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211500|aston villa|sunderland|Hándicap 2 vías (medio gol)|Sunderland +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Sunderland +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|aston villa|sunderland|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|aston villa|sunderland|Goles equipo|Aston Villa: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Aston Villa: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211500|bournemouth|nott m forest",
+      "liga": "Premier League",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211500|bournemouth|nott m forest|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|bournemouth|nott m forest|Goles equipo|AFC Bournemouth: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "AFC Bournemouth: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|bournemouth|nott m forest|Hándicap 2 vías (medio gol)|Nottingham Forest +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Nottingham Forest +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211500|chelsea|leeds",
+      "liga": "Premier League",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211500|chelsea|leeds|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|chelsea|leeds|Goles equipo|Chelsea: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Chelsea: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|chelsea|leeds|Doble oportunidad|1X: Chelsea o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Chelsea o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211500|coventry|crystal palace",
+      "liga": "Premier League",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211500|coventry|crystal palace|Hándicap 2 vías (medio gol)|Coventry City +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Coventry City +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|coventry|crystal palace|Goles equipo|Crystal Palace: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Crystal Palace: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|coventry|crystal palace|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211500|tottenham|ipswich",
+      "liga": "Premier League",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211500|tottenham|ipswich|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|tottenham|ipswich|Hándicap 2 vías (medio gol)|Tottenham Hotspur +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Tottenham Hotspur +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211500|tottenham|ipswich|Goles equipo|Tottenham Hotspur: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Tottenham Hotspur: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611211515|vallecano|valencia",
+      "liga": "LaLiga",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611211515|vallecano|valencia|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611211515|vallecano|valencia|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611211515|vallecano|valencia|Goles equipo|Rayo Vallecano: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Rayo Vallecano: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611211515|sociedad b|cadiz",
+      "liga": "Segunda División",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611211515|sociedad b|cadiz|Hándicap 2 vías (medio gol)|Real Sociedad II +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Real Sociedad II +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611211515|sociedad b|cadiz|Goles equipo|Real Sociedad II: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Sociedad II: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611211515|sociedad b|cadiz|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611211615|nice|paris sg",
+      "liga": "Ligue 1",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611211615|nice|paris sg|Goles equipo|Paris Saint-Germain: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Paris Saint-Germain: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211615|nice|paris sg|Hándicap 2 vías (medio gol)|Nice +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Nice +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211615|nice|paris sg|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611211700|parma|roma",
+      "liga": "Serie A",
+      "local": "Parma",
+      "visitante": "AS Roma",
+      "fecha_utc": "2026-11-21T17:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611211700|parma|roma|Hándicap 2 vías (medio gol)|Parma +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Parma +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211700|parma|roma|Goles equipo|Parma: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Parma: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211700|parma|roma|Goles equipo|AS Roma: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "AS Roma: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611211730|newcastle|arsenal",
+      "liga": "Premier League",
+      "local": "Newcastle United",
+      "visitante": "Arsenal",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611211730|newcastle|arsenal|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211730|newcastle|arsenal|Goles equipo|Arsenal: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Arsenal: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611211730|newcastle|arsenal|Doble oportunidad|X2: empate o Arsenal",
+          "mercado": "Doble oportunidad",
+          "seleccion": "X2: empate o Arsenal",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611211730|sevilla|betis",
+      "liga": "LaLiga",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611211730|sevilla|betis|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611211730|sevilla|betis|Hándicap 2 vías (medio gol)|Real Betis +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Real Betis +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611211730|sevilla|betis|Goles equipo|Real Betis: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Betis: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611211730|castellon|eldense",
+      "liga": "Segunda División",
+      "local": "Castellón",
+      "visitante": "Eldense",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611211730|castellon|eldense|Goles equipo|Castellón: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Castellón: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611211730|castellon|eldense|Doble oportunidad|1X: Castellón o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Castellón o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611211730|castellon|eldense|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611211945|lens|toulouse",
+      "liga": "Ligue 1",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611211945|lens|toulouse|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|lens|toulouse|Goles equipo|Lens: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lens: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|lens|toulouse|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611211945|lille|lyon",
+      "liga": "Ligue 1",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611211945|lille|lyon|Goles equipo|Lille: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lille: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|lille|lyon|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|lille|lyon|Hándicap 2 vías (medio gol)|Lyon +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Lyon +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611211945|monaco|auxerre",
+      "liga": "Ligue 1",
+      "local": "AS Monaco",
+      "visitante": "AJ Auxerre",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611211945|monaco|auxerre|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|monaco|auxerre|Doble oportunidad|1X: AS Monaco o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: AS Monaco o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|monaco|auxerre|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611211945|strasbourg|brest",
+      "liga": "Ligue 1",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611211945|strasbourg|brest|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|strasbourg|brest|Hándicap 2 vías (medio gol)|Brest +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Brest +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611211945|strasbourg|brest|Tarjetas amarillas totales|Menos de 4,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Menos de 4,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611211945|napoli|torino",
+      "liga": "Serie A",
+      "local": "Napoli",
+      "visitante": "Torino",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611211945|napoli|torino|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211945|napoli|torino|Goles equipo|Napoli: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Napoli: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611211945|napoli|torino|Doble oportunidad|1X: Napoli o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Napoli o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611212000|real madrid|celta",
+      "liga": "LaLiga",
+      "local": "Real Madrid",
+      "visitante": "Celta Vigo",
+      "fecha_utc": "2026-11-21T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611212000|real madrid|celta|Hándicap 2 vías (medio gol)|Celta Vigo +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Celta Vigo +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611212000|real madrid|celta|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611212000|real madrid|celta|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611212000|tenerife|mallorca",
+      "liga": "Segunda División",
+      "local": "Tenerife",
+      "visitante": "Mallorca",
+      "fecha_utc": "2026-11-21T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611212000|tenerife|mallorca|Hándicap 2 vías (medio gol)|Mallorca +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Mallorca +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611212000|tenerife|mallorca|Goles equipo|Mallorca: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Mallorca: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611212000|tenerife|mallorca|Total goles|Más de 0,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611221130|juventus|venezia",
+      "liga": "Serie A",
+      "local": "Juventus",
+      "visitante": "Venezia",
+      "fecha_utc": "2026-11-22T11:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611221130|juventus|venezia|Goles equipo|Venezia: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Venezia: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221130|juventus|venezia|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221130|juventus|venezia|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611221300|barcelona|villarreal",
+      "liga": "LaLiga",
+      "local": "Barcelona",
+      "visitante": "Villarreal",
+      "fecha_utc": "2026-11-22T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611221300|barcelona|villarreal|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611221300|barcelona|villarreal|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611221300|barcelona|villarreal|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611221300|cordoba|oviedo",
+      "liga": "Segunda División",
+      "local": "Córdoba",
+      "visitante": "Real Oviedo",
+      "fecha_utc": "2026-11-22T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611221300|cordoba|oviedo|Hándicap 2 vías (medio gol)|Real Oviedo +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Real Oviedo +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221300|cordoba|oviedo|Goles equipo|Real Oviedo: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Oviedo: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221300|cordoba|oviedo|Tiros totales|Más de 21,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 21,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611221400|hull|brighton",
+      "liga": "Premier League",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611221400|hull|brighton|Goles equipo|Brighton & Hove Albion: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Brighton & Hove Albion: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611221400|hull|brighton|Goles equipo|Hull City: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Hull City: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611221400|hull|brighton|Hándicap 2 vías (medio gol)|Hull City +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Hull City +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611221400|paris fc|angers",
+      "liga": "Ligue 1",
+      "local": "Paris FC",
+      "visitante": "Angers",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611221400|paris fc|angers|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611221400|paris fc|angers|Hándicap 2 vías (medio gol)|Angers +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Angers +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611221400|paris fc|angers|Goles equipo|Paris FC: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Paris FC: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611221400|bologna|udinese",
+      "liga": "Serie A",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611221400|bologna|udinese|Goles equipo|Bologna: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Bologna: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221400|bologna|udinese|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221400|bologna|udinese|Hándicap 2 vías (medio gol)|Udinese +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Udinese +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611221400|sassuolo|genoa",
+      "liga": "Serie A",
+      "local": "Sassuolo",
+      "visitante": "Genoa",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611221400|sassuolo|genoa|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221400|sassuolo|genoa|Goles equipo|Sassuolo: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Sassuolo: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221400|sassuolo|genoa|Goles equipo|Genoa: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Genoa: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611221430|augsburg|mainz",
+      "liga": "Bundesliga",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611221430|augsburg|mainz|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611221430|augsburg|mainz|Hándicap 2 vías (medio gol)|Mainz +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Mainz +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611221430|augsburg|mainz|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611221515|sp gijon|las palmas",
+      "liga": "Segunda División",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611221515|sp gijon|las palmas|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221515|sp gijon|las palmas|Goles equipo|Sporting Gijón: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Sporting Gijón: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221515|sp gijon|las palmas|Hándicap 2 vías (medio gol)|Las Palmas +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Las Palmas +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611221615|lorient|rennes",
+      "liga": "Ligue 1",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611221615|lorient|rennes|Hándicap 2 vías (medio gol)|Stade Rennais +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Stade Rennais +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611221615|lorient|rennes|Goles equipo|Stade Rennais: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Stade Rennais: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611221615|lorient|rennes|Total goles|Más de 2,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611221630|werder bremen|hamburg",
+      "liga": "Bundesliga",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611221630|werder bremen|hamburg|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611221630|werder bremen|hamburg|Goles equipo|Werder Bremen: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Werder Bremen: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611221630|werder bremen|hamburg|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611221630|liverpool|man united",
+      "liga": "Premier League",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611221630|liverpool|man united|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611221630|liverpool|man united|Goles equipo|Liverpool: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Liverpool: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611221630|liverpool|man united|Hándicap 2 vías (medio gol)|Manchester United +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Manchester United +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611221700|milan|frosinone",
+      "liga": "Serie A",
+      "local": "AC Milan",
+      "visitante": "Frosinone",
+      "fecha_utc": "2026-11-22T17:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611221700|milan|frosinone|Goles equipo|AC Milan: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "AC Milan: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221700|milan|frosinone|Doble oportunidad|1X: AC Milan o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: AC Milan o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221700|milan|frosinone|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611221730|osasuna|malaga",
+      "liga": "LaLiga",
+      "local": "Osasuna",
+      "visitante": "Málaga",
+      "fecha_utc": "2026-11-22T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611221730|osasuna|malaga|Goles equipo|Osasuna: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Osasuna: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611221730|osasuna|malaga|Goles equipo|Málaga: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Málaga: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611221730|osasuna|malaga|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611221730|celta b|valladolid",
+      "liga": "Segunda División",
+      "local": "RC Celta Fortuna",
+      "visitante": "Real Valladolid",
+      "fecha_utc": "2026-11-22T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611221730|celta b|valladolid|Goles equipo|Real Valladolid: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Valladolid: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221730|celta b|valladolid|Goles equipo|RC Celta Fortuna: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "RC Celta Fortuna: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221730|celta b|valladolid|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611221730|girona|eibar",
+      "liga": "Segunda División",
+      "local": "Girona",
+      "visitante": "Eibar",
+      "fecha_utc": "2026-11-22T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611221730|girona|eibar|Goles equipo|Girona: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Girona: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221730|girona|eibar|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611221730|girona|eibar|Goles equipo|Eibar: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Eibar: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611221945|marseille|le mans",
+      "liga": "Ligue 1",
+      "local": "Marseille",
+      "visitante": "Le Mans",
+      "fecha_utc": "2026-11-22T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611221945|marseille|le mans|Doble oportunidad|1X: Marseille o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Marseille o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611221945|marseille|le mans|Goles equipo|Marseille: más de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Marseille: más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611221945|marseille|le mans|Total goles|Más de 2,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611221945|atalanta|inter",
+      "liga": "Serie A",
+      "local": "Atalanta",
+      "visitante": "Internazionale",
+      "fecha_utc": "2026-11-22T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611221945|atalanta|inter|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221945|atalanta|inter|Goles equipo|Internazionale: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Internazionale: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611221945|atalanta|inter|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611222000|getafe|ath madrid",
+      "liga": "LaLiga",
+      "local": "Getafe",
+      "visitante": "Atlético Madrid",
+      "fecha_utc": "2026-11-22T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611222000|getafe|ath madrid|Hándicap 2 vías (medio gol)|Getafe +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Getafe +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611222000|getafe|ath madrid|Total goles|Más de 0,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611222000|getafe|ath madrid|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611222000|burgos|albacete",
+      "liga": "Segunda División",
+      "local": "Burgos",
+      "visitante": "Albacete",
+      "fecha_utc": "2026-11-22T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611222000|burgos|albacete|Total goles|Más de 0,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611222000|burgos|albacete|Goles equipo|Albacete: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Albacete: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611222000|burgos|albacete|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611231930|ceuta|almeria",
+      "liga": "Segunda División",
+      "local": "Ceuta",
+      "visitante": "Almería",
+      "fecha_utc": "2026-11-23T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611231930|ceuta|almeria|Goles equipo|Almería: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Almería: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611231930|ceuta|almeria|Tiros totales|Más de 21,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 21,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611231930|ceuta|almeria|Hándicap 2 vías (medio gol)|Ceuta +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Ceuta +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611231945|monza|fiorentina",
+      "liga": "Serie A",
+      "local": "Monza",
+      "visitante": "Fiorentina",
+      "fecha_utc": "2026-11-23T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611231945|monza|fiorentina|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611231945|monza|fiorentina|Goles equipo|Fiorentina: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Fiorentina: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611231945|monza|fiorentina|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611232000|brentford|everton",
+      "liga": "Premier League",
+      "local": "Brentford",
+      "visitante": "Everton",
+      "fecha_utc": "2026-11-23T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611232000|brentford|everton|Goles equipo|Brentford: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Brentford: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611232000|brentford|everton|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611232000|brentford|everton|Hándicap 2 vías (medio gol)|Everton +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Everton +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611232000|levante|elche",
+      "liga": "LaLiga",
+      "local": "Levante",
+      "visitante": "Elche",
+      "fecha_utc": "2026-11-23T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611232000|levante|elche|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611232000|levante|elche|Hándicap 2 vías (medio gol)|Levante +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Levante +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611232000|levante|elche|Goles equipo|Levante: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Levante: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611271930|werder bremen|m gladbach",
+      "liga": "Bundesliga",
+      "local": "Werder Bremen",
+      "visitante": "Borussia Mönchengladbach",
+      "fecha_utc": "2026-11-27T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611271930|werder bremen|m gladbach|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611271930|werder bremen|m gladbach|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611271930|werder bremen|m gladbach|Goles equipo|Werder Bremen: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Werder Bremen: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611271930|leganes|sabadell",
+      "liga": "Segunda División",
+      "local": "Leganés",
+      "visitante": "CD Sabadell",
+      "fecha_utc": "2026-11-27T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611271930|leganes|sabadell|Hándicap 2 vías (medio gol)|CD Sabadell +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "CD Sabadell +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611271930|leganes|sabadell|Total goles|Más de 0,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611271930|leganes|sabadell|Goles equipo|CD Sabadell: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "CD Sabadell: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611271945|brest|paris fc",
+      "liga": "Ligue 1",
+      "local": "Brest",
+      "visitante": "Paris FC",
+      "fecha_utc": "2026-11-27T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611271945|brest|paris fc|Goles equipo|Brest: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Brest: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611271945|brest|paris fc|Hándicap 2 vías (medio gol)|Paris FC +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Paris FC +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611271945|brest|paris fc|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611271945|venezia|bologna",
+      "liga": "Serie A",
+      "local": "Venezia",
+      "visitante": "Bologna",
+      "fecha_utc": "2026-11-27T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611271945|venezia|bologna|Goles equipo|Bologna: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Bologna: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611271945|venezia|bologna|Goles equipo|Venezia: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Venezia: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611271945|venezia|bologna|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611272000|nott m forest|chelsea",
+      "liga": "Premier League",
+      "local": "Nottingham Forest",
+      "visitante": "Chelsea",
+      "fecha_utc": "2026-11-27T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611272000|nott m forest|chelsea|Goles equipo|Chelsea: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Chelsea: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611272000|nott m forest|chelsea|Hándicap 2 vías (medio gol)|Nottingham Forest +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Nottingham Forest +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611272000|nott m forest|chelsea|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611281300|betis|vallecano",
+      "liga": "LaLiga",
+      "local": "Real Betis",
+      "visitante": "Rayo Vallecano",
+      "fecha_utc": "2026-11-28T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611281300|betis|vallecano|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611281300|betis|vallecano|Goles equipo|Real Betis: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Betis: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611281300|betis|vallecano|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611281300|las palmas|andorra",
+      "liga": "Segunda División",
+      "local": "Las Palmas",
+      "visitante": "FC Andorra",
+      "fecha_utc": "2026-11-28T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611281300|las palmas|andorra|Goles equipo|Las Palmas: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Las Palmas: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281300|las palmas|andorra|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281300|las palmas|andorra|Doble oportunidad|1X: Las Palmas o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Las Palmas o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611281400|frosinone|parma",
+      "liga": "Serie A",
+      "local": "Frosinone",
+      "visitante": "Parma",
+      "fecha_utc": "2026-11-28T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611281400|frosinone|parma|Goles equipo|Frosinone: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Frosinone: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611281400|frosinone|parma|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611281400|frosinone|parma|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611281430|hamburg|bayern munich",
+      "liga": "Bundesliga",
+      "local": "Hamburg SV",
+      "visitante": "Bayern Munich",
+      "fecha_utc": "2026-11-28T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611281430|hamburg|bayern munich|Doble oportunidad|X2: empate o Bayern Munich",
+          "mercado": "Doble oportunidad",
+          "seleccion": "X2: empate o Bayern Munich",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281430|hamburg|bayern munich|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281430|hamburg|bayern munich|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611281430|mainz|union berlin",
+      "liga": "Bundesliga",
+      "local": "Mainz",
+      "visitante": "1. FC Union Berlin",
+      "fecha_utc": "2026-11-28T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611281430|mainz|union berlin|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281430|mainz|union berlin|Goles equipo|Mainz: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Mainz: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281430|mainz|union berlin|Hándicap 2 vías (medio gol)|1. FC Union Berlin +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "1. FC Union Berlin +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611281430|paderborn|schalke 04",
+      "liga": "Bundesliga",
+      "local": "SC Paderborn 07",
+      "visitante": "Schalke 04",
+      "fecha_utc": "2026-11-28T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611281430|paderborn|schalke 04|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281430|paderborn|schalke 04|Goles equipo|SC Paderborn 07: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "SC Paderborn 07: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281430|paderborn|schalke 04|Hándicap 2 vías (medio gol)|Schalke 04 +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Schalke 04 +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611281500|leeds|coventry",
+      "liga": "Premier League",
+      "local": "Leeds United",
+      "visitante": "Coventry City",
+      "fecha_utc": "2026-11-28T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611281500|leeds|coventry|Hándicap 2 vías (medio gol)|Coventry City +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Coventry City +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611281500|leeds|coventry|Goles equipo|Leeds United: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Leeds United: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611281500|leeds|coventry|Goles equipo|Coventry City: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Coventry City: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611281500|man united|brentford",
+      "liga": "Premier League",
+      "local": "Manchester United",
+      "visitante": "Brentford",
+      "fecha_utc": "2026-11-28T15:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611281500|man united|brentford|Goles equipo|Manchester United: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Manchester United: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611281500|man united|brentford|Goles equipo|Brentford: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Brentford: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611281500|man united|brentford|Hándicap 2 vías (medio gol)|Brentford +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Brentford +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611281515|malaga|ath bilbao",
+      "liga": "LaLiga",
+      "local": "Málaga",
+      "visitante": "Athletic Club",
+      "fecha_utc": "2026-11-28T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611281515|malaga|ath bilbao|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611281515|malaga|ath bilbao|Goles equipo|Athletic Club: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Athletic Club: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611281515|malaga|ath bilbao|Hándicap 2 vías (medio gol)|Málaga +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Málaga +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611281515|albacete|tenerife",
+      "liga": "Segunda División",
+      "local": "Albacete",
+      "visitante": "Tenerife",
+      "fecha_utc": "2026-11-28T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611281515|albacete|tenerife|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281515|albacete|tenerife|Goles equipo|Albacete: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Albacete: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281515|albacete|tenerife|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611281515|eldense|girona",
+      "liga": "Segunda División",
+      "local": "Eldense",
+      "visitante": "Girona",
+      "fecha_utc": "2026-11-28T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611281515|eldense|girona|Goles equipo|Girona: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Girona: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281515|eldense|girona|Hándicap 2 vías (medio gol)|Eldense +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Eldense +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281515|eldense|girona|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611281615|angers|lens",
+      "liga": "Ligue 1",
+      "local": "Angers",
+      "visitante": "Lens",
+      "fecha_utc": "2026-11-28T16:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611281615|angers|lens|Hándicap 2 vías (medio gol)|Angers +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Angers +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281615|angers|lens|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281615|angers|lens|Goles equipo|Lens: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lens: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611281700|torino|lazio",
+      "liga": "Serie A",
+      "local": "Torino",
+      "visitante": "Lazio",
+      "fecha_utc": "2026-11-28T17:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611281700|torino|lazio|Goles equipo|Lazio: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lazio: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611281700|torino|lazio|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611281700|torino|lazio|Goles equipo|Torino: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Torino: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611281730|stuttgart|ein frankfurt",
+      "liga": "Bundesliga",
+      "local": "VfB Stuttgart",
+      "visitante": "Eintracht Frankfurt",
+      "fecha_utc": "2026-11-28T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611281730|stuttgart|ein frankfurt|Goles equipo|VfB Stuttgart: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "VfB Stuttgart: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281730|stuttgart|ein frankfurt|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611281730|stuttgart|ein frankfurt|Hándicap 2 vías (medio gol)|Eintracht Frankfurt +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Eintracht Frankfurt +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611281730|ipswich|aston villa",
+      "liga": "Premier League",
+      "local": "Ipswich Town",
+      "visitante": "Aston Villa",
+      "fecha_utc": "2026-11-28T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611281730|ipswich|aston villa|Goles equipo|Aston Villa: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Aston Villa: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611281730|ipswich|aston villa|Hándicap 2 vías (medio gol)|Ipswich Town +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Ipswich Town +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611281730|ipswich|aston villa|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611281730|elche|ath madrid",
+      "liga": "LaLiga",
+      "local": "Elche",
+      "visitante": "Atlético Madrid",
+      "fecha_utc": "2026-11-28T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611281730|elche|ath madrid|Hándicap 2 vías (medio gol)|Atlético Madrid +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Atlético Madrid +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611281730|elche|ath madrid|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611281730|elche|ath madrid|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611281730|eibar|burgos",
+      "liga": "Segunda División",
+      "local": "Eibar",
+      "visitante": "Burgos",
+      "fecha_utc": "2026-11-28T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611281730|eibar|burgos|Goles equipo|Eibar: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Eibar: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281730|eibar|burgos|Hándicap 2 vías (medio gol)|Burgos +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Burgos +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611281730|eibar|burgos|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611281945|le havre|strasbourg",
+      "liga": "Ligue 1",
+      "local": "Le Havre AC",
+      "visitante": "Strasbourg",
+      "fecha_utc": "2026-11-28T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611281945|le havre|strasbourg|Hándicap 2 vías (medio gol)|Strasbourg +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Strasbourg +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|le havre|strasbourg|Goles equipo|Le Havre AC: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Le Havre AC: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|le havre|strasbourg|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611281945|le mans|lille",
+      "liga": "Ligue 1",
+      "local": "Le Mans",
+      "visitante": "Lille",
+      "fecha_utc": "2026-11-28T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611281945|le mans|lille|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|le mans|lille|Goles equipo|Lille: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lille: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|le mans|lille|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611281945|nice|troyes",
+      "liga": "Ligue 1",
+      "local": "Nice",
+      "visitante": "Troyes",
+      "fecha_utc": "2026-11-28T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611281945|nice|troyes|Goles equipo|Nice: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Nice: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|nice|troyes|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|nice|troyes|Hándicap 2 vías (medio gol)|Troyes +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Troyes +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611281945|paris sg|lorient",
+      "liga": "Ligue 1",
+      "local": "Paris Saint-Germain",
+      "visitante": "Lorient",
+      "fecha_utc": "2026-11-28T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611281945|paris sg|lorient|Goles equipo|Paris Saint-Germain: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Paris Saint-Germain: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|paris sg|lorient|Goles equipo|Lorient: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lorient: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611281945|paris sg|lorient|Hándicap 2 vías (medio gol)|Lorient +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Lorient +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611281945|inter|genoa",
+      "liga": "Serie A",
+      "local": "Internazionale",
+      "visitante": "Genoa",
+      "fecha_utc": "2026-11-28T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611281945|inter|genoa|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611281945|inter|genoa|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611281945|inter|genoa|Goles equipo|Genoa: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Genoa: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611282000|real madrid|alaves",
+      "liga": "LaLiga",
+      "local": "Real Madrid",
+      "visitante": "Alavés",
+      "fecha_utc": "2026-11-28T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611282000|real madrid|alaves|Goles equipo|Alavés: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Alavés: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611282000|real madrid|alaves|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611282000|real madrid|alaves|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611282000|valladolid|sociedad b",
+      "liga": "Segunda División",
+      "local": "Real Valladolid",
+      "visitante": "Real Sociedad II",
+      "fecha_utc": "2026-11-28T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611282000|valladolid|sociedad b|Goles equipo|Real Sociedad II: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Sociedad II: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611282000|valladolid|sociedad b|Hándicap 2 vías (medio gol)|Real Valladolid +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Real Valladolid +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611282000|valladolid|sociedad b|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611291130|udinese|fiorentina",
+      "liga": "Serie A",
+      "local": "Udinese",
+      "visitante": "Fiorentina",
+      "fecha_utc": "2026-11-29T11:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611291130|udinese|fiorentina|Hándicap 2 vías (medio gol)|Fiorentina +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Fiorentina +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291130|udinese|fiorentina|Goles equipo|Fiorentina: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Fiorentina: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291130|udinese|fiorentina|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611291200|everton|liverpool",
+      "liga": "Premier League",
+      "local": "Everton",
+      "visitante": "Liverpool",
+      "fecha_utc": "2026-11-29T12:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611291200|everton|liverpool|Hándicap 2 vías (medio gol)|Liverpool +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Liverpool +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291200|everton|liverpool|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291200|everton|liverpool|Goles equipo|Everton: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Everton: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611291300|valencia|osasuna",
+      "liga": "LaLiga",
+      "local": "Valencia",
+      "visitante": "Osasuna",
+      "fecha_utc": "2026-11-29T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611291300|valencia|osasuna|Goles equipo|Valencia: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Valencia: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611291300|valencia|osasuna|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611291300|valencia|osasuna|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611291300|granada|ceuta",
+      "liga": "Segunda División",
+      "local": "Granada",
+      "visitante": "Ceuta",
+      "fecha_utc": "2026-11-29T13:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611291300|granada|ceuta|Hándicap 2 vías (medio gol)|Ceuta +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Ceuta +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611291300|granada|ceuta|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611291300|granada|ceuta|Goles equipo|Granada: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Granada: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611291400|auxerre|marseille",
+      "liga": "Ligue 1",
+      "local": "AJ Auxerre",
+      "visitante": "Marseille",
+      "fecha_utc": "2026-11-29T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611291400|auxerre|marseille|Goles equipo|Marseille: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Marseille: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611291400|auxerre|marseille|Hándicap 2 vías (medio gol)|AJ Auxerre +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "AJ Auxerre +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611291400|auxerre|marseille|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611291400|sassuolo|napoli",
+      "liga": "Serie A",
+      "local": "Sassuolo",
+      "visitante": "Napoli",
+      "fecha_utc": "2026-11-29T14:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611291400|sassuolo|napoli|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291400|sassuolo|napoli|Goles equipo|Napoli: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Napoli: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291400|sassuolo|napoli|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611291405|brighton|newcastle",
+      "liga": "Premier League",
+      "local": "Brighton & Hove Albion",
+      "visitante": "Newcastle United",
+      "fecha_utc": "2026-11-29T14:05:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611291405|brighton|newcastle|Hándicap 2 vías (medio gol)|Newcastle United +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Newcastle United +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|brighton|newcastle|Goles equipo|Brighton & Hove Albion: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Brighton & Hove Albion: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|brighton|newcastle|Goles equipo|Newcastle United: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Newcastle United: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611291405|crystal palace|hull",
+      "liga": "Premier League",
+      "local": "Crystal Palace",
+      "visitante": "Hull City",
+      "fecha_utc": "2026-11-29T14:05:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611291405|crystal palace|hull|Goles equipo|Hull City: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Hull City: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|crystal palace|hull|Hándicap 2 vías (medio gol)|Hull City +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Hull City +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|crystal palace|hull|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611291405|fulham|bournemouth",
+      "liga": "Premier League",
+      "local": "Fulham",
+      "visitante": "AFC Bournemouth",
+      "fecha_utc": "2026-11-29T14:05:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611291405|fulham|bournemouth|Hándicap 2 vías (medio gol)|Fulham +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Fulham +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|fulham|bournemouth|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|fulham|bournemouth|Goles equipo|Fulham: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Fulham: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611291405|sunderland|tottenham",
+      "liga": "Premier League",
+      "local": "Sunderland",
+      "visitante": "Tottenham Hotspur",
+      "fecha_utc": "2026-11-29T14:05:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611291405|sunderland|tottenham|Hándicap 2 vías (medio gol)|Tottenham Hotspur +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Tottenham Hotspur +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|sunderland|tottenham|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291405|sunderland|tottenham|Tiros a puerta totales|Menos de 9,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Menos de 9,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611291430|freiburg|leipzig",
+      "liga": "Bundesliga",
+      "local": "SC Freiburg",
+      "visitante": "RB Leipzig",
+      "fecha_utc": "2026-11-29T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611291430|freiburg|leipzig|Goles equipo|SC Freiburg: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "SC Freiburg: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611291430|freiburg|leipzig|Goles equipo|RB Leipzig: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "RB Leipzig: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611291430|freiburg|leipzig|Hándicap 2 vías (medio gol)|RB Leipzig +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "RB Leipzig +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611291515|mallorca|castellon",
+      "liga": "Segunda División",
+      "local": "Mallorca",
+      "visitante": "Castellón",
+      "fecha_utc": "2026-11-29T15:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611291515|mallorca|castellon|Hándicap 2 vías (medio gol)|Castellón +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Castellón +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611291515|mallorca|castellon|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611291515|mallorca|castellon|Goles equipo|Castellón: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Castellón: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611291615|toulouse|rennes",
+      "liga": "Ligue 1",
+      "local": "Toulouse",
+      "visitante": "Stade Rennais",
+      "fecha_utc": "2026-11-29T16:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611291615|toulouse|rennes|Goles equipo|Toulouse: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Toulouse: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611291615|toulouse|rennes|Goles equipo|Stade Rennais: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Stade Rennais: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611291615|toulouse|rennes|Hándicap 2 vías (medio gol)|Toulouse +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Toulouse +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611291630|hoffenheim|augsburg",
+      "liga": "Bundesliga",
+      "local": "TSG Hoffenheim",
+      "visitante": "FC Augsburg",
+      "fecha_utc": "2026-11-29T16:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611291630|hoffenheim|augsburg|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611291630|hoffenheim|augsburg|Goles equipo|FC Augsburg: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "FC Augsburg: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611291630|hoffenheim|augsburg|Hándicap 2 vías (medio gol)|FC Augsburg +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "FC Augsburg +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202611291630|arsenal|man city",
+      "liga": "Premier League",
+      "local": "Arsenal",
+      "visitante": "Manchester City",
+      "fecha_utc": "2026-11-29T16:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202611291630|arsenal|man city|Goles equipo|Arsenal: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Arsenal: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291630|arsenal|man city|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202611291630|arsenal|man city|Doble oportunidad|1X: Arsenal o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Arsenal o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611291700|roma|monza",
+      "liga": "Serie A",
+      "local": "AS Roma",
+      "visitante": "Monza",
+      "fecha_utc": "2026-11-29T17:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611291700|roma|monza|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291700|roma|monza|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291700|roma|monza|Goles equipo|AS Roma: más de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "AS Roma: más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611291730|celta|villarreal",
+      "liga": "LaLiga",
+      "local": "Celta Vigo",
+      "visitante": "Villarreal",
+      "fecha_utc": "2026-11-29T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611291730|celta|villarreal|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611291730|celta|villarreal|Goles equipo|Villarreal: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Villarreal: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611291730|celta|villarreal|Goles equipo|Celta Vigo: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Celta Vigo: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611291730|cadiz|cordoba",
+      "liga": "Segunda División",
+      "local": "Cádiz",
+      "visitante": "Córdoba",
+      "fecha_utc": "2026-11-29T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611291730|cadiz|cordoba|Goles equipo|Cádiz: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Cádiz: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611291730|cadiz|cordoba|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611291730|cadiz|cordoba|Goles equipo|Córdoba: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Córdoba: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202611291830|dortmund|leverkusen",
+      "liga": "Bundesliga",
+      "local": "Borussia Dortmund",
+      "visitante": "Bayer Leverkusen",
+      "fecha_utc": "2026-11-29T18:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202611291830|dortmund|leverkusen|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611291830|dortmund|leverkusen|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202611291830|dortmund|leverkusen|Hándicap 2 vías (medio gol)|Bayer Leverkusen +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Bayer Leverkusen +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "F1|202611291945|lyon|monaco",
+      "liga": "Ligue 1",
+      "local": "Lyon",
+      "visitante": "AS Monaco",
+      "fecha_utc": "2026-11-29T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "F1|202611291945|lyon|monaco|Goles equipo|Lyon: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lyon: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611291945|lyon|monaco|Hándicap 2 vías (medio gol)|AS Monaco +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "AS Monaco +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "F1|202611291945|lyon|monaco|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611291945|como|juventus",
+      "liga": "Serie A",
+      "local": "Como",
+      "visitante": "Juventus",
+      "fecha_utc": "2026-11-29T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611291945|como|juventus|Goles equipo|Como: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Como: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291945|como|juventus|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611291945|como|juventus|Hándicap 2 vías (medio gol)|Juventus +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Juventus +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611292000|sociedad|sevilla",
+      "liga": "LaLiga",
+      "local": "Real Sociedad",
+      "visitante": "Sevilla",
+      "fecha_utc": "2026-11-29T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611292000|sociedad|sevilla|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611292000|sociedad|sevilla|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611292000|sociedad|sevilla|Goles equipo|Real Sociedad: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Sociedad: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611292000|almeria|sp gijon",
+      "liga": "Segunda División",
+      "local": "Almería",
+      "visitante": "Sporting Gijón",
+      "fecha_utc": "2026-11-29T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611292000|almeria|sp gijon|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611292000|almeria|sp gijon|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611292000|almeria|sp gijon|Hándicap 2 vías (medio gol)|Sporting Gijón +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Sporting Gijón +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    }
+  ],
+  "nota": "Los resultados proceden de snapshots archivados antes del inicio. Métricas faltantes sin estimación, sin resultados inventados."
+}

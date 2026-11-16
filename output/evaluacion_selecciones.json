@@ -1,21 +1,29 @@
 {
   "version": "market-prospective-0.8",
-  "calculado_utc": "2026-11-16T10:28:20.281888+00:00",
+  "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
   "registradas": 333,
-  "finalizadas": 10,
+  "finalizadas": 12,
   "pendientes": 321,
   "sin_resultado": 0,
-  "sin_estadistica": 2,
+  "sin_estadistica": 0,
   "excluidas": 0,
   "global": {
-    "muestra": 10,
-    "acierto_pct": 90.0,
-    "brier": 0.105959,
-    "logloss": 0.379251,
-    "ece": 0.086731,
+    "muestra": 12,
+    "acierto_pct": 91.67,
+    "brier": 0.094211,
+    "logloss": 0.350652,
+    "ece": 0.103487,
     "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
   },
   "por_mercado": {
+    "Tiros totales": {
+      "muestra": 2,
+      "acierto_pct": 100.0,
+      "brier": 0.035472,
+      "logloss": 0.207654,
+      "ece": 0.187263,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    },
     "Goles equipo": {
       "muestra": 5,
       "acierto_pct": 100.0,
@@ -43,15 +51,23 @@
   },
   "por_liga": {
     "Segunda División": {
-      "muestra": 10,
-      "acierto_pct": 90.0,
-      "brier": 0.105959,
-      "logloss": 0.379251,
-      "ece": 0.086731,
+      "muestra": 12,
+      "acierto_pct": 91.67,
+      "brier": 0.094211,
+      "logloss": 0.350652,
+      "ece": 0.103487,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     }
   },
   "por_origen": {
+    "Modelo de conteos con auditoría temporal": {
+      "muestra": 2,
+      "acierto_pct": 100.0,
+      "brier": 0.035472,
+      "logloss": 0.207654,
+      "ece": 0.187263,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    },
     "Poisson de goles": {
       "muestra": 10,
       "acierto_pct": 90.0,
