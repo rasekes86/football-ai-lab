@@ -17,7 +17,8 @@ export const FEEDS = Object.freeze({
   cuotas: "seguimiento_oportunidades_150.csv",
   evaluacion_selecciones: "evaluacion_selecciones.json",
   evaluacion_cuotas: "evaluacion_oportunidades_150.json",
-  evaluacion_real: "evaluacion_real.json"
+  evaluacion_real: "evaluacion_real.json",
+  desglose_postpartido: "desglose_postpartido.json"
 });
 
 /** CSV RFC4180: comillas dobles, comas y saltos de línea dentro de celdas. */
@@ -121,6 +122,7 @@ export function buildModel(feeds, now = new Date()) {
   const archived = groupBy(source("historico_selecciones"), "id");
   const evaluated = groupBy(source("seguimiento_selecciones"), "id");
   const odds = groupBy(source("cuotas"), "id");
+  const breakdown = new Map((feeds.desglose_postpartido?.partidos || []).map(item => [item.id, item]));
   const followups = new Map(source("seguimiento").map(x => [x.id, x]));
   const map = new Map();
 
@@ -151,6 +153,7 @@ export function buildModel(feeds, now = new Date()) {
     m.picks = pickSorted(evaluated.get(m.id) || archived.get(m.id) || liveSelections.get(m.id) || []);
     m.odds = odds.get(m.id) || [];
     m.followup = followups.get(m.id) || null;
+    m.breakdown = breakdown.get(m.id) || null;
     m.status = matchStatus(m);
     m.finishedPicks = m.picks.filter(settled).length;
     m.hitPicks = m.picks.filter(x => settled(x) && String(x.resultado) === "1").length;
@@ -181,7 +184,8 @@ export function buildModel(feeds, now = new Date()) {
     evaluations: {
       top: feeds.evaluacion_selecciones || null,
       odds: feeds.evaluacion_cuotas || null,
-      oneXtwo: feeds.evaluacion_real || null
+      oneXtwo: feeds.evaluacion_real || null,
+      postmatch: feeds.desglose_postpartido || null
     },
     leagues: LEAGUES.map(name => {
       const all = archivedPicks.filter(row => row.liga === name);

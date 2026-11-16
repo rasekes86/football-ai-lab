@@ -2,6 +2,12 @@
 
 Sistema de análisis de fútbol alojado en GitHub Actions, sin instalaciones locales y sin apuestas automáticas. Todo el proyecto es público. **No garantiza ganancias.**
 
+## Fase 3 — estadísticas postpartido y Top 3
+
+- [Dashboard con desglose de estadísticas](https://rasekes86.github.io/football-ai-lab/): pulsa sobre un partido para ver goles, tiros, córners, tarjetas y la explicación de cada selección.
+- [Auditoría de estadísticas finales](output/estadisticas_finales_verificadas.json) y [desglose por pronóstico](output/desglose_postpartido.json).
+- [Reglas y fuentes de la liquidación](docs/FASE_3_POSTPARTIDO.md). Los datos ausentes no cuentan como fallos.
+
 ## Abrir los resultados
 - [Informe de las seis competiciones](output/informe.md): LaLiga, Segunda División, Premier League, Bundesliga, Serie A y Ligue 1; pronósticos para los siguientes 14 días.
 - [Pronósticos del modelo Poisson/Elo](output/predicciones.csv).

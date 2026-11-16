@@ -30,6 +30,8 @@ from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offer
 from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
 from .verified_results import augment_results
+from .postmatch_stats import enrich_statistics
+from .postmatch_breakdown import build_breakdown
 
 LOG = logging.getLogger(__name__)
 FIELDS = ["id","fecha_utc","liga","local","visitante","prob_local","prob_empate","prob_visitante",
@@ -207,6 +209,8 @@ def main(argv=None) -> None:
     # Un segundo histórico solo para liquidar resultados ya archivados; evita
     # contaminar el entrenamiento, las predicciones y el backtesting.
     settlement_histories=histories
+    stats_check={"objetivos_conteo":0,"completos":0,"incompletos":0}
+    stats_payload={"version":"postmatch-stats-1.0","partidos":[]}
     if not args.demo:
         past_snapshots=(read_csv(target/"historico_predicciones.csv")
             +read_csv(target/"historico_selecciones.csv")
@@ -215,10 +219,20 @@ def main(argv=None) -> None:
         book.mark("marcadores_finales","OK" if not check["sin_marcador"] else "PARCIAL",
                   f'Oficiales: {check["agregados_laliga"]}; ESPN: {check["agregados_espn"]}; '
                   f'sin marcador: {check["sin_marcador"]}',check["objetivos"])
+        settlement_histories,stats_check,stats_payload=enrich_statistics(
+            settlement_histories,past_snapshots,now,
+            cache_path=target/"estadisticas_finales_verificadas.json")
+        book.mark("estadisticas_finales",
+                  "OK" if not stats_check["incompletos"] else "PARCIAL",
+                  f'Conteos: {stats_check["completos"]}/{stats_check["objetivos_conteo"]} '
+                  f'partidos completos; campos ESPN: {stats_check["campos_recuperados"]}',
+                  stats_check["objetivos_conteo"])
     context=machina_context(now) if not args.demo else {"estado":"DEMO","timestamp_utc":now.isoformat()}
     book.mark("contexto",context["estado"],
               f"Machina Sports: {len(context.get('clasificaciones',{}))} ligas; lesiones sólo Premier si disponibles")
     target.mkdir(parents=True,exist_ok=True)
+    (target/"estadisticas_finales_verificadas.json").write_text(
+        json.dumps(stats_payload,ensure_ascii=False,indent=2),encoding="utf-8")
     (target/"contexto_machina.json").write_text(json.dumps(context,ensure_ascii=False,indent=2),encoding="utf-8")
     # Optional bounded historical player sample. Never derive player picks from sparse data.
     prior_players_path=target/"jugadores_historico.json"
@@ -292,6 +306,9 @@ def main(argv=None) -> None:
     tracked_selections=settle_selections(selections_frozen,settlement_histories,now)
     write_csv(target/"seguimiento_selecciones.csv",MARKET_PROSPECTIVE_FIELDS,tracked_selections)
     market_evaluation=selections_summary(tracked_selections,now)
+    detail=build_breakdown(tracked_selections,settlement_histories,now,stats_check)
+    (target/"desglose_postpartido.json").write_text(
+        json.dumps(detail,ensure_ascii=False,indent=2),encoding="utf-8")
     (target/"evaluacion_selecciones.json").write_text(
         json.dumps(market_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
     # Secondary track: four pre-match 1.50+ quotes mentioned in the chat,

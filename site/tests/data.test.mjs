@@ -92,3 +92,22 @@ test("sin estadística no es fallo ni partido finalizado", () => {
     {estado:"PENDIENTE",resultado:""}
   ]}),"SIN_DATOS");
 });
+
+test("desglose postpartido enlazado sin modificar las selecciones originales", () => {
+  assert.equal(FEEDS.desglose_postpartido, "desglose_postpartido.json");
+  const base = {id:"SP2|test",liga:"Segunda División",local:"Tenerife",
+    visitante:"Ceuta",fecha_utc:"2026-11-15T13:00:00+00:00"};
+  const original = {...base,clave:"SP2|test|corner",mercado:"Córners totales",
+    seleccion:"Más de 9,5 córners totales",estado:"PENDIENTE",resultado:""};
+  const reviewed = {...original,estado:"FINALIZADO",resultado:"1",valor_real:"10"};
+  const details = {id:base.id,marcador:"2-0",estadisticas:{
+    corners:{local:6,visitante:4,total:10,nombre:"Córners",fuentes:["https://site.api.espn.com/summary"]}
+  },selecciones:[{clave:original.clave,estado:"FINALIZADO",resultado:"1",
+    explicacion:"ACIERTO: 6 local + 4 visitante = 10"}]};
+  const model=buildModel({historico_selecciones:[original],
+    seguimiento_selecciones:[reviewed],
+    desglose_postpartido:{partidos:[details],auditoria_estadisticas:{completos:1}}});
+  assert.equal(model.matches[0].picks[0].resultado,"1");
+  assert.equal(model.matches[0].breakdown.estadisticas.corners.total,10);
+  assert.equal(model.top.evaluated,1);
+});

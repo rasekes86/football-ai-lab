@@ -358,6 +358,9 @@ function renderModel() {
     ["Top 3 archivado",integer(d.top.registered)],
     ["Top 3 verificado",integer(d.top.evaluated)],
     ["Cuotas en seguimiento",integer(d.simulation.registered)],
+    ["Partidos con conteos completos",d.evaluations.postmatch?.auditoria_estadisticas ?
+      integer(d.evaluations.postmatch.auditoria_estadisticas.completos || 0) + " / " +
+      integer(d.evaluations.postmatch.auditoria_estadisticas.objetivos_conteo || 0) : "—"],
     ["Importación",state.errors.length?"Parcial":"Todos los archivos disponibles"],
     ["Repositorio","Público · GitHub Actions"]
   ];
@@ -380,17 +383,54 @@ function renderAll() {
   renderOdds();
   renderModel();
 }
-function dialogPick(row, index) {
+function dialogPick(row, index, detail = null) {
   const status=resultText(row);
   const finished=settled(row);
   return `<div class="dialog-pick">
     <div class="dialog-pick-top"><span class="overline">SELECCIÓN ${String(index+1).padStart(2,"0")} / ${escapeHtml(row.mercado)}</span>${resultPill(row)}</div>
     <strong>${escapeHtml(row.seleccion)}</strong>
     <p>${escapeHtml(row.nivel || row.origen || "Pronóstico experimental")}</p>
+    ${detail?.explicacion ? `<p class="pick-explanation">${escapeHtml(detail.explicacion)}</p>` : ""}
+    ${detail?.fuentes?.length ? `<div class="evidence-links">${detail.fuentes.map(sourceLink).join(" · ")}</div>` : ""}
     <div class="dialog-stats"><span>Probabilidad: <b>${percent(numberOrNull(row.probabilidad))}</b></span>
     <span>Cuota justa: <b>${decimal(row.cuota_justa)}</b></span>
     ${finished ? `<span>Valor observado: <b>${escapeHtml(textOrDash(row.valor_real))}</b></span>` : ""}
     </div></div>`;
+}
+function sourceLink(source) {
+  const url = String(source || "");
+  if (/^https:\/\/(site\.api\.espn\.com|www\.laliga\.com|www\.football-data\.co\.uk)\//.test(url)) {
+    const name = url.includes("espn") ? "ESPN · estadística" :
+      url.includes("laliga") ? "LaLiga · resultado" : "Football-Data · histórico";
+    return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${name} ↗</a>`;
+  }
+  return `<span>${escapeHtml(url)}</span>`;
+}
+function matchStatistics(detail) {
+  if (!detail) return "";
+  const keys = ["shots","on_target","corners","yellow","red"];
+  const stats = detail.estadisticas || {};
+  const items = keys.map(key => {
+    const s = stats[key];
+    if (!s) return "";
+    const hasTotal = s.total !== null && s.total !== undefined;
+    const local = s.local === null || s.local === undefined ? "—" : s.local;
+    const away = s.visitante === null || s.visitante === undefined ? "—" : s.visitante;
+    return `<div class="postmatch-stat-row">
+      <span class="postmatch-stat-name">${escapeHtml(s.nombre || key)}</span>
+      <strong>${escapeHtml(local)}</strong>
+      <strong class="${hasTotal ? "stat-verified" : "stat-unavailable"}">${hasTotal ? escapeHtml(s.total) : "—"}</strong>
+      <strong>${escapeHtml(away)}</strong>
+      ${s.fuentes?.length ? `<small class="stat-source">${s.fuentes.map(sourceLink).join(" · ")}</small>` : ""}
+    </div>`;
+  }).join("");
+  return `<div class="dialog-section">
+    <h3>Estadísticas finales verificadas</h3>
+    <div class="stat-grid-head"><span>MÉTRICA</span><span>LOCAL</span><span>TOTAL</span><span>VISITANTE</span></div>
+    <div class="postmatch-stats">${items}</div>
+    <p class="dialog-message">Los guiones indican datos no disponibles, no ceros. ${detail.marcador ?
+       "Marcador " + escapeHtml(detail.marcador) + " · " + (detail.fuente_marcador ? sourceLink(detail.fuente_marcador) : "") : "Marcador aún sin verificar."}</p>
+  </div>`;
 }
 function openMatch(id) {
   if (!state.data) return;
@@ -415,9 +455,12 @@ function openMatch(id) {
       ${m.score ? ` · Resultado: <strong>${escapeHtml(m.score)}</strong>` : " · Marcador pendiente"} · ${integer(m.finishedPicks)} de ${integer(m.picks.length)} selecciones liquidadas</p>
     ${modelForecast}
     <div class="dialog-section"><h3>Las tres selecciones por partido</h3>
-      ${m.picks.length ? m.picks.slice(0,3).map(dialogPick).join("") : empty("No se ha archivado todavía el Top 3 de este encuentro.")}
+      ${m.picks.length ? m.picks.slice(0,3).map((row,i) => dialogPick(
+         row,i,m.breakdown?.selecciones?.find(x => x.clave === row.clave)
+      )).join("") : empty("No se ha archivado todavía el Top 3 de este encuentro.")}
       <div class="dialog-message">Estos son los primeros mercados archivados, no recálculos posteriores. Si falta una estadística, el mercado permanece sin liquidar.</div>
     </div>
+    ${matchStatistics(m.breakdown)}
     ${m.odds.length ? `<div class="dialog-section"><h3>Cuotas +1,50 registradas por separado</h3>
       ${m.odds.map(r=>`<div class="dialog-offer"><strong>${escapeHtml(r.seleccion)}</strong>
         <div class="dialog-stats"><span>Cuota <b>${decimal(r.cuota_decimal)}</b></span>
