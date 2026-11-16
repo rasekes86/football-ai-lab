@@ -12,7 +12,7 @@ del navegador de casas de apuestas.
   [precios](https://5dollarfootballapi.com/pricing),
   [condiciones de uso](https://5dollarfootballapi.com/terms).
 - Plan Free: 0 $, sin tarjeta, hasta 60 peticiones/hora,
-  una selección de las 5 grandes ligas (Premier, LaLiga, Bundesliga, Serie A,
+  las 5 grandes ligas (Premier League, LaLiga, Bundesliga, Serie A,
   Ligue 1) y cuotas Bet365 por encuentro. Segunda División solo si
   accedes a un plan/pack que la cubra (Community Access es gratuito bajo
   sus condiciones; no se garantiza el acceso).
@@ -20,8 +20,12 @@ del navegador de casas de apuestas.
   `GET /v1/fixtures` en ventanas de como máximo 24 horas y, para cada
   encuentro identificado, `GET /v1/fixtures/{id}/odds`.
 - Límite propio: **5 fechas UTC y 14 partidos** como máximo por ejecución.
-  Una ejecución normal supone aproximadamente 5+14=19 solicitudes; el
-  límite por hora puede verse afectado por otros usos de tu cuenta.
+  Los 14 partidos se distribuyen por rondas entre las ligas elegibles,
+  en lugar de gastarse en las primeras ligas de la respuesta del proveedor.
+  Si alguna competición no ofrece encuentros emparejados en esas fechas,
+  no se inventan precios para ella. Una ejecución completa consume como
+  máximo 5+14=19 solicitudes; el límite por hora puede verse afectado por
+  otros usos de tu cuenta.
 - Consume exclusivamente precios del campo `closing` **antes** de empezar
   el partido. En el proveedor `closing` significa «último prepartido
   registrado hasta ese momento», NO cuota de cierre final.
