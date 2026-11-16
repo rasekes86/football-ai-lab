@@ -7,6 +7,7 @@ import { futureMarketSnapshot } from "./future_markets.mjs";
 import { reliabilitySnapshot } from "./reliability.mjs";
 import { radarSnapshot } from "./radar.mjs";
 import { realOddsSnapshot } from "./real_odds.mjs";
+import { orderMatchesByKickoff } from "./schedule.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -244,7 +245,6 @@ function renderMatches() {
   const status = $("statusFilter").value;
   const period = $("periodFilter").value;
   const search = strip($("matchSearch").value.trim());
-  const sort = $("sortFilter").value;
   const now = Date.now();
   const list = d.matches.filter(m => {
     if (league && m.liga !== league) return false;
@@ -253,8 +253,11 @@ function renderMatches() {
     if (period === "past" && m.kickoff > now) return false;
     if (search && !strip([m.local,m.visitante,m.liga,...m.picks.map(x => x.seleccion+" "+x.mercado)].join(" ")).includes(search)) return false;
     return true;
-  }).sort((a,b) => sort === "desc" ? b.kickoff-a.kickoff : a.kickoff-b.kickoff);
-  const shown = list.slice(0,state.matchLimit);
+  });
+  // Próximos: fecha/hora ASC; todos: próximos primero, después histórico.
+  // La clasificación por probabilidad solo afecta a las selecciones internas.
+  const ordered = orderMatchesByKickoff(list, now, period);
+  const shown = ordered.slice(0,state.matchLimit);
   inner("matchCount", `${integer(list.length)} partidos · ${integer(Math.min(shown.length,list.length))} visibles`);
   inner("matchesGrid", shown.length ? shown.map(matchCard).join("") : `<div class="empty-state">Ningún partido coincide con estos filtros.</div>`);
   $("loadMore").hidden = shown.length >= list.length;
@@ -1024,7 +1027,7 @@ function wire() {
   document.addEventListener("keydown",e=>{
     if(e.key==="Escape" && !$("dialogBackdrop").hidden)closeDialog();
   });
-  for (const id of ["matchSearch","leagueFilter","statusFilter","periodFilter","sortFilter"]) {
+  for (const id of ["matchSearch","leagueFilter","statusFilter","periodFilter"]) {
     $(id).addEventListener(id==="matchSearch"?"input":"change",()=>{state.matchLimit=24;renderMatches()});
   }
   for (const id of ["historyLeagueFilter","historyMarketFilter","historyStatusFilter","historySearch"]) {
