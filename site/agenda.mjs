@@ -2,7 +2,7 @@
 export const AGENDA_LEAGUES = [
   {name:"LaLiga", country:"ESPAÑA",flag:"🇪🇸",label:"LaLiga EA Sports"},
   {name:"Segunda División",country:"ESPAÑA",flag:"🇪🇸",label:"LaLiga Hypermotion"},
-  {name:"Premier League",country:"INGLATERRA",flag:"🏴",label:"Premier League"},
+  {name:"Premier League",country:"INGLATERRA",flag:"🇬🇧",label:"Premier League"},
   {name:"Bundesliga",country:"ALEMANIA",flag:"🇩🇪",label:"Bundesliga"},
   {name:"Serie A",country:"ITALIA",flag:"🇮🇹",label:"Serie A"},
   {name:"Ligue 1",country:"FRANCIA",flag:"🇫🇷",label:"Ligue 1"}
