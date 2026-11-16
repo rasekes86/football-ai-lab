@@ -3,6 +3,7 @@ import {
   calculateMetrics, calculateOdds, buildModel
 } from "./data.mjs";
 import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mjs";
+import { futureMarketSnapshot } from "./future_markets.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -46,6 +47,7 @@ const state = {
   matchLimit: 24,
   historyLimit: 40,
   marketLimit: 35,
+  futureMarketLimit: 18,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -373,9 +375,98 @@ function marketSourceLabel(sources) {
   const found=(sources||[]).map(sourceLink);
   return found.length ? found.join(" · ") : "Sin fuente identificada";
 }
+
+function forecastLevel(level) {
+  if (level==="BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA")
+    return {text:"Backtest retrospectivo",css:"audited",hint:"Superó comprobaciones retrospectivas; aún no validado prospectivamente"};
+  if (level==="EXPLORATORIO_NO_VALIDADO")
+    return {text:"Exploratorio",css:"experimental",hint:"Modelo de conteos todavía sin validación específica"};
+  return {text:"Modelo no calibrado",css:"uncalibrated",hint:"Probabilidad orientativa, sin calibración demostrada"};
+}
+function forecastMiniPrediction(p, index) {
+  const level=forecastLevel(p.nivel);
+  return `<div class="future-alternative">
+    <div><strong>${escapeHtml(p.seleccion)}</strong><small>${escapeHtml(level.text)}${Number.isInteger(p.posicion_top3)?" · Top 3 #"+p.posicion_top3:""}</small></div>
+    <span>${percent(p.probabilidad)} <small>· cuota justa ${decimal(p.cuota_justa)}</small></span>
+  </div>`;
+}
+function marketFutureCard(m) {
+  const p=m.best, level=forecastLevel(p.nivel);
+  const others=m.pronosticos.slice(1);
+  return `<article class="future-market-card">
+    <div class="future-card-header">
+      <span class="future-kickoff">${escapeHtml(m.liga)} · ${escapeHtml(displayDate(m.fecha_utc))}</span>
+      <span class="forecast-state">${Number.isInteger(p.posicion_top3)?"TOP 3 #"+p.posicion_top3:"PREDICCIÓN ADICIONAL"}</span>
+    </div>
+    <div class="future-teams">
+      <div class="future-team">${teamCrest(m.liga,m.local)}<strong>${escapeHtml(m.local)}</strong></div>
+      <span class="future-vs">VS</span>
+      <div class="future-team away">${teamCrest(m.liga,m.visitante)}<strong>${escapeHtml(m.visitante)}</strong></div>
+    </div>
+    <div class="future-main-pick">
+      <div class="future-pick-info"><small>PRONÓSTICO DEL MERCADO</small><strong>${escapeHtml(p.seleccion)}</strong></div>
+      <div class="future-probability"><strong>${percent(p.probabilidad)}</strong><span>Probabilidad estimada</span></div>
+    </div>
+    <div class="future-card-meta">
+      <span class="future-quality ${level.css}" title="${escapeHtml(level.hint)}">${escapeHtml(level.text)}</span>
+      <span>Cuota justa teórica: <strong>${decimal(p.cuota_justa)}</strong></span>
+    </div>
+    <div class="future-card-footer">
+      <button type="button" class="inline-link" data-open-id="${escapeHtml(m.id)}">Ver ficha del partido ↗</button>
+      ${others.length ? `<details class="future-alternatives"><summary>Otras ${others.length} líneas calculadas <span aria-hidden="true">⌄</span></summary>
+        <div class="future-alternatives-list">${others.map(forecastMiniPrediction).join("")}</div></details>` : ""}
+    </div>
+  </article>`;
+}
+function renderFutureMarkets() {
+  const d=state.data;
+  if(!d)return;
+  const filters={
+    market:$("marketFilter").value,
+    league:$("marketLeagueFilter").value,
+    team:$("marketTeam").value,
+    quality:$("marketQualityFilter").value,
+    order:$("marketOrder").value
+  };
+  const result=futureMarketSnapshot(d,filters);
+  const {fixtures,market,qualityCounts}=result;
+  $("marketFutureTitle").textContent="Próximos partidos · "+market.label;
+  $("marketFutureCount").textContent=integer(fixtures.length)+" partidos con pronóstico";
+  inner("marketFutureKpis",
+    kpi("Próximos partidos",integer(result.futureMatches),"En las competiciones seleccionadas")+
+    kpi("Con pronóstico",integer(fixtures.length),integer(result.withoutMarket)+" sin este mercado",true)+
+    kpi("Líneas calculadas",integer(result.forecastCount),"Estimaciones futuras, no apuestas")+
+    kpi("En Top 3 original",integer(qualityCounts.top3),"El resto no se archiva como Top 3")
+  );
+  const unsupported=["fouls","red"].includes(market.key);
+  const missingFeed=!(d.marketFutures?.length);
+  if(missingFeed){
+    $("marketFutureNotice").innerHTML="<strong>Los pronósticos por mercado todavía no están disponibles.</strong> " +
+      "Comprueba la última ejecución diaria y pulsa Actualizar cuando se haya publicado el nuevo archivo.";
+  }else if(unsupported){
+    $("marketFutureNotice").innerHTML="<strong>Este mercado todavía no tiene modelo prepartido disponible.</strong> " +
+      "No se generarán pronósticos de "+escapeHtml(market.label.toLowerCase())+
+      " a partir de estadísticas históricas sin un modelo validable. Puedes consultar los resultados anteriores abajo.";
+  }else if(!fixtures.length){
+    $("marketFutureNotice").innerHTML="<strong>No hay pronósticos futuros de "+escapeHtml(market.label.toLowerCase())+
+      " con estos filtros.</strong> Prueba otra liga o «Todos los disponibles». " +
+      "No se sustituyen por cifras históricas ni se inventan probabilidades.";
+  }else{
+    $("marketFutureNotice").innerHTML="<strong>"+escapeHtml(market.label)+" · "+integer(fixtures.length)+
+      " encuentros próximos con estimaciones.</strong> La primera línea de cada ficha es la de mayor probabilidad " +
+      "dentro de este mercado; abre «Otras líneas» para ver alternativas calculadas. " +
+      "Los pronósticos del Top 3 se identifican por separado.";
+  }
+  const rows=fixtures.slice(0,state.futureMarketLimit);
+  inner("marketFutureGrid",rows.length?rows.map(marketFutureCard).join(""):
+    '<div class="empty-state">No hay predicciones prepartido disponibles para este mercado y filtros.</div>');
+  $("marketFutureMore").hidden=rows.length>=fixtures.length;
+}
+
 function renderMarkets() {
   const d=state.data;
   if(!d)return;
+  renderFutureMarkets();
   const selection={
     market:$("marketFilter").value,
     league:$("marketLeagueFilter").value,
@@ -608,7 +699,7 @@ function wire() {
     if(marketButton){
       $("marketFilter").value=marketButton.dataset.marketKey;
       $("marketLine").value="";
-      marketLineOptions();state.marketLimit=35;renderMarkets();return;
+      marketLineOptions();state.marketLimit=35;state.futureMarketLimit=18;renderMarkets();return;
     }
     const viewBtn=e.target.closest("[data-view],[data-go]");
     if(viewBtn){changeView(viewBtn.dataset.view||viewBtn.dataset.go);return;}
@@ -622,13 +713,14 @@ function wire() {
     `<button class="market-chip ${x.key==="corners"?"active":""}" type="button"
       data-market-key="${escapeHtml(x.key)}" aria-pressed="${x.key==="corners"}">${escapeHtml(x.label)}</button>`).join(""));
   marketLineOptions();
-  for(const id of ["marketFilter","marketLeagueFilter","marketPeriod","marketLine","marketTeam"]){
+  for(const id of ["marketFilter","marketLeagueFilter","marketPeriod","marketLine","marketTeam","marketQualityFilter","marketOrder"]){
     $(id).addEventListener(id==="marketTeam"?"input":"change",()=>{
       if(id==="marketFilter")marketLineOptions();
-      state.marketLimit=35;renderMarkets();
+      state.marketLimit=35;state.futureMarketLimit=18;renderMarkets();
     });
   }
   $("marketMore").addEventListener("click",()=>{state.marketLimit+=35;renderMarkets()});
+  $("marketFutureMore").addEventListener("click",()=>{state.futureMarketLimit+=18;renderFutureMarkets()});
   $("refreshButton").addEventListener("click",refreshData);
   $("dialogClose").addEventListener("click",closeDialog);
   $("dialogBackdrop").addEventListener("click",e=>{if(e.target===$("dialogBackdrop"))closeDialog()});

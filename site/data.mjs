@@ -19,7 +19,8 @@ export const FEEDS = Object.freeze({
   evaluacion_cuotas: "evaluacion_oportunidades_150.json",
   evaluacion_real: "evaluacion_real.json",
   desglose_postpartido: "desglose_postpartido.json",
-  mercados_historicos: "mercados_historicos.json"
+  mercados_historicos: "mercados_historicos.json",
+  pronosticos_mercados_futuros: "pronosticos_mercados_futuros.json"
 });
 
 /** CSV RFC4180: comillas dobles, comas y saltos de línea dentro de celdas. */
@@ -181,6 +182,9 @@ export function buildModel(feeds, now = new Date()) {
     marketHistory: Array.isArray(feeds.mercados_historicos?.partidos) ?
       feeds.mercados_historicos.partidos : [],
     marketCoverage: feeds.mercados_historicos?.cobertura || {},
+    marketFutures: Array.isArray(feeds.pronosticos_mercados_futuros?.partidos) ?
+      feeds.pronosticos_mercados_futuros.partidos : [],
+    marketFuturesUpdated: feeds.pronosticos_mercados_futuros?.calculado_utc || null,
     top, simulation, countForecasts: currentIds.size,
     updatedAt: feeds.evaluacion_selecciones?.calculado_utc ||
       feeds.evaluacion_cuotas?.generado_utc ||

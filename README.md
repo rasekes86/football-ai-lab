@@ -134,3 +134,13 @@ Solo en caso de contar con una oferta real registrada por API y fecha se disting
 ### Explorador de mercados
 
 En [Football AI Lab Dashboard](https://rasekes86.github.io/football-ai-lab/#markets) puedes filtrar el histórico real de las seis ligas por córners, faltas, tiros, goles, tarjetas, 1X2, doble oportunidad y ambos marcan. Muestra frecuencias por línea y liga, totales por partido y **acierto prospectivo del Top 3 en una métrica separada**. Los datos de faltas sin fuente verificable permanecen ausentes, nunca se estiman. Archivo derivado: `output/mercados_historicos.json` (últimos 365 días).
+
+### Ver pronósticos futuros por categoría
+
+[Explorar próximos pronósticos por mercado](https://rasekes86.github.io/football-ai-lab/#markets):
+selecciona «Córners», «Tiros», «Doble oportunidad» u otra categoría para ver
+los próximos partidos con sus líneas y probabilidades del modelo. El histórico
+real se mantiene en un desplegable secundario. La fuente es
+`output/pronosticos_mercados_futuros.json`, actualizada con el motor diario.
+Se distingue el Top 3 original de los pronósticos adicionales y no se inventan
+probabilidades de faltas ni tarjetas rojas, mercados aún sin modelo prepartido.

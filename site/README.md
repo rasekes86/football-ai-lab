@@ -50,3 +50,34 @@ Las medias, medianas, histogramas y frecuencias se calculan sobre **resultados h
 La tasa **Acierto Top 3** procede **exclusivamente** de `output/seguimiento_selecciones.csv`, cuya selección fue archivada antes del partido. Así se distingue la frecuencia histórica de una línea de la calidad real de nuestras predicciones. En faltas la cobertura puede ser muy limitada: football-data.co.uk no publica habitualmente ese campo y solo utilizamos recuentos de ESPN si han sido verificados. Ningún dato de esta pantalla alimenta el entrenamiento del modelo, y no hay apuestas ejecutadas.
 
 Las métricas y filtros se prueban con `site/tests/markets.test.mjs`; la generación del JSON se valida con `tests/test_market_history.py`.
+
+## Pronósticos futuros por mercado (v1.3)
+
+La pestaña **Explorar mercados** prioriza ahora los **partidos futuros**. Al elegir
+«Córners», «Tiros», «Doble oportunidad», «1X2», «Goles», «Ambos marcan»,
+«Tiros a puerta» o «Tarjetas amarillas» muestra fecha, equipos, selección y
+probabilidad **prepartido** para los encuentros aún no empezados. Las líneas
+alternativas calculadas aparecen en cada ficha bajo «Otras líneas». El bloque
+de histórico y frecuencias reales se mantiene bajo «Estadísticas históricas».
+
+**Origen**: `output/pronosticos_mercados_futuros.json`, generado en la ejecución
+diaria por el selector del motor a partir de `goal_candidates` y los mercados
+de conteos con auditoría temporal. Se publican como máximo ocho líneas por
+categoría y partido, ordenadas por probabilidad. Las líneas de conteos que
+superaron backtesting retrospectivo se identifican expresamente como
+**no validadas prospectivamente**. Los conteos sin esa comprobación se
+muestran como **exploratorios no validados**. Los mercados de resultado
+continúan etiquetados como modelo no calibrado.
+
+**Sin modelo**: faltas y rojas se pueden estudiar en el histórico, pero todavía
+no reciben pronósticos futuros; no se extrapolan medias como probabilidades
+y no se inventan predicciones.
+
+**Protección del Top 3**: este feed de visualización es distinto del registro
+congelado `historico_selecciones.csv`; solo ese registro se evalúa como
+pronósticos prospectivos. Las líneas adicionales no se suman como aciertos
+ni como apuestas realizadas. Las «cuotas justas» son inversiones matemáticas
+de la probabilidad estimada, **no ofertas de casas de apuestas**.
+
+Pruebas: `site/tests/future_markets.test.mjs` y
+`tests/test_future_markets.py`.

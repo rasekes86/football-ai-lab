@@ -342,3 +342,62 @@ main{max-width:1560px;margin:0 auto;padding:32px clamp(22px,3.3vw,52px) 55px;min
 @media(max-width:1350px){.market-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:800px){.market-dashboard-grid{grid-template-columns:1fr}.market-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.market-shortcut{padding:18px}}
 @media(max-width:640px){.market-shortcut{flex-direction:column;align-items:flex-start}.market-filters .field-search{grid-column:span 2}.market-pills{gap:7px}.market-chip{padding:7px 10px;font-size:10px}.market-bar-row{grid-template-columns:70px minmax(0,1fr) 75px;gap:8px}.market-bar-value small{font-size:9px}.market-record-panel .panel-heading{padding:18px}.market-record-panel td:first-child{min-width:200px}}
+
+/* Pronósticos FUTUROS como sección principal del explorador, respetando tema. */
+.future-market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.future-market-card{background:var(--surface);border:1px solid var(--stroke-soft);border-radius:var(--radius);padding:22px;min-width:0}
+.future-card-header{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:10px;color:var(--dim)}
+.future-kickoff{font-weight:650}
+.forecast-state{font-size:9px;font-weight:850;letter-spacing:.5px;color:var(--dim);white-space:nowrap}
+.future-teams{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:21px 0 19px}
+.future-team{display:flex;align-items:center;gap:9px;min-width:0;width:43%}
+.future-team.away{flex-direction:row-reverse;text-align:right}
+.future-team strong{font-size:13px;line-height:1.3;overflow-wrap:anywhere}
+.future-vs{color:var(--dim);font-size:10px;font-weight:900}
+.future-main-pick{display:flex;align-items:center;justify-content:space-between;gap:14px;background:linear-gradient(100deg,#1b3430,#19283b);border:1px solid rgba(185,244,120,.17);border-radius:12px;padding:16px}
+.future-pick-info{min-width:0}
+.future-pick-info small{display:block;color:var(--lime);font-size:9px;letter-spacing:1.1px;font-weight:850;margin-bottom:6px}
+.future-pick-info strong{display:block;font-size:14px;line-height:1.4;overflow-wrap:anywhere}
+.future-probability{text-align:right;min-width:105px}
+.future-probability strong{display:block;color:var(--lime);font-size:29px;font-weight:900;letter-spacing:-1.4px;line-height:1.1}
+.future-probability span{display:block;font-size:9px;color:var(--muted);white-space:nowrap;margin-top:5px}
+.future-card-meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin:15px 0;font-size:10px;color:var(--muted)}
+.future-card-meta strong{color:var(--text)}
+.future-quality{border:1px solid #4a5e70;border-radius:7px;padding:5px 7px;font-weight:750;white-space:nowrap}
+.future-quality.audited{background:#213e32;color:var(--lime);border-color:#426b4f}
+.future-quality.experimental{background:#3a3025;color:var(--amber);border-color:#695335}
+.future-quality.uncalibrated{background:#243249;color:#9ed1f5;border-color:#3c5973}
+.future-card-footer{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--stroke-soft);padding-top:11px}
+.future-card-footer>.inline-link{text-align:left;width:max-content}
+.future-alternatives{width:100%;border-top:1px solid var(--stroke-soft);padding-top:10px}
+.future-alternatives>summary{list-style:none;cursor:pointer;color:var(--muted);font-size:11px;font-weight:750}
+.future-alternatives>summary::-webkit-details-marker{display:none}
+.future-alternatives>summary span{float:right;color:var(--lime)}
+.future-alternatives[open]>summary span,.market-history-details[open] .market-history-chevron{transform:rotate(180deg)}
+.future-alternatives-list{padding-top:11px;display:flex;flex-direction:column;gap:9px}
+.future-alternative{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#17283b;border-radius:9px;padding:11px}
+.future-alternative>div{min-width:0}
+.future-alternative strong{display:block;font-size:11px}
+.future-alternative small{display:block;color:var(--dim);font-size:9px;margin-top:3px}
+.future-alternative>span{font-size:12px;font-weight:850;color:var(--lime);white-space:nowrap;text-align:right}
+.future-alternative>span small{font-weight:500}
+.market-history-details{border:1px solid var(--stroke-soft);border-radius:var(--radius);background:var(--surface);margin-top:30px;overflow:hidden}
+.market-history-details>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:21px 24px;cursor:pointer;list-style:none}
+.market-history-details>summary::-webkit-details-marker{display:none}
+.market-history-details>summary strong{display:block;font-size:16px}
+.market-history-details>summary small{display:block;font-size:11px;color:var(--muted);margin-top:4px}
+.market-history-chevron{color:var(--lime);font-size:22px}
+.market-history-details>.market-history-filters{grid-template-columns:repeat(2,minmax(0,1fr));margin:0 17px 17px}
+.market-history-details>.market-notice,.market-history-details>.kpi-grid,.market-history-details>.market-dashboard-grid,.market-history-details>.explanation{margin-left:17px;margin-right:17px}
+.market-history-details>.market-record-panel{margin:17px}
+@media(max-width:1130px){.future-market-grid{grid-template-columns:1fr}}
+@media(max-width:800px){.future-market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){
+  .future-market-grid{grid-template-columns:1fr}
+  .future-market-card{padding:18px}
+  .future-main-pick{padding:13px}
+  .future-probability{min-width:85px}
+  .future-probability strong{font-size:24px}
+  .market-history-details>summary{padding:18px}
+  .market-history-details>.market-history-filters{grid-template-columns:1fr}
+}

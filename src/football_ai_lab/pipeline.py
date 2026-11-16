@@ -296,11 +296,31 @@ def main(argv=None) -> None:
                                              validation=count_validation))
         except (ValueError,TypeError,KeyError) as exc:
             LOG.warning("Selector descartó %s: %s",prediction["id"],type(exc).__name__)
+    # Export ligero para consultar PRONÓSTICOS FUTUROS por categoría.
+    # No se archivan ni se liquidan estas líneas extra: solo el Top 3 original.
+    previews=[{
+        "id":m["id"],"fecha_utc":m["fecha_utc"],"liga":m["liga"],
+        "local":m["local"],"visitante":m["visitante"],
+        "calculado_utc":m["calculado_utc"],
+        "mercados":m.get("_pronosticos_mercados",{}),
+    } for m in selections]
+    (target/"pronosticos_mercados_futuros.json").write_text(json.dumps({
+        "version":"future-markets-1.0","calculado_utc":now.isoformat(),
+        "partidos":previews,
+        "nota":("Estas son estimaciones prepartido experimentales y NO apuestas ofrecidas. "
+                "Las líneas distintas del Top 3 archivado no son apuestas registradas "
+                "ni se puntúan como pronósticos prospectivos. "
+                "Los conteos no calibrados prospectivamente se identifican. "
+                "No existe modelo prepartido de faltas o tarjetas rojas."),
+    },ensure_ascii=False,separators=(",",":")),encoding="utf-8")
     top_jornada=global_market_top(selections)
+    # No crecer el JSON legado con un dataset que tiene su propia ruta pública.
+    public_selections=[{key:value for key,value in m.items()
+                        if key!="_pronosticos_mercados"} for m in selections]
     (target/"selecciones.json").write_text(
         json.dumps({"version":"market-selector-0.7","calculado_utc":now.isoformat(),
                     "lineas_conteos_aprobadas_retro":count_validation["aprobados"],
-                    "top_3_jornada":top_jornada,"partidos":selections,
+                    "top_3_jornada":top_jornada,"partidos":public_selections,
                     "nota":"Ranking por probabilidad, con filtro de cuota justa mínima y una familia por partido. No son recomendaciones de apuestas."},
                     ensure_ascii=False,indent=2),encoding="utf-8")
     write_csv(target/"selecciones.csv",SELECTOR_FIELDS,market_flat_rows(selections))

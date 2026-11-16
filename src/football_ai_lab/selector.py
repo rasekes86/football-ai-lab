@@ -180,6 +180,48 @@ def offered_prices(prediction:dict,market_rows:list[dict],now:datetime)->dict[st
         except (ValueError,TypeError,KeyError):continue
     return found
 
+def _market_future_previews(goals:list[dict], verified:list[dict],
+                            exploratory:list[dict], selected:list[dict]) -> dict[str,list[dict]]:
+    """Pronósticos futuros por categoría, distintos del Top 3 archivado.
+
+    Los conteos aprobados retrospectivamente tienen prioridad; cuando no los
+    hay, solo se muestran exploratorios NO validados. Nunca se inventan faltas.
+    """
+    categories={
+        "corners":"Córners totales", "shots":"Tiros totales",
+        "on_target":"Tiros a puerta totales", "yellow":"Tarjetas amarillas totales",
+        "goals":"Total goles", "result":"1X2",
+        "double":"Doble oportunidad", "btts":"Ambos marcan",
+    }
+    selected_keys={(c["mercado"],c["seleccion"]):c["posicion"] for c in selected}
+    result={}
+    for key,market in categories.items():
+        if key in ("corners","shots","on_target","yellow"):
+            verified_rows=[c for c in verified if c.get("metrica")==key]
+            alternatives=[c for c in exploratory if c.get("metrica")==key]
+            # Priorizar siempre las líneas auditadas frente a las exploratorias.
+            rows=verified_rows if verified_rows else alternatives
+        else:
+            rows=[c for c in goals if c["mercado"]==market]
+        rows=sorted(rows,key=lambda x:(-x["probabilidad"],x["seleccion"]))[:8]
+        if not rows:
+            continue
+        result[key]=[]
+        for item in rows:
+            result[key].append({
+                "mercado":item["mercado"],
+                "seleccion":item["seleccion"],
+                "probabilidad":item["probabilidad"],
+                "cuota_justa":item["cuota_justa"],
+                "nivel":item["nivel"],
+                "origen":item["origen"],
+                "posicion_top3":selected_keys.get((item["mercado"],item["seleccion"])),
+                "linea":item.get("linea"),
+                "direccion":item.get("direccion"),
+            })
+    return result
+
+
 def select_match(prediction:dict,history:list[dict],market_rows:list[dict],
                  now:datetime,limit:int=MAX_TOP,validation:dict|None=None)->dict:
     """Devuelve top probabilístico diversificado y top valor sólo con precios reales."""
@@ -255,6 +297,7 @@ def select_match(prediction:dict,history:list[dict],market_rows:list[dict],
             "mercados_conteos_habilitados_retro":len(verified),
             "estado_auditoria_conteos":("APROBADOS_RETROSPECTIVAMENTE" if verified else
                 "SIN_MERCADOS_APROBADOS"),
+            "_pronosticos_mercados":_market_future_previews(candidates,verified,experimental,selected),
             "exploratorios":sorted(experimental,key=lambda x:-x["probabilidad"])[:10],
             "no_disponible":["Tiros individuales de jugadores",
                              "Goleadores individuales",
