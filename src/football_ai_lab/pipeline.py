@@ -29,6 +29,7 @@ from .player_readiness import report as player_coverage
 from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offers
 from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
+from .verified_results import augment_results
 
 LOG = logging.getLogger(__name__)
 FIELDS = ["id","fecha_utc","liga","local","visitante","prob_local","prob_empate","prob_visitante",
@@ -203,6 +204,17 @@ def main(argv=None) -> None:
             raise SystemExit("Sin históricos disponibles; no se sobrescribe el último informe válido")
         fixtures=[f for league in LEAGUES for f in load_fixtures(league,now.date(),args.days)]
     book.mark("datos","OK",f"{len(histories)} ligas; {len(fixtures)} encuentros en {args.days} días",count=sum(map(len,histories.values())))
+    # Un segundo histórico solo para liquidar resultados ya archivados; evita
+    # contaminar el entrenamiento, las predicciones y el backtesting.
+    settlement_histories=histories
+    if not args.demo:
+        past_snapshots=(read_csv(target/"historico_predicciones.csv")
+            +read_csv(target/"historico_selecciones.csv")
+            +read_csv(target/"historico_oportunidades_150.csv"))
+        settlement_histories,check=augment_results(histories,past_snapshots,now)
+        book.mark("marcadores_finales","OK" if not check["sin_marcador"] else "PARCIAL",
+                  f'Oficiales: {check["agregados_laliga"]}; ESPN: {check["agregados_espn"]}; '
+                  f'sin marcador: {check["sin_marcador"]}',check["objetivos"])
     context=machina_context(now) if not args.demo else {"estado":"DEMO","timestamp_utc":now.isoformat()}
     book.mark("contexto",context["estado"],
               f"Machina Sports: {len(context.get('clasificaciones',{}))} ligas; lesiones sólo Premier si disponibles")
@@ -277,7 +289,7 @@ def main(argv=None) -> None:
     previous_selections=read_csv(target/"historico_selecciones.csv")
     selections_frozen=archive_selections(previous_selections,selections,now)
     write_csv(target/"historico_selecciones.csv",MARKET_PROSPECTIVE_FIELDS,selections_frozen)
-    tracked_selections=settle_selections(selections_frozen,histories,now)
+    tracked_selections=settle_selections(selections_frozen,settlement_histories,now)
     write_csv(target/"seguimiento_selecciones.csv",MARKET_PROSPECTIVE_FIELDS,tracked_selections)
     market_evaluation=selections_summary(tracked_selections,now)
     (target/"evaluacion_selecciones.json").write_text(
@@ -297,7 +309,7 @@ def main(argv=None) -> None:
     frozen_offers=freeze_offers(read_csv(target/"historico_oportunidades_150.csv"),
                                manual_offers,selections,now)
     write_csv(target/"historico_oportunidades_150.csv",OFFER_FIELDS,frozen_offers)
-    tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,histories,now)
+    tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,settlement_histories,now)
     write_csv(target/"seguimiento_oportunidades_150.csv",OFFER_FIELDS,tracked_offers)
     (target/"evaluacion_oportunidades_150.json").write_text(
         json.dumps(offer_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
@@ -335,7 +347,7 @@ def main(argv=None) -> None:
     write_csv(target/"backtest.csv",BACKTEST_FIELDS,back_rows)
     (target/"backtest_resumen.json").write_text(json.dumps(metrics,ensure_ascii=False,indent=2),encoding="utf-8")
     past=audit_history(target/"historico_predicciones.csv",predicted)
-    tracked=evaluate(past,histories,now)
+    tracked=evaluate(past,settlement_histories,now)
     prospective=prospective_summary(tracked,now)
     write_csv(target/"seguimiento.csv",TRACK_FIELDS,tracked)
     (target/"evaluacion_real.json").write_text(

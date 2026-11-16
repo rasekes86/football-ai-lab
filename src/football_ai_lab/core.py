@@ -66,6 +66,7 @@ ALIASES = {
     "cd malaga": "malaga", "malaga cf": "malaga",
     "granada cf": "granada", "deportivo la coruna": "deportivo",
     "racing de santander": "racing",
+    "cd tenerife": "tenerife", "cd eldense": "eldense",
     "cd sabadell": "sabadell", "ce sabadell": "sabadell",
     "centre d esports sabadell": "sabadell", "sabadell fc": "sabadell",
 

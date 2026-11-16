@@ -1,0 +1,46 @@
+{
+  "version": "resultados_finales_verificados-1",
+  "descripcion": "Marcadores finales oficiales contrastados el 16/11/2026. Solo datos observados; no cambia selecciones ni cuotas prepartido.",
+  "partidos": [
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "CD Tenerife",
+      "visitante": "AD Ceuta FC",
+      "goles_local": 2,
+      "goles_visitante": 0,
+      "estado": "FINALIZADO",
+      "fuente_url": "https://www.laliga.com/es-GB/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-ad-ceuta-fc-14"
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "CD Eldense",
+      "visitante": "CE Sabadell",
+      "goles_local": 2,
+      "goles_visitante": 0,
+      "estado": "FINALIZADO",
+      "fuente_url": "https://www.laliga.com/es-MX/partido/temporada-2026-2027-laliga-hypermotion-cd-eldense-ce-sabadell-14"
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "Granada CF",
+      "visitante": "UD Las Palmas",
+      "goles_local": 1,
+      "goles_visitante": 0,
+      "estado": "FINALIZADO",
+      "fuente_url": "https://www.laliga.com/es-GB/partido/temporada-2026-2027-laliga-hypermotion-granada-cf-ud-las-palmas-14"
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "SD Eibar",
+      "visitante": "Cádiz CF",
+      "goles_local": 1,
+      "goles_visitante": 1,
+      "estado": "FINALIZADO",
+      "fuente_url": "https://www.laliga.com/es-CA/partido/temporada-2026-2027-laliga-hypermotion-sd-eibar-cadiz-cf-14"
+    }
+  ]
+}
