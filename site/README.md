@@ -93,3 +93,16 @@ Detalles metodológicos: `docs/FASE_4_AUDITORIA.md`.
 ## Fase 5 — Radar inteligente
 
 La vista `#radar` combina el feed de predicciones futuras con `output/radar_contexto_equipos.json`, que contiene estadísticas de encuentros anteriores al partido (sin resultados del día del encuentro). El usuario puede seleccionar 5, 10 o 20 encuentros, local/fuera, mercado, probabilidad, calidad, cobertura de datos, liga y cuota justa teórica. Se muestra fecha, equipos, línea calculada, probabilidad del modelo y datos previos con denominadores reales, sin mezclar estos porcentajes con la precisión prospectiva ni el ROI. Si faltan datos se marca la ausencia. Más detalles: `docs/FASE_5_RADAR.md`.
+
+## Fase 8 — Comparación con cuotas realmente observadas
+
+La nueva pestaña `#realodds` carga
+`output/cuotas_reales_verificadas.json` y
+`output/comparacion_cuotas_reales.json`. No muestra cuotas si el proveedor
+está desactivado, la clave falta, los partidos no coinciden o la captura
+está caducada. La fuente opcional se consulta en la ejecución programada,
+sin acceder a secretos desde el navegador. Los precios históricos se
+conservan exclusivamente como histórico en
+`output/historico_cuotas_reales.json`. Detalles y límites:
+`docs/FASE_8_CUOTAS_REALES.md`.
+

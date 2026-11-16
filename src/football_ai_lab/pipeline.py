@@ -34,6 +34,8 @@ from .postmatch_stats import enrich_statistics
 from .postmatch_breakdown import build_breakdown
 from .market_history import build_market_history
 from .radar_context import build_radar_context
+from .real_odds import build_real_odds
+import os
 from .future_market_audit import (
     FIELDS as FUTURE_AUDIT_FIELDS, archive_future_markets,
     settle_future_markets, audit_future_markets,
@@ -310,6 +312,28 @@ def main(argv=None) -> None:
         "calculado_utc":m["calculado_utc"],
         "mercados":m.get("_pronosticos_mercados",{}),
     } for m in selections]
+    # FASE 8 — cuotas REALES y comparador opt-in. Se ejecuta DESPUÉS
+    # de los pronósticos, nunca modifica los modelos ni los snapshots.
+    previous_real_odds={}
+    real_history_file=target/"historico_cuotas_reales.json"
+    if real_history_file.is_file():
+        try:
+            previous_real_odds=json.loads(real_history_file.read_text(encoding="utf-8"))
+        except (OSError,ValueError):
+            previous_real_odds={}
+    real_quotes,real_compared,real_history=build_real_odds(
+        previews,now,existing=previous_real_odds,
+        env={} if args.demo else os.environ)
+    (target/"cuotas_reales_verificadas.json").write_text(
+        json.dumps(real_quotes,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
+    (target/"comparacion_cuotas_reales.json").write_text(
+        json.dumps(real_compared,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
+    real_history_file.write_text(
+        json.dumps(real_history,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
+    book.mark("cuotas_reales",real_quotes["estado"],
+        f'Proveedor opt-in: {real_quotes["auditoria"]["ligas_respondidas"]}; '
+        f'{real_compared["auditoria"]["precios_comparados"]} comparaciones verificadas. '
+        'Sin clave no se fabrican precios.',real_quotes["auditoria"]["cuotas_validadas"])
     # Radar: solo histórico original ANTERIOR al partido, separado
     # del enriquecimiento postpartido y de las selecciones archivadas.
     radar_context = build_radar_context(histories, previews, now)

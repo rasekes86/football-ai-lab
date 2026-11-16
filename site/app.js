@@ -6,6 +6,7 @@ import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mj
 import { futureMarketSnapshot } from "./future_markets.mjs";
 import { reliabilitySnapshot } from "./reliability.mjs";
 import { radarSnapshot } from "./radar.mjs";
+import { realOddsSnapshot } from "./real_odds.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -51,6 +52,7 @@ const state = {
   marketLimit: 35,
   futureMarketLimit: 18,
   radarLimit: 20,
+  realOddsLimit: 24,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -335,6 +337,98 @@ function chartProfit(rows) {
     <path d="${area}" fill="url(#profitFill)"/><path d="${d}" fill="none" stroke="#b9f478" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
     ${dot}</svg>`;
 }
+
+function realOddsCard(item) {
+  const q=item.mejor;
+  const dpp=Number(q.diferencia_puntos_pct);
+  const pText=(dpp>0?"+":"")+numberFmt.format(dpp)+" pp";
+  const ev=Number(q.ev_teorico_unidad);
+  const evText=(ev>0?"+":"")+numberFmt.format(ev)+" u./u. (hipotético)";
+  const alternatives=item.opciones.length>1 ? `<details class="realodds-alternatives">
+    <summary>Otras ${integer(item.opciones.length-1)} casas observadas <span aria-hidden="true">⌄</span></summary>
+    ${item.opciones.slice(1).map(other=>`<div class="realodds-option">
+      <strong>${escapeHtml(other.bookmaker)}</strong>
+      <span>Cuota ${decimal(other.cuota_real)} · margen ${percent(other.margen_casa)}
+        · última actualización ${escapeHtml(displayDate(other.actualizado_utc))}</span>
+    </div>`).join("")}
+  </details>` : "";
+  const marker=item.posicion_top3>=1 && item.posicion_top3<=3?
+    "TOP 3 ORIGINAL":"ESTIMACIÓN ADICIONAL";
+  return `<article class="realodds-card">
+    <div class="realodds-card-top"><span>${escapeHtml(item.liga)} · ${escapeHtml(displayDate(item.fecha_utc))}</span>
+      <span>${marker}</span></div>
+    <div class="realodds-teams">
+      ${teamCrest(item.liga,item.local,true)}<strong>${escapeHtml(item.local)} – ${escapeHtml(item.visitante)}</strong>
+      ${teamCrest(item.liga,item.visitante,true)}</div>
+    <div class="realodds-selection"><small>${item.categoria==="result"?"RESULTADO 1X2":"GOLES TOTALES"}</small>
+      <strong>${escapeHtml(item.seleccion)}</strong></div>
+    <div class="realodds-number-grid">
+      <div><span>Prob. del modelo</span><strong>${percent(item.probabilidad_modelo)}</strong></div>
+      <div><span>Cuota justa teórica</span><strong>${decimal(1/item.probabilidad_modelo)}</strong></div>
+      <div class="realodds-main-price"><span>Cuota observada</span><strong>${decimal(q.cuota_real)}</strong>
+        <small>${escapeHtml(q.bookmaker)}</small></div>
+    </div>
+    <div class="realodds-explanation">
+      <div><span>Prob. implícita</span><strong>${percent(q.p_implicita)}</strong></div>
+      <div><span>Prob. sin margen¹</span><strong>${percent(q.p_mercado_sin_margen)}</strong></div>
+      <div><span>Margen de esta casa</span><strong>${percent(q.margen_casa)}</strong></div>
+      <div><span>Diferencia modelo–mercado</span><strong>${escapeHtml(pText)}</strong></div>
+    </div>
+    <div class="realodds-math"><span>EV teórico con p del modelo: <strong>${escapeHtml(evText)}</strong></span>
+      <small>¹ Ajuste calculado con todos los resultados de la misma casa y mercado;
+      no predice ganancia ni demuestra calibración.</small></div>
+    <div class="realodds-card-foot">
+      <div class="realodds-source">The Odds API · actualizada ${escapeHtml(displayDate(q.actualizado_utc))}
+        · capturada ${escapeHtml(displayDate(q.capturado_utc))}</div>
+      ${alternatives}
+      <button type="button" class="inline-link" data-open-id="${escapeHtml(item.fixture_id)}">Ver ficha del partido ↗</button>
+    </div>
+  </article>`;
+}
+function renderRealOdds() {
+  if(!state.data)return;
+  const filter={
+    league:$("realOddsLeague").value,market:$("realOddsMarket").value,
+    bookmaker:$("realOddsBookmaker").value,
+    minProbability:$("realOddsProbability").value,
+    team:$("realOddsTeam").value
+  };
+  const all=realOddsSnapshot(state.data,{...filter,bookmaker:""});
+  const bookSelect=$("realOddsBookmaker");
+  const prev=bookSelect.value;
+  bookSelect.innerHTML='<option value="">Todas las casas</option>'+
+    all.providers.map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join("");
+  bookSelect.value=all.providers.includes(prev)?prev:"";
+  const view=realOddsSnapshot(state.data,{...filter,bookmaker:bookSelect.value});
+  $("realOddsCount").textContent=integer(view.cards.length)+" comparaciones";
+  inner("realOddsKpis",
+    kpi("Partidos con cuota",integer(view.games),"Solo cruzados con identidad y hora")+
+    kpi("Comparaciones",integer(view.cards.length),"Mismo resultado y línea")+
+    kpi("Casas observadas",integer(view.providers.length),"Fuente EU · no implica acceso local")+
+    kpi("Última captura",view.sourceUpdated?displayDate(view.sourceUpdated):"—",
+      "Precios caducan; máximo 24 horas")
+  );
+  const status={
+    SIN_PUBLICAR:"Los archivos de esta fase todavía no se han publicado. Se mostrarán tras ejecutar el motor.",
+    DESACTIVADO:"Comparación preparada, pero desactivada. Activa ENABLE_REAL_ODDS y añade THE_ODDS_API_KEY como secreto en GitHub. No se ha consultado ningún bookmaker.",
+    SIN_CLAVE:"La consulta está solicitada, pero no existe clave privada THE_ODDS_API_KEY. No hay precios verificados.",
+    SIN_COINCIDENCIAS:"No hay cuotas actuales verificadas para estos partidos o mercados. No se emplearán cuotas antiguas, teóricas ni aproximadas.",
+    PARCIAL:"El proveedor respondió parcialmente o con errores; solo se muestran precios que pasaron todas las verificaciones.",
+    CON_CUOTAS:"Cuotas de The Odds API cruzadas con partidos futuros y selecciones exactas. No son cotizaciones garantizadas.",
+    INICIADO:"Consulta pendiente de completar."
+  };
+  const text=status[view.status]||"No hay precios prepartido verificables para la selección.";
+  $("realOddsNotice").innerHTML="<strong>"+escapeHtml(text)+"</strong> "+
+    (view.cards.length?"Se muestran primero los encuentros más próximos. ":"")+
+    "Únicamente 1X2 y total de goles. Los mercados no cubiertos permanecen sin cuota.";
+  const rows=view.cards.slice(0,state.realOddsLimit);
+  inner("realOddsCards",rows.length?rows.map(realOddsCard).join("") :
+    empty(view.configured
+      ?"No existen precios válidos con estos filtros. Prueba otro mercado, casa o liga."
+      :"Añade la clave de la API y activa la conexión para consultar precios reales, sin inventarlos."));
+  $("realOddsMore").hidden=rows.length>=view.cards.length;
+}
+
 function renderOdds() {
   const d=state.data, s=d.simulation;
   inner("oddsSummary", kpi("Cuotas registradas", integer(s.registered), "Todas superiores a 1,50") +
@@ -737,7 +831,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter"]) {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
@@ -749,6 +843,7 @@ function renderAll() {
   renderMatches();
   renderHistory();
   renderOdds();
+  renderRealOdds();
   renderMarkets();
   renderRadar();
   renderModel();
@@ -848,7 +943,7 @@ function closeDialog() {
   if (state.lastFocus?.focus) state.lastFocus.focus();
 }
 function changeView(view) {
-  if (!["overview","matches","radar","markets","history","odds","model"].includes(view)) return;
+  if (!["overview","matches","radar","markets","history","odds","realodds","model"].includes(view)) return;
   state.view=view;
   document.querySelectorAll(".view").forEach(x=>x.hidden=x.id!==`view-${view}`);
   document.querySelectorAll("[data-view]").forEach(x=>{
@@ -915,6 +1010,14 @@ function wire() {
   }
   $("marketMore").addEventListener("click",()=>{state.marketLimit+=35;renderMarkets()});
   $("marketFutureMore").addEventListener("click",()=>{state.futureMarketLimit+=18;renderFutureMarkets()});
+
+  for(const id of ["realOddsLeague","realOddsMarket","realOddsBookmaker",
+                   "realOddsProbability","realOddsTeam"]){
+    $(id).addEventListener(id==="realOddsTeam"?"input":"change",()=>{
+      state.realOddsLimit=24;renderRealOdds();
+    });
+  }
+  $("realOddsMore").addEventListener("click",()=>{state.realOddsLimit+=24;renderRealOdds();});
   $("refreshButton").addEventListener("click",refreshData);
   $("dialogClose").addEventListener("click",closeDialog);
   $("dialogBackdrop").addEventListener("click",e=>{if(e.target===$("dialogBackdrop"))closeDialog()});
@@ -931,10 +1034,10 @@ function wire() {
   $("historyMore").addEventListener("click",()=>{state.historyLimit+=40;renderHistory()});
   window.addEventListener("hashchange",()=>{
     const view=location.hash.replace("#","");
-    if(["overview","matches","radar","markets","history","odds","model"].includes(view))changeView(view);
+    if(["overview","matches","radar","markets","history","odds","realodds","model"].includes(view))changeView(view);
   });
   const initial=location.hash.replace("#","");
-  if(["overview","matches","radar","markets","history","odds","model"].includes(initial))changeView(initial);
+  if(["overview","matches","radar","markets","history","odds","realodds","model"].includes(initial))changeView(initial);
 }
 wire();
 refreshData();

@@ -25,6 +25,7 @@
         <button type="button" class="nav-link" data-view="markets"><span class="nav-symbol" aria-hidden="true">▥</span>Explorar mercados</button>
         <button type="button" class="nav-link" data-view="history"><span class="nav-symbol" aria-hidden="true">▤</span>Histórico Top 3</button>
         <button type="button" class="nav-link" data-view="odds"><span class="nav-symbol" aria-hidden="true">◈</span>Cuotas +1,50</button>
+        <button type="button" class="nav-link" data-view="realodds"><span class="nav-symbol" aria-hidden="true">⇄</span>Cuotas reales</button>
         <button type="button" class="nav-link" data-view="model"><span class="nav-symbol" aria-hidden="true">▥</span>El modelo</button>
       </nav>
       <div class="sidebar-caption caption-resources">RECURSOS</div>
@@ -58,6 +59,7 @@
         <button type="button" class="mobile-link" data-view="markets">Mercados</button>
         <button type="button" class="mobile-link" data-view="history">Top 3</button>
         <button type="button" class="mobile-link" data-view="odds">Cuotas</button>
+        <button type="button" class="mobile-link" data-view="realodds">Reales</button>
         <button type="button" class="mobile-link" data-view="model">Modelo</button>
       </nav>
 
@@ -297,6 +299,50 @@
             <article class="panel"><div class="panel-heading"><div><span class="overline">METODOLOGÍA</span><h3>Cómo lo calculamos</h3></div></div><div class="method-grid"><div><span class="method-number">01</span><strong>Primero archivamos</strong><p>La predicción y la cuota quedan registradas antes del inicio.</p></div><div><span class="method-number">02</span><strong>Después verificamos</strong><p>Comprobamos marcador y estadística necesaria.</p></div><div><span class="method-number">03</span><strong>Simulamos 1 unidad</strong><p>Acierto: cuota menos 1. Fallo: −1. Sin dato: no computa.</p></div></div></article>
           </div>
           <div class="panel table-panel"><div class="panel-heading"><div><span class="overline">TODAS LAS CUOTAS</span><h3>Registro de oportunidades</h3></div><span id="oddsCount" class="panel-mini"></span></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Fecha / partido</th><th>Selección</th><th>Cuota</th><th>Resultado</th><th>Simulación</th><th></th></tr></thead><tbody id="oddsRows"></tbody></table></div></div>
+        </section>
+
+        <section class="view" id="view-realodds" aria-labelledby="realOddsTitle" hidden>
+          <div class="page-intro">
+            <div><span class="overline">08 / MARKET PRICE COMPARISON</span>
+              <h1 id="realOddsTitle">Cuotas <em>reales.</em></h1>
+              <p>Compara las probabilidades experimentales del modelo con precios prepartido observados del mismo partido, línea y resultado. Sin inventar cuotas ni presentar rentabilidad garantizada.</p>
+            </div><div class="intro-art" aria-hidden="true">ODD<span>°</span></div>
+          </div>
+          <div class="warning-notice"><span class="notice-icon">!</span>
+            <div><strong>Comparación informativa, no una recomendación de apuesta.</strong>
+              <p>Una diferencia positiva o un EV teórico positivo no demuestran ventaja: las probabilidades del modelo todavía requieren calibración prospectiva. Las cuotas pueden variar, caducar o no estar disponibles para tu región.</p>
+            </div>
+          </div>
+          <div class="panel realodds-filter-panel">
+            <div class="panel-heading"><div><span class="overline">PRECIOS DE PROVEEDOR · NO CUOTAS JUSTAS INVENTADAS</span><h3>Comparar mercados cubiertos</h3></div><span class="panel-mini">FUENTE: THE ODDS API V4</span></div>
+            <div class="realodds-filters">
+              <label class="field"><span>LIGA</span><select id="realOddsLeague"><option value="">Todas las ligas</option></select></label>
+              <label class="field"><span>MERCADO</span><select id="realOddsMarket">
+                <option value="">1X2 y goles totales</option><option value="result">Resultado 1X2</option><option value="goals">Total de goles</option>
+              </select></label>
+              <label class="field"><span>CASA (OBSERVADA)</span><select id="realOddsBookmaker"><option value="">Todas las casas</option></select></label>
+              <label class="field"><span>PROBABILIDAD MÍN.</span><select id="realOddsProbability">
+                <option value="0">Cualquiera</option><option value="0.55">Desde 55 %</option><option value="0.65">Desde 65 %</option><option value="0.75">Desde 75 %</option>
+              </select></label>
+              <label class="field"><span>EQUIPO</span><input id="realOddsTeam" type="search" placeholder="Buscar equipo…" autocomplete="off"></label>
+            </div>
+          </div>
+          <div id="realOddsNotice" class="explanation realodds-notice" role="status"></div>
+          <div id="realOddsKpis" class="kpi-grid"></div>
+          <div class="section-heading"><div><span class="overline">MERCADOS CON CUOTAS OBSERVADAS</span><h2>Modelo frente a <em>mercado.</em></h2></div>
+            <span class="section-side-note" id="realOddsCount">—</span></div>
+          <div id="realOddsCards" class="realodds-cards"></div>
+          <div class="load-wrap"><button type="button" id="realOddsMore" class="btn btn-outline" hidden>Mostrar más comparaciones ↓</button></div>
+          <div class="panel realodds-methodology">
+            <div class="panel-heading"><div><span class="overline">METODOLOGÍA DE COMPARACIÓN</span><h3>Qué podemos contrastar</h3></div></div>
+            <div class="method-grid">
+              <div><span class="method-number">01</span><strong>Mismo encuentro</strong><p>Se exige coincidencia de ambos equipos, liga, horario e identidad única. No se usan cuotas anteriores como si fueran actuales.</p></div>
+              <div><span class="method-number">02</span><strong>Mismo mercado y línea</strong><p>Se aceptan únicamente 1X2 y totales de goles con dirección y línea exactas. No se deducen ofertas de doble oportunidad, córners ni tiros.</p></div>
+              <div><span class="method-number">03</span><strong>Margen de la casa</strong><p>Se contrasta la probabilidad implícita y se estima la probabilidad sin margen usando únicamente las alternativas completas de la misma casa y mercado.</p></div>
+            </div>
+            <p class="fine-print">Las cuotas proceden de The Odds API y se observan una vez por ejecución autorizada. Se guardan con fecha y origen. El cálculo EV = p del modelo × cuota − 1 es un escenario matemático sujeto al error del modelo y no demuestra rentabilidad. Sin clave de API, el panel no muestra ofertas.</p>
+            <p class="fine-print">Fuente técnica: <a href="https://the-odds-api.com/liveapi/guides/v4/" target="_blank" rel="noopener noreferrer">The Odds API · documentación oficial ↗</a> · <a href="https://github.com/rasekes86/football-ai-lab/blob/main/docs/FASE_8_CUOTAS_REALES.md" target="_blank" rel="noopener noreferrer">Configuración privada y criterios de verificación ↗</a></p>
+          </div>
         </section>
 
         <section class="view" id="view-model" aria-labelledby="modelTitle" hidden>

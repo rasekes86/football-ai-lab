@@ -156,3 +156,16 @@ El [Explorador de mercados](https://rasekes86.github.io/football-ai-lab/#markets
 ### Fase 7 — Resúmenes y resultados por Telegram
 
 Se ha implementado la [alerta opcional por Telegram](docs/TELEGRAM.md) sobre los pronósticos futuros y su liquidación prospectiva de la Fase 4. Permite filtrar mercados, ligas, probabilidad, calidad y horizonte; notifica aciertos y fallos verificados sin contar estadísticas ausentes como derrotas. El envío automático queda **desactivado hasta que configures dos secretos y la variable de activación en GitHub**, sin compartirlos con ChatGPT. El estado anti-duplicados solo se confirma después de una entrega correcta. Reutiliza el análisis diario, sin nuevas APIs de pago.
+
+### Fase 8 — Cuotas reales (integración opcional)
+
+[Cuotas reales · Dashboard](https://rasekes86.github.io/football-ai-lab/#realodds).
+El comparador consulta **The Odds API V4** únicamente si has habilitado
+`ENABLE_REAL_ODDS=true` y guardado `THE_ODDS_API_KEY` como secreto de GitHub.
+Contrasta 1X2 y goles totales con precio de bookmaker, coincidencia exacta
+de línea y sentido, fecha de actualización, margen de la misma casa y
+diferencia de probabilidad. No sustituye la simulación de +1,50,
+no infiere cuotas inexistentes y **no afirma rentabilidad**.
+Guía de alta, costes y metodología:
+[docs/FASE_8_CUOTAS_REALES.md](docs/FASE_8_CUOTAS_REALES.md).
+

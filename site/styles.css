@@ -498,3 +498,53 @@ main{max-width:1560px;margin:0 auto;padding:32px clamp(22px,3.3vw,52px) 55px;min
  .radar-prob{min-width:75px}
  .radar-prob strong{font-size:23px}
 }
+
+/* Fase 8 — comparador de cuotas observadas. Conserva tema oscuro del dashboard. */
+.realodds-filter-panel{margin:16px 0}
+.realodds-filter-panel .panel-heading{margin-bottom:18px}
+.realodds-filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.realodds-notice{margin:0 0 17px;line-height:1.55}
+.realodds-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.realodds-card{background:var(--surface);border:1px solid var(--stroke-soft);border-radius:var(--radius);padding:21px;min-width:0;display:flex;flex-direction:column}
+.realodds-card-top{display:flex;gap:12px;justify-content:space-between;font-size:10px;color:var(--dim);font-weight:700}
+.realodds-card-top>span:last-child{font-size:9px;letter-spacing:.6px;color:var(--muted);white-space:nowrap}
+.realodds-teams{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px 0 12px}
+.realodds-teams>strong{font-size:13px;text-align:center;overflow-wrap:anywhere}
+.realodds-selection{background:#1c2d3f;border-radius:9px;padding:13px 15px;margin:5px 0 13px}
+.realodds-selection>small{display:block;color:var(--lime);font-size:9px;font-weight:800;letter-spacing:.7px;margin-bottom:5px}
+.realodds-selection>strong{font-size:13px;line-height:1.5}
+.realodds-number-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:13px}
+.realodds-number-grid>div{background:#1a2b3b;padding:11px 9px;border-radius:9px;min-width:0}
+.realodds-number-grid span{display:block;color:var(--dim);font-size:9px;font-weight:670}
+.realodds-number-grid strong{font-size:18px;font-weight:850;line-height:1.8}
+.realodds-main-price{border:1px solid rgba(185,244,120,.24)}
+.realodds-main-price strong{color:var(--lime)}
+.realodds-number-grid small{display:block;color:var(--muted);font-size:9px;overflow-wrap:anywhere}
+.realodds-explanation{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;background:#142234;border-radius:9px;padding:13px}
+.realodds-explanation>div{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.realodds-explanation span{font-size:10px;color:var(--muted);line-height:1.35}
+.realodds-explanation strong{font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.realodds-math{display:flex;flex-direction:column;gap:6px;background:#202c3d;padding:13px;border-radius:9px;margin:10px 0 13px}
+.realodds-math>span{font-size:10px;color:var(--muted);line-height:1.4}
+.realodds-math>span strong{color:var(--text)}
+.realodds-math small{font-size:9px;line-height:1.45;color:var(--dim)}
+.realodds-card-foot{border-top:1px solid var(--stroke-soft);margin-top:auto;padding-top:12px;display:flex;flex-direction:column;gap:9px}
+.realodds-source{font-size:10px;color:var(--dim);line-height:1.55}
+.realodds-alternatives{font-size:11px}
+.realodds-alternatives>summary{cursor:pointer;color:var(--lime);list-style:none;font-weight:750}
+.realodds-alternatives>summary::-webkit-details-marker{display:none}
+.realodds-alternatives>summary span{float:right}
+.realodds-alternatives[open]>summary span{transform:rotate(180deg)}
+.realodds-option{border:1px solid var(--stroke-soft);border-radius:7px;padding:9px;margin-top:8px;display:flex;flex-direction:column;gap:3px}
+.realodds-option strong{font-size:10px}
+.realodds-option span{font-size:9px;color:var(--muted)}
+.realodds-card-foot .inline-link{text-align:left;width:max-content}
+.realodds-methodology{margin-top:20px}
+.realodds-methodology .method-grid{margin-top:12px}
+.realodds-methodology .fine-print{margin-top:17px}
+.realodds-methodology a{color:var(--lime)}
+@media(max-width:1330px){.realodds-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:1080px){.realodds-cards{grid-template-columns:1fr}}
+@media(max-width:800px){.realodds-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.realodds-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.realodds-cards{grid-template-columns:1fr}}
+@media(max-width:520px){.realodds-card{padding:17px}.realodds-filters{grid-template-columns:1fr}.realodds-number-grid{gap:6px}.realodds-number-grid strong{font-size:16px}.realodds-explanation{gap:9px}}
