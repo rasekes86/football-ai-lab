@@ -18,6 +18,7 @@ METRICS = {
     "corners": "Córners",
     "yellow": "Tarjetas amarillas",
     "red": "Tarjetas rojas",
+    "fouls": "Faltas cometidas",
 }
 
 

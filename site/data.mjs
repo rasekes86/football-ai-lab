@@ -18,7 +18,8 @@ export const FEEDS = Object.freeze({
   evaluacion_selecciones: "evaluacion_selecciones.json",
   evaluacion_cuotas: "evaluacion_oportunidades_150.json",
   evaluacion_real: "evaluacion_real.json",
-  desglose_postpartido: "desglose_postpartido.json"
+  desglose_postpartido: "desglose_postpartido.json",
+  mercados_historicos: "mercados_historicos.json"
 });
 
 /** CSV RFC4180: comillas dobles, comas y saltos de línea dentro de celdas. */
@@ -177,6 +178,9 @@ export function buildModel(feeds, now = new Date()) {
 
   return {
     matches, futureMatches, settledMatches, currentIds, archivedPicks, allOdds,
+    marketHistory: Array.isArray(feeds.mercados_historicos?.partidos) ?
+      feeds.mercados_historicos.partidos : [],
+    marketCoverage: feeds.mercados_historicos?.cobertura || {},
     top, simulation, countForecasts: currentIds.size,
     updatedAt: feeds.evaluacion_selecciones?.calculado_utc ||
       feeds.evaluacion_cuotas?.generado_utc ||

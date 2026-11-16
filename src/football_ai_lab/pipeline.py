@@ -32,6 +32,7 @@ from .sources import LEAGUES, load_history, load_fixtures
 from .verified_results import augment_results
 from .postmatch_stats import enrich_statistics
 from .postmatch_breakdown import build_breakdown
+from .market_history import build_market_history
 
 LOG = logging.getLogger(__name__)
 FIELDS = ["id","fecha_utc","liga","local","visitante","prob_local","prob_empate","prob_visitante",
@@ -233,6 +234,10 @@ def main(argv=None) -> None:
     target.mkdir(parents=True,exist_ok=True)
     (target/"estadisticas_finales_verificadas.json").write_text(
         json.dumps(stats_payload,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Explorador: histórico OBSERVACIONAL ya disputado, independiente de Poisson/Elo.
+    market_history=build_market_history(settlement_histories,now,days=365)
+    (target/"mercados_historicos.json").write_text(
+        json.dumps(market_history,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
     (target/"contexto_machina.json").write_text(json.dumps(context,ensure_ascii=False,indent=2),encoding="utf-8")
     # Optional bounded historical player sample. Never derive player picks from sparse data.
     prior_players_path=target/"jugadores_historico.json"

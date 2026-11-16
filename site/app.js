@@ -2,6 +2,7 @@ import {
   LEAGUES, FEEDS, parseCsv, numberOrNull, settled,
   calculateMetrics, calculateOdds, buildModel
 } from "./data.mjs";
+import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -44,6 +45,7 @@ const state = {
   view: "overview",
   matchLimit: 24,
   historyLimit: 40,
+  marketLimit: 35,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -344,6 +346,107 @@ function renderOdds() {
     <td><strong style="color:${numberOrNull(r.retorno_simulado_unidad)>0?"var(--lime)":numberOrNull(r.retorno_simulado_unidad)<0?"var(--red)":"var(--muted)"}">${escapeHtml(money(numberOrNull(r.retorno_simulado_unidad)))}</strong></td>
     <td><button type="button" class="row-link" data-open-id="${escapeHtml(r.id)}" aria-label="Abrir ficha ${escapeHtml(r.local)} – ${escapeHtml(r.visitante)}">↗</button></td></tr>`).join("") : `<tr><td class="empty" colspan="6">No hay cuotas archivadas.</td></tr>`);
 }
+function marketLineOptions() {
+  const market=optionByKey($("marketFilter").value);
+  const chosen=$("marketLine").value;
+  const label = market.kind==="outcome" ? "RESULTADO" :
+    market.kind==="btts" ? "AMBOS MARCAN" : "LÍNEA DE REFERENCIA";
+  $("marketLineLabel").textContent=label;
+  $("marketLine").innerHTML=market.lines.map(x=>{
+    const readable=typeof x==="number" ? numberFmt.format(x).replace(/,00$/,"") : x;
+    return `<option value="${escapeHtml(x)}">${escapeHtml(readable)}</option>`;
+  }).join("");
+  $("marketLine").value=market.lines.some(x=>String(x)===chosen) ? chosen :
+    String(market.lines[Math.floor(market.lines.length/2)]);
+}
+function marketSummaryLabel(market,line) {
+  if(market.kind==="outcome"){
+    if(line==="1X")return "Local o empate (1X)";
+    if(line==="X2")return "Empate o visitante (X2)";
+    if(line==="12")return "Local o visitante (12)";
+    return "Resultado " + line;
+  }
+  if(market.kind==="btts")return "Ambos marcan: " + line;
+  return "Más de " + numberFmt.format(Number(line)).replace(/,00$/,"");
+}
+function marketSourceLabel(sources) {
+  const found=(sources||[]).map(sourceLink);
+  return found.length ? found.join(" · ") : "Sin fuente identificada";
+}
+function renderMarkets() {
+  const d=state.data;
+  if(!d)return;
+  const selection={
+    market:$("marketFilter").value,
+    league:$("marketLeagueFilter").value,
+    days:$("marketPeriod").value,
+    line:$("marketLine").value,
+    team:$("marketTeam").value
+  };
+  const view=marketSnapshot(d,selection);
+  const market=view.market;
+  document.querySelectorAll("[data-market-key]").forEach(button=>{
+    button.classList.toggle("active",button.dataset.marketKey===market.key);
+    button.setAttribute("aria-pressed",button.dataset.marketKey===market.key?"true":"false");
+  });
+  const n=view.verified, selectedName=marketSummaryLabel(market,view.line);
+  const numeric=market.kind==="count"||market.kind==="goals";
+  const avg=n ? numberFmt.format(view.average) : "—";
+  inner("marketKpis",
+    kpi("Partidos con dato",integer(n),integer(view.missing)+" sin estadística para este mercado")+
+    kpi(numeric?"Media por partido":"Resultado observado",numeric?avg:"1 / X / 2",
+      numeric&&n?"Mediana: "+numberFmt.format(view.median):"Marcadores contrastados")+
+    kpi("Frecuencia histórica",n?percent(view.aboveRate):"—",
+      selectedName+" · "+integer(view.above)+" de "+integer(n),true)+
+    kpi("Acierto Top 3",percent(view.picks.accuracy),
+      integer(view.picks.evaluated)+" evaluadas de "+integer(view.picks.registered)+" archivadas")
+  );
+  $("marketNotice").innerHTML=n?
+    `<strong>${escapeHtml(market.label)}</strong> · ${integer(n)} partidos con información suficiente, de ${integer(view.historicalCount)} disputados en el filtro. ${integer(view.missing)} sin datos para esta métrica. <span>La frecuencia es descriptiva, no un pronóstico.</span>`
+    :`<strong>Sin datos suficientes de ${escapeHtml(market.label.toLowerCase())}.</strong> Hay ${integer(view.historicalCount)} partidos disputados en el intervalo, pero no tenemos una fuente completa de esta estadística. No se muestra 0 ni se estiman valores.`;
+  $("marketChartTitle").textContent=numeric?"Distribución de "+market.label.toLowerCase():"Resultados observados";
+  $("marketChartSample").textContent=integer(n)+" partidos";
+  const biggest=Math.max(1,...view.distribution.map(x=>x.count));
+  inner("marketHistogram",view.distribution.length?view.distribution.map(item=>{
+    const width=Math.round(item.count/biggest*100);
+    return `<div class="market-bar-row"><span class="market-bar-label">${escapeHtml(item.label)}</span>
+      <div class="market-bar-track"><div class="market-bar-fill" style="width:${width}%"></div></div>
+      <span class="market-bar-value">${integer(item.count)} <small>(${n?percent(item.count/n):"—"})</small></span></div>`;
+  }).join(""):empty("Aún no existen observaciones verificadas de este mercado."));
+  $("marketChartCaption").textContent=numeric?
+    "Cantidad total del partido (local + visitante). Solo se incluyen estadísticas completas, no estimadas.":
+    "Distribución de los resultados finales. No representa el porcentaje de acierto de una selección apostada.";
+  const leagues=LEAGUES.filter(x=>!selection.league||selection.league===x);
+  const comparison=leagues.map(league=>{
+    const sample=view.byLeague.find(x=>x.liga===league);
+    const amount=sample?.partidos||0;
+    return `<div class="league-row">${leagueLogo(league)}<div class="league-info">
+      <div class="league-name">${escapeHtml(league)}</div>
+      <div class="league-sub">${integer(amount)} partidos · ${numeric?"Media "+(sample?.media===null||!amount?"—":numberFmt.format(sample.media)):"Resultados finales"}</div></div>
+      <div class="market-mini-track"><span style="width:${Math.round((sample?.ratio||0)*100)}%"></span></div>
+      <span class="market-mini-percent">${amount?percent(sample.ratio):"—"}</span></div>`;
+  }).join("");
+  inner("marketByLeague",comparison||empty("No hay competiciones."));
+  $("marketTotalHeading").textContent=numeric?"Total": "Resultado";
+  $("marketConditionHeading").textContent=numeric?"¿Supera la línea?":"¿Cumple selección?";
+  const rows=view.rows.slice(0,state.marketLimit);
+  $("marketCount").textContent=integer(rows.length)+" de "+integer(view.rows.length)+" verificados";
+  inner("marketRows",rows.length?rows.map(x=>{
+    const r=x.row,obs=x.observation,good=isHit(obs,market,view.line);
+    const result=numeric?obs.total:market.kind==="btts"?obs.btts:obs.outcome;
+    return `<tr>
+      <td><div class="main-cell">${teamPair(r)}</div><div class="sub-cell">${escapeHtml(displayDay(r.fecha))}</div></td>
+      <td class="muted-cell">${escapeHtml(r.liga)}</td>
+      <td><strong>${escapeHtml(r.goles_local)} – ${escapeHtml(r.goles_visitante)}</strong></td>
+      <td class="market-count-cell">${numeric?integer(obs.local):"—"}</td>
+      <td class="market-count-cell">${numeric?integer(obs.visitante):"—"}</td>
+      <td class="market-count-cell"><strong>${escapeHtml(result)}</strong></td>
+      <td><span class="status-pill ${good?"final":"loss"}">${good?"Sí":"No"}</span>
+        <div class="market-source-row">${marketSourceLabel(obs.fuentes)}</div></td>
+      </tr>`;
+  }).join(""):`<tr><td class="empty" colspan="7">No hay partidos con esta estadística y filtros. Prueba otro periodo o competición.</td></tr>`);
+  $("marketMore").hidden=rows.length>=view.rows.length;
+}
 function renderModel() {
   const d=state.data;
   inner("modelLeagues", d.leagues.map(x => `<div class="model-league-row">
@@ -369,7 +472,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter"]) {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
@@ -381,6 +484,7 @@ function renderAll() {
   renderMatches();
   renderHistory();
   renderOdds();
+  renderMarkets();
   renderModel();
 }
 function dialogPick(row, index, detail = null) {
@@ -478,7 +582,7 @@ function closeDialog() {
   if (state.lastFocus?.focus) state.lastFocus.focus();
 }
 function changeView(view) {
-  if (!["overview","matches","history","odds","model"].includes(view)) return;
+  if (!["overview","matches","markets","history","odds","model"].includes(view)) return;
   state.view=view;
   document.querySelectorAll(".view").forEach(x=>x.hidden=x.id!==`view-${view}`);
   document.querySelectorAll("[data-view]").forEach(x=>{
@@ -500,11 +604,31 @@ function wire() {
     image.remove();
   }, true);
   document.addEventListener("click",e=>{
+    const marketButton=e.target.closest("[data-market-key]");
+    if(marketButton){
+      $("marketFilter").value=marketButton.dataset.marketKey;
+      $("marketLine").value="";
+      marketLineOptions();state.marketLimit=35;renderMarkets();return;
+    }
     const viewBtn=e.target.closest("[data-view],[data-go]");
     if(viewBtn){changeView(viewBtn.dataset.view||viewBtn.dataset.go);return;}
     const open=e.target.closest("[data-open-id]");
     if(open){openMatch(open.dataset.openId);return;}
   });
+  $("marketFilter").innerHTML=MARKET_OPTIONS.map(x=>
+    `<option value="${escapeHtml(x.key)}">${escapeHtml(x.label)}</option>`).join("");
+  $("marketFilter").value="corners";
+  inner("marketQuick",MARKET_OPTIONS.map(x=>
+    `<button class="market-chip ${x.key==="corners"?"active":""}" type="button"
+      data-market-key="${escapeHtml(x.key)}" aria-pressed="${x.key==="corners"}">${escapeHtml(x.label)}</button>`).join(""));
+  marketLineOptions();
+  for(const id of ["marketFilter","marketLeagueFilter","marketPeriod","marketLine","marketTeam"]){
+    $(id).addEventListener(id==="marketTeam"?"input":"change",()=>{
+      if(id==="marketFilter")marketLineOptions();
+      state.marketLimit=35;renderMarkets();
+    });
+  }
+  $("marketMore").addEventListener("click",()=>{state.marketLimit+=35;renderMarkets()});
   $("refreshButton").addEventListener("click",refreshData);
   $("dialogClose").addEventListener("click",closeDialog);
   $("dialogBackdrop").addEventListener("click",e=>{if(e.target===$("dialogBackdrop"))closeDialog()});
@@ -521,10 +645,10 @@ function wire() {
   $("historyMore").addEventListener("click",()=>{state.historyLimit+=40;renderHistory()});
   window.addEventListener("hashchange",()=>{
     const view=location.hash.replace("#","");
-    if(["overview","matches","history","odds","model"].includes(view))changeView(view);
+    if(["overview","matches","markets","history","odds","model"].includes(view))changeView(view);
   });
   const initial=location.hash.replace("#","");
-  if(["overview","matches","history","odds","model"].includes(initial))changeView(initial);
+  if(["overview","matches","markets","history","odds","model"].includes(initial))changeView(initial);
 }
 wire();
 refreshData();

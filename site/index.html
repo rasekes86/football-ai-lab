@@ -21,6 +21,7 @@
       <nav class="nav" aria-label="Secciones">
         <button type="button" class="nav-link active" data-view="overview" aria-current="page"><span class="nav-symbol" aria-hidden="true">◫</span>Visión general</button>
         <button type="button" class="nav-link" data-view="matches"><span class="nav-symbol" aria-hidden="true">⚽</span>Partidos <span id="navMatchCount" class="nav-counter">—</span></button>
+        <button type="button" class="nav-link" data-view="markets"><span class="nav-symbol" aria-hidden="true">▥</span>Explorar mercados</button>
         <button type="button" class="nav-link" data-view="history"><span class="nav-symbol" aria-hidden="true">▤</span>Histórico Top 3</button>
         <button type="button" class="nav-link" data-view="odds"><span class="nav-symbol" aria-hidden="true">◈</span>Cuotas +1,50</button>
         <button type="button" class="nav-link" data-view="model"><span class="nav-symbol" aria-hidden="true">▥</span>El modelo</button>
@@ -52,6 +53,7 @@
       <nav class="mobile-nav" aria-label="Navegación móvil">
         <button type="button" class="mobile-link active" data-view="overview">Resumen</button>
         <button type="button" class="mobile-link" data-view="matches">Partidos</button>
+        <button type="button" class="mobile-link" data-view="markets">Mercados</button>
         <button type="button" class="mobile-link" data-view="history">Top 3</button>
         <button type="button" class="mobile-link" data-view="odds">Cuotas</button>
         <button type="button" class="mobile-link" data-view="model">Modelo</button>
@@ -97,6 +99,7 @@
             </article>
           </div>
           <div id="oddsOverview" class="simulation-banner"></div>
+          <div class="market-shortcut"><div><span class="overline">EXPLORADOR DE MERCADOS</span><strong>¿Cuántos córners, faltas o tiros hay realmente por partido?</strong><p>Estadísticas históricas de las seis ligas y seguimiento de nuestros pronósticos por mercado.</p></div><button class="btn btn-outline" type="button" data-go="markets">Abrir explorador ↗</button></div>
         </section>
 
         <section class="view" id="view-matches" aria-labelledby="matchesTitle" hidden>
@@ -111,6 +114,43 @@
           <div class="results-bar"><span id="matchCount">—</span><span class="results-legend"><i class="legend-dot success"></i> Acierto <i class="legend-dot danger"></i> Fallo <i class="legend-dot neutral"></i> Sin verificar</span></div>
           <div id="matchesGrid" class="matches-grid"></div>
           <div class="load-wrap"><button type="button" id="loadMore" class="btn btn-outline" hidden>Mostrar más partidos ↓</button></div>
+        </section>
+
+        <section class="view" id="view-markets" aria-labelledby="marketsTitle" hidden>
+          <div class="page-intro"><div><span class="overline">03 / MARKET INTELLIGENCE</span><h1 id="marketsTitle">Explora cada <em>mercado.</em></h1>
+            <p>Consulta datos reales de córners, faltas, disparos, goles y resultados. Historial observado y aciertos del Top 3 claramente separados.</p></div>
+            <div class="intro-art" aria-hidden="true">STAT<span>+</span></div>
+          </div>
+          <div class="panel market-selector-panel">
+            <div class="panel-heading"><div><span class="overline">ELIGE QUÉ QUIERES ANALIZAR</span><h3>Mercados disponibles</h3></div><span class="panel-mini">6 LIGAS</span></div>
+            <div class="market-pills" id="marketQuick"></div>
+          </div>
+          <div class="panel filters market-filters">
+            <label class="field"><span>MERCADO</span><select id="marketFilter"></select></label>
+            <label class="field"><span>COMPETICIÓN</span><select id="marketLeagueFilter"><option value="">Todas las ligas</option></select></label>
+            <label class="field"><span>PERIODO HISTÓRICO</span><select id="marketPeriod"><option value="30">Últimos 30 días</option><option value="90" selected>Últimos 90 días</option><option value="180">Últimos 180 días</option><option value="365">Último año</option></select></label>
+            <label class="field"><span id="marketLineLabel">LÍNEA / RESULTADO</span><select id="marketLine"></select></label>
+            <label class="field field-search"><span>EQUIPO</span><input id="marketTeam" type="search" placeholder="Buscar equipo…" autocomplete="off"></label>
+          </div>
+          <div id="marketNotice" class="explanation market-notice" role="status"></div>
+          <div id="marketKpis" class="kpi-grid"></div>
+          <div class="dashboard-grid market-dashboard-grid">
+            <article class="panel">
+              <div class="panel-heading"><div><span class="overline">DISTRIBUCIÓN REAL</span><h3 id="marketChartTitle">Frecuencias observadas</h3></div><span class="panel-mini" id="marketChartSample"></span></div>
+              <div id="marketHistogram" class="market-histogram"></div>
+              <p class="fine-print" id="marketChartCaption"></p>
+            </article>
+            <article class="panel">
+              <div class="panel-heading"><div><span class="overline">COMPARACIÓN</span><h3>Por competición</h3></div><span class="panel-mini">MUESTRA VERIFICADA</span></div>
+              <div id="marketByLeague" class="market-league-list"></div>
+            </article>
+          </div>
+          <div class="panel table-panel market-record-panel">
+            <div class="panel-heading"><div><span class="overline">REGISTRO OBSERVACIONAL</span><h3>Partidos y estadísticas</h3></div><span id="marketCount" class="panel-mini"></span></div>
+            <div class="table-scroll"><table class="data-table"><thead><tr><th>Partido / fecha</th><th>Liga</th><th>Marcador</th><th>Local</th><th>Visitante</th><th id="marketTotalHeading">Total</th><th id="marketConditionHeading">Más de la línea</th></tr></thead><tbody id="marketRows"></tbody></table></div>
+            <div class="load-wrap"><button type="button" id="marketMore" class="btn btn-outline" hidden>Mostrar más encuentros ↓</button></div>
+          </div>
+          <div class="explanation"><strong>Cómo interpretar esta sección.</strong> La frecuencia histórica de un resultado o de una línea no es una probabilidad calibrada ni una cuota ofrecida. Los aciertos del Top 3 se calculan solamente con pronósticos archivados antes del partido. Los datos no disponibles nunca se muestran como cero.</div>
         </section>
 
         <section class="view" id="view-history" aria-labelledby="historyTitle" hidden>

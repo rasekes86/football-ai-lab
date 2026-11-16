@@ -51,6 +51,7 @@ def summary(shots_home=13, shots_away=9):
             {"name": "cornerKicks", "displayValue": str(corners)},
             {"name": "yellowCards", "displayValue": str(yellow)},
             {"name": "redCards", "displayValue": str(red)},
+            {"name": "fouls", "displayValue": "12"},
         ]}
     return {"header": {"competitions": [{"id":EVENT, "competitors": [
         {"team": {"displayName": HOME}}, {"team": {"displayName": AWAY}}
@@ -87,7 +88,8 @@ class PostmatchTests(unittest.TestCase):
             self.assertEqual(audit["completos"],1)
             self.assertEqual(audit["scoreboards_consultados"],1)
             self.assertEqual(audit["summaries_consultados"],1)
-            self.assertEqual(audit["campos_recuperados"],10)
+            self.assertEqual(audit["campos_recuperados"],12)
+            self.assertEqual(audit["partidos_con_faltas"],1)
             original=self.games["SP2"][0]
             self.assertNotIn("home_corners",original)
             settled=settle(self.rows,updated,NOW)
@@ -97,6 +99,7 @@ class PostmatchTests(unittest.TestCase):
             first=doc["partidos"][0]
             self.assertEqual(first["evaluadas"],5)
             self.assertEqual(first["estadisticas"]["corners"]["total"],10)
+            self.assertEqual(first["estadisticas"]["fouls"]["total"],24)
             self.assertIn("6 local + 4 visitante = 10",
                           first["selecciones"][1]["explicacion"])
             self.assertIn("summary?event=",first["estadisticas"]["shots"]["fuentes"][0])
@@ -143,6 +146,9 @@ class PostmatchTests(unittest.TestCase):
     def test_missing_is_not_zero_and_zero_is_valid(self):
         self.assertNotIn("yellow",_stat_map([{"name":"yellowCards","displayValue":"0/5"}]))
         self.assertEqual(_stat_map([{"name":"yellowCards","value":0}])["yellow"],0)
+        self.assertEqual(_stat_map([{"name":"fouls","value":"12"}])["fouls"],12)
+        self.assertNotIn("fouls", _stat_map([
+            {"name":"fouls","value":"12"}, {"name":"totalFouls","value":"13"}]))
         data=summary()
         del data["boxscore"]["teams"][0]["statistics"][2]
         self.assertNotIn("home_corners",_parse_summary(data,"SP2",HOME,AWAY,EVENT))

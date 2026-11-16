@@ -40,3 +40,13 @@ Abrir `http://localhost:8000/site/`; no abrir `index.html` con el esquema `file:
 
 ## Escudos de equipos
 El despliegue genera `site/crests.json` a partir de los nombres de partidos y del catálogo de clubes de ESPN. El código está en `site/scripts/build_crests.py`; no altera las predicciones ni guarda imágenes ajenas. Utilizamos enlaces `a.espncdn.com` únicamente para identificar equipos. Los nombres ambiguos o sin escudo se representan con las iniciales originales. Las marcas y logotipos pertenecen a sus titulares. La generación se comprueba con `site/tests/test_crests.py` y se incluye en el artefacto de GitHub Pages, sin necesidad de versionar el JSON generado.
+
+## Explorador de mercados (v1.2)
+
+La pestaña **Explorar mercados** permite elegir: córners, tiros, tiros a puerta, faltas, amarillas, rojas, goles totales, doble oportunidad, resultado 1X2 y ambos marcan. También tiene filtros por **competición, últimos 30/90/180/365 días, equipo y línea/resultado**.
+
+Las medias, medianas, histogramas y frecuencias se calculan sobre **resultados históricos realmente disputados**, publicados en `output/mercados_historicos.json` (hasta 365 días; información observacional, no pronóstico). El dataset se obtiene del histórico de `football-data.co.uk` y añade estadísticas ESPN solo cuando se contrastaron por marcador y equipos. El periodo y el tamaño de muestra se muestran en pantalla; si falta una estadística, se marca como **no disponible** en vez de cero.
+
+La tasa **Acierto Top 3** procede **exclusivamente** de `output/seguimiento_selecciones.csv`, cuya selección fue archivada antes del partido. Así se distingue la frecuencia histórica de una línea de la calidad real de nuestras predicciones. En faltas la cobertura puede ser muy limitada: football-data.co.uk no publica habitualmente ese campo y solo utilizamos recuentos de ESPN si han sido verificados. Ningún dato de esta pantalla alimenta el entrenamiento del modelo, y no hay apuestas ejecutadas.
+
+Las métricas y filtros se prueban con `site/tests/markets.test.mjs`; la generación del JSON se valida con `tests/test_market_history.py`.

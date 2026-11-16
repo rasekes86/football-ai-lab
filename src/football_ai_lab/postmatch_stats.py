@@ -20,13 +20,14 @@ LOG = logging.getLogger(__name__)
 VERSION = "postmatch-stats-1.0"
 MAX_SCOREBOARD_DAYS = 24
 MAX_SUMMARIES = 18
-COUNTS = ("shots", "on_target", "corners", "yellow", "red")
+COUNTS = ("shots", "on_target", "corners", "yellow", "red", "fouls")
 ALIASES = {
     "shots": ("totalShots", "shots"),
     "on_target": ("shotsOnTarget", "shotsOnGoal"),
     "corners": ("cornerKicks", "corners"),
     "yellow": ("yellowCards",),
     "red": ("redCards",),
+    "fouls": ("fouls", "foulsCommitted", "totalFouls"),
 }
 FIELDS = tuple(f"{side}_{metric}" for side in ("home", "away") for metric in COUNTS)
 SUMMARY_ROOT = "https://site.api.espn.com/apis/site/v2/sports/soccer/"
@@ -187,6 +188,16 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
                     sources[field] = "football-data.co.uk · histórico CSV"
             game["fuentes_metricas"] = sources
 
+    # Explorador: obtener faltas de todos los partidos prospectivos ya
+    # finalizados, aunque no haya apuesta de faltas. No altera el Top 3.
+    auxiliary_fouls = {key: {"fouls"} for key in _pending_fixtures(archived, now)
+                       if key in matches and key not in duplicates}
+    requested = defaultdict(set)
+    for key, metrics in wanted.items():
+        requested[key].update(metrics)
+    for key, metrics in auxiliary_fouls.items():
+        requested[key].update(metrics)
+
     existing = _safe_cached(cache_path)
     by_key = {}
     for item in existing:
@@ -201,7 +212,7 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
         except (KeyError, ValueError, TypeError):
             continue
     reused = 0
-    for key, metrics in wanted.items():
+    for key, metrics in requested.items():
         if key in duplicates or key not in matches or key not in by_key:
             continue
         game = matches[key]
@@ -212,7 +223,7 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
         reused += _apply(game, item.get("estadisticas") or {}, item["fuente_url"])
 
     by_day = defaultdict(set)
-    for key, metrics in wanted.items():
+    for key, metrics in requested.items():
         if key in duplicates or key not in matches or _usable(matches[key], metrics):
             continue
         by_day[(key[0], key[1])].add(key)
@@ -287,6 +298,9 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
         "summaries_consultados": summaries, "campos_recuperados": fresh,
         "campos_recuperados_cache": reused,
         "conflictos_marcador": mismatched, "fallos_fuente": failures,
+        "partidos_con_faltas": sum(
+            _usable(matches[key], {"fouls"}) for key in auxiliary_fouls), 
+        "objetivos_faltas": len(auxiliary_fouls),
         "limites": {"scoreboards": MAX_SCOREBOARD_DAYS, "summaries": MAX_SUMMARIES},
         "nota": "Solo estadísticas de partidos finalizados e identidades y marcadores concordantes. "
                 "La ausencia se conserva, nunca equivale a cero. No contamina pronósticos.",
