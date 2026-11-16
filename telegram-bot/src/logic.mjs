@@ -66,7 +66,7 @@ const leg=k=>LEAGUES.find(l=>l[0]===k)?.[1]??k;
 const market=k=>MARKETS.find(m=>m[0]===k)?.[1]??k;
 export function menu(){
  return output("⚽ Football AI Lab · Asistente prepartido\n\n"+
-  "Elige una opción o escribe el nombre de un equipo.\n"+
+  "Elige una opción o pregunta: «Analiza los partidos de Segunda de mañana».\n"+
   "Los pronósticos proceden de los datos publicados; no se analizan partidos en directo.",topMenu);
 }
 const back=()=>[base];
@@ -221,13 +221,97 @@ function results(source){
 function help(){
  return output("❔ Puedes usar los botones o escribir:\n\n"+
   "«próximos», «mañana», «Tenerife», «Tenerife Ceuta», «goles», "+
-  "«córners», «cuotas 1,50», «resultados».\n\n"+
+  "«córners», «cuotas 1,50», «resultados»,\n"+
+  "«Analízame los partidos de Segunda de mañana»,\n"+
+  "«Goles de Primera hoy».\n\n"+
   "El bot entiende preguntas sencillas sobre los datos publicados. "+
   "No es un chat de IA libre, no consulta cuotas en directo ni ejecuta apuestas.",[base]);
 }
+// Interpretación local y gratuita de combinaciones habituales de liga, fecha y mercado.
+function questionLeague(q){
+ if(/\b(segunda|segunda division|2 division|2a division|liga 2|laliga 2|la liga 2|hypermotion)\b/.test(q))return "SP2";
+ if(/\b(primera|primera division|laliga|la liga|liga ea sports)\b/.test(q))return "SP1";
+ if(/\b(premier|premier league|liga inglesa)\b/.test(q))return "E0";
+ if(/\b(bundesliga|liga alemana)\b/.test(q))return "D1";
+ if(/\b(serie a|liga italiana)\b/.test(q))return "I1";
+ if(/\b(ligue 1|liga francesa)\b/.test(q))return "F1";
+ return "all";
+}
+function questionMarket(q){
+ const terms=[
+  [/\b(corner|corners|corners totales|corners|corners de|corners del|corners en|corners para|corneres)\b/,"corners"],
+  [/\btiros? a puerta\b/,"on_target"],[/\b(tiros|remates)\b/,"shots"],
+  [/\b(amarillas|tarjetas amarillas)\b/,"yellow"],
+  [/\bdoble oportunidad\b/,"double"],[/\bambos marcan\b/,"btts"],
+  [/\b(goles|gol)\b/,"goals"],[/\b(1x2|empate)\b/,"result"],
+  [/\bfaltas\b/,"fouls"],[/\b(rojas|tarjetas rojas)\b/,"red"]
+ ];
+ for(const [re,key] of terms)if(re.test(q))return key;
+ return "all";
+}
+function naturalDigest(list,action,now){
+ const p=action.split(":");
+ if(p.length!==5)return help();
+ const [,league,day,key,rawPage]=p;
+ if(!(league==="all"||LEAGUES.some(x=>x[0]===league))||
+    !["all","today","tomorrow"].includes(day)||
+    !(key==="all"||MARKETS.some(x=>x[0]===key))||
+    !/^\d{1,3}$/.test(rawPage))return help();
+ const dayCode=day==="today"?madridDay(now):
+  day==="tomorrow"?nextDay(madridDay(now)):null;
+ const filtered=list.filter(m=>
+  (league==="all"||m.liga===leg(league))&&
+  (!dayCode||madridDay(instant(m.fecha_utc))===dayCode)&&
+  (key==="all"||Array.isArray(m.mercados?.[key])&&m.mercados[key].length>0));
+ const perPage=3, last=Math.max(0,Math.ceil(filtered.length/perPage)-1);
+ const page=Math.max(0,Math.min(last,Number(rawPage)));
+ const shown=filtered.slice(page*perPage,(page+1)*perPage);
+ const headline=[
+  league==="all"?"Todas las ligas":leg(league),
+  day==="all"?"próximos 14 días":day==="today"?"hoy":"mañana",
+  key==="all"?null:market(key)
+ ].filter(Boolean).join(" · ");
+ const rows=shown.map(m=>[bt(short("🏟️ "+title(m),53),"f:"+hash(m.id))]);
+ const nav=[];
+ const prefix=["nl",league,day,key].join(":");
+ if(page>0)nav.push(bt("◀️ Anteriores",prefix+":"+(page-1)));
+ if(page<last)nav.push(bt("Siguientes ▶️",prefix+":"+(page+1)));
+ if(nav.length)rows.push(nav);
+ rows.push(base);
+ if(!shown.length)return output("🔎 "+headline+"\n\n"+
+  "No hay partidos futuros publicados que cumplan estos filtros. "+
+  "Comprueba también que el informe esté actualizado.",rows);
+ const summary=shown.map((m,i)=>{
+  const values=(key==="all"?Object.values(m.mercados||{}).flat():
+   m.mercados?.[key]||[]).filter(x=>Number.isInteger(x.posicion_top3)&&
+    x.posicion_top3>=1&&x.posicion_top3<=3)
+    .sort((a,b)=>a.posicion_top3-b.posicion_top3).slice(0,3);
+  const lines=values.length?values.map(x=>"   • "+x.seleccion+
+   " · "+pct(x.probabilidad)+" · justa "+dec(x.cuota_justa)).join("\n"):
+   "   Sin selecciones Top 3 publicadas para este filtro";
+  return (page*perPage+i+1)+". "+showDate(m.fecha_utc)+" · "+
+   title(m)+"\n"+lines;
+ }).join("\n\n");
+ return output("📊 Pronósticos publicados · "+headline+
+  "\n\n"+summary+"\n\nPágina "+(page+1)+"/"+(last+1)+
+  ". Las cuotas justas son estimaciones, NO ofertas reales. "+
+  "Pulsa un partido para ver todos sus mercados.",rows);
+}
+
 export function interpret(text){
  const q=flat(text);
  if(!q||["start","menu","hola","inicio","buenas"].includes(q))return "menu";
+ // Los comandos anteriores conservan su comportamiento y las consultas
+ // compuestas no sustituyen las fuentes de cuotas o fiabilidad.
+ if(/cuota|precio|1 50|bookmaker/.test(q))return "q";
+ if(/resultado|acierto|calibracion|balance|fiabilidad|fallo/.test(q))return "results";
+ const league=questionLeague(q),key=questionMarket(q);
+ const day=/\bmanana\b/.test(q)?"tomorrow":/\bhoy\b/.test(q)?"today":"all";
+ const wantsAnalysis=/analiz|analisis|pronostic|resumen|recomend|mejor/.test(q);
+ if((league!=="all"&&(day!=="all"||key!=="all"||wantsAnalysis||
+     /\b(partidos|jornada|segunda|primera|hypermotion)\b/.test(q)))||
+    (day!=="all"&&(wantsAnalysis||key!=="all")))
+  return ["nl",league,day,key,"0"].join(":");
  if(/ayuda|help/.test(q))return "help";
  if(/\bhoy\b/.test(q))return "today";
  if(/manana/.test(q))return "tomorrow";
@@ -267,6 +351,7 @@ export function reply(action,feeds={},now=new Date()){
  if(!isFresh(source,now))return output("⚠️ No encuentro un pronóstico prepartido reciente.\n"+
   "Revisa GitHub Actions; no mostraré datos antiguos como actuales.",[base]);
  const list=upcoming(source,now),p=String(action).split(":");
+ if(p[0]==="nl")return naturalDigest(list,action,now);
  if(action==="q")return odds(feeds.odds||{},now,null);
  if(action==="theory")return theory(list,null);
  if(action==="today"||action==="tomorrow"){
