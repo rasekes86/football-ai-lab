@@ -8,6 +8,7 @@ import { reliabilitySnapshot } from "./reliability.mjs";
 import { radarSnapshot } from "./radar.mjs";
 import { realOddsSnapshot } from "./real_odds.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
+import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -47,7 +48,10 @@ const textOrDash = input => input === null || input === undefined || input === "
 
 const state = {
   data: null,
-  view: "overview",
+  view: "fixtures",
+  agendaDay: "upcoming",
+  agendaQuery: "",
+  agendaOpen: new Set(),
   matchLimit: 24,
   historyLimit: 40,
   marketLimit: 35,
@@ -196,6 +200,56 @@ async function refreshData() {
     (state.data.updatedAt ? displayDate(state.data.updatedAt) : "sin fecha");
   $("navMatchCount").textContent = integer(state.data.futureMatches.length);
   renderAll();
+}
+
+/** Agenda deportiva principal: reutiliza el modelo y sus selecciones Top 3 originales. */
+function agendaGame(m){
+  const when=new Date(m.kickoff);
+  const hour=Number.isFinite(when.getTime())?timeFmt.format(when):"—";
+  const score=m.score?escapeHtml(m.score):escapeHtml(hour);
+  const picks=(m.picks||[]).slice(0,3);
+  const pickText=picks.length?picks.map(p=>
+    "<span class=\"agenda-game-pick\">"+
+    escapeHtml(p.seleccion)+" <strong>"+percent(numberOrNull(p.probabilidad))+"</strong></span>"
+  ).join(""):"<span class=\"agenda-game-pick empty-pick\">Top 3 no publicado</span>";
+  return '<button type="button" class="agenda-game" data-open-id="'+escapeHtml(m.id)+'" aria-label="Ver pronósticos de '+escapeHtml(m.local)+' contra '+escapeHtml(m.visitante)+'">'+
+    '<span class="agenda-game-time">'+escapeHtml(displayDay(m.fecha_utc))+'<b>'+score+'</b></span>'+
+    '<span class="agenda-game-teams"><span>'+teamCrest(m.liga,m.local,true)+'<strong>'+escapeHtml(m.local)+'</strong></span>'+
+    '<span>'+teamCrest(m.liga,m.visitante,true)+'<strong>'+escapeHtml(m.visitante)+'</strong></span></span>'+
+    '<span class="agenda-game-picks">'+pickText+'</span>'+
+    '<span class="agenda-game-arrow" aria-hidden="true">›</span></button>';
+}
+function renderAgenda(){
+  if(!state.data)return;
+  const now=Date.now();
+  const days=agendaDays(now,1,13);
+  const choices=[{key:"upcoming",weekday:"TODOS",label:"14 DÍAS"},...days];
+  inner("agendaDates",choices.map(x=>{
+    const active=x.key===state.agendaDay;
+    return '<button type="button" data-agenda-day="'+escapeHtml(x.key)+'" class="agenda-day'+(active?' selected':'')+
+      (x.today?' is-today':'')+'" aria-pressed="'+String(active)+'"><span>'+escapeHtml(x.weekday)+'</span><strong>'+
+      escapeHtml(x.label)+'</strong></button>';
+  }).join(""));
+  const dateInput=$("agendaDate");
+  if(dateInput&&document.activeElement!==dateInput)dateInput.value=state.agendaDay==="upcoming"?"":state.agendaDay;
+  const matches=agendaSelection(state.data.matches,state.agendaDay,state.agendaQuery,now);
+  const groups=agendaGroups(matches);
+  inner("agendaCount",integer(matches.length));
+  inner("agendaCompetitions",groups.length?groups.map((group,index)=>{
+    const open=state.agendaOpen.has(group.name)||Boolean(state.agendaQuery);
+    const count=group.games.length;
+    return '<article class="agenda-competition">'+
+      '<button type="button" class="agenda-league" data-agenda-league="'+escapeHtml(group.name)+
+      '" aria-expanded="'+String(open)+'" aria-controls="agenda-games-'+index+'">'+
+      '<span class="agenda-flag" aria-hidden="true">'+escapeHtml(group.meta.flag)+'</span>'+
+      '<span class="agenda-league-text"><small>'+escapeHtml(group.meta.country)+'</small><strong>'+
+      escapeHtml(group.meta.label)+'</strong></span>'+
+      '<span class="agenda-league-count">'+integer(count)+'</span><span class="agenda-chevron" aria-hidden="true">⌄</span></button>'+
+      '<div class="agenda-league-games" id="agenda-games-'+index+'"'+(open?'':' hidden')+'>'+
+      group.games.map(agendaGame).join("")+'</div></article>';
+  }).join(""):'<div class="agenda-empty"><strong>Sin encuentros publicados para este filtro</strong>'+
+    '<p>Elige otro día o pulsa «TODOS · 14 DÍAS» para consultar los próximos partidos de las seis ligas.</p>'+
+    '<button type="button" data-agenda-day="upcoming">Ver próximos 14 días ›</button></div>');
 }
 
 function renderOverview() {
@@ -842,6 +896,7 @@ function renderAll() {
   const oldMarket=$("historyMarketFilter").value;
   insertOptions("historyMarketFilter",markets);
   $("historyMarketFilter").value=oldMarket;
+  renderAgenda();
   renderOverview();
   renderMatches();
   renderHistory();
@@ -946,7 +1001,7 @@ function closeDialog() {
   if (state.lastFocus?.focus) state.lastFocus.focus();
 }
 function changeView(view) {
-  if (!["overview","matches","radar","markets","history","odds","realodds","model"].includes(view)) return;
+  if (!["fixtures","overview","matches","radar","markets","history","odds","realodds","model"].includes(view)) return;
   state.view=view;
   document.querySelectorAll(".view").forEach(x=>x.hidden=x.id!==`view-${view}`);
   document.querySelectorAll("[data-view]").forEach(x=>{
@@ -968,6 +1023,15 @@ function wire() {
     image.remove();
   }, true);
   document.addEventListener("click",e=>{
+    const chosen=e.target.closest("[data-agenda-day]");
+    if(chosen){state.agendaDay=chosen.dataset.agendaDay;renderAgenda();return;}
+    const league=e.target.closest("[data-agenda-league]");
+    if(league){
+      if(state.agendaOpen.has(league.dataset.agendaLeague))state.agendaOpen.delete(league.dataset.agendaLeague);
+      else state.agendaOpen.add(league.dataset.agendaLeague);
+      renderAgenda();return;
+    }
+    if(e.target.closest("[data-agenda-refresh]")){refreshData();return;}
     const radarToMarket=e.target.closest("[data-radar-to-market]");
     if(radarToMarket){
       $("marketFilter").value=radarToMarket.dataset.radarToMarket;
@@ -1021,6 +1085,14 @@ function wire() {
     });
   }
   $("realOddsMore").addEventListener("click",()=>{state.realOddsLimit+=24;renderRealOdds();});
+  $("agendaSearch").addEventListener("input",e=>{
+    state.agendaQuery=e.target.value.trim();renderAgenda();
+  });
+  $("agendaDate").addEventListener("change",e=>{
+    if(/^\d{4}-\d{2}-\d{2}$/.test(e.target.value)){
+      state.agendaDay=e.target.value;renderAgenda();
+    }
+  });
   $("refreshButton").addEventListener("click",refreshData);
   $("dialogClose").addEventListener("click",closeDialog);
   $("dialogBackdrop").addEventListener("click",e=>{if(e.target===$("dialogBackdrop"))closeDialog()});
@@ -1037,10 +1109,11 @@ function wire() {
   $("historyMore").addEventListener("click",()=>{state.historyLimit+=40;renderHistory()});
   window.addEventListener("hashchange",()=>{
     const view=location.hash.replace("#","");
-    if(["overview","matches","radar","markets","history","odds","realodds","model"].includes(view))changeView(view);
+    if(["fixtures","overview","matches","radar","markets","history","odds","realodds","model"].includes(view))changeView(view);
   });
   const initial=location.hash.replace("#","");
-  if(["overview","matches","radar","markets","history","odds","realodds","model"].includes(initial))changeView(initial);
+  if(["fixtures","overview","matches","radar","markets","history","odds","realodds","model"].includes(initial))changeView(initial);
+  else changeView("fixtures");
 }
 wire();
 refreshData();
