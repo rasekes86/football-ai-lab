@@ -1,101 +1,101 @@
 {
-  "utc": "2026-11-16T17:00:19.481904+00:00",
+  "utc": "2026-11-16T17:11:49.398643+00:00",
   "modo": "automatización Python — sin LLM en cada ejecución",
   "agentes": [
     {
       "agente": "datos",
       "estado": "OK",
       "detalle": "6 ligas; 115 encuentros en 14 días",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 7292
     },
     {
       "agente": "marcadores_finales",
       "estado": "OK",
       "detalle": "Oficiales: 0; ESPN: 0; sin marcador: 0",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 4
     },
     {
       "agente": "estadisticas_finales",
       "estado": "OK",
       "detalle": "Conteos: 2/2 partidos completos; campos ESPN: 0",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 2
     },
     {
       "agente": "contexto",
       "estado": "PARCIAL",
       "detalle": "Machina Sports: 5 ligas; lesiones sólo Premier si disponibles",
-      "utc": "2026-11-16T17:00:19.481904+00:00"
+      "utc": "2026-11-16T17:11:49.398643+00:00"
     },
     {
       "agente": "jugadores",
       "estado": "CON_HISTORICO_PARCIAL",
-      "detalle": "2235 registros; 1631 participaciones verificadas; sin apuestas individuales",
-      "utc": "2026-11-16T17:00:19.481904+00:00"
+      "detalle": "2283 registros; 1662 participaciones verificadas; sin apuestas individuales",
+      "utc": "2026-11-16T17:11:49.398643+00:00"
     },
     {
       "agente": "predictor",
       "estado": "OK",
       "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 8",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 107
     },
     {
       "agente": "auditoria_mercados_futuros",
       "estado": "OK",
       "detalle": "Archivo propio: 0 nuevas líneas, 0/3894 evaluadas; no modifica el Top 3 original",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 3894
     },
     {
       "agente": "oportunidades_150",
       "estado": "OK",
       "detalle": "5 cotizaciones archivadas; 4 mercados liquidados; cuotas conversacionales NO verificadas",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 5
     },
     {
       "agente": "selector",
       "estado": "OK",
       "detalle": "107 partidos; 35 líneas de conteos aptas retrospectivamente; jugadores no habilitados",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 321
     },
     {
       "agente": "mercado",
       "estado": "REFERENCIAS",
       "detalle": "InferSports keyless: 2 coincidencias (máximo tres consultas); The Odds API: sin clave",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 2
     },
     {
       "agente": "auditor",
       "estado": "OK",
       "detalle": "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 601
     },
     {
       "agente": "evaluador",
       "estado": "OK",
       "detalle": "4 finales verificados, 107 pendientes",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 111
     },
     {
       "agente": "mercados_prospectivos",
       "estado": "OK",
       "detalle": "12 selecciones terminadas, 321 pendientes; no confundir con backtest",
-      "utc": "2026-11-16T17:00:19.481904+00:00",
+      "utc": "2026-11-16T17:11:49.398643+00:00",
       "registros": 333
     },
     {
       "agente": "publicador",
       "estado": "OK",
       "detalle": "Archivos de salida escritos en output",
-      "utc": "2026-11-16T17:00:19.481904+00:00"
+      "utc": "2026-11-16T17:11:49.398643+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-16T17:00:19.481904+00:00",
+  "actualizado_utc": "2026-11-16T17:11:49.398643+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -24844,6 +24844,966 @@
       "fuente": "ESPN summary público no oficial"
     },
     {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "219531",
+      "jugador": "Vanja Milinkovic-Savic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "205576",
+      "jugador": "Amir Rrahmani",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "297360",
+      "jugador": "Rafa Marín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "261594",
+      "jugador": "Sam Beukema",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "255850",
+      "jugador": "Scott McTominay",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "274217",
+      "jugador": "Billy Gilmour",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "234881",
+      "jugador": "Mathías Olivera",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "332411",
+      "jugador": "Antonio Vergara",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "309273",
+      "jugador": "Rasmus Højlund",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "255344",
+      "jugador": "Noa Lang",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "134947",
+      "jugador": "Kevin De Bruyne",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "416154",
+      "jugador": "Francisco Baridó",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "282564",
+      "jugador": "Lorenzo Lucca",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "339953",
+      "jugador": "Giovane",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "188306",
+      "jugador": "Matteo Politano",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "198082",
+      "jugador": "Nikita Contini",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "5327647",
+      "jugador": "Andrea Chiummariello",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "3145436",
+      "jugador": "Milton Agustín Pereyra",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "215721",
+      "jugador": "Frank Anguissa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "5327646",
+      "jugador": "Claudio Lieto",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "5327645",
+      "jugador": "Nikita Melnyk",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Napoli",
+      "jugador_id": "209746",
+      "jugador": "Alex Meret",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "265140",
+      "jugador": "Christos Mandas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "333311",
+      "jugador": "Oliver Provstgaard",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "305552",
+      "jugador": "Josip Sutalo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "288901",
+      "jugador": "Nuno Tavares",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "330041",
+      "jugador": "Romano Floriani",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "345323",
+      "jugador": "Reda Belahyane",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "282228",
+      "jugador": "Kenneth Taylor",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "250850",
+      "jugador": "Davide Frattesi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "239086",
+      "jugador": "Andrea Pinamonti",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "323113",
+      "jugador": "Tijjani Noslin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "291550",
+      "jugador": "Gustav Isaksen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "258910",
+      "jugador": "Diogo Leite",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "308944",
+      "jugador": "Matteo Cancellieri",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "251144",
+      "jugador": "Luca Pellegrini",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "233622",
+      "jugador": "Danilho Doekhi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "367320",
+      "jugador": "Edoardo Motta",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "218439",
+      "jugador": "Alfonso Pedraza",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "178627",
+      "jugador": "Danilo Cataldi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "241430",
+      "jugador": "Manuel Lazzari",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "411164",
+      "jugador": "Valerio Farcomeni",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "399454",
+      "jugador": "Federico Serra",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "364224",
+      "jugador": "Adrian Przyborek",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "295515",
+      "jugador": "Fisayo Dele-Bashiru",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "218105",
+      "jugador": "Adam Marusic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "359647",
+      "jugador": "Davide Renzetti",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401874810",
+      "liga": "I1",
+      "fecha_utc": "2026-11-08T11:30:00+00:00",
+      "local": "Napoli",
+      "visitante": "Lazio",
+      "equipo": "Lazio",
+      "jugador_id": "285969",
+      "jugador": "Nicolò Rovella",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
       "event_id": "401876407",
       "liga": "F1",
       "fecha_utc": "2026-11-07T20:05:00+00:00",
@@ -44704,10 +45664,10 @@
       "fuente": "ESPN summary público no oficial"
     }
   ],
-  "eventos_consultados": 4,
-  "eventos_con_jugadores": 4,
+  "eventos_consultados": 1,
+  "eventos_con_jugadores": 1,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 52,
-  "jugadores_con_algun_dato": 2235
+  "partidos_archivados": 53,
+  "jugadores_con_algun_dato": 2283
 }
