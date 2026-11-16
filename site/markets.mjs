@@ -138,6 +138,6 @@ export function marketSnapshot(model,filter={},now=new Date()) {
     byLeague,distribution,
     picks:{registered:picks.length,evaluated:evaluated.length,hits:wins,
       accuracy:evaluated.length?wins/evaluated.length:null},
-    rows:valid.slice(0,350),
+    rows:valid,
   };
 }
