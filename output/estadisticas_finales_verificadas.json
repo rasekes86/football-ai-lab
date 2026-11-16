@@ -1,23 +1,118 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
+  "calculado_utc": "2026-11-16T12:56:50.694823+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
+    "calculado_utc": "2026-11-16T12:56:50.694823+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 1,
+    "summaries_consultados": 4,
+    "campos_recuperados": 8,
     "campos_recuperados_cache": 0,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
+    "partidos_con_faltas": 4,
+    "objetivos_faltas": 4,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
     },
     "nota": "Solo estadísticas de partidos finalizados e identidades y marcadores concordantes. La ausencia se conserva, nunca equivale a cero. No contamina pronósticos."
   },
-  "partidos": []
+  "partidos": [
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "goles_local": 1,
+      "goles_visitante": 1,
+      "event_id": "401883117",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883117",
+      "verificado_utc": "2026-11-16T12:56:50.694823+00:00",
+      "estadisticas": {
+        "home_shots": 18,
+        "home_on_target": 9,
+        "home_yellow": 1,
+        "home_red": 0,
+        "home_fouls": 15,
+        "away_shots": 8,
+        "away_on_target": 5,
+        "away_yellow": 2,
+        "away_red": 0,
+        "away_fouls": 15
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "goles_local": 2,
+      "goles_visitante": 0,
+      "event_id": "401883113",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883113",
+      "verificado_utc": "2026-11-16T12:56:50.694823+00:00",
+      "estadisticas": {
+        "home_shots": 11,
+        "home_on_target": 5,
+        "home_yellow": 2,
+        "home_red": 0,
+        "home_fouls": 13,
+        "away_shots": 15,
+        "away_on_target": 2,
+        "away_yellow": 2,
+        "away_red": 0,
+        "away_fouls": 11
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "goles_local": 1,
+      "goles_visitante": 0,
+      "event_id": "401883116",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883116",
+      "verificado_utc": "2026-11-16T12:56:50.694823+00:00",
+      "estadisticas": {
+        "home_shots": 17,
+        "home_on_target": 3,
+        "home_yellow": 3,
+        "home_red": 0,
+        "home_fouls": 12,
+        "away_shots": 12,
+        "away_on_target": 6,
+        "away_yellow": 3,
+        "away_red": 1,
+        "away_fouls": 7
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-15",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "goles_local": 2,
+      "goles_visitante": 0,
+      "event_id": "401883137",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883137",
+      "verificado_utc": "2026-11-16T12:56:50.694823+00:00",
+      "estadisticas": {
+        "home_shots": 14,
+        "home_on_target": 6,
+        "home_yellow": 2,
+        "home_red": 0,
+        "home_fouls": 9,
+        "away_shots": 5,
+        "away_on_target": 0,
+        "away_yellow": 2,
+        "away_red": 1,
+        "away_fouls": 12
+      }
+    }
+  ]
 }

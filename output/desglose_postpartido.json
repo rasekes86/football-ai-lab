@@ -1,18 +1,20 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
+  "calculado_utc": "2026-11-16T12:56:50.694823+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-16T12:39:16.130658+00:00",
+    "calculado_utc": "2026-11-16T12:56:50.694823+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 1,
+    "summaries_consultados": 4,
+    "campos_recuperados": 8,
     "campos_recuperados_cache": 0,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
+    "partidos_con_faltas": 4,
+    "objetivos_faltas": 4,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
@@ -72,6 +74,15 @@
           "total": 0,
           "fuentes": [
             "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 13,
+          "visitante": 11,
+          "total": 24,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883113"
           ]
         }
       },
@@ -169,6 +180,15 @@
           "fuentes": [
             "football-data.co.uk · histórico CSV"
           ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 12,
+          "visitante": 7,
+          "total": 19,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883116"
+          ]
         }
       },
       "selecciones": [
@@ -265,6 +285,15 @@
           "fuentes": [
             "football-data.co.uk · histórico CSV"
           ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 15,
+          "visitante": 15,
+          "total": 30,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883117"
+          ]
         }
       },
       "selecciones": [
@@ -360,6 +389,15 @@
           "total": 1,
           "fuentes": [
             "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 9,
+          "visitante": 12,
+          "total": 21,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883137"
           ]
         }
       },
