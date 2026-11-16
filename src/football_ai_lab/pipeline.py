@@ -33,6 +33,7 @@ from .verified_results import augment_results
 from .postmatch_stats import enrich_statistics
 from .postmatch_breakdown import build_breakdown
 from .market_history import build_market_history
+from .radar_context import build_radar_context
 from .future_market_audit import (
     FIELDS as FUTURE_AUDIT_FIELDS, archive_future_markets,
     settle_future_markets, audit_future_markets,
@@ -309,6 +310,12 @@ def main(argv=None) -> None:
         "calculado_utc":m["calculado_utc"],
         "mercados":m.get("_pronosticos_mercados",{}),
     } for m in selections]
+    # Radar: solo histórico original ANTERIOR al partido, separado
+    # del enriquecimiento postpartido y de las selecciones archivadas.
+    radar_context = build_radar_context(histories, previews, now)
+    (target/"radar_contexto_equipos.json").write_text(
+        json.dumps(radar_context,ensure_ascii=False,separators=(",",":")),
+        encoding="utf-8")
     (target/"pronosticos_mercados_futuros.json").write_text(json.dumps({
         "version":"future-markets-1.0","calculado_utc":now.isoformat(),
         "partidos":previews,

@@ -5,6 +5,7 @@ import {
 import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mjs";
 import { futureMarketSnapshot } from "./future_markets.mjs";
 import { reliabilitySnapshot } from "./reliability.mjs";
+import { radarSnapshot } from "./radar.mjs";
 
 const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
@@ -49,6 +50,7 @@ const state = {
   historyLimit: 40,
   marketLimit: 35,
   futureMarketLimit: 18,
+  radarLimit: 20,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -615,6 +617,101 @@ function renderMarkets() {
   }).join(""):`<tr><td class="empty" colspan="7">No hay partidos con esta estadística y filtros. Prueba otro periodo o competición.</td></tr>`);
   $("marketMore").hidden=rows.length>=view.rows.length;
 }
+
+function radarObservation(stat, profile, sideName, observed, category) {
+  if(!stat.games) return `<div class="radar-observation"><strong>${escapeHtml(sideName)}</strong><span>Sin partidos anteriores en esta condición</span></div>`;
+  const isResult=["double","result","btts"].includes(category);
+  const description=isResult
+    ?`Victorias ${integer(stat.wins)} · Empates ${integer(stat.draws)} · Derrotas ${integer(stat.losses)}
+      ${category==="btts"?" · Ambos marcaron "+integer(stat.bothScored)+"/"+integer(stat.games):""}`
+    :`Media por encuentro: <strong>${stat.mean===null?"—":numberFmt.format(stat.mean)}</strong>
+      · ${integer(stat.verified)}/${integer(stat.games)} partidos con dato`;
+  const frequency=!isResult&&observed
+    ?`<small>La línea calculada se cumplió en ${integer(observed.matched)}
+        de ${integer(observed.observed)} encuentros previos (${percent(observed.frequency)}).</small>`:"";
+  return `<div class="radar-observation"><strong>${escapeHtml(sideName)}</strong><span>${description}</span>
+    ${frequency}<small>Último partido incluido: ${stat.latest?escapeHtml(displayDay(stat.latest)):"—"}</small></div>`;
+}
+function radarCard(item) {
+  const p=item.best, r=item.profile, level=forecastLevel(p.nivel);
+  const coverage=r.coverage===null?"Sin datos":percent(r.coverage);
+  return `<article class="radar-card">
+    <div class="radar-card-top"><span>${escapeHtml(item.liga)} · ${escapeHtml(displayDate(item.fecha_utc))}</span>
+      <span class="future-quality ${level.css}" title="${escapeHtml(level.hint)}">${escapeHtml(level.text)}</span>
+    </div>
+    <div class="radar-card-teams">
+      <span>${teamCrest(item.liga,item.local,true)}<strong>${escapeHtml(item.local)}</strong></span>
+      <small>VS</small>
+      <span>${teamCrest(item.liga,item.visitante,true)}<strong>${escapeHtml(item.visitante)}</strong></span>
+    </div>
+    <div class="radar-card-pick">
+      <div><small>PRONÓSTICO DEL MODELO</small><strong>${escapeHtml(p.seleccion)}</strong>
+        <span>${Number.isInteger(p.posicion_top3)?"Top 3 original, puesto "+p.posicion_top3:"Línea adicional"}
+          · Cuota justa teórica ${decimal(p.cuota_justa)}</span></div>
+      <div class="radar-prob"><strong>${percent(p.probabilidad)}</strong><small>Modelo</small></div>
+    </div>
+    <div class="radar-card-meta">
+      <span>COBERTURA <strong>${coverage}</strong></span>
+      <span>DATOS <strong>${integer(r.verified)}/${integer(r.sample)}</strong></span>
+      <span class="${r.enough?"radar-enough":"radar-limited"}">
+        ${r.enough?"Muestra disponible":"Muestra limitada"}</span>
+    </div>
+    <details class="radar-details">
+      <summary>Comparativa previa y explicación <span aria-hidden="true">⌄</span></summary>
+      <p>Últimos ${integer(r.period)} encuentros de cada equipo
+        (${r.scope==="venue_only"?"local en casa y visitante fuera":"todos los partidos"}),
+        anteriores a la fecha del pronóstico.</p>
+      <div class="radar-observations">
+        ${radarObservation(r.home,r,item.local,r.observedHome,r.market)}
+        ${radarObservation(r.away,r,item.visitante,r.observedAway,r.market)}
+      </div>
+      <p>Las medias, frecuencias y coberturas provienen del histórico, y NO se usan
+        para inventar una nueva probabilidad. ${r.enough?"":"Muestra reducida: no extraer conclusiones fuertes."}
+        Fuente: Football-Data; los datos ausentes no son ceros.</p>
+    </details>
+    <div class="radar-card-actions">
+      <button type="button" class="btn btn-outline" data-open-id="${escapeHtml(item.id)}">Ficha del partido ↗</button>
+      <button type="button" class="inline-link" data-radar-to-market="${escapeHtml(r.market)}">Ver mercado ↗</button>
+    </div>
+  </article>`;
+}
+function renderRadar() {
+  if(!state.data)return;
+  const filters={
+    market:$("radarMarketFilter").value,league:$("radarLeagueFilter").value,
+    minProbability:$("radarProbability").value,
+    quality:$("radarQuality").value,coverage:$("radarCoverage").value,
+    minFair:$("radarFair").value,window:$("radarWindow").value,
+    scope:$("radarScope").value,order:$("radarOrder").value,
+    team:$("radarTeam").value
+  };
+  const result=radarSnapshot(state.data,filters);
+  const available=result.rows.filter(x=>x.profile.coverage!==null);
+  const coverage=available.length
+    ?available.reduce((sum,x)=>sum+x.profile.coverage,0)/available.length:null;
+  $("radarCount").textContent=integer(result.total)+" partidos";
+  inner("radarKpis",
+    kpi("Partidos futuros",integer(result.futureMatches),"Con pronóstico del mercado")+
+    kpi("En el radar",integer(result.total),integer(result.belowCoverage)+" excluidos por cobertura",true)+
+    kpi("Cobertura media",percent(coverage),"Porcentaje de partidos anteriores con estadística")+
+    kpi("Muestra limitada",integer(result.rows.filter(x=>!x.profile.enough).length),
+      "Menos de 3 partidos completos por equipo")
+  );
+  $("radarNotice").textContent=!state.data.marketFutures?.length
+    ?"Sin pronósticos futuros publicados; no se estiman resultados."
+    :!result.contextAvailable
+    ?"El contexto del radar aún no está publicado. Los pronósticos siguen disponibles, pero sin estadísticas inventadas."
+    :!result.total
+    ?"Ningún encuentro cumple los filtros o este mercado carece de modelo prepartido. Prueba ampliar los criterios."
+    :"Radar de investigación · "+integer(result.total)+" encuentros. Ordenados por "+
+      (filters.order==="coverage"?"cobertura":filters.order==="confidence"?"probabilidad":"fecha")+
+      ". Esto no es un ranking de valor ni rentabilidad.";
+  const cards=result.rows.slice(0,state.radarLimit);
+  inner("radarGrid",cards.length?cards.map(radarCard).join("") :
+    empty("No hay encuentros que cumplan los criterios; no se completan datos ausentes con estimaciones."));
+  $("radarMore").hidden=cards.length>=result.rows.length;
+}
+
 function renderModel() {
   const d=state.data;
   inner("modelLeagues", d.leagues.map(x => `<div class="model-league-row">
@@ -640,7 +737,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter"]) {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
@@ -653,6 +750,7 @@ function renderAll() {
   renderHistory();
   renderOdds();
   renderMarkets();
+  renderRadar();
   renderModel();
 }
 function dialogPick(row, index, detail = null) {
@@ -750,7 +848,7 @@ function closeDialog() {
   if (state.lastFocus?.focus) state.lastFocus.focus();
 }
 function changeView(view) {
-  if (!["overview","matches","markets","history","odds","model"].includes(view)) return;
+  if (!["overview","matches","radar","markets","history","odds","model"].includes(view)) return;
   state.view=view;
   document.querySelectorAll(".view").forEach(x=>x.hidden=x.id!==`view-${view}`);
   document.querySelectorAll("[data-view]").forEach(x=>{
@@ -772,6 +870,12 @@ function wire() {
     image.remove();
   }, true);
   document.addEventListener("click",e=>{
+    const radarToMarket=e.target.closest("[data-radar-to-market]");
+    if(radarToMarket){
+      $("marketFilter").value=radarToMarket.dataset.radarToMarket;
+      $("marketLine").value="";
+      marketLineOptions();renderMarkets();changeView("markets");return;
+    }
     const marketButton=e.target.closest("[data-market-key]");
     if(marketButton){
       $("marketFilter").value=marketButton.dataset.marketKey;
@@ -782,6 +886,19 @@ function wire() {
     if(viewBtn){changeView(viewBtn.dataset.view||viewBtn.dataset.go);return;}
     const open=e.target.closest("[data-open-id]");
     if(open){openMatch(open.dataset.openId);return;}
+  });
+  $("radarMarketFilter").innerHTML=MARKET_OPTIONS.map(x=>
+    `<option value="${escapeHtml(x.key)}">${escapeHtml(x.label)}</option>`).join("");
+  $("radarMarketFilter").value="corners";
+  for(const id of ["radarMarketFilter","radarLeagueFilter","radarProbability",
+      "radarQuality","radarCoverage","radarFair","radarWindow","radarScope",
+      "radarOrder","radarTeam"]){
+    $(id).addEventListener(id==="radarTeam"?"input":"change",()=>{
+      state.radarLimit=20;renderRadar();
+    });
+  }
+  $("radarMore").addEventListener("click",()=>{
+    state.radarLimit+=20;renderRadar();
   });
   $("marketFilter").innerHTML=MARKET_OPTIONS.map(x=>
     `<option value="${escapeHtml(x.key)}">${escapeHtml(x.label)}</option>`).join("");
@@ -814,10 +931,10 @@ function wire() {
   $("historyMore").addEventListener("click",()=>{state.historyLimit+=40;renderHistory()});
   window.addEventListener("hashchange",()=>{
     const view=location.hash.replace("#","");
-    if(["overview","matches","markets","history","odds","model"].includes(view))changeView(view);
+    if(["overview","matches","radar","markets","history","odds","model"].includes(view))changeView(view);
   });
   const initial=location.hash.replace("#","");
-  if(["overview","matches","markets","history","odds","model"].includes(initial))changeView(initial);
+  if(["overview","matches","radar","markets","history","odds","model"].includes(initial))changeView(initial);
 }
 wire();
 refreshData();

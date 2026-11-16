@@ -148,3 +148,7 @@ probabilidades de faltas ni tarjetas rojas, mercados aún sin modelo prepartido.
 ### Fase 4 — Auditoría prospectiva de mercados
 
 El [Explorador de mercados](https://rasekes86.github.io/football-ai-lab/#markets) permite consultar los pronósticos futuros y, debajo, un cuadro de **fiabilidad y calibración prospectivas** por categoría y liga. Se archivan las primeras probabilidades de cada partido antes del inicio, se liquidan solo con datos verificables y se calculan tasa de acierto, Brier, logloss y ECE, con advertencias de muestra pequeña. No altera el Top 3 original ni reescribe históricos: [metodología](docs/FASE_4_AUDITORIA.md). Los informes nuevos son `output/historico_mercados_futuros.csv`, `output/seguimiento_mercados_futuros.csv` y `output/fiabilidad_mercados_futuros.json`.
+
+### Fase 5 — Radar de pronósticos futuros
+
+[Abre el Radar inteligente](https://rasekes86.github.io/football-ai-lab/#radar). Filtra mercados futuros por liga, probabilidad, calidad, cobertura y cuota justa teórica. Cada encuentro presenta comparativas de estadísticas previas de ambos equipos en ventanas de 5/10/20 partidos (general o local/fuera), con muestras verificables y acceso a su ficha. El radar no altera el Top 3 ni atribuye rentabilidad a las probabilidades. Consulta la [metodología de la Fase 5](docs/FASE_5_RADAR.md).

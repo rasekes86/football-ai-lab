@@ -433,3 +433,68 @@ main{max-width:1560px;margin:0 auto;padding:32px clamp(22px,3.3vw,52px) 55px;min
   .calibration-row{grid-template-columns:50px minmax(0,1fr) 92px;gap:8px}
   .calibration-value{font-size:9px}
 }
+
+/* Fase 5 — radar de análisis: integra el sistema visual existente. */
+.radar-filter-panel{margin-bottom:16px}
+.radar-filter-panel .panel-heading{margin-bottom:17px}
+.radar-filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}
+.radar-search{grid-column:span 2}
+.radar-notice{margin-bottom:17px}
+.radar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.radar-card{display:flex;flex-direction:column;min-width:0;background:var(--surface);
+  border:1px solid var(--stroke-soft);border-radius:var(--radius);padding:22px}
+.radar-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  color:var(--dim);font-size:10px;font-weight:670}
+.radar-card-teams{display:flex;align-items:center;justify-content:space-between;
+  gap:8px;margin:19px 0 17px}
+.radar-card-teams>span{display:flex;align-items:center;gap:7px;min-width:0;max-width:44%}
+.radar-card-teams>span:last-child{flex-direction:row-reverse;text-align:right}
+.radar-card-teams strong{line-height:1.3;overflow-wrap:anywhere;font-size:13px}
+.radar-card-teams>small{font-size:10px;font-weight:900;color:var(--dim)}
+.radar-card-pick{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  border:1px solid rgba(185,244,120,.17);background:linear-gradient(100deg,#1b3430,#19283b);
+  border-radius:12px;padding:15px}
+.radar-card-pick>div:first-child{min-width:0}
+.radar-card-pick small{display:block;font-size:9px;font-weight:850;letter-spacing:.6px;color:var(--lime)}
+.radar-card-pick strong{display:block}
+.radar-card-pick>div:first-child>strong{font-size:14px;line-height:1.4;margin:6px 0}
+.radar-card-pick>div:first-child>span{font-size:10px;color:var(--muted);line-height:1.4}
+.radar-prob{text-align:right;min-width:94px}
+.radar-prob strong{font-size:27px;color:var(--lime);letter-spacing:-1px;white-space:nowrap}
+.radar-prob small{font-size:10px;color:var(--muted);font-weight:500}
+.radar-card-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;
+  border-bottom:1px solid var(--stroke-soft);padding:15px 0;margin-bottom:9px}
+.radar-card-meta>span{font-size:9px;color:var(--dim);line-height:1.45}
+.radar-card-meta strong{display:block;color:var(--text);font-size:13px;margin-top:3px}
+.radar-card-meta>span.radar-enough{color:var(--lime);align-self:center;font-weight:780}
+.radar-card-meta>span.radar-limited{color:var(--amber);align-self:center;font-weight:780}
+.radar-details{font-size:11px;line-height:1.6}
+.radar-details>summary{cursor:pointer;list-style:none;font-size:11px;color:var(--lime);
+  font-weight:770;padding:10px 0}
+.radar-details>summary::-webkit-details-marker{display:none}
+.radar-details>summary>span{float:right}
+.radar-details[open]>summary>span{transform:rotate(180deg)}
+.radar-details>p{color:var(--muted);margin:9px 0}
+.radar-observations{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.radar-observation{display:flex;flex-direction:column;gap:4px;min-width:0;
+  border-radius:8px;background:#192c3e;padding:13px;color:var(--muted)}
+.radar-observation>strong{font-size:12px;color:var(--text)}
+.radar-observation>span{font-size:11px;line-height:1.55}
+.radar-observation>span>strong{color:var(--lime)}
+.radar-observation>small{font-size:10px;color:var(--dim);line-height:1.5}
+.radar-card-actions{display:flex;gap:15px;align-items:center;flex-wrap:wrap;
+  margin-top:auto;padding-top:17px}
+.radar-card-actions .btn{font-size:11px}
+.radar-methodology{margin-top:20px;line-height:1.7}
+@media(max-width:1350px){.radar-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:1050px){.radar-grid{grid-template-columns:1fr}}
+@media(max-width:800px){.radar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.radar-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){
+ .radar-grid{grid-template-columns:1fr}
+ .radar-card{padding:18px}
+ .radar-search{grid-column:span 2}
+ .radar-observations{grid-template-columns:1fr}
+ .radar-card-pick{padding:13px}
+ .radar-prob{min-width:75px}
+ .radar-prob strong{font-size:23px}
+}

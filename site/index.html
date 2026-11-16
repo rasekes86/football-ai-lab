@@ -21,6 +21,7 @@
       <nav class="nav" aria-label="Secciones">
         <button type="button" class="nav-link active" data-view="overview" aria-current="page"><span class="nav-symbol" aria-hidden="true">◫</span>Visión general</button>
         <button type="button" class="nav-link" data-view="matches"><span class="nav-symbol" aria-hidden="true">⚽</span>Partidos <span id="navMatchCount" class="nav-counter">—</span></button>
+        <button type="button" class="nav-link" data-view="radar"><span class="nav-symbol" aria-hidden="true">◎</span>Radar inteligente</button>
         <button type="button" class="nav-link" data-view="markets"><span class="nav-symbol" aria-hidden="true">▥</span>Explorar mercados</button>
         <button type="button" class="nav-link" data-view="history"><span class="nav-symbol" aria-hidden="true">▤</span>Histórico Top 3</button>
         <button type="button" class="nav-link" data-view="odds"><span class="nav-symbol" aria-hidden="true">◈</span>Cuotas +1,50</button>
@@ -53,6 +54,7 @@
       <nav class="mobile-nav" aria-label="Navegación móvil">
         <button type="button" class="mobile-link active" data-view="overview">Resumen</button>
         <button type="button" class="mobile-link" data-view="matches">Partidos</button>
+        <button type="button" class="mobile-link" data-view="radar">Radar</button>
         <button type="button" class="mobile-link" data-view="markets">Mercados</button>
         <button type="button" class="mobile-link" data-view="history">Top 3</button>
         <button type="button" class="mobile-link" data-view="odds">Cuotas</button>
@@ -69,7 +71,7 @@
               <div class="eyebrow"><span class="eyebrow-line"></span> INTELIGENCIA FUTBOLÍSTICA <span class="hero-version">01 / DASHBOARD</span></div>
               <h1 id="overviewTitle">El fútbol.<br><em>En datos.</em></h1>
               <p>Seis grandes ligas. Tres pronósticos por partido. Un seguimiento transparente de cada acierto, fallo y dato pendiente.</p>
-              <div class="hero-actions"><button type="button" class="btn btn-bright" data-go="matches">Explorar partidos <span aria-hidden="true">↗</span></button><button type="button" class="btn btn-outline" data-go="history">Ver seguimiento</button></div>
+              <div class="hero-actions"><button type="button" class="btn btn-bright" data-go="matches">Explorar partidos <span aria-hidden="true">↗</span></button><button type="button" class="btn btn-outline" data-go="history">Ver seguimiento</button><button type="button" class="btn btn-outline" data-go="radar">Abrir radar</button></div>
             </div>
             <div class="hero-aside"><span class="hero-aside-top">RESEARCH / NOT BETTING</span><span class="hero-aside-number">06</span><span class="hero-aside-bottom">LIGAS BAJO ANÁLISIS</span></div>
           </div>
@@ -114,6 +116,73 @@
           <div class="results-bar"><span id="matchCount">—</span><span class="results-legend"><i class="legend-dot success"></i> Acierto <i class="legend-dot danger"></i> Fallo <i class="legend-dot neutral"></i> Sin verificar</span></div>
           <div id="matchesGrid" class="matches-grid"></div>
           <div class="load-wrap"><button type="button" id="loadMore" class="btn btn-outline" hidden>Mostrar más partidos ↓</button></div>
+        </section>
+
+        <section class="view" id="view-radar" aria-labelledby="radarTitle" hidden>
+          <div class="page-intro">
+            <div><span class="overline">05 / FOOTBALL AI RADAR</span>
+              <h1 id="radarTitle">Radar de <em>pronósticos.</em></h1>
+              <p>Encuentros futuros, probabilidades estimadas y estadísticas anteriores al partido. Filtra oportunidades de análisis, no apuestas de valor demostradas.</p>
+            </div>
+            <div class="intro-art" aria-hidden="true">RDR<span>°</span></div>
+          </div>
+          <div class="panel radar-filter-panel">
+            <div class="panel-heading">
+              <div><span class="overline">FILTRAR Y COMPARAR</span><h3>Encontrar partidos para analizar</h3></div>
+              <span class="panel-mini">PREPARTIDO · 6 LIGAS</span>
+            </div>
+            <div class="radar-filters">
+              <label class="field"><span>MERCADO</span><select id="radarMarketFilter"></select></label>
+              <label class="field"><span>LIGA</span><select id="radarLeagueFilter"><option value="">Todas las ligas</option></select></label>
+              <label class="field"><span>PROBABILIDAD ESTIMADA</span><select id="radarProbability">
+                <option value="0">Cualquiera</option><option value="0.55">Desde 55 %</option>
+                <option value="0.65">Desde 65 %</option><option value="0.75">Desde 75 %</option>
+                <option value="0.85">Desde 85 %</option>
+              </select></label>
+              <label class="field"><span>NIVEL DEL MODELO</span><select id="radarQuality">
+                <option value="all">Todos los modelos</option>
+                <option value="top3">Solo Top 3</option>
+                <option value="audited">Backtest retrospectivo</option>
+                <option value="exploratory">Exploratorios</option>
+              </select></label>
+              <label class="field"><span>COBERTURA DE DATOS</span><select id="radarCoverage">
+                <option value="0">Sin mínimo</option>
+                <option value="0.5">50 % o más</option>
+                <option value="0.8">80 % o más</option>
+                <option value="1">100 %</option>
+              </select></label>
+              <label class="field"><span>CUOTA JUSTA TEÓRICA</span><select id="radarFair">
+                <option value="0">Cualquiera</option>
+                <option value="1.50">Desde 1,50</option>
+                <option value="1.75">Desde 1,75</option>
+                <option value="2">Desde 2,00</option>
+              </select></label>
+              <label class="field"><span>PARTIDOS ANTERIORES</span><select id="radarWindow">
+                <option value="5">Últimos 5</option><option value="10" selected>Últimos 10</option><option value="20">Últimos 20</option>
+              </select></label>
+              <label class="field"><span>CONDICIÓN</span><select id="radarScope">
+                <option value="venue_only" selected>Local en casa / visitante fuera</option>
+                <option value="overall">Todos sus partidos</option>
+              </select></label>
+              <label class="field"><span>ORDEN</span><select id="radarOrder">
+                <option value="kickoff">Fecha del próximo partido</option>
+                <option value="confidence">Probabilidad del modelo</option>
+                <option value="coverage">Cobertura estadística</option>
+              </select></label>
+              <label class="field radar-search"><span>EQUIPO</span><input id="radarTeam" type="search" placeholder="Buscar club…" autocomplete="off"></label>
+            </div>
+          </div>
+          <div class="explanation radar-notice" id="radarNotice" role="status"></div>
+          <div id="radarKpis" class="kpi-grid"></div>
+          <div class="section-heading">
+            <div><span class="overline">PRÓXIMOS PARTIDOS</span><h2>Partidos bajo el <em>radar.</em></h2></div>
+            <span class="section-side-note" id="radarCount">—</span>
+          </div>
+          <div class="radar-grid" id="radarGrid"></div>
+          <div class="load-wrap"><button type="button" class="btn btn-outline" id="radarMore" hidden>Mostrar más encuentros ↓</button></div>
+          <div class="explanation radar-methodology"><strong>Qué significa cada dato.</strong>
+            La probabilidad pertenece al modelo de pronóstico; las medias y frecuencias son resultados observados en otros partidos anteriores al encuentro. La cobertura indica cuántos partidos tienen estadísticas completas, <strong>no</strong> cuán probable es acertar. Un porcentaje alto o un histórico favorable no demuestra valor frente a cuotas reales. No se calculan probabilidades nuevas a partir de las medias del radar.
+          </div>
         </section>
 
         <section class="view" id="view-markets" aria-labelledby="marketsTitle" hidden>

@@ -21,7 +21,8 @@ export const FEEDS = Object.freeze({
   desglose_postpartido: "desglose_postpartido.json",
   mercados_historicos: "mercados_historicos.json",
   pronosticos_mercados_futuros: "pronosticos_mercados_futuros.json",
-  fiabilidad_mercados_futuros: "fiabilidad_mercados_futuros.json"
+  fiabilidad_mercados_futuros: "fiabilidad_mercados_futuros.json",
+  radar_contexto_equipos: "radar_contexto_equipos.json"
 });
 
 /** CSV RFC4180: comillas dobles, comas y saltos de línea dentro de celdas. */
@@ -187,6 +188,9 @@ export function buildModel(feeds, now = new Date()) {
       feeds.pronosticos_mercados_futuros.partidos : [],
     marketFuturesUpdated: feeds.pronosticos_mercados_futuros?.calculado_utc || null,
     futureMarketAudit: feeds.fiabilidad_mercados_futuros || null,
+    radarContexts: Array.isArray(feeds.radar_contexto_equipos?.partidos) ?
+      feeds.radar_contexto_equipos.partidos : [],
+    radarContextUpdated: feeds.radar_contexto_equipos?.generado_utc || null,
     top, simulation, countForecasts: currentIds.size,
     updatedAt: feeds.evaluacion_selecciones?.calculado_utc ||
       feeds.evaluacion_cuotas?.generado_utc ||

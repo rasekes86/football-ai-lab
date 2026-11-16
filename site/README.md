@@ -89,3 +89,7 @@ Desde la activación del sistema, todas las líneas publicadas en `output/pronos
 La pestaña **Explorar mercados** muestra ahora medias y calibración basadas en resultados prospectivos comprobados, número de partidos únicos y advertencias por muestras pequeñas. Se pueden filtrar los futuros por probabilidad y cuota justa teórica mínima; esto no constituye precios reales ni filtra retrospectivamente la auditoría. El histórico estadístico general sigue separado y accesible.
 
 Detalles metodológicos: `docs/FASE_4_AUDITORIA.md`.
+
+## Fase 5 — Radar inteligente
+
+La vista `#radar` combina el feed de predicciones futuras con `output/radar_contexto_equipos.json`, que contiene estadísticas de encuentros anteriores al partido (sin resultados del día del encuentro). El usuario puede seleccionar 5, 10 o 20 encuentros, local/fuera, mercado, probabilidad, calidad, cobertura de datos, liga y cuota justa teórica. Se muestra fecha, equipos, línea calculada, probabilidad del modelo y datos previos con denominadores reales, sin mezclar estos porcentajes con la precisión prospectiva ni el ROI. Si faltan datos se marca la ausencia. Más detalles: `docs/FASE_5_RADAR.md`.
