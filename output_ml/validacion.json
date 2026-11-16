@@ -1,125 +1,125 @@
 {
   "version": "xgboost-temporal-0.5",
-  "as_of_utc": "2026-11-14T19:15:29.465063+00:00",
+  "as_of_utc": "2026-11-16T16:27:17.237419+00:00",
   "status": "VALIDADO_RETROSPECTIVAMENTE",
-  "historic_rows": 5357,
-  "train_rows": 4261,
-  "validation_rows": 1096,
-  "split_date": "2026-02-14",
+  "historic_rows": 6770,
+  "train_rows": 5407,
+  "validation_rows": 1363,
+  "split_date": "2026-02-21",
   "warnings": [
     "Estas métricas no son pruebas prospectivas ni rentabilidad.",
     "El modelo NO participa en el consenso Poisson/Elo hasta una revisión independiente."
   ],
-  "holdout_start": "2026-02-14",
-  "holdout_end": "2026-11-08",
+  "holdout_start": "2026-02-21",
+  "holdout_end": "2026-11-15",
   "xgboost_holdout": {
-    "brier": 0.202451,
-    "logloss": 1.01736
+    "brier": 0.201931,
+    "logloss": 1.013699
   },
   "frecuencia_historica": {
-    "brier": 0.215263,
-    "logloss": 1.067663
+    "brier": 0.214905,
+    "logloss": 1.066209
   },
   "beats_frequency_brier": true,
   "comparacion_misma_muestra": {
-    "muestra": 1050,
+    "muestra": 1299,
     "nota": "Solo partidos comunes del mismo holdout posterior al entrenamiento.",
     "xgboost": {
-      "brier": 0.203051,
-      "logloss": 1.020002
+      "brier": 0.202366,
+      "logloss": 1.015726
     },
     "poisson_elo": {
-      "brier": 0.197894,
-      "logloss": 0.995803
+      "brier": 0.199203,
+      "logloss": 1.001029
     },
     "frecuencia_historica": {
-      "brier": 0.215224,
-      "logloss": 1.06732
+      "brier": 0.214868,
+      "logloss": 1.065903
     }
   },
   "calibracion_diagnostica": {
     "local": [
       {
         "rango": "0.0-0.2",
-        "n": 83,
-        "estimado": 0.1673,
-        "observado": 0.2289
+        "n": 58,
+        "estimado": 0.1724,
+        "observado": 0.2241
       },
       {
         "rango": "0.2-0.4",
-        "n": 433,
-        "estimado": 0.3069,
-        "observado": 0.3487
+        "n": 523,
+        "estimado": 0.313,
+        "observado": 0.327
       },
       {
         "rango": "0.4-0.6",
-        "n": 390,
-        "estimado": 0.4906,
-        "observado": 0.4692
+        "n": 572,
+        "estimado": 0.488,
+        "observado": 0.4895
       },
       {
         "rango": "0.6-0.8",
-        "n": 167,
-        "estimado": 0.6794,
-        "observado": 0.6946
+        "n": 179,
+        "estimado": 0.6708,
+        "observado": 0.6704
       },
       {
         "rango": "0.8-1.0",
-        "n": 23,
-        "estimado": 0.8228,
-        "observado": 0.7826
+        "n": 31,
+        "estimado": 0.824,
+        "observado": 0.8387
       }
     ],
     "empate": [
       {
         "rango": "0.0-0.2",
-        "n": 163,
-        "estimado": 0.1616,
-        "observado": 0.1411
+        "n": 164,
+        "estimado": 0.1569,
+        "observado": 0.1524
       },
       {
         "rango": "0.2-0.4",
-        "n": 925,
-        "estimado": 0.2742,
-        "observado": 0.2595
+        "n": 1194,
+        "estimado": 0.2744,
+        "observado": 0.2462
       },
       {
         "rango": "0.4-0.6",
-        "n": 8,
-        "estimado": 0.4533,
-        "observado": 0.0
+        "n": 5,
+        "estimado": 0.4118,
+        "observado": 0.2
       }
     ],
     "visitante": [
       {
         "rango": "0.0-0.2",
-        "n": 293,
-        "estimado": 0.1369,
-        "observado": 0.1911
+        "n": 350,
+        "estimado": 0.1428,
+        "observado": 0.18
       },
       {
         "rango": "0.2-0.4",
-        "n": 506,
-        "estimado": 0.2957,
-        "observado": 0.2885
+        "n": 695,
+        "estimado": 0.2902,
+        "observado": 0.2978
       },
       {
         "rango": "0.4-0.6",
-        "n": 250,
-        "estimado": 0.4887,
-        "observado": 0.456
+        "n": 286,
+        "estimado": 0.4791,
+        "observado": 0.493
       },
       {
         "rango": "0.6-0.8",
-        "n": 47,
-        "estimado": 0.6383,
-        "observado": 0.6383
+        "n": 32,
+        "estimado": 0.6378,
+        "observado": 0.6875
       }
     ]
   },
-  "predictions": 49,
+  "predictions": 109,
   "comparacion_futuros": {
-    "partidos_comunes": 47,
-    "discrepancias_15pp_o_mas": 4
+    "partidos_comunes": 107,
+    "discrepancias_15pp_o_mas": 8
   }
 }
