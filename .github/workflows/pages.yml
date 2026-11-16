@@ -60,6 +60,10 @@ jobs:
               assert (Path('site')/name).is_file(),name
           print('CSV, JSON y assets de la web verificados.')
           PY
+      - name: Probar identificación y ambigüedades de escudos
+        run: python -m unittest discover -s site/tests -p 'test_*.py' -v
+      - name: Generar escudos de los seis campeonatos
+        run: python site/scripts/build_crests.py
       - name: Preparar sitio
         run: |
           touch site/.nojekyll

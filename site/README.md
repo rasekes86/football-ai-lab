@@ -37,3 +37,6 @@ python -m http.server 8000
 ```
 
 Abrir `http://localhost:8000/site/`; no abrir `index.html` con el esquema `file://`, ya que los módulos ES requieren HTTP(S). El motor de Python y sus CSV históricos permanecen independientes.
+
+## Escudos de equipos
+El despliegue genera `site/crests.json` a partir de los nombres de partidos y del catálogo de clubes de ESPN. El código está en `site/scripts/build_crests.py`; no altera las predicciones ni guarda imágenes ajenas. Utilizamos enlaces `a.espncdn.com` únicamente para identificar equipos. Los nombres ambiguos o sin escudo se representan con las iniciales originales. Las marcas y logotipos pertenecen a sus titulares. La generación se comprueba con `site/tests/test_crests.py` y se incluye en el artefacto de GitHub Pages, sin necesidad de versionar el JSON generado.

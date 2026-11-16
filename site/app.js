@@ -45,7 +45,8 @@ const state = {
   matchLimit: 24,
   historyLimit: 40,
   errors: [],
-  lastFocus: null
+  lastFocus: null,
+  crests: {}
 };
 
 function leagueShort(name) {
@@ -93,6 +94,26 @@ function matchPill(match) {
 }
 function abbreviateTeam(name) {
   return String(name || "").split(/\s+/).filter(Boolean).slice(0,2).map(x => x[0].toUpperCase()).join("");
+}
+function crestUrl(league, team) {
+  const url = state.crests[league + "|" + team];
+  return typeof url === "string" && url.startsWith("https://a.espncdn.com/") ? url : "";
+}
+function teamCrest(league, team, small = false) {
+  const url = crestUrl(league, team);
+  const classes = "team-monogram crest-shell" + (small ? " small-crest" : "") +
+    (url ? " has-crest" : "");
+  return `<span class="${classes}" aria-hidden="true">
+    <span class="crest-initials">${escapeHtml(abbreviateTeam(team))}</span>
+    ${url ? `<img class="team-crest" src="${escapeHtml(url)}" alt="" loading="lazy" decoding="async">` : ""}
+  </span>`;
+}
+function teamPair(row) {
+  return `<span class="team-pair-with-crests">
+    ${teamCrest(row.liga, row.local, true)}
+    <span>${escapeHtml(row.local)} – ${escapeHtml(row.visitante)}</span>
+    ${teamCrest(row.liga, row.visitante, true)}
+  </span>`;
 }
 function empty(message) {
   return `<div class="empty">${escapeHtml(message)}</div>`;
@@ -145,6 +166,14 @@ async function refreshData() {
     $("errorBanner").innerHTML = `No hemos podido descargar los datos públicos de GitHub. Comprueba la conexión y pulsa <strong>Actualizar</strong>. ${errors.length ? "Fuentes: " + escapeHtml(errors.join(", ")) : ""}`;
     return;
   }
+  // Catálogo independiente del motor: si falla, vuelven las iniciales.
+  try {
+    const logoResponse = await fetch("./crests.json?v=" + token, {cache: "no-store"});
+    const logos = logoResponse.ok ? await logoResponse.json() : null;
+    state.crests = logos && typeof logos.teams === "object" ? logos.teams : {};
+  } catch {
+    state.crests = {};
+  }
   state.data = buildModel(feeds);
   state.errors = errors;
   $("errorBanner").hidden = !errors.length;
@@ -195,7 +224,7 @@ function compactMatch(m) {
   const count = m.finishedPicks;
   const meta = count ? `${count}/${m.picks.length} comprobadas` : m.liga;
   return `<button type="button" class="compact-match" data-open-id="${escapeHtml(m.id)}">
-    ${leagueLogo(m.liga)}<span class="compact-match-main"><span class="compact-match-title">${escapeHtml(m.local)} – ${escapeHtml(m.visitante)}</span>
+    ${leagueLogo(m.liga)}<span class="compact-match-main"><span class="compact-match-title">${teamPair(m)}</span>
     <span class="compact-match-sub">${escapeHtml(displayDate(m.fecha_utc))} · ${escapeHtml(meta)}</span></span>
     <span class="compact-match-right">${m.score ? `<span class="compact-match-score">${escapeHtml(m.score)}</span>` : "<span class='compact-match-score'>↗</span>"}
     <span class="compact-match-sub">${m.status === "FINALIZADO" ? "Liquidado" : m.status === "PARCIAL" ? "Parcial" : "Ver ficha"}</span></span></button>`;
@@ -226,9 +255,9 @@ function matchCard(m) {
   return `<button type="button" data-open-id="${escapeHtml(m.id)}" class="match-card">
     <div class="match-top"><span class="match-kickoff">${escapeHtml(displayDate(m.fecha_utc))} · ${escapeHtml(m.liga)}</span>${matchPill(m)}</div>
     <div class="match-versus">
-      <div class="team-side"><span class="team-monogram">${escapeHtml(abbreviateTeam(m.local))}</span><span class="team-name">${escapeHtml(m.local)}</span></div>
+      <div class="team-side">${teamCrest(m.liga, m.local)}<span class="team-name">${escapeHtml(m.local)}</span></div>
       <span class="versus-label ${m.score?"score":""}">${m.score?escapeHtml(m.score):"VS"}</span>
-      <div class="team-side away"><span class="team-monogram">${escapeHtml(abbreviateTeam(m.visitante))}</span><span class="team-name">${escapeHtml(m.visitante)}</span></div>
+      <div class="team-side away">${teamCrest(m.liga, m.visitante)}<span class="team-name">${escapeHtml(m.visitante)}</span></div>
     </div><div class="match-picks">
     ${picks.length ? picks.map(x => `<div class="mini-pick"><i class="pick-dot ${outcome(x)}"></i>
       <span>${escapeHtml(x.seleccion)}</span><strong>${percent(numberOrNull(x.probabilidad))}</strong></div>`).join("") : empty("Sin selecciones archivadas")}
@@ -258,7 +287,7 @@ function renderHistory() {
       String(a.clave).localeCompare(String(b.clave)));
   const shown = rows.slice(0,state.historyLimit);
   $("historyCount").textContent = `${integer(shown.length)} de ${integer(rows.length)}`;
-  inner("historyRows", shown.length ? shown.map(r => `<tr><td><div class="main-cell">${escapeHtml(r.local)} – ${escapeHtml(r.visitante)}</div><div class="sub-cell">${escapeHtml(displayDay(r.fecha_utc))}</div></td>
+  inner("historyRows", shown.length ? shown.map(r => `<tr><td><div class="main-cell">${teamPair(r)}</div><div class="sub-cell">${escapeHtml(displayDay(r.fecha_utc))}</div></td>
     <td class="muted-cell">${escapeHtml(r.liga)}</td>
     <td class="pick-cell"><div class="main-cell">${escapeHtml(r.mercado)}</div><div class="sub-cell">${escapeHtml(r.seleccion)}</div></td>
     <td><strong>${percent(numberOrNull(r.probabilidad))}</strong></td><td>${resultPill(r)}</td>
@@ -309,7 +338,7 @@ function renderOdds() {
   const odds = [...d.allOdds].sort((a,b)=>String(b.fecha_utc).localeCompare(String(a.fecha_utc)));
   $("oddsCount").textContent = integer(odds.length)+" cuotas";
   inner("oddsRows", odds.length ? odds.map(r => `<tr>
-    <td><div class="main-cell">${escapeHtml(r.local)} – ${escapeHtml(r.visitante)}</div><div class="sub-cell">${escapeHtml(displayDay(r.fecha_utc))} · ${escapeHtml(r.liga)}</div></td>
+    <td><div class="main-cell">${teamPair(r)}</div><div class="sub-cell">${escapeHtml(displayDay(r.fecha_utc))} · ${escapeHtml(r.liga)}</div></td>
     <td class="pick-cell"><div class="main-cell">${escapeHtml(r.seleccion)}</div><div class="sub-cell">${escapeHtml(r.tipo_cuota === "INDICATIVA_NO_VERIFICADA"?"Precio indicativo no verificado":r.tipo_cuota)}</div></td>
     <td><strong>${decimal(r.cuota_decimal)}</strong></td><td>${resultPill(r)}</td>
     <td><strong style="color:${numberOrNull(r.retorno_simulado_unidad)>0?"var(--lime)":numberOrNull(r.retorno_simulado_unidad)<0?"var(--red)":"var(--muted)"}">${escapeHtml(money(numberOrNull(r.retorno_simulado_unidad)))}</strong></td>
@@ -377,7 +406,11 @@ function openMatch(id) {
       <span>Visitante <b>${percent(numberOrNull(forecast.prob_visitante))}</b></span></div>
       <small>${dateOriginal?"Archivado: "+escapeHtml(displayDate(dateOriginal)):"Modelo prepartido"}</small></div>`
     : "";
-  inner("dialogBody", `<h2 id="dialogTitle" class="dialog-match-title">${escapeHtml(m.local)} <span style="color:var(--lime)">vs</span> ${escapeHtml(m.visitante)}</h2>
+  inner("dialogBody", `<div class="dialog-title-row">
+      ${teamCrest(m.liga, m.local)}
+      <h2 id="dialogTitle" class="dialog-match-title">${escapeHtml(m.local)} <span style="color:var(--lime)">vs</span> ${escapeHtml(m.visitante)}</h2>
+      ${teamCrest(m.liga, m.visitante)}
+    </div>
     <p class="dialog-sub">${escapeHtml(m.liga)} · ${escapeHtml(displayDate(m.fecha_utc))}
       ${m.score ? ` · Resultado: <strong>${escapeHtml(m.score)}</strong>` : " · Marcador pendiente"} · ${integer(m.finishedPicks)} de ${integer(m.picks.length)} selecciones liquidadas</p>
     ${modelForecast}
@@ -416,6 +449,13 @@ function changeView(view) {
 }
 
 function wire() {
+  // Una imagen ausente nunca deja el icono roto en pantalla.
+  document.addEventListener("error", e => {
+    const image = e.target;
+    if (!image.classList?.contains("team-crest")) return;
+    image.closest(".crest-shell")?.classList.remove("has-crest");
+    image.remove();
+  }, true);
   document.addEventListener("click",e=>{
     const viewBtn=e.target.closest("[data-view],[data-go]");
     if(viewBtn){changeView(viewBtn.dataset.view||viewBtn.dataset.go);return;}
