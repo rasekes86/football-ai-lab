@@ -1,11 +1,11 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-15T22:55:44.976336+00:00
+**UTC:** 2026-11-16T10:28:20.281888+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 84
-**Descartados por insuficiencia de datos:** 7
-**Históricos evaluados:** 0
-**Brier 1X2 medio:** pendiente
+**Próximos partidos con pronóstico:** 107
+**Descartados por insuficiencia de datos:** 8
+**Históricos evaluados:** 4
+**Brier 1X2 medio:** 0.2026
 
 | Liga | Fecha UTC | Partido | Local | Empate | Visitante |
 |---|---|---|---:|---:|---:|
@@ -21,6 +21,9 @@
 | LaLiga | 2026-11-28T15:15 | Málaga - Athletic Club | 37.3% | 25.0% | 37.7% |
 | LaLiga | 2026-11-28T17:30 | Elche - Atlético Madrid | 29.4% | 25.5% | 45.1% |
 | LaLiga | 2026-11-28T20:00 | Real Madrid - Alavés | 72.1% | 18.5% | 9.4% |
+| LaLiga | 2026-11-29T13:00 | Valencia - Osasuna | 45.5% | 26.2% | 28.3% |
+| LaLiga | 2026-11-29T17:30 | Celta Vigo - Villarreal | 37.3% | 25.2% | 37.5% |
+| LaLiga | 2026-11-29T20:00 | Real Sociedad - Sevilla | 48.2% | 22.5% | 29.2% |
 | Segunda División | 2026-11-16T19:30 | Albacete - RC Celta Fortuna | 45.8% | 24.0% | 30.3% |
 | Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 48.1% | 24.5% | 27.4% |
 | Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.7% | 26.1% | 29.2% |
@@ -39,6 +42,10 @@
 | Segunda División | 2026-11-28T15:15 | Eldense - Girona | 33.3% | 25.2% | 41.6% |
 | Segunda División | 2026-11-28T17:30 | Eibar - Burgos | 43.2% | 26.3% | 30.5% |
 | Segunda División | 2026-11-28T20:00 | Real Valladolid - Real Sociedad II | 45.1% | 24.3% | 30.6% |
+| Segunda División | 2026-11-29T13:00 | Granada - Ceuta | 55.6% | 22.6% | 21.9% |
+| Segunda División | 2026-11-29T15:15 | Mallorca - Castellón | 40.5% | 26.6% | 32.9% |
+| Segunda División | 2026-11-29T17:30 | Cádiz - Córdoba | 30.5% | 23.5% | 46.0% |
+| Segunda División | 2026-11-29T20:00 | Almería - Sporting Gijón | 59.0% | 20.6% | 20.4% |
 | Premier League | 2026-11-21T12:30 | Manchester City - Fulham | 64.7% | 22.1% | 13.1% |
 | Premier League | 2026-11-21T15:00 | AFC Bournemouth - Nottingham Forest | 47.0% | 26.5% | 26.5% |
 | Premier League | 2026-11-21T15:00 | Aston Villa - Sunderland | 53.4% | 25.3% | 21.2% |
@@ -53,6 +60,12 @@
 | Premier League | 2026-11-28T15:00 | Leeds United - Coventry City | 54.3% | 25.5% | 20.2% |
 | Premier League | 2026-11-28T15:00 | Manchester United - Brentford | 50.5% | 23.9% | 25.6% |
 | Premier League | 2026-11-28T17:30 | Ipswich Town - Aston Villa | 20.4% | 23.9% | 55.7% |
+| Premier League | 2026-11-29T12:00 | Everton - Liverpool | 35.5% | 25.4% | 39.1% |
+| Premier League | 2026-11-29T14:05 | Brighton & Hove Albion - Newcastle United | 55.7% | 25.3% | 19.0% |
+| Premier League | 2026-11-29T14:05 | Crystal Palace - Hull City | 35.5% | 27.9% | 36.6% |
+| Premier League | 2026-11-29T14:05 | Fulham - AFC Bournemouth | 41.6% | 24.9% | 33.5% |
+| Premier League | 2026-11-29T14:05 | Sunderland - Tottenham Hotspur | 39.9% | 29.6% | 30.6% |
+| Premier League | 2026-11-29T16:30 | Arsenal - Manchester City | 50.2% | 26.8% | 22.9% |
 | Bundesliga | 2026-11-20T19:30 | Bayern Munich - FC Cologne | 81.0% | 13.5% | 5.6% |
 | Bundesliga | 2026-11-21T14:30 | 1. FC Union Berlin - RB Leipzig | 35.5% | 23.9% | 40.6% |
 | Bundesliga | 2026-11-21T14:30 | Borussia Mönchengladbach - Borussia Dortmund | 20.1% | 22.0% | 57.9% |
@@ -64,6 +77,9 @@
 | Bundesliga | 2026-11-28T14:30 | Mainz - 1. FC Union Berlin | 45.8% | 24.9% | 29.3% |
 | Bundesliga | 2026-11-28T14:30 | SC Paderborn 07 - Schalke 04 | 45.5% | 25.0% | 29.5% |
 | Bundesliga | 2026-11-28T17:30 | VfB Stuttgart - Eintracht Frankfurt | 51.5% | 22.3% | 26.2% |
+| Bundesliga | 2026-11-29T14:30 | SC Freiburg - RB Leipzig | 49.6% | 22.2% | 28.2% |
+| Bundesliga | 2026-11-29T16:30 | TSG Hoffenheim - FC Augsburg | 54.3% | 21.3% | 24.4% |
+| Bundesliga | 2026-11-29T18:30 | Borussia Dortmund - Bayer Leverkusen | 57.8% | 21.0% | 21.2% |
 | Serie A | 2026-11-21T14:00 | Como - Cagliari | 63.4% | 21.5% | 15.2% |
 | Serie A | 2026-11-21T14:00 | Lazio - Lecce | 54.6% | 24.6% | 20.9% |
 | Serie A | 2026-11-21T17:00 | Parma - AS Roma | 18.8% | 23.7% | 57.5% |
@@ -78,6 +94,10 @@
 | Serie A | 2026-11-28T14:00 | Frosinone - Parma | 49.4% | 24.0% | 26.7% |
 | Serie A | 2026-11-28T17:00 | Torino - Lazio | 26.1% | 25.3% | 48.6% |
 | Serie A | 2026-11-28T19:45 | Internazionale - Genoa | 70.3% | 18.3% | 11.4% |
+| Serie A | 2026-11-29T11:30 | Udinese - Fiorentina | 33.9% | 24.8% | 41.4% |
+| Serie A | 2026-11-29T14:00 | Sassuolo - Napoli | 26.1% | 23.4% | 50.5% |
+| Serie A | 2026-11-29T17:00 | AS Roma - Monza | 78.1% | 15.5% | 6.4% |
+| Serie A | 2026-11-29T19:45 | Como - Juventus | 46.6% | 25.9% | 27.5% |
 | Ligue 1 | 2026-11-20T19:45 | Troyes - Le Havre AC | 41.3% | 25.2% | 33.5% |
 | Ligue 1 | 2026-11-21T16:15 | Nice - Paris Saint-Germain | 22.0% | 22.7% | 55.3% |
 | Ligue 1 | 2026-11-21T19:45 | AS Monaco - AJ Auxerre | 60.4% | 21.3% | 18.3% |
@@ -93,6 +113,9 @@
 | Ligue 1 | 2026-11-28T19:45 | Le Mans - Lille | 26.0% | 24.1% | 49.9% |
 | Ligue 1 | 2026-11-28T19:45 | Nice - Troyes | 47.1% | 26.4% | 26.5% |
 | Ligue 1 | 2026-11-28T19:45 | Paris Saint-Germain - Lorient | 65.3% | 22.2% | 12.6% |
+| Ligue 1 | 2026-11-29T14:00 | AJ Auxerre - Marseille | 31.1% | 26.9% | 42.0% |
+| Ligue 1 | 2026-11-29T16:15 | Toulouse - Stade Rennais | 41.9% | 22.5% | 35.6% |
+| Ligue 1 | 2026-11-29T19:45 | Lyon - AS Monaco | 53.1% | 22.5% | 24.4% |
 
 ## Avisos
 
@@ -117,22 +140,24 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **1** / 84. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **2** / 107. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **88**
-Resultados reales verificados: **0**
-Sin resultado en la fuente: **4**
+Pronósticos archivados: **111**
+Resultados reales verificados: **4**
+Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
+Brier prospectivo: **0.20259**; log loss: **0.99791**. Acierto del favorito: **75.0%**.
 
 ## Encuentros descartados
 
 - Alavés - Deportivo: historial insuficiente o nombre desconocido
 - Racing Santander - Real Sociedad: historial insuficiente o nombre desconocido
 - Levante - Racing Santander: historial insuficiente o nombre desconocido
+- Deportivo - Barcelona: historial insuficiente o nombre desconocido
 - Bayer Leverkusen - SC Paderborn 07: historial insuficiente o nombre desconocido
 - SV Elversberg - SC Freiburg: historial insuficiente o nombre desconocido
 - Schalke 04 - VfB Stuttgart: historial insuficiente o nombre desconocido
@@ -150,10 +175,10 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **5**; finalizadas: **0**; pendientes: **1**.
+Selecciones archivadas: **5**; finalizadas: **4**; pendientes: **1**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **264** selecciones archivadas antes del partido; **0** resueltas.
+Seguimiento real del Top 3: **333** selecciones archivadas antes del partido; **10** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **36**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.

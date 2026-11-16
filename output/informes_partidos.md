@@ -561,6 +561,150 @@
 
 ---
 
+## Valencia – Osasuna
+
+**LaLiga · 2026-11-29T13:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 45.5% | 26.2% | 28.3% | 43.8% |
+
+### Forma, descanso y estadísticas
+
+**Valencia:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · V · D · E · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 8,8, a puerta 3,0, córners 3,0, amarillas 3,4
+
+**Osasuna:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: E · D · D · V · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 13,8, a puerta 4,2, córners 4,6, amarillas 3,2
+
+### Enfrentamientos previos
+- 2026-03-01: Valencia 1-0 Osasuna
+- 2025-08-24: Osasuna 1-0 Valencia
+- 2025-03-02: Osasuna 3-3 Valencia
+- 2024-09-24: Valencia 0-0 Osasuna
+- 2024-04-15: Osasuna 0-1 Valencia
+
+### Tres selecciones del modelo (experimentales)
+1. **Valencia: menos de 2,5 goles** (Goles equipo): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 81.5% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 81.5% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Celta Vigo – Villarreal
+
+**LaLiga · 2026-11-29T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 37.3% | 25.2% | 37.5% | 52.2% |
+
+### Forma, descanso y estadísticas
+
+**Celta Vigo:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 3E · 1D; secuencia: E · D · E · V · E
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 11,8, a puerta 3,0, córners 2,8, amarillas 1,6
+
+**Villarreal:** posición 8 · 15 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · E · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 18,0, a puerta 5,0, córners 7,6, amarillas 2,4
+
+### Enfrentamientos previos
+- 2026-04-26: Villarreal 2-1 Celta
+- 2025-08-31: Celta 1-1 Villarreal
+- 2025-04-23: Celta 3-0 Villarreal
+- 2024-08-26: Villarreal 4-3 Celta
+- 2024-05-05: Celta 3-2 Villarreal
+
+### Tres selecciones del modelo (experimentales)
+1. **Menos de 4,5 goles** (Total goles): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Villarreal: menos de 2,5 goles** (Goles equipo): 83.9% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Celta Vigo: menos de 2,5 goles** (Goles equipo): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Real Sociedad – Sevilla
+
+**LaLiga · 2026-11-29T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 48.2% | 22.5% | 29.2% | 68.2% |
+
+### Forma, descanso y estadísticas
+
+**Real Sociedad:** posición 5 · 22 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 16,2, a puerta 4,8, córners 5,8, amarillas 2,0
+
+**Sevilla:** posición 6 · 18 puntos.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · V · D · E
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 14,2, a puerta 4,8, córners 3,6, amarillas 2,6
+
+### Enfrentamientos previos
+- 2026-05-04: Sevilla 1-0 Sociedad
+- 2025-10-24: Sociedad 2-1 Sevilla
+- 2025-03-09: Sociedad 0-1 Sevilla
+- 2024-11-03: Sevilla 0-2 Sociedad
+- 2024-03-02: Sevilla 3-2 Sociedad
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 86.6% · cuota justa 1.16; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Más de 1,5 goles** (Total goles): 86.6% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Real Sociedad: más de 0,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Albacete – RC Celta Fortuna
 
 **Segunda División · 2026-11-16T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -593,7 +737,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-15T22:38:22+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T10:29:08+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -640,7 +784,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T10:02:35+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -1374,6 +1518,189 @@
 
 ---
 
+## Granada – Ceuta
+
+**Segunda División · 2026-11-29T13:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 55.6% | 22.6% | 21.9% | 54.0% |
+
+### Forma, descanso y estadísticas
+
+**Granada:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 28
+- Medias recientes: Tiros 11,8, a puerta 4,0, córners 3,2, amarillas 1,4
+
+**Ceuta:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 19,0, a puerta 5,2, córners 7,4, amarillas 3,4
+
+### Enfrentamientos previos
+- 2026-02-20: Ceuta 2-1 Granada
+- 2025-12-07: Granada 1-1 Ceuta
+
+### Tres selecciones del modelo (experimentales)
+1. **Ceuta +2,5** (Hándicap 2 vías (medio gol)): 84.9% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 4,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Granada: más de 0,5 goles** (Goles equipo): 84.0% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Mallorca – Castellón
+
+**Segunda División · 2026-11-29T15:15:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 40.5% | 26.6% | 32.9% | 38.6% |
+
+### Forma, descanso y estadísticas
+
+**Mallorca:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 3E · 0D; secuencia: V · E · E · V · E
+- Días desde el último partido liguero registrado: 27
+- Medias recientes: Tiros 14,0, a puerta 4,0, córners 7,0, amarillas 3,0
+
+**Castellón:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 2E · 1D; secuencia: E · V · V · D · E
+- Días desde el último partido liguero registrado: 28
+- Medias recientes: Tiros 11,2, a puerta 3,8, córners 3,8, amarillas 1,8
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Castellón +1,5** (Hándicap 2 vías (medio gol)): 81.4% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 81.2% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Castellón: menos de 1,5 goles** (Goles equipo): 73.9% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Cádiz – Córdoba
+
+**Segunda División · 2026-11-29T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 30.5% | 23.5% | 46.0% | 56.1% |
+
+### Forma, descanso y estadísticas
+
+**Cádiz:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · V · D · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 10,2, a puerta 2,8, córners 5,2, amarillas 2,8
+
+**Córdoba:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 1E · 1D; secuencia: V · E · V · V · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,2, a puerta 6,4, córners 9,0, amarillas 3,4
+
+### Enfrentamientos previos
+- 2026-04-04: Cadiz 1-3 Cordoba
+- 2025-11-30: Cordoba 1-2 Cadiz
+- 2025-05-02: Cordoba 4-2 Cadiz
+- 2024-11-17: Cadiz 2-0 Cordoba
+
+### Tres selecciones del modelo (experimentales)
+1. **Cádiz: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 4,5 goles** (Total goles): 82.7% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Córdoba: más de 0,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Almería – Sporting Gijón
+
+**Segunda División · 2026-11-29T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 59.0% | 20.6% | 20.4% | 65.9% |
+
+### Forma, descanso y estadísticas
+
+**Almería:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · E · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 11,4, a puerta 4,2, córners 3,8, amarillas 2,2
+
+**Sporting Gijón:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,6, a puerta 4,6, córners 4,8, amarillas 3,0
+
+### Enfrentamientos previos
+- 2026-05-24: Sp Gijon 3-1 Almeria
+- 2025-09-20: Almeria 2-1 Sp Gijon
+- 2025-02-22: Sp Gijon 1-1 Almeria
+- 2024-08-31: Almeria 1-1 Sp Gijon
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 19,5 tiros totales** (Tiros totales): 85.9% · cuota justa 1.16; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Más de 1,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Sporting Gijón +2,5** (Hándicap 2 vías (medio gol)): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Manchester City – Fulham
 
 **Premier League · 2026-11-21T12:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -2022,6 +2349,287 @@
 
 ---
 
+## Everton – Liverpool
+
+**Premier League · 2026-11-29T12:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 35.5% | 25.4% | 39.1% | 59.8% |
+
+### Forma, descanso y estadísticas
+
+**Everton:** posición 6 · 16 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
+
+**Liverpool:** posición 4 · 18 puntos.
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 16,8, a puerta 4,6, córners 6,4, amarillas 3,0
+
+### Enfrentamientos previos
+- 2026-04-19: Everton 1-2 Liverpool
+- 2025-09-20: Liverpool 2-1 Everton
+- 2025-04-02: Liverpool 1-0 Everton
+- 2025-02-12: Everton 2-2 Liverpool
+- 2024-04-24: Everton 2-0 Liverpool
+
+### Tres selecciones del modelo (experimentales)
+1. **Liverpool +1,5** (Hándicap 2 vías (medio gol)): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 81.5% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Everton: menos de 2,5 goles** (Goles equipo): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Brighton & Hove Albion – Newcastle United
+
+**Premier League · 2026-11-29T14:05:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 55.7% | 25.3% | 19.0% | 46.6% |
+
+### Forma, descanso y estadísticas
+
+**Brighton & Hove Albion:** posición 2 · 22 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,8, a puerta 4,6, córners 4,8, amarillas 2,4
+
+**Newcastle United:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: E · D · V · D · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 14,2, a puerta 3,2, córners 4,2, amarillas 3,8
+
+### Enfrentamientos previos
+- 2026-05-02: Newcastle 3-1 Brighton
+- 2025-10-18: Brighton 2-1 Newcastle
+- 2025-05-04: Brighton 1-1 Newcastle
+- 2024-10-19: Newcastle 0-1 Brighton
+- 2024-05-11: Newcastle 1-1 Brighton
+
+### Tres selecciones del modelo (experimentales)
+1. **Newcastle United +2,5** (Hándicap 2 vías (medio gol)): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Brighton & Hove Albion: más de 0,5 goles** (Goles equipo): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Newcastle United: menos de 1,5 goles** (Goles equipo): 79.9% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Crystal Palace – Hull City
+
+**Premier League · 2026-11-29T14:05:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 35.5% | 27.9% | 36.6% | 43.8% |
+
+### Forma, descanso y estadísticas
+
+**Crystal Palace:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · D · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 11,2, a puerta 4,0, córners 4,2, amarillas 1,8
+
+**Hull City:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 3E · 2D; secuencia: D · E · E · D · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 8,4, a puerta 2,4, córners 4,8, amarillas 2,0
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Hull City: menos de 2,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Hull City +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 77.3% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Fulham – AFC Bournemouth
+
+**Premier League · 2026-11-29T14:05:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 41.6% | 24.9% | 33.5% | 62.0% |
+
+### Forma, descanso y estadísticas
+
+**Fulham:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 2E · 1D; secuencia: E · E · V · V · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 13,6, a puerta 4,8, córners 6,2, amarillas 2,2
+
+**AFC Bournemouth:** posición 7 · 15 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,8, a puerta 4,6, córners 5,4, amarillas 2,6
+
+### Enfrentamientos previos
+- 2026-05-09: Fulham 0-1 Bournemouth
+- 2025-10-03: Bournemouth 3-1 Fulham
+- 2025-04-14: Bournemouth 1-0 Fulham
+- 2024-12-29: Fulham 2-2 Bournemouth
+- 2024-02-10: Fulham 3-1 Bournemouth
+
+### Tres selecciones del modelo (experimentales)
+1. **Fulham +1,5** (Hándicap 2 vías (medio gol)): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Fulham: más de 0,5 goles** (Goles equipo): 82.7% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Sunderland – Tottenham Hotspur
+
+**Premier League · 2026-11-29T14:05:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 39.9% | 29.6% | 30.6% | 35.3% |
+
+### Forma, descanso y estadísticas
+
+**Sunderland:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: V · D · E · D · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 11,2, a puerta 2,2, córners 4,0, amarillas 2,0
+
+**Tottenham Hotspur:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · V · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,8, a puerta 5,0, córners 7,4, amarillas 2,0
+
+### Enfrentamientos previos
+- 2026-04-12: Sunderland 1-0 Tottenham
+- 2026-01-04: Tottenham 1-1 Sunderland
+
+### Tres selecciones del modelo (experimentales)
+1. **Tottenham Hotspur +1,5** (Hándicap 2 vías (medio gol)): 84.8% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 9,5 tiros a puerta totales** (Tiros a puerta totales): 76.2% · cuota justa 1.31; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Arsenal – Manchester City
+
+**Premier League · 2026-11-29T16:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 50.2% | 26.8% | 22.9% | 43.9% |
+
+### Forma, descanso y estadísticas
+
+**Arsenal:** posición 1 · 27 puntos.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 14,6, a puerta 4,8, córners 6,2, amarillas 1,8
+
+**Manchester City:** posición 3 · 21 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · D · V · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,4, a puerta 5,4, córners 6,0, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-04-19: Man City 2-1 Arsenal
+- 2025-09-21: Arsenal 1-1 Man City
+- 2025-02-02: Arsenal 5-1 Man City
+- 2024-09-22: Man City 2-2 Arsenal
+- 2024-03-31: Man City 0-0 Arsenal
+
+### Tres selecciones del modelo (experimentales)
+1. **Arsenal: menos de 2,5 goles** (Goles equipo): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 77.2% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **1X: Arsenal o empate** (Doble oportunidad): 77.1% · cuota justa 1.30; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Bayern Munich – FC Cologne
 
 **Bundesliga · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -2524,6 +3132,150 @@
 1. **VfB Stuttgart: más de 0,5 goles** (Goles equipo): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 1,5 goles** (Total goles): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Eintracht Frankfurt +2,5** (Hándicap 2 vías (medio gol)): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## SC Freiburg – RB Leipzig
+
+**Bundesliga · 2026-11-29T14:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 49.6% | 22.2% | 28.2% | 64.4% |
+
+### Forma, descanso y estadísticas
+
+**SC Freiburg:** posición 3 · 19 puntos.
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 13,4, a puerta 4,2, córners 4,4, amarillas 2,0
+
+**RB Leipzig:** posición 4 · 18 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · D · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,0, a puerta 7,4, córners 3,8, amarillas 0,6
+
+### Enfrentamientos previos
+- 2026-05-16: Freiburg 4-1 RB Leipzig
+- 2026-01-14: RB Leipzig 2-0 Freiburg
+- 2025-03-08: Freiburg 0-0 RB Leipzig
+- 2024-10-26: RB Leipzig 3-1 Freiburg
+- 2024-04-06: Freiburg 1-4 RB Leipzig
+
+### Tres selecciones del modelo (experimentales)
+1. **SC Freiburg: más de 0,5 goles** (Goles equipo): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **RB Leipzig: menos de 2,5 goles** (Goles equipo): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **RB Leipzig +2,5** (Hándicap 2 vías (medio gol)): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## TSG Hoffenheim – FC Augsburg
+
+**Bundesliga · 2026-11-29T16:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 54.3% | 21.3% | 24.4% | 69.8% |
+
+### Forma, descanso y estadísticas
+
+**TSG Hoffenheim:** posición 9 · 12 puntos.
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 16,4, a puerta 5,4, córners 5,6, amarillas 1,4
+
+**FC Augsburg:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 19,2, a puerta 6,2, córners 5,0, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-04-10: Augsburg 2-2 Hoffenheim
+- 2025-11-29: Hoffenheim 3-0 Augsburg
+- 2025-03-29: Hoffenheim 1-1 Augsburg
+- 2024-11-10: Augsburg 0-0 Hoffenheim
+- 2024-04-07: Hoffenheim 3-1 Augsburg
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 85.5% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **FC Augsburg: menos de 2,5 goles** (Goles equipo): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **FC Augsburg +2,5** (Hándicap 2 vías (medio gol)): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Borussia Dortmund – Bayer Leverkusen
+
+**Bundesliga · 2026-11-29T18:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 57.8% | 21.0% | 21.2% | 66.1% |
+
+### Forma, descanso y estadísticas
+
+**Borussia Dortmund:** posición 2 · 21 puntos.
+- Últimos partidos: 2V · 3E · 0D; secuencia: V · E · V · E · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,0, a puerta 5,6, córners 7,0, amarillas 1,4
+
+**Bayer Leverkusen:** posición 5 · 16 puntos.
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 15,0, a puerta 5,8, córners 5,6, amarillas 2,8
+
+### Enfrentamientos previos
+- 2026-04-11: Dortmund 0-1 Leverkusen
+- 2025-11-29: Leverkusen 1-2 Dortmund
+- 2025-05-11: Leverkusen 2-4 Dortmund
+- 2025-01-10: Dortmund 2-3 Leverkusen
+- 2024-04-21: Dortmund 1-1 Leverkusen
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 1,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 80.8% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Bayer Leverkusen +2,5** (Hándicap 2 vías (medio gol)): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -3179,6 +3931,195 @@
 1. **Más de 1,5 goles** (Total goles): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **12: gana uno de los dos** (Doble oportunidad): 81.7% · cuota justa 1.22; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 3. **Genoa: menos de 1,5 goles** (Goles equipo): 77.9% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Udinese – Fiorentina
+
+**Serie A · 2026-11-29T11:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 33.9% | 24.8% | 41.4% | 47.6% |
+
+### Forma, descanso y estadísticas
+
+**Udinese:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 14,8, a puerta 4,8, córners 5,2, amarillas 1,2
+
+**Fiorentina:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · V · E · D · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 15,4, a puerta 5,0, córners 5,6, amarillas 2,4
+
+### Enfrentamientos previos
+- 2026-03-02: Udinese 3-0 Fiorentina
+- 2025-12-21: Fiorentina 5-1 Udinese
+- 2025-05-25: Udinese 2-3 Fiorentina
+- 2024-12-23: Fiorentina 1-2 Udinese
+- 2024-01-14: Fiorentina 2-2 Udinese
+
+### Tres selecciones del modelo (experimentales)
+1. **Fiorentina +1,5** (Hándicap 2 vías (medio gol)): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Fiorentina: menos de 2,5 goles** (Goles equipo): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 74.1% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Sassuolo – Napoli
+
+**Serie A · 2026-11-29T14:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 26.1% | 23.4% | 50.5% | 52.5% |
+
+### Forma, descanso y estadísticas
+
+**Sassuolo:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 8,6, a puerta 2,0, córners 3,2, amarillas 1,6
+
+**Napoli:** posición 10 · 15 puntos.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · V · E · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 16,6, a puerta 6,6, córners 5,2, amarillas 1,4
+
+### Enfrentamientos previos
+- 2026-01-17: Napoli 1-0 Sassuolo
+- 2025-08-23: Sassuolo 0-2 Napoli
+- 2024-02-28: Sassuolo 1-6 Napoli
+- 2023-08-27: Napoli 2-0 Sassuolo
+
+### Tres selecciones del modelo (experimentales)
+1. **Menos de 4,5 goles** (Total goles): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Napoli: más de 0,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 76.6% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## AS Roma – Monza
+
+**Serie A · 2026-11-29T17:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 78.1% | 15.5% | 6.4% | 62.7% |
+
+### Forma, descanso y estadísticas
+
+**AS Roma:** posición 3 · 27 puntos.
+- Últimos partidos: 4V · 1E · 0D; secuencia: V · V · V · E · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 20,2, a puerta 7,0, córners 7,8, amarillas 2,0
+
+**Monza:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · D · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 12,2, a puerta 5,0, córners 3,4, amarillas 2,2
+
+### Enfrentamientos previos
+- 2025-02-24: Roma 4-0 Monza
+- 2024-10-06: Monza 1-1 Roma
+- 2024-03-02: Monza 1-4 Roma
+- 2023-10-22: Roma 1-0 Monza
+
+### Tres selecciones del modelo (experimentales)
+1. **12: gana uno de los dos** (Doble oportunidad): 84.5% · cuota justa 1.18; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **AS Roma: más de 1,5 goles** (Goles equipo): 73.9% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Como – Juventus
+
+**Serie A · 2026-11-29T19:45:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 46.6% | 25.9% | 27.5% | 39.1% |
+
+### Forma, descanso y estadísticas
+
+**Como:** posición 5 · 23 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: D · V · V · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,4, a puerta 4,8, córners 5,4, amarillas 1,2
+
+**Juventus:** posición 7 · 18 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: E · V · D · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,0, a puerta 3,6, córners 8,4, amarillas 1,4
+
+### Enfrentamientos previos
+- 2026-02-21: Juventus 0-2 Como
+- 2025-10-19: Como 2-0 Juventus
+- 2025-02-07: Como 1-2 Juventus
+- 2024-08-19: Juventus 3-0 Como
+
+### Tres selecciones del modelo (experimentales)
+1. **Como: menos de 2,5 goles** (Goles equipo): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Juventus +1,5** (Hándicap 2 vías (medio gol)): 78.4% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -3873,6 +4814,149 @@
 1. **Paris Saint-Germain: más de 0,5 goles** (Goles equipo): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Lorient: menos de 1,5 goles** (Goles equipo): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Lorient +2,5** (Hándicap 2 vías (medio gol)): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## AJ Auxerre – Marseille
+
+**Ligue 1 · 2026-11-29T14:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 31.1% | 26.9% | 42.0% | 42.0% |
+
+### Forma, descanso y estadísticas
+
+**AJ Auxerre:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · D · E · V · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 10,2, a puerta 4,0, córners 3,4, amarillas 2,0
+
+**Marseille:** posición 4 · 18 puntos.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 13,2, a puerta 4,6, córners 4,4, amarillas 1,4
+
+### Enfrentamientos previos
+- 2026-03-13: Marseille 1-0 Auxerre
+- 2025-11-01: Auxerre 0-1 Marseille
+- 2025-02-22: Auxerre 3-0 Marseille
+- 2024-11-08: Marseille 1-3 Auxerre
+
+### Tres selecciones del modelo (experimentales)
+1. **Marseille: menos de 2,5 goles** (Goles equipo): 86.3% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **AJ Auxerre +1,5** (Hándicap 2 vías (medio gol)): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Toulouse – Stade Rennais
+
+**Ligue 1 · 2026-11-29T16:15:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 41.9% | 22.5% | 35.6% | 71.4% |
+
+### Forma, descanso y estadísticas
+
+**Toulouse:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 2E · 1D; secuencia: V · D · E · V · E
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 10,4, a puerta 4,8, córners 4,0, amarillas 2,6
+
+**Stade Rennais:** posición 8 · 16 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · V · D · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 16,2, a puerta 6,6, córners 6,4, amarillas 2,4
+
+### Enfrentamientos previos
+- 2026-02-28: Rennes 1-0 Toulouse
+- 2025-10-29: Toulouse 2-2 Rennes
+- 2025-05-03: Toulouse 2-1 Rennes
+- 2024-11-10: Rennes 0-2 Toulouse
+- 2024-04-13: Rennes 1-2 Toulouse
+
+### Tres selecciones del modelo (experimentales)
+1. **Toulouse: más de 0,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Stade Rennais: más de 0,5 goles** (Goles equipo): 82.7% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Toulouse +1,5** (Hándicap 2 vías (medio gol)): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Lyon – AS Monaco
+
+**Ligue 1 · 2026-11-29T19:45:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 53.1% | 22.5% | 24.4% | 60.3% |
+
+### Forma, descanso y estadísticas
+
+**Lyon:** posición 5 · 17 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · D · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 12,2, a puerta 4,2, córners 4,2, amarillas 0,8
+
+**AS Monaco:** posición 7 · 16 puntos.
+- Últimos partidos: 0V · 3E · 2D; secuencia: E · D · E · D · E
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 13,4, a puerta 3,8, córners 4,6, amarillas 2,2
+
+### Enfrentamientos previos
+- 2026-03-22: Lyon 1-2 Monaco
+- 2026-01-03: Monaco 1-3 Lyon
+- 2025-05-10: Monaco 2-0 Lyon
+- 2024-08-24: Lyon 0-2 Monaco
+- 2024-04-28: Lyon 3-2 Monaco
+
+### Tres selecciones del modelo (experimentales)
+1. **Lyon: más de 0,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **AS Monaco +2,5** (Hándicap 2 vías (medio gol)): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada

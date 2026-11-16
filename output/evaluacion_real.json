@@ -1,21 +1,96 @@
 {
   "version": "prospectivo-0.5",
-  "calculado_utc": "2026-11-15T22:55:44.976336+00:00",
+  "calculado_utc": "2026-11-16T10:28:20.281888+00:00",
   "proporcion": "1X2 prepartido archivado; Brier dividido entre 3",
-  "registrados": 88,
-  "finalizados_validos": 0,
-  "pendientes": 84,
-  "sin_resultado": 4,
+  "registrados": 111,
+  "finalizados_validos": 4,
+  "pendientes": 107,
+  "sin_resultado": 0,
   "excluidos": 0,
   "global": {
-    "muestra": 0,
-    "brier_medio": null,
-    "logloss_medio": null,
-    "acierto_favorito_pct": null,
-    "ece": null,
-    "calibracion": []
+    "muestra": 4,
+    "brier_medio": 0.20259,
+    "logloss_medio": 0.99791,
+    "acierto_favorito_pct": 75.0,
+    "ece": 0.07966,
+    "calibracion": [
+      {
+        "intervalo": "0-20%",
+        "observaciones": 1,
+        "probabilidad_media": 0.1795,
+        "frecuencia_observada": 0.0
+      },
+      {
+        "intervalo": "20-40%",
+        "observaciones": 8,
+        "probabilidad_media": 0.2873,
+        "frecuencia_observada": 0.25
+      },
+      {
+        "intervalo": "40-60%",
+        "observaciones": 3,
+        "probabilidad_media": 0.5073,
+        "frecuencia_observada": 0.6667
+      }
+    ]
   },
-  "por_liga": {},
-  "por_modelo": {},
+  "por_liga": {
+    "Segunda División": {
+      "muestra": 4,
+      "brier_medio": 0.20259,
+      "logloss_medio": 0.99791,
+      "acierto_favorito_pct": 75.0,
+      "ece": 0.07966,
+      "calibracion": [
+        {
+          "intervalo": "0-20%",
+          "observaciones": 1,
+          "probabilidad_media": 0.1795,
+          "frecuencia_observada": 0.0
+        },
+        {
+          "intervalo": "20-40%",
+          "observaciones": 8,
+          "probabilidad_media": 0.2873,
+          "frecuencia_observada": 0.25
+        },
+        {
+          "intervalo": "40-60%",
+          "observaciones": 3,
+          "probabilidad_media": 0.5073,
+          "frecuencia_observada": 0.6667
+        }
+      ]
+    }
+  },
+  "por_modelo": {
+    "poisson70-elo30-0.2": {
+      "muestra": 4,
+      "brier_medio": 0.20259,
+      "logloss_medio": 0.99791,
+      "acierto_favorito_pct": 75.0,
+      "ece": 0.07966,
+      "calibracion": [
+        {
+          "intervalo": "0-20%",
+          "observaciones": 1,
+          "probabilidad_media": 0.1795,
+          "frecuencia_observada": 0.0
+        },
+        {
+          "intervalo": "20-40%",
+          "observaciones": 8,
+          "probabilidad_media": 0.2873,
+          "frecuencia_observada": 0.25
+        },
+        {
+          "intervalo": "40-60%",
+          "observaciones": 3,
+          "probabilidad_media": 0.5073,
+          "frecuencia_observada": 0.6667
+        }
+      ]
+    }
+  },
   "aviso": "La muestra prospectiva será cero hasta finalizar los encuentros; no confundir con backtest retrospectivo."
 }

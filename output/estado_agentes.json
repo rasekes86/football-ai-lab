@@ -1,80 +1,87 @@
 {
-  "utc": "2026-11-15T22:55:44.976336+00:00",
+  "utc": "2026-11-16T10:28:20.281888+00:00",
   "modo": "automatización Python — sin LLM en cada ejecución",
   "agentes": [
     {
       "agente": "datos",
       "estado": "OK",
-      "detalle": "6 ligas; 91 encuentros en 14 días",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
+      "detalle": "6 ligas; 115 encuentros en 14 días",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
       "registros": 7282
+    },
+    {
+      "agente": "marcadores_finales",
+      "estado": "OK",
+      "detalle": "Oficiales: 4; ESPN: 0; sin marcador: 0",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
+      "registros": 4
     },
     {
       "agente": "contexto",
       "estado": "PARCIAL",
       "detalle": "Machina Sports: 5 ligas; lesiones sólo Premier si disponibles",
-      "utc": "2026-11-15T22:55:44.976336+00:00"
+      "utc": "2026-11-16T10:28:20.281888+00:00"
     },
     {
       "agente": "jugadores",
       "estado": "CON_HISTORICO_PARCIAL",
-      "detalle": "1038 registros; 755 participaciones verificadas; sin apuestas individuales",
-      "utc": "2026-11-15T22:55:44.976336+00:00"
+      "detalle": "1217 registros; 881 participaciones verificadas; sin apuestas individuales",
+      "utc": "2026-11-16T10:28:20.281888+00:00"
     },
     {
       "agente": "predictor",
       "estado": "OK",
-      "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 7",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
-      "registros": 84
+      "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 8",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
+      "registros": 107
     },
     {
       "agente": "oportunidades_150",
       "estado": "OK",
-      "detalle": "5 cotizaciones archivadas; 0 mercados liquidados; cuotas conversacionales NO verificadas",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
+      "detalle": "5 cotizaciones archivadas; 4 mercados liquidados; cuotas conversacionales NO verificadas",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
       "registros": 5
     },
     {
       "agente": "selector",
       "estado": "OK",
-      "detalle": "84 partidos; 36 líneas de conteos aptas retrospectivamente; jugadores no habilitados",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
-      "registros": 252
+      "detalle": "107 partidos; 36 líneas de conteos aptas retrospectivamente; jugadores no habilitados",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
+      "registros": 321
     },
     {
       "agente": "mercado",
       "estado": "REFERENCIAS",
-      "detalle": "InferSports keyless: 1 coincidencias (máximo tres consultas); The Odds API: sin clave",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
-      "registros": 1
+      "detalle": "InferSports keyless: 2 coincidencias (máximo tres consultas); The Odds API: sin clave",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
+      "registros": 2
     },
     {
       "agente": "auditor",
       "estado": "OK",
       "detalle": "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
       "registros": 596
     },
     {
       "agente": "evaluador",
       "estado": "OK",
-      "detalle": "0 finales verificados, 84 pendientes",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
-      "registros": 88
+      "detalle": "4 finales verificados, 107 pendientes",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
+      "registros": 111
     },
     {
       "agente": "mercados_prospectivos",
       "estado": "OK",
-      "detalle": "0 selecciones terminadas, 252 pendientes; no confundir con backtest",
-      "utc": "2026-11-15T22:55:44.976336+00:00",
-      "registros": 264
+      "detalle": "10 selecciones terminadas, 321 pendientes; no confundir con backtest",
+      "utc": "2026-11-16T10:28:20.281888+00:00",
+      "registros": 333
     },
     {
       "agente": "publicador",
       "estado": "OK",
       "detalle": "Archivos de salida escritos en output",
-      "utc": "2026-11-15T22:55:44.976336+00:00"
+      "utc": "2026-11-16T10:28:20.281888+00:00"
     }
   ]
 }

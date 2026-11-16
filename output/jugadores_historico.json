@@ -1,8 +1,3588 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-15T22:55:44.976336+00:00",
+  "actualizado_utc": "2026-11-16T10:28:20.281888+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "200964",
+      "jugador": "Aarón Escandell",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "312376",
+      "jugador": "Carlos Domínguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "192796",
+      "jugador": "David Costas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "395613",
+      "jugador": "Samu Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "157965",
+      "jugador": "David Jiménez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "396611",
+      "jugador": "Mikel Goti",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "253732",
+      "jugador": "Alberto Reina",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "347357",
+      "jugador": "Youness Lachhab",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "304881",
+      "jugador": "Alexandru Mihai Isfan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "333244",
+      "jugador": "Estanis Pedrola",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "304332",
+      "jugador": "Ilyas Chaira",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "303968",
+      "jugador": "Daniel Villahermosa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "3108501",
+      "jugador": "Víctor García Mingo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "242382",
+      "jugador": "Jacobo González",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "320768",
+      "jugador": "Aritz Aldasoro",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "197906",
+      "jugador": "Carlos Fernández",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "184640",
+      "jugador": "José Luis Morales",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "240102",
+      "jugador": "Nacho Vidal",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "155392",
+      "jugador": "Juan Cruz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "372860",
+      "jugador": "Marco Esteban",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "331457",
+      "jugador": "Miguel Narváez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "376695",
+      "jugador": "Diego Menéndez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Real Oviedo",
+      "jugador_id": "353537",
+      "jugador": "Pablo Sáenz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "164469",
+      "jugador": "Paulo Gazzaniga",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "297825",
+      "jugador": "Alejandro Francés",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "160740",
+      "jugador": "David López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "30377",
+      "jugador": "Álex Moreno",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "265992",
+      "jugador": "Mateu Morey",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "375753",
+      "jugador": "Izan González",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "242383",
+      "jugador": "Fran Beltrán",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "279748",
+      "jugador": "Unai Hernandez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "261468",
+      "jugador": "Carles Pérez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "406305",
+      "jugador": "Oleksandr Pishchur",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "261613",
+      "jugador": "Abel Ruiz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "259908",
+      "jugador": "Sergi Puig",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "113737",
+      "jugador": "Cristhian Stuani",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "241139",
+      "jugador": "Abdul Mumin",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "3139006",
+      "jugador": "Alex Cantarell Rull",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "152166",
+      "jugador": "Portu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "384393",
+      "jugador": "Lancinet Kourouma",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "215717",
+      "jugador": "Donny van de Beek",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "3118648",
+      "jugador": "Guillem Badía Gutiérrez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "409290",
+      "jugador": "Gibert Jordana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "367976",
+      "jugador": "Vladyslav Krapyvtsov",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883115",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T20:00:00+00:00",
+      "local": "Real Oviedo",
+      "visitante": "Girona",
+      "equipo": "Girona",
+      "jugador_id": "297369",
+      "jugador": "Ivan Ruiz Morante",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "290043",
+      "jugador": "Arnau Tenas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "381633",
+      "jugador": "Aboubaka Soumahoro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "222333",
+      "jugador": "Antonio Raíllo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "172998",
+      "jugador": "Alberto Moreno",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "279511",
+      "jugador": "Antonio Sánchez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "165519",
+      "jugador": "Sergi Darder",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "119310",
+      "jugador": "Álex Sala",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "381682",
+      "jugador": "Adrián Liso",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "291437",
+      "jugador": "Arnau Puigmal",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "206110",
+      "jugador": "Pablo Torre",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "331787",
+      "jugador": "Fuentes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "422183",
+      "jugador": "Miguel Calatayud",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "333922",
+      "jugador": "Toni Dols",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "302590",
+      "jugador": "Daniel Luna",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "3132293",
+      "jugador": "Iago Mendes Vicens",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "232275",
+      "jugador": "Toni Lato",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "32501",
+      "jugador": "Iván Cuéllar",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "190569",
+      "jugador": "Luis Orejuela",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "257211",
+      "jugador": "Adam Buksa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "155935",
+      "jugador": "Abdón Prats",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "3132303",
+      "jugador": "Alejandro Yerga González",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "361266",
+      "jugador": "Justin-Noel Kalumba",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Mallorca",
+      "jugador_id": "415866",
+      "jugador": "Jandro García",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "362882",
+      "jugador": "Guilherme Fernandes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "240592",
+      "jugador": "Rubén González",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "347358",
+      "jugador": "Juan Gutiérrez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "332007",
+      "jugador": "Dani Tasende",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "381110",
+      "jugador": "Daniel Budesca",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "395130",
+      "jugador": "Adnane Ghailan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "108464",
+      "jugador": "Isma Ruiz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "415364",
+      "jugador": "Eder García",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "331812",
+      "jugador": "Percan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "363063",
+      "jugador": "Salim El Jebari",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "303809",
+      "jugador": "Diego Bri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "289625",
+      "jugador": "Álex Martín",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "113187",
+      "jugador": "Victor Sánchez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "353812",
+      "jugador": "Ibai Sanz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "264083",
+      "jugador": "Carlos Albarrán",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "24278",
+      "jugador": "Iker Álvarez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "378408",
+      "jugador": "Egoitz Muñoz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "359361",
+      "jugador": "Enol Rodríguez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "312005",
+      "jugador": "Damián",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "141666",
+      "jugador": "Nélson Monte",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "390844",
+      "jugador": "Alejandro Arevalo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883135",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Mallorca",
+      "visitante": "Córdoba",
+      "equipo": "Córdoba",
+      "jugador_id": "297164",
+      "jugador": "Theo Zidane",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "87897",
+      "jugador": "Andrés Fernández",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "283833",
+      "jugador": "Federico Bonini",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "152557",
+      "jugador": "Jorge Pulido",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "344843",
+      "jugador": "Leonardo Lelo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "268439",
+      "jugador": "Chumi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "307917",
+      "jugador": "Sergio Arribas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "214275",
+      "jugador": "Javi Muñoz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "222373",
+      "jugador": "Mikel Vesga",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "277717",
+      "jugador": "Miguel de la Fuente",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "376425",
+      "jugador": "Quim Junyent",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "193130",
+      "jugador": "Adri Embarba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "414761",
+      "jugador": "Andrej Popovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "324005",
+      "jugador": "Guilherme Borges Guedes",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "161896",
+      "jugador": "Fernando Martínez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "377529",
+      "jugador": "Áron Yaakobishvili",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "306578",
+      "jugador": "Jon Morcillo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "361458",
+      "jugador": "Thalys",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "3115619",
+      "jugador": "Daniel Sánchez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "297291",
+      "jugador": "Daijiro Chirino",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "178896",
+      "jugador": "Álex Muñoz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "175010",
+      "jugador": "Léo Baptistão",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "Almería",
+      "jugador_id": "286167",
+      "jugador": "Álex Sola",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "203061",
+      "jugador": "Pau López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "219073",
+      "jugador": "Diego Alende",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "347509",
+      "jugador": "Marc Bombardó",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "389455",
+      "jugador": "Marc Domenech",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "267058",
+      "jugador": "Thomas Carrique",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "332016",
+      "jugador": "Nacho Quintana",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "320854",
+      "jugador": "Randy Schneider",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "171552",
+      "jugador": "Sergio Molina",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "331370",
+      "jugador": "Jordi Cano",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "331382",
+      "jugador": "Moró Sidibe",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "396027",
+      "jugador": "Diego Diaz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "354532",
+      "jugador": "Lautaro Spatz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "370603",
+      "jugador": "Juan Sebastian Serrano",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "359907",
+      "jugador": "Álex Calvo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "324809",
+      "jugador": "Enes Sali",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "344667",
+      "jugador": "Julian Rijkhoff",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "259097",
+      "jugador": "Stefan Golubović",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "353815",
+      "jugador": "Hugo Solozabal",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "207729",
+      "jugador": "Nico Ratti",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "236593",
+      "jugador": "Andoni López",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "194253",
+      "jugador": "Hugo López",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883118",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T17:30:00+00:00",
+      "local": "Almería",
+      "visitante": "FC Andorra",
+      "equipo": "FC Andorra",
+      "jugador_id": "3128000",
+      "jugador": "Tiago Olmedo Vila",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406381",
+      "jugador": "Lander Olasagasti",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "411583",
+      "jugador": "Iker Calderon",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396607",
+      "jugador": "Luken Beitia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396608",
+      "jugador": "Jon Balda",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406386",
+      "jugador": "Jon Garro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406385",
+      "jugador": "Jon Eceizabarrena",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "366886",
+      "jugador": "Alex Lebarbier",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406396",
+      "jugador": "Tomás Carbonell",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406384",
+      "jugador": "Javier Soroeta",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396613",
+      "jugador": "Alex Marchal",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "387496",
+      "jugador": "Daniel Díaz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396610",
+      "jugador": "Arkaitz Mariezkurrena",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "379457",
+      "jugador": "Iñaki Rupérez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "415441",
+      "jugador": "Unax Larrañaga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "411582",
+      "jugador": "Joan Oleaga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "410486",
+      "jugador": "Ibai Aguirre",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406377",
+      "jugador": "Unax Agote",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406383",
+      "jugador": "Gorka Carrera",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "418089",
+      "jugador": "Andrews Adjabeng",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406389",
+      "jugador": "Gorka Gorosabel",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "368327",
+      "jugador": "Aitor Fraga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406380",
+      "jugador": "Iker Ropero",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "378292",
+      "jugador": "Sydney Osazuwa",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "192718",
+      "jugador": "Rubén Yáñez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "209736",
+      "jugador": "Jorge",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "388802",
+      "jugador": "Aimar Duñabeitia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "376421",
+      "jugador": "Andrés Cuenca",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "303933",
+      "jugador": "Guillermo Rosas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "311586",
+      "jugador": "Nacho Martínez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "261615",
+      "jugador": "Àlex Corredera",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "304369",
+      "jugador": "Nikita Iosifov",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "303829",
+      "jugador": "Gaspar Campos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "422029",
+      "jugador": "Mata",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "421249",
+      "jugador": "Miguel Conde",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "217524",
+      "jugador": "Emanuel Gularte",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "333166",
+      "jugador": "Egoitz Arana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "359913",
+      "jugador": "Andrés Ferrari",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "341498",
+      "jugador": "Diego Sanchez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "415368",
+      "jugador": "Bruno Rubio",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "414177",
+      "jugador": "Christian Ferreres",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "389359",
+      "jugador": "Iker Martínez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "124228",
+      "jugador": "Mamadou Loum",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "128372",
+      "jugador": "Pablo Vázquez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "265985",
+      "jugador": "Hugo Guillamón",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883134",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-14T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Sporting Gijón",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "409509",
+      "jugador": "Enol Prendes",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
     {
       "event_id": "401883136",
       "liga": "SP2",
@@ -20764,10 +24344,10 @@
       "fuente": "ESPN summary público no oficial"
     }
   ],
-  "eventos_consultados": 0,
-  "eventos_con_jugadores": 0,
+  "eventos_consultados": 4,
+  "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 24,
-  "jugadores_con_algun_dato": 1038
+  "partidos_archivados": 28,
+  "jugadores_con_algun_dato": 1217
 }

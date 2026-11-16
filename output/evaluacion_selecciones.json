@@ -1,22 +1,65 @@
 {
   "version": "market-prospective-0.8",
-  "calculado_utc": "2026-11-15T22:55:44.976336+00:00",
-  "registradas": 264,
-  "finalizadas": 0,
-  "pendientes": 252,
-  "sin_resultado": 12,
-  "sin_estadistica": 0,
+  "calculado_utc": "2026-11-16T10:28:20.281888+00:00",
+  "registradas": 333,
+  "finalizadas": 10,
+  "pendientes": 321,
+  "sin_resultado": 0,
+  "sin_estadistica": 2,
   "excluidas": 0,
   "global": {
-    "muestra": 0,
-    "acierto_pct": null,
-    "brier": null,
-    "logloss": null,
-    "ece": null,
-    "advertencia": "Muestra inexistente"
+    "muestra": 10,
+    "acierto_pct": 90.0,
+    "brier": 0.105959,
+    "logloss": 0.379251,
+    "ece": 0.086731,
+    "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
   },
-  "por_mercado": {},
-  "por_liga": {},
-  "por_origen": {},
+  "por_mercado": {
+    "Goles equipo": {
+      "muestra": 5,
+      "acierto_pct": 100.0,
+      "brier": 0.045451,
+      "logloss": 0.236412,
+      "ece": 0.209532,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    },
+    "Hándicap 2 vías (medio gol)": {
+      "muestra": 3,
+      "acierto_pct": 66.67,
+      "brier": 0.261426,
+      "logloss": 0.758821,
+      "ece": 0.302682,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    },
+    "Total goles": {
+      "muestra": 2,
+      "acierto_pct": 100.0,
+      "brier": 0.02403,
+      "logloss": 0.166996,
+      "ece": 0.153525,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    }
+  },
+  "por_liga": {
+    "Segunda División": {
+      "muestra": 10,
+      "acierto_pct": 90.0,
+      "brier": 0.105959,
+      "logloss": 0.379251,
+      "ece": 0.086731,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    }
+  },
+  "por_origen": {
+    "Poisson de goles": {
+      "muestra": 10,
+      "acierto_pct": 90.0,
+      "brier": 0.105959,
+      "logloss": 0.379251,
+      "ece": 0.086731,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    }
+  },
   "advertencia": "Solo las primeras selecciones guardadas ANTES del partido. Sin usar resultados retrospectivos como pronósticos reales."
 }
