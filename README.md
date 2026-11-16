@@ -178,3 +178,23 @@ Ahora el comparador también admite 5DollarFootballAPI (plan gratis para las
 Se mantienen separadas las cuotas verificadas y las estimaciones del modelo,
 y no se consulta ninguna API sin autorización y secretos privados.
 [Configurar las fuentes gratuitas](docs/FASE_8_FUENTES_GRATUITAS.md).
+
+### Fase 9 · Telegram interactivo con botones (prepartido)
+
+El bot de Telegram incluye ahora una implementación de menús interactivos:
+partidos próximos por fecha, seis ligas, mercados con sus líneas,
+probabilidades estimadas, fichas de estadísticas, cuotas ofrecidas
+mayores de 1,50 **solo cuando están verificadas** y seguimiento
+prospectivo. Permite consultas sencillas por texto, por ejemplo
+«Tenerife» o «mañana», y distingue cuotas justas teóricas de
+precios de bookmaker. **No ofrece directo ni un ranking nuevo de
+oportunidades**.
+
+La parte interactiva exige desplegar un webhook HTTPS opcional
+en Cloudflare Workers Free. El código, los tests y el workflow
+manual de despliegue ya están disponibles, pero **sin configurar la
+cuenta Cloudflare y ejecutar el despliegue no responderá todavía**.
+Los avisos de Telegram existentes siguen funcionando igual.
+
+[Guía para activarlo desde el móvil](docs/TELEGRAM_INTERACTIVO.md) ·
+[Workflow de despliegue](.github/workflows/telegram-bot.yml).

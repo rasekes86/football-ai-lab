@@ -1,0 +1,100 @@
+name: Telegram interactivo · pruebas y despliegue
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'telegram-bot/**'
+      - '.github/workflows/telegram-bot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pruebas de consultas y seguridad
+        working-directory: telegram-bot
+        run: npm test
+  deploy:
+    if: github.event_name == 'workflow_dispatch'
+    needs: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Comprobar credenciales privadas
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$CF_TOKEN" ] || [ -z "$CF_ACCOUNT" ] || [ -z "$TG_TOKEN" ] || [ -z "$TG_ID" ]; then
+            echo "::error::Faltan CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID o credenciales existentes de Telegram. Consulta docs/TELEGRAM_INTERACTIVO.md"
+            exit 1
+          fi
+      - name: Publicar Worker gratuito y sus secretos
+        id: deploy
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: telegram-bot
+          secrets: |
+            TELEGRAM_BOT_TOKEN
+            TELEGRAM_CHAT_ID
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Registrar el webhook de Telegram sin revelar el token
+        env:
+          WORKER_URL: ${{ steps.deploy.outputs.deployment-url }}
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os
+          from urllib.parse import urlsplit
+          from urllib.request import Request,urlopen
+          raw=os.environ["WORKER_URL"].strip().split()[0]
+          url=urlsplit(raw)
+          if url.scheme!="https" or not url.hostname or not url.hostname.endswith(".workers.dev"):
+              raise SystemExit("Despliegue sin dirección HTTPS workers.dev válida; no se cambia el webhook.")
+          base="https://"+url.netloc
+          token=os.environ["TOKEN"]
+          def post(method,payload):
+              req=Request("https://api.telegram.org/bot"+token+"/"+method,
+                  data=json.dumps(payload).encode("utf-8"),
+                  headers={"Content-Type":"application/json"},method="POST")
+              with urlopen(req,timeout=15) as handle:
+                  data=json.loads(handle.read())
+              if data.get("ok") is not True:raise RuntimeError("Telegram no confirmó "+method)
+              return data
+          with urlopen(base+"/health",timeout=15) as handle:
+              assert handle.status==200,"Worker no está disponible"
+          post("setWebhook",{
+              "url":base+"/telegram",
+              "secret_token":hashlib.sha256(token.encode("utf-8")).hexdigest(),
+              "allowed_updates":["message","callback_query"],
+              "drop_pending_updates":True,
+              "max_connections":10
+          })
+          post("setMyCommands",{"commands":[
+              {"command":"menu","description":"Mostrar opciones"},
+              {"command":"partidos","description":"Próximos partidos"},
+              {"command":"ligas","description":"Elegir liga"},
+              {"command":"mercados","description":"Elegir mercado"},
+              {"command":"cuotas","description":"Cuotas reales superiores a 1,50"},
+              {"command":"resultados","description":"Seguimiento prospectivo"},
+              {"command":"ayuda","description":"Ayuda"}
+          ]})
+          print("Webhook interactivo conectado correctamente; sin publicar credenciales.")
+          print("Bot interactivo:",base)
+          PY
