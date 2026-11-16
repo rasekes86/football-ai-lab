@@ -62,9 +62,32 @@ jobs:
             git commit -m 'Actualiza pronósticos y seguimiento [skip ci]'
             git push
           fi
-      - name: Enviar resumen opcional por Telegram
+      - name: Alertas Fase 7 por Telegram
         if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m football_ai_lab.telegram_notify
+          TELEGRAM_ALERTS_ENABLED: ${{ vars.TELEGRAM_ALERTS_ENABLED }}
+          TELEGRAM_ALERT_MARKETS: ${{ vars.TELEGRAM_ALERT_MARKETS }}
+          TELEGRAM_ALERT_LEAGUES: ${{ vars.TELEGRAM_ALERT_LEAGUES }}
+          TELEGRAM_ALERT_MIN_PROBABILITY: ${{ vars.TELEGRAM_ALERT_MIN_PROBABILITY }}
+          TELEGRAM_ALERT_QUALITY: ${{ vars.TELEGRAM_ALERT_QUALITY }}
+          TELEGRAM_ALERT_HORIZON_HOURS: ${{ vars.TELEGRAM_ALERT_HORIZON_HOURS }}
+          TELEGRAM_ALERT_RESULTS_DAYS: ${{ vars.TELEGRAM_ALERT_RESULTS_DAYS }}
+          TELEGRAM_ALERT_MAX_UPCOMING: ${{ vars.TELEGRAM_ALERT_MAX_UPCOMING }}
+          TELEGRAM_ALERT_MAX_RESULTS: ${{ vars.TELEGRAM_ALERT_MAX_RESULTS }}
+        run: python -m football_ai_lab.telegram_alerts
+      - name: Guardar estado de alertas sin secretos
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          if test -f output/estado_alertas_telegram.json; then
+            git add output/estado_alertas_telegram.json
+            if ! git diff --cached --quiet; then
+              git config user.name 'github-actions[bot]'
+              git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+              git commit -m 'Guarda control anti duplicados Telegram [skip ci]'
+              git push
+            fi
+          else
+            echo 'Telegram no activado o sin mensaje confirmado: sin estado.'
+          fi

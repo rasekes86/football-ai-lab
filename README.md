@@ -152,3 +152,7 @@ El [Explorador de mercados](https://rasekes86.github.io/football-ai-lab/#markets
 ### Fase 5 — Radar de pronósticos futuros
 
 [Abre el Radar inteligente](https://rasekes86.github.io/football-ai-lab/#radar). Filtra mercados futuros por liga, probabilidad, calidad, cobertura y cuota justa teórica. Cada encuentro presenta comparativas de estadísticas previas de ambos equipos en ventanas de 5/10/20 partidos (general o local/fuera), con muestras verificables y acceso a su ficha. El radar no altera el Top 3 ni atribuye rentabilidad a las probabilidades. Consulta la [metodología de la Fase 5](docs/FASE_5_RADAR.md).
+
+### Fase 7 — Resúmenes y resultados por Telegram
+
+Se ha implementado la [alerta opcional por Telegram](docs/TELEGRAM.md) sobre los pronósticos futuros y su liquidación prospectiva de la Fase 4. Permite filtrar mercados, ligas, probabilidad, calidad y horizonte; notifica aciertos y fallos verificados sin contar estadísticas ausentes como derrotas. El envío automático queda **desactivado hasta que configures dos secretos y la variable de activación en GitHub**, sin compartirlos con ChatGPT. El estado anti-duplicados solo se confirma después de una entrega correcta. Reutiliza el análisis diario, sin nuevas APIs de pago.
