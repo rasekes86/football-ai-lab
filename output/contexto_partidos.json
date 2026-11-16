@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-16T20:28:15.299590+00:00",
+  "calculado_utc": "2026-11-16T23:47:29.051215+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -4147,14 +4147,21 @@
       "fecha_corte": "2026-11-22",
       "local_datos": {
         "partidos": 5,
-        "v": 1,
+        "v": 0,
         "e": 2,
-        "d": 2,
-        "goles_favor": 9,
+        "d": 3,
+        "goles_favor": 5,
         "goles_contra": 11,
-        "puntos": 5,
-        "dias_descanso": 15,
+        "puntos": 2,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-16",
+            "local": "Albacete",
+            "visitante": "Celta B",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Burgos",
@@ -4182,20 +4189,13 @@
             "visitante": "Tenerife",
             "marcador": "1-1",
             "resultado": "E"
-          },
-          {
-            "fecha": "2026-10-10",
-            "local": "Celta B",
-            "visitante": "Sociedad B",
-            "marcador": "4-1",
-            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 11.0,
-          "tiros_puerta": 4.6,
-          "corners": 2.4,
-          "amarillas": 3.2,
+          "tiros": 10.6,
+          "tiros_puerta": 3.6,
+          "corners": 3.2,
+          "amarillas": 3.6,
           "rojas": 0.2
         }
       },
@@ -4257,7 +4257,7 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 13,
+            "todos": 14,
             "recinto": 7,
             "identificado": true
           },
@@ -4343,14 +4343,21 @@
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 4,
         "e": 0,
-        "d": 2,
-        "goles_favor": 8,
-        "goles_contra": 9,
-        "puntos": 9,
-        "dias_descanso": 15,
+        "d": 1,
+        "goles_favor": 9,
+        "goles_contra": 4,
+        "puntos": 12,
+        "dias_descanso": 6,
         "ultimos": [
+          {
+            "fecha": "2026-11-16",
+            "local": "Albacete",
+            "visitante": "Celta B",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Leganes",
@@ -4378,20 +4385,13 @@
             "visitante": "Albacete",
             "marcador": "2-1",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Valladolid",
-            "visitante": "Albacete",
-            "marcador": "5-0",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 10.8,
-          "tiros_puerta": 2.8,
-          "corners": 6.4,
-          "amarillas": 3.4,
+          "tiros": 12.0,
+          "tiros_puerta": 3.6,
+          "corners": 7.2,
+          "amarillas": 3.2,
           "rojas": 0.2
         }
       },
@@ -4435,7 +4435,7 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 139,
+            "todos": 140,
             "recinto": 70,
             "identificado": true
           }
@@ -4914,14 +4914,21 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 4,
         "e": 0,
-        "d": 2,
-        "goles_favor": 8,
-        "goles_contra": 9,
-        "puntos": 9,
-        "dias_descanso": 21,
+        "d": 1,
+        "goles_favor": 9,
+        "goles_contra": 4,
+        "puntos": 12,
+        "dias_descanso": 12,
         "ultimos": [
+          {
+            "fecha": "2026-11-16",
+            "local": "Albacete",
+            "visitante": "Celta B",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
           {
             "fecha": "2026-11-07",
             "local": "Leganes",
@@ -4949,20 +4956,13 @@
             "visitante": "Albacete",
             "marcador": "2-1",
             "resultado": "D"
-          },
-          {
-            "fecha": "2026-10-12",
-            "local": "Valladolid",
-            "visitante": "Albacete",
-            "marcador": "5-0",
-            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 10.8,
-          "tiros_puerta": 2.8,
-          "corners": 6.4,
-          "amarillas": 3.4,
+          "tiros": 12.0,
+          "tiros_puerta": 3.6,
+          "corners": 7.2,
+          "amarillas": 3.2,
           "rojas": 0.2
         }
       },
@@ -5049,8 +5049,8 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 139,
-            "recinto": 69,
+            "todos": 140,
+            "recinto": 70,
             "identificado": true
           },
           "visitante": {

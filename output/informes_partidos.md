@@ -713,7 +713,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 47.6% | 24.4% | 28.0% | 48.1% |
+| 47.6% | 24.4% | 28.0% | 48.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -734,7 +734,7 @@
 - 2023-08-13: Leganes 0-1 Andorra
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Más de 19,5 tiros totales** (Tiros totales): 85.1% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 2. **FC Andorra: menos de 2,5 goles** (Goles equipo): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **12: gana uno de los dos** (Doble oportunidad): 75.6% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
@@ -804,7 +804,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.8% | 25.5% | 29.7% | 44.3% |
+| 44.8% | 25.5% | 29.8% | 44.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -824,8 +824,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 81.4% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Cádiz +1,5** (Hándicap 2 vías (medio gol)): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 81.5% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Cádiz +1,5** (Hándicap 2 vías (medio gol)): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 44.4% / 30.6% / 24.9%. No sustituye al modelo principal.
@@ -849,7 +849,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 65.4% | 20.6% | 14.1% | 52.8% |
+| 65.3% | 20.6% | 14.1% | 52.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -870,7 +870,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Castellón: más de 0,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **1X: Castellón o empate** (Doble oportunidad): 85.9% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Más de 19,5 tiros totales** (Tiros totales): 84.9% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 63.3% / 25.5% / 11.1%. No sustituye al modelo principal.
@@ -938,7 +938,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 35.6% | 25.2% | 39.2% | 47.1% |
+| 35.6% | 25.1% | 39.3% | 47.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -958,8 +958,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Real Oviedo +1,5** (Hándicap 2 vías (medio gol)): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Oviedo: menos de 2,5 goles** (Goles equipo): 84.8% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 21,5 tiros totales** (Tiros totales): 78.5% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Real Oviedo: menos de 2,5 goles** (Goles equipo): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 21,5 tiros totales** (Tiros totales): 78.6% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 45.9% / 25.3% / 28.8%. No sustituye al modelo principal.
@@ -983,7 +983,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.9% | 24.5% | 30.6% | 48.8% |
+| 44.9% | 24.5% | 30.6% | 48.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -1002,7 +1002,7 @@
 - 2025-11-02: Sp Gijon 0-0 Las Palmas
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 82.4% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Más de 19,5 tiros totales** (Tiros totales): 82.5% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 2. **Sporting Gijón: menos de 2,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Las Palmas +1,5** (Hándicap 2 vías (medio gol)): 76.9% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
@@ -1072,14 +1072,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 47.9% | 22.5% | 29.6% | 62.0% |
+| 47.6% | 22.5% | 29.9% | 62.0% |
 
 ### Forma, descanso y estadísticas
 
 **RC Celta Fortuna:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · D · E · V
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 11,0, a puerta 4,6, córners 2,4, amarillas 3,2
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 10,6, a puerta 3,6, córners 3,2, amarillas 3,6
 
 **Real Valladolid:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 2V · 0E · 3D; secuencia: D · V · V · D · D
@@ -1116,7 +1116,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 47.5% | 28.5% | 23.9% | 28.8% |
+| 47.3% | 28.5% | 24.2% | 28.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -1126,9 +1126,9 @@
 - Medias recientes: Tiros 15,0, a puerta 5,4, córners 6,6, amarillas 2,2
 
 **Albacete:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 10,8, a puerta 2,8, córners 6,4, amarillas 3,4
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 12,0, a puerta 3,6, córners 7,2, amarillas 3,2
 
 ### Enfrentamientos previos
 - 2026-04-04: Albacete 2-3 Burgos
@@ -1164,7 +1164,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 29.2% | 24.8% | 46.0% | 48.3% |
+| 29.2% | 24.8% | 46.1% | 48.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -1185,7 +1185,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Almería: menos de 2,5 goles** (Goles equipo): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 21,5 tiros totales** (Tiros totales): 80.4% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Ceuta +1,5** (Hándicap 2 vías (medio gol)): 79.2% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 79.1% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 37.1% / 23.0% / 39.9%. No sustituye al modelo principal.
@@ -1273,7 +1273,7 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Las Palmas: menos de 2,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 78.9% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Más de 19,5 tiros totales** (Tiros totales): 79.0% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 3. **1X: Las Palmas o empate** (Doble oportunidad): 75.9% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -1298,14 +1298,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 50.4% | 24.4% | 25.3% | 46.1% |
+| 50.0% | 24.6% | 25.4% | 45.2% |
 
 ### Forma, descanso y estadísticas
 
 **Albacete:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · V · D · D
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 10,8, a puerta 2,8, córners 6,4, amarillas 3,4
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 12,0, a puerta 3,6, córners 7,2, amarillas 3,2
 
 **Tenerife:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 1V · 4E · 0D; secuencia: V · E · E · E · E
@@ -1319,9 +1319,9 @@
 - 2023-09-09: Tenerife 2-0 Albacete
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 80.9% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Albacete: menos de 2,5 goles** (Goles equipo): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 75.6% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **Más de 19,5 tiros totales** (Tiros totales): 80.4% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Albacete: menos de 2,5 goles** (Goles equipo): 80.4% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 76.1% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 40.3% / 30.2% / 29.5%. No sustituye al modelo principal.
@@ -1345,7 +1345,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 32.4% | 24.7% | 42.8% | 48.7% |
+| 32.4% | 24.7% | 42.9% | 48.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -1389,7 +1389,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.6% | 26.2% | 30.2% | 39.9% |
+| 43.5% | 26.2% | 30.2% | 40.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -1412,8 +1412,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Eibar: menos de 2,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Burgos +1,5** (Hándicap 2 vías (medio gol)): 80.6% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Burgos +1,5** (Hándicap 2 vías (medio gol)): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 54.4% / 23.4% / 22.1%. No sustituye al modelo principal.
@@ -1437,7 +1437,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.2% | 24.7% | 32.1% | 49.4% |
+| 43.1% | 24.7% | 32.1% | 49.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -1456,9 +1456,9 @@
 - 2025-11-24: Sociedad B 1-0 Valladolid
 
 ### Tres selecciones del modelo (experimentales)
-1. **Real Valladolid +1,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Valladolid: menos de 2,5 goles** (Goles equipo): 83.2% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 21,5 tiros totales** (Tiros totales): 80.9% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Menos de 4,5 goles** (Total goles): 87.0% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Real Valladolid +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 58.0% / 24.0% / 17.9%. No sustituye al modelo principal.
@@ -1482,7 +1482,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 58.0% | 22.6% | 19.4% | 49.8% |
+| 57.9% | 22.6% | 19.5% | 49.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -1502,7 +1502,7 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Menos de 4,5 goles** (Total goles): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Ceuta +2,5** (Hándicap 2 vías (medio gol)): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Ceuta +2,5** (Hándicap 2 vías (medio gol)): 84.3% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Granada: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -1527,7 +1527,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 38.8% | 25.6% | 35.5% | 44.3% |
+| 38.8% | 25.6% | 35.6% | 44.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -1571,7 +1571,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 30.7% | 23.1% | 46.2% | 58.4% |
+| 30.6% | 23.1% | 46.3% | 58.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -1593,8 +1593,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Cádiz: menos de 2,5 goles** (Goles equipo): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Córdoba: más de 0,5 goles** (Goles equipo): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 4,5 goles** (Total goles): 81.0% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Córdoba: más de 0,5 goles** (Goles equipo): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 goles** (Total goles): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 27.5% / 21.1% / 51.4%. No sustituye al modelo principal.
@@ -1618,7 +1618,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 58.7% | 20.6% | 20.7% | 66.2% |
+| 58.7% | 20.6% | 20.8% | 66.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -1641,7 +1641,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 1,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 19,5 tiros totales** (Tiros totales): 85.1% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Sporting Gijón +2,5** (Hándicap 2 vías (medio gol)): 80.4% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Sporting Gijón +2,5** (Hándicap 2 vías (medio gol)): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 56.5% / 21.3% / 22.2%. No sustituye al modelo principal.
@@ -4123,7 +4123,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-16T19:47:35+00:00)
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

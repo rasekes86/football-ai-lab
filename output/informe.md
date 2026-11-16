@@ -1,11 +1,11 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-16T20:28:15.299590+00:00
+**UTC:** 2026-11-16T23:47:29.051215+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 106
 **Descartados por insuficiencia de datos:** 8
-**Históricos evaluados:** 4
-**Brier 1X2 medio:** 0.2026
+**Históricos evaluados:** 5
+**Brier 1X2 medio:** 0.1916
 
 | Liga | Fecha UTC | Partido | Local | Empate | Visitante |
 |---|---|---|---:|---:|---:|
@@ -26,25 +26,25 @@
 | LaLiga | 2026-11-29T20:00 | Real Sociedad - Sevilla | 48.2% | 22.5% | 29.2% |
 | Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 47.6% | 24.4% | 28.0% |
 | Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.0% | 26.0% | 29.9% |
-| Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 44.8% | 25.5% | 29.7% |
-| Segunda División | 2026-11-21T17:30 | Castellón - Eldense | 65.4% | 20.6% | 14.1% |
+| Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 44.8% | 25.5% | 29.8% |
+| Segunda División | 2026-11-21T17:30 | Castellón - Eldense | 65.3% | 20.6% | 14.1% |
 | Segunda División | 2026-11-21T20:00 | Tenerife - Mallorca | 39.1% | 30.6% | 30.3% |
-| Segunda División | 2026-11-22T13:00 | Córdoba - Real Oviedo | 35.6% | 25.2% | 39.2% |
+| Segunda División | 2026-11-22T13:00 | Córdoba - Real Oviedo | 35.6% | 25.1% | 39.3% |
 | Segunda División | 2026-11-22T15:15 | Sporting Gijón - Las Palmas | 44.9% | 24.5% | 30.6% |
 | Segunda División | 2026-11-22T17:30 | Girona - Eibar | 45.9% | 25.9% | 28.2% |
-| Segunda División | 2026-11-22T17:30 | RC Celta Fortuna - Real Valladolid | 47.9% | 22.5% | 29.6% |
-| Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.5% | 28.5% | 23.9% |
-| Segunda División | 2026-11-23T19:30 | Ceuta - Almería | 29.2% | 24.8% | 46.0% |
+| Segunda División | 2026-11-22T17:30 | RC Celta Fortuna - Real Valladolid | 47.6% | 22.5% | 29.9% |
+| Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.3% | 28.5% | 24.2% |
+| Segunda División | 2026-11-23T19:30 | Ceuta - Almería | 29.2% | 24.8% | 46.1% |
 | Segunda División | 2026-11-27T19:30 | Leganés - CD Sabadell | 41.0% | 28.5% | 30.5% |
 | Segunda División | 2026-11-28T13:00 | Las Palmas - FC Andorra | 51.2% | 24.7% | 24.1% |
-| Segunda División | 2026-11-28T15:15 | Albacete - Tenerife | 50.4% | 24.4% | 25.3% |
-| Segunda División | 2026-11-28T15:15 | Eldense - Girona | 32.4% | 24.7% | 42.8% |
-| Segunda División | 2026-11-28T17:30 | Eibar - Burgos | 43.6% | 26.2% | 30.2% |
-| Segunda División | 2026-11-28T20:00 | Real Valladolid - Real Sociedad II | 43.2% | 24.7% | 32.1% |
-| Segunda División | 2026-11-29T13:00 | Granada - Ceuta | 58.0% | 22.6% | 19.4% |
-| Segunda División | 2026-11-29T15:15 | Mallorca - Castellón | 38.8% | 25.6% | 35.5% |
-| Segunda División | 2026-11-29T17:30 | Cádiz - Córdoba | 30.7% | 23.1% | 46.2% |
-| Segunda División | 2026-11-29T20:00 | Almería - Sporting Gijón | 58.7% | 20.6% | 20.7% |
+| Segunda División | 2026-11-28T15:15 | Albacete - Tenerife | 50.0% | 24.6% | 25.4% |
+| Segunda División | 2026-11-28T15:15 | Eldense - Girona | 32.4% | 24.7% | 42.9% |
+| Segunda División | 2026-11-28T17:30 | Eibar - Burgos | 43.5% | 26.2% | 30.2% |
+| Segunda División | 2026-11-28T20:00 | Real Valladolid - Real Sociedad II | 43.1% | 24.7% | 32.1% |
+| Segunda División | 2026-11-29T13:00 | Granada - Ceuta | 57.9% | 22.6% | 19.5% |
+| Segunda División | 2026-11-29T15:15 | Mallorca - Castellón | 38.8% | 25.6% | 35.6% |
+| Segunda División | 2026-11-29T17:30 | Cádiz - Córdoba | 30.6% | 23.1% | 46.3% |
+| Segunda División | 2026-11-29T20:00 | Almería - Sporting Gijón | 58.7% | 20.6% | 20.8% |
 | Premier League | 2026-11-21T12:30 | Manchester City - Fulham | 64.7% | 22.1% | 13.1% |
 | Premier League | 2026-11-21T15:00 | AFC Bournemouth - Nottingham Forest | 47.0% | 26.5% | 26.5% |
 | Premier League | 2026-11-21T15:00 | Aston Villa - Sunderland | 53.4% | 25.3% | 21.2% |
@@ -131,7 +131,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 | Liga | Muestra | Brier modelo | Brier base | Log loss modelo | Log loss base |
 |---|---:|---:|---:|---:|---:|
 | LaLiga | 91 | 0.18997 | 0.21841 | 0.96349 | 1.08043 |
-| Segunda División | 94 | 0.20468 | 0.21316 | 1.02118 | 1.05719 |
+| Segunda División | 94 | 0.20365 | 0.21195 | 1.017 | 1.05236 |
 | Premier League | 101 | 0.20973 | 0.21933 | 1.04602 | 1.08615 |
 | Bundesliga | 94 | 0.18814 | 0.21199 | 0.95179 | 1.05295 |
 | Serie A | 120 | 0.17992 | 0.21206 | 0.92392 | 1.05011 |
@@ -139,17 +139,17 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **1** / 106. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **0** / 106. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
 Pronósticos archivados: **111**
-Resultados reales verificados: **4**
+Resultados reales verificados: **5**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
-Brier prospectivo: **0.20259**; log loss: **0.99791**. Acierto del favorito: **75.0%**.
+Brier prospectivo: **0.19161**; log loss: **0.95462**. Acierto del favorito: **80.0%**.
 
 ## Encuentros descartados
 
@@ -169,18 +169,18 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 | Partido | Mercado | Selección | Prob. modelo | Cuota justa |
 |---|---|---|---:|---:|
 | Elche – Atlético Madrid | Hándicap 2 vías (medio gol) | Atlético Madrid +1,5 | 87.0% | 1.15 |
+| Real Valladolid – Real Sociedad II | Total goles | Menos de 4,5 goles | 87.0% | 1.15 |
 | Borussia Mönchengladbach – Borussia Dortmund | Goles equipo | Borussia Dortmund: más de 0,5 goles | 86.9% | 1.15 |
-| Liverpool – Manchester United | Total goles | Menos de 4,5 goles | 86.9% | 1.15 |
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **5**; finalizadas: **4**; pendientes: **1**.
+Selecciones archivadas: **5**; finalizadas: **5**; pendientes: **0**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **333** selecciones archivadas antes del partido; **12** resueltas.
+Seguimiento real del Top 3: **333** selecciones archivadas antes del partido; **15** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 3894 líneas congeladas, 0 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 3894 líneas congeladas, 16 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

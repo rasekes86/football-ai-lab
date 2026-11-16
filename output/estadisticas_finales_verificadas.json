@@ -1,20 +1,20 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-16T20:28:15.299590+00:00",
+  "calculado_utc": "2026-11-16T23:47:29.051215+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-16T20:28:15.299590+00:00",
+    "calculado_utc": "2026-11-16T23:47:29.051215+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 1,
+    "summaries_consultados": 1,
+    "campos_recuperados": 2,
     "campos_recuperados_cache": 8,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
-    "partidos_con_faltas": 4,
-    "objetivos_faltas": 4,
+    "partidos_con_faltas": 5,
+    "objetivos_faltas": 5,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
@@ -112,6 +112,29 @@
         "away_yellow": 2,
         "away_red": 1,
         "away_fouls": 12
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-16",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "goles_local": 1,
+      "goles_visitante": 0,
+      "event_id": "401883305",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883305",
+      "verificado_utc": "2026-11-16T23:47:29.051215+00:00",
+      "estadisticas": {
+        "home_shots": 16,
+        "home_on_target": 6,
+        "home_yellow": 3,
+        "home_red": 0,
+        "home_fouls": 14,
+        "away_shots": 11,
+        "away_on_target": 3,
+        "away_yellow": 5,
+        "away_red": 0,
+        "away_fouls": 15
       }
     }
   ]

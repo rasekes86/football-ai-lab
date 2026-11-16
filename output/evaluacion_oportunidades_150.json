@@ -1,31 +1,31 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-16T20:28:15.299590+00:00",
+  "generado_utc": "2026-11-16T23:47:29.051215+00:00",
   "registradas": 5,
-  "finalizadas": 4,
-  "pendientes": 1,
+  "finalizadas": 5,
+  "pendientes": 0,
   "resultados_no_disponibles": 0,
   "estadisticas_no_disponibles": 0,
   "excluidas": 0,
   "global": {
     "registradas": 5,
-    "evaluadas": 4,
+    "evaluadas": 5,
     "aciertos": 3,
-    "acierto_pct": 75.0,
-    "brier_medio": 0.224993,
-    "retorno_simulado_unidad": 1.75,
-    "roi_simulado_pct": 43.75,
+    "acierto_pct": 60.0,
+    "brier_medio": 0.238804,
+    "retorno_simulado_unidad": 0.75,
+    "roi_simulado_pct": 15.0,
     "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
   },
   "por_tipo_cuota": {
     "INDICATIVA_NO_VERIFICADA": {
       "registradas": 5,
-      "evaluadas": 4,
+      "evaluadas": 5,
       "aciertos": 3,
-      "acierto_pct": 75.0,
-      "brier_medio": 0.224993,
-      "retorno_simulado_unidad": 1.75,
-      "roi_simulado_pct": 43.75,
+      "acierto_pct": 60.0,
+      "brier_medio": 0.238804,
+      "retorno_simulado_unidad": 0.75,
+      "roi_simulado_pct": 15.0,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },
@@ -42,11 +42,11 @@
     },
     "Doble oportunidad": {
       "registradas": 2,
-      "evaluadas": 1,
+      "evaluadas": 2,
       "aciertos": 0,
       "acierto_pct": 0.0,
-      "brier_medio": 0.330821,
-      "retorno_simulado_unidad": -1.0,
+      "brier_medio": 0.312433,
+      "retorno_simulado_unidad": -2.0,
       "roi_simulado_pct": -100.0,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
@@ -54,12 +54,12 @@
   "por_liga": {
     "Segunda División": {
       "registradas": 5,
-      "evaluadas": 4,
+      "evaluadas": 5,
       "aciertos": 3,
-      "acierto_pct": 75.0,
-      "brier_medio": 0.224993,
-      "retorno_simulado_unidad": 1.75,
-      "roi_simulado_pct": 43.75,
+      "acierto_pct": 60.0,
+      "brier_medio": 0.238804,
+      "retorno_simulado_unidad": 0.75,
+      "roi_simulado_pct": 15.0,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },

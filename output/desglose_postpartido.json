@@ -1,20 +1,20 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-16T20:28:15.299590+00:00",
+  "calculado_utc": "2026-11-16T23:47:29.051215+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-16T20:28:15.299590+00:00",
+    "calculado_utc": "2026-11-16T23:47:29.051215+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 1,
+    "summaries_consultados": 1,
+    "campos_recuperados": 2,
     "campos_recuperados_cache": 8,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
-    "partidos_con_faltas": 4,
-    "objetivos_faltas": 4,
+    "partidos_con_faltas": 5,
+    "objetivos_faltas": 5,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
@@ -448,43 +448,104 @@
       "local": "Albacete",
       "visitante": "RC Celta Fortuna",
       "fecha_utc": "2026-11-16T19:30:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-0",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 16,
+          "visitante": 11,
+          "total": 27,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 6,
+          "visitante": 3,
+          "total": 9,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 9,
+          "visitante": 5,
+          "total": 14,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 3,
+          "visitante": 5,
+          "total": 8,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 14,
+          "visitante": 15,
+          "total": 29,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883305"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP2|202611161930|albacete|celta b|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "SP2|202611161930|albacete|celta b|Goles equipo|Albacete: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Albacete: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "SP2|202611161930|albacete|celta b|Hándicap 2 vías (medio gol)|RC Celta Fortuna +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "RC Celta Fortuna +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "-1",
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado -1."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "D1|202611201930|bayern munich|fc koln",
