@@ -173,7 +173,7 @@ async function refreshData() {
     $("syncStatus").className = "sync-status error";
     $("syncText").textContent = "Error al cargar";
     $("errorBanner").hidden = false;
-    $("errorBanner").innerHTML = `No hemos podido cargar la publicación de datos. Comprueba la conexión y pulsa <strong>Actualizar</strong>. Si continúa, abre la web en Chrome para descartar un bloqueo de red. ${errors.length ? "Fuentes: " + escapeHtml(errors.join(", ")) : ""}`;
+    $("errorBanner").innerHTML = `No se han podido cargar los datos publicados. Pulsa <strong>Actualizar</strong> o abre Football AI Lab en Chrome para comprobar la conexión. <small>${errors.length} fuentes no disponibles; no se muestran pronósticos sin verificar.</small>`;
     return;
   }
   // Catálogo independiente del motor: si falla, vuelven las iniciales.
@@ -188,7 +188,7 @@ async function refreshData() {
   state.errors = errors;
   $("errorBanner").hidden = !errors.length;
   if (errors.length) {
-    $("errorBanner").textContent = "Algunas fuentes no están disponibles (" + errors.join(", ") + "). Se muestra la información recibida, que puede estar incompleta.";
+    $("errorBanner").textContent = "Datos parcialmente disponibles: " + errors.length + " fuentes sin respuesta. Se muestra únicamente la información recibida.";
   }
   $("syncStatus").className = "sync-status" + (errors.length ? " warning" : "");
   $("syncText").textContent = errors.length ? "Datos parciales" : "Datos conectados";
