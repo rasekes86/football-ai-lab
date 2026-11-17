@@ -6,6 +6,7 @@
  * odds may become an archived pick, and unknown sporting outcomes stay open.
  */
 import {numberOrNull,settled} from "./data.mjs";
+import {additionalStatus} from "./additional_status.mjs";
 
 const timeMadrid=new Intl.DateTimeFormat("es-ES",{
   timeZone:"Europe/Madrid",day:"2-digit",month:"short",year:"numeric",
@@ -99,15 +100,17 @@ function detailPick(row,i,context){
     '</div></details>';
 }
 
-function detailAdditional(row,reason){
-  const messages={
-    FUENTES_NO_CONSULTADAS:"El proveedor todavía no se ha consultado para este partido.",
-    SIN_CUOTAS_COMPATIBLES:"Este partido aún no tiene cuotas compatibles capturadas.",
-    NO_SUPERA_FILTROS:"Hay cuotas, pero ninguna cumple todos los filtros de la adicional +1,50.",
-    SELECCIONABLE:"Se detectó una opción válida, pendiente de archivado."
-  };
-  if(!row)return '<div class="match-v2-no-extra"><strong>Sin adicional archivada</strong>'+
-    '<span>'+escape(messages[reason]||"No se inventa una cuota ni una selección sin evidencia prepartido válida.")+'</span></div>';
+function detailAdditional(row,match,now){
+  if(!row){
+    const status=additionalStatus(match,now);
+    const consultation=match?.additionalAuditDetail?.ultima_consulta_utc;
+    const date=consultation&&Number.isFinite(Date.parse(consultation))?
+      '<small>Última consulta registrada: '+escape(niceDate(consultation))+'</small>':"";
+    return '<div class="match-v2-no-extra extra-'+escape(status?.style||"pending")+'">'+
+      '<strong>'+escape(status?.label||"Sin adicional archivada")+'</strong>'+
+      '<span>'+escape(status?.explanation||"No consta una cuota adicional archivada para este partido.")+'</span>'+
+      date+'</div>';
+  }
   const price=numberOrNull(row.cuota_decimal);
   const stat=outcome(row);
   const api=row.tipo_cuota==="OFRECIDA_API_REGISTRADA";
@@ -212,7 +215,8 @@ export function renderMatchDetail(match,crest=()=>"",now=new Date()){
     '<div class="match-v2-kpis">'+
     kpi("TOP 3 · ACERTADAS",String(d.wins)+' / '+String(d.finished),
       d.notFinished+' sin liquidar')+
-    kpi("ADICIONAL +1,50",d.extra?escape(outcome(d.extra).label):"Sin selección",
+    kpi("ADICIONAL +1,50",d.extra?escape(outcome(d.extra).label):
+        escape(additionalStatus(match,now)?.label||"Sin selección"),
       d.extra?(d.extraFinished?"Resultado deportivo confirmado":"Pendiente de verificación"):
         "No archivada")+'</div>'+
     '<section class="match-v2-section"><div class="match-v2-section-heading">'+
@@ -222,7 +226,7 @@ export function renderMatchDetail(match,crest=()=>"",now=new Date()){
       '<div class="match-v2-empty">Todavía no hay un Top 3 archivado para este partido.</div>')+
     '</section><section class="match-v2-section"><div class="match-v2-section-heading">'+
     '<div><span>02 · CUOTA PREPARTIDO</span><h3>La adicional</h3></div></div>'+
-    detailAdditional(d.extra,match.additionalAudit)+'</section>'+
+    detailAdditional(d.extra,match,now)+'</section>'+
     '<section class="match-v2-section match-v2-advanced">'+
     '<div class="match-v2-section-heading"><div><span>03 · SOLO SI QUIERES PROFUNDIZAR</span>'+
     '<h3>Datos y metodología</h3></div></div>'+
