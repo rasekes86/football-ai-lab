@@ -11,6 +11,20 @@ const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const date=v=>Number.isFinite(Date.parse(v||""))?dayFmt.format(new Date(v)):"Fecha desconocida";
 const result=r=>r?.estado==="FINALIZADO"&&["0","1"].includes(String(r.resultado))?
   (String(r.resultado)==="1"?"win":"loss"):"pending";
+// Visual status is independent of the bookmaker quote and of match timing.
+const visualState=r=>{
+  const confirmed=result(r);
+  if(confirmed!=="pending")return confirmed;
+  return ["ESTADISTICA_NO_DISPONIBLE","RESULTADO_NO_DISPONIBLE"].includes(r?.estado)?
+    "missing":"pending";
+};
+const stateSymbol=r=>{
+  const type=visualState(r);
+  return type==="win"?"✓":type==="loss"?"×":type==="missing"?"!":"◷";
+};
+const statusBadge=(r,base="results-status")=>
+  '<span class="'+base+' '+visualState(r)+'"><span class="results-status-icon" aria-hidden="true">'+
+  stateSymbol(r)+'</span>'+esc(stateLabel(r))+'</span>';
 const stateLabel=r=>{
   const s=result(r);
   if(s==="win")return "Acierto confirmado";
@@ -83,13 +97,13 @@ function score(match){
   return /^\d{1,2}$/.test(h)&&/^\d{1,2}$/.test(a)?h+" – "+a:"";
 }
 function rowIcon(r){
-  return result(r)==="win"?"✓":result(r)==="loss"?"×":"·";
+  return stateSymbol(r);
 }
 function pickLine(r){
-  const s=result(r);
+  const s=visualState(r);
   return '<div class="results-v2-pick-line"><span class="results-v2-pick-icon '+s+
     '" aria-hidden="true">'+rowIcon(r)+'</span><span>'+esc(r.seleccion||"Selección")+
-    '</span><small class="'+s+'">'+esc(stateLabel(r))+'</small></div>';
+    '</span>'+statusBadge(r)+'</div>';
 }
 function fixture(group){
   const resolved=group.top.filter(r=>result(r)!=="pending");
@@ -110,14 +124,14 @@ function fixture(group){
     '<div class="results-v2-groups"><div><span>TOP 3</span>'+
     '<strong>'+fmt.format(wins)+' aciertos / '+fmt.format(resolved.length)+' resueltos</strong>'+
     '<small>'+fmt.format(group.top.length-resolved.length)+' sin liquidar</small></div>'+
-    '<div class="results-v2-fixture-extra"><span>ADICIONAL +1,50</span>'+
+    '<div class="results-v2-fixture-extra '+(extra?visualState(extra):"pending")+'"><span>ADICIONAL +1,50</span>'+
     (hasExtra?
       '<small class="results-v2-fixture-market">'+esc(extra.mercado||"Mercado")+'</small>'+
       '<strong class="results-v2-fixture-selection">'+esc(extra.seleccion||"Selección no publicada")+'</strong>'+
       '<small>'+esc(extraType)+' · cuota '+esc(odd)+'</small>':
       '<strong>Sin selección archivada</strong>')+
-    '<small class="'+(extra?result(extra):"pending")+'">'+
-    (extra?esc(stateLabel(extra)):"")+'</small></div></div>'+
+    (extra?statusBadge(extra):'<small class="results-v2-no-extra">No hay selección que verificar</small>')+
+    '</div></div>'+
     '<details class="results-v2-fixture-details"><summary>Ver selecciones'+
     '<span aria-hidden="true">⌄</span></summary><div>'+
     group.top.map(pickLine).join("")+
@@ -148,8 +162,8 @@ export function archivedAdditionalCards(info={},limit=8,now=new Date()){
     const p=Number.isFinite(Number(row.price))&&Number(row.price)>1.5?
       oddsFmt.format(Number(row.price)):"—";
     const isApi=row.tipo_cuota==="OFRECIDA_API_REGISTRADA";
-    const label=result(row);
-    return '<article class="results-v2-additional-card">'+
+    const label=visualState(row);
+    return '<article class="results-v2-additional-card '+label+'">'+
       '<div class="results-v2-additional-meta"><span>'+esc(row.liga||"Competición")+
       '</span><time>'+esc(date(row.fecha_utc))+'</time></div>'+
       '<div class="results-v2-additional-teams">'+esc(row.local||"Local")+
@@ -158,8 +172,7 @@ export function archivedAdditionalCards(info={},limit=8,now=new Date()){
       '</small><strong>'+esc(row.seleccion||"Selección no publicada")+'</strong></div>'+
       '<div class="results-v2-additional-quote"><small>'+(isApi?"CUOTA API":"CUOTA INDICATIVA")+
       '</small><b>'+esc(p)+'</b></div></div>'+
-      '<div class="results-v2-additional-bottom"><span class="results-v2-additional-outcome '+label+
-      '">'+esc(stateLabel(row))+'</span>'+
+      '<div class="results-v2-additional-bottom">'+statusBadge(row,"results-v2-additional-outcome results-status")+
       '<button type="button" data-open-id="'+esc(row.id)+'">Ver ficha <span aria-hidden="true">›</span></button></div>'+
       '</article>';
   }).join("");
