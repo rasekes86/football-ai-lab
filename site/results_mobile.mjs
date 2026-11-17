@@ -1,0 +1,146 @@
+/**
+ * Results tab V2 · compact mobile readout strictly from the frozen 3+1 ledger.
+ * This module does not settle predictions, select bets or calculate new prices.
+ */
+const fmt=new Intl.NumberFormat("es-ES",{maximumFractionDigits:0});
+const percent=new Intl.NumberFormat("es-ES",{style:"percent",maximumFractionDigits:1});
+const decimal=new Intl.NumberFormat("es-ES",{minimumFractionDigits:2,maximumFractionDigits:2});
+const oddsFmt=new Intl.NumberFormat("es-ES",{minimumFractionDigits:2,maximumFractionDigits:3});
+const dayFmt=new Intl.DateTimeFormat("es-ES",{timeZone:"Europe/Madrid",day:"2-digit",month:"short",year:"numeric"});
+const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const date=v=>Number.isFinite(Date.parse(v||""))?dayFmt.format(new Date(v)):"Fecha desconocida";
+const result=r=>r?.estado==="FINALIZADO"&&["0","1"].includes(String(r.resultado))?
+  (String(r.resultado)==="1"?"win":"loss"):"pending";
+const stateLabel=r=>{
+  const s=result(r);
+  if(s==="win")return "Acierto confirmado";
+  if(s==="loss")return "Fallo confirmado";
+  if(r?.estado==="ESTADISTICA_NO_DISPONIBLE")return "Falta estadística";
+  if(r?.estado==="RESULTADO_NO_DISPONIBLE")return "Falta marcador";
+  return "Pendiente";
+};
+const units=n=>n===null||n===undefined?"—":
+  (n>0?"+":n<0?"−":"")+decimal.format(Math.abs(n))+" u.";
+const accuracy=n=>n===null||n===undefined?"—":percent.format(n);
+
+/** Convert the audited snapshot into one summary per fixture.
+ * Only fixtures with >=1 final 3+1 sporting outcome enter Recent.
+ */
+export function recentResultGroups(info={},matches=[],limit=6){
+  const map=new Map();
+  for(const row of info.rows||[]){
+    if(!row?.id||!row?.fecha_utc)continue;
+    if(!map.has(row.id))map.set(row.id,{
+      id:row.id,league:row.liga,kickoff:row.fecha_utc,
+      home:row.local,away:row.visitante,top:[],extra:null
+    });
+    const group=map.get(row.id);
+    if(row.group==="Top 3"){
+      if(group.top.length<3)group.top.push(row);
+    }else if(row.group==="Adicional +1,50"&&!group.extra){
+      group.extra=row;
+    }
+  }
+  const matchMap=new Map((Array.isArray(matches)?matches:[])
+    .filter(m=>m?.id).map(m=>[m.id,m]));
+  const recent=[...map.values()].filter(group=>
+    [...group.top,...(group.extra?[group.extra]:[])].some(r=>result(r)!=="pending"));
+  recent.sort((a,b)=>Date.parse(b.kickoff)-Date.parse(a.kickoff)||
+    a.id.localeCompare(b.id,"es"));
+  const max=Math.max(1,Math.min(60,Number(limit)||6));
+  return {total:recent.length,
+    shown:recent.slice(0,max).map(group=>({
+      ...group,match:matchMap.get(group.id)||null
+    })),
+    hasMore:recent.length>max};
+}
+function meter(label,hits,settled){
+  if(!settled)return '<div class="results-v2-meter-empty">Sin resultados suficientes todavía.</div>';
+  const winPct=Math.max(0,Math.min(100,100*hits/settled));
+  const lossPct=100-winPct;
+  return '<div class="results-v2-meter" aria-label="'+esc(label)+': '+
+    fmt.format(hits)+' aciertos y '+fmt.format(settled-hits)+' fallos confirmados">'+
+    '<span class="results-v2-win" style="width:'+winPct.toFixed(1)+'%"></span>'+
+    '<span class="results-v2-loss" style="width:'+lossPct.toFixed(1)+'%"></span></div>'+
+    '<div class="results-v2-meter-legend"><span>'+fmt.format(hits)+' aciertos</span>'+
+    '<span>'+fmt.format(settled-hits)+' fallos</span></div>';
+}
+function scoreboard(title,n,kind){
+  return '<article class="results-v2-score results-v2-'+kind+'">'+
+    '<div class="results-v2-score-title"><span>'+esc(title)+'</span>'+
+    '<strong>'+fmt.format(n.hits)+' <small>/ '+fmt.format(n.settled)+'</small></strong></div>'+
+    '<div class="results-v2-rate"><strong>'+accuracy(n.accuracy)+'</strong>'+
+    '<span>de acierto entre las liquidadas</span></div>'+
+    meter(title,n.hits,n.settled)+
+    '<div class="results-v2-pending">'+fmt.format(n.unresolved)+
+    ' pendientes de liquidar · no son fallos</div></article>';
+}
+function score(match){
+  const x=match?.followup;
+  if(x?.estado!=="FINALIZADO")return "";
+  const h=String(x.resultado_local??"");
+  const a=String(x.resultado_visitante??"");
+  return /^\d{1,2}$/.test(h)&&/^\d{1,2}$/.test(a)?h+" – "+a:"";
+}
+function rowIcon(r){
+  return result(r)==="win"?"✓":result(r)==="loss"?"×":"·";
+}
+function pickLine(r){
+  const s=result(r);
+  return '<div class="results-v2-pick-line"><span class="results-v2-pick-icon '+s+
+    '" aria-hidden="true">'+rowIcon(r)+'</span><span>'+esc(r.seleccion||"Selección")+
+    '</span><small class="'+s+'">'+esc(stateLabel(r))+'</small></div>';
+}
+function fixture(group){
+  const resolved=group.top.filter(r=>result(r)!=="pending");
+  const wins=resolved.filter(r=>result(r)==="win").length;
+  const extra=group.extra;
+  const hasExtra=Boolean(extra);
+  const scoreText=score(group.match);
+  const extraType=extra?.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
+    "Cuota API observada":"Cuota orientativa";
+  const odd=hasExtra&&Number.isFinite(Number(extra.price))?
+    oddsFmt.format(Number(extra.price)):"";
+  return '<article class="results-v2-fixture">'+
+    '<div class="results-v2-fixture-meta"><span>'+esc(group.league||"Liga")+'</span>'+
+    '<time>'+esc(date(group.kickoff))+'</time></div>'+
+    '<div class="results-v2-fixture-title"><strong>'+esc(group.home||"Local")+
+    ' – '+esc(group.away||"Visitante")+'</strong>'+
+    (scoreText?'<b>'+esc(scoreText)+'</b>':'')+'</div>'+
+    '<div class="results-v2-groups"><div><span>TOP 3</span>'+
+    '<strong>'+fmt.format(wins)+' aciertos / '+fmt.format(resolved.length)+' resueltos</strong>'+
+    '<small>'+fmt.format(group.top.length-resolved.length)+' sin liquidar</small></div>'+
+    '<div><span>ADICIONAL +1,50</span>'+
+    '<strong class="'+(extra?result(extra):"pending")+'">'+
+    (extra?esc(stateLabel(extra)):"Sin selección")+'</strong>'+
+    '<small>'+(hasExtra?esc(extraType)+' · '+esc(odd):"No archivada")+'</small></div></div>'+
+    '<details class="results-v2-fixture-details"><summary>Ver selecciones'+
+    '<span aria-hidden="true">⌄</span></summary><div>'+
+    group.top.map(pickLine).join("")+
+    (extra?'<div class="results-v2-detail-label">ADICIONAL</div>'+pickLine(extra):"")+
+    '</div></details>'+
+    '<button class="results-v2-open" type="button" data-open-id="'+esc(group.id)+
+    '">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>';
+}
+export function renderResultsMobile(info={},matches=[],limit=6){
+  const top=info.top||{hits:0,settled:0,unresolved:0,accuracy:null};
+  const extra=info.additional||{hits:0,settled:0,unresolved:0,accuracy:null,
+    profit:null,indicativeSettled:0,observedSettled:0};
+  const recent=recentResultGroups(info,matches,limit);
+  const balance='<div class="results-v2-balance"><div><span>SIMULACIÓN DE LAS ADICIONALES</span>'+
+    '<strong>'+esc(units(extra.profit))+'</strong>'+
+    '<small>1 unidad por selección liquidada; no se ha apostado dinero real.</small></div>'+
+    '<div class="results-v2-origin"><span>'+
+    fmt.format(extra.observedSettled||0)+' cuotas API liquidadas</span><span>'+
+    fmt.format(extra.indicativeSettled||0)+' cuotas indicativas liquidadas</span></div></div>';
+  return {
+    scorecards:scoreboard("TOP 3 ORIGINAL",top,"top")+
+      scoreboard("UNA ADICIONAL +1,50",extra,"extra"),
+    balance,
+    recent:recent.shown.length?recent.shown.map(fixture).join(""):
+      '<div class="results-v2-empty">Todavía no hay partidos con selecciones 3+1 liquidadas '+
+      'en este periodo. Los pendientes no son fallos.</div>',
+    recentCount:recent.total,
+    hasMore:recent.hasMore
+  };
+}
