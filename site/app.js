@@ -539,6 +539,7 @@ function renderPerformance() {
   inner("performanceTopChart",view.topChart);
   inner("performanceExtraChart",view.extraChart);
   $("performanceExtraEvidence").textContent=view.extraEvidence;
+  inner("performanceAutoAudit",view.autoAudit);
   inner("performanceLeagueTable",view.leagueTable);
   inner("performanceRows",view.ledger);
   $("performanceCount").textContent=view.count;
