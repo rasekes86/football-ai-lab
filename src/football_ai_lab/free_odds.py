@@ -68,7 +68,7 @@ PROVIDER_LEAGUE_ALIASES={
     "german bundesliga":"D1","germany bundesliga":"D1",
     "bundesliga 1":"D1","bundesliga 1 germany":"D1",
     "spanish la liga":"SP1","spain primera division":"SP1",
-    "spain segunda division":"SP2","spanish segunda division":"SP2",
+    "spain segunda":"SP2","spain segunda division":"SP2","spanish segunda division":"SP2",
     "segunda division spain":"SP2","la liga 2":"SP2",
     "italian serie a":"I1","italy serie a":"I1",
     "french ligue 1":"F1","france ligue 1":"F1"
