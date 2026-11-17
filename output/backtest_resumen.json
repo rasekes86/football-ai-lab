@@ -1,10 +1,10 @@
 {
   "LaLiga": {
-    "muestra": 75,
-    "brier_modelo": 0.18351,
-    "logloss_modelo": 0.93657,
-    "brier_base": 0.21346,
-    "logloss_base": 1.05889,
+    "muestra": 91,
+    "brier_modelo": 0.18997,
+    "logloss_modelo": 0.96349,
+    "brier_base": 0.21841,
+    "logloss_base": 1.08043,
     "modelo_mejor_brier": true
   },
   "Segunda División": {
@@ -24,27 +24,27 @@
     "modelo_mejor_brier": true
   },
   "Bundesliga": {
-    "muestra": 94,
-    "brier_modelo": 0.19295,
-    "logloss_modelo": 0.97141,
-    "brier_base": 0.2101,
-    "logloss_base": 1.04524,
+    "muestra": 120,
+    "brier_modelo": 0.19501,
+    "logloss_modelo": 0.98213,
+    "brier_base": 0.21765,
+    "logloss_base": 1.07803,
     "modelo_mejor_brier": true
   },
   "Serie A": {
-    "muestra": 110,
-    "brier_modelo": 0.17793,
-    "logloss_modelo": 0.9159,
-    "brier_base": 0.21225,
-    "logloss_base": 1.05063,
+    "muestra": 120,
+    "brier_modelo": 0.17992,
+    "logloss_modelo": 0.92392,
+    "brier_base": 0.21206,
+    "logloss_base": 1.05011,
     "modelo_mejor_brier": true
   },
   "Ligue 1": {
-    "muestra": 101,
-    "brier_modelo": 0.2046,
-    "logloss_modelo": 1.02129,
-    "brier_base": 0.21327,
-    "logloss_base": 1.05885,
+    "muestra": 92,
+    "brier_modelo": 0.1843,
+    "logloss_modelo": 0.93802,
+    "brier_base": 0.2081,
+    "logloss_base": 1.03343,
     "modelo_mejor_brier": true
   },
   "_aviso": "Evaluación retrospectiva, no prueba prospectiva de rentabilidad. No usa cuotas."

@@ -1,22 +1,22 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-17T15:41:39.969170+00:00",
-  "registradas": 13,
+  "generado_utc": "2026-11-17T16:53:51.532965+00:00",
+  "registradas": 14,
   "finalizadas": 5,
-  "pendientes": 8,
+  "pendientes": 9,
   "resultados_no_disponibles": 0,
   "estadisticas_no_disponibles": 0,
   "excluidas": 0,
   "verificacion": {
     "resultados_verificados": 5,
-    "resultados_pendientes_o_sin_dato": 8,
-    "cuotas_api_observadas_antes_del_partido": 8,
+    "resultados_pendientes_o_sin_dato": 9,
+    "cuotas_api_observadas_antes_del_partido": 9,
     "cuotas_indicativas_no_acreditadas": 5,
     "cuotas_api_sin_prueba_temporal": 0,
     "nota": "El marcador y la liquidación pueden estar verificados aunque la cuota sea una referencia no acreditada. Terminar el partido no demuestra retroactivamente el precio ofrecido."
   },
   "global": {
-    "registradas": 13,
+    "registradas": 14,
     "evaluadas": 5,
     "aciertos": 3,
     "acierto_pct": 60.0,
@@ -37,7 +37,7 @@
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "OFRECIDA_API_REGISTRADA": {
-      "registradas": 8,
+      "registradas": 9,
       "evaluadas": 0,
       "aciertos": 0,
       "acierto_pct": null,
@@ -49,7 +49,7 @@
   },
   "por_mercado": {
     "Total goles": {
-      "registradas": 10,
+      "registradas": 11,
       "evaluadas": 3,
       "aciertos": 3,
       "acierto_pct": 100.0,
@@ -131,7 +131,7 @@
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Ligue 1": {
-      "registradas": 1,
+      "registradas": 2,
       "evaluadas": 0,
       "aciertos": 0,
       "acierto_pct": null,
@@ -146,11 +146,11 @@
     "estado": "EVALUADO",
     "comparaciones_recibidas": 193,
     "partidos_con_comparaciones": 14,
-    "partidos_con_opcion_valida": 7,
-    "nuevas_automaticas": 0,
+    "partidos_con_opcion_valida": 9,
+    "nuevas_automaticas": 1,
     "partidos_ya_archivados": 13,
-    "partidos_con_adicional_archivada": 13,
-    "abstenciones_sin_opcion_valida": 102,
+    "partidos_con_adicional_archivada": 14,
+    "abstenciones_sin_opcion_valida": 100,
     "partidos_no_evaluados_sin_api": 0,
     "abstenciones_ya_archivadas": 8,
     "sin_cuota_real_no_se_inventa": true,
@@ -159,7 +159,7 @@
         "partidos_futuros": 16,
         "partidos_con_comparaciones": 3,
         "comparaciones_recibidas": 41,
-        "opciones_validas": 2,
+        "opciones_validas": 3,
         "archivadas_automaticas": 0,
         "ya_archivadas": 3,
         "sin_opcion_valida": 13,
@@ -186,13 +186,13 @@
         "no_evaluados_sin_api": 0
       },
       "Bundesliga": {
-        "partidos_futuros": 14,
+        "partidos_futuros": 13,
         "partidos_con_comparaciones": 2,
         "comparaciones_recibidas": 26,
         "opciones_validas": 1,
         "archivadas_automaticas": 0,
         "ya_archivadas": 1,
-        "sin_opcion_valida": 13,
+        "sin_opcion_valida": 12,
         "no_evaluados_sin_api": 0
       },
       "Serie A": {
@@ -209,10 +209,10 @@
         "partidos_futuros": 18,
         "partidos_con_comparaciones": 2,
         "comparaciones_recibidas": 28,
-        "opciones_validas": 1,
-        "archivadas_automaticas": 0,
+        "opciones_validas": 2,
+        "archivadas_automaticas": 1,
         "ya_archivadas": 1,
-        "sin_opcion_valida": 17,
+        "sin_opcion_valida": 16,
         "no_evaluados_sin_api": 0
       }
     },

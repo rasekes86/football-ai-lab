@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 13 · **Finalizadas:** 5 · **Pendientes:** 8
+**Registradas:** 14 · **Finalizadas:** 5 · **Pendientes:** 9
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -19,6 +19,7 @@
 | Como – Cagliari | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.8% | 2.50 | Pendiente | — |
 | Lazio – Lecce | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.7% | 2.38 | Pendiente | — |
 | Nice – Paris Saint-Germain | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.0% | 1.85 | Pendiente | — |
+| Troyes – Le Havre AC | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 63.7% | 1.82 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
