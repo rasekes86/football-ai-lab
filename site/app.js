@@ -9,6 +9,7 @@ import { reliabilitySnapshot } from "./reliability.mjs";
 import { radarSnapshot } from "./radar.mjs";
 import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { renderPerformanceView, confirmedOutcome } from "./performance_view.mjs";
+import { renderHomeView } from "./home.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -49,7 +50,7 @@ const textOrDash = input => input === null || input === undefined || input === "
 
 const state = {
   data: null,
-  view: "fixtures",
+  view: "home",
   agendaDay: "upcoming",
   agendaQuery: "",
   agendaOpen: new Set(),
@@ -248,6 +249,15 @@ function renderAgenda(){
   }).join(""):'<div class="agenda-empty"><strong>Sin encuentros publicados para este filtro</strong>'+
     '<p>Elige otro día o pulsa «TODOS · 14 DÍAS» para consultar los próximos partidos de las seis ligas.</p>'+
     '<button type="button" data-agenda-day="upcoming">Ver próximos 14 días ›</button></div>');
+}
+
+function renderHome(){
+  if (!state.data) return;
+  const home=renderHomeView(state.data,teamCrest);
+  inner("homeStats",home.stats);
+  inner("homeUpcoming",home.upcoming);
+  inner("homeRecent",home.recent);
+  $("homeUpdated").textContent=home.updated;
 }
 
 function renderOverview() {
@@ -536,6 +546,15 @@ function renderPerformance() {
   },state.performanceLimit);
   inner("performanceTopKpis",view.topKpis);
   inner("performanceExtraKpis",view.extraKpis);
+  const shortTop=view.snapshot.top,shortExtra=view.snapshot.additional;
+  inner("performanceMobileSummary",
+    '<article class="performance-brief-card"><span>TOP 3 · RESULTADOS CONFIRMADOS</span>'+
+    '<strong>'+integer(shortTop.hits)+' / '+integer(shortTop.settled)+'</strong>'+
+    '<small>'+integer(shortTop.unresolved)+' sin liquidar · no son fallos</small></article>'+
+    '<article class="performance-brief-card"><span>ADICIONAL +1,50 · ACIERTOS</span>'+
+    '<strong>'+integer(shortExtra.hits)+' / '+integer(shortExtra.settled)+'</strong>'+
+    '<small>'+integer(shortExtra.unresolved)+' pendientes · '+percent(shortExtra.accuracy)+' de acierto</small></article>'
+  );
   inner("performanceTopChart",view.topChart);
   inner("performanceExtraChart",view.extraChart);
   $("performanceExtraEvidence").textContent=view.extraEvidence;
@@ -940,6 +959,7 @@ function renderAll() {
   const oldMarket=$("historyMarketFilter").value;
   insertOptions("historyMarketFilter",markets);
   $("historyMarketFilter").value=oldMarket;
+  renderHome();
   renderAgenda();
   renderOverview();
   renderMatches();
@@ -1045,17 +1065,26 @@ function closeDialog() {
   document.body.style.overflow="";
   if (state.lastFocus?.focus) state.lastFocus.focus();
 }
+const VIEWS=["home","fixtures","performance","more","overview","matches","radar","markets","history","odds","realodds","model"];
 function changeView(view) {
-  if (!["fixtures","overview","matches","radar","markets","history","odds","performance","realodds","model"].includes(view)) return;
+  if (!VIEWS.includes(view)) return;
   state.view=view;
+  const tab=view==="home"?"home":
+    ["fixtures","matches"].includes(view)?"fixtures":
+    view==="performance"?"performance":"more";
   document.querySelectorAll(".view").forEach(x=>x.hidden=x.id!==`view-${view}`);
   document.querySelectorAll("[data-view]").forEach(x=>{
-    const active=x.dataset.view===view;
+    const grouped=Boolean(x.closest(".score-bottom-nav,.mobile-nav")) ||
+      (Boolean(x.closest(".sidebar .nav"))&&!x.closest(".sidebar-advanced"));
+    const active=x.dataset.view===(grouped?tab:view);
     x.classList.toggle("active",active);
-    if(active) x.setAttribute("aria-current","page");
+    if(active)x.setAttribute("aria-current","page");
     else x.removeAttribute("aria-current");
   });
-  if (location.hash !== "#"+view) history.replaceState(null,"","#"+view);
+  // The advanced section stays discoverable on desktop when deep-linked.
+  const advanced=document.querySelector(".sidebar-advanced");
+  if(advanced&&tab==="more"&&view!=="more")advanced.open=true;
+  if(location.hash!=="#"+view)history.replaceState(null,"","#"+view);
   window.scrollTo({top:0,behavior:"instant"});
 }
 
@@ -1134,6 +1163,13 @@ function wire() {
     $(id).addEventListener("change",()=>{state.performanceLimit=36;renderPerformance();});
   }
   $("performanceMore").addEventListener("click",()=>{state.performanceLimit+=36;renderPerformance();});
+  $("performanceExpandButton").addEventListener("click",()=>{
+    const box=$("performanceAdvanced"),button=$("performanceExpandButton");
+    const open=box.classList.toggle("is-open");
+    button.setAttribute("aria-expanded",String(open));
+    button.innerHTML=open?'Ocultar análisis detallado <span aria-hidden="true">⌃</span>':
+      'Ver análisis completo, filtros e histórico <span aria-hidden="true">⌄</span>';
+  });
   $("agendaSearch").addEventListener("input",e=>{
     state.agendaQuery=e.target.value.trim();renderAgenda();
   });
@@ -1158,11 +1194,11 @@ function wire() {
   $("historyMore").addEventListener("click",()=>{state.historyLimit+=40;renderHistory()});
   window.addEventListener("hashchange",()=>{
     const view=location.hash.replace("#","");
-    if(["fixtures","overview","matches","radar","markets","history","odds","performance","realodds","model"].includes(view))changeView(view);
+    if(VIEWS.includes(view))changeView(view);
   });
   const initial=location.hash.replace("#","");
-  if(["fixtures","overview","matches","radar","markets","history","odds","performance","realodds","model"].includes(initial))changeView(initial);
-  else changeView("fixtures");
+  if(VIEWS.includes(initial))changeView(initial);
+  else changeView("home");
 }
 wire();
 refreshData();
