@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {performanceSnapshot} from "../performance.mjs";
-import {recentResultGroups,renderResultsMobile} from "../results_mobile.mjs";
+import {recentResultGroups,renderResultsMobile,archivedAdditionalCards} from "../results_mobile.mjs";
 
 const NOW=new Date("2026-11-17T18:00:00Z");
 function base(id="match",date="2026-11-15T13:00:00Z"){
@@ -98,4 +98,75 @@ test("HTML escapes malicious names, picks, and identifiers",()=>{
   assert.match(r.recent,/&lt;svg onload=evil\(\)&gt;/);
   assert.doesNotMatch(r.recent,/<script>/);
   assert.doesNotMatch(r.recent,/<svg onload=/);
+});
+
+
+test("pending future additional displays exact archived pick, market and quote without expansion",()=>{
+  const e=extra("PENDIENTE","",{
+    id:"upcoming",clave:"upcoming|extra",
+    fecha_utc:"2026-11-21T18:00:00Z",
+    seleccion:"Menos de 3,5 goles",mercado:"Total goles",
+    cuota_decimal:"2.025",tipo_cuota:"OFRECIDA_API_REGISTRADA"
+  });
+  const audited=snapshot([], [e]);
+  const screen=renderResultsMobile(audited,[],6,8,NOW);
+  assert.equal(screen.recentCount,0,"pending future bet is not a settled match");
+  assert.equal(screen.additionalCount,1);
+  assert.match(screen.additionalCards,/Tenerife – Ceuta/);
+  assert.match(screen.additionalCards,/Total goles/);
+  assert.match(screen.additionalCards,/Menos de 3,5 goles/);
+  assert.match(screen.additionalCards,/2,025/);
+  assert.match(screen.additionalCards,/Cuota API/);
+  assert.match(screen.additionalCards,/Pendiente/);
+  assert.match(screen.additionalCards,/data-open-id="upcoming"/);
+  assert.doesNotMatch(screen.additionalCards,/<details/);
+});
+test("settled match displays the actual additional selection before details",()=>{
+  const audited=snapshot([top(1,"FINALIZADO","1")],[
+    extra("FINALIZADO","0",{seleccion:"Menos de 2,5 goles",mercado:"Total goles"})
+  ]);
+  const screen=renderResultsMobile(audited,[],6,8,NOW);
+  const visible=screen.recent.split('<details class="results-v2-fixture-details">')[0];
+  assert.match(visible,/ADICIONAL \+1,50/);
+  assert.match(visible,/Total goles/);
+  assert.match(visible,/Menos de 2,5 goles/);
+  assert.match(visible,/cuota 1,90/);
+  assert.match(visible,/Fallo confirmado/);
+});
+test("additional list contains only original first frozen quote, not alternatives or exploratory prices",()=>{
+  const first=extra("FINALIZADO","1",{seleccion:"Ambos marcan: Sí",mercado:"Ambos marcan",cuota_decimal:"1.95"});
+  const later=extra("FINALIZADO","0",{clave:"other",archivado_utc:"2026-11-14T12:01:00Z",seleccion:"Resultado 2",cuota_decimal:"8.0"});
+  const exploratory=extra("FINALIZADO","1",{
+    clave:"explore",tipo_cuota:"CUOTA_JUSTA_MODELO",cuota_decimal:"19.0"
+  });
+  const rows=snapshot([], [first,later,exploratory]);
+  const cards=archivedAdditionalCards(rows,8,NOW);
+  assert.equal(cards.total,1);
+  assert.match(cards.html,/Ambos marcan: Sí/);
+  assert.match(cards.html,/1,95/);
+  assert.doesNotMatch(cards.html,/Resultado 2|8,00|19,00/);
+});
+test("pending soonest future extras first, then most recent past; load more is accurate",()=>{
+  const extraFor=(id,kick)=>extra("PENDIENTE","",{id,clave:id+"|extra",
+    fecha_utc:kick,archivado_utc:"2026-11-14T12:00:00Z"});
+  const rows=snapshot([], [
+    extraFor("past","2026-11-16T13:00:00Z"),
+    extraFor("later","2026-11-25T13:00:00Z"),
+    extraFor("soon","2026-11-21T13:00:00Z")
+  ]);
+  const list=archivedAdditionalCards(rows,2,NOW);
+  assert.equal(list.total,3);
+  assert.equal(list.hasMore,true);
+  assert.ok(list.html.indexOf('data-open-id="soon"')<list.html.indexOf('data-open-id="later"'));
+  assert.doesNotMatch(list.html,/data-open-id="past"/);
+});
+test("additional titles and market values are escaped in immediately visible cards",()=>{
+  const row=extra("PENDIENTE","",{
+    id:"<img src=x onerror=evil()>",clave:"escaped",
+    seleccion:"<script>attack()</script>",mercado:"<svg onload=bad()>"
+  });
+  const screen=renderResultsMobile(snapshot([], [row]),[],6,8,NOW);
+  assert.match(screen.additionalCards,/&lt;script&gt;attack/);
+  assert.match(screen.additionalCards,/&lt;svg onload=bad\(\)&gt;/);
+  assert.doesNotMatch(screen.additionalCards,/<script>|<svg onload=/);
 });
