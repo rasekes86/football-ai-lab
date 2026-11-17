@@ -94,6 +94,35 @@ function ledger(rows){
       '" aria-label="Abrir ficha del partido">↗</button></td></tr>';
   }).join("");
 }
+function automatedAudit(model,league){
+  const audit=model?.evaluations?.odds?.seleccion_automatica;
+  if(!audit||!audit.por_liga){
+    return '<div class="performance-auto-title">SELECCIÓN AUTOMÁTICA · 3+1</div>'+
+      '<p>El diagnóstico de la selección automática aparecerá cuando finalice el siguiente análisis diario con esta versión. El histórico de resultados ya es válido.</p>';
+  }
+  const selected=league?[ [league,audit.por_liga[league]] ]:
+    Object.entries(audit.por_liga);
+  const overview=selected.filter(([name,stats])=>name&&stats);
+  const newPicks=overview.reduce((a,[,x])=>a+(x.archivadas_automaticas||0),0);
+  const noOption=overview.reduce((a,[,x])=>a+(x.sin_opcion_valida||0),0);
+  const already=overview.reduce((a,[,x])=>a+(x.ya_archivadas||0),0);
+  const matched=overview.reduce((a,[,x])=>a+(x.partidos_con_comparaciones||0),0);
+  const details=overview.map(([name,stats])=>
+    '<div class="performance-auto-league"><strong>'+escape(name)+'</strong>'+
+    '<span>'+count(stats.archivadas_automaticas)+' nuevas · '+
+      count(stats.ya_archivadas)+' ya archivadas · '+
+      count(stats.sin_opcion_valida)+' sin opción válida</span></div>'
+  ).join('');
+  return '<div class="performance-auto-title">SELECCIÓN AUTOMÁTICA · ÚLTIMO ANÁLISIS</div>'+
+    '<div class="performance-auto-metrics">'+
+    '<div><strong>'+count(newPicks)+'</strong><small>nuevas adicionales</small></div>'+
+    '<div><strong>'+count(matched)+'</strong><small>partidos con precios comparados</small></div>'+
+    '<div><strong>'+count(noOption)+'</strong><small>sin opción válida</small></div>'+
+    '<div><strong>'+count(already)+'</strong><small>ya archivados</small></div></div>'+
+    '<div class="performance-auto-leagues">'+details+'</div>'+
+    '<p>Si no hay una cuota observada que cumpla los criterios antes del inicio, el sistema se abstiene. No inventa una apuesta ni modifica el Top 3.</p>';
+}
+
 export function renderPerformanceView(model,filters={},limit=36,now=new Date()){
   const info=performanceSnapshot(model,filters,now);
   const top=info.top,additional=info.additional;
@@ -114,6 +143,7 @@ export function renderPerformanceView(model,filters={},limit=36,now=new Date()){
       " · Cuotas orientativas sin prueba histórica: "+count(additional.indicativeCount)+
       " · Cuotas registradas por API: "+count(additional.observedCount)+
       ". La liquidación deportiva sí es independiente del precio de casa.",
+    autoAudit:automatedAudit(model,filters.league),
     leagueTable:leagueTable(info.byLeague,filters.league),
     ledger:ledger(info.rows.slice(0,limit)),
     count:count(info.rows.length)+" selecciones entre Top 3 y adicionales",
