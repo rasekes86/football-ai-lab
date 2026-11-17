@@ -1,5 +1,10 @@
 name: Refresco escalonado de cuotas
 on:
+  # Permite adelantar una ronda mediante cambios explícitos en este workflow.
+  # Los commits de datos no vuelven a lanzarlo (evita bucles y gastar API).
+  push:
+    branches: [main]
+    paths: ['.github/workflows/odds-refresh.yml']
   schedule:
     - cron: '43 */2 * * *'
   workflow_dispatch:
