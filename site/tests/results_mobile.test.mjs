@@ -170,3 +170,39 @@ test("additional titles and market values are escaped in immediately visible car
   assert.match(screen.additionalCards,/&lt;svg onload=bad\(\)&gt;/);
   assert.doesNotMatch(screen.additionalCards,/<script>|<svg onload=/);
 });
+
+
+test("additional outcomes are unmistakable without expanding: win, loss, pending, unverified",()=>{
+  const examples=[
+    ["hit","FINALIZADO","1","win","Acierto confirmado","✓"],
+    ["miss","FINALIZADO","0","loss","Fallo confirmado","×"],
+    ["upcoming","PENDIENTE","","pending","Pendiente","◷"],
+    ["unverified","ESTADISTICA_NO_DISPONIBLE","","missing","Falta estadística","!"],
+  ];
+  const rows=examples.map(([id,estado,resultado])=>extra(estado,resultado,{
+    id,clave:id+"|additional",fecha_utc:id==="upcoming"?
+      "2026-11-21T18:00:00Z":"2026-11-15T13:00:00Z"
+  }));
+  const rendered=archivedAdditionalCards(snapshot([],rows),8,NOW);
+  assert.equal(rendered.total,4);
+  for(const [id,, ,css,status,symbol] of examples){
+    const card=rendered.html.match(new RegExp('<article class="results-v2-additional-card '+css+
+      '">[\\s\\S]*?data-open-id="'+id+'"'))?.[0];
+    assert.ok(card,"Card "+id+" visibly classified as "+css);
+    assert.match(card,new RegExp('<span class="results-v2-additional-outcome results-status '+css+'">'));
+    assert.ok(card.includes(status),status+" visible for "+id);
+    assert.ok(card.includes('aria-hidden="true">'+symbol+'</span>'),"icon "+id);
+  }
+});
+
+test("settled fixture status visible and distinct from a pending or missing selection",()=>{
+  const recorded=snapshot(
+    [top(1,"FINALIZADO","1")],
+    [extra("FINALIZADO","0")]
+  );
+  const rendered=renderResultsMobile(recorded,[],6,8,NOW);
+  assert.match(rendered.recent,/class="results-v2-fixture-extra loss"/);
+  assert.match(rendered.recent,/class="results-status loss"/);
+  assert.match(rendered.recent,/Fallo confirmado/);
+  assert.match(rendered.recent,/class="results-v2-pick-icon win"/);
+});
