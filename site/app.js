@@ -8,6 +8,7 @@ import { futureMarketSnapshot } from "./future_markets.mjs";
 import { reliabilitySnapshot } from "./reliability.mjs";
 import { radarSnapshot } from "./radar.mjs";
 import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
+import { renderPerformanceView, confirmedOutcome } from "./performance_view.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -58,6 +59,7 @@ const state = {
   futureMarketLimit: 18,
   radarLimit: 20,
   realOddsLimit: 24,
+  performanceLimit: 36,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -520,11 +522,29 @@ function renderOdds() {
   $("oddsCount").textContent = integer(odds.length)+" cuotas";
   inner("oddsRows", odds.length ? odds.map(r => `<tr>
     <td><div class="main-cell">${teamPair(r)}</div><div class="sub-cell">${escapeHtml(displayDay(r.fecha_utc))} · ${escapeHtml(r.liga)}</div></td>
-    <td class="pick-cell"><div class="main-cell">${escapeHtml(r.seleccion)}</div><div class="sub-cell">${escapeHtml(r.tipo_cuota === "INDICATIVA_NO_VERIFICADA"?"Precio indicativo no verificado":r.tipo_cuota)}</div></td>
-    <td><strong>${decimal(r.cuota_decimal)}</strong></td><td>${resultPill(r)}</td>
+    <td class="pick-cell"><div class="main-cell">${escapeHtml(r.seleccion)}</div><div class="sub-cell">Pronóstico archivado antes del partido</div></td>
+    <td><strong>${decimal(r.cuota_decimal)}</strong><div class="sub-cell">${escapeHtml(r.tipo_cuota==="INDICATIVA_NO_VERIFICADA"?"Cuota orientativa sin acreditar":"Cuota de API registrada")}</div></td><td>${confirmedOutcome(r)}</td>
     <td><strong style="color:${numberOrNull(r.retorno_simulado_unidad)>0?"var(--lime)":numberOrNull(r.retorno_simulado_unidad)<0?"var(--red)":"var(--muted)"}">${escapeHtml(money(numberOrNull(r.retorno_simulado_unidad)))}</strong></td>
     <td><button type="button" class="row-link" data-open-id="${escapeHtml(r.id)}" aria-label="Abrir ficha ${escapeHtml(r.local)} – ${escapeHtml(r.visitante)}">↗</button></td></tr>`).join("") : `<tr><td class="empty" colspan="6">No hay cuotas archivadas.</td></tr>`);
 }
+function renderPerformance() {
+  if (!state.data) return;
+  const view=renderPerformanceView(state.data,{
+    league:$("performanceLeague").value,
+    range:$("performanceRange").value,
+    granularity:$("performanceGranularity").value
+  },state.performanceLimit);
+  inner("performanceTopKpis",view.topKpis);
+  inner("performanceExtraKpis",view.extraKpis);
+  inner("performanceTopChart",view.topChart);
+  inner("performanceExtraChart",view.extraChart);
+  $("performanceExtraEvidence").textContent=view.extraEvidence;
+  inner("performanceLeagueTable",view.leagueTable);
+  inner("performanceRows",view.ledger);
+  $("performanceCount").textContent=view.count;
+  $("performanceMore").hidden=!view.hasMore;
+}
+
 function marketLineOptions() {
   const market=optionByKey($("marketFilter").value);
   const chosen=$("marketLine").value;
@@ -911,7 +931,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague"]) {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
@@ -924,6 +944,7 @@ function renderAll() {
   renderMatches();
   renderHistory();
   renderOdds();
+  renderPerformance();
   renderRealOdds();
   renderMarkets();
   renderRadar();
@@ -1010,7 +1031,7 @@ function openMatch(id) {
     ${m.odds.length ? `<div class="dialog-section"><h3>Cuotas +1,50 registradas por separado</h3>
       ${m.odds.map(r=>`<div class="dialog-offer"><strong>${escapeHtml(r.seleccion)}</strong>
         <div class="dialog-stats"><span>Cuota <b>${decimal(r.cuota_decimal)}</b></span>
-        <span>${resultPill(r)}</span><span>Balance hipotético <b>${escapeHtml(money(numberOrNull(r.retorno_simulado_unidad)))}</b></span></div>
+        <span>${confirmedOutcome(r)}</span><span>Balance hipotético <b>${escapeHtml(money(numberOrNull(r.retorno_simulado_unidad)))}</b></span></div>
         <span>${escapeHtml(r.tipo_cuota === "INDICATIVA_NO_VERIFICADA" ? "Cuota no verificada · solo simulación" : textOrDash(r.tipo_cuota))}</span></div>`).join("")}
     </div>` : ""}
     <div class="dialog-section"><p class="dialog-message">Fuente de datos: <a href="${GITHUB_URL}/tree/main/output" target="_blank" rel="noopener noreferrer">CSV históricos de Football AI Lab ↗</a>. Las cuotas justas no son ofertas de casas de apuestas. El análisis es experimental.</p></div>`);
@@ -1024,7 +1045,7 @@ function closeDialog() {
   if (state.lastFocus?.focus) state.lastFocus.focus();
 }
 function changeView(view) {
-  if (!["fixtures","overview","matches","radar","markets","history","odds","realodds","model"].includes(view)) return;
+  if (!["fixtures","overview","matches","radar","markets","history","odds","performance","realodds","model"].includes(view)) return;
   state.view=view;
   document.querySelectorAll(".view").forEach(x=>x.hidden=x.id!==`view-${view}`);
   document.querySelectorAll("[data-view]").forEach(x=>{
@@ -1108,6 +1129,10 @@ function wire() {
     });
   }
   $("realOddsMore").addEventListener("click",()=>{state.realOddsLimit+=24;renderRealOdds();});
+  for(const id of ["performanceLeague","performanceRange","performanceGranularity"]){
+    $(id).addEventListener("change",()=>{state.performanceLimit=36;renderPerformance();});
+  }
+  $("performanceMore").addEventListener("click",()=>{state.performanceLimit+=36;renderPerformance();});
   $("agendaSearch").addEventListener("input",e=>{
     state.agendaQuery=e.target.value.trim();renderAgenda();
   });
@@ -1132,10 +1157,10 @@ function wire() {
   $("historyMore").addEventListener("click",()=>{state.historyLimit+=40;renderHistory()});
   window.addEventListener("hashchange",()=>{
     const view=location.hash.replace("#","");
-    if(["fixtures","overview","matches","radar","markets","history","odds","realodds","model"].includes(view))changeView(view);
+    if(["fixtures","overview","matches","radar","markets","history","odds","performance","realodds","model"].includes(view))changeView(view);
   });
   const initial=location.hash.replace("#","");
-  if(["fixtures","overview","matches","radar","markets","history","odds","realodds","model"].includes(initial))changeView(initial);
+  if(["fixtures","overview","matches","radar","markets","history","odds","performance","realodds","model"].includes(initial))changeView(initial);
   else changeView("fixtures");
 }
 wire();
