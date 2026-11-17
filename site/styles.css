@@ -1429,3 +1429,132 @@ body{background:#061522}
   .results-v2-additional-choice strong{font-size:13px}
   .results-v2-additional-quote b{font-size:21px}
 }
+
+
+/* VERIFIED OUTCOME PALETTE · status must not rely on colored words alone.
+   Green=confirmed sporting hit; red=confirmed sporting miss;
+   muted blue=not settled; amber=source/statistics unavailable. */
+.results-status,
+.results-v2-additional-outcome.results-status{
+  display:inline-flex;align-items:center;gap:7px;align-self:flex-start;
+  max-width:100%;width:max-content;min-height:28px;padding:5px 10px;
+  border-radius:999px;border:1px solid transparent;font-size:11px;
+  line-height:1.35;font-weight:850;letter-spacing:.03px;
+}
+.results-status-icon{display:inline-grid;place-items:center;flex:0 0 16px;
+  width:16px;height:16px;border-radius:50%;font-size:12px;font-weight:900;line-height:1}
+.results-status.win,.results-v2-additional-outcome.results-status.win{
+  color:#c8f6c2;background:#164431;border-color:#51896b;
+}
+.results-status.win .results-status-icon{background:#c1f3b9;color:#143825}
+.results-status.loss,.results-v2-additional-outcome.results-status.loss{
+  color:#ffc1c8;background:#502b37;border-color:#a85567;
+}
+.results-status.loss .results-status-icon{background:#ffb7be;color:#582a34}
+.results-status.pending,.results-v2-additional-outcome.results-status.pending{
+  color:#d2e3ed;background:#243a49;border-color:#6b8392;
+}
+.results-status.pending .results-status-icon{background:#647f90;color:#f5fcff;font-size:11px}
+.results-status.missing,.results-v2-additional-outcome.results-status.missing{
+  color:#ffe0a1;background:#493921;border-color:#a9854b;
+}
+.results-status.missing .results-status-icon{background:#f7d594;color:#5b4119}
+.results-v2-pick-icon.missing{background:#6c5534;color:#ffe7ac}
+.results-v2-fixture-extra{border-left:3px solid #698092}
+.results-v2-fixture-extra.win{border-left-color:#92d59a}
+.results-v2-fixture-extra.loss{border-left-color:#f3939f}
+.results-v2-fixture-extra.missing{border-left-color:#edc783}
+.results-v2-fixture-extra .results-status{font-size:10px;padding:4px 7px;line-height:1.3}
+.results-v2-fixture-extra .results-status-icon{width:14px;height:14px;flex-basis:14px;font-size:10px}
+.results-v2-pick-line .results-status{font-size:10px;padding:4px 7px;
+  margin-left:auto;text-align:left;width:auto;max-width:44%}
+.results-v2-pick-line .results-status-icon{width:14px;height:14px;flex-basis:14px;font-size:10px}
+.results-v2-additional-card{
+  border-color:#435b69;border-left:4px solid #6b8597;
+  background:linear-gradient(155deg,#102e3d,#102636);
+}
+.results-v2-additional-card.win{
+  border-color:#44775e;border-left-color:#a3e1a8;
+  background:linear-gradient(155deg,#143b33,#102c36);
+}
+.results-v2-additional-card.loss{
+  border-color:#84505d;border-left-color:#ffa1ac;
+  background:linear-gradient(155deg,#3d2733,#182b39);
+}
+.results-v2-additional-card.pending{
+  border-color:#405d6d;border-left-color:#809cae;
+  background:linear-gradient(155deg,#132e3e,#102637);
+}
+.results-v2-additional-card.missing{
+  border-color:#826a49;border-left-color:#f1c77a;
+  background:linear-gradient(155deg,#3a3229,#172c39);
+}
+/* A failed additional is never surrounded by a success-green choice box. */
+.results-v2-additional-card .results-v2-additional-choice{
+  background:#1b3945;border-color:#36596b;
+}
+.results-v2-additional-card.win .results-v2-additional-choice{
+  background:#1b423a;border-color:#386456;
+}
+.results-v2-additional-card.loss .results-v2-additional-choice{
+  background:#402d3a;border-color:#835364;
+}
+.results-v2-additional-card.missing .results-v2-additional-choice{
+  background:#403729;border-color:#776249;
+}
+.results-v2-additional-card .results-v2-additional-choice small{
+  color:#c5d4de;
+}
+.results-v2-additional-card .results-v2-additional-quote b{
+  color:#f1f9fc;
+}
+/* Match details also inherit the exact same status meanings. */
+.match-v2-pick-status{
+  border:1px solid #698092;background:#243a49;color:#d2e3ed;
+  border-radius:999px;padding:5px 9px;font-weight:850;
+}
+.match-v2-pick-status.win{
+  background:#164431;border-color:#51896b;color:#c8f6c2;
+}
+.match-v2-pick-status.loss{
+  background:#502b37;border-color:#a85567;color:#ffc1c8;
+}
+.match-v2-pick-status.missing{
+  background:#493921;border-color:#a9854b;color:#ffe0a1;
+}
+.match-v2-pick-status.pending{
+  background:#243a49;border-color:#6b8392;color:#d2e3ed;
+}
+.match-v2-pick-status:before{
+  content:"◷";display:inline-block;vertical-align:middle;
+  margin-right:5px;font-size:11px;font-weight:900;
+}
+.match-v2-pick-status.win:before{content:"✓"}
+.match-v2-pick-status.loss:before{content:"×"}
+.match-v2-pick-status.missing:before{content:"!"}
+.match-v2-extra:has(.match-v2-pick-status.loss){
+  background:linear-gradient(155deg,#3d2733,#182b39);
+  border-color:#a85567;
+}
+.match-v2-extra:has(.match-v2-pick-status.pending){
+  background:linear-gradient(155deg,#183442,#132c3b);
+  border-color:#6b8392;
+}
+.match-v2-extra:has(.match-v2-pick-status.missing){
+  background:linear-gradient(155deg,#403427,#142e3a);
+  border-color:#a9854b;
+}
+.match-v2-extra:has(.match-v2-pick-status.win){
+  background:linear-gradient(155deg,#163b35,#122f37);
+  border-color:#51896b;
+}
+/* Existing detailed audit has confirmed/missing semantic classes. */
+.performance-ledger-panel .status-pill.final{
+  color:#c8f6c2;background:#164431;border-color:#51896b;
+}
+.performance-ledger-panel .status-pill.loss{
+  color:#ffc1c8;background:#502b37;border-color:#a85567;
+}
+.performance-ledger-panel .status-pill.missing{
+  color:#ffe0a1;background:#493921;border-color:#a9854b;
+}
