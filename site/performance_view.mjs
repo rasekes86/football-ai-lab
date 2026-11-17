@@ -14,9 +14,11 @@ const day=x=>Number.isFinite(Date.parse(x||""))?dateFmt.format(new Date(x)):"—
 
 export function confirmedOutcome(row){
   if(row.estado!=="FINALIZADO"||!["0","1"].includes(String(row.resultado))){
+    const unavailable=row.estado==="ESTADISTICA_NO_DISPONIBLE"||
+      row.estado==="RESULTADO_NO_DISPONIBLE";
     const status=row.estado==="ESTADISTICA_NO_DISPONIBLE"?"Estadística sin verificar":
       row.estado==="RESULTADO_NO_DISPONIBLE"?"Resultado sin verificar":"Pendiente";
-    return '<span class="status-pill missing">'+escape(status)+'</span>';
+    return '<span class="status-pill '+(unavailable?"missing":"pending")+'">'+escape(status)+'</span>';
   }
   const won=String(row.resultado)==="1";
   return '<span class="status-pill '+(won?"final":"loss")+'">'+
