@@ -20,12 +20,14 @@ del navegador de casas de apuestas.
   `GET /v1/fixtures` en ventanas de como máximo 24 horas y, para cada
   encuentro identificado, `GET /v1/fixtures/{id}/odds`.
 - Límite propio: **5 fechas UTC y 14 partidos** como máximo por ejecución.
-  Los 14 partidos se distribuyen por rondas entre las ligas elegibles,
-  en lugar de gastarse en las primeras ligas de la respuesta del proveedor.
-  Si alguna competición no ofrece encuentros emparejados en esas fechas,
-  no se inventan precios para ella. Una ejecución completa consume como
-  máximo 5+14=19 solicitudes; el límite por hora puede verse afectado por
-  otros usos de tu cuenta.
+  Se consulta el calendario por días (máximo dos páginas por día) y, si no
+  se localiza una competición esperada, se busca su ID canónico por país/nombre
+  y se consulta su calendario directamente. Las peticiones de descubrimiento
+  están limitadas a **13**, más hasta **14** peticiones de cuotas: máximo **27**
+  solicitudes en una ejecución. Con dos ejecuciones manuales muy seguidas
+  puedes acercarte al límite horario de tu cuenta; compruébalo antes de repetir.
+  Se reparten los 14 partidos por rondas entre ligas. No se emparejan por
+  similitud dudosa, ni se fabrican precios cuando faltan datos.
 - Consume exclusivamente precios del campo `closing` **antes** de empezar
   el partido. En el proveedor `closing` significa «último prepartido
   registrado hasta ese momento», NO cuota de cierre final.
@@ -45,8 +47,11 @@ del navegador de casas de apuestas.
 - Plan gratuito (según la oferta vigente): 100 llamadas/día, con
   cobertura de cuotas sujeta a ligas, partidos y bookmakers concretos.
 - Búsqueda por fecha `GET /fixtures?date=...`, seguida de
-  `GET /odds?fixture=...`, con **4 días** y **8 encuentros** como
-  máximo por ejecución (hasta 12 peticiones, si hay coincidencias).
+  `GET /odds?fixture=...`, con **4 días** y **6 encuentros** como
+  máximo por ejecución (hasta **10** peticiones, si hay coincidencias),
+  compatible con la restricción oficial de 10 peticiones/minuto del plan Free.
+  Se priorizan Segunda, Premier y Bundesliga cuando todavía no tenemos cuotas
+  de 5DollarFootballAPI para esos partidos.
 - Solo se reconocen **nombres explícitos** de mercado de tiempo completo:
   resultado 1X2, goles totales, córners totales, BTTS y
   **Total Yellow Cards** (amarillas). `Total Cards` o nombres
@@ -58,6 +63,50 @@ del navegador de casas de apuestas.
 - La cobertura del plan gratis y los tipos de mercado **no están
   garantizados**: habilitar la integración no implica que existan
   cuotas disponibles para cada categoría o partido.
+
+## Completar las seis ligas: diagnóstico y Community Access
+
+A partir de noviembre de 2026, cada nueva consulta de 5DollarFootballAPI
+registra en la auditoría `cobertura_ligas` los seis campeonatos con:
+partidos del modelo, eventos devueltos por la API, coincidencias verificadas,
+partidos consultados, precios validados y motivos de exclusión por nombres,
+orden local/visitante u horario. También expone qué ligas se consultaron
+directamente. Se ve en la pestaña **Cuotas reales**, sin publicar secretos.
+
+**Premier y Bundesliga:** están dentro del Free de 5DollarFootballAPI.
+Si el calendario general no aporta coincidencias, se consulta su catálogo
+por país y nombre y, cuando devuelve un ID único, el calendario de esa liga.
+La identificación del partido exige liga, dos clubes correctos, orden de
+equipos y horario compatible. Algunos clubes alemanes usan grafías distintas:
+las equivalencias están definidas explícitamente en el conector, no en los
+IDs del modelo ni en su histórico Top 3.
+
+**Segunda División:** no está garantizada en el Free normal. El proveedor
+dispone de [Community Access](https://5dollarfootballapi.com/community),
+otro plan a 0 $ para quienes cumplan sus requisitos, con un paquete de
+país adicional; incluye la segunda categoría cuando está disponible
+en el paquete elegido. **La aceptación y la disponibilidad no están
+verificadas para tu cuenta hasta que las compruebes en el proveedor.**
+
+Una vez activado el paquete **España** en Community Access:
+1. Abre [Repository variables](https://github.com/rasekes86/football-ai-lab/settings/variables/actions).
+2. Crea `ENABLE_FIVE_SEGUNDA` con valor `true`.
+3. Ejecuta manualmente el análisis diario, o utiliza el horario programado.
+4. Comprueba en **Cuotas reales → Cobertura por liga** si existen coincidencias
+   verificadas de Segunda. No es necesario cambiar la API Key si tu cuenta
+   conserva la misma.
+5. Si el proveedor no devuelve Segunda, el panel lo indica expresamente;
+   no se inventan cuotas ni se activa un plan de pago.
+
+Con `ENABLE_FIVE_SEGUNDA=false` no se realizan consultas adicionales de
+catálogo para Segunda, aunque los demás partidos siguen disponibles.
+
+**API-Football** está implementada como respaldo, pero solo consulta si
+`API_FOOTBALL_KEY` está guardada y `ENABLE_API_FOOTBALL_ODDS=true`.
+El plan gratuito ofrece 100 consultas diarias y endpoints de odds con
+**temporadas restringidas**, por lo que la disponibilidad de 2026/27 no
+se debe presuponer. Puedes dejarlo desactivado si Community Access resuelve
+la cobertura; se mantiene en un límite máximo de 10 peticiones por ejecución.
 
 ## Activación en GitHub (no compartas claves aquí)
 
