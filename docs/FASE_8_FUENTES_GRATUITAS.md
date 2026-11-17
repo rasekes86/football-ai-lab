@@ -19,7 +19,9 @@ del navegador de casas de apuestas.
 - El plan Free NO permite `include=odds` en listados. La integración usa
   `GET /v1/fixtures` en ventanas de como máximo 24 horas y, para cada
   encuentro identificado, `GET /v1/fixtures/{id}/odds`.
-- Límite propio: **5 fechas UTC y 14 partidos** como máximo por ejecución.
+- Límite propio: **5 fechas UTC, 14 partidos por defecto en el análisis diario**, y hasta **35 partidos en las tandas ligeras**.
+  El controlador conserva un registro de peticiones entre ejecuciones, deja margen bajo el máximo del plan gratuito (48 de 60/h) y espacia las solicitudes. No presupone cuota disponible en otras aplicaciones que compartan la clave.
+  Los partidos con una adicional +1,50 ya archivada quedan excluidos de cualquier recotización. Las cuotas y selecciones archivadas permanecen inmutables aunque la casa cambie su precio. Los partidos no archivados se rotan con prioridad para los nunca consultados, sin repetir precios recientes (hasta 4 h con cuotas, 2 h sin ellas).
   Se consulta el calendario por días (máximo dos páginas por día) y, si no
   se localiza una competición esperada, se busca su ID canónico por país/nombre
   y se consulta su calendario directamente. Las peticiones de descubrimiento
@@ -170,3 +172,9 @@ bookmaker acepte una cuota en España.
 
 Para detener todo consumo, cambia `ENABLE_FREE_ODDS` y
 `ENABLE_API_FOOTBALL_ODDS` a `false`.
+
+## Rondas automáticas de cuotas (noviembre 2026)
+
+El workflow `odds-refresh.yml` ejecuta una actualización ligera cada dos horas. Reutiliza los pronósticos publicados, sin modificar ni recalcular el Top 3. Solo incorpora nuevas adicionales si había una selección exacta y válida antes del inicio del partido. Una vez archivada, no se consulta ese partido de nuevo para buscar otro precio. Conserva el resultado histórico y la hora original del precio.
+
+El estado `output/estado_consultas_cuotas.json` registra horarios e IDs públicos, nunca las claves. El plan Free se limita internamente a 48 solicitudes/hora, siempre teniendo en cuenta que la cuota real del proveedor puede compartirse. Si el proveedor devuelve 429 o falta cobertura, no se simulan cuotas. Community Access requiere habilitación expresa previa en la cuenta y variables de GitHub.
