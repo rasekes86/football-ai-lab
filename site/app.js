@@ -11,6 +11,7 @@ import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { renderPerformanceView, confirmedOutcome } from "./performance_view.mjs";
 import { renderHomeView } from "./home.mjs";
 import { renderMatchDetail } from "./match_detail.mjs";
+import { renderResultsMobile } from "./results_mobile.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -62,6 +63,7 @@ const state = {
   radarLimit: 20,
   realOddsLimit: 24,
   performanceLimit: 36,
+  resultsRecentLimit: 6,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -547,15 +549,18 @@ function renderPerformance() {
   },state.performanceLimit);
   inner("performanceTopKpis",view.topKpis);
   inner("performanceExtraKpis",view.extraKpis);
-  const shortTop=view.snapshot.top,shortExtra=view.snapshot.additional;
-  inner("performanceMobileSummary",
-    '<article class="performance-brief-card"><span>TOP 3 · RESULTADOS CONFIRMADOS</span>'+
-    '<strong>'+integer(shortTop.hits)+' / '+integer(shortTop.settled)+'</strong>'+
-    '<small>'+integer(shortTop.unresolved)+' sin liquidar · no son fallos</small></article>'+
-    '<article class="performance-brief-card"><span>ADICIONAL +1,50 · ACIERTOS</span>'+
-    '<strong>'+integer(shortExtra.hits)+' / '+integer(shortExtra.settled)+'</strong>'+
-    '<small>'+integer(shortExtra.unresolved)+' pendientes · '+percent(shortExtra.accuracy)+' de acierto</small></article>'
-  );
+  const mobile=renderResultsMobile(view.snapshot,state.data.matches,state.resultsRecentLimit);
+  inner("performanceMobileSummary",mobile.scorecards);
+  inner("resultsMobileBalance",mobile.balance);
+  inner("resultsMobileRecent",mobile.recent);
+  $("resultsMobileCount").textContent=integer(mobile.recentCount)+" partidos";
+  $("resultsMobileMore").hidden=!mobile.hasMore;
+  $("resultsQuickLeague").value=$("performanceLeague").value;
+  document.querySelectorAll("[data-results-period]").forEach(button=>{
+    const pressed=button.dataset.resultsPeriod===$("performanceRange").value;
+    button.classList.toggle("active",pressed);
+    button.setAttribute("aria-pressed",String(pressed));
+  });
   inner("performanceTopChart",view.topChart);
   inner("performanceExtraChart",view.extraChart);
   $("performanceExtraEvidence").textContent=view.extraEvidence;
@@ -952,7 +957,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague"]) {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague","resultsQuickLeague"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
@@ -1086,8 +1091,26 @@ function wire() {
   }
   $("realOddsMore").addEventListener("click",()=>{state.realOddsLimit+=24;renderRealOdds();});
   for(const id of ["performanceLeague","performanceRange","performanceGranularity"]){
-    $(id).addEventListener("change",()=>{state.performanceLimit=36;renderPerformance();});
+    $(id).addEventListener("change",()=>{state.performanceLimit=36;state.resultsRecentLimit=6;renderPerformance();});
   }
+  $("resultsQuickLeague").addEventListener("change",e=>{
+    $("performanceLeague").value=e.target.value;
+    state.performanceLimit=36;
+    state.resultsRecentLimit=6;
+    renderPerformance();
+  });
+  document.querySelectorAll("[data-results-period]").forEach(button=>
+    button.addEventListener("click",()=>{
+      $("performanceRange").value=button.dataset.resultsPeriod;
+      state.performanceLimit=36;
+      state.resultsRecentLimit=6;
+      renderPerformance();
+    })
+  );
+  $("resultsMobileMore").addEventListener("click",()=>{
+    state.resultsRecentLimit+=6;
+    renderPerformance();
+  });
   $("performanceMore").addEventListener("click",()=>{state.performanceLimit+=36;renderPerformance();});
   $("performanceExpandButton").addEventListener("click",()=>{
     const box=$("performanceAdvanced"),button=$("performanceExpandButton");
