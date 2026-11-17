@@ -1,6 +1,6 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-17T14:57:34.463732+00:00",
+  "generado_utc": "2026-11-17T15:04:26.868766+00:00",
   "registradas": 5,
   "finalizadas": 5,
   "pendientes": 0,
@@ -73,13 +73,15 @@
   },
   "nota": "Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro.",
   "seleccion_automatica": {
+    "estado": "FUENTES_NO_CONSULTADAS",
     "comparaciones_recibidas": 0,
     "partidos_con_comparaciones": 0,
     "partidos_con_opcion_valida": 0,
     "nuevas_automaticas": 0,
     "partidos_ya_archivados": 5,
     "partidos_con_adicional_archivada": 5,
-    "abstenciones_sin_opcion_valida": 110,
+    "abstenciones_sin_opcion_valida": 0,
+    "partidos_no_evaluados_sin_api": 110,
     "abstenciones_ya_archivadas": 0,
     "sin_cuota_real_no_se_inventa": true,
     "por_liga": {
@@ -90,7 +92,8 @@
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 16
+        "sin_opcion_valida": 0,
+        "no_evaluados_sin_api": 16
       },
       "Segunda División": {
         "partidos_futuros": 22,
@@ -99,7 +102,8 @@
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 22
+        "sin_opcion_valida": 0,
+        "no_evaluados_sin_api": 22
       },
       "Premier League": {
         "partidos_futuros": 20,
@@ -108,7 +112,8 @@
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 20
+        "sin_opcion_valida": 0,
+        "no_evaluados_sin_api": 20
       },
       "Bundesliga": {
         "partidos_futuros": 14,
@@ -117,7 +122,8 @@
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 14
+        "sin_opcion_valida": 0,
+        "no_evaluados_sin_api": 14
       },
       "Serie A": {
         "partidos_futuros": 20,
@@ -126,7 +132,8 @@
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 20
+        "sin_opcion_valida": 0,
+        "no_evaluados_sin_api": 20
       },
       "Ligue 1": {
         "partidos_futuros": 18,
@@ -135,7 +142,8 @@
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 18
+        "sin_opcion_valida": 0,
+        "no_evaluados_sin_api": 18
       }
     },
     "reglas": {

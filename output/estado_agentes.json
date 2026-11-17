@@ -1,108 +1,108 @@
 {
-  "utc": "2026-11-17T14:57:34.463732+00:00",
+  "utc": "2026-11-17T15:04:26.868766+00:00",
   "modo": "automatización Python — sin LLM en cada ejecución",
   "agentes": [
     {
       "agente": "datos",
       "estado": "OK",
       "detalle": "6 ligas; 118 encuentros en 14 días",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 7293
     },
     {
       "agente": "marcadores_finales",
       "estado": "OK",
       "detalle": "Oficiales: 0; ESPN: 0; sin marcador: 0",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 5
     },
     {
       "agente": "estadisticas_finales",
       "estado": "OK",
       "detalle": "Conteos: 2/2 partidos completos; campos ESPN: 0",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 2
     },
     {
       "agente": "contexto",
       "estado": "PARCIAL",
       "detalle": "Machina Sports: 5 ligas; lesiones sólo Premier si disponibles",
-      "utc": "2026-11-17T14:57:34.463732+00:00"
+      "utc": "2026-11-17T15:04:26.868766+00:00"
     },
     {
       "agente": "jugadores",
       "estado": "CON_HISTORICO_PARCIAL",
       "detalle": "2460 registros; 1787 participaciones verificadas; sin apuestas individuales",
-      "utc": "2026-11-17T14:57:34.463732+00:00"
+      "utc": "2026-11-17T15:04:26.868766+00:00"
     },
     {
       "agente": "predictor",
       "estado": "OK",
       "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 8",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 110
     },
     {
       "agente": "cuotas_reales",
       "estado": "DESACTIVADO",
       "detalle": "Proveedor opt-in: []; 0 comparaciones verificadas. Sin clave no se fabrican precios.",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 0
     },
     {
       "agente": "auditoria_mercados_futuros",
       "estado": "OK",
       "detalle": "Archivo propio: 0 nuevas líneas, 16/4038 evaluadas; no modifica el Top 3 original",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 4038
     },
     {
       "agente": "oportunidades_150",
       "estado": "OK",
-      "detalle": "5 cotizaciones archivadas; 5 mercados liquidados; API prepartido: 0; referencias indicativas: 5; nuevas adicionales de API: 0; sin opcion valida: 110",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "detalle": "5 cotizaciones archivadas; 5 mercados liquidados; API prepartido: 0; referencias indicativas: 5; nuevas adicionales de API: 0; sin opcion valida: 0",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 5
     },
     {
       "agente": "selector",
       "estado": "OK",
       "detalle": "110 partidos; 35 líneas de conteos aptas retrospectivamente; jugadores no habilitados",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 330
     },
     {
       "agente": "mercado",
       "estado": "REFERENCIAS",
       "detalle": "InferSports keyless: 1 coincidencias (máximo tres consultas); The Odds API: sin clave",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 1
     },
     {
       "agente": "auditor",
       "estado": "OK",
       "detalle": "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 601
     },
     {
       "agente": "evaluador",
       "estado": "OK",
       "detalle": "5 finales verificados, 110 pendientes",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 115
     },
     {
       "agente": "mercados_prospectivos",
       "estado": "OK",
       "detalle": "15 selecciones terminadas, 330 pendientes; no confundir con backtest",
-      "utc": "2026-11-17T14:57:34.463732+00:00",
+      "utc": "2026-11-17T15:04:26.868766+00:00",
       "registros": 345
     },
     {
       "agente": "publicador",
       "estado": "OK",
       "detalle": "Archivos de salida escritos en output",
-      "utc": "2026-11-17T14:57:34.463732+00:00"
+      "utc": "2026-11-17T15:04:26.868766+00:00"
     }
   ]
 }
