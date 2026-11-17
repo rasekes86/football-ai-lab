@@ -461,7 +461,7 @@ function renderRealOdds() {
     const matched=item.matched===null?"—":String(item.matched);
     return `<article class="odds-coverage-item">
       <div class="odds-coverage-heading"><strong>${escapeHtml(item.name)}</strong>
-        <span class="odds-coverage-state ${item.games?"ok":"missing"}">${item.games?integer(item.games)+" con cuotas":escapeHtml(item.description)}</span></div>
+        <span class="odds-coverage-state ${item.games?"ok":"missing"}">${item.games?integer(item.games)+" con cuotas":escapeHtml(coverage.stale?"Captura caducada · sin precios actuales":item.description)}</span></div>
       <div class="odds-coverage-stats">En modelo: <b>${count}</b> · API: <b>${api}</b> · Emparejados: <b>${matched}</b> · Consultados: <b>${item.requested===null?"—":integer(item.requested)}</b></div>
       ${mismatch?`<small class="odds-coverage-reasons">Descartados: ${escapeHtml(mismatch)}</small>`:""}
     </article>`;
