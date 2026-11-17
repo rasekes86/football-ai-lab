@@ -107,8 +107,9 @@ export function oddsCoverageSnapshot(model,now=new Date()){
   const sourceTime=Date.parse(raw.capturado_utc||"");
   const stale=!Number.isFinite(sourceTime)||now.getTime()-sourceTime>24*3600*1000||
     sourceTime>now.getTime()+5*60*1000;
-  const sourced=(raw.cuotas||[]).filter(x=>x&&x.proveedor&&
-    typeof x.liga==="string"&&typeof x.fecha_utc==="string");
+  const sourced=stale?[]:(raw.cuotas||[]).filter(x=>x&&x.proveedor&&
+    typeof x.liga==="string"&&typeof x.fecha_utc==="string"&&
+    Number.isFinite(Date.parse(x.fecha_utc))&&Date.parse(x.fecha_utc)>now.getTime());
   const fixturesByLeague=new Map();
   for(const quote of sourced){
     if(!quote.fixture_id)continue;
