@@ -272,6 +272,85 @@ def _compared_candidates(matches:list[dict],comparisons:dict|list[dict],
     return selected
 
 
+ 
+def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
+                    comparisons:dict|list[dict],now:datetime,
+                    top3:list[dict]|None=None)->dict:
+    """Explain autonomous decisions without inventing picks, prices or returns.
+
+    Separately report exact comparisons, valid choices, archived selections
+    and abstentions. Only current authorized pre-match comparisons may qualify.
+    A fixture can be covered even when it has no matching bookmaker line.
+    """
+    raw=(comparisons.get("comparaciones") if isinstance(comparisons,dict)
+         else comparisons if isinstance(comparisons,list) else []) or []
+    if not isinstance(raw,list):raw=[]
+    eligible=_compared_candidates(matches,raw,now,top3)
+    valid_by_id={r["id"]:r for r in eligible}
+    old_ids={r.get("id") for r in previous if r.get("id")}
+    current_by_id={r.get("id"):r for r in current if r.get("id")}
+    totals={"comparaciones_recibidas":len(raw),
+            "partidos_con_comparaciones":len({r.get("fixture_id") for r in raw
+                                            if isinstance(r,dict) and r.get("fixture_id")}),
+            "partidos_con_opcion_valida":len(eligible),
+            "nuevas_automaticas":sum(r.get("id") not in old_ids and
+                r.get("tipo_cuota")==API and r.get("id") in valid_by_id
+                for r in current if isinstance(r,dict)),
+            "partidos_ya_archivados":len(old_ids),
+            "partidos_con_adicional_archivada":len(current_by_id),
+            "abstenciones_sin_opcion_valida":0,
+            "abstenciones_ya_archivadas":0,
+            "sin_cuota_real_no_se_inventa":True,
+            "por_liga":{}}
+    by_fixture=defaultdict(int)
+    for quote in raw:
+        if isinstance(quote,dict) and quote.get("fixture_id"):
+            by_fixture[quote["fixture_id"]]+=1
+    for match in matches:
+        if not isinstance(match,dict):continue
+        match_id=match.get("id")
+        if not match_id or match.get("liga") not in (
+            "LaLiga","Segunda División","Premier League","Bundesliga",
+            "Serie A","Ligue 1"):continue
+        try:
+            if _utc(match["fecha_utc"])<=now:continue
+        except (KeyError,TypeError,ValueError):continue
+        league=match["liga"]
+        item=totals["por_liga"].setdefault(league,{
+            "partidos_futuros":0,"partidos_con_comparaciones":0,
+            "comparaciones_recibidas":0,"opciones_validas":0,
+            "archivadas_automaticas":0,"ya_archivadas":0,
+            "sin_opcion_valida":0
+        })
+        item["partidos_futuros"]+=1
+        item["comparaciones_recibidas"]+=by_fixture[match_id]
+        item["partidos_con_comparaciones"]+=bool(by_fixture[match_id])
+        item["opciones_validas"]+=match_id in valid_by_id
+        if match_id in old_ids:
+            item["ya_archivadas"]+=1
+            totals["abstenciones_ya_archivadas"]+=1
+        elif match_id not in valid_by_id:
+            item["sin_opcion_valida"]+=1
+            totals["abstenciones_sin_opcion_valida"]+=1
+        elif (current_by_id.get(match_id) or {}).get("tipo_cuota")==API:
+            item["archivadas_automaticas"]+=1
+    totals["reglas"]={
+        "maximo_por_partido":1,
+        "cuota_decimal_estrictamente_mayor_que":MIN_QUOTE,
+        "probabilidad_minima":MIN_AUTO_PROB,
+        "ev_teorico_estrictamente_mayor_que":MIN_AUTO_EV,
+        "antiguedad_maxima_horas":MAX_QUOTE_HOURS,
+        "top3_original":"Nunca se modifica ni se duplica la misma seleccion exacta",
+        "historico":"Primera adicional valida archivada antes del inicio; inmutable"
+    }
+    totals["advertencia"]=(
+        "El valor esperado usa probabilidades experimentales no calibradas. "
+        "Las cuotas son observaciones prepartido, no ofertas ejecutadas. "
+        "No existe ventaja economica demostrada."
+    )
+    return totals
+
+
 def freeze(previous:list[dict],manual:dict,matches:list[dict],now:datetime,
            comparisons:dict|list[dict]|None=None,
            top3:list[dict]|None=None)->list[dict]:
@@ -285,7 +364,10 @@ def freeze(previous:list[dict],manual:dict,matches:list[dict],now:datetime,
     new_manual=_manual_candidates(manual,matches,now)
     automatic=(_compared_candidates(matches,comparisons,now,top3)
                if comparisons is not None else _api_candidates(matches,now))
-    for row in [*new_manual,*automatic]:
+    # For new fixtures observed bookmaker data takes priority over manual
+    # indicative examples. The existing 3+1 archive is never changed.
+    # A fallback manual record is only used if no eligible real quote exists.
+    for row in [*automatic,*new_manual]:
         if not row.get("id") or row["id"] in covered:continue
         old.append(row)
         covered.add(row["id"])
