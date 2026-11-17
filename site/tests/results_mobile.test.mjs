@@ -116,7 +116,7 @@ test("pending future additional displays exact archived pick, market and quote w
   assert.match(screen.additionalCards,/Total goles/);
   assert.match(screen.additionalCards,/Menos de 3,5 goles/);
   assert.match(screen.additionalCards,/2,025/);
-  assert.match(screen.additionalCards,/Cuota API/);
+  assert.match(screen.additionalCards,/CUOTA API/);
   assert.match(screen.additionalCards,/Pendiente/);
   assert.match(screen.additionalCards,/data-open-id="upcoming"/);
   assert.doesNotMatch(screen.additionalCards,/<details/);
