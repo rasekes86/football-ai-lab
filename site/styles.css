@@ -1558,3 +1558,24 @@ body{background:#061522}
 .performance-ledger-panel .status-pill.missing{
   color:#ffe0a1;background:#493921;border-color:#a9854b;
 }
+
+
+.performance-ledger-panel .status-pill.pending{
+  color:#d2e3ed;background:#243a49;border-color:#6b8392;
+}
+.performance-ledger-panel .status-pill.final:before{
+  content:"✓";width:13px;height:13px;display:grid;place-items:center;
+  font-size:11px;background:#c1f3b9;color:#143825;font-weight:900;
+}
+.performance-ledger-panel .status-pill.loss:before{
+  content:"×";width:13px;height:13px;display:grid;place-items:center;
+  font-size:12px;background:#ffb7be;color:#582a34;font-weight:900;
+}
+.performance-ledger-panel .status-pill.pending:before{
+  content:"◷";width:13px;height:13px;display:grid;place-items:center;
+  font-size:10px;background:#647f90;color:#f5fcff;
+}
+.performance-ledger-panel .status-pill.missing:before{
+  content:"!";width:13px;height:13px;display:grid;place-items:center;
+  font-size:10px;background:#f7d594;color:#5b4119;font-weight:900;
+}
