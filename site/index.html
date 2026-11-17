@@ -358,7 +358,22 @@
               <p>Solo las tres selecciones originales por partido y una adicional de cuota superior a 1,50. Aciertos y fallos verificados tras el encuentro, sin contar pronósticos exploratorios.</p>
             </div><div class="intro-art" aria-hidden="true">3<span>+1</span></div>
           </div>
-          <div class="performance-mobile-summary" id="performanceMobileSummary" aria-live="polite">Cargando resultados…</div>
+          <div class="results-v2-mobile">
+            <div class="results-v2-toolbar">
+              <label class="results-v2-filter"><span>COMPETICIÓN</span><select id="resultsQuickLeague" aria-label="Filtrar resultados por competición"><option value="">Todas las ligas</option></select></label>
+              <div class="results-v2-periods" role="group" aria-label="Periodo de resultados">
+                <button type="button" class="results-v2-period active" data-results-period="all" aria-pressed="true">Todo</button>
+                <button type="button" class="results-v2-period" data-results-period="30" aria-pressed="false">30 días</button>
+                <button type="button" class="results-v2-period" data-results-period="90" aria-pressed="false">90 días</button>
+              </div>
+            </div>
+            <div class="performance-mobile-summary results-v2-score-grid" id="performanceMobileSummary" aria-live="polite">Cargando resultados…</div>
+            <div id="resultsMobileBalance" class="results-v2-balance-slot"></div>
+            <div class="results-v2-heading"><div><span>PARTIDOS LIQUIDADOS</span><h2>Últimos resultados</h2></div><small id="resultsMobileCount">—</small></div>
+            <div class="results-v2-fixtures" id="resultsMobileRecent" aria-live="polite"></div>
+            <button type="button" class="results-v2-load" id="resultsMobileMore" hidden>Mostrar más partidos <span aria-hidden="true">⌄</span></button>
+            <p class="results-v2-note">Solo se contabiliza el Top 3 original y una adicional por encuentro. Los resultados sin verificar no cuentan como fallos. Las cuotas y balances son simulaciones, no apuestas ejecutadas.</p>
+          </div>
           <button type="button" class="performance-expand" id="performanceExpandButton" aria-controls="performanceAdvanced" aria-expanded="false">Ver análisis completo, filtros e histórico <span aria-hidden="true">⌄</span></button>
           <div id="performanceAdvanced" class="performance-advanced">
           <div class="panel performance-filters">
