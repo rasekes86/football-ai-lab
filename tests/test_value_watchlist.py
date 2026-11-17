@@ -69,6 +69,141 @@ class ValueWatchlistTests(unittest.TestCase):
         self.assertEqual(verification_summary([too_late])[
             "cuotas_api_observadas_antes_del_partido"],0)
 
+    def _price_comparison(self, match=None, now=None, **overrides):
+        m=match or self.match
+        dt=now or self.now
+        quote={
+            "fixture_id":m["id"],"liga":m["liga"],
+            "local":m["local"],"visitante":m["visitante"],
+            "fecha_utc":m["fecha_utc"],
+            "categoria":"goals","seleccion":"Menos de 2,5 goles",
+            "probabilidad_modelo":.68,
+            "nivel":"MODELO_NO_CALIBRADO",
+            "cuota_real":1.8,
+            "bookmaker":"Bet 365","bookmaker_id":"bet365",
+            "mercado_proveedor":"totals",
+            "resultado_proveedor":"under","linea":2.5,
+            "actualizado_utc":dt.isoformat(),
+            "capturado_utc":dt.isoformat(),
+            "proveedor":"5DollarFootballAPI",
+            "evento_id":"provider-fixture-123",
+            "fuente":"https://5dollarfootballapi.com/",
+            "etiqueta":"COMPARACION_INFORMATIVA_NO_VALIDADA",
+            "marca_tiempo_tipo":"CAPTURA_NO_ACTUALIZACION",
+            "fase_cuota":"ULTIMA_CUOTA_PREPARTIDO"
+        }
+        quote.update(overrides)
+        return quote
+
+    def test_real_price_automatically_frozen_and_settled(self):
+        q=self._price_comparison()
+        chosen=freeze([],{"selecciones":[]},[self.match],self.now,
+                      comparisons={"comparaciones":[q]})
+        self.assertEqual(len(chosen),1)
+        self.assertEqual(chosen[0]["tipo_cuota"],API)
+        self.assertEqual(chosen[0]["mercado"],"Total goles")
+        self.assertEqual(chosen[0]["seleccion"],"Menos de 2,5 goles")
+        self.assertEqual(chosen[0]["bookmaker"],"Bet 365")
+        self.assertEqual(chosen[0]["proveedor_cuota"],"5DollarFootballAPI")
+        self.assertEqual(chosen[0]["evento_id"],"provider-fixture-123")
+        self.assertEqual(chosen[0]["marca_tiempo_tipo"],"CAPTURA_NO_ACTUALIZACION")
+        finished,report=evaluate(chosen,self.g,self.kick+timedelta(hours=4))
+        self.assertEqual(report["finalizadas"],1)
+        self.assertEqual(report["global"]["aciertos"],1)
+        self.assertEqual(report["verificacion"]["cuotas_api_observadas_antes_del_partido"],1)
+        self.assertEqual(finished[0]["resultado"],"1")
+        self.assertEqual(finished[0]["retorno_simulado_unidad"],"0.800")
+        self.assertEqual(finished[0]["retorno_precio_api_unidad"],"0.800")
+
+    def test_six_leagues_one_price_each_no_backfill_or_top3_change(self):
+        names=("LaLiga","Segunda División","Premier League",
+               "Bundesliga","Serie A","Ligue 1")
+        teams=(
+            ("Athletic Club","Espanyol"),
+            ("Tenerife","Ceuta"),
+            ("Manchester City","Fulham"),
+            ("Bayern Munich","FC Cologne"),
+            ("AC Milan","Roma"),
+            ("Lyon","Marseille")
+        )
+        matches=[dict(self.match,id=f"{name}|game",liga=name,local=home,visitante=away)
+                 for name,(home,away) in zip(names,teams)]
+        quotes=[self._price_comparison(match=m) for m in matches]
+        old_top=[{
+            "id":matches[0]["id"],"mercado":"Total goles",
+            "seleccion":"Más de 2,5 goles"
+        }]
+        frozen=freeze([],{"selecciones":[]},matches,self.now,
+                      comparisons={"comparaciones":quotes},top3=old_top)
+        self.assertEqual(len(frozen),6)
+        self.assertEqual({x["liga"] for x in frozen},set(names))
+        self.assertTrue(all(float(x["cuota_decimal"])>1.50 for x in frozen))
+        self.assertEqual(old_top,[{
+            "id":matches[0]["id"],"mercado":"Total goles",
+            "seleccion":"Más de 2,5 goles"
+        }])
+        changed_quotes=[dict(q,cuota_real=5.0,probabilidad_modelo=.99)
+                        for q in quotes]
+        rerun=freeze(frozen,{"selecciones":[]},matches,
+                     self.now+timedelta(minutes=20),
+                     comparisons={"comparaciones":changed_quotes},
+                     top3=old_top)
+        self.assertEqual(rerun,frozen)
+
+    def test_missing_provider_or_finished_match_never_fabricates_quote(self):
+        self.assertEqual(freeze([],{"selecciones":[]},[self.match],
+                         self.now,comparisons={"comparaciones":[]}),[])
+        self.assertEqual(freeze([],{"selecciones":[]},[self.match],
+                         self.kick+timedelta(minutes=2),
+                         comparisons={"comparaciones":[self._price_comparison()]}),[])
+
+    def test_exact_line_team_market_outcome_timestamp_and_provider_required(self):
+        q=self._price_comparison()
+        invalid=[
+            dict(q,local="Granada"),
+            dict(q,liga="LaLiga"),
+            dict(q,fixture_id="another"),
+            dict(q,fecha_utc="2026-11-15T14:00:00Z"),
+            dict(q,linea=3.5),
+            dict(q,mercado_proveedor="h2h"),
+            dict(q,resultado_proveedor="over"),
+            dict(q,etiqueta="NO_REAL"),
+            dict(q,proveedor="UnknownBookmaker"),
+            dict(q,bookmaker_id=""),
+            dict(q,actualizado_utc=(self.now-timedelta(hours=7)).isoformat()),
+            dict(q,capturado_utc=(self.now+timedelta(minutes=20)).isoformat()),
+            dict(q,cuota_real=1.50),
+            dict(q,probabilidad_modelo=.1),
+            dict(q,seleccion="Menos de 1,5 goles"),
+            dict(q,nivel="EXPLORATORIO_NO_VALIDADO"),
+        ]
+        for value in invalid:
+            with self.subTest(q=value):
+                self.assertEqual(freeze([],{"selecciones":[]},[self.match],
+                                 self.now,comparisons={"comparaciones":[value]}),[])
+
+    def test_only_one_bookmaker_one_extra_not_the_same_frozen_top3(self):
+        base=self._price_comparison()
+        other=dict(base,bookmaker="OtherBook",bookmaker_id="other",
+                   cuota_real=1.95,evento_id="event-2")
+        top=[{"id":self.match["id"],"mercado":"Total goles",
+              "seleccion":"Menos de 2,5 goles"}]
+        rows=freeze([],{"selecciones":[]},[self.match],self.now,
+                    comparisons={"comparaciones":[base,other]},top3=top)
+        self.assertEqual(rows,[])
+        rows=freeze([],{"selecciones":[]},[self.match],self.now,
+                    comparisons={"comparaciones":[base,other]})
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]["bookmaker_id"],"other")
+
+    def test_existing_manual_offer_never_relabelled_as_verified_api(self):
+        previous=freeze([],self.manual,[self.match],self.now)
+        after=freeze(previous,{"selecciones":[]},[self.match],
+                     self.now+timedelta(minutes=4),
+                     comparisons={"comparaciones":[self._price_comparison()]})
+        self.assertEqual(after,previous)
+        self.assertEqual(after[0]["tipo_cuota"],INDICATIVE)
+
     def test_missing_result_not_loss(self):
         rows=freeze([],self.manual,[self.match],self.now)
         finished,summary=evaluate(rows,{"SP2":[]},self.kick+timedelta(hours=5))
