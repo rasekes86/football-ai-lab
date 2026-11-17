@@ -64,6 +64,7 @@ const state = {
   realOddsLimit: 24,
   performanceLimit: 36,
   resultsRecentLimit: 6,
+  resultsAdditionalLimit: 8,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -549,9 +550,12 @@ function renderPerformance() {
   },state.performanceLimit);
   inner("performanceTopKpis",view.topKpis);
   inner("performanceExtraKpis",view.extraKpis);
-  const mobile=renderResultsMobile(view.snapshot,state.data.matches,state.resultsRecentLimit);
+  const mobile=renderResultsMobile(view.snapshot,state.data.matches,state.resultsRecentLimit,state.resultsAdditionalLimit);
   inner("performanceMobileSummary",mobile.scorecards);
   inner("resultsMobileBalance",mobile.balance);
+  inner("resultsAdditionalCards",mobile.additionalCards);
+  $("resultsAdditionalCount").textContent=integer(mobile.additionalCount)+" adicionales";
+  $("resultsAdditionalMore").hidden=!mobile.additionalHasMore;
   inner("resultsMobileRecent",mobile.recent);
   $("resultsMobileCount").textContent=integer(mobile.recentCount)+" partidos";
   $("resultsMobileMore").hidden=!mobile.hasMore;
@@ -1091,12 +1095,13 @@ function wire() {
   }
   $("realOddsMore").addEventListener("click",()=>{state.realOddsLimit+=24;renderRealOdds();});
   for(const id of ["performanceLeague","performanceRange","performanceGranularity"]){
-    $(id).addEventListener("change",()=>{state.performanceLimit=36;state.resultsRecentLimit=6;renderPerformance();});
+    $(id).addEventListener("change",()=>{state.performanceLimit=36;state.resultsRecentLimit=6;state.resultsAdditionalLimit=8;renderPerformance();});
   }
   $("resultsQuickLeague").addEventListener("change",e=>{
     $("performanceLeague").value=e.target.value;
     state.performanceLimit=36;
     state.resultsRecentLimit=6;
+    state.resultsAdditionalLimit=8;
     renderPerformance();
   });
   document.querySelectorAll("[data-results-period]").forEach(button=>
@@ -1109,6 +1114,10 @@ function wire() {
   );
   $("resultsMobileMore").addEventListener("click",()=>{
     state.resultsRecentLimit+=6;
+    renderPerformance();
+  });
+  $("resultsAdditionalMore").addEventListener("click",()=>{
+    state.resultsAdditionalLimit+=8;
     renderPerformance();
   });
   $("performanceMore").addEventListener("click",()=>{state.performanceLimit+=36;renderPerformance();});
