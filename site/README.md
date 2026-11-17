@@ -12,13 +12,13 @@ Interfaz responsive y accesible para las seis ligas y el seguimiento de pronóst
 Sin dependencias de frontend, sin API keys, sin servidor, sin cookies y sin operaciones de apuestas.
 
 ## Origen de los datos
-La web consulta por HTTPS la rama `main/output` del repositorio **público**:
+La web descarga preferentemente una **copia pública en su propio dominio** (la carpeta `published/` incluida en el despliegue de GitHub Pages), con respaldo de la rama `main/output` del repositorio si esa copia todavía no existe:
 - `predicciones.csv` y `historico_predicciones.csv`
 - `selecciones.csv`, `historico_selecciones.csv`, `seguimiento_selecciones.csv`
 - `seguimiento.csv` y `seguimiento_oportunidades_150.csv`
 - `evaluacion_selecciones.json`, `evaluacion_oportunidades_150.json`, `evaluacion_real.json`
 
-Las fuentes se cargan al entrar o pulsar **Actualizar**, sin redeplegar cada vez que el motor diario actualiza sus CSV. Las respuestas raw de GitHub pueden tener caché, por lo que la actualización no es en tiempo real. El resultado y el ROI solo cuentan liquidaciones marcadas `FINALIZADO` con resultado 1 o 0; nunca contabilizan los pendientes como fallos. Las selecciones del histórico archivado prevalecen frente a los recálculos actuales.
+Las fuentes se cargan al entrar o pulsar **Actualizar**. El workflow `pages.yml` publica las 17 fuentes públicas a `site/published/` (solo en el artefacto de GitHub Pages, sin duplicarlas en el repositorio) y también se ejecuta tras finalizar satisfactoriamente `Analisis futbol diario` mediante `workflow_run`. Esto mantiene la web sincronizada con la actualización diaria sin depender en Android de un segundo dominio, `raw.githubusercontent.com`. La publicación puede demorarse y no es información en tiempo real. El resultado y el ROI solo cuentan liquidaciones marcadas `FINALIZADO` con resultado 1 o 0; nunca contabilizan los pendientes como fallos. Las selecciones del histórico archivado prevalecen frente a los recálculos actuales.
 
 ## Publicación
 Workflow: [`.github/workflows/pages.yml`](../.github/workflows/pages.yml). El disparador es un push que cambie `site/**` o el propio workflow, además de `workflow_dispatch`.
@@ -150,3 +150,22 @@ El flujo `.github/workflows/pages.yml` valida `pwa.js` y `sw.js`, ejecuta
 `site/tests/pwa.test.mjs`, prueba el generador con
 `site/tests/test_pwa_icons.py`, genera los PNG 192/512 en cada despliegue
 y verifica su formato antes de subir el artefacto.
+
+### Solución para problemas de carga de datos en la PWA Android
+
+Desde noviembre de 2026, `site/feed_loader.mjs` consulta primero
+`./published/<archivo>?v=<instante>`, servido desde **el mismo origen que la
+PWA**, y solo usa GitHub raw si el recurso publicado no está disponible.
+El despliegue usa `site/scripts/publish_feeds.py`, que incluye únicamente
+los 17 CSV/JSON autorizados, los valida antes de copiar y rechaza que falten
+archivos. Nunca se publican secretos, tokens ni archivos extra.
+
+El service worker (`sw.js`) cachea la aplicación y sus módulos pero **no**
+cachea `published/*` ni cuotas ni pronósticos; los datos no se presentan como
+actuales sin una respuesta de red. Si una versión antigua sigue activa en
+Android, cierra y vuelve a abrir la app con internet y pulsa **Actualizar**.
+
+Los cambios en `output/**` provocados por GitHub Actions usan el token del
+workflow y no disparan por sí mismos otros workflows `push`; por ello
+`pages.yml` también escucha la finalización correcta del workflow diario
+(`workflow_run`). No hay un servidor permanente ni coste adicional.
