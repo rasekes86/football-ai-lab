@@ -41,6 +41,7 @@ jobs:
           node --check site/data.mjs
           node --check site/app.js
           node --check site/home.mjs
+          node --check site/match_detail.mjs
           node --check site/feed_loader.mjs
           node --check site/pwa.js
           node --check site/sw.js
