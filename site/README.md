@@ -169,3 +169,53 @@ Los cambios en `output/**` provocados por GitHub Actions usan el token del
 workflow y no disparan por sí mismos otros workflows `push`; por ello
 `pages.yml` también escucha la finalización correcta del workflow diario
 (`workflow_run`). No hay un servidor permanente ni coste adicional.
+
+## Fase 3+1 — selección adicional automática con precios observados
+
+**Top 3 y adicional son dos seguimientos independientes.** El Top 3 sigue
+procediendo del histórico inmutable de `historico_selecciones.csv`.
+La adicional usa `comparacion_cuotas_reales.json` generado en **la misma
+ejecución autorizada**, después de obtener y emparejar cuotas de 5DollarFootballAPI,
+API-Football o The Odds API. No se llama de nuevo a ninguna API por este paso.
+
+El motor `value_watchlist.freeze` sólo incorpora **una adicional por partido**
+cuando se cumplen TODOS los requisitos:
+
+- Encuentro todavía no iniciado; identidad y hora exactas coincidentes
+  en el pronóstico y la fuente.
+- Precio decimal ofrecido superior a **1,50**, cuota ligada a **bookmaker,
+  proveedor y evento**, y captura prepartido reciente (máximo seis horas).
+- Mismo resultado y misma línea de un mercado liquidable: 1X2, goles,
+  ambos marcan o córners/amarillas explícitos con métrica compatible.
+  Se rechazan las líneas asiáticas con devolución y los mercados no equivalentes.
+- Probabilidad experimental de al menos **50 %** y EV del modelo superior
+  a **3 puntos porcentuales por unidad** como filtro orientativo. Esto **no**
+  constituye prueba de ventaja o recomendación de apuesta.
+- No se repite una selección ya archivada en el Top 3 original del partido.
+  Si no hay candidatos seguros, se registra **ninguna** adicional: no se inventa.
+
+Si hay varias casas o mercados elegibles, se elige una opción por partido
+mediante un orden determinista. **La primera selección guardada permanece
+inmutable:** los recálculos, cambios de cuotas y resultados posteriores no la
+sustituyen. Las cinco referencias manuales antiguas siguen señaladas como
+`INDICATIVA_NO_VERIFICADA`; nunca se convierten retrospectivamente en
+precios API.
+
+En los CSV `historico_oportunidades_150.csv` y
+`seguimiento_oportunidades_150.csv` se archivan la cuota, origen, casa,
+proveedor, evento, mercado, línea, fecha y tipo de marca temporal. Para
+5DollarFootballAPI el campo `CAPTURA_NO_ACTUALIZACION` indica que sabemos
+cuándo capturó el programa la cuota, **no** cuándo la modificó la casa.
+
+Después del partido, el evaluador existente verifica el resultado usando
+marcador y estadística contrastados y genera acierto/fallo. El nuevo
+registro alimenta automáticamente el panel **Rendimiento 3+1** en el próximo
+despliegue de GitHub Pages. El retorno de 1 unidad y el ROI son únicamente
+**simulaciones**; el programa no ejecuta apuestas.
+
+**Comprobación de integración:** `python -m unittest tests.test_value_watchlist`
+y el workflow `Analisis futbol diario`, que prueba la lógica con fixtures
+simulados. Para observar la incorporación de nuevas adicionales con las API
+reales es necesaria una ejecución programada o manual autorizada (`Run workflow`)
+con las variables/secretos que ya estén activos; los eventos `push` de código
+no realizan consultas privadas a las APIs.
