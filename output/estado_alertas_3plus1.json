@@ -16,7 +16,11 @@
     "top:SP2|202611151730|eibar|cadiz|Total goles|Menos de 4,5 goles",
     "top:SP2|202611151730|eldense|sabadell|Goles equipo|CD Sabadell: menos de 1,5 goles",
     "top:SP2|202611151730|eldense|sabadell|Hándicap 2 vías (medio gol)|CD Sabadell +1,5",
-    "top:SP2|202611151730|eldense|sabadell|Total goles|Menos de 3,5 goles"
+    "top:SP2|202611151730|eldense|sabadell|Total goles|Menos de 3,5 goles",
+    "extra:SP2|202611161930|albacete|celta b|Doble oportunidad|X2: empate o RC Celta Fortuna",
+    "top:SP2|202611161930|albacete|celta b|Goles equipo|Albacete: más de 0,5 goles",
+    "top:SP2|202611161930|albacete|celta b|Hándicap 2 vías (medio gol)|RC Celta Fortuna +1,5",
+    "top:SP2|202611161930|albacete|celta b|Total goles|Menos de 4,5 goles"
   ],
-  "last_delivery_utc": "2026-11-17T15:45:03.840197+00:00"
+  "last_delivery_utc": "2026-11-17T16:56:22.745018+00:00"
 }
