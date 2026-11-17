@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 14 · **Finalizadas:** 5 · **Pendientes:** 9
+**Registradas:** 36 · **Finalizadas:** 5 · **Pendientes:** 31
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -20,6 +20,28 @@
 | Lazio – Lecce | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.7% | 2.38 | Pendiente | — |
 | Nice – Paris Saint-Germain | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.0% | 1.85 | Pendiente | — |
 | Troyes – Le Havre AC | Sí (OFRECIDA_API_REGISTRADA) | 64.7% | 1.67 | Pendiente | — |
+| Real Madrid – Celta Vigo | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 76.4% | 1.85 | Pendiente | — |
+| Barcelona – Villarreal | Menos de 4,5 goles (OFRECIDA_API_REGISTRADA) | 73.7% | 1.73 | Pendiente | — |
+| Osasuna – Málaga | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 56.4% | 1.88 | Pendiente | — |
+| Getafe – Atlético Madrid | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 67.8% | 1.82 | Pendiente | — |
+| Real Sociedad II – Cádiz | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.6% | 1.98 | Pendiente | — |
+| Castellón – Eldense | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.3% | 1.53 | Pendiente | — |
+| Tenerife – Mallorca | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 77.2% | 1.67 | Pendiente | — |
+| Tottenham Hotspur – Ipswich Town | Sí (OFRECIDA_API_REGISTRADA) | 64.4% | 1.67 | Pendiente | — |
+| Hull City – Brighton & Hove Albion | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 50.8% | 2.20 | Pendiente | — |
+| Liverpool – Manchester United | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 72.4% | 1.67 | Pendiente | — |
+| 1. FC Union Berlin – RB Leipzig | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.5% | 1.73 | Pendiente | — |
+| FC Augsburg – Mainz | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.3% | 1.80 | Pendiente | — |
+| Werder Bremen – Hamburg SV | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 74.6% | 1.61 | Pendiente | — |
+| Parma – AS Roma | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 78.5% | 1.61 | Pendiente | — |
+| Juventus – Venezia | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.4% | 1.53 | Pendiente | — |
+| AC Milan – Frosinone | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 65.7% | 1.93 | Pendiente | — |
+| Atalanta – Internazionale | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.8% | 1.80 | Pendiente | — |
+| AS Monaco – AJ Auxerre | Sí (OFRECIDA_API_REGISTRADA) | 59.4% | 1.75 | Pendiente | — |
+| Lens – Toulouse | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.7% | 1.53 | Pendiente | — |
+| Lille – Lyon | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 60.4% | 1.80 | Pendiente | — |
+| Strasbourg – Brest | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 65.2% | 1.67 | Pendiente | — |
+| Lorient – Stade Rennais | Sí (OFRECIDA_API_REGISTRADA) | 75.9% | 1.70 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
