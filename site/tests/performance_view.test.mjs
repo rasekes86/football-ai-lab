@@ -143,3 +143,16 @@ test("las cuotas API liquidadas tienen balance independiente de las referencias 
   assert.match(screen.ledger,/ACIERTO CONFIRMADO/);
   assert.match(screen.ledger,/FALLO CONFIRMADO/);
 });
+
+
+test("sports results use four distinct audit statuses, not the same pending color",()=>{
+  const win=confirmedOutcome({...indicative,estado:"FINALIZADO",resultado:"1"});
+  const loss=confirmedOutcome({...indicative,estado:"FINALIZADO",resultado:"0"});
+  const pending=confirmedOutcome({...indicative,estado:"PENDIENTE",resultado:""});
+  const missing=confirmedOutcome({...indicative,estado:"ESTADISTICA_NO_DISPONIBLE",resultado:""});
+  assert.match(win,/status-pill final/);
+  assert.match(loss,/status-pill loss/);
+  assert.match(pending,/status-pill pending/);
+  assert.match(missing,/status-pill missing/);
+  assert.notEqual(pending,missing);
+});
