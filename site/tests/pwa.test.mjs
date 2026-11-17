@@ -12,7 +12,8 @@ test("PWA manifest is valid and scoped to this GitHub Pages project",()=>{
   const manifest=JSON.parse(read("manifest.webmanifest"));
   assert.equal(manifest.name,"Football AI Lab");
   assert.equal(manifest.lang,"es-ES");
-  assert.equal(manifest.start_url,"./#fixtures");
+  assert.equal(manifest.start_url,"./#home");
+  assert.ok(manifest.shortcuts.some(x=>x.url==="./#performance"));
   assert.equal(manifest.scope,"./");
   assert.equal(manifest.display,"standalone");
   assert.deepEqual(manifest.icons.filter(x=>x.type==="image/png").map(x=>x.sizes),["192x192","512x512"]);
@@ -25,7 +26,7 @@ test("site retains all existing sections and adds install controls",()=>{
   assert.match(html,/id="pwaInstallButton"/);
   assert.match(html,/id="pwaOfflineBanner"/);
   assert.match(html,/<script type="module" src="\.\/pwa\.js"><\/script>/);
-  for(const view of ["fixtures","overview","matches","radar","markets","history","odds","realodds","model"]){
+  for(const view of ["home","fixtures","performance","more","overview","matches","radar","markets","history","odds","realodds","model"]){
     assert.ok(html.includes('id="view-'+view+'"'),view);
   }
 });
@@ -57,7 +58,7 @@ test("service worker ignores third-party odds and data requests",async()=>{
   fire(scope+"crests.json?v=12345");
   assert.equal(intercepted,0,"data feeds, external logos and dynamic crests must not be cached");
   fire(scope+"styles.css");
-  fire(scope+"#fixtures","navigate");
+  fire(scope+"#home","navigate");
   assert.equal(intercepted,2,"same-origin app shell should use the service worker");
   const settled=await Promise.allSettled(tasks);
   assert.ok(settled.every(x=>x.status==="fulfilled"));
