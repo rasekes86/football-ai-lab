@@ -11,6 +11,7 @@ import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { renderPerformanceView, confirmedOutcome } from "./performance_view.mjs";
 import { renderHomeView } from "./home.mjs";
 import { renderMatchDetail } from "./match_detail.mjs";
+import { additionalStatus } from "./additional_status.mjs";
 import { renderResultsMobile } from "./results_mobile.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
@@ -215,11 +216,14 @@ function agendaGame(m){
     "<span class=\"agenda-game-pick\">"+
     escapeHtml(p.seleccion)+" <strong>"+percent(numberOrNull(p.probabilidad))+"</strong></span>"
   ).join(""):"<span class=\"agenda-game-pick empty-pick\">Top 3 no publicado</span>";
+  const add=additionalStatus(m);
+  const addTag=add?'<span class="extra-status-chip '+escapeHtml(add.style)+'">'+
+    escapeHtml(add.label)+'</span>':"";
   return '<button type="button" class="agenda-game" data-open-id="'+escapeHtml(m.id)+'" aria-label="Ver pronósticos de '+escapeHtml(m.local)+' contra '+escapeHtml(m.visitante)+'">'+
     '<span class="agenda-game-time">'+escapeHtml(displayDay(m.fecha_utc))+'<b>'+score+'</b></span>'+
     '<span class="agenda-game-teams"><span>'+teamCrest(m.liga,m.local,true)+'<strong>'+escapeHtml(m.local)+'</strong></span>'+
     '<span>'+teamCrest(m.liga,m.visitante,true)+'<strong>'+escapeHtml(m.visitante)+'</strong></span></span>'+
-    '<span class="agenda-game-picks">'+pickText+'</span>'+
+    '<span class="agenda-game-picks">'+pickText+addTag+'</span>'+
     '<span class="agenda-game-arrow" aria-hidden="true">›</span></button>';
 }
 function renderAgenda(){
@@ -299,9 +303,11 @@ function renderOverview() {
 function compactMatch(m) {
   const count = m.finishedPicks;
   const meta = count ? `${count}/${m.picks.length} comprobadas` : m.liga;
+  const additional=additionalStatus(m);
   return `<button type="button" class="compact-match" data-open-id="${escapeHtml(m.id)}">
     ${leagueLogo(m.liga)}<span class="compact-match-main"><span class="compact-match-title">${teamPair(m)}</span>
-    <span class="compact-match-sub">${escapeHtml(displayDate(m.fecha_utc))} · ${escapeHtml(meta)}</span></span>
+    <span class="compact-match-sub">${escapeHtml(displayDate(m.fecha_utc))} · ${escapeHtml(meta)}</span>
+    ${additional ? `<span class="extra-status-chip ${escapeHtml(additional.style)}">${escapeHtml(additional.label)}</span>` : ""}</span>
     <span class="compact-match-right">${m.score ? `<span class="compact-match-score">${escapeHtml(m.score)}</span>` : "<span class='compact-match-score'>↗</span>"}
     <span class="compact-match-sub">${m.status === "FINALIZADO" ? "Liquidado" : m.status === "PARCIAL" ? "Parcial" : "Ver ficha"}</span></span></button>`;
 }
@@ -310,11 +316,17 @@ function renderMatches() {
   const league = $("leagueFilter").value;
   const status = $("statusFilter").value;
   const period = $("periodFilter").value;
+  const extraFilter = $("additionalFilter").value;
   const search = strip($("matchSearch").value.trim());
   const now = Date.now();
   const list = d.matches.filter(m => {
     if (league && m.liga !== league) return false;
     if (status && m.status !== status) return false;
+    const add=additionalStatus(m);
+    if (extraFilter && (extraFilter==="unviable" ? add?.style!=="unviable"
+       : extraFilter==="assigned" ? add?.style!=="assigned"
+       : extraFilter==="pending" ? add?.style!=="pending"
+       : false)) return false;
     if (period === "next" && (!d.currentIds.has(m.id) || m.kickoff <= now)) return false;
     if (period === "past" && m.kickoff > now) return false;
     if (search && !strip([m.local,m.visitante,m.liga,...m.picks.map(x => x.seleccion+" "+x.mercado)].join(" ")).includes(search)) return false;
@@ -324,12 +336,15 @@ function renderMatches() {
   // La clasificación por probabilidad solo afecta a las selecciones internas.
   const ordered = orderMatchesByKickoff(list, now, period);
   const shown = ordered.slice(0,state.matchLimit);
-  inner("matchCount", `${integer(list.length)} partidos · ${integer(Math.min(shown.length,list.length))} visibles`);
+  const unviable=list.filter(m=>additionalStatus(m)?.style==="unviable").length;
+  inner("matchCount", `${integer(list.length)} partidos · ${integer(Math.min(shown.length,list.length))} visibles`+
+    (unviable?` · ${integer(unviable)} sin adicional viable`:""));
   inner("matchesGrid", shown.length ? shown.map(matchCard).join("") : `<div class="empty-state">Ningún partido coincide con estos filtros.</div>`);
   $("loadMore").hidden = shown.length >= list.length;
 }
 function matchCard(m) {
   const picks = m.picks.slice(0,3);
+  const add=additionalStatus(m);
   return `<button type="button" data-open-id="${escapeHtml(m.id)}" class="match-card">
     <div class="match-top"><span class="match-kickoff">${escapeHtml(displayDate(m.fecha_utc))} · ${escapeHtml(m.liga)}</span>${matchPill(m)}</div>
     <div class="match-versus">
@@ -339,7 +354,8 @@ function matchCard(m) {
     </div><div class="match-picks">
     ${picks.length ? picks.map(x => `<div class="mini-pick"><i class="pick-dot ${outcome(x)}"></i>
       <span>${escapeHtml(x.seleccion)}</span><strong>${percent(numberOrNull(x.probabilidad))}</strong></div>`).join("") : empty("Sin selecciones archivadas")}
-    </div><div class="match-footer"><span>${integer(m.finishedPicks)} / ${integer(m.picks.length)} evaluadas ${m.odds.length ? " · "+integer(m.odds.length)+" cuota(s)" : ""}</span><span class="card-arrow">↗</span></div>
+    </div>${add?`<div class="match-extra-status"><span class="extra-status-chip ${escapeHtml(add.style)}">${escapeHtml(add.label)}</span></div>`:""}
+    <div class="match-footer"><span>${integer(m.finishedPicks)} / ${integer(m.picks.length)} evaluadas</span><span class="card-arrow">↗</span></div>
   </button>`;
 }
 function renderHistory() {
@@ -1155,7 +1171,7 @@ function wire() {
       e.preventDefault();first.focus();
     }
   });
-  for (const id of ["matchSearch","leagueFilter","statusFilter","periodFilter"]) {
+  for (const id of ["matchSearch","leagueFilter","statusFilter","periodFilter","additionalFilter"]) {
     $(id).addEventListener(id==="matchSearch"?"input":"change",()=>{state.matchLimit=24;renderMatches()});
   }
   for (const id of ["historyLeagueFilter","historyMarketFilter","historyStatusFilter","historySearch"]) {
