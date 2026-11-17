@@ -33,6 +33,8 @@ jobs:
         run: |
           node --check site/data.mjs
           node --check site/app.js
+          node --check site/pwa.js
+          node --check site/sw.js
       - name: Pruebas de CSV, histórico y simulación
         run: node --test site/tests/*.test.mjs
       - name: Comprobar fuentes de publicación
@@ -64,6 +66,22 @@ jobs:
         run: python -m unittest discover -s site/tests -p 'test_*.py' -v
       - name: Generar escudos de los seis campeonatos
         run: python site/scripts/build_crests.py
+      - name: Generar iconos de Android sin dependencias
+        run: |
+          python site/scripts/build_pwa_icons.py
+          python - <<'PY'
+          import json, struct
+          from pathlib import Path
+          manifest=json.loads(Path("site/manifest.webmanifest").read_text(encoding="utf-8"))
+          assert manifest["start_url"]=="./#fixtures"
+          assert manifest["scope"]=="./"
+          for size in (192,512):
+              icon=Path(f"site/icon-{size}.png").read_bytes()
+              assert icon.startswith(b"\x89PNG\r\n\x1a\n")
+              assert struct.unpack(">II",icon[16:24])==(size,size)
+          assert Path("site/sw.js").is_file()
+          print("Manifiesto, service worker e iconos 192/512 validados.")
+          PY
       - name: Preparar sitio
         run: |
           touch site/.nojekyll
