@@ -66,6 +66,9 @@ PROVIDER_LEAGUE_ALIASES={
     "english premier league":"E0","england premier league":"E0",
     "england premier league 2026 2027":"E0",
     "german bundesliga":"D1","germany bundesliga":"D1",
+    # Nombre oficial documentado en las respuestas del proveedor (primera división).
+    # No clasificar "Germany Bundesliga II" como la Bundesliga principal.
+    "germany bundesliga i":"D1","german bundesliga i":"D1",
     "bundesliga 1":"D1","bundesliga 1 germany":"D1",
     "spanish la liga":"SP1","spain primera division":"SP1",
     "spain segunda":"SP2","spain segunda division":"SP2","spanish segunda division":"SP2",
