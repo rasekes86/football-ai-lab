@@ -39,6 +39,36 @@ class ValueWatchlistTests(unittest.TestCase):
         self.assertEqual(finished[0]["retorno_simulado_unidad"],"0.930")
         self.assertEqual(finished[0]["retorno_precio_api_unidad"],"")
         self.assertIn("no se efectuaron apuestas",markdown(finished,report))
+    def test_outcome_verified_without_historical_bookmaker_proof(self):
+        rows=freeze([],self.manual,[self.match],self.now)
+        done,report=evaluate(rows,self.g,self.kick+timedelta(hours=4))
+        ver=report["verificacion"]
+        self.assertEqual(ver["resultados_verificados"],1)
+        self.assertEqual(ver["cuotas_indicativas_no_acreditadas"],1)
+        self.assertEqual(ver["cuotas_api_observadas_antes_del_partido"],0)
+        self.assertEqual(ver["resultados_pendientes_o_sin_dato"],0)
+        self.assertEqual(done[0]["estado"],"FINALIZADO")
+        self.assertEqual(done[0]["tipo_cuota"],INDICATIVE)
+
+    def test_api_quote_requires_pre_match_timestamp_proof(self):
+        from football_ai_lab.value_watchlist import verification_summary
+        baseline={"tipo_cuota":API,
+             "cuota_decimal":"2.20",
+             "fecha_cuota_utc":self.now.isoformat(),
+             "archivado_utc":(self.now+timedelta(minutes=5)).isoformat(),
+             "fecha_utc":self.kick.isoformat(),
+             "estado":"FINALIZADO","resultado":"1"}
+        self.assertEqual(verification_summary([baseline])[
+            "cuotas_api_observadas_antes_del_partido"],1)
+        no_time=dict(baseline,fecha_cuota_utc="")
+        self.assertEqual(verification_summary([no_time])[
+            "cuotas_api_observadas_antes_del_partido"],0)
+        self.assertEqual(verification_summary([no_time])[
+            "cuotas_api_sin_prueba_temporal"],1)
+        too_late=dict(baseline,archivado_utc=(self.kick+timedelta(minutes=5)).isoformat())
+        self.assertEqual(verification_summary([too_late])[
+            "cuotas_api_observadas_antes_del_partido"],0)
+
     def test_missing_result_not_loss(self):
         rows=freeze([],self.manual,[self.match],self.now)
         finished,summary=evaluate(rows,{"SP2":[]},self.kick+timedelta(hours=5))
