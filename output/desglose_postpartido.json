@@ -1,9 +1,9 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-16T23:58:31.547740+00:00",
+  "calculado_utc": "2026-11-17T00:01:02.017508+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-16T23:58:31.547740+00:00",
+    "calculado_utc": "2026-11-17T00:01:02.017508+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
@@ -5201,6 +5201,182 @@
           "clave": "SP2|202611292000|almeria|sp gijon|Hándicap 2 vías (medio gol)|Sporting Gijón +2,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Sporting Gijón +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611301730|lecce|atalanta",
+      "liga": "Serie A",
+      "local": "Lecce",
+      "visitante": "Atalanta",
+      "fecha_utc": "2026-11-30T17:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611301730|lecce|atalanta|Goles equipo|Atalanta: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Atalanta: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611301730|lecce|atalanta|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611301730|lecce|atalanta|Goles equipo|Lecce: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Lecce: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202611301930|oviedo|celta b",
+      "liga": "Segunda División",
+      "local": "Real Oviedo",
+      "visitante": "RC Celta Fortuna",
+      "fecha_utc": "2026-11-30T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202611301930|oviedo|celta b|Hándicap 2 vías (medio gol)|RC Celta Fortuna +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "RC Celta Fortuna +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611301930|oviedo|celta b|Goles equipo|Real Oviedo: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Oviedo: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202611301930|oviedo|celta b|Goles equipo|RC Celta Fortuna: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "RC Celta Fortuna: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "I1|202611301945|cagliari|milan",
+      "liga": "Serie A",
+      "local": "Cagliari",
+      "visitante": "AC Milan",
+      "fecha_utc": "2026-11-30T19:45:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "I1|202611301945|cagliari|milan|Goles equipo|AC Milan: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "AC Milan: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611301945|cagliari|milan|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "I1|202611301945|cagliari|milan|Goles equipo|Cagliari: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Cagliari: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202611302000|espanyol|getafe",
+      "liga": "LaLiga",
+      "local": "Espanyol",
+      "visitante": "Getafe",
+      "fecha_utc": "2026-11-30T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202611302000|espanyol|getafe|Total goles|Más de 0,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611302000|espanyol|getafe|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202611302000|espanyol|getafe|Goles equipo|Getafe: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Getafe: menos de 1,5 goles",
           "estado": "PENDIENTE",
           "resultado": "",
           "valor_real": "",

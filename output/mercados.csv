@@ -14,6 +14,7 @@ SP1|202611282000|real madrid|alaves,2026-11-28T20:00:00+00:00,LaLiga,Real Madrid
 SP1|202611291300|valencia|osasuna,2026-11-29T13:00:00+00:00,LaLiga,Valencia,Osasuna,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP1|202611291730|celta|villarreal,2026-11-29T17:30:00+00:00,LaLiga,Celta Vigo,Villarreal,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP1|202611292000|sociedad|sevilla,2026-11-29T20:00:00+00:00,LaLiga,Real Sociedad,Sevilla,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+SP1|202611302000|espanyol|getafe,2026-11-30T20:00:00+00:00,LaLiga,Espanyol,Getafe,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611201930|andorra|leganes,2026-11-20T19:30:00+00:00,Segunda División,FC Andorra,Leganés,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611211300|sabadell|granada,2026-11-21T13:00:00+00:00,Segunda División,CD Sabadell,Granada,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611211515|sociedad b|cadiz,2026-11-21T15:15:00+00:00,Segunda División,Real Sociedad II,Cádiz,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
@@ -35,6 +36,7 @@ SP2|202611291300|granada|ceuta,2026-11-29T13:00:00+00:00,Segunda División,Grana
 SP2|202611291515|mallorca|castellon,2026-11-29T15:15:00+00:00,Segunda División,Mallorca,Castellón,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611291730|cadiz|cordoba,2026-11-29T17:30:00+00:00,Segunda División,Cádiz,Córdoba,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611292000|almeria|sp gijon,2026-11-29T20:00:00+00:00,Segunda División,Almería,Sporting Gijón,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+SP2|202611301930|oviedo|celta b,2026-11-30T19:30:00+00:00,Segunda División,Real Oviedo,RC Celta Fortuna,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 E0|202611211230|man city|fulham,2026-11-21T12:30:00+00:00,Premier League,Manchester City,Fulham,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 E0|202611211500|bournemouth|nott m forest,2026-11-21T15:00:00+00:00,Premier League,AFC Bournemouth,Nottingham Forest,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 E0|202611211500|aston villa|sunderland,2026-11-21T15:00:00+00:00,Premier League,Aston Villa,Sunderland,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
@@ -87,6 +89,8 @@ I1|202611291130|udinese|fiorentina,2026-11-29T11:30:00+00:00,Serie A,Udinese,Fio
 I1|202611291400|sassuolo|napoli,2026-11-29T14:00:00+00:00,Serie A,Sassuolo,Napoli,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 I1|202611291700|roma|monza,2026-11-29T17:00:00+00:00,Serie A,AS Roma,Monza,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 I1|202611291945|como|juventus,2026-11-29T19:45:00+00:00,Serie A,Como,Juventus,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611301730|lecce|atalanta,2026-11-30T17:30:00+00:00,Serie A,Lecce,Atalanta,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+I1|202611301945|cagliari|milan,2026-11-30T19:45:00+00:00,Serie A,Cagliari,AC Milan,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611201945|troyes|le havre,2026-11-20T19:45:00+00:00,Ligue 1,Troyes,Le Havre AC,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211615|nice|paris sg,2026-11-21T16:15:00+00:00,Ligue 1,Nice,Paris Saint-Germain,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211945|monaco|auxerre,2026-11-21T19:45:00+00:00,Ligue 1,AS Monaco,AJ Auxerre,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado

@@ -1,8 +1,8 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-16T23:58:31.547740+00:00
+**UTC:** 2026-11-17T00:01:02.017508+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 106
+**Próximos partidos con pronóstico:** 110
 **Descartados por insuficiencia de datos:** 8
 **Históricos evaluados:** 5
 **Brier 1X2 medio:** 0.1916
@@ -24,6 +24,7 @@
 | LaLiga | 2026-11-29T13:00 | Valencia - Osasuna | 45.5% | 26.2% | 28.3% |
 | LaLiga | 2026-11-29T17:30 | Celta Vigo - Villarreal | 37.3% | 25.2% | 37.5% |
 | LaLiga | 2026-11-29T20:00 | Real Sociedad - Sevilla | 48.2% | 22.5% | 29.2% |
+| LaLiga | 2026-11-30T20:00 | Espanyol - Getafe | 43.6% | 29.4% | 27.0% |
 | Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 47.6% | 24.4% | 28.0% |
 | Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.0% | 26.0% | 29.9% |
 | Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 44.8% | 25.5% | 29.8% |
@@ -45,6 +46,7 @@
 | Segunda División | 2026-11-29T15:15 | Mallorca - Castellón | 38.8% | 25.6% | 35.6% |
 | Segunda División | 2026-11-29T17:30 | Cádiz - Córdoba | 30.6% | 23.1% | 46.3% |
 | Segunda División | 2026-11-29T20:00 | Almería - Sporting Gijón | 58.7% | 20.6% | 20.8% |
+| Segunda División | 2026-11-30T19:30 | Real Oviedo - RC Celta Fortuna | 56.6% | 23.3% | 20.1% |
 | Premier League | 2026-11-21T12:30 | Manchester City - Fulham | 64.7% | 22.1% | 13.1% |
 | Premier League | 2026-11-21T15:00 | AFC Bournemouth - Nottingham Forest | 47.0% | 26.5% | 26.5% |
 | Premier League | 2026-11-21T15:00 | Aston Villa - Sunderland | 53.4% | 25.3% | 21.2% |
@@ -97,6 +99,8 @@
 | Serie A | 2026-11-29T14:00 | Sassuolo - Napoli | 26.1% | 23.4% | 50.5% |
 | Serie A | 2026-11-29T17:00 | AS Roma - Monza | 78.1% | 15.5% | 6.4% |
 | Serie A | 2026-11-29T19:45 | Como - Juventus | 46.6% | 25.9% | 27.5% |
+| Serie A | 2026-11-30T17:30 | Lecce - Atalanta | 24.3% | 24.7% | 51.0% |
+| Serie A | 2026-11-30T19:45 | Cagliari - AC Milan | 24.9% | 26.6% | 48.5% |
 | Ligue 1 | 2026-11-20T19:45 | Troyes - Le Havre AC | 41.3% | 25.2% | 33.5% |
 | Ligue 1 | 2026-11-21T16:15 | Nice - Paris Saint-Germain | 22.0% | 22.7% | 55.3% |
 | Ligue 1 | 2026-11-21T19:45 | AS Monaco - AJ Auxerre | 60.4% | 21.3% | 18.3% |
@@ -139,12 +143,12 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **0** / 106. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **0** / 110. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **111**
+Pronósticos archivados: **115**
 Resultados reales verificados: **5**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
@@ -177,10 +181,10 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 Selecciones archivadas: **5**; finalizadas: **5**; pendientes: **0**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **333** selecciones archivadas antes del partido; **15** resueltas.
+Seguimiento real del Top 3: **345** selecciones archivadas antes del partido; **15** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 3894 líneas congeladas, 16 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 4038 líneas congeladas, 16 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

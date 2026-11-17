@@ -1,61 +1,8 @@
 {
-  "calculado_utc": "2026-11-16T23:58:31.547740+00:00",
+  "calculado_utc": "2026-11-17T00:01:02.017508+00:00",
   "estado": "SIN_XG_VERIFICADO",
   "partidos": [],
-  "consultas_xg": 5,
-  "errores": [
-    "SP1: Match not found on Understat",
-    "E0: Match not found on Understat",
-    "D1: Match not found on Understat",
-    "I1: Match not found on Understat",
-    "F1: Match not found on Understat"
-  ],
-  "nota": "Sólo una muestra de partidos finalizados por liga. No representa xG de todos los equipos.",
-  "diagnosticos": [
-    {
-      "liga": "SP1",
-      "evento": "401882816",
-      "local": "Atlético Madrid",
-      "visitante": "Barcelona",
-      "motivo": "Match not found on Understat",
-      "fuente_declarada": "",
-      "n_equipos_xg": 0
-    },
-    {
-      "liga": "E0",
-      "evento": "401879240",
-      "local": "Manchester United",
-      "visitante": "Aston Villa",
-      "motivo": "Match not found on Understat",
-      "fuente_declarada": "",
-      "n_equipos_xg": 0
-    },
-    {
-      "liga": "D1",
-      "evento": "401884742",
-      "local": "TSG Hoffenheim",
-      "visitante": "Schalke 04",
-      "motivo": "Match not found on Understat",
-      "fuente_declarada": "",
-      "n_equipos_xg": 0
-    },
-    {
-      "liga": "I1",
-      "evento": "401875003",
-      "local": "Fiorentina",
-      "visitante": "Juventus",
-      "motivo": "Match not found on Understat",
-      "fuente_declarada": "",
-      "n_equipos_xg": 0
-    },
-    {
-      "liga": "F1",
-      "evento": "401876404",
-      "local": "Lens",
-      "visitante": "Marseille",
-      "motivo": "Match not found on Understat",
-      "fuente_declarada": "",
-      "n_equipos_xg": 0
-    }
-  ]
+  "consultas_xg": 0,
+  "errores": [],
+  "nota": "Sólo una muestra de partidos finalizados por liga. No representa xG de todos los equipos."
 }

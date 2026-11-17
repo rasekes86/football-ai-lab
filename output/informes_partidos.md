@@ -705,6 +705,53 @@
 
 ---
 
+## Espanyol – Getafe
+
+**LaLiga · 2026-11-30T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 43.6% | 29.4% | 27.0% | 28.3% |
+
+### Forma, descanso y estadísticas
+
+**Espanyol:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · V · D · D · E
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 9,2, a puerta 2,8, córners 4,4, amarillas 3,6
+
+**Getafe:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · V · D · E · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 8,6, a puerta 2,4, córners 4,0, amarillas 3,4
+
+### Enfrentamientos previos
+- 2026-03-21: Espanol 1-2 Getafe
+- 2025-12-13: Getafe 0-1 Espanol
+- 2025-04-18: Espanol 1-0 Getafe
+- 2024-12-09: Getafe 1-0 Espanol
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 0,5 goles** (Total goles): 84.3% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 83.0% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Getafe: menos de 1,5 goles** (Goles equipo): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## FC Andorra – Leganés
 
 **Segunda División · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -1645,6 +1692,50 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 56.5% / 21.3% / 22.2%. No sustituye al modelo principal.
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Real Oviedo – RC Celta Fortuna
+
+**Segunda División · 2026-11-30T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 56.6% | 23.3% | 20.1% | 47.9% |
+
+### Forma, descanso y estadísticas
+
+**Real Oviedo:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 1E · 2D; secuencia: D · V · D · E · V
+- Días desde el último partido liguero registrado: 16
+- Medias recientes: Tiros 17,4, a puerta 6,6, córners 5,2, amarillas 3,4
+
+**RC Celta Fortuna:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 10,6, a puerta 3,6, córners 3,2, amarillas 3,6
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **RC Celta Fortuna +2,5** (Hándicap 2 vías (medio gol)): 86.0% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Real Oviedo: más de 0,5 goles** (Goles equipo): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **RC Celta Fortuna: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4079,6 +4170,102 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 43.2% / 29.8% / 27.0%. No sustituye al modelo principal.
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Lecce – Atalanta
+
+**Serie A · 2026-11-30T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 24.3% | 24.7% | 51.0% | 41.7% |
+
+### Forma, descanso y estadísticas
+
+**Lecce:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: E · D · D · D · V
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 14,4, a puerta 5,8, córners 4,6, amarillas 1,8
+
+**Atalanta:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: V · D · E · E · D
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 13,8, a puerta 6,2, córners 4,4, amarillas 1,4
+
+### Enfrentamientos previos
+- 2026-04-06: Lecce 0-3 Atalanta
+- 2025-09-14: Atalanta 4-1 Lecce
+- 2025-04-27: Atalanta 1-1 Lecce
+- 2024-08-19: Lecce 0-4 Atalanta
+- 2024-05-18: Lecce 0-2 Atalanta
+
+### Tres selecciones del modelo (experimentales)
+1. **Atalanta: menos de 2,5 goles** (Goles equipo): 81.1% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 78.9% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Lecce: menos de 1,5 goles** (Goles equipo): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Cagliari – AC Milan
+
+**Serie A · 2026-11-30T19:45:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 24.9% | 26.6% | 48.5% | 34.6% |
+
+### Forma, descanso y estadísticas
+
+**Cagliari:** posición 9 · 16 puntos.
+- Últimos partidos: 1V · 0E · 4D; secuencia: V · D · D · D · D
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 12,4, a puerta 4,2, córners 4,2, amarillas 2,2
+
+**AC Milan:** posición 4 · 24 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 10,2, a puerta 4,4, córners 2,2, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-05-24: Milan 1-2 Cagliari
+- 2026-01-02: Cagliari 0-1 Milan
+- 2025-01-11: Milan 1-1 Cagliari
+- 2024-11-09: Cagliari 3-3 Milan
+- 2024-05-11: Milan 5-1 Cagliari
+
+### Tres selecciones del modelo (experimentales)
+1. **AC Milan: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Cagliari: menos de 1,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar

@@ -1,8 +1,3548 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-16T23:58:31.547740+00:00",
+  "actualizado_utc": "2026-11-17T00:01:02.017508+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "354450",
+      "jugador": "Ramon Vila",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "310837",
+      "jugador": "Iker Ortega",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "346837",
+      "jugador": "Floris Smand",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "412135",
+      "jugador": "David Ruiz Montero",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "311264",
+      "jugador": "Jesus Clemente",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "331710",
+      "jugador": "Jordi Martín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "113146",
+      "jugador": "Justin Smith",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "354251",
+      "jugador": "Marcos Bustillo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "395201",
+      "jugador": "Mariano Carmona",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "384544",
+      "jugador": "Pau Cabanes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "377833",
+      "jugador": "Aingeru Olabarrieta",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "269583",
+      "jugador": "Waldo Rubio",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "11719",
+      "jugador": "Javier Olaizola",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "407541",
+      "jugador": "Dinis Rodrigues",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "331424",
+      "jugador": "Juan Palomares",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "354252",
+      "jugador": "Borja Calvo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "308145",
+      "jugador": "Roberto López",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "374618",
+      "jugador": "Jorge Rastrojo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "299935",
+      "jugador": "Manuel Nieto",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "407406",
+      "jugador": "Álex Ibarrondo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "396893",
+      "jugador": "Julien Yanda",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "278205",
+      "jugador": "Javier Martínez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "Eldense",
+      "jugador_id": "375724",
+      "jugador": "Álex Serra",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "306293",
+      "jugador": "Diego Fuoli",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "253008",
+      "jugador": "Arthur Bonaldo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "128669",
+      "jugador": "Edgar González",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "300270",
+      "jugador": "Gerard Fornés",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "300272",
+      "jugador": "Ton Ripoll",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "155283",
+      "jugador": "Óscar Sanz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "178565",
+      "jugador": "Pere Pons",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "347354",
+      "jugador": "Javi López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "303843",
+      "jugador": "Ángel Baena",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "307709",
+      "jugador": "Joel Priego",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "380822",
+      "jugador": "Gastón Valles",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "218510",
+      "jugador": "Nikolai Óbolo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "311302",
+      "jugador": "Jose Ortega",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "245840",
+      "jugador": "Yanis Rahmani",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "388399",
+      "jugador": "Yussif Owusu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "300303",
+      "jugador": "Alain Ribeiro",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "138674",
+      "jugador": "Marc Vidal",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "376662",
+      "jugador": "José Luis Català Vázquez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "412261",
+      "jugador": "Quim Utgés",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883137",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eldense",
+      "visitante": "CD Sabadell",
+      "equipo": "CD Sabadell",
+      "jugador_id": "242434",
+      "jugador": "Juan Carlos Lázaro Cervera",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "290751",
+      "jugador": "Jon Mikel Magunagoitia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "354555",
+      "jugador": "Arana",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "271822",
+      "jugador": "Peru Nolaskoain",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "150806",
+      "jugador": "Anaitz Arbilla",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "251661",
+      "jugador": "Álvaro Rodríguez Pérez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "331283",
+      "jugador": "Iván Gil",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "367721",
+      "jugador": "Ander Madariaga",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "361257",
+      "jugador": "Aleix Garrido",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "234335",
+      "jugador": "Jon Bautista",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "376033",
+      "jugador": "Jon Guruzeta",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "347412",
+      "jugador": "Malcom Adu Ares",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "87963",
+      "jugador": "Sergio Álvarez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "304321",
+      "jugador": "Luis López",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "300512",
+      "jugador": "Sergio Cubero",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "270597",
+      "jugador": "Pejiño",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "238894",
+      "jugador": "Jair Amador Silos",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "231214",
+      "jugador": "Unai Elgezabel",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "385027",
+      "jugador": "Eric Pérez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "224587",
+      "jugador": "Lander Olaetxea",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "325010",
+      "jugador": "Jon Magunacelaya",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "307986",
+      "jugador": "Lucas Nuñez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Eibar",
+      "jugador_id": "324351",
+      "jugador": "Javier Martón",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "195604",
+      "jugador": "David Gil",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "3105656",
+      "jugador": "Manuel Rivera Domínguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "415372",
+      "jugador": "Noah Ukwuije",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "399240",
+      "jugador": "Sergio Arribas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "306347",
+      "jugador": "Giorgi Gocholeishvili",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "387838",
+      "jugador": "Dilan Zárate",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "291262",
+      "jugador": "Marc-Oliver Doué",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "384598",
+      "jugador": "Borja Vázquez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "375875",
+      "jugador": "Antonio Cordero",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "354205",
+      "jugador": "Urko Izeta",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "394420",
+      "jugador": "Vladyslav Kopotun",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "409298",
+      "jugador": "Efe Ugiagbe",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "411758",
+      "jugador": "Ibon Sánchez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "209578",
+      "jugador": "Jokin Ezkieta",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "341269",
+      "jugador": "Damián Rodríguez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "400253",
+      "jugador": "Rubén Domínguez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "397417",
+      "jugador": "Juan Díaz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "331977",
+      "jugador": "Cristian Gutiérrez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "291401",
+      "jugador": "Aimen Moueffek",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "230894",
+      "jugador": "Javi Ontiveros",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "409477",
+      "jugador": "Manuel Fernández",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "374633",
+      "jugador": "Beñat De Jesús",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883117",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T17:30:00+00:00",
+      "local": "Eibar",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "361366",
+      "jugador": "Gonzalo Petit",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "185100",
+      "jugador": "Alberto Flores",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "312144",
+      "jugador": "Manu Lama",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "412251",
+      "jugador": "Juanjo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "264488",
+      "jugador": "Diego Pampín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "173611",
+      "jugador": "Sergio López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "330246",
+      "jugador": "Pedro Alemañ",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "186181",
+      "jugador": "Gerard Gumbau",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "214317",
+      "jugador": "Rubén Alcaraz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "343634",
+      "jugador": "Jorge Pascual Medina",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "269263",
+      "jugador": "Kader Bamba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "384447",
+      "jugador": "Sergio Rodelas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "3128637",
+      "jugador": "Chinaza Marvellous Onouha Okonyia",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "423021",
+      "jugador": "Bourama Dembelé",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "356227",
+      "jugador": "Diego Hormigo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "409385",
+      "jugador": "Mario Jiménez Gambin",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "220716",
+      "jugador": "Benedikt Gimber",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "153481",
+      "jugador": "Raúl Lizoain",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "271900",
+      "jugador": "Alejandro Marqués",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "3094331",
+      "jugador": "Dylan Rodríguez Vellisca",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Granada",
+      "jugador_id": "3128636",
+      "jugador": "Ángelo García Hidalgo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "239387",
+      "jugador": "Caro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "335952",
+      "jugador": "Giovanni Bonfanti",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "121611",
+      "jugador": "Álex Suárez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "3144268",
+      "jugador": "Adrián Rodríguez Del Rosario",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "375799",
+      "jugador": "Andrés Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "272870",
+      "jugador": "Enzo Loiodice",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "292774",
+      "jugador": "Manu Fuster",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "288936",
+      "jugador": "Kirian Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "162453",
+      "jugador": "Jesé",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "280489",
+      "jugador": "Iván Jaime",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "265959",
+      "jugador": "Taisei Miyashiro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "165671",
+      "jugador": "Jefté",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "380670",
+      "jugador": "Jeremía Recoba",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "256836",
+      "jugador": "Nicholas Opoku",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "241461",
+      "jugador": "Elías Romero",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "379136",
+      "jugador": "Aboubacar Bassinga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "5333407",
+      "jugador": "Jeredian José López Méndez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "387901",
+      "jugador": "Mateo Acimovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "136272",
+      "jugador": "Jorge Valverde",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "367731",
+      "jugador": "Iñaki González",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "307916",
+      "jugador": "Marvin",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "414085",
+      "jugador": "Iván Medina",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883116",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T15:15:00+00:00",
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "406376",
+      "jugador": "Adri Suárez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "400058",
+      "jugador": "Gabriel Lozano",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "235018",
+      "jugador": "Anthony Landázuri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "355507",
+      "jugador": "Neal Viereck",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "308453",
+      "jugador": "David Rodríguez Ramos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "377597",
+      "jugador": "César Álvarez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "102805",
+      "jugador": "Jesús Álvarez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "412263",
+      "jugador": "Fabricio",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "231574",
+      "jugador": "Nacho Gil",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "331987",
+      "jugador": "Noel López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "276634",
+      "jugador": "Enric Gallego",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "322156",
+      "jugador": "Christian Gomis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "324482",
+      "jugador": "Iván Chapela",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "363722",
+      "jugador": "Anes Krdzalic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "220073",
+      "jugador": "Mauro Pittón",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "195785",
+      "jugador": "Víctor Moreno",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "185866",
+      "jugador": "Juanjo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "222379",
+      "jugador": "Gerard Valentín",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "204899",
+      "jugador": "José León",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "130137",
+      "jugador": "Marc Mateu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "84064",
+      "jugador": "Jorge Moreno",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "388804",
+      "jugador": "Oier Gastesi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "346838",
+      "jugador": "Roko Jureskin",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Tenerife",
+      "jugador_id": "311533",
+      "jugador": "Martin Pecar",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "218218",
+      "jugador": "Guillermo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "207568",
+      "jugador": "Yann Bodiger",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "175089",
+      "jugador": "Carlos Hernández",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "261110",
+      "jugador": "Redru",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "320874",
+      "jugador": "Alex Petxarromán",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "250658",
+      "jugador": "Kuki Zalazar",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "300952",
+      "jugador": "Alejandro Meléndez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "357345",
+      "jugador": "Marino Illescas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "276349",
+      "jugador": "Jordi Escobar",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "279875",
+      "jugador": "Alejandro Camacho",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "311104",
+      "jugador": "Edgar Sevikyan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "419964",
+      "jugador": "Gabriel Okoro",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "354257",
+      "jugador": "Capa",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "3141586",
+      "jugador": "Abraham Bueno Espinosa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "402185",
+      "jugador": "Umaru",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "354788",
+      "jugador": "Joaquín Felipe González Rodríguez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "276645",
+      "jugador": "Cedric Teguia",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "183413",
+      "jugador": "Pedro López",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "420359",
+      "jugador": "Arick Betancourt",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "387345",
+      "jugador": "Kenneth Mamah",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "376041",
+      "jugador": "Omar Sadik",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "369841",
+      "jugador": "Mawuli Mensah",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883113",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-15T13:00:00+00:00",
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "equipo": "Ceuta",
+      "jugador_id": "223097",
+      "jugador": "Matos",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
     {
       "event_id": "401883115",
       "liga": "SP2",
@@ -45664,10 +49204,10 @@
       "fuente": "ESPN summary público no oficial"
     }
   ],
-  "eventos_consultados": 0,
-  "eventos_con_jugadores": 0,
+  "eventos_consultados": 4,
+  "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 53,
-  "jugadores_con_algun_dato": 2283
+  "partidos_archivados": 57,
+  "jugadores_con_algun_dato": 2460
 }
