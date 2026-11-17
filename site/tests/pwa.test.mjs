@@ -29,7 +29,7 @@ test("site retains all existing sections and adds install controls",()=>{
     assert.ok(html.includes('id="view-'+view+'"'),view);
   }
 });
-test("service worker ignores third-party odds and data requests",()=>{
+test("service worker ignores third-party odds and data requests",async()=>{
   const handlers=new Map();
   const scope="https://rasekes86.github.io/football-ai-lab/";
   const self={
@@ -40,14 +40,15 @@ test("service worker ignores third-party odds and data requests",()=>{
   };
   vm.runInNewContext(read("sw.js"),{
     self,URL,Set,Response,
-    caches:{open:async()=>({}),keys:async()=>[]},
-    fetch:async()=>{throw Error("should not fetch")}
+    caches:{open:async()=>({match:async()=>new Response("offline copy"),put:async()=>{}}),keys:async()=>[]},
+    fetch:async()=>new Response("online copy")
   },{filename:"sw.js"});
   let intercepted=0;
+  const tasks=[];
   function fire(url,mode="cors"){
     const event={
       request:{method:"GET",url,mode},
-      respondWith:()=>{intercepted++}
+      respondWith:promise=>{intercepted++;tasks.push(promise)}
     };
     handlers.get("fetch")(event);
   }
@@ -58,4 +59,6 @@ test("service worker ignores third-party odds and data requests",()=>{
   fire(scope+"styles.css");
   fire(scope+"#fixtures","navigate");
   assert.equal(intercepted,2,"same-origin app shell should use the service worker");
+  const settled=await Promise.allSettled(tasks);
+  assert.ok(settled.every(x=>x.status==="fulfilled"));
 });
