@@ -89,3 +89,67 @@ export function realOddsSnapshot(model,filter={},now=new Date()){
     limitations:"Diferencias basadas en probabilidades experimentales no calibradas. La cuota observada puede cambiar o no estar accesible al público; no garantiza rentabilidad.",
   };
 }
+
+
+// Aggregated public diagnostics only: no API keys, raw match IDs or hidden
+// bookmaker responses. A missing quote must never be presented as an offer.
+export const ODDS_LEAGUES=Object.freeze([
+  "LaLiga","Segunda División","Premier League","Bundesliga","Serie A","Ligue 1"
+]);
+
+export function oddsCoverageSnapshot(model,now=new Date()){
+  const raw=model?.realOddsRaw||{};
+  const audit=raw?.auditoria||{};
+  const providers=audit?.fuentes_gratuitas||[];
+  const five=providers.find(x=>x.proveedor==="5DollarFootballAPI")||{};
+  const api=providers.find(x=>x.proveedor==="API-Football")||{};
+  const perLeague=five.cobertura_ligas||{};
+  const sourceTime=Date.parse(raw.capturado_utc||"");
+  const stale=!Number.isFinite(sourceTime)||now.getTime()-sourceTime>24*3600*1000||
+    sourceTime>now.getTime()+5*60*1000;
+  const sourced=(raw.cuotas||[]).filter(x=>x&&x.proveedor&&
+    typeof x.liga==="string"&&typeof x.fecha_utc==="string");
+  const fixturesByLeague=new Map();
+  for(const quote of sourced){
+    if(!quote.fixture_id)continue;
+    if(!fixturesByLeague.has(quote.liga))fixturesByLeague.set(quote.liga,new Set());
+    fixturesByLeague.get(quote.liga).add(quote.fixture_id);
+  }
+  const labelFor={
+    CON_CUOTAS:"Con precios observados",
+    SIN_PARTIDOS_MODELO:"Sin próximos partidos en la ventana",
+    NO_INCLUIDA_EN_FREE:"Requiere Community Access u otra fuente",
+    SIN_EVENTOS_PROVEEDOR:"No devolvió eventos compatibles",
+    SIN_COINCIDENCIA_VERIFICADA:"Equipos u horarios sin coincidencia segura",
+    FUERA_DEL_CUPO_DE_CONSULTAS:"No entró en el cupo de consulta",
+    SIN_PRECIOS_VALIDOS:"Partidos coincidentes, pero sin precios completos",
+  };
+  const rows=ODDS_LEAGUES.map(name=>{
+    const diag=perLeague[name]||{};
+    const n=fixturesByLeague.get(name)?.size||0;
+    const selected=Number.isFinite(diag.partidos_consultados)?diag.partidos_consultados:null;
+    return {
+      name,
+      quotes:sourced.filter(x=>x.liga===name).length,
+      games:n,
+      model:Number.isFinite(diag.partidos_modelo)?diag.partidos_modelo:null,
+      returned:Number.isFinite(diag.eventos_proveedor)?diag.eventos_proveedor:null,
+      matched:Number.isFinite(diag.partidos_emparejados)?diag.partidos_emparejados:null,
+      requested:selected,
+      state:typeof diag.estado==="string"?diag.estado:"AUDITORIA_PENDIENTE",
+      description:labelFor[diag.estado]||"Pendiente de ejecutar el análisis con diagnóstico",
+      reasons:diag.motivos_descartados||{},
+      community:name==="Segunda División"&&five.community_segunda_activada===true
+    };
+  });
+  return {
+    rows,
+    total:rows.reduce((sum,row)=>sum+row.games,0),
+    captured:raw.capturado_utc||null,
+    stale,
+    hasAudit:Boolean(perLeague&&Object.keys(perLeague).length),
+    providerStatus:five.estado||"SIN_DATOS",
+    backupStatus:api.estado||"DESACTIVADO",
+    published:raw.estado||"SIN_PUBLICAR"
+  };
+}
