@@ -1,7 +1,8 @@
 import {
-  LEAGUES, FEEDS, parseCsv, numberOrNull, settled,
+  LEAGUES, FEEDS, numberOrNull, settled,
   calculateMetrics, calculateOdds, buildModel
 } from "./data.mjs";
+import { fetchPublishedFeed } from "./feed_loader.mjs";
 import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mjs";
 import { futureMarketSnapshot } from "./future_markets.mjs";
 import { reliabilitySnapshot } from "./reliability.mjs";
@@ -10,7 +11,6 @@ import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
-const REPO_BASE = "https://raw.githubusercontent.com/rasekes86/football-ai-lab/main/output/";
 const GITHUB_URL = "https://github.com/rasekes86/football-ai-lab";
 const SHEET_URL = "https://docs.google.com/spreadsheets/d/1XSDuxhggZ3UCNkJDmakYG8WQdWPcqQtykj49DuIqJsU/edit";
 const $ = id => document.getElementById(id);
@@ -148,11 +148,7 @@ function insertOptions(id, labels) {
 }
 
 async function getFeed(name, file, token) {
-  const url = `${REPO_BASE}${encodeURIComponent(file)}?ref=${token}`;
-  const response = await fetch(url, {cache: "no-store"});
-  if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
-  const text = await response.text();
-  return file.endsWith(".json") ? JSON.parse(text) : parseCsv(text);
+  return fetchPublishedFeed(name, file, token);
 }
 
 async function refreshData() {
@@ -177,7 +173,7 @@ async function refreshData() {
     $("syncStatus").className = "sync-status error";
     $("syncText").textContent = "Error al cargar";
     $("errorBanner").hidden = false;
-    $("errorBanner").innerHTML = `No hemos podido descargar los datos públicos de GitHub. Comprueba la conexión y pulsa <strong>Actualizar</strong>. ${errors.length ? "Fuentes: " + escapeHtml(errors.join(", ")) : ""}`;
+    $("errorBanner").innerHTML = `No hemos podido cargar la publicación de datos. Comprueba la conexión y pulsa <strong>Actualizar</strong>. Si continúa, abre la web en Chrome para descartar un bloqueo de red. ${errors.length ? "Fuentes: " + escapeHtml(errors.join(", ")) : ""}`;
     return;
   }
   // Catálogo independiente del motor: si falla, vuelven las iniciales.
