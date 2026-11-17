@@ -80,10 +80,25 @@
       <main id="main" tabindex="-1">
         <div id="errorBanner" class="error-banner" role="alert" hidden></div>
 
+        <section class="view home-view" id="view-home" aria-labelledby="homeTitle">
+          <header class="home-hero">
+            <div class="home-hero-top"><span class="home-eyebrow">TU FÚTBOL · 6 LIGAS</span><span class="home-published" id="homeUpdated">Cargando datos…</span></div>
+            <h1 id="homeTitle">Lo importante.<br><em>Sin ruido.</em></h1>
+            <p>Próximos encuentros, tus selecciones archivadas y resultados confirmados. Todo lo demás, a un toque.</p>
+          </header>
+          <div class="home-stats" id="homeStats" aria-live="polite"><p class="home-muted">Cargando resumen 3+1…</p></div>
+          <div class="home-section-heading"><div><span>01 · TU AGENDA</span><h2>Próximos partidos</h2></div><button type="button" data-go="fixtures">Ver todos ›</button></div>
+          <div id="homeUpcoming" class="home-fixtures" aria-live="polite"><p class="home-empty">Cargando próximos partidos…</p></div>
+          <div class="home-section-heading"><div><span>02 · RESULTADOS</span><h2>Últimos verificados</h2></div><button type="button" data-go="performance">Ver balance ›</button></div>
+          <div id="homeRecent" class="home-recent-list" aria-live="polite"></div>
+          <button type="button" class="home-advanced-link" data-go="more"><span><strong>¿Quieres profundizar?</strong><small>Radar, cuotas, mercados y metodología</small></span><span aria-hidden="true">›</span></button>
+          <p class="home-disclaimer">Datos publicados, no resultados en directo. Probabilidades experimentales y cuotas observadas; ninguna apuesta ejecutada.</p>
+        </section>
+
         <section class="view agenda-view" id="view-fixtures" aria-labelledby="agendaTitle">
           <div class="agenda-header">
             <div class="agenda-title-row">
-              <div><span class="agenda-eyebrow">FOOTBALL AI LAB / CENTRO DE PARTIDOS</span><h1 id="agendaTitle">Fútbol <span>en datos.</span></h1>
+              <div><span class="agenda-eyebrow">FOOTBALL AI LAB / CENTRO DE PARTIDOS</span><h1 id="agendaTitle">Todos los <span>partidos.</span></h1>
                 <p>Las seis ligas que seguimos. Resultados y pronósticos del modelo, sin cifras inventadas.</p></div>
               <button type="button" class="agenda-update" data-agenda-refresh aria-label="Actualizar agenda y datos">↻ <span>Actualizar</span></button>
             </div>
@@ -433,6 +448,24 @@
             </div>
             <p class="fine-print">Las cuotas proceden de 5DollarFootballAPI, API-Football o The Odds API según qué proveedor habilites y se capturan únicamente en ejecuciones autorizadas. Se guardan con fecha y origen. El cálculo EV = p del modelo × cuota − 1 es un escenario matemático sujeto al error del modelo y no demuestra rentabilidad. Sin clave de API, el panel no muestra ofertas.</p>
             <p class="fine-print"><a href="https://5dollarfootballapi.com/" rel="nofollow noopener noreferrer" target="_blank">Football data by 5DollarFootballAPI</a> · <a href="https://www.api-football.com/" rel="noopener noreferrer" target="_blank">API-Football</a> · Fuente técnica: <a href="https://the-odds-api.com/liveapi/guides/v4/" target="_blank" rel="noopener noreferrer">The Odds API · documentación oficial ↗</a> · <a href="https://github.com/rasekes86/football-ai-lab/blob/main/docs/FASE_8_CUOTAS_REALES.md" target="_blank" rel="noopener noreferrer">Configuración privada y criterios de verificación ↗</a></p>
+          </div>
+        </section>
+
+        <section class="view more-view" id="view-more" aria-labelledby="moreTitle" hidden>
+          <div class="more-header"><span class="home-eyebrow">HERRAMIENTAS · FOOTBALL AI LAB</span><h1 id="moreTitle">Más <em>análisis.</em></h1><p>Todo el detalle sigue disponible. Abre solo lo que necesites.</p></div>
+          <div class="more-section-label">EXPLORAR</div>
+          <div class="more-grid">
+            <button type="button" class="more-item" data-go="radar"><span class="more-icon">◎</span><span><strong>Radar inteligente</strong><small>Pronósticos futuros y cobertura</small></span><span class="more-chevron">›</span></button>
+            <button type="button" class="more-item" data-go="markets"><span class="more-icon">▥</span><span><strong>Explorar mercados</strong><small>Córners, faltas, tiros y más</small></span><span class="more-chevron">›</span></button>
+            <button type="button" class="more-item" data-go="realodds"><span class="more-icon">⇄</span><span><strong>Comparar cuotas reales</strong><small>Precios observados y fuentes</small></span><span class="more-chevron">›</span></button>
+            <button type="button" class="more-item" data-go="matches"><span class="more-icon">⚽</span><span><strong>Filtros avanzados</strong><small>Buscar partidos, fechas y ligas</small></span><span class="more-chevron">›</span></button>
+          </div>
+          <div class="more-section-label">HISTÓRICO Y SISTEMA</div>
+          <div class="more-grid">
+            <button type="button" class="more-item" data-go="history"><span class="more-icon">✓</span><span><strong>Histórico Top 3</strong><small>Auditoría de cada pronóstico</small></span><span class="more-chevron">›</span></button>
+            <button type="button" class="more-item" data-go="odds"><span class="more-icon">1,5</span><span><strong>Histórico de adicionales</strong><small>Cuotas y escenarios hipotéticos</small></span><span class="more-chevron">›</span></button>
+            <button type="button" class="more-item" data-go="model"><span class="more-icon">AI</span><span><strong>Cómo funciona el modelo</strong><small>Métodos, calidad y limitaciones</small></span><span class="more-chevron">›</span></button>
+            <button type="button" class="more-item" data-go="overview"><span class="more-icon">◫</span><span><strong>Dashboard completo</strong><small>La vista clásica con todos los datos</small></span><span class="more-chevron">›</span></button>
           </div>
         </section>
 
