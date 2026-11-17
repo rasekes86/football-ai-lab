@@ -27,6 +27,7 @@ from .full_report import build_all as all_dossiers, markdown as dossier_markdown
 from .player_data import collect as collect_players
 from .player_readiness import report as player_coverage
 from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offers
+from .value_watchlist import selection_audit as audit_offer_selection
 from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
 from .verified_results import augment_results
@@ -405,12 +406,16 @@ def main(argv=None) -> None:
             manual_offers={"selecciones":[]}
     else:
         manual_offers={"selecciones":[]}
+    previous_offers=read_csv(target/"historico_oportunidades_150.csv")
     frozen_offers=freeze_offers(
-        read_csv(target/"historico_oportunidades_150.csv"),
-        manual_offers,selections,now,
+        previous_offers,manual_offers,selections,now,
         comparisons=real_compared,top3=selections_frozen)
     write_csv(target/"historico_oportunidades_150.csv",OFFER_FIELDS,frozen_offers)
     tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,settlement_histories,now)
+    # The public 3+1 panel can now show WHY some fixtures have no automatic
+    # additional pick. No speculative odds are created when feeds are absent.
+    offer_evaluation["seleccion_automatica"]=audit_offer_selection(
+        previous_offers,frozen_offers,selections,real_compared,now,selections_frozen)
     write_csv(target/"seguimiento_oportunidades_150.csv",OFFER_FIELDS,tracked_offers)
     (target/"evaluacion_oportunidades_150.json").write_text(
         json.dumps(offer_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
@@ -420,7 +425,9 @@ def main(argv=None) -> None:
               f'{offer_evaluation["registradas"]} cotizaciones archivadas; '
               f'{offer_evaluation["finalizadas"]} mercados liquidados; '
               f'API prepartido: {offer_evaluation["verificacion"]["cuotas_api_observadas_antes_del_partido"]}; '
-              f'referencias indicativas: {offer_evaluation["verificacion"]["cuotas_indicativas_no_acreditadas"]}',len(frozen_offers))
+              f'referencias indicativas: {offer_evaluation["verificacion"]["cuotas_indicativas_no_acreditadas"]}; '
+              f'nuevas adicionales de API: {offer_evaluation["seleccion_automatica"]["nuevas_automaticas"]}; '
+              f'sin opcion valida: {offer_evaluation["seleccion_automatica"]["abstenciones_sin_opcion_valida"]}',len(frozen_offers))
     # Unified reports are built exclusively from verified source records.
     ml_rows=read_csv(Path("output_ml/predicciones_ml.csv")) if not args.demo else []
     complete_reports=all_dossiers(predicted,dossiers,selections,context,ml_rows,markets,now)
