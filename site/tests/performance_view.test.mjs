@@ -63,3 +63,37 @@ test("una adicional API muestra bookmaker, proveedor y hora de observación",()=
   assert.match(page.ledger,/sin hora de cambio del bookmaker/);
   assert.equal(page.snapshot.additional.observedCount,1);
 });
+
+
+test("auditoría automática muestra motivos de abstención sin inventar resultados",()=>{
+  const audit={seleccion_automatica:{
+    nuevas_automaticas:2,
+    por_liga:{
+      "Segunda División":{archivadas_automaticas:1,ya_archivadas:5,
+        sin_opcion_valida:3,partidos_con_comparaciones:2},
+      "Bundesliga":{archivadas_automaticas:1,ya_archivadas:0,
+        sin_opcion_valida:2,partidos_con_comparaciones:3}
+    }
+  }};
+  const model={
+    archivedPicks:[original],allOdds:[indicative],
+    evaluations:{odds:audit}
+  };
+  const rendered=renderPerformanceView(model,{},36,when);
+  assert.match(rendered.autoAudit,/2<\/strong><small>nuevas adicionales/);
+  assert.match(rendered.autoAudit,/5<\/strong><small>sin opción válida/);
+  assert.match(rendered.autoAudit,/5<\/strong><small>ya archivados/);
+  assert.match(rendered.autoAudit,/Bundesliga/);
+  assert.match(rendered.autoAudit,/se abstiene/);
+  assert.equal(rendered.snapshot.additional.settled,1);
+  const single=renderPerformanceView(model,{league:"Segunda División"},36,when);
+  assert.doesNotMatch(single.autoAudit,/Bundesliga/);
+  assert.match(single.autoAudit,/Segunda División/);
+});
+test("antes de la primera ejecución el panel no afirma haber elegido nuevas apuestas",()=>{
+  const model={archivedPicks:[],allOdds:[],evaluations:{odds:{}}};
+  const rendered=renderPerformanceView(model,{},36,when);
+  assert.match(rendered.autoAudit,/aparecerá cuando finalice/);
+  assert.doesNotMatch(rendered.autoAudit,/nuevas adicionales/);
+  assert.equal(rendered.snapshot.additional.registered,0);
+});
