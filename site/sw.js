@@ -3,14 +3,14 @@
  * No push subscriptions or background data reads.
  */
 const CACHE_PREFIX = "football-ai-lab-shell-";
-const CACHE_NAME = CACHE_PREFIX + "v8-20261117-result-status-colors";
+const CACHE_NAME = CACHE_PREFIX + "v9-20261118-additional-status";
 const ROOT = new URL(self.registration.scope);
 
 const SHELL_FILES = [
   "./", "index.html", "styles.css", "app.js",
   "data.mjs", "feed_loader.mjs", "markets.mjs", "future_markets.mjs",
   "reliability.mjs", "radar.mjs", "real_odds.mjs",
-  "performance.mjs", "performance_view.mjs", "home.mjs", "match_detail.mjs", "results_mobile.mjs",
+  "performance.mjs", "performance_view.mjs", "home.mjs", "match_detail.mjs", "additional_status.mjs", "results_mobile.mjs",
   "schedule.mjs", "agenda.mjs", "pwa.js",
   "manifest.webmanifest", "pwa-icon.svg", "favicon.svg",
   "icon-192.png", "icon-512.png"
