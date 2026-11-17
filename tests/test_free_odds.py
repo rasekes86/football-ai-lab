@@ -234,3 +234,118 @@ class BalancedFiveLeagueQuotaTest(unittest.TestCase):
                             for label,_ in ligas))
         self.assertEqual(len([u for u in requests if "/odds" in u]),14)
         self.assertNotIn("SECRET-FIVE",json.dumps(data))
+
+
+class ProviderLeagueFallbackTests(unittest.TestCase):
+    """Fixtures present on provider league endpoints must not be lost."""
+
+    def test_premier_bundesliga_fallback_and_club_aliases(self):
+        pair=[
+            ("Premier League","Manchester City","Fulham",
+             "English Premier League","Manchester City FC","Fulham FC",8101,81001),
+            ("Bundesliga","Bayern Munich","FC Cologne",
+             "German Bundesliga","FC Bayern München","1. FC Köln",8102,81002),
+        ]
+        fixtures=[
+            {"id":f"{league}-{idx}","fecha_utc":FDATE,"liga":league,
+             "local":home,"visitante":away}
+            for idx,(league,home,away,_,_,_,_,_) in enumerate(pair)
+        ]
+        catalog=[{"id":leagueid,"name":provider_league}
+                 for _,_,_,provider_league,_,_,_,leagueid in pair]
+        events=[{"id":eventid,"league":{"name":provider_league},
+                 "teams":{"home":{"name":provhome},"away":{"name":provaway}},
+                 "kickoff_utc":FDATE}
+                for _,_,_,provider_league,provhome,provaway,eventid,_ in pair]
+        calls=[]
+        def fetch(url,headers):
+            calls.append(url)
+            self.assertEqual(headers["Authorization"],"Bearer SECRET-FIVE")
+            if "/leagues?" in url:
+                return {"success":1,"data":catalog}
+            if "/leagues/" in url and "/fixtures?" in url:
+                ident=int(url.split("/leagues/")[1].split("/")[0])
+                return {"success":1,"data":[ev for ev,entry in zip(events,catalog)
+                                              if ident==entry["id"]]}
+            if "/fixtures?" in url:return {"success":1,"data":[]}
+            if "/odds" in url:
+                eid=int(url.split("/fixtures/")[1].split("/")[0])
+                payload=five_prices()
+                payload["data"]["fixture_id"]=eid
+                return payload
+            raise AssertionError(url)
+        result=get_five_odds(fixtures,NOW,FIVE_ENV,fetch)
+        self.assertEqual(result["estado"],"CON_CUOTAS")
+        audit=result["auditoria"]
+        self.assertEqual(audit["eventos_emparejados"],2)
+        self.assertEqual(set(audit["consultas_especificas_liga"]),{"E0","D1"})
+        self.assertEqual(audit["cobertura_ligas"]["Premier League"]["estado"],"CON_CUOTAS")
+        self.assertEqual(audit["cobertura_ligas"]["Bundesliga"]["estado"],"CON_CUOTAS")
+        self.assertEqual({q["liga"] for q in result["cuotas"]},
+                         {"Premier League","Bundesliga"})
+        self.assertLessEqual(audit["consultas"],audit["maximo_consultas_por_ejecucion"])
+        self.assertNotIn("SECRET-FIVE",json.dumps(result))
+
+    def test_free_segunda_not_claimed_without_community_access(self):
+        match={"id":"SP2-44","fecha_utc":FDATE,"liga":"Segunda División",
+               "local":"FC Andorra","visitante":"Leganés"}
+        def fetch(url,headers):
+            if "/fixtures?" in url:return {"success":1,"data":[]}
+            raise AssertionError("No Community Access: unexpected API request")
+        data=get_five_odds([match],NOW,FIVE_ENV,fetch)
+        coverage=data["auditoria"]["cobertura_ligas"]["Segunda División"]
+        self.assertEqual(coverage["estado"],"NO_INCLUIDA_EN_FREE")
+        self.assertEqual(data["auditoria"]["consultas"],1)
+
+    def test_authorized_community_access_discovers_segunda(self):
+        match={"id":"SP2-44","fecha_utc":FDATE,"liga":"Segunda División",
+               "local":"FC Andorra","visitante":"Leganés"}
+        event={"id":89001,"league":{"name":"Spain Segunda Division"},
+               "teams":{"home":{"name":"FC Andorra"},
+                        "away":{"name":"Leganés"}},"kickoff_utc":FDATE}
+        calls=[]
+        def fetch(url,headers):
+            calls.append(url)
+            if "/leagues?popular" in url:return {"success":1,"data":[]}
+            if "/leagues?country=ES" in url:
+                return {"success":1,"data":[
+                    {"id":902,"name":"Spain Segunda Division"}]}
+            if "/leagues/902/fixtures?" in url:
+                return {"success":1,"data":[event]}
+            if "/fixtures?" in url:return {"success":1,"data":[]}
+            if "/odds" in url:
+                payload=five_prices()
+                payload["data"]["fixture_id"]=event["id"]
+                return payload
+            raise AssertionError(url)
+        env={**FIVE_ENV,"ENABLE_FIVE_SEGUNDA":"true"}
+        data=get_five_odds([match],NOW,env,fetch)
+        self.assertEqual(data["estado"],"CON_CUOTAS")
+        self.assertEqual(data["auditoria"]["cobertura_ligas"]["Segunda División"]["estado"],
+                         "CON_CUOTAS")
+        self.assertTrue(any("/leagues/902/fixtures?" in c for c in calls))
+
+    def test_second_page_is_used_only_when_provider_declares_more(self):
+        match={"id":"E0-99","fecha_utc":FDATE,"liga":"Premier League",
+               "local":"Manchester City","visitante":"Fulham"}
+        event={"id":91001,"league":{"name":"Premier League"},
+               "teams":{"home":{"name":"Manchester City"},
+                        "away":{"name":"Fulham"}},"kickoff_utc":FDATE}
+        called=[]
+        def fetch(url,headers):
+            called.append(url)
+            if "/fixtures?" in url:
+                if "page=1" in url:
+                    return {"success":1,"data":[],"pagination":{"has_more":True}}
+                return {"success":1,"data":[event],"pagination":{"has_more":False}}
+            if "/odds" in url:
+                payload=five_prices()
+                payload["data"]["fixture_id"]=event["id"]
+                return payload
+            raise AssertionError(url)
+        data=get_five_odds([match],NOW,FIVE_ENV,fetch)
+        self.assertEqual(data["auditoria"]["consultas"],3)
+        self.assertEqual(data["auditoria"]["eventos_emparejados"],1)
+        self.assertEqual(data["auditoria"]["cobertura_ligas"]["Premier League"]["estado"],
+                         "CON_CUOTAS")
+        self.assertTrue(any("page=2" in u for u in called))
