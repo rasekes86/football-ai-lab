@@ -204,6 +204,58 @@ class ValueWatchlistTests(unittest.TestCase):
         self.assertEqual(after,previous)
         self.assertEqual(after[0]["tipo_cuota"],INDICATIVE)
 
+    def test_real_quote_has_priority_over_new_manual_reference(self):
+        comparison=self._price_comparison()
+        result=freeze([],
+            self.manual,[self.match],self.now,
+            comparisons={"comparaciones":[comparison]})
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0]["tipo_cuota"],API)
+        self.assertEqual(result[0]["cuota_decimal"],"1.800")
+        self.assertEqual(result[0]["proveedor_cuota"],"5DollarFootballAPI")
+        self.assertEqual(result[0]["bookmaker"],"Bet 365")
+        self.assertEqual(result[0]["fecha_cuota_utc"],self.now.isoformat())
+        # A second analysis must keep that first quote immutable.
+        again=freeze(result,self.manual,[self.match],self.now+timedelta(minutes=3),
+            comparisons={"comparaciones":[dict(comparison,cuota_real=2.8,
+                actualizado_utc=(self.now+timedelta(minutes=3)).isoformat(),
+                capturado_utc=(self.now+timedelta(minutes=3)).isoformat())]})
+        self.assertEqual(again,result)
+
+    def test_automatic_selection_audit_shows_abstentions_per_league(self):
+        from football_ai_lab.value_watchlist import selection_audit
+        other=dict(self.match,id="E0|other",liga="Premier League",
+                   local="Manchester City",visitante="Fulham")
+        quote=self._price_comparison()
+        result=freeze([],{"selecciones":[]},[self.match,other],self.now,
+                      comparisons={"comparaciones":[quote]})
+        audit=selection_audit([],result,[self.match,other],
+                 {"comparaciones":[quote]},self.now,[])
+        self.assertEqual(audit["comparaciones_recibidas"],1)
+        self.assertEqual(audit["partidos_con_opcion_valida"],1)
+        self.assertEqual(audit["nuevas_automaticas"],1)
+        self.assertEqual(audit["abstenciones_sin_opcion_valida"],1)
+        self.assertEqual(audit["por_liga"]["Segunda División"]["archivadas_automaticas"],1)
+        self.assertEqual(audit["por_liga"]["Premier League"]["sin_opcion_valida"],1)
+        self.assertTrue(audit["sin_cuota_real_no_se_inventa"])
+        # Retaining prior picks counts as "already archived", not as a new pick.
+        repeat=selection_audit(result,result,[self.match,other],
+                 {"comparaciones":[quote]},self.now,[])
+        self.assertEqual(repeat["nuevas_automaticas"],0)
+        self.assertEqual(repeat["abstenciones_ya_archivadas"],1)
+        self.assertEqual(repeat["abstenciones_sin_opcion_valida"],1)
+
+    def test_auto_stale_quote_abstains_without_manually_fabricating_it(self):
+        from football_ai_lab.value_watchlist import selection_audit
+        later=self.now+timedelta(hours=7)
+        raw={"comparaciones":[self._price_comparison()]}
+        selected=freeze([],{"selecciones":[]},[self.match],later,
+                        comparisons=raw)
+        self.assertEqual(selected,[])
+        audit=selection_audit([],selected,[self.match],raw,later,[])
+        self.assertEqual(audit["abstenciones_sin_opcion_valida"],1)
+        self.assertEqual(audit["nuevas_automaticas"],0)
+
     def test_missing_result_not_loss(self):
         rows=freeze([],self.manual,[self.match],self.now)
         finished,summary=evaluate(rows,{"SP2":[]},self.kick+timedelta(hours=5))
