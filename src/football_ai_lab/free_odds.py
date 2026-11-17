@@ -36,7 +36,7 @@ MAX_FIVE_ODDS=14
 MAX_API_ODDS=6  # 4 fechas + 6 odds: máximo 10 consultas/minuto en plan Free
 MAX_DAYS=5
 MAX_DIFF=timedelta(hours=2)
-MAX_FIVE_FIXTURE_CALLS=13  # max 10 day pages + catalog + 2 league fallbacks
+MAX_FIVE_FIXTURE_CALLS=13  # 5 daily lists + 2 extra pages + 3 catalog + 3 targeted
 FIVE_MAJOR_CODES=("SP1","E0","D1","I1","F1")
 LEAGUE_LABEL={code:name for name,code in FIVE_CODES.items()}
 
@@ -362,11 +362,16 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
         else:
             candidates.setdefault(ident,(match,event))
 
-    # Documented pagination: limit date windows to 24h and <=2 pages.
+    # Documented pagination: one page per date plus at most two second
+    # pages in total. Reserve capacity for league-specific fallback searches.
     # Free does not permit include=odds in fixture lists.
+    extra_pages=0
     for day in days:
         begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)
         for page in (1,2):
+            if page==2:
+                if extra_pages>=2:break
+                extra_pages+=1
             params=urlencode({
                 "start_time":int(begin.timestamp()),
                 "end_time":int((begin+timedelta(days=1)).timestamp()),
