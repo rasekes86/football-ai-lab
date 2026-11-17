@@ -50,6 +50,7 @@ jobs:
           ENABLE_FREE_ODDS: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.ENABLE_FREE_ODDS || 'false' }}
           FIVEDOLLAR_API_KEY: ${{ secrets.FIVEDOLLAR_API_KEY }}
           FREE_ODDS_MAX_FIXTURES: ${{ vars.FREE_ODDS_MAX_FIXTURES }}
+          ENABLE_FIVE_SEGUNDA: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.ENABLE_FIVE_SEGUNDA || 'false' }}
           ENABLE_API_FOOTBALL_ODDS: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.ENABLE_API_FOOTBALL_ODDS || 'false' }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           API_FOOTBALL_MAX_FIXTURES: ${{ vars.API_FOOTBALL_MAX_FIXTURES }}
