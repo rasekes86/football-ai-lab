@@ -36,6 +36,62 @@ MAX_FIVE_ODDS=14
 MAX_API_ODDS=8
 MAX_DAYS=5
 MAX_DIFF=timedelta(hours=2)
+MAX_FIVE_FIXTURE_CALLS=13  # max 10 day pages + catalog + 2 league fallbacks
+FIVE_MAJOR_CODES=("SP1","E0","D1","I1","F1")
+LEAGUE_LABEL={code:name for name,code in FIVE_CODES.items()}
+
+# Only explicit verified-equivalent club spellings. Never fuzzy-match or
+# reduce a B-team to its senior club. Core model IDs are left untouched.
+PROVIDER_TEAM_ALIASES={
+    "bayern munich":"bayern","bayern munchen":"bayern",
+    "fc bayern munchen":"bayern","bayern munchen fc":"bayern",
+    "fc cologne":"cologne","1 fc koln":"cologne","fc koln":"cologne",
+    "1 fc cologne":"cologne","koln":"cologne",
+    "borussia monchengladbach":"monchengladbach",
+    "borussia m gladbach":"monchengladbach",
+    "borussia gladbach":"monchengladbach",
+    "borussia dortmund":"dortmund","bvb dortmund":"dortmund",
+    "eintracht frankfurt":"frankfurt",
+    "tsg hoffenheim":"hoffenheim","1899 hoffenheim":"hoffenheim",
+    "rb leipzig":"leipzig","rasenballsport leipzig":"leipzig",
+    "bayer leverkusen":"leverkusen","bayer 04 leverkusen":"leverkusen",
+    "fc augsburg":"augsburg","sc freiburg":"freiburg",
+    "sv werder bremen":"werder bremen","werder bremen":"werder bremen",
+    "vfb stuttgart":"stuttgart","1 fsv mainz 05":"mainz",
+    "fsv mainz":"mainz","schalke 04":"schalke",
+    "fc schalke 04":"schalke","hsv hamburg":"hamburg",
+    "hull city afc":"hull","coventry city fc":"coventry",
+}
+PROVIDER_LEAGUE_ALIASES={
+    "english premier league":"E0","england premier league":"E0",
+    "england premier league 2026 2027":"E0",
+    "german bundesliga":"D1","germany bundesliga":"D1",
+    "bundesliga 1":"D1","bundesliga 1 germany":"D1",
+    "spanish la liga":"SP1","spain primera division":"SP1",
+    "spain segunda division":"SP2","spanish segunda division":"SP2",
+    "segunda division spain":"SP2","la liga 2":"SP2",
+    "italian serie a":"I1","italy serie a":"I1",
+    "french ligue 1":"F1","france ligue 1":"F1"
+}
+
+
+def _team_key(name):
+    key=normalize_team(name)
+    return PROVIDER_TEAM_ALIASES.get(key,key)
+
+
+def _same_team(a,b):
+    return bool(_team_key(a) and _team_key(a)==_team_key(b))
+
+
+def _fixture_league_counts(fixtures,now):
+    counts={code:0 for code in FIVE_CODES.values()}
+    for row in fixtures:
+        code=FIVE_CODES.get(row.get("liga"))
+        kick=_dt(row.get("fecha_utc"))
+        if code and kick and now<kick<=now+timedelta(days=MAX_DAYS):
+            counts[code]+=1
+    return counts
 
 
 def _now(dt):
@@ -78,6 +134,8 @@ def _num(v):
 
 def _league_code(name):
     clean=normalize_team(name)
+    if clean in PROVIDER_LEAGUE_ALIASES:
+        return PROVIDER_LEAGUE_ALIASES[clean]
     for code,aliases in LEAGUE_ALIASES.items():
         if clean in [normalize_team(alias) for alias in aliases]:
             return code
@@ -99,9 +157,9 @@ def _match(fixture, fixtures, now):
         and _dt(row.get("fecha_utc")) is not None
         and _dt(row["fecha_utc"])>now
         and abs(_dt(row["fecha_utc"])-kick)<=MAX_DIFF
-        and normalize_team(row.get("local"))==normalize_team(home)
-        and normalize_team(row.get("visitante"))==normalize_team(away)
-        and normalize_team(home)!=normalize_team(away)
+        and _same_team(row.get("local"),home)
+        and _same_team(row.get("visitante"),away)
+        and not _same_team(home,away)
     ]
     return candidates[0] if len(candidates)==1 else None
 
