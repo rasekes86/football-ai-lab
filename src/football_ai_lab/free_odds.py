@@ -33,7 +33,7 @@ LEAGUE_ALIASES = {
     "F1":("ligue 1","france ligue 1"),
 }
 MAX_FIVE_ODDS=14
-MAX_API_ODDS=8
+MAX_API_ODDS=6  # 4 fechas + 6 odds: máximo 10 consultas/minuto en plan Free
 MAX_DAYS=5
 MAX_DIFF=timedelta(hours=2)
 MAX_FIVE_FIXTURE_CALLS=13  # max 10 day pages + catalog + 2 league fallbacks
@@ -585,13 +585,14 @@ def _api_values(bet):
     return result
 
 
-def get_api_football_odds(fixtures,now,env=None,fetcher=None,exclude_ids=None):
+def get_api_football_odds(fixtures,now,env=None,fetcher=None,exclude_ids=None,prefer_ids=None):
     now=_now(now);env=env or {};fetcher=fetcher or _http
     enabled=str(env.get("ENABLE_API_FOOTBALL_ODDS","")).lower() in ("1","true","yes")
     key=str(env.get("API_FOOTBALL_KEY","")).strip()
     status="DESACTIVADO" if not enabled else "SIN_CLAVE" if not key else "CONSULTANDO"
     audit={"proveedor":API_NAME,"estado":status,"consultas":0,"errores":0,
-           "partidos":0,"cuotas":0,"limite_gratuito":"100 peticiones por día; máximo acotado"}
+           "partidos":0,"cuotas":0,"limite_gratuito":"100 peticiones por día, 10/minuto",
+           "maximo_consultas_por_ejecucion":10}
     if not enabled or not key:return {"estado":status,"cuotas":[],"auditoria":audit}
     headers={"x-apisports-key":key}
     excluded=set(exclude_ids or [])
@@ -622,8 +623,22 @@ def get_api_football_odds(fixtures,now,env=None,fetcher=None,exclude_ids=None):
                         candidates.append((match,f["id"],league.get("id")))
         except Exception:
             audit["errores"]+=1
+    # Prioridad: ligas sin cobertura de 5Dollar, no consumir el plan Free
+    # en cotejar otra vez partidos ya cubiertos mientras falten cuotas.
+    preferred=set(prefer_ids or [])
+    priority={"Segunda División":0,"Premier League":1,"Bundesliga":2,
+              "LaLiga":3,"Serie A":4,"Ligue 1":5}
+    candidates.sort(key=lambda x:(x[0]["id"] not in preferred,
+               priority.get(x[0]["liga"],9),x[0]["fecha_utc"],x[0]["id"]))
+    chosen=candidates[:max_events]
+    audit["partidos_candidatos"]=len(candidates)
+    audit["cobertura_ligas"]={
+        name:{"candidatos":sum(c[0]["liga"]==name for c in candidates),
+              "consultados":sum(c[0]["liga"]==name for c in chosen)}
+        for name in FIVE_CODES if any(c[0]["liga"]==name for c in candidates)
+    }
     quotes=[]
-    for match,api_id,league_id in candidates[:max_events]:
+    for match,api_id,league_id in chosen:
         try:
             response=fetcher(f"{API_URL}/odds?"+urlencode({"fixture":api_id,"page":1}),headers)
             audit["consultas"]+=1
@@ -651,7 +666,7 @@ def get_api_football_odds(fixtures,now,env=None,fetcher=None,exclude_ids=None):
                                         else "Mercado FT de nombre explícito")))
         except Exception:
             audit["errores"]+=1
-    audit["partidos"]=len(candidates[:max_events]);audit["cuotas"]=len(quotes)
+    audit["partidos"]=len(chosen);audit["cuotas"]=len(quotes)
     audit["estado"]="PARCIAL" if audit["errores"] else "CON_CUOTAS" if quotes else "SIN_COINCIDENCIAS"
     return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit}
 
@@ -661,7 +676,13 @@ def collect_free_odds(fixtures,now,env=None,five_fetcher=None,api_fetcher=None):
     primary=get_five_odds(fixtures,now,env=env,fetcher=five_fetcher)
     # El respaldo puede aportar mercados distintos, como amarillas explícitas,
     # aun cuando la fuente principal tenga córners del mismo partido.
-    fallback=get_api_football_odds(fixtures,now,env=env,fetcher=api_fetcher)
+    # API-Football is secondary: prefer fixtures with no observed 5Dollar
+    # odds, especially Segunda, then complement other markets if budget remains.
+    priced={q["fixture_id"] for q in primary["cuotas"]}
+    preferred={m.get("id") for m in fixtures if m.get("id") and
+               (m["id"] not in priced or m.get("liga")=="Segunda División")}
+    fallback=get_api_football_odds(fixtures,now,env=env,fetcher=api_fetcher,
+                                   prefer_ids=preferred)
     quotes=[*primary["cuotas"],*fallback["cuotas"]]
     statuses=(primary["estado"],fallback["estado"])
     if any(x=="PARCIAL" for x in statuses):
