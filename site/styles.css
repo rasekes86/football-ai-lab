@@ -1579,3 +1579,21 @@ body{background:#061522}
   content:"!";width:13px;height:13px;display:grid;place-items:center;
   font-size:10px;background:#f7d594;color:#5b4119;font-weight:900;
 }
+
+
+/* The recent-results secondary card must not be green for a failure or an open pick. */
+.results-v2-groups>div.results-v2-fixture-extra{
+  background:#203846;border:1px solid #4a6070;border-left:3px solid #809aab;
+}
+.results-v2-groups>div.results-v2-fixture-extra.win{
+  background:#1d4036;border-color:#4d8168;border-left-color:#a3e1a8;
+}
+.results-v2-groups>div.results-v2-fixture-extra.loss{
+  background:#412c39;border-color:#8b5363;border-left-color:#ffa1ac;
+}
+.results-v2-groups>div.results-v2-fixture-extra.missing{
+  background:#3b342b;border-color:#836b49;border-left-color:#f1c77a;
+}
+.results-v2-groups>div.results-v2-fixture-extra.pending{
+  background:#203846;border-color:#4a6070;border-left-color:#809aab;
+}
