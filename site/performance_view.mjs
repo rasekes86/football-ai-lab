@@ -100,6 +100,12 @@ function automatedAudit(model,league){
     return '<div class="performance-auto-title">SELECCIÓN AUTOMÁTICA · 3+1</div>'+
       '<p>El diagnóstico de la selección automática aparecerá cuando finalice el siguiente análisis diario con esta versión. El histórico de resultados ya es válido.</p>';
   }
+  if(audit.estado==="FUENTES_NO_CONSULTADAS"){
+    return '<div class="performance-auto-title">SELECCIÓN AUTOMÁTICA · FUENTES NO CONSULTADAS</div>'+
+      '<p>La última ejecución se inició por un cambio de código y no utilizó las APIs privadas de cuotas. '+
+      'No se consideran apuestas descartadas: es necesario un análisis programado o manual autorizado para evaluar las próximas adicionales. '+
+      'El Top 3 y las selecciones históricas siguen guardados.</p>';
+  }
   const selected=league?[ [league,audit.por_liga[league]] ]:
     Object.entries(audit.por_liga);
   const overview=selected.filter(([name,stats])=>name&&stats);
