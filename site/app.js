@@ -10,6 +10,7 @@ import { radarSnapshot } from "./radar.mjs";
 import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { renderPerformanceView, confirmedOutcome } from "./performance_view.mjs";
 import { renderHomeView } from "./home.mjs";
+import { renderMatchDetail } from "./match_detail.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -971,99 +972,24 @@ function renderAll() {
   renderRadar();
   renderModel();
 }
-function dialogPick(row, index, detail = null) {
-  const status=resultText(row);
-  const finished=settled(row);
-  return `<div class="dialog-pick">
-    <div class="dialog-pick-top"><span class="overline">SELECCIÓN ${String(index+1).padStart(2,"0")} / ${escapeHtml(row.mercado)}</span>${resultPill(row)}</div>
-    <strong>${escapeHtml(row.seleccion)}</strong>
-    <p>${escapeHtml(row.nivel || row.origen || "Pronóstico experimental")}</p>
-    ${detail?.explicacion ? `<p class="pick-explanation">${escapeHtml(detail.explicacion)}</p>` : ""}
-    ${detail?.fuentes?.length ? `<div class="evidence-links">${detail.fuentes.map(sourceLink).join(" · ")}</div>` : ""}
-    <div class="dialog-stats"><span>Probabilidad: <b>${percent(numberOrNull(row.probabilidad))}</b></span>
-    <span>Cuota justa: <b>${decimal(row.cuota_justa)}</b></span>
-    ${finished ? `<span>Valor observado: <b>${escapeHtml(textOrDash(row.valor_real))}</b></span>` : ""}
-    </div></div>`;
-}
-function sourceLink(source) {
-  const url = String(source || "");
-  if (/^https:\/\/(site\.api\.espn\.com|www\.laliga\.com|www\.football-data\.co\.uk)\//.test(url)) {
-    const name = url.includes("espn") ? "ESPN · estadística" :
-      url.includes("laliga") ? "LaLiga · resultado" : "Football-Data · histórico";
-    return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${name} ↗</a>`;
-  }
-  return `<span>${escapeHtml(url)}</span>`;
-}
-function matchStatistics(detail) {
-  if (!detail) return "";
-  const keys = ["shots","on_target","corners","yellow","red"];
-  const stats = detail.estadisticas || {};
-  const items = keys.map(key => {
-    const s = stats[key];
-    if (!s) return "";
-    const hasTotal = s.total !== null && s.total !== undefined;
-    const local = s.local === null || s.local === undefined ? "—" : s.local;
-    const away = s.visitante === null || s.visitante === undefined ? "—" : s.visitante;
-    return `<div class="postmatch-stat-row">
-      <span class="postmatch-stat-name">${escapeHtml(s.nombre || key)}</span>
-      <strong>${escapeHtml(local)}</strong>
-      <strong class="${hasTotal ? "stat-verified" : "stat-unavailable"}">${hasTotal ? escapeHtml(s.total) : "—"}</strong>
-      <strong>${escapeHtml(away)}</strong>
-      ${s.fuentes?.length ? `<small class="stat-source">${s.fuentes.map(sourceLink).join(" · ")}</small>` : ""}
-    </div>`;
-  }).join("");
-  return `<div class="dialog-section">
-    <h3>Estadísticas finales verificadas</h3>
-    <div class="stat-grid-head"><span>MÉTRICA</span><span>LOCAL</span><span>TOTAL</span><span>VISITANTE</span></div>
-    <div class="postmatch-stats">${items}</div>
-    <p class="dialog-message">Los guiones indican datos no disponibles, no ceros. ${detail.marcador ?
-       "Marcador " + escapeHtml(detail.marcador) + " · " + (detail.fuente_marcador ? sourceLink(detail.fuente_marcador) : "") : "Marcador aún sin verificar."}</p>
-  </div>`;
-}
 function openMatch(id) {
   if (!state.data) return;
   const m=state.data.matches.find(x=>x.id===id);
   if (!m) return;
   state.lastFocus=document.activeElement;
-  const forecast=m.historicalForecast || m.forecast;
-  const dateOriginal=forecast?.fecha_analisis_utc || forecast?.fecha_pronostico_utc || "";
-  const modelForecast=forecast && ["prob_local","prob_empate","prob_visitante"].some(x=>numberOrNull(forecast[x])!==null)
-    ? `<div class="dialog-highlight"><strong>Pronóstico 1X2 original · ${escapeHtml(forecast.modelo||"Modelo")}</strong>
-      <div class="dialog-stats"><span>Local <b>${percent(numberOrNull(forecast.prob_local))}</b></span>
-      <span>Empate <b>${percent(numberOrNull(forecast.prob_empate))}</b></span>
-      <span>Visitante <b>${percent(numberOrNull(forecast.prob_visitante))}</b></span></div>
-      <small>${dateOriginal?"Archivado: "+escapeHtml(displayDate(dateOriginal)):"Modelo prepartido"}</small></div>`
-    : "";
-  inner("dialogBody", `<div class="dialog-title-row">
-      ${teamCrest(m.liga, m.local)}
-      <h2 id="dialogTitle" class="dialog-match-title">${escapeHtml(m.local)} <span style="color:var(--lime)">vs</span> ${escapeHtml(m.visitante)}</h2>
-      ${teamCrest(m.liga, m.visitante)}
-    </div>
-    <p class="dialog-sub">${escapeHtml(m.liga)} · ${escapeHtml(displayDate(m.fecha_utc))}
-      ${m.score ? ` · Resultado: <strong>${escapeHtml(m.score)}</strong>` : " · Marcador pendiente"} · ${integer(m.finishedPicks)} de ${integer(m.picks.length)} selecciones liquidadas</p>
-    ${modelForecast}
-    <div class="dialog-section"><h3>Las tres selecciones por partido</h3>
-      ${m.picks.length ? m.picks.slice(0,3).map((row,i) => dialogPick(
-         row,i,m.breakdown?.selecciones?.find(x => x.clave === row.clave)
-      )).join("") : empty("No se ha archivado todavía el Top 3 de este encuentro.")}
-      <div class="dialog-message">Estos son los primeros mercados archivados, no recálculos posteriores. Si falta una estadística, el mercado permanece sin liquidar.</div>
-    </div>
-    ${matchStatistics(m.breakdown)}
-    ${m.odds.length ? `<div class="dialog-section"><h3>Cuotas +1,50 registradas por separado</h3>
-      ${m.odds.map(r=>`<div class="dialog-offer"><strong>${escapeHtml(r.seleccion)}</strong>
-        <div class="dialog-stats"><span>Cuota <b>${decimal(r.cuota_decimal)}</b></span>
-        <span>${confirmedOutcome(r)}</span><span>Balance hipotético <b>${escapeHtml(money(numberOrNull(r.retorno_simulado_unidad)))}</b></span></div>
-        <span>${escapeHtml(r.tipo_cuota === "INDICATIVA_NO_VERIFICADA" ? "Cuota no verificada · solo simulación" : textOrDash(r.tipo_cuota))}</span></div>`).join("")}
-    </div>` : ""}
-    <div class="dialog-section"><p class="dialog-message">Fuente de datos: <a href="${GITHUB_URL}/tree/main/output" target="_blank" rel="noopener noreferrer">CSV históricos de Football AI Lab ↗</a>. Las cuotas justas no son ofertas de casas de apuestas. El análisis es experimental.</p></div>`);
+  inner("dialogBody",renderMatchDetail(m,teamCrest));
+  const dialog=$("matchDialog");
+  dialog.scrollTop=0;
   $("dialogBackdrop").hidden=false;
   document.body.style.overflow="hidden";
-  $("matchDialog").focus();
+  dialog.focus();
 }
 function closeDialog() {
+  if ($("dialogBackdrop").hidden) return;
   $("dialogBackdrop").hidden=true;
   document.body.style.overflow="";
-  if (state.lastFocus?.focus) state.lastFocus.focus();
+  if (state.lastFocus?.isConnected&&state.lastFocus.focus)state.lastFocus.focus();
+  state.lastFocus=null;
 }
 const VIEWS=["home","fixtures","performance","more","overview","matches","radar","markets","history","odds","realodds","model"];
 function changeView(view) {
@@ -1182,7 +1108,20 @@ function wire() {
   $("dialogClose").addEventListener("click",closeDialog);
   $("dialogBackdrop").addEventListener("click",e=>{if(e.target===$("dialogBackdrop"))closeDialog()});
   document.addEventListener("keydown",e=>{
-    if(e.key==="Escape" && !$("dialogBackdrop").hidden)closeDialog();
+    if($("dialogBackdrop").hidden)return;
+    if(e.key==="Escape"){e.preventDefault();closeDialog();return;}
+    if(e.key!=="Tab")return;
+    const dialog=$("matchDialog");
+    const tabbable=[...dialog.querySelectorAll('a[href],button:not([disabled]),summary,[tabindex]:not([tabindex="-1"])')]
+      .filter(el=>el.getClientRects().length>0);
+    if(!tabbable.length){e.preventDefault();dialog.focus();return;}
+    const first=tabbable[0],last=tabbable[tabbable.length-1];
+    if(e.shiftKey&&(document.activeElement===first||document.activeElement===dialog)){
+      e.preventDefault();last.focus();
+    }else if(!e.shiftKey&&(document.activeElement===last||
+      (!dialog.contains(document.activeElement)&&document.activeElement!==dialog))){
+      e.preventDefault();first.focus();
+    }
   });
   for (const id of ["matchSearch","leagueFilter","statusFilter","periodFilter"]) {
     $(id).addEventListener(id==="matchSearch"?"input":"change",()=>{state.matchLimit=24;renderMatches()});
