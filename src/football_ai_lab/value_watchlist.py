@@ -307,7 +307,7 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
             "partidos_no_evaluados_sin_api":0,
             "abstenciones_ya_archivadas":0,
             "sin_cuota_real_no_se_inventa":True,
-            "por_liga":{}}
+            "por_liga":{},"por_partido":{}}
     by_fixture=defaultdict(int)
     for quote in raw:
         if isinstance(quote,dict) and quote.get("fixture_id"):
@@ -329,6 +329,17 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
             "sin_opcion_valida":0,"no_evaluados_sin_api":0
         })
         item["partidos_futuros"]+=1
+        if match_id in current_by_id:
+            reason="ARCHIVADA_INMUTABLE"
+        elif not_queried:
+            reason="FUENTES_NO_CONSULTADAS"
+        elif not by_fixture[match_id]:
+            reason="SIN_CUOTAS_COMPATIBLES"
+        elif match_id not in valid_by_id:
+            reason="NO_SUPERA_FILTROS"
+        else:
+            reason="SELECCIONABLE"
+        totals["por_partido"][match_id]=reason
         item["comparaciones_recibidas"]+=by_fixture[match_id]
         item["partidos_con_comparaciones"]+=bool(by_fixture[match_id])
         item["opciones_validas"]+=match_id in valid_by_id
