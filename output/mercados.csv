@@ -15,7 +15,7 @@ SP1|202611291300|valencia|osasuna,2026-11-29T13:00:00+00:00,LaLiga,Valencia,Osas
 SP1|202611291730|celta|villarreal,2026-11-29T17:30:00+00:00,LaLiga,Celta Vigo,Villarreal,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP1|202611292000|sociedad|sevilla,2026-11-29T20:00:00+00:00,LaLiga,Real Sociedad,Sevilla,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP1|202611302000|espanyol|getafe,2026-11-30T20:00:00+00:00,LaLiga,Espanyol,Getafe,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
-SP2|202611201930|andorra|leganes,2026-11-20T19:30:00+00:00,Segunda División,FC Andorra,Leganés,REFERENCIA_INFERSPORTS_SIN_VALIDAR,InferSports (keyless),m8bet,2026-11-17T13:36:23+00:00,,,,0.48824,0.25765,0.25411,-1.25,-1.34,+2.59,Fair odds = referencia teórica sin margen; NO son cuotas ofrecidas ni una apuesta recomendada.
+SP2|202611201930|andorra|leganes,2026-11-20T19:30:00+00:00,Segunda División,FC Andorra,Leganés,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611211300|sabadell|granada,2026-11-21T13:00:00+00:00,Segunda División,CD Sabadell,Granada,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611211515|sociedad b|cadiz,2026-11-21T15:15:00+00:00,Segunda División,Real Sociedad II,Cádiz,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 SP2|202611211730|castellon|eldense,2026-11-21T17:30:00+00:00,Segunda División,Castellón,Eldense,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
@@ -66,6 +66,7 @@ D1|202611221630|werder bremen|hamburg,2026-11-22T16:30:00+00:00,Bundesliga,Werde
 D1|202611271930|werder bremen|m gladbach,2026-11-27T19:30:00+00:00,Bundesliga,Werder Bremen,Borussia Mönchengladbach,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 D1|202611281430|hamburg|bayern munich,2026-11-28T14:30:00+00:00,Bundesliga,Hamburg SV,Bayern Munich,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 D1|202611281430|mainz|union berlin,2026-11-28T14:30:00+00:00,Bundesliga,Mainz,1. FC Union Berlin,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+D1|202611281430|paderborn|schalke 04,2026-11-28T14:30:00+00:00,Bundesliga,SC Paderborn 07,Schalke 04,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 D1|202611281730|stuttgart|ein frankfurt,2026-11-28T17:30:00+00:00,Bundesliga,VfB Stuttgart,Eintracht Frankfurt,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 D1|202611291430|freiburg|leipzig,2026-11-29T14:30:00+00:00,Bundesliga,SC Freiburg,RB Leipzig,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 D1|202611291630|hoffenheim|augsburg,2026-11-29T16:30:00+00:00,Bundesliga,TSG Hoffenheim,FC Augsburg,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
@@ -90,14 +91,20 @@ I1|202611291700|roma|monza,2026-11-29T17:00:00+00:00,Serie A,AS Roma,Monza,PROVE
 I1|202611291945|como|juventus,2026-11-29T19:45:00+00:00,Serie A,Como,Juventus,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 I1|202611301730|lecce|atalanta,2026-11-30T17:30:00+00:00,Serie A,Lecce,Atalanta,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 I1|202611301945|cagliari|milan,2026-11-30T19:45:00+00:00,Serie A,Cagliari,AC Milan,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611201945|troyes|le havre,2026-11-20T19:45:00+00:00,Ligue 1,Troyes,Le Havre AC,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211615|nice|paris sg,2026-11-21T16:15:00+00:00,Ligue 1,Nice,Paris Saint-Germain,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211945|monaco|auxerre,2026-11-21T19:45:00+00:00,Ligue 1,AS Monaco,AJ Auxerre,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211945|lens|toulouse,2026-11-21T19:45:00+00:00,Ligue 1,Lens,Toulouse,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211945|lille|lyon,2026-11-21T19:45:00+00:00,Ligue 1,Lille,Lyon,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611211945|strasbourg|brest,2026-11-21T19:45:00+00:00,Ligue 1,Strasbourg,Brest,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611221400|paris fc|angers,2026-11-22T14:00:00+00:00,Ligue 1,Paris FC,Angers,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611221615|lorient|rennes,2026-11-22T16:15:00+00:00,Ligue 1,Lorient,Stade Rennais,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611221945|marseille|le mans,2026-11-22T19:45:00+00:00,Ligue 1,Marseille,Le Mans,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611271945|brest|paris fc,2026-11-27T19:45:00+00:00,Ligue 1,Brest,Paris FC,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611281615|angers|lens,2026-11-28T16:15:00+00:00,Ligue 1,Angers,Lens,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611281945|le havre|strasbourg,2026-11-28T19:45:00+00:00,Ligue 1,Le Havre AC,Strasbourg,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611281945|le mans|lille,2026-11-28T19:45:00+00:00,Ligue 1,Le Mans,Lille,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
+F1|202611281945|nice|troyes,2026-11-28T19:45:00+00:00,Ligue 1,Nice,Troyes,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611281945|paris sg|lorient,2026-11-28T19:45:00+00:00,Ligue 1,Paris Saint-Germain,Lorient,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611291400|auxerre|marseille,2026-11-29T14:00:00+00:00,Ligue 1,AJ Auxerre,Marseille,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado
 F1|202611291615|toulouse|rennes,2026-11-29T16:15:00+00:00,Ligue 1,Toulouse,Stade Rennais,PROVEEDOR_DESACTIVADO,,,,,,,,,,,,,Diferencia estadística: NO es una recomendación ni un rendimiento validado

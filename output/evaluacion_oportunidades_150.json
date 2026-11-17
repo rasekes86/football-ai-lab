@@ -1,6 +1,6 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-17T15:23:45.544461+00:00",
+  "generado_utc": "2026-11-17T15:41:39.969170+00:00",
   "registradas": 13,
   "finalizadas": 5,
   "pendientes": 8,
@@ -143,77 +143,77 @@
   },
   "nota": "Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro.",
   "seleccion_automatica": {
-    "estado": "FUENTES_NO_CONSULTADAS",
-    "comparaciones_recibidas": 0,
-    "partidos_con_comparaciones": 0,
-    "partidos_con_opcion_valida": 0,
+    "estado": "EVALUADO",
+    "comparaciones_recibidas": 193,
+    "partidos_con_comparaciones": 14,
+    "partidos_con_opcion_valida": 7,
     "nuevas_automaticas": 0,
     "partidos_ya_archivados": 13,
     "partidos_con_adicional_archivada": 13,
-    "abstenciones_sin_opcion_valida": 0,
-    "partidos_no_evaluados_sin_api": 95,
+    "abstenciones_sin_opcion_valida": 102,
+    "partidos_no_evaluados_sin_api": 0,
     "abstenciones_ya_archivadas": 8,
     "sin_cuota_real_no_se_inventa": true,
     "por_liga": {
       "LaLiga": {
         "partidos_futuros": 16,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
-        "opciones_validas": 0,
+        "partidos_con_comparaciones": 3,
+        "comparaciones_recibidas": 41,
+        "opciones_validas": 2,
         "archivadas_automaticas": 0,
         "ya_archivadas": 3,
-        "sin_opcion_valida": 0,
-        "no_evaluados_sin_api": 13
+        "sin_opcion_valida": 13,
+        "no_evaluados_sin_api": 0
       },
       "Segunda División": {
         "partidos_futuros": 22,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 28,
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
         "ya_archivadas": 0,
-        "sin_opcion_valida": 0,
-        "no_evaluados_sin_api": 22
+        "sin_opcion_valida": 22,
+        "no_evaluados_sin_api": 0
       },
       "Premier League": {
         "partidos_futuros": 20,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
-        "opciones_validas": 0,
+        "partidos_con_comparaciones": 3,
+        "comparaciones_recibidas": 41,
+        "opciones_validas": 1,
         "archivadas_automaticas": 0,
         "ya_archivadas": 1,
-        "sin_opcion_valida": 0,
-        "no_evaluados_sin_api": 19
+        "sin_opcion_valida": 19,
+        "no_evaluados_sin_api": 0
       },
       "Bundesliga": {
-        "partidos_futuros": 13,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
-        "opciones_validas": 0,
+        "partidos_futuros": 14,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 26,
+        "opciones_validas": 1,
         "archivadas_automaticas": 0,
         "ya_archivadas": 1,
-        "sin_opcion_valida": 0,
-        "no_evaluados_sin_api": 12
+        "sin_opcion_valida": 13,
+        "no_evaluados_sin_api": 0
       },
       "Serie A": {
         "partidos_futuros": 20,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
-        "opciones_validas": 0,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 29,
+        "opciones_validas": 2,
         "archivadas_automaticas": 0,
         "ya_archivadas": 2,
-        "sin_opcion_valida": 0,
-        "no_evaluados_sin_api": 18
+        "sin_opcion_valida": 18,
+        "no_evaluados_sin_api": 0
       },
       "Ligue 1": {
-        "partidos_futuros": 12,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
-        "opciones_validas": 0,
+        "partidos_futuros": 18,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 28,
+        "opciones_validas": 1,
         "archivadas_automaticas": 0,
         "ya_archivadas": 1,
-        "sin_opcion_valida": 0,
-        "no_evaluados_sin_api": 11
+        "sin_opcion_valida": 17,
+        "no_evaluados_sin_api": 0
       }
     },
     "reglas": {
