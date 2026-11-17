@@ -285,11 +285,16 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
     raw=(comparisons.get("comparaciones") if isinstance(comparisons,dict)
          else comparisons if isinstance(comparisons,list) else []) or []
     if not isinstance(raw,list):raw=[]
+    # On code push the workflow intentionally disables the private APIs.
+    # Missing comparisons in that run are "not checked", not failed screens.
+    not_queried=(isinstance(comparisons,dict) and not raw and
+                 comparisons.get("estado") in ("DESACTIVADO","SIN_CLAVE"))
     eligible=_compared_candidates(matches,raw,now,top3)
     valid_by_id={r["id"]:r for r in eligible}
     old_ids={r.get("id") for r in previous if r.get("id")}
     current_by_id={r.get("id"):r for r in current if r.get("id")}
-    totals={"comparaciones_recibidas":len(raw),
+    totals={"estado":"FUENTES_NO_CONSULTADAS" if not_queried else "EVALUADO",
+            "comparaciones_recibidas":len(raw),
             "partidos_con_comparaciones":len({r.get("fixture_id") for r in raw
                                             if isinstance(r,dict) and r.get("fixture_id")}),
             "partidos_con_opcion_valida":len(eligible),
@@ -299,6 +304,7 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
             "partidos_ya_archivados":len(old_ids),
             "partidos_con_adicional_archivada":len(current_by_id),
             "abstenciones_sin_opcion_valida":0,
+            "partidos_no_evaluados_sin_api":0,
             "abstenciones_ya_archivadas":0,
             "sin_cuota_real_no_se_inventa":True,
             "por_liga":{}}
@@ -320,7 +326,7 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
             "partidos_futuros":0,"partidos_con_comparaciones":0,
             "comparaciones_recibidas":0,"opciones_validas":0,
             "archivadas_automaticas":0,"ya_archivadas":0,
-            "sin_opcion_valida":0
+            "sin_opcion_valida":0,"no_evaluados_sin_api":0
         })
         item["partidos_futuros"]+=1
         item["comparaciones_recibidas"]+=by_fixture[match_id]
@@ -329,6 +335,9 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
         if match_id in old_ids:
             item["ya_archivadas"]+=1
             totals["abstenciones_ya_archivadas"]+=1
+        elif not_queried:
+            item["no_evaluados_sin_api"]+=1
+            totals["partidos_no_evaluados_sin_api"]+=1
         elif match_id not in valid_by_id:
             item["sin_opcion_valida"]+=1
             totals["abstenciones_sin_opcion_valida"]+=1
