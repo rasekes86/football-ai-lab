@@ -115,6 +115,20 @@ class ValueWatchlistTests(unittest.TestCase):
         self.assertEqual(finished[0]["retorno_simulado_unidad"],"0.800")
         self.assertEqual(finished[0]["retorno_precio_api_unidad"],"0.800")
 
+    def test_additional_prioritizes_probability_over_higher_ev(self):
+        low_p_high_ev=self._price_comparison(
+            seleccion="Menos de 2,5 goles",linea=2.5,
+            probabilidad_modelo=.55,cuota_real=2.50)
+        high_p_lower_ev=self._price_comparison(
+            seleccion="Menos de 3,5 goles",linea=3.5,
+            probabilidad_modelo=.70,cuota_real=1.55)
+        picked=freeze([],{"selecciones":[]},[self.match],self.now,
+            comparisons={"comparaciones":[low_p_high_ev,high_p_lower_ev]})
+        self.assertEqual(len(picked),1)
+        self.assertEqual(picked[0]["seleccion"],"Menos de 3,5 goles")
+        self.assertEqual(picked[0]["cuota_decimal"],"1.550")
+        self.assertGreater(float(picked[0]["ev_teorico"]),.03)
+
     def test_six_leagues_one_price_each_no_backfill_or_top3_change(self):
         names=("LaLiga","Segunda División","Premier League",
                "Bundesliga","Serie A","Ligue 1")
