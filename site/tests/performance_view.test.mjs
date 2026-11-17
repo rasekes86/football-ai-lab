@@ -97,3 +97,19 @@ test("antes de la primera ejecución el panel no afirma haber elegido nuevas apu
   assert.doesNotMatch(rendered.autoAudit,/nuevas adicionales/);
   assert.equal(rendered.snapshot.additional.registered,0);
 });
+
+
+test("cambios de código no generan falsas abstenciones cuando la API estaba desactivada",()=>{
+  const page=renderPerformanceView({
+    archivedPicks:[],allOdds:[],
+    evaluations:{odds:{seleccion_automatica:{
+      estado:"FUENTES_NO_CONSULTADAS",por_liga:{
+        "Bundesliga":{no_evaluados_sin_api:4,sin_opcion_valida:0}
+      }
+    }}}
+  },{},36,when);
+  assert.match(page.autoAudit,/FUENTES NO CONSULTADAS/);
+  assert.match(page.autoAudit,/no utilizó las APIs privadas/);
+  assert.doesNotMatch(page.autoAudit,/sin opción válida/);
+  assert.equal(page.snapshot.additional.registered,0);
+});
