@@ -134,7 +134,12 @@ function detailAdditional(row){
 }
 
 function verifiedStats(detail){
-  if(!detail||typeof detail!=="object")return "";
+  const placeholder='<details class="match-v2-accordion"><summary><span>'+
+    '<strong>Estadísticas finales</strong><small>Aún sin datos contrastados</small>'+
+    '</span><span aria-hidden="true">⌄</span></summary>'+
+    '<p class="match-v2-footnote">Todavía no hay estadísticas finales verificadas. '+
+    'No se interpretan los datos ausentes como ceros ni como fallos.</p></details>';
+  if(!detail||typeof detail!=="object")return placeholder;
   const metrics=[
     ["shots","Tiros totales"],
     ["on_target","Tiros a puerta"],
@@ -152,7 +157,7 @@ function verifiedStats(detail){
       (Array.isArray(row.fuentes)&&row.fuentes.length?
         '<div class="match-v2-stat-sources">'+row.fuentes.map(sourceLink).join(" · ")+'</div>':"");
   }).join("");
-  if(!body)return "";
+  if(!body)return placeholder;
   const verify=detail.marcador?
     '<p>Marcador publicado: '+escape(detail.marcador)+
     (detail.fuente_marcador?' · '+sourceLink(detail.fuente_marcador):"")+'</p>':"";
