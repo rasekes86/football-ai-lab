@@ -112,3 +112,26 @@ jobs:
           else
             echo 'Telegram no activado o sin mensaje confirmado: sin estado.'
           fi
+      - name: Vista previa postpartido del Top 3 y adicional
+        run: python -m football_ai_lab.telegram_3plus1 --preview
+      - name: Resultados confirmados 3+1 por Telegram (opt-in)
+        if: \${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        env:
+          TELEGRAM_3PLUS1_ENABLED: \${{ vars.TELEGRAM_3PLUS1_ENABLED || 'false' }}
+          TELEGRAM_BOT_TOKEN: \${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: \${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m football_ai_lab.telegram_3plus1
+      - name: Guardar anti-duplicados del aviso 3+1
+        if: \${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          if test -f output/estado_alertas_3plus1.json; then
+            git add output/estado_alertas_3plus1.json
+            if ! git diff --cached --quiet; then
+              git config user.name 'github-actions[bot]'
+              git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+              git commit -m 'Guarda resultados 3+1 ya avisados [skip ci]'
+              git push
+            fi
+          else
+            echo 'Aviso 3+1 desactivado o sin nuevas liquidaciones confirmadas.'
+          fi
