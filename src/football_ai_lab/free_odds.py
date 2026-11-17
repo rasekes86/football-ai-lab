@@ -236,6 +236,9 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
     # y pueden excluir por completo a Premier League y Bundesliga.
     candidates={}
     ambiguous=set()
+    provider_rows=defaultdict(int)
+    unmatched_rows=defaultdict(int)
+    unrecognized_leagues=0
     for day in days:
         begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)
         url=f"{FIVE_URL}/fixtures?"+urlencode({
@@ -250,8 +253,16 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
             if not isinstance(entries,list):raise ValueError("Formato de calendario inválido")
             for event in entries:
                 if not isinstance(event,dict) or not event.get("id"):continue
+                raw_league=(event.get("league") or {}).get("name","")
+                code=_league_code(raw_league)
+                if code:
+                    provider_rows[code]+=1
+                else:
+                    unrecognized_leagues+=1
                 match=_match(event,selected,now)
-                if not match:continue
+                if not match:
+                    if code:unmatched_rows[code]+=1
+                    continue
                 ident=match["id"]
                 if ident in candidates and str(candidates[ident][1]["id"])!=str(event["id"]):
                     ambiguous.add(ident) # Nunca elegir un evento de API ambiguo.
@@ -281,6 +292,10 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
                 if len(balanced)>=limit:break
         if not advanced:break
 
+    # Conteos anónimos, nunca nombres de eventos de terceros ni credenciales.
+    audit["eventos_api_por_liga"]=dict(sorted(provider_rows.items()))
+    audit["sin_emparejar_por_liga"]=dict(sorted(unmatched_rows.items()))
+    audit["ligas_no_reconocidas_total"]=unrecognized_leagues
     audit["eventos_emparejados"]=len(candidates)
     audit["ligas_emparejadas"]=sorted({m["liga"] for m,_ in candidates.values()})
     audit["ligas_seleccionadas"]=sorted({m["liga"] for m,_ in balanced})
