@@ -335,7 +335,7 @@ class ProviderLeagueFallbackTests(unittest.TestCase):
         def fetch(url,headers):
             called.append(url)
             if "/fixtures?" in url:
-                if "page=1" in url:
+                if "&page=1" in url:
                     return {"success":1,"data":[],"pagination":{"has_more":True}}
                 return {"success":1,"data":[event],"pagination":{"has_more":False}}
             if "/odds" in url:
