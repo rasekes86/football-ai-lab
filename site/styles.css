@@ -1597,3 +1597,36 @@ body{background:#061522}
 .results-v2-groups>div.results-v2-fixture-extra.pending{
   background:#203846;border-color:#4a6070;border-left-color:#809aab;
 }
+
+/* 3+1: estados verificables, independientes del resultado deportivo. */
+.extra-status-chip{
+  display:inline-flex;align-items:center;gap:6px;align-self:flex-start;max-width:100%;
+  border:1px solid #5a6d7b;border-radius:999px;padding:5px 9px;
+  font-size:10px;font-weight:800;line-height:1.35;white-space:normal;
+  background:#203342;color:#d1e0e9;
+}
+.extra-status-chip::before{content:"";display:inline-block;flex:0 0 6px;
+  width:6px;height:6px;border-radius:50%;background:currentColor}
+.extra-status-chip.assigned{border-color:#547d64;background:#1a3a30;color:#baf0bb}
+.extra-status-chip.unviable{border-color:#806a47;background:#3c3226;color:#f3d194}
+.extra-status-chip.pending{border-color:#50687a;background:#1d3140;color:#b6cad6}
+.match-extra-status{margin-top:13px;display:flex;align-items:center;flex-wrap:wrap}
+.agenda-game-picks>.extra-status-chip{margin-top:3px}
+.compact-match-main>.extra-status-chip{margin-top:6px}
+.home-extra-empty>span{display:flex;flex-direction:column;gap:5px}
+.home-extra-empty small{color:#aac1cf;font-size:11px;line-height:1.45}
+.home-extra-empty.unviable{border-color:#806a47;background:#342d25}
+.home-extra-empty.unviable strong{color:#ffe0a6}
+.match-v2-no-extra.extra-unviable{border-color:#806a47;background:#362e24}
+.match-v2-no-extra.extra-unviable strong{color:#ffe0a6}
+.match-v2-no-extra small{font-size:10px;color:#9db3c1}
+.match-filters{grid-template-columns:1.55fr repeat(5,minmax(0,1fr))}
+@media (max-width:1150px){
+  .match-filters{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .match-filters .field-search{grid-column:auto}
+}
+@media (max-width:680px){
+  .match-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:13px}
+  .match-filters .field-search{grid-column:span 2}
+  .extra-status-chip{font-size:9px}
+}
