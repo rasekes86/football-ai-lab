@@ -244,8 +244,11 @@ def _compared_candidates(matches:list[dict],comparisons:dict|list[dict],
             if (match["id"],forecast["mercado"],forecast["seleccion"]) in frozen_top:
                 continue
             options.append(candidate)
+        # Objetivo 3+1: maximizar la probabilidad estimada de ACIERTO entre
+        # cotizaciones reales >1,50 que superan calidad y EV mínimo.
+        # El EV solo filtra/desempata; no predomina sobre la probabilidad.
         options.sort(key=lambda x:(
-            -x["ev"],-x["forecast"]["probabilidad"],-x["price"],
+            -x["forecast"]["probabilidad"],-x["ev"],-x["price"],
             str(x["raw"]["seleccion"]),str(x["raw"]["bookmaker_id"])))
         if not options:continue
         chosen=options[0]
@@ -361,9 +364,12 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
         "ev_teorico_estrictamente_mayor_que":MIN_AUTO_EV,
         "antiguedad_maxima_horas":MAX_QUOTE_HOURS,
         "top3_original":"Nunca se modifica ni se duplica la misma seleccion exacta",
-        "historico":"Primera adicional valida archivada antes del inicio; inmutable"
+        "historico":"Primera adicional valida archivada antes del inicio; inmutable salvo revisión excepcional del usuario antes del encuentro",
+        "orden_seleccion":"Mayor probabilidad del modelo entre cuotas verificadas >1,50 y EV>3%, con calidad mínima",
+        "calibracion":"NO_CALIBRADA: muestra prospectiva insuficiente; no confundir probabilidad estimada con acierto probado"
     }
     totals["advertencia"]=(
+        "La ordenación prioriza probabilidad estimada, no calibrada prospectivamente. "
         "El valor esperado usa probabilidades experimentales no calibradas. "
         "Las cuotas son observaciones prepartido, no ofertas ejecutadas. "
         "No existe ventaja economica demostrada."
