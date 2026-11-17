@@ -67,10 +67,18 @@ test("recent settled cards count hits without marking pending as failure",()=>{
 test("no prices invented when missing: show explicit absence",()=>{
   const m=game("missing");
   const x=renderHomeView({futureMatches:[m],matches:[m]},crest,NOW);
-  assert.match(x.upcoming,/Sin adicional archivada/);
+  assert.match(x.upcoming,/Pendiente de consulta/);
   assert.match(x.upcoming,/Top 3 todavía no archivado/);
   assert.doesNotMatch(x.upcoming,/1.90/);
   assert.match(x.stats,/—/);
+});
+test("homepage flags rejected extra without pretending it was unqueried",()=>{
+  const m=game("no-viable");
+  m.additionalAudit="NO_SUPERA_FILTROS";
+  const page=renderHomeView({futureMatches:[m],matches:[m]},crest,NOW);
+  assert.match(page.upcoming,/Sin adicional viable/);
+  assert.match(page.upcoming,/Cuotas comparadas/);
+  assert.doesNotMatch(page.upcoming,/Cuota registrada/);
 });
 test("untrusted strings escaped within homepage, not executable markup",()=>{
   const m=game('<img src=x onerror=alert(1)>');

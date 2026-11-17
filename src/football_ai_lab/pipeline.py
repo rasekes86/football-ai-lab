@@ -435,8 +435,16 @@ def main(argv=None) -> None:
     tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,settlement_histories,now)
     # The public 3+1 panel can now show WHY some fixtures have no automatic
     # additional pick. No speculative odds are created when feeds are absent.
+    previous_audit={}
+    previous_report=target/"evaluacion_oportunidades_150.json"
+    if previous_report.is_file():
+        try:
+            previous_audit=json.loads(previous_report.read_text(encoding="utf-8")).get("seleccion_automatica",{})
+        except (OSError,ValueError,TypeError):
+            previous_audit={}
     offer_evaluation["seleccion_automatica"]=audit_offer_selection(
-        previous_offers,frozen_offers,selections,real_compared,now,selections_frozen)
+        previous_offers,frozen_offers,selections,real_compared,now,selections_frozen,
+        consultation_state=current_odds_state,previous_audit=previous_audit)
     write_csv(target/"seguimiento_oportunidades_150.csv",OFFER_FIELDS,tracked_offers)
     (target/"evaluacion_oportunidades_150.json").write_text(
         json.dumps(offer_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")

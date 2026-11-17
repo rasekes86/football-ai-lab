@@ -52,8 +52,11 @@ def run(target=Path("output"),now=None,env=None):
                   comparisons=compared,top3=frozen_top)
     tracked=merge_followup(read_csv(target/"seguimiento_oportunidades_150.csv"),frozen)
     evaluated=summary(tracked,now)
+    prior_audit=(load(target/"evaluacion_oportunidades_150.json",{})
+                 .get("seleccion_automatica") or {})
     evaluated["seleccion_automatica"]=selection_audit(
-        previous_offers,frozen,selections,compared,now,frozen_top)
+        previous_offers,frozen,selections,compared,now,frozen_top,
+        consultation_state=state,previous_audit=prior_audit)
     save(target/"cuotas_reales_verificadas.json",quotes)
     save(target/"comparacion_cuotas_reales.json",compared)
     save(target/"historico_cuotas_reales.json",historical)

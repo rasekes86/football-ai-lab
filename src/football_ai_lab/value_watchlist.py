@@ -278,7 +278,9 @@ def _compared_candidates(matches:list[dict],comparisons:dict|list[dict],
  
 def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
                     comparisons:dict|list[dict],now:datetime,
-                    top3:list[dict]|None=None)->dict:
+                    top3:list[dict]|None=None,
+                    consultation_state:dict|None=None,
+                    previous_audit:dict|None=None)->dict:
     """Explain autonomous decisions without inventing picks, prices or returns.
 
     Separately report exact comparisons, valid choices, archived selections
@@ -311,6 +313,12 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
             "abstenciones_ya_archivadas":0,
             "sin_cuota_real_no_se_inventa":True,
             "por_liga":{},"por_partido":{}}
+    # Un fixture sin peticion real NO es una cuota inviable. El libro de
+    # peticiones acredita que se consultó, incluso si no hubo mercados aptos.
+    consulted=(consultation_state or {}).get("fixtures") or {}
+    prior_reasons=(previous_audit or {}).get("por_partido") or {}
+    totals["por_estado_adicional"]={}
+    totals["por_partido_detalle"]={}
     by_fixture=defaultdict(int)
     for quote in raw:
         if isinstance(quote,dict) and quote.get("fixture_id"):
@@ -332,27 +340,43 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
             "sin_opcion_valida":0,"no_evaluados_sin_api":0
         })
         item["partidos_futuros"]+=1
+        previous_reason=prior_reasons.get(match_id)
+        record=consulted.get(match_id) or {}
         if match_id in current_by_id:
             reason="ARCHIVADA_INMUTABLE"
-        elif not_queried:
-            reason="FUENTES_NO_CONSULTADAS"
-        elif not by_fixture[match_id]:
-            reason="SIN_CUOTAS_COMPATIBLES"
-        elif match_id not in valid_by_id:
-            reason="NO_SUPERA_FILTROS"
-        else:
+        elif match_id in valid_by_id:
             reason="SELECCIONABLE"
+        elif not_queried and record and previous_reason in (
+                "NO_SUPERA_FILTROS","SIN_CUOTAS_COMPATIBLES"):
+            # En un push de código se desactiva la API; no se borran los
+            # hallazgos reales de la última consulta ni se crean otros.
+            reason=previous_reason
+        elif not record and not by_fixture[match_id]:
+            reason="SIN_CONSULTAR"
+        elif by_fixture[match_id]:
+            reason="NO_SUPERA_FILTROS"
+        elif record:
+            reason="SIN_CUOTAS_COMPATIBLES"
+        else:
+            reason="SIN_CONSULTAR"
         totals["por_partido"][match_id]=reason
+        totals["por_estado_adicional"][reason]=totals["por_estado_adicional"].get(reason,0)+1
+        totals["por_partido_detalle"][match_id]={
+            "estado":reason,
+            "ultima_consulta_utc":record.get("consultado_utc") or None,
+            "partido_consultado":bool(record or by_fixture[match_id]),
+            "comparaciones_ultima_ejecucion":by_fixture[match_id],
+        }
         item["comparaciones_recibidas"]+=by_fixture[match_id]
         item["partidos_con_comparaciones"]+=bool(by_fixture[match_id])
         item["opciones_validas"]+=match_id in valid_by_id
         if match_id in old_ids:
             item["ya_archivadas"]+=1
             totals["abstenciones_ya_archivadas"]+=1
-        elif not_queried:
+        elif reason=="SIN_CONSULTAR":
             item["no_evaluados_sin_api"]+=1
             totals["partidos_no_evaluados_sin_api"]+=1
-        elif match_id not in valid_by_id:
+        elif reason in ("NO_SUPERA_FILTROS","SIN_CUOTAS_COMPATIBLES"):
             item["sin_opcion_valida"]+=1
             totals["abstenciones_sin_opcion_valida"]+=1
         elif (current_by_id.get(match_id) or {}).get("tipo_cuota")==API:

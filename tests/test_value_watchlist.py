@@ -243,8 +243,11 @@ class ValueWatchlistTests(unittest.TestCase):
         quote=self._price_comparison()
         result=freeze([],{"selecciones":[]},[self.match,other],self.now,
                       comparisons={"comparaciones":[quote]})
+        consulted={"fixtures":{other["id"]:{
+            "consultado_utc":self.now.isoformat(),"con_cuotas":False}}}
         audit=selection_audit([],result,[self.match,other],
-                 {"comparaciones":[quote]},self.now,[])
+                 {"comparaciones":[quote]},self.now,[],
+                 consultation_state=consulted)
         self.assertEqual(audit["comparaciones_recibidas"],1)
         self.assertEqual(audit["partidos_con_opcion_valida"],1)
         self.assertEqual(audit["nuevas_automaticas"],1)
@@ -254,10 +257,45 @@ class ValueWatchlistTests(unittest.TestCase):
         self.assertTrue(audit["sin_cuota_real_no_se_inventa"])
         # Retaining prior picks counts as "already archived", not as a new pick.
         repeat=selection_audit(result,result,[self.match,other],
-                 {"comparaciones":[quote]},self.now,[])
+                 {"comparaciones":[quote]},self.now,[],
+                 consultation_state=consulted)
         self.assertEqual(repeat["nuevas_automaticas"],0)
         self.assertEqual(repeat["abstenciones_ya_archivadas"],1)
         self.assertEqual(repeat["abstenciones_sin_opcion_valida"],1)
+
+    def test_no_viable_only_after_real_consultation(self):
+        from football_ai_lab.value_watchlist import selection_audit
+        not_checked=dict(self.match,id="E0|not-checked",liga="Premier League",
+                         local="City",visitante="United")
+        no_market=dict(self.match,id="D1|no-market",liga="Bundesliga",
+                       local="Bayern",visitante="Köln")
+        rejected=dict(self.match,id="SP2|rejected",local="Burgos",
+                      visitante="Albacete")
+        compared=self._price_comparison(match=rejected,probabilidad_modelo=.54,
+                                        cuota_real=1.55)
+        consulted={"fixtures":{
+            no_market["id"]:{"consultado_utc":self.now.isoformat(),"con_cuotas":False},
+            rejected["id"]:{"consultado_utc":self.now.isoformat(),"con_cuotas":True}}}
+        report=selection_audit([],[],[not_checked,no_market,rejected],
+            {"comparaciones":[compared]},self.now,[],
+            consultation_state=consulted)
+        self.assertEqual(report["por_partido"][not_checked["id"]],"SIN_CONSULTAR")
+        self.assertEqual(report["por_partido"][no_market["id"]],"SIN_CUOTAS_COMPATIBLES")
+        self.assertEqual(report["por_partido"][rejected["id"]],"NO_SUPERA_FILTROS")
+        self.assertEqual(report["abstenciones_sin_opcion_valida"],2)
+        self.assertEqual(report["partidos_no_evaluados_sin_api"],1)
+        self.assertEqual(report["por_estado_adicional"]["SIN_CONSULTAR"],1)
+        self.assertTrue(report["por_partido_detalle"][rejected["id"]]["partido_consultado"])
+
+    def test_push_without_api_preserves_last_real_audit(self):
+        from football_ai_lab.value_watchlist import selection_audit
+        consulted={"fixtures":{self.match["id"]:{
+            "consultado_utc":self.now.isoformat(),"con_cuotas":True}}}
+        previous={"por_partido":{self.match["id"]:"NO_SUPERA_FILTROS"}}
+        report=selection_audit([],[],[self.match],
+            {"estado":"DESACTIVADO","comparaciones":[]},self.now,[],
+            consultation_state=consulted,previous_audit=previous)
+        self.assertEqual(report["por_partido"][self.match["id"]],"NO_SUPERA_FILTROS")
 
     def test_unqueried_private_api_is_not_a_failed_bet_screen(self):
         from football_ai_lab.value_watchlist import selection_audit

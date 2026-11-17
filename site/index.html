@@ -159,10 +159,11 @@
 
         <section class="view" id="view-matches" aria-labelledby="matchesTitle" hidden>
           <div class="page-intro"><div><span class="overline">02 / FIXTURE INTELLIGENCE</span><h1 id="matchesTitle">Todos los <em>partidos.</em></h1><p>Abre cada encuentro para ver sus tres pronósticos originales y su liquidación.</p></div><div class="intro-art" aria-hidden="true">90<span>’</span></div></div>
-          <div class="panel filters">
+          <div class="panel filters match-filters">
             <label class="field field-search"><span>BUSCAR EQUIPO</span><input type="search" id="matchSearch" placeholder="Equipo, mercado o rival…" autocomplete="off"></label>
             <label class="field"><span>LIGA</span><select id="leagueFilter"><option value="">Todas las ligas</option></select></label>
             <label class="field"><span>ESTADO TOP 3</span><select id="statusFilter"><option value="">Todos</option><option value="FINALIZADO">Finalizados</option><option value="PARCIAL">Parciales</option><option value="SIN_DATOS">Sin datos</option><option value="PENDIENTE">Pendientes</option></select></label>
+            <label class="field"><span>ADICIONAL +1,50</span><select id="additionalFilter"><option value="">Todos los estados</option><option value="assigned">Asignada</option><option value="unviable">Sin adicional viable</option><option value="pending">Pendiente de consulta</option></select></label>
             <label class="field"><span>PERIODO</span><select id="periodFilter"><option value="next" selected>Próximos · fecha más cercana primero</option><option value="all">Todos · futuros primero</option><option value="past">Ya disputados · recientes primero</option></select></label>
           </div>
           <div class="results-bar"><span id="matchCount">—</span><span class="results-legend"><i class="legend-dot success"></i> Acierto <i class="legend-dot danger"></i> Fallo <i class="legend-dot neutral"></i> Sin verificar</span></div>
