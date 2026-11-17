@@ -391,9 +391,11 @@ def main(argv=None) -> None:
         json.dumps(detail,ensure_ascii=False,indent=2),encoding="utf-8")
     (target/"evaluacion_selecciones.json").write_text(
         json.dumps(market_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
-    # Secondary track: four pre-match 1.50+ quotes mentioned in the chat,
-    # plus actual API 1X2 offers when independently timestamped and enabled.
-    # Chat quotes remain UNVERIFIED and financial performance is simulation only.
+    # Secondary 3+1 track: real bookmaker prices were captured and compared
+    # above during this SAME authorized run. Freeze a single eligible additional
+    # per fixture before kickoff; the immutable original Top 3 stays untouched.
+    # Historical manual odds remain INDICATIVA_NO_VERIFICADA, never promoted
+    # after the match. No bets are placed; ROI is purely hypothetical.
     offer_source=Path("data/watchlist_cuotas_orientativas.json")
     if offer_source.is_file() and not args.demo:
         try:
@@ -403,8 +405,10 @@ def main(argv=None) -> None:
             manual_offers={"selecciones":[]}
     else:
         manual_offers={"selecciones":[]}
-    frozen_offers=freeze_offers(read_csv(target/"historico_oportunidades_150.csv"),
-                               manual_offers,selections,now)
+    frozen_offers=freeze_offers(
+        read_csv(target/"historico_oportunidades_150.csv"),
+        manual_offers,selections,now,
+        comparisons=real_compared,top3=selections_frozen)
     write_csv(target/"historico_oportunidades_150.csv",OFFER_FIELDS,frozen_offers)
     tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,settlement_histories,now)
     write_csv(target/"seguimiento_oportunidades_150.csv",OFFER_FIELDS,tracked_offers)
@@ -415,7 +419,8 @@ def main(argv=None) -> None:
     book.mark("oportunidades_150","OK",
               f'{offer_evaluation["registradas"]} cotizaciones archivadas; '
               f'{offer_evaluation["finalizadas"]} mercados liquidados; '
-              'cuotas conversacionales NO verificadas',len(frozen_offers))
+              f'API prepartido: {offer_evaluation["verificacion"]["cuotas_api_observadas_antes_del_partido"]}; '
+              f'referencias indicativas: {offer_evaluation["verificacion"]["cuotas_indicativas_no_acreditadas"]}',len(frozen_offers))
     # Unified reports are built exclusively from verified source records.
     ml_rows=read_csv(Path("output_ml/predicciones_ml.csv")) if not args.demo else []
     complete_reports=all_dossiers(predicted,dossiers,selections,context,ml_rows,markets,now)
