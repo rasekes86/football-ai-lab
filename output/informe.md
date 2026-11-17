@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-17T12:11:02.872513+00:00
+**UTC:** 2026-11-17T12:29:42.282566+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 110
 **Descartados por insuficiencia de datos:** 8
@@ -143,7 +143,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **2** / 110. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **1** / 110. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real

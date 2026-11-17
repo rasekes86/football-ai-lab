@@ -1,12 +1,20 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-17T12:11:02.872513+00:00",
+  "generado_utc": "2026-11-17T12:29:42.282566+00:00",
   "registradas": 5,
   "finalizadas": 5,
   "pendientes": 0,
   "resultados_no_disponibles": 0,
   "estadisticas_no_disponibles": 0,
   "excluidas": 0,
+  "verificacion": {
+    "resultados_verificados": 5,
+    "resultados_pendientes_o_sin_dato": 0,
+    "cuotas_api_observadas_antes_del_partido": 0,
+    "cuotas_indicativas_no_acreditadas": 5,
+    "cuotas_api_sin_prueba_temporal": 0,
+    "nota": "El marcador y la liquidación pueden estar verificados aunque la cuota sea una referencia no acreditada. Terminar el partido no demuestra retroactivamente el precio ofrecido."
+  },
   "global": {
     "registradas": 5,
     "evaluadas": 5,
