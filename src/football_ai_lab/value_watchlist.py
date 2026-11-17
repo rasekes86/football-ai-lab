@@ -153,6 +153,40 @@ def _group_stats(rows:list[dict])->dict:
             "advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, "
                           "no beneficio real ni ventaja financiera demostrada."}
 
+def _api_quote_has_pre_match_proof(row:dict)->bool:
+    """Separate timestamped API price evidence from finished match outcomes."""
+    if row.get("tipo_cuota")!=API:return False
+    try:
+        observed=_utc(row["fecha_cuota_utc"])
+        frozen=_utc(row["archivado_utc"])
+        kickoff=_utc(row["fecha_utc"])
+        price=_valid_price(row.get("cuota_decimal"))
+        return (price is not None and observed<=frozen<kickoff and
+                0<=(frozen-observed).total_seconds()<=6*3600)
+    except (KeyError,TypeError,ValueError):
+        return False
+
+
+def verification_summary(rows:list[dict])->dict:
+    """A verified settlement never upgrades a historical indicative quote."""
+    finished=[r for r in rows if (r.get("estado")=="FINALIZADO" and
+              str(r.get("resultado")) in ("0","1"))]
+    proven=[r for r in rows if _api_quote_has_pre_match_proof(r)]
+    indicative=[r for r in rows if r.get("tipo_cuota")==INDICATIVE]
+    return {
+        "resultados_verificados":len(finished),
+        "resultados_pendientes_o_sin_dato":len(rows)-len(finished),
+        "cuotas_api_observadas_antes_del_partido":len(proven),
+        "cuotas_indicativas_no_acreditadas":len(indicative),
+        "cuotas_api_sin_prueba_temporal":sum(
+            r.get("tipo_cuota")==API and not _api_quote_has_pre_match_proof(r)
+            for r in rows),
+        "nota":"El marcador y la liquidación pueden estar verificados aunque "
+               "la cuota sea una referencia no acreditada. Terminar el "
+               "partido no demuestra retroactivamente el precio ofrecido."
+    }
+
+
 def summary(rows:list[dict],now:datetime)->dict:
     by_kind=defaultdict(list);by_market=defaultdict(list);by_league=defaultdict(list)
     for r in rows:
@@ -166,6 +200,7 @@ def summary(rows:list[dict],now:datetime)->dict:
             "resultados_no_disponibles":sum(x.get("estado")=="RESULTADO_NO_DISPONIBLE" for x in rows),
             "estadisticas_no_disponibles":sum(x.get("estado")=="ESTADISTICA_NO_DISPONIBLE" for x in rows),
             "excluidas":sum(x.get("estado","").startswith("EXCLUIDO") for x in rows),
+            "verificacion":verification_summary(rows),
             "global":_group_stats(rows),
             "por_tipo_cuota":{k:_group_stats(v) for k,v in by_kind.items()},
             "por_mercado":{k:_group_stats(v) for k,v in by_market.items()},
