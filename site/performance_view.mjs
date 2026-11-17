@@ -1,0 +1,115 @@
+/** Render-only scoreboard: only archived Top 3 and single additional >1.50. */
+import {performanceSnapshot} from "./performance.mjs";
+
+const num=new Intl.NumberFormat("es-ES",{maximumFractionDigits:0});
+const pct=new Intl.NumberFormat("es-ES",{style:"percent",maximumFractionDigits:1});
+const decimal=new Intl.NumberFormat("es-ES",{minimumFractionDigits:2,maximumFractionDigits:2});
+const dateFmt=new Intl.DateTimeFormat("es-ES",{timeZone:"Europe/Madrid",day:"2-digit",month:"short",year:"numeric"});
+const escape=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rate=x=>x===null||x===undefined?"—":pct.format(x);
+const units=x=>x===null||x===undefined?"—":(x>0?"+":x<0?"−":"")+decimal.format(Math.abs(x))+" u.";
+const count=x=>num.format(x||0);
+const day=x=>Number.isFinite(Date.parse(x||""))?dateFmt.format(new Date(x)):"—";
+
+export function confirmedOutcome(row){
+  if(row.estado!=="FINALIZADO"||!["0","1"].includes(String(row.resultado))){
+    const status=row.estado==="ESTADISTICA_NO_DISPONIBLE"?"Estadística sin verificar":
+      row.estado==="RESULTADO_NO_DISPONIBLE"?"Resultado sin verificar":"Pendiente";
+    return '<span class="status-pill missing">'+escape(status)+'</span>';
+  }
+  const won=String(row.resultado)==="1";
+  return '<span class="status-pill '+(won?"final":"loss")+'">'+
+    (won?"ACIERTO CONFIRMADO":"FALLO CONFIRMADO")+'</span>';
+}
+function metric(label,value,foot,emph=false){
+  return '<div class="kpi'+(emph?' highlight':'')+'"><div class="kpi-label">'+escape(label)+
+    '</div><div class="kpi-value">'+escape(value)+'</div><div class="kpi-footer">'+
+    escape(foot)+'</div></div>';
+}
+function topGraph(rows){
+  const selected=rows.filter(x=>x.top>0).slice(-14);
+  if(!selected.length)return '<div class="empty">No hay Top 3 liquidados para este periodo.</div>';
+  return selected.map(row=>{
+    const percent=Math.round(100*(row.topAccuracy||0));
+    return '<div class="performance-period-row"><span class="performance-period-date">'+escape(row.key)+
+      '</span><div class="performance-period-track" aria-label="'+percent+' por ciento de aciertos">'+
+      '<div style="width:'+percent+'%"></div></div><strong>'+rate(row.topAccuracy)+
+      '</strong><small>'+count(row.topHits)+'/'+count(row.top)+'</small></div>';
+  }).join("");
+}
+function profitGraph(rows){
+  const valid=rows.filter(x=>x.extraCumulative!==null);
+  if(!valid.length)return '<div class="empty">No hay adicionales liquidadas con cuota archivada en el periodo.</div>';
+  const vals=valid.map(x=>x.extraCumulative);
+  const hi=Math.max(.25,...vals),lo=Math.min(-.25,...vals);
+  const sx=i=>valid.length===1?180:22+316*i/(valid.length-1);
+  const sy=value=>135-(value-lo)/(hi-lo)*113;
+  const points=valid.map((x,i)=>sx(i).toFixed(1)+','+sy(x.extraCumulative).toFixed(1)).join(' ');
+  const dots=valid.map((x,i)=>'<circle cx="'+sx(i).toFixed(1)+'" cy="'+sy(x.extraCumulative).toFixed(1)+'" r="3.5"></circle>').join('');
+  const zero=sy(0).toFixed(1);
+  const label=valid.length>1?valid[0].key+" — "+valid[valid.length-1].key:valid[0].key;
+  const latest=valid[valid.length-1].extraCumulative;
+  return '<svg class="performance-profit-svg" viewBox="0 0 360 160" role="img" aria-label="Balance hipotético acumulado '+escape(units(latest))+
+    '" preserveAspectRatio="xMidYMid meet"><line x1="12" y1="'+zero+'" x2="346" y2="'+zero+
+    '" class="performance-zero"></line><polyline points="'+points+
+    '" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>'+
+    '<g fill="currentColor">'+dots+'</g></svg><div class="performance-chart-footer"><span>'+
+    escape(label)+'</span><strong>'+escape(units(latest))+'</strong></div>';
+}
+function leagueTable(leagues,filter){
+  return leagues.filter(x=>!filter||x.name===filter).map(x=>
+    '<article class="performance-league-card"><div class="performance-league-title"><strong>'+
+    escape(x.name)+'</strong></div><div class="performance-league-metrics">'+
+    '<div><span>Top 3 · acertadas / verificadas</span><strong>'+count(x.top.hits)+' / '+count(x.top.settled)+
+    '</strong><small>'+rate(x.top.accuracy)+'</small></div>'+
+    '<div><span>Adicional · acertadas / verificadas</span><strong>'+count(x.additional.hits)+' / '+count(x.additional.settled)+
+    '</strong><small>'+rate(x.additional.accuracy)+'</small></div></div></article>'
+  ).join("");
+}
+function ledger(rows){
+  if(!rows.length)return '<tr><td class="empty" colspan="5">Sin selecciones archivadas para este filtro.</td></tr>';
+  return rows.map(row=>{
+    const additional=row.group!=="Top 3";
+    const source=additional?(row.tipo_cuota==="INDICATIVA_NO_VERIFICADA"?
+      "Precio orientativo, no acreditado":row.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
+      "Cuota API registrada":"Sin origen de cuota"):
+      "Sin cuota real asignada al Top 3";
+    const price=additional?decimal.format(row.price):"—";
+    const balance=additional&&row.return!==null?units(row.return):"—";
+    return '<tr><td><div class="main-cell">'+escape(row.local)+' – '+escape(row.visitante)+
+      '</div><div class="sub-cell">'+escape(day(row.fecha_utc))+' · '+escape(row.liga)+
+      '</div></td><td class="pick-cell"><div class="main-cell">'+escape(row.seleccion)+
+      '</div><div class="sub-cell">'+escape(row.group)+(additional?' · cuota '+price:'')+
+      ' · '+escape(source)+'</div></td><td>'+confirmedOutcome(row)+
+      '</td><td class="performance-return">'+escape(balance)+
+      '</td><td><button type="button" class="row-link" data-open-id="'+escape(row.id)+
+      '" aria-label="Abrir ficha del partido">↗</button></td></tr>';
+  }).join("");
+}
+export function renderPerformanceView(model,filters={},limit=36,now=new Date()){
+  const info=performanceSnapshot(model,filters,now);
+  const top=info.top,additional=info.additional;
+  return {
+    topKpis:
+      metric("Aciertos confirmados",count(top.hits)+" / "+count(top.settled),"Solo Top 3 congelado",true)+
+      metric("Tasa de acierto",rate(top.accuracy),"Sin contar los pendientes")+
+      metric("Archivadas",count(top.registered),"Máximo tres por partido")+
+      metric("Sin liquidar",count(top.unresolved),"No son fallos"),
+    extraKpis:
+      metric("Aciertos confirmados",count(additional.hits)+" / "+count(additional.settled),"Una adicional por partido",true)+
+      metric("Tasa de acierto",rate(additional.accuracy),"Solo resultados finales")+
+      metric("Balance simulado",units(additional.profit),"1 u. por selección liquidada")+
+      metric("ROI simulado",rate(additional.roi),"No equivale a dinero ganado"),
+    topChart:topGraph(info.timeline),
+    extraChart:profitGraph(info.timeline),
+    extraEvidence:"Resultados liquidados: "+count(additional.settled)+
+      " · Cuotas orientativas sin prueba histórica: "+count(additional.indicativeCount)+
+      " · Cuotas registradas por API: "+count(additional.observedCount)+
+      ". La liquidación deportiva sí es independiente del precio de casa.",
+    leagueTable:leagueTable(info.byLeague,filters.league),
+    ledger:ledger(info.rows.slice(0,limit)),
+    count:count(info.rows.length)+" selecciones entre Top 3 y adicionales",
+    hasMore:info.rows.length>limit,
+    snapshot:info
+  };
+}
