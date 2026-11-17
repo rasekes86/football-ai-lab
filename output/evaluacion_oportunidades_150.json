@@ -1,6 +1,6 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-17T14:52:08.135616+00:00",
+  "generado_utc": "2026-11-17T14:57:34.463732+00:00",
   "registradas": 5,
   "finalizadas": 5,
   "pendientes": 0,
@@ -71,5 +71,82 @@
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },
-  "nota": "Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro."
+  "nota": "Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro.",
+  "seleccion_automatica": {
+    "comparaciones_recibidas": 0,
+    "partidos_con_comparaciones": 0,
+    "partidos_con_opcion_valida": 0,
+    "nuevas_automaticas": 0,
+    "partidos_ya_archivados": 5,
+    "partidos_con_adicional_archivada": 5,
+    "abstenciones_sin_opcion_valida": 110,
+    "abstenciones_ya_archivadas": 0,
+    "sin_cuota_real_no_se_inventa": true,
+    "por_liga": {
+      "LaLiga": {
+        "partidos_futuros": 16,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 0,
+        "sin_opcion_valida": 16
+      },
+      "Segunda División": {
+        "partidos_futuros": 22,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 0,
+        "sin_opcion_valida": 22
+      },
+      "Premier League": {
+        "partidos_futuros": 20,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 0,
+        "sin_opcion_valida": 20
+      },
+      "Bundesliga": {
+        "partidos_futuros": 14,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 0,
+        "sin_opcion_valida": 14
+      },
+      "Serie A": {
+        "partidos_futuros": 20,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 0,
+        "sin_opcion_valida": 20
+      },
+      "Ligue 1": {
+        "partidos_futuros": 18,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 0,
+        "sin_opcion_valida": 18
+      }
+    },
+    "reglas": {
+      "maximo_por_partido": 1,
+      "cuota_decimal_estrictamente_mayor_que": 1.5,
+      "probabilidad_minima": 0.5,
+      "ev_teorico_estrictamente_mayor_que": 0.03,
+      "antiguedad_maxima_horas": 6,
+      "top3_original": "Nunca se modifica ni se duplica la misma seleccion exacta",
+      "historico": "Primera adicional valida archivada antes del inicio; inmutable"
+    },
+    "advertencia": "El valor esperado usa probabilidades experimentales no calibradas. Las cuotas son observaciones prepartido, no ofertas ejecutadas. No existe ventaja economica demostrada."
+  }
 }
