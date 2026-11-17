@@ -5,6 +5,7 @@ const num=new Intl.NumberFormat("es-ES",{maximumFractionDigits:0});
 const pct=new Intl.NumberFormat("es-ES",{style:"percent",maximumFractionDigits:1});
 const decimal=new Intl.NumberFormat("es-ES",{minimumFractionDigits:2,maximumFractionDigits:2});
 const dateFmt=new Intl.DateTimeFormat("es-ES",{timeZone:"Europe/Madrid",day:"2-digit",month:"short",year:"numeric"});
+const quoteFmt=new Intl.DateTimeFormat("es-ES",{timeZone:"Europe/Madrid",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"});
 const escape=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const rate=x=>x===null||x===undefined?"—":pct.format(x);
 const units=x=>x===null||x===undefined?"—":(x>0?"+":x<0?"−":"")+decimal.format(Math.abs(x))+" u.";
@@ -74,13 +75,20 @@ function ledger(rows){
       "Precio orientativo, no acreditado":row.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
       "Cuota API registrada":"Sin origen de cuota"):
       "Sin cuota real asignada al Top 3";
+    // Timestamp is the published OBSERVATION time, never a claimed bet placement.
+    const observed=Number.isFinite(Date.parse(row.fecha_cuota_utc||""))?
+      quoteFmt.format(new Date(row.fecha_cuota_utc)):"";
+    const evidence=additional&&row.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
+      [row.bookmaker,row.proveedor_cuota,observed?"captura "+observed:"",
+       row.marca_tiempo_tipo==="CAPTURA_NO_ACTUALIZACION"?"sin hora de cambio del bookmaker":""]
+        .filter(Boolean).join(" · "):"";
     const price=additional?decimal.format(row.price):"—";
     const balance=additional&&row.return!==null?units(row.return):"—";
     return '<tr><td><div class="main-cell">'+escape(row.local)+' – '+escape(row.visitante)+
       '</div><div class="sub-cell">'+escape(day(row.fecha_utc))+' · '+escape(row.liga)+
       '</div></td><td class="pick-cell"><div class="main-cell">'+escape(row.seleccion)+
       '</div><div class="sub-cell">'+escape(row.group)+(additional?' · cuota '+price:'')+
-      ' · '+escape(source)+'</div></td><td>'+confirmedOutcome(row)+
+      ' · '+escape(source)+(evidence?' · '+escape(evidence):'')+'</div></td><td>'+confirmedOutcome(row)+
       '</td><td class="performance-return">'+escape(balance)+
       '</td><td><button type="button" class="row-link" data-open-id="'+escape(row.id)+
       '" aria-label="Abrir ficha del partido">↗</button></td></tr>';
