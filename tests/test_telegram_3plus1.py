@@ -73,17 +73,17 @@ class Telegram3Plus1Tests(unittest.TestCase):
         self.assertEqual(meta["notificados"],4)
 
     def test_missing_result_or_date_excluded_without_false_losses(self):
-        top=[pick("not_done",status="PENDIENTE",outcome=""),
-             pick("not_scored",status="RESULTADO_NO_DISPONIBLE",outcome=""),
-             pick("wrong_day",archivado_utc="2026-11-22T17:00:00Z"),
-             pick("future",fecha_utc="2026-11-25T15:00:00Z"),
-             pick("good")]
+        top=[pick("not_done",id="fixture-A",status="PENDIENTE",outcome=""),
+             pick("not_scored",id="fixture-B",status="RESULTADO_NO_DISPONIBLE",outcome=""),
+             pick("wrong_day",id="fixture-C",archivado_utc="2026-11-22T17:00:00Z"),
+             pick("future",id="fixture-D",fecha_utc="2026-11-25T15:00:00Z"),
+             pick("good",id="fixture-E")]
         odds=[extra("too_low",cuota_decimal="1.500"),
               extra("invalid_price",cuota_decimal="inf"),
               extra("legitimate",estado="ESTADISTICA_NO_DISPONIBLE",resultado="")]
         msg,state,meta=alerts.digest(top,odds,{},NOW)
         self.assertEqual(meta["top"]["resolved"],1)
-        self.assertEqual(meta["top"]["pending"],2)
+        self.assertEqual(meta["top"]["pending"],3)
         self.assertEqual(meta["extra"]["resolved"],0)
         self.assertEqual(meta["notificados"],1)
         self.assertNotIn("too_low",json.dumps(state))
