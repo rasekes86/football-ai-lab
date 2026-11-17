@@ -1,6 +1,6 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-17T15:04:26.868766+00:00
+**UTC:** 2026-11-17T15:07:29.322358+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 110
 **Descartados por insuficiencia de datos:** 8
@@ -178,7 +178,7 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **5**; finalizadas: **5**; pendientes: **0**.
+Selecciones archivadas: **13**; finalizadas: **5**; pendientes: **8**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
 Seguimiento real del Top 3: **345** selecciones archivadas antes del partido; **15** resueltas.
