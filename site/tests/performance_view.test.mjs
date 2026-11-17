@@ -113,3 +113,33 @@ test("cambios de código no generan falsas abstenciones cuando la API estaba des
   assert.doesNotMatch(page.autoAudit,/sin opción válida/);
   assert.equal(page.snapshot.additional.registered,0);
 });
+
+
+test("el panel muestra auditoría automática por liga sin convertir ausencia de API en fallo",()=>{
+  const empty={archivedPicks:[],allOdds:[],evaluations:{odds:{
+    seleccion_automatica:{estado:"FUENTES_NO_CONSULTADAS",por_liga:{
+      Bundesliga:{partidos_futuros:2,no_evaluados_sin_api:2}
+    }}
+  }}};
+  const screen=renderPerformanceView(empty,{},36,when);
+  assert.match(screen.autoAudit,/FUENTES NO CONSULTADAS/);
+  assert.match(screen.autoAudit,/no utilizó las APIs privadas/);
+  assert.equal(screen.snapshot.additional.misses,0);
+  assert.equal(screen.snapshot.additional.registered,0);
+});
+
+test("las cuotas API liquidadas tienen balance independiente de las referencias indicativas",()=>{
+  const another={...indicative,
+    id:"D1|another",clave:"D1|another|odd",liga:"Bundesliga",
+    local:"Bayern Munich",visitante:"FC Cologne",
+    tipo_cuota:"OFRECIDA_API_REGISTRADA",cuota_decimal:"2.200",resultado:"0"};
+  const screen=renderPerformanceView({archivedPicks:[],allOdds:[indicative,another]}, {},36,when);
+  assert.equal(screen.snapshot.additional.settled,2);
+  assert.equal(screen.snapshot.additional.hits,1);
+  assert.equal(screen.snapshot.additional.observedSettled,1);
+  assert.equal(screen.snapshot.additional.observedProfit,-1);
+  assert.equal(screen.snapshot.additional.indicativeCount,1);
+  assert.match(screen.extraEvidence,/ROI hipotético solo API/);
+  assert.match(screen.ledger,/ACIERTO CONFIRMADO/);
+  assert.match(screen.ledger,/FALLO CONFIRMADO/);
+});
