@@ -234,3 +234,32 @@ En `output/evaluacion_oportunidades_150.json` se publica `seleccion_automatica`:
 Los workflows activados por **cambios de código** no consumen la cuota gratuita de las APIs privadas. El diagnóstico en esos casos dice `FUENTES_NO_CONSULTADAS`, no que se rechazaron apuestas. Para registrar nuevas adicionales con precios reales es necesario que el workflow **Analisis futbol diario** se ejecute por su horario o manualmente, con los secretos y variables de cuotas ya habilitados. El proceso se realiza una sola vez por ejecución y reutiliza las comparaciones obtenidas, sin añadir consultas a proveedores.
 
 Pruebas: `tests/test_value_watchlist.py` y `site/tests/performance*.test.mjs`. Se verifican el límite 3+1, integridad de la evidencia, ausencia de recalculado retroactivo, abstenciones, resultados postpartido y la no confusión entre precio y resultado.
+
+## Control postpartido y Telegram 3+1
+
+El análisis diario está programado a las 07:17 UTC (08:17 en Madrid durante
+el horario de invierno). El resultado confirmado del Top 3 original y de una
+adicional por partido alimenta el panel Rendimiento 3+1. Nunca se interpreta
+un resultado pendiente ni una estadística ausente como apuesta fallada.
+
+Para previsualizar los nuevos resultados sin enviarlos:
+
+    python -m football_ai_lab.telegram_3plus1 --preview
+
+Para permitir que el bot de Telegram avise automáticamente, se requiere
+activar la variable GitHub Actions TELEGRAM_3PLUS1_ENABLED=true. Reutiliza
+los secretos existentes TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID. La opción
+está desactivada por defecto; no se envían mensajes sin autorización.
+
+Cada aviso indica acierto o fallo confirmado, distingue Top 3 de adicional
+y señala si la cuota de esta última fue observada vía API o era indicativa.
+Los avisos no comunican apuestas exploratorias, no atribuyen ganancias reales
+ni se envían si no hay nuevas liquidaciones.
+
+El archivo output/estado_alertas_3plus1.json solo contiene las claves de
+resultados ya comunicados, sin tokens ni información de acceso, y se guarda
+únicamente tras entrega confirmada. Las entregas fallidas no se marcan.
+
+Se utiliza el análisis existente, sin llamadas adicionales a las APIs de
+cuotas. Los partidos que terminan después del análisis matinal se liquidan
+normalmente en la siguiente ejecución, no en tiempo real.
