@@ -2,9 +2,9 @@
   "id": "./",
   "name": "Football AI Lab",
   "short_name": "Football AI",
-  "description": "Agenda de fútbol, pronósticos Top 3, radar y cuotas observadas. Datos públicos del laboratorio.",
+  "description": "Partidos, selecciones Top 3 + adicional y resultados verificados en una PWA deportiva sencilla.",
   "lang": "es-ES",
-  "start_url": "./#fixtures",
+  "start_url": "./#home",
   "scope": "./",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
@@ -17,6 +17,8 @@
     {"src": "./pwa-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
   ],
   "shortcuts": [
+    {"name": "Inicio", "short_name": "Inicio", "url": "./#home", "description": "Próximos partidos y resultados 3+1"},
+    {"name": "Resultados", "short_name": "Resultados", "url": "./#performance", "description": "Aciertos y fallos confirmados"},
     {"name": "Partidos", "short_name": "Partidos", "url": "./#fixtures", "description": "Próximos partidos"},
     {"name": "Top 3", "short_name": "Top 3", "url": "./#history", "description": "Historial de selecciones verificadas"},
     {"name": "Cuotas reales", "short_name": "Cuotas", "url": "./#realodds", "description": "Precios reales observados"}
