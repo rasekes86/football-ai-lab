@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-17T00:31:51.618864+00:00",
+  "timestamp_utc": "2026-11-17T11:53:59.556374+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -359,9 +359,9 @@
     },
     {
       "equipo": "Brentford",
-      "bajas_reportadas": 7,
+      "bajas_reportadas": 8,
       "estados": {
-        "doubtful": 2,
+        "doubtful": 3,
         "injured": 4,
         "suspended": 1
       }
