@@ -306,8 +306,7 @@ class ProviderLeagueFallbackTests(unittest.TestCase):
         calls=[]
         def fetch(url,headers):
             calls.append(url)
-            if "/leagues?popular" in url:return {"success":1,"data":[]}
-            if "/leagues?country=ES" in url:
+            if "/leagues?" in url and "country=ES" in url:
                 return {"success":1,"data":[
                     {"id":902,"name":"Spain Segunda Division"}]}
             if "/leagues/902/fixtures?" in url:
