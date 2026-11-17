@@ -36,7 +36,8 @@ test("Top 3 and additional results have independent scoreboards",()=>{
   assert.match(r.recent,/2 – 0/);
   assert.match(r.balance,/0,90 u\./);
   assert.match(r.balance,/1 cuotas indicativas liquidadas/);
-  assert.doesNotMatch(r.scorecards,/100\s?%/);
+  assert.match(r.scorecards,/50\s*%/); // Top 3: one out of two verified outcomes
+  assert.match(r.scorecards,/100\s*%/); // Additional: one out of one, separate rate
 });
 test("only genuine settled outcomes enter recent; missing stats stay pending",()=>{
   const x=snapshot([top(1,"ESTADISTICA_NO_DISPONIBLE",""),
