@@ -274,70 +274,182 @@ def _five_fixture_rows(match, event_id, odds_payload, now):
 
 
 def get_five_odds(fixtures,now,env=None,fetcher=None):
+    """Small, bounded free-tier discovery; only verified identical fixtures get prices.
+
+    1. Date-window fixture pages (up to two pages per day).
+    2. If EPL/Bundesliga missing, lookup league ids and request their fixtures.
+    3. Optional Segunda discovery, only when Community Access was authorized.
+    4. Round-robin odds budget: <=14 fixture odds requests, never speculative prices.
+    """
     now=_now(now);env=env or {};fetcher=fetcher or _http
     enabled=str(env.get("ENABLE_FREE_ODDS","")).lower() in ("1","true","yes")
     key=str(env.get("FIVEDOLLAR_API_KEY","")).strip()
+    community=str(env.get("ENABLE_FIVE_SEGUNDA","")).lower() in ("1","true","yes")
     status="DESACTIVADO" if not enabled else "SIN_CLAVE" if not key else "CONSULTANDO"
     audit={"proveedor":FIVE_NAME,"estado":status,"consultas":0,"partidos":0,
            "eventos_emparejados":0,"errores":0,"cuotas":0,
            "no_equivalente":["Tarjetas genéricas ≠ amarillas verificadas"],
-           "limite_gratuito":"60 solicitudes/hora en plan Free; no se garantiza la cobertura"}
+           "limite_gratuito":"60 solicitudes/hora en plan Free; no se garantiza la cobertura",
+           "maximo_consultas_por_ejecucion":MAX_FIVE_FIXTURE_CALLS+MAX_FIVE_ODDS,
+           "community_segunda_activada":community,
+           "limite_partidos_con_cuota":MAX_FIVE_ODDS}
     if not enabled or not key:return {"estado":status,"cuotas":[],"auditoria":audit}
-    limit=_bounded(env.get("FREE_ODDS_MAX_FIXTURES") or MAX_FIVE_ODDS,MAX_FIVE_ODDS,MAX_FIVE_ODDS)
+
+    limit=_bounded(env.get("FREE_ODDS_MAX_FIXTURES") or MAX_FIVE_ODDS,
+                   MAX_FIVE_ODDS,MAX_FIVE_ODDS)
     headers={"Authorization":f"Bearer {key}"}
-    selected=[f for f in fixtures if _dt(f.get("fecha_utc")) and _dt(f["fecha_utc"])>now]
-    # Ventanas de días UTC completos (el proveedor limita a 24h).
-    days=sorted({ _dt(f["fecha_utc"]).date() for f in selected
-                  if _dt(f["fecha_utc"])<=now+timedelta(days=MAX_DAYS)})
-    # Recoger primero todos los encuentros compatibles de la ventana.
-    # Sin esta fase, los primeros 14 de un fin de semana consumen el cupo
-    # y pueden excluir por completo a Premier League y Bundesliga.
+    selected=[f for f in fixtures if _dt(f.get("fecha_utc"))
+              and now<_dt(f["fecha_utc"])<=now+timedelta(days=MAX_DAYS)]
+    days=sorted({_dt(f["fecha_utc"]).date() for f in selected})
+    audit["dias_consultados"]=[d.isoformat() for d in days]
+
+    # All diagnostic fields contain only league-level counts, never raw match
+    # identity or private headers. Duplicate page rows are not counted twice.
     candidates={}
     ambiguous=set()
     provider_rows=defaultdict(int)
     unmatched_rows=defaultdict(int)
-    unrecognized_leagues=0
+    mismatch_reasons=defaultdict(lambda:defaultdict(int))
+    unknown_leagues=0
+    seen_provider_ids=set()
+    request_budget=MAX_FIVE_FIXTURE_CALLS
+    request_errors=defaultdict(int)
+    catalog_codes=set()
+    targeted_codes=[]
+
+    def call(url):
+        nonlocal request_budget
+        if request_budget<=0:
+            raise RuntimeError("BUDGET_EXHAUSTED")
+        request_budget-=1
+        audit["consultas"]+=1
+        return fetcher(url,headers)
+
+    def register(event):
+        nonlocal unknown_leagues
+        if not isinstance(event,dict) or not event.get("id"):return
+        eid=str(event["id"])
+        if eid in seen_provider_ids:return
+        seen_provider_ids.add(eid)
+        rawleague=event.get("league") or {}
+        code=_league_code(rawleague.get("name","") if isinstance(rawleague,dict) else "")
+        if code is None:
+            unknown_leagues+=1
+            return
+        provider_rows[code]+=1
+        match=_match(event,selected,now)
+        if match is None:
+            unmatched_rows[code]+=1
+            kick=_dt(event.get("kickoff_utc") or event.get("date"))
+            teams=event.get("teams") or {}
+            if not isinstance(teams,dict):teams={}
+            home=(teams.get("home") or {}).get("name") or ""
+            away=(teams.get("away") or {}).get("name") or ""
+            same_clock=[row for row in selected
+                        if FIVE_CODES.get(row.get("liga"))==code and kick
+                        and abs(_dt(row["fecha_utc"])-kick)<=MAX_DIFF]
+            if any(_same_team(row.get("local"),away) and
+                   _same_team(row.get("visitante"),home) for row in same_clock):
+                mismatch_reasons[code]["orden_local_visitante"]+=1
+            elif same_clock:
+                mismatch_reasons[code]["equipos"]+=1
+            else:
+                mismatch_reasons[code]["horario_o_calendario"]+=1
+            return
+        ident=match["id"]
+        if ident in candidates and str(candidates[ident][1]["id"])!=eid:
+            ambiguous.add(ident)
+        else:
+            candidates.setdefault(ident,(match,event))
+
+    # Documented pagination: limit date windows to 24h and <=2 pages.
+    # Free does not permit include=odds in fixture lists.
     for day in days:
         begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)
-        url=f"{FIVE_URL}/fixtures?"+urlencode({
-            "start_time":int(begin.timestamp()),"end_time":int((begin+timedelta(days=1)).timestamp()),
-            "status":"scheduled","per_page":100,
-        })
-        try:
-            obj=fetcher(url,headers);audit["consultas"]+=1
-            if not isinstance(obj,dict) or obj.get("success") not in (1,True):
-                raise ValueError("Respuesta sin éxito")
-            entries=obj.get("data") or []
-            if not isinstance(entries,list):raise ValueError("Formato de calendario inválido")
-            for event in entries:
-                if not isinstance(event,dict) or not event.get("id"):continue
-                raw_league=(event.get("league") or {}).get("name","")
-                code=_league_code(raw_league)
-                if code:
-                    provider_rows[code]+=1
-                else:
-                    unrecognized_leagues+=1
-                match=_match(event,selected,now)
-                if not match:
-                    if code:unmatched_rows[code]+=1
-                    continue
-                ident=match["id"]
-                if ident in candidates and str(candidates[ident][1]["id"])!=str(event["id"]):
-                    ambiguous.add(ident) # Nunca elegir un evento de API ambiguo.
-                else:
-                    candidates.setdefault(ident,(match,event))
-        except Exception:
-            audit["errores"]+=1
-    for ident in ambiguous:
-        candidates.pop(ident,None)
+        for page in (1,2):
+            params=urlencode({
+                "start_time":int(begin.timestamp()),
+                "end_time":int((begin+timedelta(days=1)).timestamp()),
+                "status":"scheduled","per_page":100,"page":page,
+            })
+            try:
+                obj=call(f"{FIVE_URL}/fixtures?{params}")
+                if not isinstance(obj,dict) or obj.get("success") not in (1,True):
+                    raise ValueError("Respuesta de calendario inválida")
+                rows=obj.get("data") or []
+                if not isinstance(rows,list):raise ValueError("Calendario no es lista")
+                for event in rows:register(event)
+                paging=obj.get("pagination") or {}
+                # Never guess another page without explicit pagination metadata.
+                if not isinstance(paging,dict) or paging.get("has_more") is not True:
+                    break
+            except Exception:
+                audit["errores"]+=1
+                request_errors["calendario"]+=1
+                break
 
-    # Repartir las consultas de /odds por rondas de ligas. Se mantiene
-    # exactamente el máximo anterior (14): no aumenta el consumo del plan Free.
+    for ident in ambiguous:candidates.pop(ident,None)
+    current_codes={FIVE_CODES[match["liga"]] for match,_ in candidates.values()}
+    expected=_fixture_league_counts(selected,now)
+    needed=[code for code in ("E0","D1") if expected[code]>0 and code not in current_codes]
+    if community and expected["SP2"]>0 and "SP2" not in current_codes:
+        needed.append("SP2")
+
+    if needed and request_budget:
+        # Do not hardcode temporary or retired provider league ids.
+        # Ask the provider for its current league catalogue; on merged ids
+        # its published documentation explains the 301 canonical-id handling.
+        lookup=defaultdict(set)
+        searches=["popular=1&per_page=100"]
+        if "SP2" in needed:searches.append("country=ES&per_page=100")
+        for query in searches:
+            try:
+                obj=call(f"{FIVE_URL}/leagues?{query}")
+                if not isinstance(obj,dict) or obj.get("success") not in (1,True):
+                    raise ValueError("Catálogo de ligas inválido")
+                for entry in obj.get("data") or []:
+                    if not isinstance(entry,dict) or not entry.get("id"):continue
+                    code=_league_code(entry.get("name",""))
+                    if code:
+                        catalog_codes.add(code)
+                        lookup[code].add(str(entry["id"]))
+            except Exception:
+                audit["errores"]+=1
+                request_errors["catalogo"]+=1
+
+        begin=now
+        until=now+timedelta(days=MAX_DAYS)
+        for code in needed:
+            if not request_budget:break
+            ids=lookup.get(code,set())
+            if len(ids)!=1:
+                # Two different provider league ids are ambiguous: never pick one.
+                request_errors["id_liga_ausente_o_ambiguo"]+=1
+                continue
+            league_id=next(iter(ids))
+            params=urlencode({
+                "start_time":int(begin.timestamp()),
+                "end_time":int(until.timestamp()),
+                "status":"scheduled","order":"asc","page":1,"per_page":100,
+            })
+            targeted_codes.append(code)
+            try:
+                obj=call(f"{FIVE_URL}/leagues/{league_id}/fixtures?{params}")
+                if not isinstance(obj,dict) or obj.get("success") not in (1,True):
+                    raise ValueError("Respuesta de liga inválida")
+                rows=obj.get("data") or []
+                if not isinstance(rows,list):raise ValueError("Liga no es lista")
+                for event in rows:register(event)
+            except Exception:
+                audit["errores"]+=1
+                request_errors["liga_especifica"]+=1
+
+    for ident in ambiguous:candidates.pop(ident,None)
     by_league=defaultdict(list)
     for match,event in candidates.values():
         by_league[match["liga"]].append((match,event))
     for games in by_league.values():
-        games.sort(key=lambda pair:(_dt(pair[0]["fecha_utc"]),str(pair[0]["id"])))
+        games.sort(key=lambda item:(_dt(item[0]["fecha_utc"]),str(item[0]["id"])))
     league_order=("LaLiga","Premier League","Bundesliga","Serie A",
                   "Ligue 1","Segunda División")
     balanced=[]
@@ -350,34 +462,83 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
                 if len(balanced)>=limit:break
         if not advanced:break
 
-    # Conteos anónimos, nunca nombres de eventos de terceros ni credenciales.
-    audit["eventos_api_por_liga"]=dict(sorted(provider_rows.items()))
-    audit["sin_emparejar_por_liga"]=dict(sorted(unmatched_rows.items()))
-    audit["ligas_no_reconocidas_total"]=unrecognized_leagues
-    audit["eventos_emparejados"]=len(candidates)
-    audit["ligas_emparejadas"]=sorted({m["liga"] for m,_ in candidates.values()})
-    audit["ligas_seleccionadas"]=sorted({m["liga"] for m,_ in balanced})
-    audit["partidos_por_liga"]={
-        league:sum(m["liga"]==league for m,_ in balanced)
-        for league in league_order if any(m["liga"]==league for m,_ in balanced)
-    }
     quotes=[]
+    no_price=0
     for match,event in balanced:
+        # At most 14 bookmaker-odds requests, independent of list pagination.
+        audit["consultas"]+=1
         try:
             obj=fetcher(f"{FIVE_URL}/fixtures/{event['id']}/odds",headers)
-            audit["consultas"]+=1
             if not isinstance(obj,dict) or obj.get("success") not in (1,True):
                 raise ValueError("Respuesta de cuotas inválida")
             payload=obj.get("data") or {}
-            if str(payload.get("fixture_id"))!=str(event["id"]):continue
-            quotes.extend(_five_fixture_rows(match,event["id"],payload,now))
+            if str(payload.get("fixture_id"))!=str(event["id"]):
+                no_price+=1
+                continue
+            rows=_five_fixture_rows(match,event["id"],payload,now)
+            if not rows:no_price+=1
+            quotes.extend(rows)
         except Exception:
             audit["errores"]+=1
+            request_errors["cuotas"]+=1
+
+    by_fixture=defaultdict(list)
+    for q in quotes:by_fixture[q["fixture_id"]].append(q)
+    match_counts=defaultdict(int)
+    booked_counts=defaultdict(int)
+    for match,_ in candidates.values():match_counts[match["liga"]]+=1
+    for match,_ in balanced:booked_counts[match["liga"]]+=1
+
+    coverage={}
+    for name in league_order:
+        code=FIVE_CODES[name]
+        n_model=expected[code]
+        n_api=provider_rows[code]
+        n_match=match_counts[name]
+        n_requested=booked_counts[name]
+        n_priced=sum(bool(by_fixture.get(match["id"])) for match,_ in balanced
+                     if match["liga"]==name)
+        n_quotes=sum(len(by_fixture.get(match["id"],[])) for match,_ in balanced
+                     if match["liga"]==name)
+        if n_priced:
+            state="CON_CUOTAS"
+        elif not n_model:
+            state="SIN_PARTIDOS_MODELO"
+        elif name=="Segunda División" and not community and not n_api:
+            state="NO_INCLUIDA_EN_FREE"
+        elif not n_api:
+            state="SIN_EVENTOS_PROVEEDOR"
+        elif not n_match:
+            state="SIN_COINCIDENCIA_VERIFICADA"
+        elif not n_requested:
+            state="FUERA_DEL_CUPO_DE_CONSULTAS"
+        else:
+            state="SIN_PRECIOS_VALIDOS"
+        coverage[name]={
+            "estado":state,"partidos_modelo":n_model,
+            "eventos_proveedor":n_api,"partidos_emparejados":n_match,
+            "partidos_consultados":n_requested,"partidos_con_cuotas":n_priced,
+            "cuotas":n_quotes,
+            "motivos_descartados":dict(sorted(mismatch_reasons[code].items())),
+        }
+    audit["cobertura_ligas"]=coverage
+    audit["eventos_api_por_liga"]=dict(sorted(provider_rows.items()))
+    audit["sin_emparejar_por_liga"]=dict(sorted(unmatched_rows.items()))
+    audit["ligas_no_reconocidas_total"]=unknown_leagues
+    audit["eventos_emparejados"]=len(candidates)
+    audit["ligas_emparejadas"]=sorted({m["liga"] for m,_ in candidates.values()})
+    audit["ligas_seleccionadas"]=sorted({m["liga"] for m,_ in balanced})
+    audit["partidos_por_liga"]=dict(sorted(booked_counts.items()))
+    audit["ligas_catalogo_detectadas"]=sorted(catalog_codes)
+    audit["consultas_especificas_liga"]=sorted(targeted_codes)
+    audit["errores_por_fase"]=dict(sorted(request_errors.items()))
+    audit["respuestas_sin_cuotas"]=no_price
     audit["partidos"]=len(balanced)
     audit["cuotas"]=len(quotes)
     audit["ligas_con_cuotas"]=sorted({q["liga"] for q in quotes})
     audit["estado"]="PARCIAL" if audit["errores"] else "CON_CUOTAS" if quotes else "SIN_COINCIDENCIAS"
     return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit}
+
 
 def _api_values(bet):
     """No se infieren bet IDs. Identificamos nombres explícitos de mercado."""
