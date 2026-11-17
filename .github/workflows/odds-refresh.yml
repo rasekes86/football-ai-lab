@@ -23,12 +23,17 @@ jobs:
           python-version: '3.12'
       - name: Instalar proyecto
         run: python -m pip install -e .
-      - name: Verificar las cuotas con datos de prueba, sin APIs
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar modelo y cuotas con datos de prueba, sin APIs
         run: |
-          python -m unittest discover -s tests -p 'test_odds_scheduler.py' -v
-          python -m unittest discover -s tests -p 'test_free_odds.py' -v
-          python -m unittest discover -s tests -p 'test_real_odds.py' -v
-          python -m unittest discover -s tests -p 'test_value_watchlist.py' -v
+          python -m unittest discover -s tests -v
+      - name: Verificar los módulos de la web y las adicionales
+        run: |
+          node --check site/data.mjs
+          node --check site/match_detail.mjs
+          node --test site/tests/*.test.mjs
   refresh:
     if: github.event_name != 'pull_request'
     needs: tests
