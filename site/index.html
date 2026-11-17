@@ -32,6 +32,7 @@
         <button type="button" class="nav-link" data-view="markets"><span class="nav-symbol" aria-hidden="true">▥</span>Explorar mercados</button>
         <button type="button" class="nav-link" data-view="history"><span class="nav-symbol" aria-hidden="true">▤</span>Histórico Top 3</button>
         <button type="button" class="nav-link" data-view="odds"><span class="nav-symbol" aria-hidden="true">◈</span>Cuotas +1,50</button>
+        <button type="button" class="nav-link" data-view="performance"><span class="nav-symbol" aria-hidden="true">▤</span>Rendimiento</button>
         <button type="button" class="nav-link" data-view="realodds"><span class="nav-symbol" aria-hidden="true">⇄</span>Cuotas reales</button>
         <button type="button" class="nav-link" data-view="model"><span class="nav-symbol" aria-hidden="true">▥</span>El modelo</button>
       </nav>
@@ -69,6 +70,7 @@
         <button type="button" class="mobile-link" data-view="markets">Mercados</button>
         <button type="button" class="mobile-link" data-view="history">Top 3</button>
         <button type="button" class="mobile-link" data-view="odds">Cuotas</button>
+        <button type="button" class="mobile-link" data-view="performance">Balance</button>
         <button type="button" class="mobile-link" data-view="realodds">Reales</button>
         <button type="button" class="mobile-link" data-view="model">Modelo</button>
       </nav>
@@ -333,7 +335,54 @@
             <article class="panel"><div class="panel-heading"><div><span class="overline">SIMULACIÓN · 1 U.</span><h3>Evolución acumulada</h3></div><span class="panel-mini">SOLO FINALIZADOS</span></div><div id="oddsChart" class="linechart"></div><p class="fine-print">El balance se calcula únicamente con retornos simulados registrados; no incluye pendientes.</p></article>
             <article class="panel"><div class="panel-heading"><div><span class="overline">METODOLOGÍA</span><h3>Cómo lo calculamos</h3></div></div><div class="method-grid"><div><span class="method-number">01</span><strong>Primero archivamos</strong><p>La predicción y la cuota quedan registradas antes del inicio.</p></div><div><span class="method-number">02</span><strong>Después verificamos</strong><p>Comprobamos marcador y estadística necesaria.</p></div><div><span class="method-number">03</span><strong>Simulamos 1 unidad</strong><p>Acierto: cuota menos 1. Fallo: −1. Sin dato: no computa.</p></div></div></article>
           </div>
-          <div class="panel table-panel"><div class="panel-heading"><div><span class="overline">TODAS LAS CUOTAS</span><h3>Registro de oportunidades</h3></div><span id="oddsCount" class="panel-mini"></span></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Fecha / partido</th><th>Selección</th><th>Cuota</th><th>Resultado</th><th>Simulación</th><th></th></tr></thead><tbody id="oddsRows"></tbody></table></div></div>
+          <div class="panel table-panel"><div class="panel-heading"><div><span class="overline">TODAS LAS CUOTAS</span><h3>Registro de oportunidades</h3></div><span id="oddsCount" class="panel-mini"></span></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Fecha / partido</th><th>Selección</th><th>Cuota orientativa</th><th>Apuesta: acierto/fallo</th><th>Simulación</th><th></th></tr></thead><tbody id="oddsRows"></tbody></table></div></div>
+        </section>
+
+        <section class="view" id="view-performance" aria-labelledby="performanceTitle" hidden>
+          <div class="page-intro performance-intro">
+            <div><span class="overline">05 / SCORECARD · RESULTADOS CONFIRMADOS</span>
+              <h1 id="performanceTitle">Nuestro <em>rendimiento.</em></h1>
+              <p>Solo las tres selecciones originales por partido y una adicional de cuota superior a 1,50. Aciertos y fallos verificados tras el encuentro, sin contar pronósticos exploratorios.</p>
+            </div><div class="intro-art" aria-hidden="true">3<span>+1</span></div>
+          </div>
+          <div class="panel performance-filters">
+            <label class="field"><span>COMPETICIÓN</span><select id="performanceLeague"><option value="">Todas las ligas</option></select></label>
+            <label class="field"><span>PERIODO</span><select id="performanceRange">
+              <option value="all">Todo el histórico</option><option value="30">Últimos 30 días</option>
+              <option value="90">Últimos 90 días</option><option value="365">Últimos 365 días</option>
+            </select></label>
+            <label class="field"><span>EVOLUCIÓN</span><select id="performanceGranularity">
+              <option value="week">Semanal</option><option value="month">Mensual</option>
+            </select></label>
+          </div>
+          <div class="performance-columns">
+            <article class="panel performance-block performance-top-block">
+              <div class="panel-heading"><div><span class="overline">01 / PREDICCIONES ARCHIVADAS</span><h3>Top 3 · aciertos confirmados</h3></div><span class="panel-mini">SIN CUOTAS INVENTADAS</span></div>
+              <div id="performanceTopKpis" class="kpi-grid"></div>
+              <div class="performance-plot-title">Acierto por periodo</div>
+              <div id="performanceTopChart" class="performance-periods"></div>
+              <p class="fine-print">Solo contabilizamos aciertos y fallos de las tres selecciones archivadas. No calculamos ROI con la «cuota justa» del modelo.</p>
+            </article>
+            <article class="panel performance-block performance-extra-block">
+              <div class="panel-heading"><div><span class="overline">02 / UNA ADICIONAL POR PARTIDO</span><h3>Cuota &gt;1,50 · resultado confirmado</h3></div><span class="panel-mini">1 U. HIPOTÉTICA</span></div>
+              <div id="performanceExtraKpis" class="kpi-grid"></div>
+              <div class="performance-plot-title">Balance simulado acumulado por periodo</div>
+              <div id="performanceExtraChart" class="performance-profit-chart"></div>
+              <p class="fine-print" id="performanceExtraEvidence"></p>
+            </article>
+          </div>
+          <div class="panel performance-by-league-panel">
+            <div class="panel-heading"><div><span class="overline">COMPARADOR</span><h3>Rendimiento por liga</h3></div><span class="panel-mini">DOS BALANCES SEPARADOS</span></div>
+            <div id="performanceLeagueTable" class="performance-league-grid"></div>
+          </div>
+          <div class="panel table-panel performance-ledger-panel">
+            <div class="panel-heading"><div><span class="overline">AUDITORÍA POSTPARTIDO · 3 + 1</span><h3>Selecciones y resultados</h3></div><span class="panel-mini" id="performanceCount">—</span></div>
+            <div class="table-scroll"><table class="data-table"><thead><tr>
+              <th>Fecha / encuentro</th><th>Grupo y pronóstico</th><th>Resultado verificado</th><th>Balance adicional</th><th></th>
+            </tr></thead><tbody id="performanceRows"></tbody></table></div>
+            <div class="load-wrap"><button type="button" id="performanceMore" class="btn btn-outline" hidden>Mostrar más selecciones ↓</button></div>
+          </div>
+          <div class="explanation"><strong>Cómo lo verificamos.</strong> «Acierto confirmado» o «Fallo confirmado» se determina con el marcador final y, si el mercado lo exige, estadísticas finales comprobadas. La validación de una cuota es independiente. Los precios orientativos anteriores al partido generan únicamente simulaciones, nunca rentabilidad real.</div>
         </section>
 
         <section class="view" id="view-realodds" aria-labelledby="realOddsTitle" hidden>
@@ -402,7 +451,7 @@
         <button type="button" class="score-tab" data-view="radar"><span class="score-tab-icon" aria-hidden="true">◎</span><span>Radar</span></button>
         <button type="button" class="score-tab" data-view="history"><span class="score-tab-icon" aria-hidden="true">☆</span><span>Top 3</span></button>
         <button type="button" class="score-tab" data-view="realodds"><span class="score-tab-icon" aria-hidden="true">▤</span><span>Cuotas</span></button>
-        <button type="button" class="score-tab" data-view="overview"><span class="score-tab-icon" aria-hidden="true">◫</span><span>Panel</span></button>
+        <button type="button" class="score-tab" data-view="performance"><span class="score-tab-icon" aria-hidden="true">◫</span><span>Balance</span></button>
       </nav>
       <footer class="footer"><div>FOOTBALL AI LAB <span>© 2026 · PROYECTO EXPERIMENTAL</span></div><div>Resultados publicados por GitHub Actions. <a href="https://github.com/rasekes86/football-ai-lab" target="_blank" rel="noopener noreferrer">Ver metodología ↗</a></div></footer>
     </div>
