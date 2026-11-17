@@ -245,6 +245,16 @@ class ValueWatchlistTests(unittest.TestCase):
         self.assertEqual(repeat["abstenciones_ya_archivadas"],1)
         self.assertEqual(repeat["abstenciones_sin_opcion_valida"],1)
 
+    def test_unqueried_private_api_is_not_a_failed_bet_screen(self):
+        from football_ai_lab.value_watchlist import selection_audit
+        audit=selection_audit([],[],[self.match],
+                {"estado":"DESACTIVADO","comparaciones":[]},self.now,[])
+        self.assertEqual(audit["estado"],"FUENTES_NO_CONSULTADAS")
+        self.assertEqual(audit["partidos_no_evaluados_sin_api"],1)
+        self.assertEqual(audit["abstenciones_sin_opcion_valida"],0)
+        self.assertEqual(audit["nuevas_automaticas"],0)
+        self.assertEqual(audit["por_liga"]["Segunda División"]["no_evaluados_sin_api"],1)
+
     def test_auto_stale_quote_abstains_without_manually_fabricating_it(self):
         from football_ai_lab.value_watchlist import selection_audit
         later=self.now+timedelta(hours=7)
