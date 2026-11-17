@@ -396,23 +396,29 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
         needed.append("SP2")
 
     if needed and request_budget:
-        # Do not hardcode temporary or retired provider league ids.
-        # Ask the provider for its current league catalogue; on merged ids
-        # its published documentation explains the 301 canonical-id handling.
+        # Query by precise country + competition search, not only the first
+        # page of the global "popular" catalogue (which may omit EPL/BL).
+        # The provider returns current canonical ids; no guessed id mapping.
         lookup=defaultdict(set)
-        searches=["popular=1&per_page=100"]
-        if "SP2" in needed:searches.append("country=ES&per_page=100")
-        for query in searches:
+        catalogue_query={
+            "E0":("Premier League","GB-ENG"),
+            "D1":("Bundesliga","DE"),
+            "SP2":("Segunda","ES"),
+        }
+        for code in needed:
+            if not request_budget:break
+            name,country=catalogue_query[code]
+            query=urlencode({"search":name,"country":country,"per_page":100})
             try:
                 obj=call(f"{FIVE_URL}/leagues?{query}")
                 if not isinstance(obj,dict) or obj.get("success") not in (1,True):
                     raise ValueError("Catálogo de ligas inválido")
                 for entry in obj.get("data") or []:
                     if not isinstance(entry,dict) or not entry.get("id"):continue
-                    code=_league_code(entry.get("name",""))
-                    if code:
-                        catalog_codes.add(code)
-                        lookup[code].add(str(entry["id"]))
+                    matched_code=_league_code(entry.get("name",""))
+                    if matched_code:
+                        catalog_codes.add(matched_code)
+                        lookup[matched_code].add(str(entry["id"]))
             except Exception:
                 audit["errores"]+=1
                 request_errors["catalogo"]+=1
