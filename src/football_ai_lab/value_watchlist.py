@@ -20,7 +20,10 @@ FIELDS=[
     "cuota_justa","contrato","cuota_decimal","tipo_cuota","origen_cuota",
     "fecha_cuota_utc","ref_modelo_utc","ev_teorico","estado","resultado",
     "valor_real","brier","logloss","partidos_fuente",
-    "retorno_simulado_unidad","retorno_precio_api_unidad"
+    "retorno_simulado_unidad","retorno_precio_api_unidad",
+    "proveedor_cuota","bookmaker","bookmaker_id","evento_id",
+    "mercado_proveedor","resultado_proveedor","linea_cuota",
+    "marca_tiempo_tipo","fase_cuota"
 ]
 INDICATIVE="INDICATIVA_NO_VERIFICADA"
 API="OFRECIDA_API_REGISTRADA"
@@ -114,13 +117,178 @@ def _api_candidates(matches:list[dict],now:datetime)->list[dict]:
             if row:out.append(row)
     return out
 
-def freeze(previous:list[dict],manual:dict,matches:list[dict],now:datetime)->list[dict]:
-    """El primer registro prepartido gana; posteriores recálculos no lo reescriben."""
+# Pre-match third-party prices are observations, not placed bets.
+# A positive model EV is a SCREEN, not proof of profitable value.
+MIN_AUTO_PROB=0.50
+MIN_AUTO_EV=0.03
+MAX_QUOTE_HOURS=6
+TRUSTED_COMPARISONS={"5DollarFootballAPI","API-Football","The Odds API V4"}
+CATEGORY_MARKETS={
+    "result":"1X2","goals":"Total goles",
+    "corners":"Córners totales","yellow":"Tarjetas amarillas totales",
+    "btts":"Ambos marcan",
+}
+
+
+def _verified_comparison(match:dict, raw:dict, now:datetime)->dict|None:
+    """An observed quote for the same future fixture, market, line and pick.
+
+    Free-feed actualizado_utc may be local capture, NOT a bookmaker tick.
+    We preserve this provenance and never infer an executable wager.
+    """
+    try:
+        if not isinstance(raw,dict) or raw.get("fixture_id")!=match["id"]:
+            return None
+        if (raw.get("liga")!=match["liga"] or
+                raw.get("local")!=match["local"] or
+                raw.get("visitante")!=match["visitante"] or
+                _utc(raw["fecha_utc"])!=_utc(match["fecha_utc"])):
+            return None
+        kickoff=_utc(match["fecha_utc"])
+        seen=_utc(raw["actualizado_utc"])
+        capture=_utc(raw["capturado_utc"])
+        if not (capture<=now<kickoff and seen<=now and seen<kickoff and
+                0<=(now-capture).total_seconds()<=MAX_QUOTE_HOURS*3600 and
+                0<=(now-seen).total_seconds()<=MAX_QUOTE_HOURS*3600):
+            return None
+        if raw.get("proveedor") not in TRUSTED_COMPARISONS:
+            return None
+        if raw.get("etiqueta")!="COMPARACION_INFORMATIVA_NO_VALIDADA":
+            return None
+        if not (str(raw.get("bookmaker") or "").strip() and
+                str(raw.get("bookmaker_id") or "").strip() and
+                str(raw.get("evento_id") or "").strip() and
+                str(raw.get("fuente") or "").startswith("https://")):
+            return None
+        market=CATEGORY_MARKETS.get(raw.get("categoria"))
+        if market is None:return None
+        price=_valid_price(raw.get("cuota_real"))
+        prob=float(raw.get("probabilidad_modelo"))
+        if (price is None or not isfinite(prob) or
+                not MIN_AUTO_PROB<=prob<1):
+            return None
+        # Count forecasts are used only after retrospective validation;
+        # this does not mean that profit has been prospectively validated.
+        level=str(raw.get("nivel") or "")
+        if level=="EXPLORATORIO_NO_VALIDADO":
+            return None
+        quote=dict(raw)
+        forecast={
+            "mercado":market,"seleccion":str(raw.get("seleccion") or ""),
+            "probabilidad":prob,"familia":str(raw.get("categoria")),
+            "origen":"Pronóstico prepartido / comparación exacta con bookmaker",
+            "nivel":level
+        }
+        if raw.get("categoria") in ("corners","yellow"):
+            direction=(
+                "mas" if forecast["seleccion"].startswith("Más de ") else
+                "menos" if forecast["seleccion"].startswith("Menos de ") else None)
+            forecast.update(metrica="corners" if raw["categoria"]=="corners" else "yellow",
+                            direccion=direction,linea=raw.get("linea"))
+        spec=contract(match,forecast)
+        if spec is None:return None
+        expected_market={
+            "resultado":"h2h","total":"totals","ambos":"btts",
+            "conteo":spec.get("metrica")
+        }.get(spec["tipo"])
+        if raw.get("mercado_proveedor")!=expected_market:
+            return None
+        direction=spec.get("direccion")
+        expected_result=(
+            {"H":"1","D":"X","A":"2"}.get(spec.get("pick"))
+            if spec["tipo"]=="resultado" else
+            ("over" if direction in ("mas","Más") else "under")
+            if spec["tipo"] in ("total","conteo") else
+            "yes" if spec.get("pick")=="Sí" else "no"
+        )
+        if raw.get("resultado_proveedor")!=expected_result:
+            return None
+        expected_line=spec.get("linea")
+        supplied_line=raw.get("linea")
+        if expected_line is None:
+            if supplied_line is not None:return None
+        else:
+            if supplied_line is None or abs(float(supplied_line)-expected_line)>1e-8:
+                return None
+        ev=prob*price-1
+        if ev<=MIN_AUTO_EV:return None
+        return {"forecast":forecast,"raw":quote,"price":price,"ev":ev,
+                "captured":capture,"seen":seen}
+    except (KeyError,TypeError,ValueError,OverflowError):
+        return None
+
+
+def _compared_candidates(matches:list[dict],comparisons:dict|list[dict],
+                         now:datetime,top3:list[dict]|None=None)->list[dict]:
+    """At most one automatic candidate per match, prospectively selected."""
+    rows=(comparisons.get("comparaciones") if isinstance(comparisons,dict)
+          else comparisons if isinstance(comparisons,list) else []) or []
+    if not isinstance(rows,list):return []
+    by_fixture=defaultdict(list)
+    for row in rows:
+        if isinstance(row,dict) and row.get("fixture_id"):
+            by_fixture[row["fixture_id"]].append(row)
+    frozen_top={
+        (r.get("id"),r.get("mercado"),r.get("seleccion"))
+        for r in (top3 or []) if isinstance(r,dict)
+    }
+    selected=[]
+    for match in matches:
+        if not isinstance(match,dict) or not match.get("id"):
+            continue
+        options=[]
+        for quote in by_fixture.get(match["id"],[]):
+            candidate=_verified_comparison(match,quote,now)
+            if candidate is None:continue
+            forecast=candidate["forecast"]
+            if (match["id"],forecast["mercado"],forecast["seleccion"]) in frozen_top:
+                continue
+            options.append(candidate)
+        options.sort(key=lambda x:(
+            -x["ev"],-x["forecast"]["probabilidad"],-x["price"],
+            str(x["raw"]["seleccion"]),str(x["raw"]["bookmaker_id"])))
+        if not options:continue
+        chosen=options[0]
+        row=chosen["raw"];forecast=chosen["forecast"]
+        origin=(f'{row["proveedor"]} · {row["bookmaker"]} · '
+                f'{row["fuente"]}')
+        new=_candidate(match,forecast,price=chosen["price"],
+                       origin=origin,kind=API,now=now,
+                       observed=chosen["seen"].isoformat(),
+                       model_ref=str(match.get("calculado_utc") or ""))
+        if new is None:continue
+        new.update({
+            "proveedor_cuota":str(row["proveedor"]),
+            "bookmaker":str(row["bookmaker"]),
+            "bookmaker_id":str(row["bookmaker_id"]),
+            "evento_id":str(row["evento_id"]),
+            "mercado_proveedor":str(row["mercado_proveedor"]),
+            "resultado_proveedor":str(row["resultado_proveedor"]),
+            "linea_cuota":str(row["linea"]) if row.get("linea") is not None else "",
+            "marca_tiempo_tipo":str(row.get("marca_tiempo_tipo") or ""),
+            "fase_cuota":str(row.get("fase_cuota") or ""),
+        })
+        selected.append(new)
+    return selected
+
+
+def freeze(previous:list[dict],manual:dict,matches:list[dict],now:datetime,
+           comparisons:dict|list[dict]|None=None,
+           top3:list[dict]|None=None)->list[dict]:
+    """Freeze one additional per match; earliest valid pre-match write wins.
+
+    Already archived records including five manual examples are immutable.
+    We never post-hoc replace an indicative price with a current API quote.
+    """
     old=[dict(x) for x in previous]
-    known={x["clave"] for x in old if x.get("clave")}
-    for c in _manual_candidates(manual,matches,now)+_api_candidates(matches,now):
-        if c["clave"] in known:continue
-        old.append(c);known.add(c["clave"])
+    covered={x.get("id") for x in old if x.get("id")}
+    new_manual=_manual_candidates(manual,matches,now)
+    automatic=(_compared_candidates(matches,comparisons,now,top3)
+               if comparisons is not None else _api_candidates(matches,now))
+    for row in [*new_manual,*automatic]:
+        if not row.get("id") or row["id"] in covered:continue
+        old.append(row)
+        covered.add(row["id"])
     return old
 
 def evaluate(rows:list[dict],histories:dict,now:datetime)->tuple[list[dict],dict]:
