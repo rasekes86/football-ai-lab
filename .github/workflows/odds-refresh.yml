@@ -43,11 +43,11 @@ jobs:
         run: python -m pip install -e .
       - name: Refrescar cuotas solo de partidos sin adicional
         env:
-          ENABLE_FREE_ODDS: '${{ vars.ENABLE_FREE_ODDS || 'false' }'
-          FIVEDOLLAR_API_KEY: '${{ secrets.FIVEDOLLAR_API_KEY }'
-          ENABLE_FIVE_SEGUNDA: '${{ vars.ENABLE_FIVE_SEGUNDA || 'false' }'
+          ENABLE_FREE_ODDS: '${{ vars.ENABLE_FREE_ODDS || 'false' }}'
+          FIVEDOLLAR_API_KEY: '${{ secrets.FIVEDOLLAR_API_KEY }}'
+          ENABLE_FIVE_SEGUNDA: '${{ vars.ENABLE_FIVE_SEGUNDA || 'false' }}'
           FREE_ODDS_MAX_FIXTURES: '35'
-          FREE_ODDS_HOURLY_BUDGET: '${{ vars.FREE_ODDS_HOURLY_BUDGET || '48' }'
+          FREE_ODDS_HOURLY_BUDGET: '${{ vars.FREE_ODDS_HOURLY_BUDGET || '48' }}'
           ENABLE_API_FOOTBALL_ODDS: 'false'
           ENABLE_REAL_ODDS: 'false'
         run: python -m football_ai_lab.odds_refresh
