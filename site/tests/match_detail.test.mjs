@@ -72,7 +72,7 @@ test("sporting hit and miss independent of indicative or API price",()=>{
 test("missing and future result are never fabricated",()=>{
   const m=match();
   let html=renderMatchDetail(m,crest,now);
-  assert.match(html,/Sin adicional archivada/);
+  assert.match(html,/Pendiente de consulta/);
   assert.match(html,/Todavía no hay un Top 3 archivado/);
   assert.match(html,/Pendiente de disputar/);
   assert.match(html,/>VS</);
@@ -82,6 +82,16 @@ test("missing and future result are never fabricated",()=>{
   assert.doesNotMatch(html,/class="match-v2-result"/);
 });
 
+test("detail explicitly distinguishes rejected extra and reports last real consultation",()=>{
+  const m=match();
+  m.additionalAudit="NO_SUPERA_FILTROS";
+  m.additionalAuditDetail={ultima_consulta_utc:"2026-11-17T15:07:29Z"};
+  const html=renderMatchDetail(m,crest,now);
+  assert.match(html,/Sin adicional viable/);
+  assert.match(html,/Última consulta registrada/);
+  assert.match(html,/ninguna cumple todos los filtros/);
+  assert.doesNotMatch(html,/Sin consulta:/);
+});
 test("first valid archived additional selected; no second price or old late quote",()=>{
   const m=match();
   const early=extra(m);
