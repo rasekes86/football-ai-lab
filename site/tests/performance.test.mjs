@@ -46,7 +46,7 @@ test("adicional solo si fue archivada antes del partido, cuota superior a 1,50 y
   assert.equal(perf.additional.registered,1);
   assert.equal(perf.additional.settled,1);
   assert.ok(Math.abs(perf.additional.profit-0.90)<1e-12);
-  assert.equal(perf.additional.roi,0.90);
+  assert.ok(Math.abs(perf.additional.roi-0.90)<1e-12);
   assert.equal(perf.additional.indicativeCount,1);
   assert.equal(perf.additional.observedCount,0);
   assert.equal(perf.safeguards.ignoredAdditionalDuplicates,1);
