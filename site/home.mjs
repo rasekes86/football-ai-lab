@@ -5,6 +5,7 @@
  */
 import {numberOrNull, settled} from "./data.mjs";
 import {performanceSnapshot} from "./performance.mjs";
+import {additionalStatus} from "./additional_status.mjs";
 
 const madrid=new Intl.DateTimeFormat("es-ES",{
   timeZone:"Europe/Madrid",day:"2-digit",month:"short",
@@ -64,7 +65,9 @@ function matchCard(m,crest){
     '<div class="home-extra"><div><span class="home-label">ADICIONAL +1,50</span>'+
     '<strong>'+escape(extra.seleccion)+'</strong></div>'+
     '<span class="home-odds"><small>CUOTA REGISTRADA</small><b>'+escape(price)+'</b></span></div>':
-    '<div class="home-extra home-extra-empty">Sin adicional archivada para este partido.</div>';
+    '<div class="home-extra home-extra-empty '+escape(additionalStatus(m)?.style||"pending")+'">'+
+    '<span><strong>'+escape(additionalStatus(m)?.label||"Sin adicional archivada")+'</strong>'+
+    '<small>'+escape(additionalStatus(m)?.explanation||"No consta una cuota verificada.")+'</small></span></div>';
   return '<article class="home-fixture">'+
     '<div class="home-match-head"><span>'+escape(m.liga)+'</span>'+
     '<time>'+escape(date(m.fecha_utc))+'</time></div>'+
