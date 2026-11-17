@@ -7,6 +7,12 @@
   <meta name="description" content="Football AI Lab · pronósticos de seis ligas, seguimiento de las tres selecciones por partido y resultados verificados.">
   <title>Football AI Lab · Fútbol, partidos y pronósticos</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <meta name="application-name" content="Football AI Lab">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -50,6 +56,7 @@
         <div class="topbar-right">
           <div class="sync-status" id="syncStatus" role="status"><span class="status-dot"></span><span id="syncText">Conectando datos…</span></div>
           <div class="sync-time" id="updatedLabel">Última publicación: —</div>
+          <button type="button" class="pwa-install-btn" id="pwaInstallButton" hidden aria-controls="pwaInstallHelp"><span aria-hidden="true">↓</span><span>Instalar app</span></button>
           <button type="button" class="refresh-btn" id="refreshButton" title="Volver a descargar los datos" aria-label="Actualizar datos">↻ <span>Actualizar</span></button>
         </div>
       </header>
@@ -66,6 +73,10 @@
         <button type="button" class="mobile-link" data-view="model">Modelo</button>
       </nav>
 
+      <div class="pwa-offline-banner" id="pwaOfflineBanner" role="status" hidden>
+        <span aria-hidden="true">◌</span>
+        <span>Sin conexión. Se muestra la interfaz guardada; los pronósticos y las cuotas necesitan internet para actualizarse.</span>
+      </div>
       <main id="main" tabindex="-1">
         <div id="errorBanner" class="error-banner" role="alert" hidden></div>
 
@@ -396,6 +407,12 @@
       <div id="dialogBody"></div>
     </div>
   </div>
+  <aside class="pwa-install-help" id="pwaInstallHelp" hidden role="status" aria-live="polite">
+    <div><strong>Instalar Football AI Lab</strong><button id="pwaHelpClose" type="button" aria-label="Cerrar instrucciones">×</button></div>
+    <p id="pwaInstallHelpText"></p>
+    <small>Gratis · Sin Play Store · Funciona con GitHub Pages</small>
+  </aside>
   <script type="module" src="./app.js"></script>
+  <script type="module" src="./pwa.js"></script>
 </body>
 </html>
