@@ -16,10 +16,10 @@
 | Sevilla – Real Betis | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.9% | 2.10 | Pendiente | — |
 | Manchester City – Fulham | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 67.2% | 1.67 | Pendiente | — |
 | Bayern Munich – FC Cologne | Sí (OFRECIDA_API_REGISTRADA) | 57.7% | 1.91 | Pendiente | — |
-| Como – Cagliari | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.8% | 2.50 | Pendiente | — |
+| Como – Cagliari | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.6% | 1.61 | Pendiente | — |
 | Lazio – Lecce | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.7% | 2.38 | Pendiente | — |
 | Nice – Paris Saint-Germain | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.0% | 1.85 | Pendiente | — |
-| Troyes – Le Havre AC | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 63.7% | 1.82 | Pendiente | — |
+| Troyes – Le Havre AC | Sí (OFRECIDA_API_REGISTRADA) | 64.7% | 1.67 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.

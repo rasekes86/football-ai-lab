@@ -1,6 +1,6 @@
 {
   "version": "market-selector-0.7",
-  "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+  "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
   "lineas_conteos_aprobadas_retro": [
     "SP1|corners|9.5",
     "SP1|corners|10.5",
@@ -95,7 +95,7 @@
       "liga": "LaLiga",
       "local": "Athletic Club",
       "visitante": "Espanyol",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -319,7 +319,7 @@
       "liga": "LaLiga",
       "local": "Rayo Vallecano",
       "visitante": "Valencia",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -543,7 +543,7 @@
       "liga": "LaLiga",
       "local": "Sevilla",
       "visitante": "Real Betis",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -762,7 +762,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Celta Vigo",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -986,7 +986,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Villarreal",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -1205,7 +1205,7 @@
       "liga": "LaLiga",
       "local": "Osasuna",
       "visitante": "Málaga",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -1268,7 +1268,7 @@
       "liga": "LaLiga",
       "local": "Getafe",
       "visitante": "Atlético Madrid",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -1487,7 +1487,7 @@
       "liga": "LaLiga",
       "local": "Levante",
       "visitante": "Elche",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -1701,7 +1701,7 @@
       "liga": "LaLiga",
       "local": "Real Betis",
       "visitante": "Rayo Vallecano",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -1920,7 +1920,7 @@
       "liga": "LaLiga",
       "local": "Málaga",
       "visitante": "Athletic Club",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -1983,7 +1983,7 @@
       "liga": "LaLiga",
       "local": "Elche",
       "visitante": "Atlético Madrid",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -2207,7 +2207,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Alavés",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -2426,7 +2426,7 @@
       "liga": "LaLiga",
       "local": "Valencia",
       "visitante": "Osasuna",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -2650,7 +2650,7 @@
       "liga": "LaLiga",
       "local": "Celta Vigo",
       "visitante": "Villarreal",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -2864,7 +2864,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Sevilla",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -3083,7 +3083,7 @@
       "liga": "LaLiga",
       "local": "Espanyol",
       "visitante": "Getafe",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -3302,7 +3302,7 @@
       "liga": "Segunda División",
       "local": "FC Andorra",
       "visitante": "Leganés",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -3521,7 +3521,7 @@
       "liga": "Segunda División",
       "local": "CD Sabadell",
       "visitante": "Granada",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -3584,7 +3584,7 @@
       "liga": "Segunda División",
       "local": "Real Sociedad II",
       "visitante": "Cádiz",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -3803,7 +3803,7 @@
       "liga": "Segunda División",
       "local": "Castellón",
       "visitante": "Eldense",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4022,7 +4022,7 @@
       "liga": "Segunda División",
       "local": "Tenerife",
       "visitante": "Mallorca",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4085,7 +4085,7 @@
       "liga": "Segunda División",
       "local": "Córdoba",
       "visitante": "Real Oviedo",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4304,7 +4304,7 @@
       "liga": "Segunda División",
       "local": "Sporting Gijón",
       "visitante": "Las Palmas",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4523,7 +4523,7 @@
       "liga": "Segunda División",
       "local": "Girona",
       "visitante": "Eibar",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4586,7 +4586,7 @@
       "liga": "Segunda División",
       "local": "RC Celta Fortuna",
       "visitante": "Real Valladolid",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4649,7 +4649,7 @@
       "liga": "Segunda División",
       "local": "Burgos",
       "visitante": "Albacete",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -4868,7 +4868,7 @@
       "liga": "Segunda División",
       "local": "Ceuta",
       "visitante": "Almería",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -5092,7 +5092,7 @@
       "liga": "Segunda División",
       "local": "Leganés",
       "visitante": "CD Sabadell",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -5155,7 +5155,7 @@
       "liga": "Segunda División",
       "local": "Las Palmas",
       "visitante": "FC Andorra",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -5374,7 +5374,7 @@
       "liga": "Segunda División",
       "local": "Albacete",
       "visitante": "Tenerife",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -5593,7 +5593,7 @@
       "liga": "Segunda División",
       "local": "Eldense",
       "visitante": "Girona",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -5656,7 +5656,7 @@
       "liga": "Segunda División",
       "local": "Eibar",
       "visitante": "Burgos",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -5870,7 +5870,7 @@
       "liga": "Segunda División",
       "local": "Real Valladolid",
       "visitante": "Real Sociedad II",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -6084,7 +6084,7 @@
       "liga": "Segunda División",
       "local": "Granada",
       "visitante": "Ceuta",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -6298,7 +6298,7 @@
       "liga": "Segunda División",
       "local": "Mallorca",
       "visitante": "Castellón",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -6361,7 +6361,7 @@
       "liga": "Segunda División",
       "local": "Cádiz",
       "visitante": "Córdoba",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -6575,7 +6575,7 @@
       "liga": "Segunda División",
       "local": "Almería",
       "visitante": "Sporting Gijón",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -6794,7 +6794,7 @@
       "liga": "Segunda División",
       "local": "Real Oviedo",
       "visitante": "RC Celta Fortuna",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -6857,7 +6857,7 @@
       "liga": "Premier League",
       "local": "Manchester City",
       "visitante": "Fulham",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -7071,7 +7071,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Nottingham Forest",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -7285,7 +7285,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Sunderland",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -7499,7 +7499,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Leeds United",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -7713,7 +7713,7 @@
       "liga": "Premier League",
       "local": "Coventry City",
       "visitante": "Crystal Palace",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -7776,7 +7776,7 @@
       "liga": "Premier League",
       "local": "Tottenham Hotspur",
       "visitante": "Ipswich Town",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -7990,7 +7990,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Arsenal",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -8204,7 +8204,7 @@
       "liga": "Premier League",
       "local": "Hull City",
       "visitante": "Brighton & Hove Albion",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -8267,7 +8267,7 @@
       "liga": "Premier League",
       "local": "Liverpool",
       "visitante": "Manchester United",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -8481,7 +8481,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Everton",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -8695,7 +8695,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Chelsea",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -8909,7 +8909,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Coventry City",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -8972,7 +8972,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Brentford",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -9186,7 +9186,7 @@
       "liga": "Premier League",
       "local": "Ipswich Town",
       "visitante": "Aston Villa",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -9400,7 +9400,7 @@
       "liga": "Premier League",
       "local": "Everton",
       "visitante": "Liverpool",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -9614,7 +9614,7 @@
       "liga": "Premier League",
       "local": "Brighton & Hove Albion",
       "visitante": "Newcastle United",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -9828,7 +9828,7 @@
       "liga": "Premier League",
       "local": "Crystal Palace",
       "visitante": "Hull City",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -9891,7 +9891,7 @@
       "liga": "Premier League",
       "local": "Fulham",
       "visitante": "AFC Bournemouth",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -10105,7 +10105,7 @@
       "liga": "Premier League",
       "local": "Sunderland",
       "visitante": "Tottenham Hotspur",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -10324,7 +10324,7 @@
       "liga": "Premier League",
       "local": "Arsenal",
       "visitante": "Manchester City",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -10538,7 +10538,7 @@
       "liga": "Bundesliga",
       "local": "Bayern Munich",
       "visitante": "FC Cologne",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -10757,7 +10757,7 @@
       "liga": "Bundesliga",
       "local": "1. FC Union Berlin",
       "visitante": "RB Leipzig",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -10971,7 +10971,7 @@
       "liga": "Bundesliga",
       "local": "Borussia Mönchengladbach",
       "visitante": "Borussia Dortmund",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -11185,7 +11185,7 @@
       "liga": "Bundesliga",
       "local": "Eintracht Frankfurt",
       "visitante": "TSG Hoffenheim",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -11404,7 +11404,7 @@
       "liga": "Bundesliga",
       "local": "FC Augsburg",
       "visitante": "Mainz",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -11623,7 +11623,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Hamburg SV",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -11842,7 +11842,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Borussia Mönchengladbach",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -12061,7 +12061,7 @@
       "liga": "Bundesliga",
       "local": "Hamburg SV",
       "visitante": "Bayern Munich",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -12285,7 +12285,7 @@
       "liga": "Bundesliga",
       "local": "Mainz",
       "visitante": "1. FC Union Berlin",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -12499,7 +12499,7 @@
       "liga": "Bundesliga",
       "local": "SC Paderborn 07",
       "visitante": "Schalke 04",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -12562,7 +12562,7 @@
       "liga": "Bundesliga",
       "local": "VfB Stuttgart",
       "visitante": "Eintracht Frankfurt",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -12776,7 +12776,7 @@
       "liga": "Bundesliga",
       "local": "SC Freiburg",
       "visitante": "RB Leipzig",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -12990,7 +12990,7 @@
       "liga": "Bundesliga",
       "local": "TSG Hoffenheim",
       "visitante": "FC Augsburg",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -13209,7 +13209,7 @@
       "liga": "Bundesliga",
       "local": "Borussia Dortmund",
       "visitante": "Bayer Leverkusen",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -13428,7 +13428,7 @@
       "liga": "Serie A",
       "local": "Como",
       "visitante": "Cagliari",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -13642,7 +13642,7 @@
       "liga": "Serie A",
       "local": "Lazio",
       "visitante": "Lecce",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -13856,7 +13856,7 @@
       "liga": "Serie A",
       "local": "Parma",
       "visitante": "AS Roma",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -14070,7 +14070,7 @@
       "liga": "Serie A",
       "local": "Napoli",
       "visitante": "Torino",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -14284,7 +14284,7 @@
       "liga": "Serie A",
       "local": "Juventus",
       "visitante": "Venezia",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -14498,7 +14498,7 @@
       "liga": "Serie A",
       "local": "Bologna",
       "visitante": "Udinese",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -14712,7 +14712,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Genoa",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -14926,7 +14926,7 @@
       "liga": "Serie A",
       "local": "AC Milan",
       "visitante": "Frosinone",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -15140,7 +15140,7 @@
       "liga": "Serie A",
       "local": "Atalanta",
       "visitante": "Internazionale",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -15354,7 +15354,7 @@
       "liga": "Serie A",
       "local": "Monza",
       "visitante": "Fiorentina",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -15568,7 +15568,7 @@
       "liga": "Serie A",
       "local": "Venezia",
       "visitante": "Bologna",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -15782,7 +15782,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Parma",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -15996,7 +15996,7 @@
       "liga": "Serie A",
       "local": "Torino",
       "visitante": "Lazio",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -16210,7 +16210,7 @@
       "liga": "Serie A",
       "local": "Internazionale",
       "visitante": "Genoa",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -16424,7 +16424,7 @@
       "liga": "Serie A",
       "local": "Udinese",
       "visitante": "Fiorentina",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -16638,7 +16638,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Napoli",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -16852,7 +16852,7 @@
       "liga": "Serie A",
       "local": "AS Roma",
       "visitante": "Monza",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -17066,7 +17066,7 @@
       "liga": "Serie A",
       "local": "Como",
       "visitante": "Juventus",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -17280,7 +17280,7 @@
       "liga": "Serie A",
       "local": "Lecce",
       "visitante": "Atalanta",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -17494,7 +17494,7 @@
       "liga": "Serie A",
       "local": "Cagliari",
       "visitante": "AC Milan",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -17708,7 +17708,7 @@
       "liga": "Ligue 1",
       "local": "Troyes",
       "visitante": "Le Havre AC",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -17771,7 +17771,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Paris Saint-Germain",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -17985,7 +17985,7 @@
       "liga": "Ligue 1",
       "local": "AS Monaco",
       "visitante": "AJ Auxerre",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -18204,7 +18204,7 @@
       "liga": "Ligue 1",
       "local": "Lens",
       "visitante": "Toulouse",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -18418,7 +18418,7 @@
       "liga": "Ligue 1",
       "local": "Lille",
       "visitante": "Lyon",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -18632,7 +18632,7 @@
       "liga": "Ligue 1",
       "local": "Strasbourg",
       "visitante": "Brest",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -18851,7 +18851,7 @@
       "liga": "Ligue 1",
       "local": "Paris FC",
       "visitante": "Angers",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -19065,7 +19065,7 @@
       "liga": "Ligue 1",
       "local": "Lorient",
       "visitante": "Stade Rennais",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -19279,7 +19279,7 @@
       "liga": "Ligue 1",
       "local": "Marseille",
       "visitante": "Le Mans",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -19342,7 +19342,7 @@
       "liga": "Ligue 1",
       "local": "Brest",
       "visitante": "Paris FC",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -19556,7 +19556,7 @@
       "liga": "Ligue 1",
       "local": "Angers",
       "visitante": "Lens",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -19770,7 +19770,7 @@
       "liga": "Ligue 1",
       "local": "Le Havre AC",
       "visitante": "Strasbourg",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -19984,7 +19984,7 @@
       "liga": "Ligue 1",
       "local": "Le Mans",
       "visitante": "Lille",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -20047,7 +20047,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Troyes",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -20110,7 +20110,7 @@
       "liga": "Ligue 1",
       "local": "Paris Saint-Germain",
       "visitante": "Lorient",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -20324,7 +20324,7 @@
       "liga": "Ligue 1",
       "local": "AJ Auxerre",
       "visitante": "Marseille",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -20538,7 +20538,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Stade Rennais",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,
@@ -20752,7 +20752,7 @@
       "liga": "Ligue 1",
       "local": "Lyon",
       "visitante": "AS Monaco",
-      "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
+      "calculado_utc": "2026-11-17T23:02:30.433408+00:00",
       "version": "market-selector-0.7",
       "filtros": {
         "probabilidad_minima": 0.55,

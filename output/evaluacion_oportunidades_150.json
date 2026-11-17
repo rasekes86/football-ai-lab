@@ -1,6 +1,6 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-17T22:33:23.154585+00:00",
+  "generado_utc": "2026-11-17T23:02:30.433408+00:00",
   "registradas": 14,
   "finalizadas": 5,
   "pendientes": 9,
@@ -10,9 +10,9 @@
   "verificacion": {
     "resultados_verificados": 5,
     "resultados_pendientes_o_sin_dato": 9,
-    "cuotas_api_observadas_antes_del_partido": 9,
+    "cuotas_api_observadas_antes_del_partido": 7,
     "cuotas_indicativas_no_acreditadas": 5,
-    "cuotas_api_sin_prueba_temporal": 0,
+    "cuotas_api_sin_prueba_temporal": 2,
     "nota": "El marcador y la liquidación pueden estar verificados aunque la cuota sea una referencia no acreditada. Terminar el partido no demuestra retroactivamente el precio ofrecido."
   },
   "global": {
@@ -49,7 +49,7 @@
   },
   "por_mercado": {
     "Total goles": {
-      "registradas": 11,
+      "registradas": 10,
       "evaluadas": 3,
       "aciertos": 3,
       "acierto_pct": 100.0,
@@ -69,7 +69,7 @@
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Ambos marcan": {
-      "registradas": 1,
+      "registradas": 2,
       "evaluadas": 0,
       "aciertos": 0,
       "acierto_pct": null,
@@ -335,8 +335,10 @@
       "ev_teorico_estrictamente_mayor_que": 0.03,
       "antiguedad_maxima_horas": 6,
       "top3_original": "Nunca se modifica ni se duplica la misma seleccion exacta",
-      "historico": "Primera adicional valida archivada antes del inicio; inmutable"
+      "historico": "Primera adicional valida archivada antes del inicio; inmutable salvo revisión excepcional del usuario antes del encuentro",
+      "orden_seleccion": "Mayor probabilidad del modelo entre cuotas verificadas >1,50 y EV>3%, con calidad mínima",
+      "calibracion": "NO_CALIBRADA: muestra prospectiva insuficiente; no confundir probabilidad estimada con acierto probado"
     },
-    "advertencia": "El valor esperado usa probabilidades experimentales no calibradas. Las cuotas son observaciones prepartido, no ofertas ejecutadas. No existe ventaja economica demostrada."
+    "advertencia": "La ordenación prioriza probabilidad estimada, no calibrada prospectivamente. El valor esperado usa probabilidades experimentales no calibradas. Las cuotas son observaciones prepartido, no ofertas ejecutadas. No existe ventaja economica demostrada."
   }
 }
