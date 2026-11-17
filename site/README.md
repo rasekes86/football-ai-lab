@@ -219,3 +219,18 @@ simulados. Para observar la incorporación de nuevas adicionales con las API
 reales es necesaria una ejecución programada o manual autorizada (`Run workflow`)
 con las variables/secretos que ya estén activos; los eventos `push` de código
 no realizan consultas privadas a las APIs.
+
+## Rendimiento 3+1 y adicional automatizada (noviembre de 2026)
+
+El apartado **Rendimiento** muestra dos registros independientes:
+
+- **Top 3**: únicamente las tres selecciones originales congeladas antes del encuentro. Aciertos, fallos y pendientes se determinan con estadísticas finales verificadas. No se inventa una cuota de casa para calcular su ROI.
+- **Adicional +1,50**: como máximo una selección prepartido por partido. Usa un precio de bookmaker observado de 5DollarFootballAPI, API-Football o The Odds API cuando se obtiene y se coteja exactamente con el mismo partido, mercado, resultado y línea. Se exige cuota mayor que 1,50, probabilidad del modelo al menos 50 %, EV matemático superior al 3 % y captura reciente (máximo seis horas). Estos filtros son experimentales y no garantizan ventaja. La primera adicional archivada es inmutable.
+
+Los precios de **referencia manual histórica** conservan su etiqueta `INDICATIVA_NO_VERIFICADA`. Los precios observados automáticamente quedan como `OFRECIDA_API_REGISTRADA`, con bookmaker, proveedor, evento, mercado y marca temporal. Ninguno implica que se haya ejecutado una apuesta. Una selección puede estar acertada o fallada y liquidada aunque la cuota de referencia no esté acreditada. El ROI y beneficio de la adicional son **únicamente simulaciones de una unidad**, no dinero ganado.
+
+En `output/evaluacion_oportunidades_150.json` se publica `seleccion_automatica`: nuevas selecciones, partidos con comparaciones, abstenciones, registros anteriores y desglose por liga. La PWA lo muestra en **Rendimiento → Selección automática**. Si ninguna cuota reúne los criterios, no se crea una apuesta ficticia.
+
+Los workflows activados por **cambios de código** no consumen la cuota gratuita de las APIs privadas. El diagnóstico en esos casos dice `FUENTES_NO_CONSULTADAS`, no que se rechazaron apuestas. Para registrar nuevas adicionales con precios reales es necesario que el workflow **Analisis futbol diario** se ejecute por su horario o manualmente, con los secretos y variables de cuotas ya habilitados. El proceso se realiza una sola vez por ejecución y reutiliza las comparaciones obtenidas, sin añadir consultas a proveedores.
+
+Pruebas: `tests/test_value_watchlist.py` y `site/tests/performance*.test.mjs`. Se verifican el límite 3+1, integridad de la evidencia, ausencia de recalculado retroactivo, abstenciones, resultados postpartido y la no confusión entre precio y resultado.
