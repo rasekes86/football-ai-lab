@@ -354,10 +354,13 @@
         <section class="view" id="view-performance" aria-labelledby="performanceTitle" hidden>
           <div class="page-intro performance-intro">
             <div><span class="overline">05 / SCORECARD · RESULTADOS CONFIRMADOS</span>
-              <h1 id="performanceTitle">Nuestro <em>rendimiento.</em></h1>
+              <h1 id="performanceTitle">Tus <em>resultados.</em></h1>
               <p>Solo las tres selecciones originales por partido y una adicional de cuota superior a 1,50. Aciertos y fallos verificados tras el encuentro, sin contar pronósticos exploratorios.</p>
             </div><div class="intro-art" aria-hidden="true">3<span>+1</span></div>
           </div>
+          <div class="performance-mobile-summary" id="performanceMobileSummary" aria-live="polite">Cargando resultados…</div>
+          <button type="button" class="performance-expand" id="performanceExpandButton" aria-controls="performanceAdvanced" aria-expanded="false">Ver análisis completo, filtros e histórico <span aria-hidden="true">⌄</span></button>
+          <div id="performanceAdvanced" class="performance-advanced">
           <div class="panel performance-filters">
             <label class="field"><span>COMPETICIÓN</span><select id="performanceLeague"><option value="">Todas las ligas</option></select></label>
             <label class="field"><span>PERIODO</span><select id="performanceRange">
@@ -395,6 +398,7 @@
               <th>Fecha / encuentro</th><th>Grupo y pronóstico</th><th>Resultado verificado</th><th>Balance adicional</th><th></th>
             </tr></thead><tbody id="performanceRows"></tbody></table></div>
             <div class="load-wrap"><button type="button" id="performanceMore" class="btn btn-outline" hidden>Mostrar más selecciones ↓</button></div>
+          </div>
           </div>
           <div class="explanation"><strong>Cómo lo verificamos.</strong> «Acierto confirmado» o «Fallo confirmado» se determina con el marcador final y, si el mercado lo exige, estadísticas finales comprobadas. La validación de una cuota es independiente. Los precios orientativos anteriores al partido generan únicamente simulaciones, nunca rentabilidad real.</div>
         </section>
