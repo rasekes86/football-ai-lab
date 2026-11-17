@@ -110,10 +110,14 @@ function fixture(group){
     '<div class="results-v2-groups"><div><span>TOP 3</span>'+
     '<strong>'+fmt.format(wins)+' aciertos / '+fmt.format(resolved.length)+' resueltos</strong>'+
     '<small>'+fmt.format(group.top.length-resolved.length)+' sin liquidar</small></div>'+
-    '<div><span>ADICIONAL +1,50</span>'+
-    '<strong class="'+(extra?result(extra):"pending")+'">'+
-    (extra?esc(stateLabel(extra)):"Sin selección")+'</strong>'+
-    '<small>'+(hasExtra?esc(extraType)+' · '+esc(odd):"No archivada")+'</small></div></div>'+
+    '<div class="results-v2-fixture-extra"><span>ADICIONAL +1,50</span>'+
+    (hasExtra?
+      '<small class="results-v2-fixture-market">'+esc(extra.mercado||"Mercado")+'</small>'+
+      '<strong class="results-v2-fixture-selection">'+esc(extra.seleccion||"Selección no publicada")+'</strong>'+
+      '<small>'+esc(extraType)+' · cuota '+esc(odd)+'</small>':
+      '<strong>Sin selección archivada</strong>')+
+    '<small class="'+(extra?result(extra):"pending")+'">'+
+    (extra?esc(stateLabel(extra)):"")+'</small></div></div>'+
     '<details class="results-v2-fixture-details"><summary>Ver selecciones'+
     '<span aria-hidden="true">⌄</span></summary><div>'+
     group.top.map(pickLine).join("")+
@@ -122,11 +126,56 @@ function fixture(group){
     '<button class="results-v2-open" type="button" data-open-id="'+esc(group.id)+
     '">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>';
 }
-export function renderResultsMobile(info={},matches=[],limit=6){
+
+/**
+ * Registered +1.50 selections, including games that have not kicked off.
+ * Uses only the one-additional-per-fixture rows already audited by
+ * performanceSnapshot; does not promote an exploratory market to a pick.
+ */
+export function archivedAdditionalCards(info={},limit=8,now=new Date()){
+  const current=now.getTime();
+  const picks=(info.rows||[]).filter(r=>r?.group==="Adicional +1,50"&&r.id);
+  const ordered=[...picks].sort((a,b)=>{
+    const ak=Date.parse(a.fecha_utc||""),bk=Date.parse(b.fecha_utc||"");
+    const af=Number.isFinite(ak)&&ak>current,bf=Number.isFinite(bk)&&bk>current;
+    if(af!==bf)return af?-1:1;
+    const ap=result(a)==="pending"&&af, bp=result(b)==="pending"&&bf;
+    if(ap!==bp)return ap?-1:1;
+    return af?(ak-bk):(bk-ak);
+  });
+  const max=Math.max(1,Math.min(100,Number(limit)||8));
+  const html=ordered.slice(0,max).map(row=>{
+    const p=Number.isFinite(Number(row.price))&&Number(row.price)>1.5?
+      oddsFmt.format(Number(row.price)):"—";
+    const isApi=row.tipo_cuota==="OFRECIDA_API_REGISTRADA";
+    const label=result(row);
+    return '<article class="results-v2-additional-card">'+
+      '<div class="results-v2-additional-meta"><span>'+esc(row.liga||"Competición")+
+      '</span><time>'+esc(date(row.fecha_utc))+'</time></div>'+
+      '<div class="results-v2-additional-teams">'+esc(row.local||"Local")+
+      ' – '+esc(row.visitante||"Visitante")+'</div>'+
+      '<div class="results-v2-additional-choice"><div><small>'+esc(row.mercado||"Mercado archivado")+
+      '</small><strong>'+esc(row.seleccion||"Selección no publicada")+'</strong></div>'+
+      '<div class="results-v2-additional-quote"><small>'+(isApi?"CUOTA API":"CUOTA INDICATIVA")+
+      '</small><b>'+esc(p)+'</b></div></div>'+
+      '<div class="results-v2-additional-bottom"><span class="results-v2-additional-outcome '+label+
+      '">'+esc(stateLabel(row))+'</span>'+
+      '<button type="button" data-open-id="'+esc(row.id)+'">Ver ficha <span aria-hidden="true">›</span></button></div>'+
+      '</article>';
+  }).join("");
+  return {
+    html:html||'<div class="results-v2-empty">No hay adicionales archivadas con estos filtros. Si no se encontró cuota válida, no se ha creado ninguna selección.</div>',
+    total:ordered.length,
+    hasMore:ordered.length>max
+  };
+}
+
+export function renderResultsMobile(info={},matches=[],limit=6,additionalLimit=8,now=new Date()){
   const top=info.top||{hits:0,settled:0,unresolved:0,accuracy:null};
   const extra=info.additional||{hits:0,settled:0,unresolved:0,accuracy:null,
     profit:null,indicativeSettled:0,observedSettled:0};
   const recent=recentResultGroups(info,matches,limit);
+  const additionalCards=archivedAdditionalCards(info,additionalLimit,now);
   const balance='<div class="results-v2-balance"><div><span>SIMULACIÓN DE LAS ADICIONALES</span>'+
     '<strong>'+esc(units(extra.profit))+'</strong>'+
     '<small>1 unidad por selección liquidada; no se ha apostado dinero real.</small></div>'+
@@ -137,6 +186,9 @@ export function renderResultsMobile(info={},matches=[],limit=6){
     scorecards:scoreboard("TOP 3 ORIGINAL",top,"top")+
       scoreboard("UNA ADICIONAL +1,50",extra,"extra"),
     balance,
+    additionalCards:additionalCards.html,
+    additionalCount:additionalCards.total,
+    additionalHasMore:additionalCards.hasMore,
     recent:recent.shown.length?recent.shown.map(fixture).join(""):
       '<div class="results-v2-empty">Todavía no hay partidos con selecciones 3+1 liquidadas '+
       'en este periodo. Los pendientes no son fallos.</div>',
