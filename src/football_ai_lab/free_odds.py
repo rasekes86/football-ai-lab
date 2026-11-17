@@ -13,6 +13,7 @@ import json
 import math
 import os
 import re
+from .odds_scheduler import RequestLedger, due_matches, FREE_BUDGET
 
 from .core import normalize_team
 from .sources import LEAGUES
@@ -32,7 +33,8 @@ LEAGUE_ALIASES = {
     "I1":("serie a","italy serie a"),
     "F1":("ligue 1","france ligue 1"),
 }
-MAX_FIVE_ODDS=14
+MAX_FIVE_ODDS=35
+DEFAULT_FIVE_ODDS=14
 MAX_API_ODDS=6  # 4 fechas + 6 odds: máximo 10 consultas/minuto en plan Free
 MAX_DAYS=5
 MAX_DIFF=timedelta(hours=2)
@@ -276,13 +278,13 @@ def _five_fixture_rows(match, event_id, odds_payload, now):
     return output
 
 
-def get_five_odds(fixtures,now,env=None,fetcher=None):
+def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
     """Small, bounded free-tier discovery; only verified identical fixtures get prices.
 
     1. Date-window fixture pages (up to two pages per day).
     2. If EPL/Bundesliga missing, lookup league ids and request their fixtures.
     3. Optional Segunda discovery, only when Community Access was authorized.
-    4. Round-robin odds budget: <=14 fixture odds requests, never speculative prices.
+    4. Rondas rotativas de hasta 35 partidos, sin repetir los recientes.
     """
     now=_now(now);env=env or {};fetcher=fetcher or _http
     enabled=str(env.get("ENABLE_FREE_ODDS","")).lower() in ("1","true","yes")
@@ -296,13 +298,31 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
            "maximo_consultas_por_ejecucion":MAX_FIVE_FIXTURE_CALLS+MAX_FIVE_ODDS,
            "community_segunda_activada":community,
            "limite_partidos_con_cuota":MAX_FIVE_ODDS}
-    if not enabled or not key:return {"estado":status,"cuotas":[],"auditoria":audit}
+    if not enabled or not key:
+        return {"estado":status,"cuotas":[],"auditoria":audit,
+                "estado_consultas":state or {}}
 
-    limit=_bounded(env.get("FREE_ODDS_MAX_FIXTURES") or MAX_FIVE_ODDS,
-                   MAX_FIVE_ODDS,MAX_FIVE_ODDS)
+    limit=_bounded(env.get("FREE_ODDS_MAX_FIXTURES") or DEFAULT_FIVE_ODDS,
+                   DEFAULT_FIVE_ODDS,MAX_FIVE_ODDS)
+    # El plan Community debe estar habilitado explícitamente en GitHub.
+    max_hour=250 if community else FREE_BUDGET
+    hourly=_bounded(env.get("FREE_ODDS_HOURLY_BUDGET") or FREE_BUDGET,
+                    FREE_BUDGET,max_hour) or FREE_BUDGET
+    ledger=RequestLedger(state,now,limit=hourly,live=(fetcher is _http))
     headers={"Authorization":f"Bearer {key}"}
-    selected=[f for f in fixtures if _dt(f.get("fecha_utc"))
-              and now<_dt(f["fecha_utc"])<=now+timedelta(days=MAX_DAYS)]
+    selected,skipped=due_matches(fixtures,state,now,MAX_DAYS)
+    audit["partidos_saltados_por_captura_reciente"]=skipped
+    audit["partidos_pendientes_por_consultar"]=len(selected)
+    audit["limite_interno_solicitudes_hora"]=hourly
+    audit["limite_partidos_con_cuota"]=limit
+    audit["maximo_consultas_por_ejecucion"]=MAX_FIVE_FIXTURE_CALLS+limit
+    audit["ids_consultados"]=[]
+    if not selected or ledger.remaining()<3:
+        audit["estado"]="EN_ESPERA" if not selected else "CUPO_HORARIO"
+        audit["solicitudes_ultima_hora"]=len(ledger.calls)
+        return {"estado":audit["estado"],"cuotas":[],"auditoria":audit,
+                "estado_consultas":ledger.export()}
+    priority={item["id"]:i for i,item in enumerate(selected)}
     days=sorted({_dt(f["fecha_utc"]).date() for f in selected})
     audit["dias_consultados"]=[d.isoformat() for d in days]
 
@@ -324,6 +344,8 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
         nonlocal request_budget
         if request_budget<=0:
             raise RuntimeError("BUDGET_EXHAUSTED")
+        if not ledger.take():
+            raise RuntimeError("CUPO_HORARIO")
         request_budget-=1
         audit["consultas"]+=1
         return fetcher(url,headers)
@@ -463,7 +485,8 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
     for match,event in candidates.values():
         by_league[match["liga"]].append((match,event))
     for games in by_league.values():
-        games.sort(key=lambda item:(_dt(item[0]["fecha_utc"]),str(item[0]["id"])))
+        games.sort(key=lambda item:(priority.get(item[0]["id"],99999),
+                                    _dt(item[0]["fecha_utc"]),str(item[0]["id"])))
     league_order=("LaLiga","Premier League","Bundesliga","Serie A",
                   "Ligue 1","Segunda División")
     balanced=[]
@@ -479,8 +502,11 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
     quotes=[]
     no_price=0
     for match,event in balanced:
-        # At most 14 bookmaker-odds requests, independent of list pagination.
+        # Evita superar el cupo horario o el límite de ráfaga.
+        if not ledger.take():
+            break
         audit["consultas"]+=1
+        audit["ids_consultados"].append(match["id"])
         try:
             obj=fetcher(f"{FIVE_URL}/fixtures/{event['id']}/odds",headers)
             if not isinstance(obj,dict) or obj.get("success") not in (1,True):
@@ -488,11 +514,14 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
             payload=obj.get("data") or {}
             if str(payload.get("fixture_id"))!=str(event["id"]):
                 no_price+=1
+                ledger.mark(match["id"],False)
                 continue
             rows=_five_fixture_rows(match,event["id"],payload,now)
             if not rows:no_price+=1
+            ledger.mark(match["id"],bool(rows))
             quotes.extend(rows)
         except Exception:
+            ledger.mark(match["id"],False)
             audit["errores"]+=1
             request_errors["cuotas"]+=1
 
@@ -550,8 +579,10 @@ def get_five_odds(fixtures,now,env=None,fetcher=None):
     audit["partidos"]=len(balanced)
     audit["cuotas"]=len(quotes)
     audit["ligas_con_cuotas"]=sorted({q["liga"] for q in quotes})
+    audit["solicitudes_ultima_hora"]=len(ledger.export()["solicitudes_utc"])
     audit["estado"]="PARCIAL" if audit["errores"] else "CON_CUOTAS" if quotes else "SIN_COINCIDENCIAS"
-    return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit}
+    return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit,
+            "estado_consultas":ledger.export()}
 
 
 def _api_values(bet):
@@ -685,9 +716,9 @@ def get_api_football_odds(fixtures,now,env=None,fetcher=None,exclude_ids=None,pr
     return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit}
 
 
-def collect_free_odds(fixtures,now,env=None,five_fetcher=None,api_fetcher=None):
+def collect_free_odds(fixtures,now,env=None,five_fetcher=None,api_fetcher=None,state=None):
     env=env or {}
-    primary=get_five_odds(fixtures,now,env=env,fetcher=five_fetcher)
+    primary=get_five_odds(fixtures,now,env=env,fetcher=five_fetcher,state=state)
     # El respaldo puede aportar mercados distintos, como amarillas explícitas,
     # aun cuando la fuente principal tenga córners del mismo partido.
     # API-Football is secondary: prefer fixtures with no observed 5Dollar
@@ -707,6 +738,7 @@ def collect_free_odds(fixtures,now,env=None,five_fetcher=None,api_fetcher=None):
     else:status="SIN_COINCIDENCIAS"
     return {
         "estado":status,"cuotas":quotes,
+        "estado_consultas":primary.get("estado_consultas",state or {}),
         "auditoria":{"fuentes_gratuitas":[primary["auditoria"],fallback["auditoria"]],
                     "creditos_mensuales":0,
                     "nota":"Sin scraping; Free 5Dollar y API-Football opt-in. "
