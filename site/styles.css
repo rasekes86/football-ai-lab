@@ -774,3 +774,26 @@ body{background:#061522}
   .topbar .pwa-install-btn>span:last-child{display:none}
   .topbar .pwa-install-btn>span:first-child{font-size:18px}
 }
+
+
+/* Fase cuotas gratuitas: cobertura por liga; same editorial scoreboard palette. */
+.odds-coverage-panel{margin:17px 0 21px}
+.odds-coverage-panel .panel-heading{margin-bottom:8px}
+.odds-coverage-intro{font-size:12px;line-height:1.55;color:var(--muted);margin:5px 0 16px}
+.odds-coverage-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.odds-coverage-item{background:var(--surface-2);border:1px solid var(--stroke-soft);border-radius:11px;padding:13px;min-width:0}
+.odds-coverage-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;margin-bottom:9px}
+.odds-coverage-heading strong{font-size:12px;font-weight:850;color:var(--text)}
+.odds-coverage-state{font-size:10px;line-height:1.35;max-width:210px;color:var(--muted)}
+.odds-coverage-state.ok{color:var(--lime)}
+.odds-coverage-state.missing{color:#d3afb4}
+.odds-coverage-stats{font-size:10px;line-height:1.65;color:var(--muted)}
+.odds-coverage-stats b{color:var(--text);font-variant-numeric:tabular-nums}
+.odds-coverage-reasons{display:block;color:var(--amber);font-size:10px;margin-top:6px}
+.odds-coverage-panel .fine-print{margin:13px 0 0}
+@media(max-width:1100px){.odds-coverage-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:610px){
+  .odds-coverage-list{grid-template-columns:1fr}
+  .odds-coverage-item{padding:12px 13px}
+  .odds-coverage-panel .panel-heading{flex-wrap:wrap;gap:7px}
+}
