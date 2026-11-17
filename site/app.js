@@ -6,7 +6,7 @@ import { MARKET_OPTIONS, optionByKey, marketSnapshot, isHit } from "./markets.mj
 import { futureMarketSnapshot } from "./future_markets.mjs";
 import { reliabilitySnapshot } from "./reliability.mjs";
 import { radarSnapshot } from "./radar.mjs";
-import { realOddsSnapshot } from "./real_odds.mjs";
+import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -444,6 +444,33 @@ function realOddsCard(item) {
 }
 function renderRealOdds() {
   if(!state.data)return;
+  const coverage=oddsCoverageSnapshot(state.data);
+  $("oddsCoverageTime").textContent=coverage.captured
+    ? "Captura: "+displayDate(coverage.captured)+(coverage.stale?" · Más de 24 h":"")
+    : "Sin captura";
+  const reasons={
+    orden_local_visitante:"orden local/visitante distinto",
+    equipos:"nombres de equipos",
+    horario_o_calendario:"horario o calendario"
+  };
+  inner("oddsCoverageList",coverage.rows.map(item=>{
+    const mismatch=Object.entries(item.reasons||{}).filter(([,n])=>Number(n)>0)
+      .map(([key,n])=>String(n)+" "+(reasons[key]||"sin verificar")).join(", ");
+    const count=item.model===null?"—":String(item.model);
+    const api=item.returned===null?"—":String(item.returned);
+    const matched=item.matched===null?"—":String(item.matched);
+    return `<article class="odds-coverage-item">
+      <div class="odds-coverage-heading"><strong>${escapeHtml(item.name)}</strong>
+        <span class="odds-coverage-state ${item.games?"ok":"missing"}">${item.games?integer(item.games)+" con cuotas":escapeHtml(item.description)}</span></div>
+      <div class="odds-coverage-stats">En modelo: <b>${count}</b> · API: <b>${api}</b> · Emparejados: <b>${matched}</b> · Consultados: <b>${item.requested===null?"—":integer(item.requested)}</b></div>
+      ${mismatch?`<small class="odds-coverage-reasons">Descartados: ${escapeHtml(mismatch)}</small>`:""}
+    </article>`;
+  }).join(""));
+  $("oddsCoverageProviders").textContent=
+    "Fuente principal: 5DollarFootballAPI ("+coverage.providerStatus+"). "+
+    "Respaldo API-Football: "+coverage.backupStatus+". "+
+    (coverage.hasAudit?"Se muestran motivos agregados de la última consulta.":"El diagnóstico completo aparecerá tras ejecutar el análisis diario.")+
+    (coverage.stale?" Esta captura ya tiene más de 24 horas; los precios no deben considerarse actuales.":"");
   const filter={
     league:$("realOddsLeague").value,market:$("realOddsMarket").value,
     bookmaker:$("realOddsBookmaker").value,
