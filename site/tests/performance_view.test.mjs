@@ -46,3 +46,20 @@ test("HTML de origen y nombres de mercado se escapan al mostrar las apuestas",()
   assert.doesNotMatch(page.ledger,/<img/);
   assert.match(page.ledger,/&lt;img/);
 });
+
+
+test("una adicional API muestra bookmaker, proveedor y hora de observación",()=>{
+  const checked={...indicative,
+    tipo_cuota:"OFRECIDA_API_REGISTRADA",
+    bookmaker:"Bet 365",proveedor_cuota:"5DollarFootballAPI",
+    fecha_cuota_utc:"2026-11-14T12:00:00Z",
+    marca_tiempo_tipo:"CAPTURA_NO_ACTUALIZACION"
+  };
+  const page=renderPerformanceView({archivedPicks:[],allOdds:[checked]}, {},36,when);
+  assert.match(page.ledger,/ACIERTO CONFIRMADO/);
+  assert.match(page.ledger,/Bet 365/);
+  assert.match(page.ledger,/5DollarFootballAPI/);
+  assert.match(page.ledger,/captura/);
+  assert.match(page.ledger,/sin hora de cambio del bookmaker/);
+  assert.equal(page.snapshot.additional.observedCount,1);
+});
