@@ -3,12 +3,12 @@
  * No push subscriptions or background data reads.
  */
 const CACHE_PREFIX = "football-ai-lab-shell-";
-const CACHE_NAME = CACHE_PREFIX + "v1-20261117";
+const CACHE_NAME = CACHE_PREFIX + "v2-20261117";
 const ROOT = new URL(self.registration.scope);
 
 const SHELL_FILES = [
   "./", "index.html", "styles.css", "app.js",
-  "data.mjs", "markets.mjs", "future_markets.mjs",
+  "data.mjs", "feed_loader.mjs", "markets.mjs", "future_markets.mjs",
   "reliability.mjs", "radar.mjs", "real_odds.mjs",
   "schedule.mjs", "agenda.mjs", "pwa.js",
   "manifest.webmanifest", "pwa-icon.svg", "favicon.svg",
@@ -64,5 +64,6 @@ self.addEventListener("fetch", event => {
   } else if (SHELL_PATHS.has(url.pathname) && !url.search) {
     event.respondWith(fetchShell(request, url.href));
   }
-  // crests.json?v=... and any unlisted files stay network-only.
+  // All site/published/* files, crests.json and other data remain network-only.
+  // Only the static application shell may be cached.
 });
