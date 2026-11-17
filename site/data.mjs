@@ -158,6 +158,7 @@ export function buildModel(feeds, now = new Date()) {
     // Registrado primero antes del partido: nunca sustituir por recálculos.
     m.picks = pickSorted(evaluated.get(m.id) || archived.get(m.id) || liveSelections.get(m.id) || []);
     m.odds = odds.get(m.id) || [];
+    m.additionalAudit = feeds.evaluacion_cuotas?.seleccion_automatica?.por_partido?.[m.id] || null;
     m.followup = followups.get(m.id) || null;
     m.breakdown = breakdown.get(m.id) || null;
     m.status = matchStatus(m);

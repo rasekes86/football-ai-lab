@@ -316,6 +316,23 @@ def main(argv=None) -> None:
     # FASE 8 — cuotas REALES y comparador opt-in. Se ejecuta DESPUÉS
     # de los pronósticos, nunca modifica los modelos ni los snapshots.
     previous_real_odds={}
+    state_file=target/"estado_consultas_cuotas.json"
+    prior_quotes_file=target/"cuotas_reales_verificadas.json"
+    previous_odds_state={}
+    prior_quotes={}
+    if state_file.is_file():
+        try:
+            previous_odds_state=json.loads(state_file.read_text(encoding="utf-8"))
+        except (OSError,ValueError):
+            previous_odds_state={}
+    if prior_quotes_file.is_file():
+        try:
+            prior_quotes=json.loads(prior_quotes_file.read_text(encoding="utf-8"))
+        except (OSError,ValueError):
+            prior_quotes={}
+    # Las adicionales congeladas no se recotizan en ninguna ejecución.
+    archived_extras=read_csv(target/"historico_oportunidades_150.csv")
+    excluded_ids={row["id"] for row in archived_extras if row.get("id")}
     real_history_file=target/"historico_cuotas_reales.json"
     if real_history_file.is_file():
         try:
@@ -324,7 +341,11 @@ def main(argv=None) -> None:
             previous_real_odds={}
     real_quotes,real_compared,real_history=build_real_odds(
         previews,now,existing=previous_real_odds,
-        env={} if args.demo else os.environ)
+        env={} if args.demo else os.environ,state=previous_odds_state,
+        prior_quotes=prior_quotes,excluded_ids=excluded_ids)
+    current_odds_state=real_quotes.pop("estado_consultas",previous_odds_state)
+    state_file.write_text(
+        json.dumps(current_odds_state,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
     (target/"cuotas_reales_verificadas.json").write_text(
         json.dumps(real_quotes,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
     (target/"comparacion_cuotas_reales.json").write_text(
