@@ -40,6 +40,7 @@ jobs:
         run: |
           node --check site/data.mjs
           node --check site/app.js
+          node --check site/home.mjs
           node --check site/feed_loader.mjs
           node --check site/pwa.js
           node --check site/sw.js
@@ -81,7 +82,7 @@ jobs:
           import json, struct
           from pathlib import Path
           manifest=json.loads(Path("site/manifest.webmanifest").read_text(encoding="utf-8"))
-          assert manifest["start_url"]=="./#fixtures"
+          assert manifest["start_url"]=="./#home"
           assert manifest["scope"]=="./"
           for size in (192,512):
               icon=Path(f"site/icon-{size}.png").read_bytes()
