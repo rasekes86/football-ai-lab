@@ -4,6 +4,7 @@ import unittest
 
 from football_ai_lab.odds_scheduler import RequestLedger,due_matches
 from football_ai_lab.odds_refresh import merge_followup
+from football_ai_lab.real_odds import build_real_odds
 
 NOW=datetime(2026,11,17,12,tzinfo=timezone.utc)
 
@@ -35,6 +36,20 @@ class Tests(unittest.TestCase):
         ledger.mark("a",True)
         self.assertEqual(due_matches([match("a")],ledger.export(),NOW+timedelta(hours=1))[0],[])
         self.assertEqual(len(due_matches([match("a")],ledger.export(),NOW+timedelta(hours=4))[0]),1)
+
+    def test_frozen_additional_never_queries_bookmaker(self):
+        fixture=match("frozen")
+        called=[]
+        def forbid(url,headers):
+            called.append(url)
+            raise AssertionError("No se debe recotizar una adicional ya congelada")
+        price,comparisons,history=build_real_odds(
+            [fixture],NOW,
+            env={"ENABLE_FREE_ODDS":"true","FIVEDOLLAR_API_KEY":"FAKE"},
+            five_fetcher=forbid,excluded_ids={"frozen"})
+        self.assertEqual(called,[])
+        self.assertEqual(price["auditoria"]["partidos_con_adicional_omitidos"],1)
+        self.assertEqual(price["cuotas"],[])
 
     def test_settled_results_never_overwritten(self):
         rows=merge_followup([{"clave":"A","estado":"FINALIZADO","resultado":"1"}],
