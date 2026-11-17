@@ -348,3 +348,96 @@ class ProviderLeagueFallbackTests(unittest.TestCase):
         self.assertEqual(data["auditoria"]["cobertura_ligas"]["Premier League"]["estado"],
                          "CON_CUOTAS")
         self.assertTrue(any("page=2" in u for u in called))
+
+
+class OfficialBundesligaNamingTests(unittest.TestCase):
+    """La Bundesliga I publicada por el proveedor no debe perderse en la API."""
+
+    @staticmethod
+    def _fixture():
+        return {
+            "id": "D1|202611201930|bayern|cologne",
+            "fecha_utc": "2026-11-20T19:30:00Z",
+            "liga": "Bundesliga",
+            "local": "Bayern Munich",
+            "visitante": "FC Cologne",
+        }
+
+    @staticmethod
+    def _event():
+        return {
+            "id": 721993,
+            "league": {"id": 686337048, "name": "Germany Bundesliga I"},
+            "teams": {
+                "home": {"name": "Bayern Munich"},
+                "away": {"name": "1. FC Köln"},
+            },
+            "kickoff_utc": "2026-11-20T19:30:00Z",
+            "status": "scheduled",
+        }
+
+    def test_official_name_is_recognized_and_second_division_is_not(self):
+        from football_ai_lab.free_odds import _league_code
+        self.assertEqual(_league_code("Germany Bundesliga I"), "D1")
+        self.assertEqual(_league_code("German Bundesliga I"), "D1")
+        self.assertIsNone(_league_code("Germany Bundesliga II"))
+        self.assertIsNone(_league_code("Germany 2. Bundesliga"))
+
+    def test_free_daily_window_prices_bundesliga_i_without_extra_requests(self):
+        event = self._event()
+        calls = []
+
+        def fetch(url,headers):
+            calls.append(url)
+            self.assertEqual(headers["Authorization"], "Bearer SECRET-FIVE")
+            if "/fixtures?" in url:
+                return {"success": 1, "data": [event]}
+            if f"/fixtures/{event['id']}/odds" in url:
+                payload = five_prices()
+                payload["data"]["fixture_id"] = event["id"]
+                return payload
+            raise AssertionError("No extra API endpoints expected")
+
+        result = get_five_odds([self._fixture()], NOW, FIVE_ENV, fetch)
+        audit = result["auditoria"]
+        self.assertEqual(result["estado"], "CON_CUOTAS")
+        self.assertEqual(audit["cobertura_ligas"]["Bundesliga"]["estado"], "CON_CUOTAS")
+        self.assertEqual(audit["cobertura_ligas"]["Bundesliga"]["eventos_proveedor"], 1)
+        self.assertEqual(audit["partidos_por_liga"]["Bundesliga"], 1)
+        self.assertEqual(audit["consultas"], 2)
+        self.assertEqual({q["liga"] for q in result["cuotas"]}, {"Bundesliga"})
+        self.assertFalse(any("/leagues?" in url for url in calls))
+        self.assertNotIn("SECRET-FIVE", json.dumps(result))
+
+    def test_bundesliga_catalog_fallback_uses_unambiguous_canonical_id(self):
+        event = self._event()
+        calls = []
+
+        def fetch(url,headers):
+            calls.append(url)
+            if "/leagues?" in url:
+                self.assertIn("country=DE", url)
+                return {"success": 1, "data": [
+                    {"id": 686337048, "name": "Germany Bundesliga I"},
+                    {"id": 686337049, "name": "Germany Bundesliga II"},
+                ]}
+            if "/leagues/686337048/fixtures?" in url:
+                return {"success": 1, "data": [event]}
+            if "/fixtures?" in url:
+                return {"success": 1, "data": []}
+            if f"/fixtures/{event['id']}/odds" in url:
+                payload = five_prices()
+                payload["data"]["fixture_id"] = event["id"]
+                return payload
+            raise AssertionError("Unknown API endpoint")
+
+        result = get_five_odds([self._fixture()], NOW, FIVE_ENV, fetch)
+        audit = result["auditoria"]
+        self.assertEqual(result["estado"], "CON_CUOTAS")
+        self.assertEqual(audit["cobertura_ligas"]["Bundesliga"]["estado"], "CON_CUOTAS")
+        self.assertEqual(audit["consultas_especificas_liga"], ["D1"])
+        self.assertEqual(audit["ligas_catalogo_detectadas"], ["D1"])
+        self.assertEqual(audit["errores"], 0)
+        self.assertLessEqual(audit["consultas"], audit["maximo_consultas_por_ejecucion"])
+        self.assertFalse(any("/leagues/686337049/fixtures" in url for url in calls))
+        self.assertEqual({q["liga"] for q in result["cuotas"]}, {"Bundesliga"})
