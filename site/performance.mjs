@@ -142,6 +142,7 @@ function summaryExtra(rows){
     observedSettled:observedDone.length,
     observedProfit:observedDone.length?observedProfit:null,
     observedRoi:observedDone.length?observedProfit/observedDone.length:null,
+    indicativeSettled:settledPrices.filter(x=>x.tipo_cuota==="INDICATIVA_NO_VERIFICADA").length,
     financeReason:"Balance exclusivamente hipotético de 1 unidad por selección, con cuotas congeladas antes del partido."
   };
 }
@@ -205,6 +206,7 @@ export function performanceSnapshot(model={},filters={},now=new Date()){
       additional:summaryExtra(extraRows.filter(x=>x.liga===league))
     })),
     timeline:series(topRows,extraRows,grain),
+    selectionAudit:model.evaluations?.odds?.seleccion_automatica||null,
     granularity:grain,
     rows:ledger(topRows,extraRows),
     safeguards:{
