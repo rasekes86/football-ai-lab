@@ -797,3 +797,53 @@ body{background:#061522}
   .odds-coverage-item{padding:12px 13px}
   .odds-coverage-panel .panel-heading{flex-wrap:wrap;gap:7px}
 }
+
+
+/* Performance 3+1 scoreboard · matches existing dark football visual language. */
+.performance-intro{margin-bottom:20px}
+.performance-filters{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px;padding:16px}
+.performance-filters .field{min-width:160px;flex:1}
+.performance-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-bottom:18px}
+.performance-block{min-width:0;overflow:hidden}
+.performance-block .panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.performance-block .kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:15px 0 23px}
+.performance-block .kpi{min-width:0}
+.performance-block .kpi-value{font-size:clamp(18px,2.5vw,25px)}
+.performance-plot-title{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin:12px 0}
+.performance-periods{display:flex;flex-direction:column;gap:11px;min-height:125px}
+.performance-period-row{display:grid;grid-template-columns:92px minmax(0,1fr) 50px 38px;align-items:center;gap:9px;font-size:11px}
+.performance-period-date{color:var(--muted);white-space:nowrap}
+.performance-period-track{height:10px;border-radius:12px;background:#263c4e;overflow:hidden}
+.performance-period-track>div{height:100%;border-radius:12px;background:var(--lime)}
+.performance-period-row strong{color:var(--text);font-variant-numeric:tabular-nums;text-align:right}
+.performance-period-row small{color:var(--muted);font-size:10px;text-align:right}
+.performance-profit-chart{min-height:154px;display:flex;flex-direction:column;justify-content:center}
+.performance-profit-svg{display:block;width:100%;height:auto;max-height:190px;color:var(--lime);overflow:visible}
+.performance-profit-svg .performance-zero{stroke:#77919e;stroke-width:1;stroke-dasharray:4 5;opacity:.65}
+.performance-chart-footer{display:flex;align-items:center;justify-content:space-between;gap:15px;color:var(--muted);font-size:11px;margin-top:7px}
+.performance-chart-footer strong{color:var(--text);font-size:15px;font-variant-numeric:tabular-nums}
+.performance-by-league-panel{margin-bottom:18px}
+.performance-league-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.performance-league-card{background:var(--surface-2);border:1px solid var(--stroke-soft);border-radius:11px;padding:13px;min-width:0}
+.performance-league-title{display:flex;align-items:center;gap:8px;padding-bottom:12px;margin-bottom:9px;border-bottom:1px solid var(--stroke-soft)}
+.performance-league-title strong{font-size:12px}
+.performance-league-metrics{display:flex;flex-direction:column;gap:11px}
+.performance-league-metrics>div{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:7px;align-items:center}
+.performance-league-metrics span{font-size:10px;color:var(--muted)}
+.performance-league-metrics strong{font-size:12px;color:var(--text);white-space:nowrap}
+.performance-league-metrics small{font-size:11px;color:var(--lime);white-space:nowrap}
+.performance-return{font-variant-numeric:tabular-nums;font-weight:800}
+.performance-ledger-panel .data-table td{vertical-align:middle}
+.performance-ledger-panel .status-pill{white-space:nowrap}
+@media(max-width:1150px){
+  .performance-columns{grid-template-columns:1fr}
+  .performance-league-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:660px){
+  .performance-filters{gap:10px}
+  .performance-filters .field{min-width:calc(50% - 10px)}
+  .performance-league-grid{grid-template-columns:1fr}
+  .performance-block .kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .performance-period-row{grid-template-columns:82px minmax(0,1fr) 45px 31px;gap:6px;font-size:10px}
+  .performance-ledger-panel .data-table{min-width:790px}
+}
