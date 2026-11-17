@@ -80,12 +80,12 @@ test("most recent fixtures first, one card per fixture, with safe load more",()=
 });
 test("filters from audited model affect summaries AND recent cards",()=>{
   const recent=top(1,"FINALIZADO","1");
-  const out=top(1,"FINALIZADO","1",{id:"other",clave:"other-1",liga:"Bundesliga"});
+  const out=top(1,"FINALIZADO","1",{id:"other",clave:"other-1",liga:"Bundesliga",local:"Bayern",visitante:"Köln"});
   const x=snapshot([recent,out],[],{league:"Bundesliga"});
   const r=renderResultsMobile(x,[],6);
   assert.equal(r.recentCount,1);
   assert.match(r.recent,/Bundesliga/);
-  assert.doesNotMatch(r.recent,/Tenerife – Ceuta/); // NOTE same names; fixture is Bundesliga!
+  assert.doesNotMatch(r.recent,/Tenerife – Ceuta/);
 });
 test("HTML escapes malicious names, picks, and identifiers",()=>{
   const x=snapshot([top(1,"FINALIZADO","1",{
