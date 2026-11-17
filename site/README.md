@@ -106,3 +106,47 @@ conservan exclusivamente como histórico en
 `output/historico_cuotas_reales.json`. Detalles y límites:
 `docs/FASE_8_CUOTAS_REALES.md`.
 
+
+## PWA Android — instalación sin Play Store ni servidor adicional
+
+Football AI Lab también funciona como Progressive Web App (PWA). Se sirve desde
+la misma URL gratuita de GitHub Pages, por HTTPS, sin cuenta adicional,
+sin costes de hosting nuevos y sin modificar el motor de predicciones.
+
+### Instalar en Android
+
+1. Abre https://rasekes86.github.io/football-ai-lab/ con **Chrome**.
+2. Pulsa **Instalar app** en la barra superior. Si Chrome permite la instalación
+   directa aparecerá su diálogo de confirmación.
+3. Si no aparece el diálogo, pulsa **⋮ → Instalar aplicación** o
+   **Añadir a pantalla de inicio** en el menú de Chrome.
+4. Abre el icono «Football AI» desde la pantalla de inicio; se ejecuta
+   en modo independiente sin la barra habitual del navegador.
+
+No se publica en Google Play y no es una APK. Algunos navegadores integrados
+en otras aplicaciones no permiten instalar PWAs; abre el enlace en Chrome.
+
+### Arquitectura y datos
+
+- `manifest.webmanifest`: identidad, inicio `./#fixtures`, alcance relativo a
+  `/football-ai-lab/`, iconos 192/512 y accesos rápidos.
+- `pwa-icon.svg`: icono original con el mismo estilo azul noche y rojo.
+- `scripts/build_pwa_icons.py`: genera PNG maskable sin Pillow ni npm;
+  GitHub Actions los incorpora al artefacto publicado.
+- `pwa.js`: registra el service worker en HTTPS, ofrece instalación
+  o instrucciones de Chrome y avisa si se pierde internet.
+- `sw.js`: precarga **solo la interfaz y los módulos locales**. Usa
+  `network-first` para las actualizaciones y permite abrir la interfaz offline.
+
+**No** se guardan en la caché PWA los CSV/JSON externos, las cuotas de
+bookmakers, los pronósticos de GitHub raw, escudos de terceros, secretos ni
+respuestas de APIs. Sin conexión, la interfaz se abre pero los datos deben
+consultarse online; no se muestran cuotas antiguas como si fueran actuales.
+Al reconectar, se reintenta la descarga de las fuentes publicadas.
+
+### Pruebas y publicación
+
+El flujo `.github/workflows/pages.yml` valida `pwa.js` y `sw.js`, ejecuta
+`site/tests/pwa.test.mjs`, prueba el generador con
+`site/tests/test_pwa_icons.py`, genera los PNG 192/512 en cada despliegue
+y verifica su formato antes de subir el artefacto.
