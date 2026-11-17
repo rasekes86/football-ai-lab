@@ -2685,19 +2685,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 77.9% | 15.2% | 7.0% | 81.4% |
+| 81.0% | 13.5% | 5.6% | 82.5% |
 
 ### Forma, descanso y estadísticas
 
 **Bayern Munich:** posición 1 · 21 puntos.
-- Últimos partidos: 4V · 1E · 0D; secuencia: V · V · E · V · V
-- Días desde el último partido liguero registrado: 188
-- Medias recientes: Tiros 19,4, a puerta 7,6, córners 7,2, amarillas 1,2
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · V · V · E
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 25,0, a puerta 10,0, córners 7,8, amarillas 1,0
 
 **FC Cologne:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
-- Días desde el último partido liguero registrado: 188
-- Medias recientes: Tiros 14,0, a puerta 4,8, córners 4,6, amarillas 1,6
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · E · D · V
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 13,6, a puerta 4,6, córners 4,6, amarillas 2,8
 
 ### Enfrentamientos previos
 - 2026-05-16: Bayern Munich 5-1 FC Koln
@@ -2706,9 +2706,9 @@
 - 2023-11-24: FC Koln 0-1 Bayern Munich
 
 ### Tres selecciones del modelo (experimentales)
-1. **Bayern Munich: más de 1,5 goles** (Goles equipo): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **12: gana uno de los dos** (Doble oportunidad): 84.8% · cuota justa 1.18; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Más de 2,5 goles** (Total goles): 81.4% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **12: gana uno de los dos** (Doble oportunidad): 86.5% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **Más de 2,5 goles** (Total goles): 82.5% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 7,5 tiros a puerta totales** (Tiros a puerta totales): 81.0% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 83.0% / 8.3% / 8.7%. No sustituye al modelo principal.
@@ -2732,19 +2732,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 33.6% | 25.7% | 40.7% | 50.5% |
+| 35.5% | 23.9% | 40.6% | 59.8% |
 
 ### Forma, descanso y estadísticas
 
 **1. FC Union Berlin:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · E · D · D
-- Días desde el último partido liguero registrado: 189
-- Medias recientes: Tiros 15,2, a puerta 5,8, córners 5,8, amarillas 1,6
+- Últimos partidos: 1V · 3E · 1D; secuencia: D · E · E · E · V
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 9,0, a puerta 1,8, córners 3,2, amarillas 2,8
 
 **RB Leipzig:** posición 4 · 18 puntos.
-- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
-- Días desde el último partido liguero registrado: 189
-- Medias recientes: Tiros 16,0, a puerta 6,8, córners 4,8, amarillas 1,6
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · D · V
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 16,0, a puerta 7,4, córners 3,8, amarillas 0,6
 
 ### Enfrentamientos previos
 - 2026-04-24: RB Leipzig 3-1 Union Berlin
@@ -2754,9 +2754,9 @@
 - 2024-02-04: RB Leipzig 2-0 Union Berlin
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **1. FC Union Berlin: menos de 2,5 goles** (Goles equipo): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **RB Leipzig +1,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **1. FC Union Berlin +1,5** (Hándicap 2 vías (medio gol)): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 81.5% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **RB Leipzig: menos de 2,5 goles** (Goles equipo): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 28.5% / 28.3% / 43.2%. No sustituye al modelo principal.
@@ -2780,19 +2780,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 24.1% | 23.8% | 52.1% | 56.5% |
+| 20.1% | 22.0% | 57.9% | 61.3% |
 
 ### Forma, descanso y estadísticas
 
 **Borussia Mönchengladbach:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 2E · 1D; secuencia: V · D · V · E · E
-- Días desde el último partido liguero registrado: 189
-- Medias recientes: Tiros 11,2, a puerta 4,0, córners 2,0, amarillas 3,4
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · E · V · D · D
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 14,4, a puerta 5,2, córners 4,2, amarillas 3,0
 
 **Borussia Dortmund:** posición 2 · 21 puntos.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · V · D
-- Días desde el último partido liguero registrado: 189
-- Medias recientes: Tiros 12,2, a puerta 5,2, córners 4,0, amarillas 1,6
+- Últimos partidos: 2V · 3E · 0D; secuencia: V · E · V · E · E
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 16,0, a puerta 5,6, córners 7,0, amarillas 1,4
 
 ### Enfrentamientos previos
 - 2026-05-03: M'gladbach 1-0 Dortmund
@@ -2802,9 +2802,9 @@
 - 2024-04-13: M'gladbach 1-2 Dortmund
 
 ### Tres selecciones del modelo (experimentales)
-1. **Borussia Mönchengladbach +2,5** (Hándicap 2 vías (medio gol)): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Borussia Dortmund: más de 0,5 goles** (Goles equipo): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 4,5 goles** (Total goles): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Borussia Dortmund: más de 0,5 goles** (Goles equipo): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Borussia Mönchengladbach +2,5** (Hándicap 2 vías (medio gol)): 82.5% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 26.6% / 18.7% / 54.7%. No sustituye al modelo principal.
@@ -2828,19 +2828,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.3% | 22.9% | 33.9% | 70.0% |
+| 45.3% | 22.1% | 32.6% | 71.7% |
 
 ### Forma, descanso y estadísticas
 
 **Eintracht Frankfurt:** posición 10 · 12 puntos.
-- Últimos partidos: 0V · 2E · 3D; secuencia: E · D · D · E · D
-- Días desde el último partido liguero registrado: 189
-- Medias recientes: Tiros 13,6, a puerta 5,6, córners 5,6, amarillas 2,0
+- Últimos partidos: 2V · 1E · 2D; secuencia: E · V · D · V · D
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 14,4, a puerta 6,4, córners 5,2, amarillas 2,0
 
 **TSG Hoffenheim:** posición 9 · 12 puntos.
-- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · E · V · V
-- Días desde el último partido liguero registrado: 189
-- Medias recientes: Tiros 15,2, a puerta 5,2, córners 6,8, amarillas 3,2
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 16,4, a puerta 5,4, córners 5,6, amarillas 1,4
 
 ### Enfrentamientos previos
 - 2026-01-24: Ein Frankfurt 1-3 Hoffenheim
@@ -2850,9 +2850,9 @@
 - 2024-03-10: Ein Frankfurt 3-1 Hoffenheim
 
 ### Tres selecciones del modelo (experimentales)
-1. **Eintracht Frankfurt: más de 0,5 goles** (Goles equipo): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Eintracht Frankfurt +1,5** (Hándicap 2 vías (medio gol)): 83.1% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 81.8% · cuota justa 1.22; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Eintracht Frankfurt: más de 0,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Eintracht Frankfurt +1,5** (Hándicap 2 vías (medio gol)): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 82.0% · cuota justa 1.22; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 42.8% / 26.4% / 30.8%. No sustituye al modelo principal.
@@ -2876,19 +2876,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 36.4% | 25.7% | 37.9% | 50.5% |
+| 37.1% | 23.6% | 39.3% | 61.0% |
 
 ### Forma, descanso y estadísticas
 
 **FC Augsburg:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · E · V
-- Días desde el último partido liguero registrado: 190
-- Medias recientes: Tiros 13,6, a puerta 5,2, córners 5,2, amarillas 1,2
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 19,2, a puerta 6,2, córners 5,0, amarillas 1,8
 
 **Mainz:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · D · E
-- Días desde el último partido liguero registrado: 190
-- Medias recientes: Tiros 16,8, a puerta 6,6, córners 5,4, amarillas 1,4
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · V · D
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 14,2, a puerta 4,4, córners 5,8, amarillas 3,0
 
 ### Enfrentamientos previos
 - 2026-02-07: Mainz 2-0 Augsburg
@@ -2898,9 +2898,9 @@
 - 2024-02-17: Mainz 1-0 Augsburg
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **FC Augsburg: menos de 2,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Mainz +1,5** (Hándicap 2 vías (medio gol)): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 83.9% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Mainz +1,5** (Hándicap 2 vías (medio gol)): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 50.1% / 22.6% / 27.3%. No sustituye al modelo principal.
@@ -2924,28 +2924,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 40.4% | 26.7% | 32.9% | 44.3% |
+| 47.8% | 25.1% | 27.1% | 47.0% |
 
 ### Forma, descanso y estadísticas
 
 **Werder Bremen:** posición 6 · 15 puntos.
-- Últimos partidos: 1V · 1E · 3D; secuencia: D · D · D · E · V
-- Días desde el último partido liguero registrado: 190
-- Medias recientes: Tiros 12,4, a puerta 4,4, córners 4,8, amarillas 1,6
+- Últimos partidos: 2V · 2E · 1D; secuencia: D · V · V · E · E
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 17,2, a puerta 6,4, córners 5,2, amarillas 1,6
 
 **Hamburg SV:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: E · V · V · D · D
-- Días desde el último partido liguero registrado: 190
-- Medias recientes: Tiros 13,0, a puerta 4,4, córners 3,2, amarillas 2,0
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
+- Días desde el último partido liguero registrado: 16
+- Medias recientes: Tiros 13,4, a puerta 4,0, córners 4,4, amarillas 2,0
 
 ### Enfrentamientos previos
 - 2026-04-18: Werder Bremen 3-1 Hamburg
 - 2025-12-07: Hamburg 3-2 Werder Bremen
 
 ### Tres selecciones del modelo (experimentales)
-1. **Werder Bremen: menos de 2,5 goles** (Goles equipo): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 83.2% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Hamburg SV +1,5** (Hándicap 2 vías (medio gol)): 81.5% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 82.6% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Werder Bremen: menos de 2,5 goles** (Goles equipo): 80.1% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 74.9% · cuota justa 1.34; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 45.4% / 29.3% / 25.2%. No sustituye al modelo principal.
@@ -2969,19 +2969,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 34.2% | 25.4% | 40.4% | 51.4% |
+| 47.4% | 24.6% | 28.0% | 52.6% |
 
 ### Forma, descanso y estadísticas
 
 **Werder Bremen:** posición 6 · 15 puntos.
-- Últimos partidos: 1V · 1E · 3D; secuencia: D · D · D · E · V
-- Días desde el último partido liguero registrado: 195
-- Medias recientes: Tiros 12,4, a puerta 4,4, córners 4,8, amarillas 1,6
+- Últimos partidos: 2V · 2E · 1D; secuencia: D · V · V · E · E
+- Días desde el último partido liguero registrado: 20
+- Medias recientes: Tiros 17,2, a puerta 6,4, córners 5,2, amarillas 1,6
 
 **Borussia Mönchengladbach:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 2E · 1D; secuencia: V · D · V · E · E
-- Días desde el último partido liguero registrado: 195
-- Medias recientes: Tiros 11,2, a puerta 4,0, córners 2,0, amarillas 3,4
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · E · V · D · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,4, a puerta 5,2, córners 4,2, amarillas 3,0
 
 ### Enfrentamientos previos
 - 2026-01-31: Werder Bremen 1-1 M'gladbach
@@ -2991,9 +2991,9 @@
 - 2024-05-04: Werder Bremen 2-2 M'gladbach
 
 ### Tres selecciones del modelo (experimentales)
-1. **Borussia Mönchengladbach +1,5** (Hándicap 2 vías (medio gol)): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 83.5% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 85.1% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Menos de 4,5 goles** (Total goles): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Werder Bremen: más de 0,5 goles** (Goles equipo): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 55.1% / 25.1% / 19.7%. No sustituye al modelo principal.
@@ -3017,28 +3017,28 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 15.2% | 20.3% | 64.5% | 66.0% |
+| 14.1% | 18.9% | 66.9% | 69.0% |
 
 ### Forma, descanso y estadísticas
 
 **Hamburg SV:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: E · V · V · D · D
-- Días desde el último partido liguero registrado: 196
-- Medias recientes: Tiros 13,0, a puerta 4,4, córners 3,2, amarillas 2,0
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 13,4, a puerta 4,0, córners 4,4, amarillas 2,0
 
 **Bayern Munich:** posición 1 · 21 puntos.
-- Últimos partidos: 4V · 1E · 0D; secuencia: V · V · E · V · V
-- Días desde el último partido liguero registrado: 196
-- Medias recientes: Tiros 19,4, a puerta 7,6, córners 7,2, amarillas 1,2
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · V · V · E
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 25,0, a puerta 10,0, córners 7,8, amarillas 1,0
 
 ### Enfrentamientos previos
 - 2026-01-31: Hamburg 2-2 Bayern Munich
 - 2025-09-13: Bayern Munich 5-0 Hamburg
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 1,5 goles** (Total goles): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **X2: empate o Bayern Munich** (Doble oportunidad): 84.8% · cuota justa 1.18; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 83.4% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **X2: empate o Bayern Munich** (Doble oportunidad): 85.9% · cuota justa 1.17; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 84.5% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 73.5% · cuota justa 1.36; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 15.0% / 22.9% / 62.1%. No sustituye al modelo principal.
@@ -3062,19 +3062,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 46.1% | 25.8% | 28.0% | 48.0% |
+| 45.8% | 24.9% | 29.3% | 51.5% |
 
 ### Forma, descanso y estadísticas
 
 **Mainz:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · D · E
-- Días desde el último partido liguero registrado: 196
-- Medias recientes: Tiros 16,8, a puerta 6,6, córners 5,4, amarillas 1,4
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,2, a puerta 4,4, córners 5,8, amarillas 3,0
 
 **1. FC Union Berlin:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · E · D · D
-- Días desde el último partido liguero registrado: 196
-- Medias recientes: Tiros 15,2, a puerta 5,8, córners 5,8, amarillas 1,6
+- Últimos partidos: 1V · 3E · 1D; secuencia: D · E · E · E · V
+- Días desde el último partido liguero registrado: 20
+- Medias recientes: Tiros 9,0, a puerta 1,8, córners 3,2, amarillas 2,8
 
 ### Enfrentamientos previos
 - 2026-05-10: Mainz 1-3 Union Berlin
@@ -3084,12 +3084,56 @@
 - 2024-02-07: Mainz 1-1 Union Berlin
 
 ### Tres selecciones del modelo (experimentales)
-1. **Mainz: menos de 2,5 goles** (Goles equipo): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **1. FC Union Berlin +1,5** (Hándicap 2 vías (medio gol)): 78.1% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 75.1% · cuota justa 1.33; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Menos de 4,5 goles** (Total goles): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Mainz: menos de 2,5 goles** (Goles equipo): 80.4% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **1. FC Union Berlin +1,5** (Hándicap 2 vías (medio gol)): 78.0% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 48.3% / 36.0% / 15.6%. No sustituye al modelo principal.
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## SC Paderborn 07 – Schalke 04
+
+**Bundesliga · 2026-11-28T14:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 45.5% | 25.0% | 29.5% | 50.6% |
+
+### Forma, descanso y estadísticas
+
+**SC Paderborn 07:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 3E · 1D; secuencia: E · E · V · E · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 15,0, a puerta 4,6, córners 5,0, amarillas 1,2
+
+**Schalke 04:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
+- Días desde el último partido liguero registrado: 20
+- Medias recientes: Tiros 10,4, a puerta 2,4, córners 3,6, amarillas 1,6
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Menos de 4,5 goles** (Total goles): 86.3% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **SC Paderborn 07: menos de 2,5 goles** (Goles equipo): 80.6% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Schalke 04 +1,5** (Hándicap 2 vías (medio gol)): 77.7% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost experimental: 45.4% / 30.1% / 24.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3110,19 +3154,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 51.6% | 22.8% | 25.5% | 65.8% |
+| 51.5% | 22.3% | 26.2% | 66.5% |
 
 ### Forma, descanso y estadísticas
 
 **VfB Stuttgart:** posición 8 · 12 puntos.
-- Últimos partidos: 1V · 3E · 1D; secuencia: E · V · E · E · D
-- Días desde el último partido liguero registrado: 196
-- Medias recientes: Tiros 15,6, a puerta 6,4, córners 7,0, amarillas 1,2
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 17,0, a puerta 6,0, córners 5,4, amarillas 1,4
 
 **Eintracht Frankfurt:** posición 10 · 12 puntos.
-- Últimos partidos: 0V · 2E · 3D; secuencia: E · D · D · E · D
-- Días desde el último partido liguero registrado: 196
-- Medias recientes: Tiros 13,6, a puerta 5,6, córners 5,6, amarillas 2,0
+- Últimos partidos: 2V · 1E · 2D; secuencia: E · V · D · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 14,4, a puerta 6,4, córners 5,2, amarillas 2,0
 
 ### Enfrentamientos previos
 - 2026-05-16: Ein Frankfurt 2-2 Stuttgart
@@ -3132,9 +3176,9 @@
 - 2024-04-13: Stuttgart 3-0 Ein Frankfurt
 
 ### Tres selecciones del modelo (experimentales)
-1. **VfB Stuttgart: más de 0,5 goles** (Goles equipo): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Eintracht Frankfurt +2,5** (Hándicap 2 vías (medio gol)): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 1,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **VfB Stuttgart: más de 0,5 goles** (Goles equipo): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Eintracht Frankfurt +2,5** (Hándicap 2 vías (medio gol)): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 61.3% / 22.1% / 16.5%. No sustituye al modelo principal.
@@ -3158,19 +3202,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.0% | 24.6% | 32.4% | 55.7% |
+| 49.6% | 22.2% | 28.2% | 64.4% |
 
 ### Forma, descanso y estadísticas
 
 **SC Freiburg:** posición 3 · 19 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · E · D · V
-- Días desde el último partido liguero registrado: 197
-- Medias recientes: Tiros 10,2, a puerta 3,8, córners 2,2, amarillas 0,8
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 13,4, a puerta 4,2, córners 4,4, amarillas 2,0
 
 **RB Leipzig:** posición 4 · 18 puntos.
-- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
-- Días desde el último partido liguero registrado: 197
-- Medias recientes: Tiros 16,0, a puerta 6,8, córners 4,8, amarillas 1,6
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · D · V
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,0, a puerta 7,4, córners 3,8, amarillas 0,6
 
 ### Enfrentamientos previos
 - 2026-05-16: Freiburg 4-1 RB Leipzig
@@ -3180,9 +3224,9 @@
 - 2024-04-06: Freiburg 1-4 RB Leipzig
 
 ### Tres selecciones del modelo (experimentales)
-1. **RB Leipzig: menos de 2,5 goles** (Goles equipo): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **SC Freiburg: más de 0,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **SC Freiburg: más de 0,5 goles** (Goles equipo): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **RB Leipzig: menos de 2,5 goles** (Goles equipo): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **RB Leipzig +2,5** (Hándicap 2 vías (medio gol)): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 50.5% / 22.1% / 27.4%. No sustituye al modelo principal.
@@ -3206,19 +3250,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 49.1% | 24.3% | 26.5% | 55.8% |
+| 54.3% | 21.3% | 24.4% | 69.8% |
 
 ### Forma, descanso y estadísticas
 
 **TSG Hoffenheim:** posición 9 · 12 puntos.
-- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · E · V · V
-- Días desde el último partido liguero registrado: 197
-- Medias recientes: Tiros 15,2, a puerta 5,2, córners 6,8, amarillas 3,2
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 16,4, a puerta 5,4, córners 5,6, amarillas 1,4
 
 **FC Augsburg:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · E · V
-- Días desde el último partido liguero registrado: 197
-- Medias recientes: Tiros 13,6, a puerta 5,2, córners 5,2, amarillas 1,2
+- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 19,2, a puerta 6,2, córners 5,0, amarillas 1,8
 
 ### Enfrentamientos previos
 - 2026-04-10: Augsburg 2-2 Hoffenheim
@@ -3228,9 +3272,9 @@
 - 2024-04-07: Hoffenheim 3-1 Augsburg
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 82.7% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **TSG Hoffenheim: más de 0,5 goles** (Goles equipo): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 85.5% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **FC Augsburg: menos de 2,5 goles** (Goles equipo): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **FC Augsburg +2,5** (Hándicap 2 vías (medio gol)): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 52.2% / 24.4% / 23.4%. No sustituye al modelo principal.
@@ -3254,19 +3298,19 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 52.2% | 22.5% | 25.3% | 64.6% |
+| 57.8% | 21.0% | 21.2% | 66.1% |
 
 ### Forma, descanso y estadísticas
 
 **Borussia Dortmund:** posición 2 · 21 puntos.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · V · D
-- Días desde el último partido liguero registrado: 197
-- Medias recientes: Tiros 12,2, a puerta 5,2, córners 4,0, amarillas 1,6
+- Últimos partidos: 2V · 3E · 0D; secuencia: V · E · V · E · E
+- Días desde el último partido liguero registrado: 22
+- Medias recientes: Tiros 16,0, a puerta 5,6, córners 7,0, amarillas 1,4
 
 **Bayer Leverkusen:** posición 5 · 16 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: E · D · V · V · D
-- Días desde el último partido liguero registrado: 197
-- Medias recientes: Tiros 19,6, a puerta 7,0, córners 7,4, amarillas 1,4
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
+- Días desde el último partido liguero registrado: 21
+- Medias recientes: Tiros 15,0, a puerta 5,8, córners 5,6, amarillas 2,8
 
 ### Enfrentamientos previos
 - 2026-04-11: Dortmund 0-1 Leverkusen
@@ -3276,9 +3320,9 @@
 - 2024-04-21: Dortmund 1-1 Leverkusen
 
 ### Tres selecciones del modelo (experimentales)
-1. **Bayer Leverkusen: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 1,5 goles** (Total goles): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Bayer Leverkusen +2,5** (Hándicap 2 vías (medio gol)): 83.7% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 1,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 80.8% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Bayer Leverkusen +2,5** (Hándicap 2 vías (medio gol)): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 61.8% / 19.7% / 18.5%. No sustituye al modelo principal.
@@ -4242,7 +4286,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 40.3% | 22.3% | 37.5% | 63.7% |
+| 41.3% | 25.2% | 33.5% | 52.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -4260,13 +4304,13 @@
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Le Havre AC +1,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 1,5 goles** (Total goles): 83.9% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Le Havre AC: más de 0,5 goles** (Goles equipo): 82.8% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Troyes: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Le Havre AC +1,5** (Hándicap 2 vías (medio gol)): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-17T20:44:38+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -4286,7 +4330,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 32.7% | 22.5% | 44.8% | 62.0% |
+| 22.0% | 22.7% | 55.3% | 60.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -4301,15 +4345,16 @@
 - Medias recientes: Tiros 17,4, a puerta 8,4, córners 5,0, amarillas 1,0
 
 ### Enfrentamientos previos
+- 2026-03-21: Nice 0-4 Paris SG
+- 2025-11-01: Paris SG 1-0 Nice
 - 2025-04-25: Paris SG 1-3 Nice
 - 2024-10-06: Nice 1-1 Paris SG
 - 2024-05-15: Nice 1-2 Paris SG
-- 2023-09-15: Paris SG 2-3 Nice
 
 ### Tres selecciones del modelo (experimentales)
-1. **Paris Saint-Germain +1,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 1,5 goles** (Total goles): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Paris Saint-Germain: más de 0,5 goles** (Goles equipo): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Paris Saint-Germain: más de 0,5 goles** (Goles equipo): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Nice +2,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 23.6% / 20.8% / 55.6%. No sustituye al modelo principal.
@@ -4333,7 +4378,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 69.4% | 16.7% | 13.9% | 72.6% |
+| 60.4% | 21.3% | 18.3% | 64.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -4348,13 +4393,15 @@
 - Medias recientes: Tiros 10,2, a puerta 4,0, córners 3,4, amarillas 2,0
 
 ### Enfrentamientos previos
+- 2026-04-19: Monaco 2-2 Auxerre
+- 2025-09-13: Auxerre 1-2 Monaco
 - 2025-02-01: Monaco 4-2 Auxerre
 - 2024-09-14: Auxerre 0-3 Monaco
 
 ### Tres selecciones del modelo (experimentales)
-1. **1X: AS Monaco o empate** (Doble oportunidad): 86.1% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 84.6% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **AS Monaco: más de 1,5 goles** (Goles equipo): 76.1% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 1,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **1X: AS Monaco o empate** (Doble oportunidad): 81.7% · cuota justa 1.23; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 75.5% · cuota justa 1.32; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 60.4% / 24.6% / 14.9%. No sustituye al modelo principal.
@@ -4378,7 +4425,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 36.7% | 24.4% | 38.9% | 49.1% |
+| 49.3% | 24.6% | 26.0% | 52.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -4393,15 +4440,16 @@
 - Medias recientes: Tiros 10,4, a puerta 4,8, córners 4,0, amarillas 2,6
 
 ### Enfrentamientos previos
+- 2026-04-17: Lens 3-2 Toulouse
+- 2026-01-02: Toulouse 0-3 Lens
 - 2025-05-10: Toulouse 1-1 Lens
 - 2025-01-05: Lens 0-1 Toulouse
 - 2024-01-28: Toulouse 0-2 Lens
-- 2023-09-24: Lens 2-1 Toulouse
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 82.9% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Toulouse: menos de 2,5 goles** (Goles equipo): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Lens +1,5** (Hándicap 2 vías (medio gol)): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Lens: más de 0,5 goles** (Goles equipo): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 75.4% · cuota justa 1.33; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 52.4% / 20.0% / 27.5%. No sustituye al modelo principal.
@@ -4425,7 +4473,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 48.4% | 23.3% | 28.4% | 54.7% |
+| 46.0% | 27.0% | 26.9% | 39.6% |
 
 ### Forma, descanso y estadísticas
 
@@ -4440,15 +4488,16 @@
 - Medias recientes: Tiros 12,2, a puerta 4,2, córners 4,2, amarillas 0,8
 
 ### Enfrentamientos previos
+- 2026-02-01: Lyon 1-0 Lille
+- 2025-09-28: Lille 0-1 Lyon
 - 2025-04-05: Lyon 2-1 Lille
 - 2024-11-01: Lille 1-1 Lyon
 - 2024-05-06: Lille 3-4 Lyon
-- 2023-11-26: Lyon 0-2 Lille
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Lille: más de 0,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 76.7% · cuota justa 1.30; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **Lille: menos de 2,5 goles** (Goles equipo): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Lyon +1,5** (Hándicap 2 vías (medio gol)): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 42.1% / 26.3% / 31.7%. No sustituye al modelo principal.
@@ -4472,7 +4521,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 53.2% | 20.0% | 26.9% | 72.4% |
+| 57.6% | 21.1% | 21.3% | 65.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -4487,15 +4536,16 @@
 - Medias recientes: Tiros 13,0, a puerta 5,6, córners 2,4, amarillas 1,6
 
 ### Enfrentamientos previos
+- 2026-05-13: Brest 1-2 Strasbourg
+- 2025-11-30: Strasbourg 1-2 Brest
 - 2025-02-23: Strasbourg 0-0 Brest
 - 2024-11-30: Brest 3-1 Strasbourg
 - 2024-02-24: Strasbourg 0-3 Brest
-- 2023-12-07: Brest 1-1 Strasbourg
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 84.4% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Brest: menos de 2,5 goles** (Goles equipo): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Brest +2,5** (Hándicap 2 vías (medio gol)): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 1,5 goles** (Total goles): 84.8% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Brest +2,5** (Hándicap 2 vías (medio gol)): 78.9% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 77.3% · cuota justa 1.29; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 48.5% / 24.3% / 27.2%. No sustituye al modelo principal.
@@ -4519,7 +4569,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 56.4% | 23.2% | 20.4% | 47.4% |
+| 58.1% | 23.5% | 18.4% | 50.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -4534,12 +4584,13 @@
 - Medias recientes: Tiros 9,4, a puerta 3,6, córners 4,4, amarillas 1,4
 
 ### Enfrentamientos previos
-- No disponibles en el histórico consultado
+- 2026-01-25: Paris FC 0-0 Angers
+- 2025-08-17: Angers 1-0 Paris FC
 
 ### Tres selecciones del modelo (experimentales)
-1. **Angers +2,5** (Hándicap 2 vías (medio gol)): 86.6% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Paris FC: más de 0,5 goles** (Goles equipo): 81.3% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Angers: menos de 1,5 goles** (Goles equipo): 77.5% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Angers +2,5** (Hándicap 2 vías (medio gol)): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Paris FC: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 68.3% / 18.2% / 13.4%. No sustituye al modelo principal.
@@ -4563,7 +4614,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 39.6% | 21.7% | 38.7% | 68.9% |
+| 44.5% | 21.4% | 34.1% | 78.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -4578,13 +4629,15 @@
 - Medias recientes: Tiros 16,2, a puerta 6,6, córners 6,4, amarillas 2,4
 
 ### Enfrentamientos previos
+- 2026-01-24: Rennes 0-2 Lorient
+- 2025-08-24: Lorient 4-0 Rennes
 - 2024-03-03: Rennes 1-2 Lorient
 - 2023-10-22: Lorient 2-1 Rennes
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 1,5 goles** (Total goles): 87.0% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 85.7% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Lorient: más de 0,5 goles** (Goles equipo): 83.1% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Stade Rennais +2,5** (Hándicap 2 vías (medio gol)): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Stade Rennais: más de 0,5 goles** (Goles equipo): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 2,5 goles** (Total goles): 78.2% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 36.2% / 26.9% / 36.8%. No sustituye al modelo principal.
@@ -4608,7 +4661,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 61.8% | 19.0% | 19.2% | 71.3% |
+| 64.7% | 18.9% | 16.4% | 73.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -4626,9 +4679,9 @@
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Le Mans: menos de 2,5 goles** (Goles equipo): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **12: gana uno de los dos** (Doble oportunidad): 81.0% · cuota justa 1.24; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Más de 2,5 goles** (Total goles): 71.3% · cuota justa 1.40; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **1X: Marseille o empate** (Doble oportunidad): 83.6% · cuota justa 1.20; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **Marseille: más de 1,5 goles** (Goles equipo): 74.3% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 2,5 goles** (Total goles): 73.5% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 61.6% / 22.1% / 16.4%. No sustituye al modelo principal.
@@ -4652,7 +4705,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.9% | 24.7% | 30.4% | 46.5% |
+| 41.7% | 25.9% | 32.4% | 47.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -4667,12 +4720,13 @@
 - Medias recientes: Tiros 13,8, a puerta 5,2, córners 4,2, amarillas 2,8
 
 ### Enfrentamientos previos
-- No disponibles en el histórico consultado
+- 2026-05-03: Paris FC 4-0 Brest
+- 2025-09-14: Brest 1-2 Paris FC
 
 ### Tres selecciones del modelo (experimentales)
-1. **Brest: menos de 2,5 goles** (Goles equipo): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Paris FC +1,5** (Hándicap 2 vías (medio gol)): 78.8% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 75.0% · cuota justa 1.33; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Brest: menos de 2,5 goles** (Goles equipo): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Paris FC +1,5** (Hándicap 2 vías (medio gol)): 79.3% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 74.6% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.9% / 22.5% / 30.6%. No sustituye al modelo principal.
@@ -4696,7 +4750,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 24.9% | 22.8% | 52.3% | 49.8% |
+| 23.2% | 24.1% | 52.7% | 51.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -4711,13 +4765,15 @@
 - Medias recientes: Tiros 11,0, a puerta 4,4, córners 4,6, amarillas 1,6
 
 ### Enfrentamientos previos
+- 2026-03-20: Lens 5-1 Angers
+- 2025-11-30: Angers 1-2 Lens
 - 2025-01-26: Lens 1-0 Angers
 - 2024-08-18: Angers 0-1 Lens
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Angers +2,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 19,5 tiros totales** (Tiros totales): 83.5% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Angers +2,5** (Hándicap 2 vías (medio gol)): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 4,5 goles** (Total goles): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Lens: más de 0,5 goles** (Goles equipo): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 25.4% / 28.9% / 45.7%. No sustituye al modelo principal.
@@ -4741,7 +4797,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 23.5% | 20.9% | 55.6% | 62.2% |
+| 30.5% | 24.8% | 44.7% | 54.1% |
 
 ### Forma, descanso y estadísticas
 
@@ -4756,15 +4812,16 @@
 - Medias recientes: Tiros 13,6, a puerta 5,0, córners 3,2, amarillas 1,8
 
 ### Enfrentamientos previos
+- 2026-02-08: Le Havre 2-1 Strasbourg
+- 2025-09-14: Strasbourg 1-0 Le Havre
 - 2025-05-17: Strasbourg 2-3 Le Havre
 - 2024-12-15: Le Havre 0-3 Strasbourg
 - 2024-05-04: Le Havre 3-1 Strasbourg
-- 2023-12-10: Strasbourg 2-1 Le Havre
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 83.5% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Más de 1,5 goles** (Total goles): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Le Havre AC +2,5** (Hándicap 2 vías (medio gol)): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Strasbourg +1,5** (Hándicap 2 vías (medio gol)): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Le Havre AC: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 40.0% / 23.3% / 36.7%. No sustituye al modelo principal.
@@ -4788,7 +4845,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 29.0% | 24.5% | 46.5% | 46.9% |
+| 26.0% | 24.1% | 49.9% | 54.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -4806,9 +4863,9 @@
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Lille: menos de 2,5 goles** (Goles equipo): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Le Mans +1,5** (Hándicap 2 vías (medio gol)): 77.6% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 74.6% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Lille: más de 0,5 goles** (Goles equipo): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 75.9% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 26.3% / 28.3% / 45.4%. No sustituye al modelo principal.
@@ -4832,7 +4889,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 61.5% | 21.9% | 16.6% | 46.3% |
+| 47.1% | 26.4% | 26.5% | 41.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -4850,9 +4907,9 @@
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Troyes: menos de 1,5 goles** (Goles equipo): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Nice: más de 0,5 goles** (Goles equipo): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **1X: Nice o empate** (Doble oportunidad): 83.4% · cuota justa 1.20; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **Nice: menos de 2,5 goles** (Goles equipo): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 78.8% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Troyes +1,5** (Hándicap 2 vías (medio gol)): 77.5% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 47.2% / 28.9% / 23.9%. No sustituye al modelo principal.
@@ -4876,7 +4933,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 69.7% | 18.5% | 11.8% | 63.0% |
+| 65.3% | 22.2% | 12.6% | 48.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -4891,13 +4948,15 @@
 - Medias recientes: Tiros 9,6, a puerta 2,4, córners 4,2, amarillas 1,6
 
 ### Enfrentamientos previos
+- 2026-05-02: Paris SG 2-2 Lorient
+- 2025-10-29: Lorient 1-1 Paris SG
 - 2024-04-24: Lorient 1-4 Paris SG
 - 2023-08-12: Paris SG 0-0 Lorient
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 1,5 goles** (Total goles): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **12: gana uno de los dos** (Doble oportunidad): 81.5% · cuota justa 1.23; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Más de 21,5 tiros totales** (Tiros totales): 80.0% · cuota justa 1.25; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Paris Saint-Germain: más de 0,5 goles** (Goles equipo): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Lorient: menos de 1,5 goles** (Goles equipo): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Lorient +2,5** (Hándicap 2 vías (medio gol)): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 78.5% / 10.4% / 11.0%. No sustituye al modelo principal.
@@ -4921,7 +4980,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 32.5% | 24.4% | 43.1% | 49.7% |
+| 31.1% | 26.9% | 42.0% | 42.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -4936,13 +4995,15 @@
 - Medias recientes: Tiros 13,2, a puerta 4,6, córners 4,4, amarillas 1,4
 
 ### Enfrentamientos previos
+- 2026-03-13: Marseille 1-0 Auxerre
+- 2025-11-01: Auxerre 0-1 Marseille
 - 2025-02-22: Auxerre 3-0 Marseille
 - 2024-11-08: Marseille 1-3 Auxerre
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Marseille +1,5** (Hándicap 2 vías (medio gol)): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Marseille: menos de 2,5 goles** (Goles equipo): 82.6% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Marseille: menos de 2,5 goles** (Goles equipo): 86.3% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **AJ Auxerre +1,5** (Hándicap 2 vías (medio gol)): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 25.2% / 21.0% / 53.7%. No sustituye al modelo principal.
@@ -4966,7 +5027,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 40.1% | 22.9% | 37.0% | 60.4% |
+| 41.9% | 22.5% | 35.6% | 71.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -4981,15 +5042,16 @@
 - Medias recientes: Tiros 16,2, a puerta 6,6, córners 6,4, amarillas 2,4
 
 ### Enfrentamientos previos
+- 2026-02-28: Rennes 1-0 Toulouse
+- 2025-10-29: Toulouse 2-2 Rennes
 - 2025-05-03: Toulouse 2-1 Rennes
 - 2024-11-10: Rennes 0-2 Toulouse
 - 2024-04-13: Rennes 1-2 Toulouse
-- 2023-12-17: Toulouse 0-0 Rennes
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 1,5 goles** (Total goles): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Stade Rennais +1,5** (Hándicap 2 vías (medio gol)): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Toulouse: menos de 2,5 goles** (Goles equipo): 79.7% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Toulouse: más de 0,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Stade Rennais: más de 0,5 goles** (Goles equipo): 82.7% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Toulouse +1,5** (Hándicap 2 vías (medio gol)): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 29.7% / 23.4% / 46.9%. No sustituye al modelo principal.
@@ -5013,7 +5075,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 50.1% | 21.7% | 28.2% | 61.9% |
+| 53.1% | 22.5% | 24.4% | 60.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -5028,15 +5090,16 @@
 - Medias recientes: Tiros 13,4, a puerta 3,8, córners 4,6, amarillas 2,2
 
 ### Enfrentamientos previos
+- 2026-03-22: Lyon 1-2 Monaco
+- 2026-01-03: Monaco 1-3 Lyon
 - 2025-05-10: Monaco 2-0 Lyon
 - 2024-08-24: Lyon 0-2 Monaco
 - 2024-04-28: Lyon 3-2 Monaco
-- 2023-12-15: Monaco 0-1 Lyon
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 86.7% · cuota justa 1.15; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **AS Monaco: menos de 2,5 goles** (Goles equipo): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **AS Monaco +2,5** (Hándicap 2 vías (medio gol)): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Lyon: más de 0,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **AS Monaco +2,5** (Hándicap 2 vías (medio gol)): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 49.1% / 28.6% / 22.3%. No sustituye al modelo principal.

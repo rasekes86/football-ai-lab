@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-17T16:53:51.532965+00:00",
+  "calculado_utc": "2026-11-17T22:33:23.154585+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -9737,109 +9737,109 @@
       "fecha_corte": "2026-11-20",
       "local_datos": {
         "partidos": 5,
-        "v": 4,
-        "e": 1,
+        "v": 3,
+        "e": 2,
         "d": 0,
-        "goles_favor": 17,
-        "goles_contra": 9,
-        "puntos": 13,
-        "dias_descanso": 188,
+        "goles_favor": 15,
+        "goles_contra": 7,
+        "puntos": 11,
+        "dias_descanso": 13,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Bayern Munich",
-            "visitante": "FC Koln",
-            "marcador": "5-1",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Wolfsburg",
+            "fecha": "2026-11-07",
+            "local": "Mainz",
             "visitante": "Bayern Munich",
-            "marcador": "0-1",
+            "marcador": "1-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-10-31",
             "local": "Bayern Munich",
-            "visitante": "Heidenheim",
-            "marcador": "3-3",
+            "visitante": "Dortmund",
+            "marcador": "2-2",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-25",
-            "local": "Mainz",
+            "fecha": "2026-10-25",
+            "local": "Freiburg",
             "visitante": "Bayern Munich",
-            "marcador": "3-4",
+            "marcador": "1-3",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-19",
+            "fecha": "2026-10-17",
             "local": "Bayern Munich",
-            "visitante": "Stuttgart",
-            "marcador": "4-2",
+            "visitante": "RB Leipzig",
+            "marcador": "6-1",
             "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Augsburg",
+            "visitante": "Bayern Munich",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 19.4,
-          "tiros_puerta": 7.6,
-          "corners": 7.2,
-          "amarillas": 1.2,
+          "tiros": 25.0,
+          "tiros_puerta": 10.0,
+          "corners": 7.8,
+          "amarillas": 1.0,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 0,
+        "v": 1,
         "e": 2,
-        "d": 3,
-        "goles_favor": 6,
-        "goles_contra": 13,
-        "puntos": 2,
-        "dias_descanso": 188,
+        "d": 2,
+        "goles_favor": 4,
+        "goles_contra": 5,
+        "puntos": 5,
+        "dias_descanso": 12,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Bayern Munich",
-            "visitante": "FC Koln",
-            "marcador": "5-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-10",
-            "local": "FC Koln",
-            "visitante": "Heidenheim",
-            "marcador": "1-3",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-02",
-            "local": "Union Berlin",
-            "visitante": "FC Koln",
-            "marcador": "2-2",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-11-08",
             "local": "FC Koln",
             "visitante": "Leverkusen",
             "marcador": "1-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-17",
-            "local": "St Pauli",
+            "fecha": "2026-11-01",
+            "local": "Union Berlin",
             "visitante": "FC Koln",
             "marcador": "1-1",
             "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "FC Koln",
+            "visitante": "Schalke 04",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-16",
+            "local": "Ein Frankfurt",
+            "visitante": "FC Koln",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "FC Koln",
+            "visitante": "M'gladbach",
+            "marcador": "2-1",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 14.0,
-          "tiros_puerta": 4.8,
+          "tiros": 13.6,
+          "tiros_puerta": 4.6,
           "corners": 4.6,
-          "amarillas": 1.6,
+          "amarillas": 2.8,
           "rojas": 0.0
         }
       },
@@ -9872,13 +9872,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 68,
-            "recinto": 34,
+            "todos": 77,
+            "recinto": 38,
             "identificado": true
           }
         },
@@ -9904,109 +9904,109 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
-        "d": 2,
-        "goles_favor": 11,
-        "goles_contra": 8,
-        "puntos": 7,
-        "dias_descanso": 189,
+        "v": 1,
+        "e": 3,
+        "d": 1,
+        "goles_favor": 3,
+        "goles_contra": 4,
+        "puntos": 6,
+        "dias_descanso": 13,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Union Berlin",
-            "visitante": "Augsburg",
-            "marcador": "4-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-10",
-            "local": "Mainz",
+            "fecha": "2026-11-08",
+            "local": "Freiburg",
             "visitante": "Union Berlin",
-            "marcador": "1-3",
-            "resultado": "V"
+            "marcador": "2-0",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-01",
             "local": "Union Berlin",
             "visitante": "FC Koln",
-            "marcador": "2-2",
+            "marcador": "1-1",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-24",
-            "local": "RB Leipzig",
+            "fecha": "2026-10-24",
+            "local": "Augsburg",
             "visitante": "Union Berlin",
-            "marcador": "3-1",
-            "resultado": "D"
+            "marcador": "1-1",
+            "resultado": "E"
           },
           {
-            "fecha": "2026-04-18",
+            "fecha": "2026-10-17",
             "local": "Union Berlin",
-            "visitante": "Wolfsburg",
-            "marcador": "1-2",
-            "resultado": "D"
+            "visitante": "Dortmund",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Union Berlin",
+            "visitante": "Elversberg",
+            "marcador": "1-0",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 15.2,
-          "tiros_puerta": 5.8,
-          "corners": 5.8,
-          "amarillas": 1.6,
-          "rojas": 0.0
+          "tiros": 9.0,
+          "tiros_puerta": 1.8,
+          "corners": 3.2,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 4,
         "e": 0,
-        "d": 2,
-        "goles_favor": 10,
-        "goles_contra": 11,
-        "puntos": 9,
-        "dias_descanso": 189,
+        "d": 1,
+        "goles_favor": 18,
+        "goles_contra": 8,
+        "puntos": 12,
+        "dias_descanso": 14,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Freiburg",
-            "visitante": "RB Leipzig",
-            "marcador": "4-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-09",
+            "fecha": "2026-11-07",
             "local": "RB Leipzig",
-            "visitante": "St Pauli",
-            "marcador": "2-1",
+            "visitante": "Augsburg",
+            "marcador": "5-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Leverkusen",
+            "fecha": "2026-10-31",
+            "local": "Schalke 04",
             "visitante": "RB Leipzig",
-            "marcador": "4-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-04-24",
-            "local": "RB Leipzig",
-            "visitante": "Union Berlin",
-            "marcador": "3-1",
+            "marcador": "0-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Ein Frankfurt",
+            "fecha": "2026-10-24",
+            "local": "RB Leipzig",
+            "visitante": "Elversberg",
+            "marcador": "4-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Bayern Munich",
             "visitante": "RB Leipzig",
-            "marcador": "1-3",
+            "marcador": "6-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "RB Leipzig",
+            "visitante": "Ein Frankfurt",
+            "marcador": "6-0",
             "resultado": "V"
           }
         ],
         "medias": {
           "tiros": 16.0,
-          "tiros_puerta": 6.8,
-          "corners": 4.8,
-          "amarillas": 1.6,
+          "tiros_puerta": 7.4,
+          "corners": 3.8,
+          "amarillas": 0.6,
           "rojas": 0.0
         }
       },
@@ -10045,13 +10045,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -10077,92 +10077,128 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
-        "goles_favor": 9,
-        "goles_contra": 8,
-        "puntos": 7,
-        "dias_descanso": 189,
+        "goles_favor": 10,
+        "goles_contra": 12,
+        "puntos": 9,
+        "dias_descanso": 13,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Leverkusen",
-            "visitante": "Hamburg",
-            "marcador": "1-1",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Stuttgart",
-            "visitante": "Leverkusen",
-            "marcador": "3-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-02",
-            "local": "Leverkusen",
-            "visitante": "RB Leipzig",
-            "marcador": "4-1",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-11-08",
             "local": "FC Koln",
             "visitante": "Leverkusen",
             "marcador": "1-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
+            "fecha": "2026-10-31",
             "local": "Leverkusen",
-            "visitante": "Augsburg",
-            "marcador": "1-2",
+            "visitante": "Stuttgart",
+            "marcador": "2-4",
             "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Hoffenheim",
+            "visitante": "Leverkusen",
+            "marcador": "3-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Leverkusen",
+            "visitante": "Freiburg",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Mainz",
+            "visitante": "Leverkusen",
+            "marcador": "3-4",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 19.6,
-          "tiros_puerta": 7.0,
-          "corners": 7.4,
-          "amarillas": 1.4,
+          "tiros": 15.0,
+          "tiros_puerta": 5.8,
+          "corners": 5.6,
+          "amarillas": 2.8,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
-        "partidos": 0,
-        "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
+        "partidos": 5,
+        "v": 1,
+        "e": 3,
+        "d": 1,
+        "goles_favor": 5,
+        "goles_contra": 6,
+        "puntos": 6,
+        "dias_descanso": 14,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Paderborn",
+            "visitante": "Ein Frankfurt",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "M'gladbach",
+            "visitante": "Paderborn",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Paderborn",
+            "visitante": "Hamburg",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Werder Bremen",
+            "visitante": "Paderborn",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Paderborn",
+            "visitante": "Stuttgart",
+            "marcador": "0-2",
+            "resultado": "D"
+          }
+        ],
         "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
+          "tiros": 15.0,
+          "tiros_puerta": 4.6,
+          "corners": 5.0,
+          "amarillas": 1.2,
+          "rojas": 0.0
         }
       },
       "enfrentamientos": [],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 9,
+            "recinto": 4,
+            "identificado": true
           }
         },
         "motivos": [
-          "visitante: nombre o club sin histórico de primera división"
+          "visitante: menos de 5 encuentros en su condición"
         ],
         "suficiente_modelo_actual": false
       },
@@ -10185,109 +10221,109 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 2,
-        "d": 1,
-        "goles_favor": 7,
-        "goles_contra": 4,
-        "puntos": 8,
-        "dias_descanso": 189,
+        "v": 1,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 6,
+        "goles_contra": 9,
+        "puntos": 4,
+        "dias_descanso": 15,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "M'gladbach",
-            "visitante": "Hoffenheim",
-            "marcador": "4-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Augsburg",
+            "fecha": "2026-11-06",
+            "local": "Hamburg",
             "visitante": "M'gladbach",
             "marcador": "3-1",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-03",
+            "fecha": "2026-10-31",
             "local": "M'gladbach",
-            "visitante": "Dortmund",
-            "marcador": "1-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
-            "local": "Wolfsburg",
-            "visitante": "M'gladbach",
+            "visitante": "Paderborn",
             "marcador": "0-0",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-19",
-            "local": "M'gladbach",
-            "visitante": "Mainz",
-            "marcador": "1-1",
-            "resultado": "E"
-          }
-        ],
-        "medias": {
-          "tiros": 11.2,
-          "tiros_puerta": 4.0,
-          "corners": 2.0,
-          "amarillas": 3.4,
-          "rojas": 0.2
-        }
-      },
-      "visitante_datos": {
-        "partidos": 5,
-        "v": 3,
-        "e": 0,
-        "d": 2,
-        "goles_favor": 10,
-        "goles_contra": 5,
-        "puntos": 9,
-        "dias_descanso": 189,
-        "ultimos": [
-          {
-            "fecha": "2026-05-16",
-            "local": "Werder Bremen",
-            "visitante": "Dortmund",
-            "marcador": "0-2",
+            "fecha": "2026-10-23",
+            "local": "Stuttgart",
+            "visitante": "M'gladbach",
+            "marcador": "2-3",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-08",
-            "local": "Dortmund",
-            "visitante": "Ein Frankfurt",
-            "marcador": "3-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-03",
+            "fecha": "2026-10-18",
             "local": "M'gladbach",
-            "visitante": "Dortmund",
-            "marcador": "1-0",
+            "visitante": "Hoffenheim",
+            "marcador": "1-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-26",
-            "local": "Dortmund",
-            "visitante": "Freiburg",
-            "marcador": "4-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-18",
-            "local": "Hoffenheim",
-            "visitante": "Dortmund",
+            "fecha": "2026-10-11",
+            "local": "FC Koln",
+            "visitante": "M'gladbach",
             "marcador": "2-1",
             "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 12.2,
+          "tiros": 14.4,
           "tiros_puerta": 5.2,
-          "corners": 4.0,
-          "amarillas": 1.6,
+          "corners": 4.2,
+          "amarillas": 3.0,
+          "rojas": 0.2
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 2,
+        "e": 3,
+        "d": 0,
+        "goles_favor": 7,
+        "goles_contra": 5,
+        "puntos": 9,
+        "dias_descanso": 14,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Dortmund",
+            "visitante": "Elversberg",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Bayern Munich",
+            "visitante": "Dortmund",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Dortmund",
+            "visitante": "Ein Frankfurt",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Union Berlin",
+            "visitante": "Dortmund",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-09",
+            "local": "Dortmund",
+            "visitante": "Werder Bremen",
+            "marcador": "2-2",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 16.0,
+          "tiros_puerta": 5.6,
+          "corners": 7.0,
+          "amarillas": 1.4,
           "rojas": 0.0
         }
       },
@@ -10326,13 +10362,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -10358,110 +10394,110 @@
       "fecha_corte": "2026-11-21",
       "local_datos": {
         "partidos": 5,
-        "v": 0,
-        "e": 2,
-        "d": 3,
-        "goles_favor": 7,
-        "goles_contra": 11,
-        "puntos": 2,
-        "dias_descanso": 189,
+        "v": 2,
+        "e": 1,
+        "d": 2,
+        "goles_favor": 6,
+        "goles_contra": 10,
+        "puntos": 7,
+        "dias_descanso": 14,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Ein Frankfurt",
-            "visitante": "Stuttgart",
+            "fecha": "2026-11-07",
+            "local": "Paderborn",
+            "visitante": "Ein Frankfurt",
             "marcador": "2-2",
             "resultado": "E"
           },
           {
-            "fecha": "2026-05-08",
-            "local": "Dortmund",
-            "visitante": "Ein Frankfurt",
-            "marcador": "3-2",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-01",
             "local": "Ein Frankfurt",
             "visitante": "Hamburg",
-            "marcador": "1-2",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Dortmund",
+            "visitante": "Ein Frankfurt",
+            "marcador": "1-0",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-25",
-            "local": "Augsburg",
-            "visitante": "Ein Frankfurt",
-            "marcador": "1-1",
-            "resultado": "E"
+            "fecha": "2026-10-16",
+            "local": "Ein Frankfurt",
+            "visitante": "FC Koln",
+            "marcador": "1-0",
+            "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Ein Frankfurt",
-            "visitante": "RB Leipzig",
-            "marcador": "1-3",
+            "fecha": "2026-10-10",
+            "local": "RB Leipzig",
+            "visitante": "Ein Frankfurt",
+            "marcador": "6-0",
             "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 13.6,
-          "tiros_puerta": 5.6,
-          "corners": 5.6,
+          "tiros": 14.4,
+          "tiros_puerta": 6.4,
+          "corners": 5.2,
           "amarillas": 2.0,
-          "rojas": 0.2
+          "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
         "v": 3,
-        "e": 1,
-        "d": 1,
-        "goles_favor": 8,
-        "goles_contra": 9,
-        "puntos": 10,
-        "dias_descanso": 189,
+        "e": 0,
+        "d": 2,
+        "goles_favor": 9,
+        "goles_contra": 7,
+        "puntos": 9,
+        "dias_descanso": 13,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "M'gladbach",
-            "visitante": "Hoffenheim",
-            "marcador": "4-0",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-09",
+            "fecha": "2026-11-08",
             "local": "Hoffenheim",
-            "visitante": "Werder Bremen",
-            "marcador": "1-0",
+            "visitante": "Schalke 04",
+            "marcador": "2-1",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Hoffenheim",
-            "visitante": "Stuttgart",
-            "marcador": "3-3",
-            "resultado": "E"
+            "fecha": "2026-10-31",
+            "local": "Werder Bremen",
+            "visitante": "Hoffenheim",
+            "marcador": "2-0",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-04-25",
-            "local": "Hamburg",
+            "fecha": "2026-10-25",
+            "local": "Hoffenheim",
+            "visitante": "Leverkusen",
+            "marcador": "3-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "M'gladbach",
             "visitante": "Hoffenheim",
             "marcador": "1-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
+            "fecha": "2026-10-10",
             "local": "Hoffenheim",
-            "visitante": "Dortmund",
-            "marcador": "2-1",
-            "resultado": "V"
+            "visitante": "Hamburg",
+            "marcador": "2-3",
+            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 15.2,
-          "tiros_puerta": 5.2,
-          "corners": 6.8,
-          "amarillas": 3.2,
-          "rojas": 0.2
+          "tiros": 16.4,
+          "tiros_puerta": 5.4,
+          "corners": 5.6,
+          "amarillas": 1.4,
+          "rojas": 0.4
         }
       },
       "enfrentamientos": [
@@ -10499,13 +10535,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -10549,56 +10585,56 @@
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
-        "goles_favor": 9,
-        "goles_contra": 10,
-        "puntos": 7,
-        "dias_descanso": 189,
+        "goles_favor": 8,
+        "goles_contra": 7,
+        "puntos": 9,
+        "dias_descanso": 13,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
+            "fecha": "2026-11-08",
             "local": "Freiburg",
-            "visitante": "RB Leipzig",
-            "marcador": "4-1",
+            "visitante": "Union Berlin",
+            "marcador": "2-0",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-10",
-            "local": "Hamburg",
+            "fecha": "2026-10-31",
+            "local": "Augsburg",
             "visitante": "Freiburg",
-            "marcador": "3-2",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Freiburg",
+            "visitante": "Bayern Munich",
+            "marcador": "1-3",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-03",
-            "local": "Freiburg",
-            "visitante": "Wolfsburg",
-            "marcador": "1-1",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-04-26",
-            "local": "Dortmund",
+            "fecha": "2026-10-18",
+            "local": "Leverkusen",
             "visitante": "Freiburg",
-            "marcador": "4-0",
+            "marcador": "2-1",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-19",
+            "fecha": "2026-10-11",
             "local": "Freiburg",
-            "visitante": "Heidenheim",
+            "visitante": "Schalke 04",
             "marcador": "2-1",
             "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 10.2,
-          "tiros_puerta": 3.8,
-          "corners": 2.2,
-          "amarillas": 0.8,
-          "rojas": 0.0
+          "tiros": 13.4,
+          "tiros_puerta": 4.2,
+          "corners": 4.4,
+          "amarillas": 2.0,
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [],
@@ -10610,8 +10646,8 @@
             "identificado": false
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -10638,93 +10674,129 @@
       "version": "prepartido-history-0.5",
       "fecha_corte": "2026-11-21",
       "local_datos": {
-        "partidos": 0,
-        "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
-        "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
-        }
-      },
-      "visitante_datos": {
         "partidos": 5,
-        "v": 1,
-        "e": 3,
-        "d": 1,
-        "goles_favor": 11,
-        "goles_contra": 11,
-        "puntos": 6,
-        "dias_descanso": 189,
+        "v": 0,
+        "e": 1,
+        "d": 4,
+        "goles_favor": 2,
+        "goles_contra": 7,
+        "puntos": 1,
+        "dias_descanso": 13,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Ein Frankfurt",
-            "visitante": "Stuttgart",
-            "marcador": "2-2",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Stuttgart",
-            "visitante": "Leverkusen",
-            "marcador": "3-1",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-08",
             "local": "Hoffenheim",
-            "visitante": "Stuttgart",
-            "marcador": "3-3",
+            "visitante": "Schalke 04",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Schalke 04",
+            "visitante": "RB Leipzig",
+            "marcador": "0-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "FC Koln",
+            "visitante": "Schalke 04",
+            "marcador": "0-0",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-26",
-            "local": "Stuttgart",
-            "visitante": "Werder Bremen",
-            "marcador": "1-1",
-            "resultado": "E"
+            "fecha": "2026-10-17",
+            "local": "Schalke 04",
+            "visitante": "Mainz",
+            "marcador": "0-1",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-04-19",
-            "local": "Bayern Munich",
-            "visitante": "Stuttgart",
-            "marcador": "4-2",
+            "fecha": "2026-10-11",
+            "local": "Freiburg",
+            "visitante": "Schalke 04",
+            "marcador": "2-1",
             "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 15.6,
-          "tiros_puerta": 6.4,
-          "corners": 7.0,
-          "amarillas": 1.2,
-          "rojas": 0.2
+          "tiros": 10.4,
+          "tiros_puerta": 2.4,
+          "corners": 3.6,
+          "amarillas": 1.6,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 3,
+        "e": 0,
+        "d": 2,
+        "goles_favor": 9,
+        "goles_contra": 6,
+        "puntos": 9,
+        "dias_descanso": 14,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Stuttgart",
+            "visitante": "Werder Bremen",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Leverkusen",
+            "visitante": "Stuttgart",
+            "marcador": "2-4",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-23",
+            "local": "Stuttgart",
+            "visitante": "M'gladbach",
+            "marcador": "2-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Hamburg",
+            "visitante": "Stuttgart",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Paderborn",
+            "visitante": "Stuttgart",
+            "marcador": "0-2",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 17.0,
+          "tiros_puerta": 6.0,
+          "corners": 5.4,
+          "amarillas": 1.4,
+          "rojas": 0.0
         }
       },
       "enfrentamientos": [],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 9,
+            "recinto": 4,
+            "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           }
         },
         "motivos": [
-          "local: nombre o club sin histórico de primera división"
+          "local: menos de 5 encuentros en su condición"
         ],
         "suficiente_modelo_actual": false
       },
@@ -10747,110 +10819,110 @@
       "fecha_corte": "2026-11-22",
       "local_datos": {
         "partidos": 5,
-        "v": 3,
-        "e": 1,
-        "d": 1,
+        "v": 0,
+        "e": 2,
+        "d": 3,
         "goles_favor": 9,
-        "goles_contra": 8,
-        "puntos": 10,
-        "dias_descanso": 190,
+        "goles_contra": 14,
+        "puntos": 2,
+        "dias_descanso": 15,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Union Berlin",
+            "fecha": "2026-11-07",
+            "local": "RB Leipzig",
             "visitante": "Augsburg",
-            "marcador": "4-0",
+            "marcador": "5-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-09",
+            "fecha": "2026-10-31",
             "local": "Augsburg",
-            "visitante": "M'gladbach",
-            "marcador": "3-1",
-            "resultado": "V"
+            "visitante": "Freiburg",
+            "marcador": "1-2",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Werder Bremen",
-            "visitante": "Augsburg",
-            "marcador": "1-3",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-10-24",
             "local": "Augsburg",
-            "visitante": "Ein Frankfurt",
+            "visitante": "Union Berlin",
             "marcador": "1-1",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Leverkusen",
+            "fecha": "2026-10-17",
+            "local": "Elversberg",
             "visitante": "Augsburg",
-            "marcador": "1-2",
-            "resultado": "V"
+            "marcador": "4-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Augsburg",
+            "visitante": "Bayern Munich",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 13.6,
-          "tiros_puerta": 5.2,
-          "corners": 5.2,
-          "amarillas": 1.2,
-          "rojas": 0.0
+          "tiros": 19.2,
+          "tiros_puerta": 6.2,
+          "corners": 5.0,
+          "amarillas": 1.8,
+          "rojas": 0.4
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
-        "d": 2,
-        "goles_favor": 9,
-        "goles_contra": 9,
-        "puntos": 7,
-        "dias_descanso": 190,
+        "v": 1,
+        "e": 0,
+        "d": 4,
+        "goles_favor": 8,
+        "goles_contra": 13,
+        "puntos": 3,
+        "dias_descanso": 15,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Heidenheim",
-            "visitante": "Mainz",
-            "marcador": "0-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-10",
-            "local": "Mainz",
-            "visitante": "Union Berlin",
-            "marcador": "1-3",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-03",
-            "local": "St Pauli",
-            "visitante": "Mainz",
-            "marcador": "1-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-11-07",
             "local": "Mainz",
             "visitante": "Bayern Munich",
-            "marcador": "3-4",
+            "marcador": "1-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-19",
-            "local": "M'gladbach",
+            "fecha": "2026-10-30",
+            "local": "Elversberg",
             "visitante": "Mainz",
-            "marcador": "1-1",
-            "resultado": "E"
+            "marcador": "4-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Mainz",
+            "visitante": "Werder Bremen",
+            "marcador": "2-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Schalke 04",
+            "visitante": "Mainz",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Mainz",
+            "visitante": "Leverkusen",
+            "marcador": "3-4",
+            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 16.8,
-          "tiros_puerta": 6.6,
-          "corners": 5.4,
-          "amarillas": 1.4,
-          "rojas": 0.0
+          "tiros": 14.2,
+          "tiros_puerta": 4.4,
+          "corners": 5.8,
+          "amarillas": 3.0,
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [
@@ -10888,13 +10960,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -10920,110 +10992,110 @@
       "fecha_corte": "2026-11-22",
       "local_datos": {
         "partidos": 5,
-        "v": 1,
-        "e": 1,
-        "d": 3,
-        "goles_favor": 5,
-        "goles_contra": 8,
-        "puntos": 4,
-        "dias_descanso": 190,
+        "v": 2,
+        "e": 2,
+        "d": 1,
+        "goles_favor": 9,
+        "goles_contra": 7,
+        "puntos": 8,
+        "dias_descanso": 15,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Werder Bremen",
-            "visitante": "Dortmund",
-            "marcador": "0-2",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Hoffenheim",
+            "fecha": "2026-11-07",
+            "local": "Stuttgart",
             "visitante": "Werder Bremen",
             "marcador": "1-0",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-10-31",
             "local": "Werder Bremen",
-            "visitante": "Augsburg",
-            "marcador": "1-3",
-            "resultado": "D"
+            "visitante": "Hoffenheim",
+            "marcador": "2-0",
+            "resultado": "V"
           },
           {
-            "fecha": "2026-04-26",
-            "local": "Stuttgart",
+            "fecha": "2026-10-24",
+            "local": "Mainz",
             "visitante": "Werder Bremen",
-            "marcador": "1-1",
+            "marcador": "2-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Werder Bremen",
+            "visitante": "Paderborn",
+            "marcador": "2-2",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Werder Bremen",
-            "visitante": "Hamburg",
-            "marcador": "3-1",
-            "resultado": "V"
+            "fecha": "2026-10-09",
+            "local": "Dortmund",
+            "visitante": "Werder Bremen",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 12.4,
-          "tiros_puerta": 4.4,
-          "corners": 4.8,
+          "tiros": 17.2,
+          "tiros_puerta": 6.4,
+          "corners": 5.2,
           "amarillas": 1.6,
-          "rojas": 0.2
+          "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
         "goles_favor": 8,
-        "goles_contra": 9,
-        "puntos": 7,
-        "dias_descanso": 190,
+        "goles_contra": 7,
+        "puntos": 9,
+        "dias_descanso": 16,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Leverkusen",
-            "visitante": "Hamburg",
-            "marcador": "1-1",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-05-10",
+            "fecha": "2026-11-06",
             "local": "Hamburg",
-            "visitante": "Freiburg",
-            "marcador": "3-2",
+            "visitante": "M'gladbach",
+            "marcador": "3-1",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-01",
             "local": "Ein Frankfurt",
-            "visitante": "Hamburg",
-            "marcador": "1-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
-            "local": "Hamburg",
-            "visitante": "Hoffenheim",
-            "marcador": "1-2",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-04-18",
-            "local": "Werder Bremen",
             "visitante": "Hamburg",
             "marcador": "3-1",
             "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Paderborn",
+            "visitante": "Hamburg",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Hamburg",
+            "visitante": "Stuttgart",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Hoffenheim",
+            "visitante": "Hamburg",
+            "marcador": "2-3",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 13.0,
-          "tiros_puerta": 4.4,
-          "corners": 3.2,
+          "tiros": 13.4,
+          "tiros_puerta": 4.0,
+          "corners": 4.4,
           "amarillas": 2.0,
-          "rojas": 0.2
+          "rojas": 0.0
         }
       },
       "enfrentamientos": [
@@ -11043,13 +11115,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 34,
-            "recinto": 17,
+            "todos": 43,
+            "recinto": 22,
             "identificado": true
           }
         },
@@ -11075,109 +11147,109 @@
       "fecha_corte": "2026-11-27",
       "local_datos": {
         "partidos": 5,
-        "v": 1,
-        "e": 1,
-        "d": 3,
-        "goles_favor": 5,
-        "goles_contra": 8,
-        "puntos": 4,
-        "dias_descanso": 195,
+        "v": 2,
+        "e": 2,
+        "d": 1,
+        "goles_favor": 9,
+        "goles_contra": 7,
+        "puntos": 8,
+        "dias_descanso": 20,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Werder Bremen",
-            "visitante": "Dortmund",
-            "marcador": "0-2",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Hoffenheim",
+            "fecha": "2026-11-07",
+            "local": "Stuttgart",
             "visitante": "Werder Bremen",
             "marcador": "1-0",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-10-31",
             "local": "Werder Bremen",
-            "visitante": "Augsburg",
-            "marcador": "1-3",
-            "resultado": "D"
+            "visitante": "Hoffenheim",
+            "marcador": "2-0",
+            "resultado": "V"
           },
           {
-            "fecha": "2026-04-26",
-            "local": "Stuttgart",
+            "fecha": "2026-10-24",
+            "local": "Mainz",
             "visitante": "Werder Bremen",
-            "marcador": "1-1",
+            "marcador": "2-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Werder Bremen",
+            "visitante": "Paderborn",
+            "marcador": "2-2",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Werder Bremen",
-            "visitante": "Hamburg",
-            "marcador": "3-1",
-            "resultado": "V"
+            "fecha": "2026-10-09",
+            "local": "Dortmund",
+            "visitante": "Werder Bremen",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 12.4,
-          "tiros_puerta": 4.4,
-          "corners": 4.8,
+          "tiros": 17.2,
+          "tiros_puerta": 6.4,
+          "corners": 5.2,
           "amarillas": 1.6,
-          "rojas": 0.2
+          "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 2,
-        "d": 1,
-        "goles_favor": 7,
-        "goles_contra": 4,
-        "puntos": 8,
-        "dias_descanso": 195,
+        "v": 1,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 6,
+        "goles_contra": 9,
+        "puntos": 4,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "M'gladbach",
-            "visitante": "Hoffenheim",
-            "marcador": "4-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Augsburg",
+            "fecha": "2026-11-06",
+            "local": "Hamburg",
             "visitante": "M'gladbach",
             "marcador": "3-1",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-03",
+            "fecha": "2026-10-31",
             "local": "M'gladbach",
-            "visitante": "Dortmund",
-            "marcador": "1-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
-            "local": "Wolfsburg",
-            "visitante": "M'gladbach",
+            "visitante": "Paderborn",
             "marcador": "0-0",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-19",
+            "fecha": "2026-10-23",
+            "local": "Stuttgart",
+            "visitante": "M'gladbach",
+            "marcador": "2-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
             "local": "M'gladbach",
-            "visitante": "Mainz",
-            "marcador": "1-1",
-            "resultado": "E"
+            "visitante": "Hoffenheim",
+            "marcador": "1-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "FC Koln",
+            "visitante": "M'gladbach",
+            "marcador": "2-1",
+            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 11.2,
-          "tiros_puerta": 4.0,
-          "corners": 2.0,
-          "amarillas": 3.4,
+          "tiros": 14.4,
+          "tiros_puerta": 5.2,
+          "corners": 4.2,
+          "amarillas": 3.0,
           "rojas": 0.2
         }
       },
@@ -11216,13 +11288,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -11248,55 +11320,55 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 0,
+        "v": 1,
         "e": 2,
-        "d": 3,
-        "goles_favor": 6,
-        "goles_contra": 13,
-        "puntos": 2,
-        "dias_descanso": 196,
+        "d": 2,
+        "goles_favor": 4,
+        "goles_contra": 5,
+        "puntos": 5,
+        "dias_descanso": 20,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Bayern Munich",
-            "visitante": "FC Koln",
-            "marcador": "5-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-10",
-            "local": "FC Koln",
-            "visitante": "Heidenheim",
-            "marcador": "1-3",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-02",
-            "local": "Union Berlin",
-            "visitante": "FC Koln",
-            "marcador": "2-2",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-11-08",
             "local": "FC Koln",
             "visitante": "Leverkusen",
             "marcador": "1-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-17",
-            "local": "St Pauli",
+            "fecha": "2026-11-01",
+            "local": "Union Berlin",
             "visitante": "FC Koln",
             "marcador": "1-1",
             "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "FC Koln",
+            "visitante": "Schalke 04",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-16",
+            "local": "Ein Frankfurt",
+            "visitante": "FC Koln",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "FC Koln",
+            "visitante": "M'gladbach",
+            "marcador": "2-1",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 14.0,
-          "tiros_puerta": 4.8,
+          "tiros": 13.6,
+          "tiros_puerta": 4.6,
           "corners": 4.6,
-          "amarillas": 1.6,
+          "amarillas": 2.8,
           "rojas": 0.0
         }
       },
@@ -11322,8 +11394,8 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 68,
-            "recinto": 34,
+            "todos": 77,
+            "recinto": 39,
             "identificado": true
           },
           "visitante": {
@@ -11356,109 +11428,109 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
         "goles_favor": 8,
-        "goles_contra": 9,
-        "puntos": 7,
-        "dias_descanso": 196,
+        "goles_contra": 7,
+        "puntos": 9,
+        "dias_descanso": 22,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Leverkusen",
-            "visitante": "Hamburg",
-            "marcador": "1-1",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-05-10",
+            "fecha": "2026-11-06",
             "local": "Hamburg",
-            "visitante": "Freiburg",
-            "marcador": "3-2",
+            "visitante": "M'gladbach",
+            "marcador": "3-1",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-01",
             "local": "Ein Frankfurt",
-            "visitante": "Hamburg",
-            "marcador": "1-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
-            "local": "Hamburg",
-            "visitante": "Hoffenheim",
-            "marcador": "1-2",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-04-18",
-            "local": "Werder Bremen",
             "visitante": "Hamburg",
             "marcador": "3-1",
             "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Paderborn",
+            "visitante": "Hamburg",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Hamburg",
+            "visitante": "Stuttgart",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Hoffenheim",
+            "visitante": "Hamburg",
+            "marcador": "2-3",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 13.0,
-          "tiros_puerta": 4.4,
-          "corners": 3.2,
+          "tiros": 13.4,
+          "tiros_puerta": 4.0,
+          "corners": 4.4,
           "amarillas": 2.0,
-          "rojas": 0.2
+          "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 4,
-        "e": 1,
+        "v": 3,
+        "e": 2,
         "d": 0,
-        "goles_favor": 17,
-        "goles_contra": 9,
-        "puntos": 13,
-        "dias_descanso": 196,
+        "goles_favor": 15,
+        "goles_contra": 7,
+        "puntos": 11,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Bayern Munich",
-            "visitante": "FC Koln",
-            "marcador": "5-1",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Wolfsburg",
+            "fecha": "2026-11-07",
+            "local": "Mainz",
             "visitante": "Bayern Munich",
-            "marcador": "0-1",
+            "marcador": "1-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-10-31",
             "local": "Bayern Munich",
-            "visitante": "Heidenheim",
-            "marcador": "3-3",
+            "visitante": "Dortmund",
+            "marcador": "2-2",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-25",
-            "local": "Mainz",
+            "fecha": "2026-10-25",
+            "local": "Freiburg",
             "visitante": "Bayern Munich",
-            "marcador": "3-4",
+            "marcador": "1-3",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-19",
+            "fecha": "2026-10-17",
             "local": "Bayern Munich",
-            "visitante": "Stuttgart",
-            "marcador": "4-2",
+            "visitante": "RB Leipzig",
+            "marcador": "6-1",
             "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Augsburg",
+            "visitante": "Bayern Munich",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 19.4,
-          "tiros_puerta": 7.6,
-          "corners": 7.2,
-          "amarillas": 1.2,
+          "tiros": 25.0,
+          "tiros_puerta": 10.0,
+          "corners": 7.8,
+          "amarillas": 1.0,
           "rojas": 0.0
         }
       },
@@ -11479,13 +11551,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 34,
-            "recinto": 17,
+            "todos": 43,
+            "recinto": 21,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -11511,110 +11583,110 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
-        "d": 2,
-        "goles_favor": 9,
-        "goles_contra": 9,
-        "puntos": 7,
-        "dias_descanso": 196,
+        "v": 1,
+        "e": 0,
+        "d": 4,
+        "goles_favor": 8,
+        "goles_contra": 13,
+        "puntos": 3,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Heidenheim",
-            "visitante": "Mainz",
-            "marcador": "0-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-10",
-            "local": "Mainz",
-            "visitante": "Union Berlin",
-            "marcador": "1-3",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-03",
-            "local": "St Pauli",
-            "visitante": "Mainz",
-            "marcador": "1-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-11-07",
             "local": "Mainz",
             "visitante": "Bayern Munich",
-            "marcador": "3-4",
+            "marcador": "1-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-19",
-            "local": "M'gladbach",
+            "fecha": "2026-10-30",
+            "local": "Elversberg",
             "visitante": "Mainz",
-            "marcador": "1-1",
-            "resultado": "E"
+            "marcador": "4-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Mainz",
+            "visitante": "Werder Bremen",
+            "marcador": "2-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Schalke 04",
+            "visitante": "Mainz",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Mainz",
+            "visitante": "Leverkusen",
+            "marcador": "3-4",
+            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 16.8,
-          "tiros_puerta": 6.6,
-          "corners": 5.4,
-          "amarillas": 1.4,
-          "rojas": 0.0
+          "tiros": 14.2,
+          "tiros_puerta": 4.4,
+          "corners": 5.8,
+          "amarillas": 3.0,
+          "rojas": 0.2
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
-        "d": 2,
-        "goles_favor": 11,
-        "goles_contra": 8,
-        "puntos": 7,
-        "dias_descanso": 196,
+        "v": 1,
+        "e": 3,
+        "d": 1,
+        "goles_favor": 3,
+        "goles_contra": 4,
+        "puntos": 6,
+        "dias_descanso": 20,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Union Berlin",
-            "visitante": "Augsburg",
-            "marcador": "4-0",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-10",
-            "local": "Mainz",
+            "fecha": "2026-11-08",
+            "local": "Freiburg",
             "visitante": "Union Berlin",
-            "marcador": "1-3",
-            "resultado": "V"
+            "marcador": "2-0",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-01",
             "local": "Union Berlin",
             "visitante": "FC Koln",
-            "marcador": "2-2",
+            "marcador": "1-1",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-24",
-            "local": "RB Leipzig",
+            "fecha": "2026-10-24",
+            "local": "Augsburg",
             "visitante": "Union Berlin",
-            "marcador": "3-1",
-            "resultado": "D"
+            "marcador": "1-1",
+            "resultado": "E"
           },
           {
-            "fecha": "2026-04-18",
+            "fecha": "2026-10-17",
             "local": "Union Berlin",
-            "visitante": "Wolfsburg",
-            "marcador": "1-2",
-            "resultado": "D"
+            "visitante": "Dortmund",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Union Berlin",
+            "visitante": "Elversberg",
+            "marcador": "1-0",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 15.2,
-          "tiros_puerta": 5.8,
-          "corners": 5.8,
-          "amarillas": 1.6,
-          "rojas": 0.0
+          "tiros": 9.0,
+          "tiros_puerta": 1.8,
+          "corners": 3.2,
+          "amarillas": 2.8,
+          "rojas": 0.2
         }
       },
       "enfrentamientos": [
@@ -11652,13 +11724,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -11683,60 +11755,129 @@
       "version": "prepartido-history-0.5",
       "fecha_corte": "2026-11-28",
       "local_datos": {
-        "partidos": 0,
-        "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
+        "partidos": 5,
+        "v": 1,
+        "e": 3,
+        "d": 1,
+        "goles_favor": 5,
+        "goles_contra": 6,
+        "puntos": 6,
+        "dias_descanso": 21,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Paderborn",
+            "visitante": "Ein Frankfurt",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "M'gladbach",
+            "visitante": "Paderborn",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Paderborn",
+            "visitante": "Hamburg",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Werder Bremen",
+            "visitante": "Paderborn",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Paderborn",
+            "visitante": "Stuttgart",
+            "marcador": "0-2",
+            "resultado": "D"
+          }
+        ],
         "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
+          "tiros": 15.0,
+          "tiros_puerta": 4.6,
+          "corners": 5.0,
+          "amarillas": 1.2,
+          "rojas": 0.0
         }
       },
       "visitante_datos": {
-        "partidos": 0,
+        "partidos": 5,
         "v": 0,
-        "e": 0,
-        "d": 0,
-        "goles_favor": 0,
-        "goles_contra": 0,
-        "puntos": 0,
-        "dias_descanso": null,
-        "ultimos": [],
+        "e": 1,
+        "d": 4,
+        "goles_favor": 2,
+        "goles_contra": 7,
+        "puntos": 1,
+        "dias_descanso": 20,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Hoffenheim",
+            "visitante": "Schalke 04",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Schalke 04",
+            "visitante": "RB Leipzig",
+            "marcador": "0-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "FC Koln",
+            "visitante": "Schalke 04",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Schalke 04",
+            "visitante": "Mainz",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Freiburg",
+            "visitante": "Schalke 04",
+            "marcador": "2-1",
+            "resultado": "D"
+          }
+        ],
         "medias": {
-          "tiros": null,
-          "tiros_puerta": null,
-          "corners": null,
-          "amarillas": null,
-          "rojas": null
+          "tiros": 10.4,
+          "tiros_puerta": 2.4,
+          "corners": 3.6,
+          "amarillas": 1.6,
+          "rojas": 0.0
         }
       },
       "enfrentamientos": [],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 9,
+            "recinto": 5,
+            "identificado": true
           },
           "visitante": {
-            "todos": 0,
-            "recinto": 0,
-            "identificado": false
+            "todos": 9,
+            "recinto": 5,
+            "identificado": true
           }
         },
-        "motivos": [
-          "local: nombre o club sin histórico de primera división",
-          "visitante: nombre o club sin histórico de primera división"
-        ],
-        "suficiente_modelo_actual": false
+        "motivos": [],
+        "suficiente_modelo_actual": true
       },
       "xg": {
         "estado": "NO_DISPONIBLE_EN_CSV",
@@ -11757,110 +11898,110 @@
       "fecha_corte": "2026-11-28",
       "local_datos": {
         "partidos": 5,
-        "v": 1,
-        "e": 3,
-        "d": 1,
-        "goles_favor": 11,
-        "goles_contra": 11,
-        "puntos": 6,
-        "dias_descanso": 196,
+        "v": 3,
+        "e": 0,
+        "d": 2,
+        "goles_favor": 9,
+        "goles_contra": 6,
+        "puntos": 9,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Ein Frankfurt",
-            "visitante": "Stuttgart",
-            "marcador": "2-2",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-05-09",
+            "fecha": "2026-11-07",
             "local": "Stuttgart",
-            "visitante": "Leverkusen",
-            "marcador": "3-1",
+            "visitante": "Werder Bremen",
+            "marcador": "1-0",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Hoffenheim",
+            "fecha": "2026-10-31",
+            "local": "Leverkusen",
             "visitante": "Stuttgart",
-            "marcador": "3-3",
-            "resultado": "E"
+            "marcador": "2-4",
+            "resultado": "V"
           },
           {
-            "fecha": "2026-04-26",
+            "fecha": "2026-10-23",
             "local": "Stuttgart",
-            "visitante": "Werder Bremen",
-            "marcador": "1-1",
-            "resultado": "E"
+            "visitante": "M'gladbach",
+            "marcador": "2-3",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-04-19",
-            "local": "Bayern Munich",
+            "fecha": "2026-10-17",
+            "local": "Hamburg",
             "visitante": "Stuttgart",
-            "marcador": "4-2",
+            "marcador": "1-0",
             "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Paderborn",
+            "visitante": "Stuttgart",
+            "marcador": "0-2",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 15.6,
-          "tiros_puerta": 6.4,
-          "corners": 7.0,
-          "amarillas": 1.2,
-          "rojas": 0.2
+          "tiros": 17.0,
+          "tiros_puerta": 6.0,
+          "corners": 5.4,
+          "amarillas": 1.4,
+          "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 0,
-        "e": 2,
-        "d": 3,
-        "goles_favor": 7,
-        "goles_contra": 11,
-        "puntos": 2,
-        "dias_descanso": 196,
+        "v": 2,
+        "e": 1,
+        "d": 2,
+        "goles_favor": 6,
+        "goles_contra": 10,
+        "puntos": 7,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Ein Frankfurt",
-            "visitante": "Stuttgart",
+            "fecha": "2026-11-07",
+            "local": "Paderborn",
+            "visitante": "Ein Frankfurt",
             "marcador": "2-2",
             "resultado": "E"
           },
           {
-            "fecha": "2026-05-08",
-            "local": "Dortmund",
-            "visitante": "Ein Frankfurt",
-            "marcador": "3-2",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-02",
+            "fecha": "2026-11-01",
             "local": "Ein Frankfurt",
             "visitante": "Hamburg",
-            "marcador": "1-2",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Dortmund",
+            "visitante": "Ein Frankfurt",
+            "marcador": "1-0",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-25",
-            "local": "Augsburg",
-            "visitante": "Ein Frankfurt",
-            "marcador": "1-1",
-            "resultado": "E"
+            "fecha": "2026-10-16",
+            "local": "Ein Frankfurt",
+            "visitante": "FC Koln",
+            "marcador": "1-0",
+            "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Ein Frankfurt",
-            "visitante": "RB Leipzig",
-            "marcador": "1-3",
+            "fecha": "2026-10-10",
+            "local": "RB Leipzig",
+            "visitante": "Ein Frankfurt",
+            "marcador": "6-0",
             "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 13.6,
-          "tiros_puerta": 5.6,
-          "corners": 5.6,
+          "tiros": 14.4,
+          "tiros_puerta": 6.4,
+          "corners": 5.2,
           "amarillas": 2.0,
-          "rojas": 0.2
+          "rojas": 0.0
         }
       },
       "enfrentamientos": [
@@ -11898,13 +12039,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -11930,109 +12071,109 @@
       "fecha_corte": "2026-11-29",
       "local_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
-        "goles_favor": 9,
-        "goles_contra": 10,
-        "puntos": 7,
-        "dias_descanso": 197,
+        "goles_favor": 8,
+        "goles_contra": 7,
+        "puntos": 9,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
+            "fecha": "2026-11-08",
             "local": "Freiburg",
-            "visitante": "RB Leipzig",
-            "marcador": "4-1",
+            "visitante": "Union Berlin",
+            "marcador": "2-0",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-10",
-            "local": "Hamburg",
+            "fecha": "2026-10-31",
+            "local": "Augsburg",
             "visitante": "Freiburg",
-            "marcador": "3-2",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Freiburg",
+            "visitante": "Bayern Munich",
+            "marcador": "1-3",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-03",
-            "local": "Freiburg",
-            "visitante": "Wolfsburg",
-            "marcador": "1-1",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-04-26",
-            "local": "Dortmund",
+            "fecha": "2026-10-18",
+            "local": "Leverkusen",
             "visitante": "Freiburg",
-            "marcador": "4-0",
+            "marcador": "2-1",
             "resultado": "D"
           },
           {
-            "fecha": "2026-04-19",
+            "fecha": "2026-10-11",
             "local": "Freiburg",
-            "visitante": "Heidenheim",
+            "visitante": "Schalke 04",
             "marcador": "2-1",
             "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 10.2,
-          "tiros_puerta": 3.8,
-          "corners": 2.2,
-          "amarillas": 0.8,
-          "rojas": 0.0
+          "tiros": 13.4,
+          "tiros_puerta": 4.2,
+          "corners": 4.4,
+          "amarillas": 2.0,
+          "rojas": 0.2
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
+        "v": 4,
         "e": 0,
-        "d": 2,
-        "goles_favor": 10,
-        "goles_contra": 11,
-        "puntos": 9,
-        "dias_descanso": 197,
+        "d": 1,
+        "goles_favor": 18,
+        "goles_contra": 8,
+        "puntos": 12,
+        "dias_descanso": 22,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Freiburg",
-            "visitante": "RB Leipzig",
-            "marcador": "4-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-09",
+            "fecha": "2026-11-07",
             "local": "RB Leipzig",
-            "visitante": "St Pauli",
-            "marcador": "2-1",
+            "visitante": "Augsburg",
+            "marcador": "5-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Leverkusen",
+            "fecha": "2026-10-31",
+            "local": "Schalke 04",
             "visitante": "RB Leipzig",
-            "marcador": "4-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-04-24",
-            "local": "RB Leipzig",
-            "visitante": "Union Berlin",
-            "marcador": "3-1",
+            "marcador": "0-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Ein Frankfurt",
+            "fecha": "2026-10-24",
+            "local": "RB Leipzig",
+            "visitante": "Elversberg",
+            "marcador": "4-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Bayern Munich",
             "visitante": "RB Leipzig",
-            "marcador": "1-3",
+            "marcador": "6-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "RB Leipzig",
+            "visitante": "Ein Frankfurt",
+            "marcador": "6-0",
             "resultado": "V"
           }
         ],
         "medias": {
           "tiros": 16.0,
-          "tiros_puerta": 6.8,
-          "corners": 4.8,
-          "amarillas": 1.6,
+          "tiros_puerta": 7.4,
+          "corners": 3.8,
+          "amarillas": 0.6,
           "rojas": 0.0
         }
       },
@@ -12071,13 +12212,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -12104,109 +12245,109 @@
       "local_datos": {
         "partidos": 5,
         "v": 3,
-        "e": 1,
-        "d": 1,
-        "goles_favor": 8,
-        "goles_contra": 9,
-        "puntos": 10,
-        "dias_descanso": 197,
+        "e": 0,
+        "d": 2,
+        "goles_favor": 9,
+        "goles_contra": 7,
+        "puntos": 9,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "M'gladbach",
-            "visitante": "Hoffenheim",
-            "marcador": "4-0",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-09",
+            "fecha": "2026-11-08",
             "local": "Hoffenheim",
-            "visitante": "Werder Bremen",
-            "marcador": "1-0",
+            "visitante": "Schalke 04",
+            "marcador": "2-1",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Hoffenheim",
-            "visitante": "Stuttgart",
-            "marcador": "3-3",
-            "resultado": "E"
+            "fecha": "2026-10-31",
+            "local": "Werder Bremen",
+            "visitante": "Hoffenheim",
+            "marcador": "2-0",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-04-25",
-            "local": "Hamburg",
+            "fecha": "2026-10-25",
+            "local": "Hoffenheim",
+            "visitante": "Leverkusen",
+            "marcador": "3-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "M'gladbach",
             "visitante": "Hoffenheim",
             "marcador": "1-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
+            "fecha": "2026-10-10",
             "local": "Hoffenheim",
-            "visitante": "Dortmund",
-            "marcador": "2-1",
-            "resultado": "V"
+            "visitante": "Hamburg",
+            "marcador": "2-3",
+            "resultado": "D"
           }
         ],
         "medias": {
-          "tiros": 15.2,
-          "tiros_puerta": 5.2,
-          "corners": 6.8,
-          "amarillas": 3.2,
-          "rojas": 0.2
+          "tiros": 16.4,
+          "tiros_puerta": 5.4,
+          "corners": 5.6,
+          "amarillas": 1.4,
+          "rojas": 0.4
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 3,
-        "e": 1,
-        "d": 1,
+        "v": 0,
+        "e": 2,
+        "d": 3,
         "goles_favor": 9,
-        "goles_contra": 8,
-        "puntos": 10,
-        "dias_descanso": 197,
+        "goles_contra": 14,
+        "puntos": 2,
+        "dias_descanso": 22,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Union Berlin",
+            "fecha": "2026-11-07",
+            "local": "RB Leipzig",
             "visitante": "Augsburg",
-            "marcador": "4-0",
+            "marcador": "5-2",
             "resultado": "D"
           },
           {
-            "fecha": "2026-05-09",
+            "fecha": "2026-10-31",
             "local": "Augsburg",
-            "visitante": "M'gladbach",
-            "marcador": "3-1",
-            "resultado": "V"
+            "visitante": "Freiburg",
+            "marcador": "1-2",
+            "resultado": "D"
           },
           {
-            "fecha": "2026-05-02",
-            "local": "Werder Bremen",
-            "visitante": "Augsburg",
-            "marcador": "1-3",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-10-24",
             "local": "Augsburg",
-            "visitante": "Ein Frankfurt",
+            "visitante": "Union Berlin",
             "marcador": "1-1",
             "resultado": "E"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Leverkusen",
+            "fecha": "2026-10-17",
+            "local": "Elversberg",
             "visitante": "Augsburg",
-            "marcador": "1-2",
-            "resultado": "V"
+            "marcador": "4-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Augsburg",
+            "visitante": "Bayern Munich",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 13.6,
-          "tiros_puerta": 5.2,
-          "corners": 5.2,
-          "amarillas": 1.2,
-          "rojas": 0.0
+          "tiros": 19.2,
+          "tiros_puerta": 6.2,
+          "corners": 5.0,
+          "amarillas": 1.8,
+          "rojas": 0.4
         }
       },
       "enfrentamientos": [
@@ -12244,13 +12385,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -12276,109 +12417,109 @@
       "fecha_corte": "2026-11-29",
       "local_datos": {
         "partidos": 5,
-        "v": 3,
-        "e": 0,
-        "d": 2,
-        "goles_favor": 10,
+        "v": 2,
+        "e": 3,
+        "d": 0,
+        "goles_favor": 7,
         "goles_contra": 5,
         "puntos": 9,
-        "dias_descanso": 197,
+        "dias_descanso": 22,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Werder Bremen",
-            "visitante": "Dortmund",
-            "marcador": "0-2",
+            "fecha": "2026-11-07",
+            "local": "Dortmund",
+            "visitante": "Elversberg",
+            "marcador": "2-1",
             "resultado": "V"
           },
           {
-            "fecha": "2026-05-08",
+            "fecha": "2026-10-31",
+            "local": "Bayern Munich",
+            "visitante": "Dortmund",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
             "local": "Dortmund",
             "visitante": "Ein Frankfurt",
-            "marcador": "3-2",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-05-03",
-            "local": "M'gladbach",
-            "visitante": "Dortmund",
             "marcador": "1-0",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-04-26",
-            "local": "Dortmund",
-            "visitante": "Freiburg",
-            "marcador": "4-0",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
-            "local": "Hoffenheim",
+            "fecha": "2026-10-17",
+            "local": "Union Berlin",
             "visitante": "Dortmund",
-            "marcador": "2-1",
-            "resultado": "D"
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-09",
+            "local": "Dortmund",
+            "visitante": "Werder Bremen",
+            "marcador": "2-2",
+            "resultado": "E"
           }
         ],
         "medias": {
-          "tiros": 12.2,
-          "tiros_puerta": 5.2,
-          "corners": 4.0,
-          "amarillas": 1.6,
+          "tiros": 16.0,
+          "tiros_puerta": 5.6,
+          "corners": 7.0,
+          "amarillas": 1.4,
           "rojas": 0.0
         }
       },
       "visitante_datos": {
         "partidos": 5,
-        "v": 2,
-        "e": 1,
+        "v": 3,
+        "e": 0,
         "d": 2,
-        "goles_favor": 9,
-        "goles_contra": 8,
-        "puntos": 7,
-        "dias_descanso": 197,
+        "goles_favor": 10,
+        "goles_contra": 12,
+        "puntos": 9,
+        "dias_descanso": 21,
         "ultimos": [
           {
-            "fecha": "2026-05-16",
-            "local": "Leverkusen",
-            "visitante": "Hamburg",
-            "marcador": "1-1",
-            "resultado": "E"
-          },
-          {
-            "fecha": "2026-05-09",
-            "local": "Stuttgart",
-            "visitante": "Leverkusen",
-            "marcador": "3-1",
-            "resultado": "D"
-          },
-          {
-            "fecha": "2026-05-02",
-            "local": "Leverkusen",
-            "visitante": "RB Leipzig",
-            "marcador": "4-1",
-            "resultado": "V"
-          },
-          {
-            "fecha": "2026-04-25",
+            "fecha": "2026-11-08",
             "local": "FC Koln",
             "visitante": "Leverkusen",
             "marcador": "1-2",
             "resultado": "V"
           },
           {
-            "fecha": "2026-04-18",
+            "fecha": "2026-10-31",
             "local": "Leverkusen",
-            "visitante": "Augsburg",
-            "marcador": "1-2",
+            "visitante": "Stuttgart",
+            "marcador": "2-4",
             "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Hoffenheim",
+            "visitante": "Leverkusen",
+            "marcador": "3-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Leverkusen",
+            "visitante": "Freiburg",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Mainz",
+            "visitante": "Leverkusen",
+            "marcador": "3-4",
+            "resultado": "V"
           }
         ],
         "medias": {
-          "tiros": 19.6,
-          "tiros_puerta": 7.0,
-          "corners": 7.4,
-          "amarillas": 1.4,
+          "tiros": 15.0,
+          "tiros_puerta": 5.8,
+          "corners": 5.6,
+          "amarillas": 2.8,
           "rojas": 0.0
         }
       },
@@ -12417,13 +12558,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 102,
-            "recinto": 51,
+            "todos": 111,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -15897,8 +16038,8 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 38,
+            "todos": 112,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -16032,6 +16173,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-03-21",
+          "local": "Nice",
+          "visitante": "Paris SG",
+          "marcador": "0-4"
+        },
+        {
+          "fecha": "2025-11-01",
+          "local": "Paris SG",
+          "visitante": "Nice",
+          "marcador": "1-0"
+        },
+        {
           "fecha": "2025-04-25",
           "local": "Paris SG",
           "visitante": "Nice",
@@ -16048,24 +16201,18 @@
           "local": "Nice",
           "visitante": "Paris SG",
           "marcador": "1-2"
-        },
-        {
-          "fecha": "2023-09-15",
-          "local": "Paris SG",
-          "visitante": "Nice",
-          "marcador": "2-3"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 40,
+            "todos": 112,
+            "recinto": 57,
             "identificado": true
           }
         },
@@ -16199,6 +16346,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-04-19",
+          "local": "Monaco",
+          "visitante": "Auxerre",
+          "marcador": "2-2"
+        },
+        {
+          "fecha": "2025-09-13",
+          "local": "Auxerre",
+          "visitante": "Monaco",
+          "marcador": "1-2"
+        },
+        {
           "fecha": "2025-02-01",
           "local": "Monaco",
           "visitante": "Auxerre",
@@ -16214,13 +16373,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 38,
+            "todos": 112,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 44,
-            "recinto": 22,
+            "todos": 78,
+            "recinto": 39,
             "identificado": true
           }
         },
@@ -16354,6 +16513,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-04-17",
+          "local": "Lens",
+          "visitante": "Toulouse",
+          "marcador": "3-2"
+        },
+        {
+          "fecha": "2026-01-02",
+          "local": "Toulouse",
+          "visitante": "Lens",
+          "marcador": "0-3"
+        },
+        {
           "fecha": "2025-05-10",
           "local": "Toulouse",
           "visitante": "Lens",
@@ -16370,24 +16541,18 @@
           "local": "Toulouse",
           "visitante": "Lens",
           "marcador": "0-2"
-        },
-        {
-          "fecha": "2023-09-24",
-          "local": "Lens",
-          "visitante": "Toulouse",
-          "marcador": "2-1"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -16521,6 +16686,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-02-01",
+          "local": "Lyon",
+          "visitante": "Lille",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-09-28",
+          "local": "Lille",
+          "visitante": "Lyon",
+          "marcador": "0-1"
+        },
+        {
           "fecha": "2025-04-05",
           "local": "Lyon",
           "visitante": "Lille",
@@ -16537,24 +16714,18 @@
           "local": "Lille",
           "visitante": "Lyon",
           "marcador": "3-4"
-        },
-        {
-          "fecha": "2023-11-26",
-          "local": "Lyon",
-          "visitante": "Lille",
-          "marcador": "0-2"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -16688,6 +16859,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-05-13",
+          "local": "Brest",
+          "visitante": "Strasbourg",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-11-30",
+          "local": "Strasbourg",
+          "visitante": "Brest",
+          "marcador": "1-2"
+        },
+        {
           "fecha": "2025-02-23",
           "local": "Strasbourg",
           "visitante": "Brest",
@@ -16704,24 +16887,18 @@
           "local": "Strasbourg",
           "visitante": "Brest",
           "marcador": "0-3"
-        },
-        {
-          "fecha": "2023-12-07",
-          "local": "Brest",
-          "visitante": "Strasbourg",
-          "marcador": "1-1"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 38,
+            "todos": 112,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -16853,17 +17030,30 @@
           "rojas": 0.2
         }
       },
-      "enfrentamientos": [],
+      "enfrentamientos": [
+        {
+          "fecha": "2026-01-25",
+          "local": "Paris FC",
+          "visitante": "Angers",
+          "marcador": "0-0"
+        },
+        {
+          "fecha": "2025-08-17",
+          "local": "Angers",
+          "visitante": "Paris FC",
+          "marcador": "1-0"
+        }
+      ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 10,
-            "recinto": 5,
+            "todos": 44,
+            "recinto": 22,
             "identificado": true
           },
           "visitante": {
-            "todos": 44,
-            "recinto": 21,
+            "todos": 78,
+            "recinto": 38,
             "identificado": true
           }
         },
@@ -16997,6 +17187,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-01-24",
+          "local": "Rennes",
+          "visitante": "Lorient",
+          "marcador": "0-2"
+        },
+        {
+          "fecha": "2025-08-24",
+          "local": "Lorient",
+          "visitante": "Rennes",
+          "marcador": "4-0"
+        },
+        {
           "fecha": "2024-03-03",
           "local": "Rennes",
           "visitante": "Lorient",
@@ -17012,13 +17214,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 44,
-            "recinto": 22,
+            "todos": 78,
+            "recinto": 39,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 38,
+            "todos": 112,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -17154,8 +17356,8 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
@@ -17292,17 +17494,30 @@
           "rojas": 0.0
         }
       },
-      "enfrentamientos": [],
+      "enfrentamientos": [
+        {
+          "fecha": "2026-05-03",
+          "local": "Paris FC",
+          "visitante": "Brest",
+          "marcador": "4-0"
+        },
+        {
+          "fecha": "2025-09-14",
+          "local": "Brest",
+          "visitante": "Paris FC",
+          "marcador": "1-2"
+        }
+      ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 10,
-            "recinto": 5,
+            "todos": 44,
+            "recinto": 22,
             "identificado": true
           }
         },
@@ -17436,6 +17651,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-03-20",
+          "local": "Lens",
+          "visitante": "Angers",
+          "marcador": "5-1"
+        },
+        {
+          "fecha": "2025-11-30",
+          "local": "Angers",
+          "visitante": "Lens",
+          "marcador": "1-2"
+        },
+        {
           "fecha": "2025-01-26",
           "local": "Lens",
           "visitante": "Angers",
@@ -17451,13 +17678,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 44,
-            "recinto": 23,
+            "todos": 78,
+            "recinto": 40,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -17591,6 +17818,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-02-08",
+          "local": "Le Havre",
+          "visitante": "Strasbourg",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2025-09-14",
+          "local": "Strasbourg",
+          "visitante": "Le Havre",
+          "marcador": "1-0"
+        },
+        {
           "fecha": "2025-05-17",
           "local": "Strasbourg",
           "visitante": "Le Havre",
@@ -17607,24 +17846,18 @@
           "local": "Le Havre",
           "visitante": "Strasbourg",
           "marcador": "3-1"
-        },
-        {
-          "fecha": "2023-12-10",
-          "local": "Strasbourg",
-          "visitante": "Le Havre",
-          "marcador": "2-1"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 40,
+            "todos": 112,
+            "recinto": 57,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 40,
+            "todos": 112,
+            "recinto": 57,
             "identificado": true
           }
         },
@@ -17765,8 +17998,8 @@
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -17902,8 +18135,8 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
@@ -18042,6 +18275,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-05-02",
+          "local": "Paris SG",
+          "visitante": "Lorient",
+          "marcador": "2-2"
+        },
+        {
+          "fecha": "2025-10-29",
+          "local": "Lorient",
+          "visitante": "Paris SG",
+          "marcador": "1-1"
+        },
+        {
           "fecha": "2024-04-24",
           "local": "Lorient",
           "visitante": "Paris SG",
@@ -18057,13 +18302,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 38,
+            "todos": 112,
+            "recinto": 55,
             "identificado": true
           },
           "visitante": {
-            "todos": 44,
-            "recinto": 22,
+            "todos": 78,
+            "recinto": 39,
             "identificado": true
           }
         },
@@ -18197,6 +18442,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-03-13",
+          "local": "Marseille",
+          "visitante": "Auxerre",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-11-01",
+          "local": "Auxerre",
+          "visitante": "Marseille",
+          "marcador": "0-1"
+        },
+        {
           "fecha": "2025-02-22",
           "local": "Auxerre",
           "visitante": "Marseille",
@@ -18212,13 +18469,13 @@
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 44,
-            "recinto": 22,
+            "todos": 78,
+            "recinto": 39,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           }
         },
@@ -18352,6 +18609,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-02-28",
+          "local": "Rennes",
+          "visitante": "Toulouse",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-10-29",
+          "local": "Toulouse",
+          "visitante": "Rennes",
+          "marcador": "2-2"
+        },
+        {
           "fecha": "2025-05-03",
           "local": "Toulouse",
           "visitante": "Rennes",
@@ -18368,24 +18637,18 @@
           "local": "Rennes",
           "visitante": "Toulouse",
           "marcador": "1-2"
-        },
-        {
-          "fecha": "2023-12-17",
-          "local": "Toulouse",
-          "visitante": "Rennes",
-          "marcador": "0-0"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 38,
+            "todos": 112,
+            "recinto": 55,
             "identificado": true
           }
         },
@@ -18519,6 +18782,18 @@
       },
       "enfrentamientos": [
         {
+          "fecha": "2026-03-22",
+          "local": "Lyon",
+          "visitante": "Monaco",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2026-01-03",
+          "local": "Monaco",
+          "visitante": "Lyon",
+          "marcador": "1-3"
+        },
+        {
           "fecha": "2025-05-10",
           "local": "Monaco",
           "visitante": "Lyon",
@@ -18535,24 +18810,18 @@
           "local": "Lyon",
           "visitante": "Monaco",
           "marcador": "3-2"
-        },
-        {
-          "fecha": "2023-12-15",
-          "local": "Monaco",
-          "visitante": "Lyon",
-          "marcador": "0-1"
         }
       ],
       "calidad": {
         "equipos": {
           "local": {
-            "todos": 78,
-            "recinto": 39,
+            "todos": 112,
+            "recinto": 56,
             "identificado": true
           },
           "visitante": {
-            "todos": 78,
-            "recinto": 40,
+            "todos": 112,
+            "recinto": 57,
             "identificado": true
           }
         },
