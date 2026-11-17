@@ -83,8 +83,8 @@ def _collect(rows, extra):
     picks = []
     for group in fixtures.values():
         # Deterministic: freeze first original 3 or first eligible additional.
-        group.sort(key=lambda r: (_date(r.get("archivado_utc")),
-                                  str(r.get("clave"))))
+        group.sort(key=lambda r: _date(r.get("archivado_utc")))
+        # Preserve original archive order for records with the same timestamp.
         distinct = set()
         for row in group:
             if row["clave"] in distinct:
@@ -96,13 +96,15 @@ def _collect(rows, extra):
     return picks
 
 
-def _finished(row):
-    return row.get("estado") == "FINALIZADO" and str(row.get("resultado")) in ("0", "1")
+def _finished(row, now):
+    kickoff = _date(row.get("fecha_utc"))
+    return bool(kickoff and kickoff < now and row.get("estado") == "FINALIZADO"
+                and str(row.get("resultado")) in ("0", "1"))
 
 
-def _summary(top, extra):
+def _summary(top, extra, now):
     def numbers(rows):
-        done = [r for r in rows if _finished(r)]
+        done = [r for r in rows if _finished(r, now)]
         return {"total": len(rows), "resolved": len(done),
                 "hits": sum(str(r["resultado"]) == "1" for r in done),
                 "pending": len(rows) - len(done)}
@@ -114,14 +116,14 @@ def digest(top_rows, extra_rows, state, now, max_items=MAX_ITEMS):
     now = now.astimezone(timezone.utc)
     top = _collect(top_rows, extra=False)
     extra = _collect(extra_rows, extra=True)
-    totals = _summary(top, extra)
+    totals = _summary(top, extra, now)
     previous = set(state.get("reported_keys") or [])
     events = []
     for kind, rows in (("top", top), ("extra", extra)):
         for row in rows:
             kickoff = _date(row.get("fecha_utc"))
             key = kind + ":" + row["clave"]
-            if (not _finished(row) or key in previous or kickoff is None or
+            if (not _finished(row, now) or key in previous or kickoff is None or
                     not now - timedelta(days=LOOKBACK_DAYS) <= kickoff < now):
                 continue
             events.append((kickoff, kind, key, row))
@@ -168,7 +170,7 @@ def digest(top_rows, extra_rows, state, now, max_items=MAX_ITEMS):
             break
         parts.append(line)
         included.append(key)
-    if len(included) < len(events):
+    if len(included) < len(events) and len("\n\n".join([*parts, "Hay más resultados verificados pendientes de notificar.", *footer])) <= MAX_MESSAGE:
         parts.append("Hay más resultados verificados pendientes de notificar.")
     if not included:
         return "", dict(state), {"enviar": False, "motivo": "sin espacio", **totals, "notificados": 0}
