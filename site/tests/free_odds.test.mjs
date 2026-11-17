@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {realOddsSnapshot,REAL_ODDS_CATEGORIES} from "../real_odds.mjs";
+import {realOddsSnapshot,oddsCoverageSnapshot,ODDS_LEAGUES,REAL_ODDS_CATEGORIES} from "../real_odds.mjs";
 import {buildModel} from "../data.mjs";
 
 const NOW=new Date("2026-11-16T12:00:00Z");
@@ -72,4 +72,37 @@ test("modelo de datos preserva Top3 con las nuevas fuentes",()=>{
   },NOW);
   assert.equal(realOddsSnapshot(model,{},NOW).cards.length,3);
   assert.equal(model.archivedPicks.length,0);
+});
+
+test("la auditoría de seis ligas informa ausencias sin inventar cuotas",()=>{
+  const raw={
+    estado:"CON_CUOTAS",capturado_utc:NOW.toISOString(),
+    cuotas:[{fixture_id:FIXTURE,liga:"LaLiga",proveedor:"5DollarFootballAPI",
+      fecha_utc:"2026-11-20T20:00:00Z"}],
+    auditoria:{fuentes_gratuitas:[
+      {proveedor:"5DollarFootballAPI",estado:"CON_CUOTAS",community_segunda_activada:false,
+       cobertura_ligas:{
+         "LaLiga":{estado:"CON_CUOTAS",partidos_modelo:4,eventos_proveedor:4,
+                    partidos_emparejados:4,partidos_consultados:4,
+                    motivos_descartados:{}},
+         "Premier League":{estado:"SIN_COINCIDENCIA_VERIFICADA",partidos_modelo:7,
+                    eventos_proveedor:7,partidos_emparejados:0,
+                    partidos_consultados:0,motivos_descartados:{equipos:7}},
+         "Segunda División":{estado:"NO_INCLUIDA_EN_FREE",partidos_modelo:5,
+                    eventos_proveedor:0,partidos_emparejados:0,
+                    partidos_consultados:0,motivos_descartados:{}}
+       }},
+      {proveedor:"API-Football",estado:"DESACTIVADO"}
+    ]}
+  };
+  const snap=oddsCoverageSnapshot({realOddsRaw:raw},NOW);
+  assert.equal(snap.rows.length,6);
+  assert.deepEqual(snap.rows.map(x=>x.name),ODDS_LEAGUES);
+  assert.equal(snap.rows.find(x=>x.name==="LaLiga").games,1);
+  assert.equal(snap.rows.find(x=>x.name==="Premier League").games,0);
+  assert.equal(snap.rows.find(x=>x.name==="Premier League").reasons.equipos,7);
+  assert.equal(snap.rows.find(x=>x.name==="Segunda División").state,"NO_INCLUIDA_EN_FREE");
+  assert.equal(snap.backupStatus,"DESACTIVADO");
+  assert.equal(oddsCoverageSnapshot({realOddsRaw:raw},
+    new Date("2026-11-18T13:00:00Z")).stale,true);
 });
