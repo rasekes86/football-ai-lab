@@ -437,18 +437,48 @@ def archive_snapshots(previous,quotes_payload,now):
 
 
 def build_real_odds(fixtures,now,existing=None,env=None,fetcher=None,
-                    five_fetcher=None,api_fetcher=None):
+                    five_fetcher=None,api_fetcher=None,state=None,prior_quotes=None,
+                    excluded_ids=None):
     """Unifica fuentes sin cambiar los pronósticos ni modificar el Top3.
 
     Sin claves o banderas no hay consultas HTTP. Cada fuente conserva
     proveedor, bookmaker, fecha y tipo de mercado en sus observaciones.
     """
     env=env or {}
-    original=retrieve_odds(fixtures,now,env=env,fetcher=fetcher)
-    free=collect_free_odds(fixtures,now,env=env,
-                           five_fetcher=five_fetcher,api_fetcher=api_fetcher)
+    excluded=set(excluded_ids or [])
+    # Nunca se vuelve a consultar un partido con adicional +1,50 archivada.
+    available=[m for m in fixtures if m.get("id") not in excluded]
+    original=retrieve_odds(available,now,env=env,fetcher=fetcher)
+    free=collect_free_odds(available,now,env=env,
+                           five_fetcher=five_fetcher,api_fetcher=api_fetcher,state=state)
     quotes=[*original["cuotas"],*free["cuotas"]]
+    five_audit=free["auditoria"]["fuentes_gratuitas"][0]
+    attempted=set(five_audit.get("ids_consultados",[]))
+    lookup={m["id"]:m for m in available if m.get("id")}
+    active_sources=set()
+    if str(env.get("ENABLE_FREE_ODDS","")).lower() in ("true","1","yes") and env.get("FIVEDOLLAR_API_KEY"):
+        active_sources.add(FIVE_NAME)
+    if str(env.get("ENABLE_API_FOOTBALL_ODDS","")).lower() in ("true","1","yes") and env.get("API_FOOTBALL_KEY"):
+        active_sources.add(API_NAME)
+    # Mantener la hora de la observación anterior, jamás inventar
+    # una captura nueva ni utilizar datos caducados en la selección.
+    cached=[]
+    fresh_ids={x.get("fixture_id") for x in quotes}
+    for row in (prior_quotes or {}).get("cuotas",[]):
+        model=lookup.get(row.get("fixture_id"))
+        captured=_utc(row.get("capturado_utc"))
+        kickoff=_utc(row.get("fecha_utc"))
+        if (model and row.get("proveedor") in active_sources and
+            row.get("fixture_id") not in attempted and
+            row.get("fixture_id") not in fresh_ids and
+            captured and kickoff and _utc(now)<kickoff and
+            timedelta(0)<=_utc(now)-captured<timedelta(hours=4) and
+            model.get("fecha_utc")==row.get("fecha_utc")):
+            cached.append({**row,"observacion_reutilizada":True})
+    quotes.extend(cached)
     audit=dict(original["auditoria"])
+    audit["observaciones_previas_vigentes"]=len(cached)
+    audit["partidos_con_adicional_omitidos"]=len(excluded)
     audit["fuentes_gratuitas"]=free["auditoria"]["fuentes_gratuitas"]
     audit["proveedores_activos"]=sorted(set(q["proveedor"] for q in quotes))
     audit["cuotas_validadas"]=len(quotes)
@@ -465,7 +495,8 @@ def build_real_odds(fixtures,now,existing=None,env=None,fetcher=None,
     else:
         status="SIN_COINCIDENCIAS"
     quote_payload={"version":VERSION,"capturado_utc":_utc(now).isoformat(),
-                   "estado":status,"auditoria":audit,"cuotas":quotes}
+                   "estado":status,"auditoria":audit,"cuotas":quotes,
+                   "estado_consultas":free.get("estado_consultas",state or {})}
     comparison=compare_forecasts(fixtures,quote_payload,now)
     archive=archive_snapshots((existing or {}).get("cuotas") or [],quote_payload,now)
     return quote_payload,comparison,archive
