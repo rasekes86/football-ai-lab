@@ -847,3 +847,21 @@ body{background:#061522}
   .performance-period-row{grid-template-columns:82px minmax(0,1fr) 45px 31px;gap:6px;font-size:10px}
   .performance-ledger-panel .data-table{min-width:790px}
 }
+
+
+/* Prospective +1.50 selection audit, displayed separately from post-match outcomes. */
+.performance-auto-audit{margin-top:16px;border-top:1px solid var(--stroke-soft);padding-top:14px;font-size:11px;color:var(--muted)}
+.performance-auto-title{font-weight:850;letter-spacing:.9px;color:var(--text);font-size:10px;margin-bottom:12px}
+.performance-auto-audit p{font-size:11px;line-height:1.65;color:var(--muted);margin:11px 0 0}
+.performance-auto-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.performance-auto-metrics>div{background:var(--surface-2);border:1px solid var(--stroke-soft);padding:10px;border-radius:9px;min-width:0}
+.performance-auto-metrics strong{display:block;font-size:19px;color:var(--text);font-variant-numeric:tabular-nums}
+.performance-auto-metrics small{font-size:10px;line-height:1.35;display:block;margin-top:3px}
+.performance-auto-leagues{margin-top:12px;display:grid;gap:6px}
+.performance-auto-league{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:10px}
+.performance-auto-league strong{font-size:11px;color:var(--text)}
+.performance-auto-league span{text-align:right}
+@media(max-width:680px){
+  .performance-auto-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .performance-auto-league{align-items:flex-start}
+}
