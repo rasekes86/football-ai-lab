@@ -58,6 +58,8 @@ def plan_revisions(offers, matches, comparison, top3, now):
     replacements = {}
     audit = []
     for old in offers:
+        if old.get("id") not in pending:
+            continue
         proposal = best.get(old.get("id"))
         if proposal is None or old.get("id") in replacements:
             continue
