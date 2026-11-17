@@ -148,7 +148,10 @@ export function renderPerformanceView(model,filters={},limit=36,now=new Date()){
     extraEvidence:"Resultados liquidados: "+count(additional.settled)+
       " · Cuotas orientativas sin prueba histórica: "+count(additional.indicativeCount)+
       " · Cuotas registradas por API: "+count(additional.observedCount)+
-      ". La liquidación deportiva sí es independiente del precio de casa.",
+      " (liquidadas: "+count(additional.observedSettled)+"). "+
+      "Balance de las cuotas API liquidadas: "+units(additional.observedProfit)+
+      " · ROI hipotético solo API: "+rate(additional.observedRoi)+
+      ". La liquidación deportiva es independiente de la acreditación del precio; no son apuestas ejecutadas.",
     autoAudit:automatedAudit(model,filters.league),
     leagueTable:leagueTable(info.byLeague,filters.league),
     ledger:ledger(info.rows.slice(0,limit)),
