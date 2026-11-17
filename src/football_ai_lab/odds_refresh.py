@@ -41,10 +41,12 @@ def run(target=Path("output"),now=None,env=None):
     previous=load(target/"cuotas_reales_verificadas.json",{})
     state=load(target/"estado_consultas_cuotas.json",{})
     archive=load(target/"historico_cuotas_reales.json",{})
-    quotes,compared,historical=build_real_odds(
-        future,now,existing=archive,env=env,state=state,prior_quotes=previous)
-    state=quotes.pop("estado_consultas",state)
     previous_offers=read_csv(target/"historico_oportunidades_150.csv")
+    excluded={r["id"] for r in previous_offers if r.get("id")}
+    quotes,compared,historical=build_real_odds(
+        future,now,existing=archive,env=env,state=state,prior_quotes=previous,
+        excluded_ids=excluded)
+    state=quotes.pop("estado_consultas",state)
     frozen_top=read_csv(target/"historico_selecciones.csv")
     frozen=freeze(previous_offers,{"selecciones":[]},selections,now,
                   comparisons=compared,top3=frozen_top)
