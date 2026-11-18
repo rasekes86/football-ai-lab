@@ -153,10 +153,12 @@ class HealthMonitorTests(unittest.TestCase):
         first = run(self.path, NOW, ENV, sender)
         self.assertEqual(first["envio"], "NO_CONFIRMADO")
         state = json.loads((self.path / "estado_salud.json").read_text())
-        self.assertEqual(state["notificadas"], [])
+        self.assertIsNone(state["notificadas"])
         second = run(self.path, NOW, ENV, sender)
-        # A missing 'notificadas' vs [] is intentional only on first startup.
-        self.assertEqual(second["envio"], "NO_CONFIRMADO")
+        self.assertEqual(second["envio"], "ENTREGADO")
+        self.assertEqual(len(sent), 2)
+        saved=json.loads((self.path / "estado_salud.json").read_text())
+        self.assertEqual(saved["notificadas"], [])
 
     def test_preview_never_sends_or_writes(self):
         def forbidden(*args):
