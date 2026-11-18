@@ -65,7 +65,8 @@ def assess(target, now, previous=None, *, odds_enabled=True,
     track = _json(target / "evaluacion_selecciones.json")
     odds = _json(target / "cuotas_reales_verificadas.json")
     ledger = _json(target / "estado_consultas_cuotas.json")
-    picks = _csv(target / "seguimiento_selecciones.csv")
+    picks = (_csv(target / "seguimiento_selecciones.csv")
+             + _csv(target / "seguimiento_oportunidades_150.csv"))
     issues = []
     detail = {}
 
@@ -106,17 +107,29 @@ def assess(target, now, previous=None, *, odds_enabled=True,
     errors = provider.get("errores_por_fase") or {}
     calendar_errors = int(errors.get("calendario") or 0)
     detail["errores_calendario_ultima_ronda"] = calendar_errors
+    provider_errors = int(provider.get("errores") or 0)
+    detail["errores_totales_proveedor_ultima_ronda"] = provider_errors
+    generic_streak = max(0, min(50, int(previous.get("racha_proveedor") or 0)))
+    if odds_enabled and marker and marker != previous_capture:
+        generic_streak = generic_streak + 1 if provider_errors >= 2 else 0
     if odds_enabled and marker and marker != previous_capture:
         streak = streak + 1 if calendar_errors >= MIN_CALENDAR_ERRORS else 0
     if odds_enabled and streak >= MIN_CALENDAR_ROUNDS:
         issues.append(_issue("CALENDARIO_ERRORES_REPETIDOS", "ALTA",
             "Dos rondas distintas presentan al menos 2 errores de calendario cada una. "
             "Revisar la API y las ventanas de consulta."))
+    if odds_enabled and generic_streak >= 2 and streak < 2:
+        issues.append(_issue("PROVEEDOR_ERRORES_REPETIDOS", "ALTA",
+            "Dos rondas de cuotas consecutivas han registrado al menos "
+            "2 errores del proveedor. Revisar cuotas, liga y/o calendario."))
     if not odds_enabled:
         streak = 0
+        generic_streak = 0
     detail["racha_calendario"] = streak
+    detail["racha_proveedor"] = generic_streak
 
-    # Delay only PENDIENTE after 48h in at least TWO distinct matches.
+    # Delay only PENDIENTE after 48h in at least TWO distinct matches,
+    # considering the TOP 3 and the single frozen additional per fixture.
     # Never treat unavailable final statistics as a wrong forecast.
     delayed = {
         str(row.get("id") or "")
@@ -156,6 +169,7 @@ def assess(target, now, previous=None, *, odds_enabled=True,
         "detalle": detail,
         "ultima_captura_revisada": marker or previous_capture,
         "racha_calendario": streak,
+        "racha_proveedor": generic_streak,
         "fallos_workflow": failures,
     }
 
