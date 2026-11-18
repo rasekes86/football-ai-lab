@@ -670,7 +670,7 @@ function renderMarketReliability() {
     quality=$("marketQualityFilter").value;
   const view=reliabilitySnapshot(d.futureMarketAudit,{market,league,quality});
   const r=view.metrics,n=r.muestra||0;
-  $("marketReliabilityNote").textContent="Archivo independiente · sin recalcular el Top 3";
+  $("marketReliabilityNote").textContent="Archivo prospectivo · "+integer(r.partidos_unicos||0)+" encuentros únicos · sin recalcular Top 3";
   if(!view.available){
     $("marketReliabilityNotice").innerHTML="<strong>Aún no se ha publicado el registro prospectivo de la Fase 4.</strong> " +
       "La siguiente ejecución del motor creará el archivo inicial; no se reconstruirán resultados anteriores.";
@@ -681,7 +681,8 @@ function renderMarketReliability() {
   }else if(!view.uniqueEnough){
     $("marketReliabilityNotice").innerHTML="<strong>Resultados prospectivos disponibles, pero todavía con muestra pequeña.</strong> " +
       "Hay "+integer(n)+" selecciones resueltas de "+integer(r.partidos_unicos)+" partidos distintos. " +
-      "Varias líneas de un mismo encuentro están correlacionadas; no se puede afirmar que el modelo esté calibrado.";
+      "Faltan "+integer(view.remainingGames)+" encuentros independientes para el umbral diagnóstico de 30. "+
+      "Varias líneas del mismo partido están correlacionadas; todavía NO se puede declarar calibración.";
   }else{
     $("marketReliabilityNotice").innerHTML="<strong>Evaluación prospectiva observacional.</strong> " +
       integer(n)+" selecciones de "+integer(r.partidos_unicos)+" partidos distintos, " +
@@ -694,10 +695,10 @@ function renderMarketReliability() {
     kpi("Líneas archivadas",integer(r.registradas),"Primer snapshot prepartido")+
     kpi("Evaluadas",integer(n),integer(r.partidos_unicos)+" partidos únicos",true)+
     kpi("Acierto observado",pct(r.acierto_pct),r.aciertos+" aciertos · "+integer(r.pendientes)+" pendientes")+
-    kpi("Brier / ECE",metric(r.brier)+" / "+metric(r.ece),
-      "Menor es mejor · probabilidad media "+pct(r.probabilidad_media_pct))
+    kpi("Brier equilibrado / ECE",metric(r.brier_equilibrado_partidos)+" / "+metric(r.ece),
+      "Brier por partido · ECE por línea (solo descriptiva)")
   );
-  $("marketCalibrationSample").textContent=n+" evaluadas";
+  $("marketCalibrationSample").textContent=n+" líneas · "+integer(r.partidos_unicos)+" partidos independientes";
   inner("marketCalibrationChart",r.calibracion?.length?r.calibracion.map(point=>`
     <div class="calibration-row">
       <span class="calibration-range">${escapeHtml(point.rango)}</span>
@@ -706,7 +707,7 @@ function renderMarketReliability() {
         <span class="calibration-actual" style="width:${Math.max(0,Math.min(100,point.acierto_pct))}%"></span>
       </div>
       <span class="calibration-value">${pct(point.probabilidad_media_pct)} / ${pct(point.acierto_pct)}
-        <small>n=${integer(point.muestra)}</small></span>
+        <small>n=${integer(point.muestra)} · ${integer(point.partidos_unicos||0)} partidos</small></span>
     </div>`).join(""):empty("Aún no hay resultados suficientes para representar la calibración."));
   inner("marketReliabilityLeagues",view.leagues.length?
     view.leagues.map(row=>`<div class="league-row">
