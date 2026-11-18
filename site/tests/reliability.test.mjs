@@ -12,7 +12,11 @@ const score=(registradas,muestra,aciertos,partidos_unicos,extra={})=>({
   brier:muestra?.18:null,logloss:muestra?.55:null,ece:muestra?.04:null,
   sesgo_pct:muestra?100*aciertos/muestra-66:null,
   evidencia:partidos_unicos>=30?"PRELIMINAR":"LIMITADA",
-  calibracion:muestra?[{rango:"60–80%",muestra,probabilidad_media_pct:66,
+  brier_equilibrado_partidos:muestra?.2:null,
+  logloss_equilibrado_partidos:muestra?.6:null,
+  partidos_para_umbral:Math.max(0,30-partidos_unicos),
+  estado_calibracion:partidos_unicos>=30?"EVALUABLE_DESCRIPTIVO":"INSUFICIENTES_PARTIDOS",
+  calibracion:muestra?[{rango:"60–80%",muestra,partidos_unicos,probabilidad_media_pct:66,
     acierto_pct:100*aciertos/muestra}]:[],...extra
 });
 const doc={
@@ -47,6 +51,9 @@ test("sin evaluaciones no inventa resultados o calibración",()=>{
   assert.equal(s.metrics.acierto_pct,null);
   assert.deepEqual(s.metrics.calibracion,[]);
   assert.equal(s.uniqueEnough,false);
+  assert.equal(s.remainingGames,28);
+  assert.equal(s.metrics.brier_equilibrado_partidos,.2);
+  assert.equal(s.metrics.estado_calibracion,"INSUFICIENTES_PARTIDOS");
 });
 test("agregación prospectiva por mercado y liga",()=>{
   const s=reliabilitySnapshot(doc,{market:"corners",league:"LaLiga"});
