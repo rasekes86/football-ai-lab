@@ -30,6 +30,7 @@ CATEGORIES = {
 }
 COUNT_KEYS = {"corners", "shots", "on_target", "yellow"}
 BINS = ((0.0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.0))
+MIN_INDEPENDENT_GAMES=30  # Umbral descriptivo, NO prueba de rentabilidad
 
 
 def _valid_prediction(match: dict, category: str, candidate: dict):
@@ -157,6 +158,11 @@ def _metrics(rows: list[dict]) -> dict:
             "acierto_pct": None, "probabilidad_media_pct": None,
             "brier": None, "logloss": None, "ece": None,
             "sesgo_pct": None, "calibracion": [],
+            "brier_equilibrado_partidos":None,
+            "logloss_equilibrado_partidos":None,
+            "sesgo_equilibrado_pct":None,
+            "partidos_para_umbral":MIN_INDEPENDENT_GAMES,
+            "estado_calibracion":"NO_EVALUABLE",
             "evidencia": "SIN_MUESTRA",
         }
     ps = [float(r["probabilidad"]) for r in finals]
@@ -166,9 +172,27 @@ def _metrics(rows: list[dict]) -> dict:
     brier = sum((p-y)**2 for p,y in zip(ps, ys)) / n
     loss = sum(-log(max(1e-12, p if y else 1-p))
                for p,y in zip(ps,ys)) / n
+    # El modelo puede publicar MUCHAS líneas del mismo partido. Para
+    # evaluar fiabilidad sin sobreponderar uno solo, primero promediamos
+    # errores de cada encuentro y después promediamos encuentros.
+    by_game=defaultdict(list)
+    for row,p,y in zip(finals,ps,ys):
+        by_game[row["id"]].append((p,y))
+    balanced_brier=sum(
+        sum((p-y)**2 for p,y in vals)/len(vals)
+        for vals in by_game.values()
+    )/games
+    balanced_logloss=sum(
+        sum(-log(max(1e-12,p if y else 1-p)) for p,y in vals)/len(vals)
+        for vals in by_game.values()
+    )/games
+    balanced_bias=sum(
+        sum(y-p for p,y in vals)/len(vals)
+        for vals in by_game.values()
+    )/games
     calibration = []
     for lo,hi in BINS:
-        data = [(p,y) for p,y in zip(ps,ys)
+        data = [(p,y,row["id"]) for row,p,y in zip(finals,ps,ys)
                 if lo <= p < hi or (hi == 1 and p == 1)]
         if not data:
             continue
@@ -176,8 +200,9 @@ def _metrics(rows: list[dict]) -> dict:
         calibration.append({
             "rango": f"{int(lo*100)}–{int(hi*100)}%",
             "muestra": size,
-            "probabilidad_media_pct": round(100 * sum(p for p,_ in data)/size, 2),
-            "acierto_pct": round(100 * sum(y for _,y in data)/size, 2),
+            "partidos_unicos":len({ident for _,_,ident in data}),
+            "probabilidad_media_pct": round(100 * sum(p for p,_,_ in data)/size, 2),
+            "acierto_pct": round(100 * sum(y for _,y,_ in data)/size, 2),
         })
     ece = sum(item["muestra"]/n *
               abs(item["probabilidad_media_pct"]-item["acierto_pct"])/100
@@ -189,6 +214,12 @@ def _metrics(rows: list[dict]) -> dict:
         "probabilidad_media_pct": round(avg*100,2),
         "brier": round(brier,6), "logloss": round(loss,6),
         "ece": round(ece,6), "sesgo_pct": round(100*(rate-avg),2),
+        "brier_equilibrado_partidos":round(balanced_brier,6),
+        "logloss_equilibrado_partidos":round(balanced_logloss,6),
+        "sesgo_equilibrado_pct":round(100*balanced_bias,2),
+        "partidos_para_umbral":max(0,MIN_INDEPENDENT_GAMES-games),
+        "estado_calibracion":("INSUFICIENTES_PARTIDOS" if games<MIN_INDEPENDENT_GAMES
+                               else "EVALUABLE_DESCRIPTIVO"),
         "calibracion": calibration, "evidencia": evidence,
     }
 
@@ -282,6 +313,8 @@ def audit_future_markets(rows: list[dict], now: datetime) -> dict:
             "cuota": "Sin precios de casas: no se informa ROI de este seguimiento.",
             "fuentes": "Marcadores y conteos verificados, sin sustituir estadísticas ausentes por cero.",
             "prospectivo": "No incluye partidos previos a la primera ejecución de la Fase 4.",
+            "independencia": "Se muestran Brier/logloss equilibrados por partido. Cada encuentro pesa igual aunque tenga distinto número de pronósticos.",
+            "umbrales": f"Con menos de {MIN_INDEPENDENT_GAMES} partidos únicos no se considera evaluable la calibración. El umbral es descriptivo, no prueba ventaja ni ROI.",
         },
         "advertencia": "La calibración requiere muestras amplias de partidos distintos; "
                        "un acierto alto no demuestra ventaja financiera ni predice éxito.",
