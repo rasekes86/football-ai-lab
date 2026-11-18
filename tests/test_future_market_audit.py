@@ -108,6 +108,45 @@ class FutureArchiveTests(unittest.TestCase):
         self.assertEqual(sum(b["muestra"] for b in audit["global"]["calibracion"]),4)
         self.assertEqual({r["estado"] for r in frozen},{"PENDIENTE"})
 
+    def test_correlated_market_lines_do_not_overweight_single_fixture(self):
+        def row(ident,number,p,win):
+            return {"clave":f"{ident}|{number}","id":ident,
+                    "liga":"LaLiga","categoria":"goals",
+                    "nivel":"MODELO_NO_CALIBRADO","posicion_top3":"",
+                    "fecha_utc":"2026-11-15T13:00:00+00:00",
+                    "estado":"FINALIZADO","resultado":str(win),
+                    "probabilidad":str(p)}
+        # A aporta diez líneas malas del MISMO encuentro, B solo una buena.
+        rows=[row("A",i,.9,0) for i in range(10)]+[row("B",0,.9,1)]
+        report=audit_future_markets(rows,FINISHED)["global"]
+        self.assertEqual(report["muestra"],11)
+        self.assertEqual(report["partidos_unicos"],2)
+        self.assertAlmostEqual(report["brier"],(10*.81+.01)/11,places=5)
+        self.assertAlmostEqual(report["brier_equilibrado_partidos"],(.81+.01)/2,places=5)
+        self.assertAlmostEqual(report["logloss_equilibrado_partidos"],
+             (-__import__("math").log(.1)-__import__("math").log(.9))/2,places=5)
+        self.assertEqual(report["partidos_para_umbral"],28)
+        self.assertEqual(report["estado_calibracion"],"INSUFICIENTES_PARTIDOS")
+        self.assertEqual(report["calibracion"][0]["partidos_unicos"],2)
+        self.assertEqual(report["evidencia"],"LIMITADA")
+
+    def test_threshold_is_independent_games_not_number_of_lines(self):
+        template={"liga":"LaLiga","categoria":"result",
+                  "nivel":"MODELO_NO_CALIBRADO","posicion_top3":"",
+                  "fecha_utc":"2026-11-15T13:00:00+00:00",
+                  "estado":"FINALIZADO","resultado":"1",
+                  "probabilidad":"0.6"}
+        rows=[{**template,"id":f"match-{i}",
+               "clave":f"match-{i}|win"} for i in range(30)]
+        report=audit_future_markets(rows,FINISHED)["global"]
+        self.assertEqual(report["partidos_unicos"],30)
+        self.assertEqual(report["partidos_para_umbral"],0)
+        self.assertEqual(report["estado_calibracion"],"EVALUABLE_DESCRIPTIVO")
+        self.assertEqual(report["evidencia"],"PRELIMINAR")
+        empty=audit_future_markets([],FINISHED)["global"]
+        self.assertEqual(empty["estado_calibracion"],"NO_EVALUABLE")
+        self.assertIsNone(empty["brier_equilibrado_partidos"])
+
     def test_missing_stats_not_loss_and_no_premature_settlement(self):
         frozen,_=archive_future_markets([], [fixture()],SAVED)
         before=settle_future_markets(frozen,history(),KICK+timedelta(minutes=25))
