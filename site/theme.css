@@ -112,3 +112,93 @@
 [data-theme="light"] .more-item small{color:#62788b}
 [data-theme="light"] .more-icon{background:#fbe8ee;color:#ba2047}
 [data-theme="light"] .more-chevron{color:#71899b}
+
+/* Matchday, inputs, advanced panels, forecasts and method pages. */
+[data-theme="light"] .agenda-header p,[data-theme="light"] .agenda-date-label{color:var(--muted)}
+[data-theme="light"] .agenda-update,[data-theme="light"] .agenda-tail-links button,[data-theme="light"] .agenda-empty button{background:#fff;border-color:#d1dde8;color:#2d4a60}
+[data-theme="light"] .agenda-update:hover,[data-theme="light"] .agenda-tail-links button:hover,[data-theme="light"] .agenda-empty button:hover{background:#eaf1f7}
+[data-theme="light"] .agenda-search-label,[data-theme="light"] .agenda-date-label input,[data-theme="light"] .field input,[data-theme="light"] .field select{background-color:#fff;color:#203b51;border-color:#cddae6;color-scheme:light}
+[data-theme="light"] .agenda-search-label input{color:#203b51}
+[data-theme="light"] .agenda-search-label input::placeholder,[data-theme="light"] .field input::placeholder{color:#778ba0}
+[data-theme="light"] .agenda-search-label>span{color:#6e8496}
+[data-theme="light"] .agenda-dates{border-color:#dce6ee;scrollbar-color:#d9e4eb transparent}
+[data-theme="light"] .agenda-day{color:#697e91}
+[data-theme="light"] .agenda-day strong{color:#486377}
+[data-theme="light"] .agenda-day:hover{background:#f0f5f9;color:#274258}
+[data-theme="light"] .agenda-info-strip{background:#f9f0f4;color:#6d5060}
+[data-theme="light"] .agenda-info-strip>span{color:#5a6478}
+[data-theme="light"] .agenda-list-head>strong,[data-theme="light"] .agenda-list-icon{color:#304d63}
+[data-theme="light"] .agenda-section-label{background:#f2f6f9;color:#8c5b18}
+[data-theme="light"] .agenda-competition{background:#fff;border-color:#dce5eb}
+[data-theme="light"] .agenda-league{color:var(--text)}
+[data-theme="light"] .agenda-league:hover{background:#f5f8fc}
+[data-theme="light"] .agenda-league-text small{color:#667e92}
+[data-theme="light"] .agenda-chevron{color:#7e94a7}
+[data-theme="light"] .agenda-league-games{background:#f9fbfd;border-color:#e0e8ef}
+[data-theme="light"] .agenda-game{color:var(--text);border-color:#e2eaf0}
+[data-theme="light"] .agenda-game:hover{background:#edf4fa}
+[data-theme="light"] .agenda-game-time{color:#687f92}
+[data-theme="light"] .agenda-game-time b,[data-theme="light"] .agenda-game-pick strong{color:#244358}
+[data-theme="light"] .agenda-game-pick{color:#526d82}
+[data-theme="light"] .agenda-empty{background:#fff;color:#5d7688}
+[data-theme="light"] .agenda-empty strong{color:var(--text)}
+[data-theme="light"] .panel,[data-theme="light"] .kpi,[data-theme="light"] .future-market-card,[data-theme="light"] .match-card,[data-theme="light"] .explanation,[data-theme="light"] .performance-combined-panel{background:#fff;color:var(--text);border-color:#d7e2eb}
+[data-theme="light"] .kpi.highlight{background:linear-gradient(130deg,#fff5f8,#fff);border-color:#edced8}
+[data-theme="light"] .match-card:hover{background:#f7fafc}
+[data-theme="light"] .hero{background:linear-gradient(130deg,#fff,#f5eaf2,#ebf3fb);border-color:#e2d9e7}
+[data-theme="light"] .hero:after{background:none}
+[data-theme="light"] .hero p{color:#506b7d}
+[data-theme="light"] .hero-aside-top,[data-theme="light"] .hero-aside-bottom{color:#5c7183}
+[data-theme="light"] .hero-aside-number{color:#e2a7b9}
+[data-theme="light"] .intro-art{color:#dbe6ee}
+[data-theme="light"] .simulation-banner,[data-theme="light"] .market-shortcut{background:linear-gradient(120deg,#fcf0f4,#f2f7fb);border-color:#e5dae5}
+[data-theme="light"] .btn-outline{border-color:#b8cad8;color:var(--text)}
+[data-theme="light"] .btn-outline:hover{border-color:var(--lime);color:var(--lime)}
+[data-theme="light"] .btn-bright{color:#fff}
+[data-theme="light"] .accuracy-ring{background:conic-gradient(var(--lime) var(--angle,0%),#e4ebf2 0)}
+[data-theme="light"] .chart-row .bar,[data-theme="light"] .league-track,[data-theme="light"] .market-bar-track,[data-theme="light"] .market-mini-track,[data-theme="light"] .performance-period-track{background:#e4ebf1}
+[data-theme="light"] .compact-match:hover,[data-theme="light"] .data-table tbody tr:hover{background:#f2f6f9}
+[data-theme="light"] .data-table th{background:#edf3f8}
+[data-theme="light"] .status-pill{background:#eff4f8;color:#52677b;border-color:#ccdae4}
+[data-theme="light"] .status-pill.final{background:#e5f5ea;color:#236b42;border-color:#b6dbbf}
+[data-theme="light"] .status-pill.loss{background:#fff0f1;color:#ae3044;border-color:#edbec5}
+[data-theme="light"] .status-pill.partial,[data-theme="light"] .status-pill.missing{background:#fff6e6;color:#8b5d20;border-color:#edd4ad}
+[data-theme="light"] .extra-status-chip.pending{background:#eef3f7;color:#526b7e;border-color:#d0dbe4}
+[data-theme="light"] .extra-status-chip.assigned{background:#e6f4eb;color:#286642;border-color:#bddbc4}
+[data-theme="light"] .extra-status-chip.unviable{background:#fff4e2;color:#886020;border-color:#ecd1a4}
+[data-theme="light"] .future-main-pick{background:#f9f3f8;border-color:#efdbe5}
+[data-theme="light"] .future-alternative{background:#f2f6f9}
+[data-theme="light"] .market-chip{background:#f0f4f8;border-color:#d5e0e8;color:#385771}
+[data-theme="light"] .market-chip.active{background:#fce8ef;color:#b42a4b;border-color:#eab7c6}
+[data-theme="light"] .future-quality.audited{background:#e6f4ea;color:#28653e;border-color:#b9d9c2}
+[data-theme="light"] .future-quality.experimental{background:#fff2dd;color:#895c1d;border-color:#eacb95}
+[data-theme="light"] .future-quality.uncalibrated{background:#eaf4fb;color:#2b6387;border-color:#c2ddec}
+[data-theme="light"] .stat-grid-head{background:#edf3f8}
+[data-theme="light"] .postmatch-stat-row{background:#fff}
+[data-theme="light"] .pick-explanation,[data-theme="light"] .match-v2-explanation{color:#425e72!important}
+[data-theme="light"] .warning-notice{background:#fff7e9;border-color:#e8d2a5}
+[data-theme="light"] .warning-notice strong{color:#77551a}
+[data-theme="light"] .warning-notice p{color:#785f36}
+[data-theme="light"] .dialog-highlight{background:#e9f5ed;color:#285b43;border-color:#bbd7c4}
+[data-theme="light"] .dialog-offer,[data-theme="light"] .dialog-pick{background:#f7fafc;border-color:#dce4ed}
+
+/* Detailed match cards and expanded sections. */
+[data-theme="light"] .dialog-backdrop{background:rgba(29,45,63,.52)}
+[data-theme="light"] .match-dialog{background:#f9fbfd;color:var(--text);border-color:#cad9e4;box-shadow:0 24px 70px rgba(18,43,68,.22)}
+[data-theme="light"] .dialog-head{background:rgba(255,255,255,.97);border-color:#d9e5ed}
+[data-theme="light"] .dialog-head .overline{color:#506b81}
+[data-theme="light"] .dialog-close{background:#eef4f8;color:#294558;border-color:#d2e0ea}
+[data-theme="light"] .match-v2-hero{background:linear-gradient(155deg,#fff,#f1f6fb)}
+[data-theme="light"] .match-v2-context,[data-theme="light"] .match-v2-center small,[data-theme="light"] .match-v2-versus{color:#627e90}
+[data-theme="light"] .match-v2-kpi,[data-theme="light"] .match-v2-no-extra,[data-theme="light"] .match-v2-pick,[data-theme="light"] .match-v2-accordion,[data-theme="light"] .match-v2-model-grid>div{background:#fff;border-color:#d7e2eb;color:var(--text)}
+[data-theme="light"] .match-v2-kpi span,[data-theme="light"] .match-v2-kpi small,[data-theme="light"] .match-v2-pick-main>small,[data-theme="light"] .match-v2-pick-right small,[data-theme="light"] .match-v2-accordion>summary small,[data-theme="light"] .match-v2-stat-head,[data-theme="light"] .match-v2-method,[data-theme="light"] .match-v2-footnote{color:#587186}
+[data-theme="light"] .match-v2-pick[open]>summary,[data-theme="light"] .match-v2-accordion[open]>summary{background:#f1f6fa}
+[data-theme="light"] .match-v2-pick-number{background:#ecf3f8;color:#385b72}
+[data-theme="light"] .match-v2-pick-body p{color:#526c7f}
+[data-theme="light"] .match-v2-pick-status.win{color:#217243}
+[data-theme="light"] .match-v2-pick-status.loss{color:#af2944}
+[data-theme="light"] .match-v2-pick-status.missing{color:#9a691e}
+[data-theme="light"] .match-v2-extra{background:linear-gradient(150deg,#ecf8f0,#f8fcfa);border-color:#b7dac6}
+[data-theme="light"] .match-v2-extra-label>span:first-child{color:#287647}
+[data-theme="light"] .match-v2-extra-main small,[data-theme="light"] .match-v2-extra-origin,[data-theme="light"] .match-v2-extra-details>div{color:#557468}
+[data-theme="light"] .match-v2-stat-row b{color:#237c4d}
