@@ -202,3 +202,67 @@
 [data-theme="light"] .match-v2-extra-label>span:first-child{color:#287647}
 [data-theme="light"] .match-v2-extra-main small,[data-theme="light"] .match-v2-extra-origin,[data-theme="light"] .match-v2-extra-details>div{color:#557468}
 [data-theme="light"] .match-v2-stat-row b{color:#237c4d}
+
+/* Results 3+1: distinguish hit, miss, missing data and pending in daylight. */
+[data-theme="light"] .performance-brief-card,[data-theme="light"] .results-v2-score,[data-theme="light"] .results-v2-balance,[data-theme="light"] .results-v2-fixture,[data-theme="light"] .results-v2-additional-card,[data-theme="light"] .results-v2-empty{background:#fff;border-color:#d5e2ea;color:var(--text)}
+[data-theme="light"] .results-v2-extra{background:#f0faf4;border-color:#c6dfd0}
+[data-theme="light"] .performance-brief-card>span,[data-theme="light"] .performance-brief-card small,[data-theme="light"] .results-v2-score-title>span,[data-theme="light"] .results-v2-score-title>strong small,[data-theme="light"] .results-v2-rate>span,[data-theme="light"] .results-v2-pending,[data-theme="light"] .results-v2-balance small,[data-theme="light"] .results-v2-balance>div:first-child>span,[data-theme="light"] .results-v2-balance-line>span,[data-theme="light"] .results-v2-balance-line small,[data-theme="light"] .results-v2-fixture-meta,[data-theme="light"] .results-v2-fixture-meta>span,[data-theme="light"] .results-v2-heading>small,[data-theme="light"] .results-v2-additional-meta,[data-theme="light"] .results-v2-additional-choice small{color:#587386}
+[data-theme="light"] .results-v2-score-title>strong,[data-theme="light"] .results-v2-rate strong,[data-theme="light"] .results-v2-balance strong,[data-theme="light"] .results-v2-additional-teams{color:#1f3c51}
+[data-theme="light"] .results-v2-meter{background:#e0e9ee}
+[data-theme="light"] .results-v2-meter-legend{color:#526c7d}
+[data-theme="light"] .results-v2-periods{background:#f0f5f9;border-color:#d5e2e9}
+[data-theme="light"] .results-v2-period{color:#557286}
+[data-theme="light"] .results-v2-period.active,[data-theme="light"] .results-v2-period[aria-pressed="true"]{background:#fff;color:#b9274b;box-shadow:0 2px 7px rgba(34,68,95,.12)}
+[data-theme="light"] .results-v2-filter span{color:#586f81}
+[data-theme="light"] .results-v2-filter select{background:#fff;border-color:#ccdae5;color:#24475d}
+[data-theme="light"] .results-v2-groups>div,[data-theme="light"] .results-v2-groups>div:last-child{background:#f2f6fa;color:#23445c}
+[data-theme="light"] .results-v2-groups>div:last-child{background:#edf7f2}
+[data-theme="light"] .results-v2-groups>div>span,[data-theme="light"] .results-v2-groups small,[data-theme="light"] .results-v2-pick-line,[data-theme="light"] .results-v2-pick-line>small,[data-theme="light"] .results-v2-fixture-details summary{color:#4d697d}
+[data-theme="light"] .results-v2-groups strong.win,[data-theme="light"] .results-v2-pick-line .win,[data-theme="light"] .results-v2-fixture-extra .win{color:#247348}
+[data-theme="light"] .results-v2-groups strong.loss,[data-theme="light"] .results-v2-pick-line .loss,[data-theme="light"] .results-v2-fixture-extra .loss{color:#b42d47}
+[data-theme="light"] .results-v2-pick-icon{background:#e3ecf2;color:#45657b}
+[data-theme="light"] .results-v2-pick-icon.win{background:#d5ebda;color:#1d6739}
+[data-theme="light"] .results-v2-pick-icon.loss{background:#f9e0e3;color:#ac2a42}
+[data-theme="light"] .results-v2-open,[data-theme="light"] .results-v2-load,[data-theme="light"] .performance-expand{background:#f1f6fa;color:#2a4b62;border-color:#d1dfe8}
+[data-theme="light"] .results-v2-open:hover,[data-theme="light"] .results-v2-load:hover{background:#e7f0f6}
+[data-theme="light"] .results-v2-additional-choice{background:#ecf7ef;border-color:#c3ddcd}
+[data-theme="light"] .results-v2-additional-choice strong,[data-theme="light"] .results-v2-additional-quote b,[data-theme="light"] .results-v2-fixture-extra .results-v2-fixture-selection{color:#285541}
+[data-theme="light"] .results-v2-additional-outcome{color:#597581}
+[data-theme="light"] .results-v2-additional-outcome.win{color:#247348}
+[data-theme="light"] .results-v2-additional-outcome.loss{color:#b42d47}
+[data-theme="light"] .results-v2-additional-bottom button{color:#2e6250}
+[data-theme="light"] .results-v2-balance-line.combined{background:#e8f5eb;border-color:#bad6c1}
+[data-theme="light"] .results-v2-balance-line.combined>span{color:#276e46}
+[data-theme="light"] .results-v2-balance-warning{color:#5a7082;border-color:#d7e2e8}
+[data-theme="light"] .results-v2-fair-note{color:#607b8b}
+[data-theme="light"] .results-v2-fixture.win{background:#f3fbf4;border-color:#c7dec9}
+[data-theme="light"] .results-v2-fixture.loss{background:#fff4f5;border-color:#efc6cc}
+[data-theme="light"] .results-v2-fixture.missing{background:#fff9ef;border-color:#ead8b8}
+[data-theme="light"] .results-v2-fixture.pending{background:#f6f9fc;border-color:#d6e2ea}
+[data-theme="light"] .results-status.win{color:#246c43;background:#e3f4e7;border-color:#bbdbbf}
+[data-theme="light"] .results-status.loss{color:#b02a43;background:#fff0f1;border-color:#ecc2ca}
+[data-theme="light"] .results-status.pending{color:#526e80;background:#edf3f7;border-color:#cedce5}
+[data-theme="light"] .results-status.missing{color:#88601c;background:#fff3e0;border-color:#e6cfa4}
+[data-theme="light"] .results-v2-fixture-market,[data-theme="light"] .results-v2-fixture-selection{color:var(--text)}
+[data-theme="light"] .results-v2-pick-icon.missing{background:#f4e5cb;color:#835d20}
+[data-theme="light"] .results-v2-pick-line>span:nth-child(2){color:#344f62}
+
+/* Analytic cards, bookmaker comparisons and detailed result labels. */
+[data-theme="light"] .realodds-card,
+[data-theme="light"] .odds-coverage-item,
+[data-theme="light"] .performance-league-card,
+[data-theme="light"] .performance-auto-metrics>div{background:#fff;border-color:#d7e2eb;color:var(--text)}
+[data-theme="light"] .realodds-notice,
+[data-theme="light"] .realodds-explanation,
+[data-theme="light"] .realodds-methodology{background:#fff;color:var(--muted);border-color:#d6e2eb}
+[data-theme="light"] .realodds-card .realodds-quote,
+[data-theme="light"] .realodds-number-grid>div{background:#f2f7fa;border-color:#d7e2e9}
+[data-theme="light"] .realodds-filters input,
+[data-theme="light"] .realodds-filters select{color-scheme:light;background-color:#fff;color:var(--text)}
+[data-theme="light"] .performance-period-track{background:#e5ecf3}
+[data-theme="light"] .performance-auto-audit{border-color:#dbe5ed}
+[data-theme="light"] .performance-auto-league span{color:var(--muted)}
+/* Keep all data labels fully legible even when older components hardcode light text. */
+[data-theme="light"] .results-v2-additional-choice small,
+[data-theme="light"] .results-v2-additional-choice strong,
+[data-theme="light"] .results-v2-additional-choice b{opacity:1}
