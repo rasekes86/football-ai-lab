@@ -146,7 +146,7 @@ def _league_code(name):
     # Algunos proveedores añaden la TEMPORADA al nombre oficial. Quitar
     # únicamente sufijos inequívocos 2026/2027 o 2026-27, nunca "II"
     # ni divisiones de otro nivel.
-    season=re.fullmatch(r"(.+?)\\s+(20\\d{2})\\s+(20\\d{2}|\\d{2})",clean)
+    season=re.fullmatch(r"(.+?)\s+(20\d{2})\s+(20\d{2}|\d{2})",clean)
     if season:
         start=int(season.group(2))
         end=int(season.group(3))
