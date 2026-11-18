@@ -182,6 +182,32 @@ def _match(fixture, fixtures, now):
     return candidates[0] if len(candidates)==1 else None
 
 
+def _calendar_window(day, selected):
+    """A single provider-compliant 24h UTC window for model fixtures on day.
+
+    /v1/fixtures rejects windows longer than 24h (invalid_time_window).
+    When all wanted fixture timestamps plus tolerance fit, shift the entire
+    window to include adjacent-day kickoffs; otherwise use the UTC day.
+    This uses ZERO extra provider calls and never weakens _match().
+    """
+    base=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)
+    kicks=[kick for row in selected
+           if (kick:=_dt(row.get("fecha_utc"))) and kick.date()==day]
+    if not kicks:
+        return base,base+timedelta(days=1)
+    earliest=min(kicks)-MAX_DIFF
+    latest=max(kicks)+MAX_DIFF
+    if latest-earliest>timedelta(days=1):
+        return base,base+timedelta(days=1)
+    if earliest<base:
+        begin=earliest
+    elif latest>base+timedelta(days=1):
+        begin=latest-timedelta(days=1)
+    else:
+        begin=base
+    return begin,begin+timedelta(days=1)
+
+
 def _http(url, headers):
     request=Request(url,headers={**headers,"Accept":"application/json",
                                   "User-Agent":"FootballAILab/1.0"})
@@ -413,11 +439,10 @@ def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
     # Free does not permit include=odds in fixture lists.
     extra_pages=0
     for day in days:
-        # Un encuentro cercano a medianoche puede diferir hasta dos
-        # horas entre fuentes. Ampliar VENTANA, no tolerancia de emparejamiento
-        # ni número de peticiones; mismo fixture de fecha adyacente.
-        begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)-MAX_DIFF
-        end=begin+timedelta(days=1)+2*MAX_DIFF
+        # El proveedor limita /fixtures a un máximo de 24h. Desplazar la
+        # ventana, NO ampliarla: así evitamos invalid_time_window sin llamadas
+        # extra ni falsas coincidencias al cruzar con la hora del modelo.
+        begin,end=_calendar_window(day,selected)
         for page in (1,2):
             if page==2:
                 if extra_pages>=2:break
