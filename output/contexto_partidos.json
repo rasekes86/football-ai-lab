@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-17T23:28:47.016067+00:00",
+  "calculado_utc": "2026-11-18T08:20:26.835059+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -9712,6 +9712,148 @@
           "visitante": {
             "todos": 124,
             "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879221",
+      "liga": "E0",
+      "fecha_utc": "2026-12-01T20:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Ipswich Town",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-01",
+      "local_datos": {
+        "partidos": 5,
+        "v": 2,
+        "e": 0,
+        "d": 3,
+        "goles_favor": 9,
+        "goles_contra": 9,
+        "puntos": 6,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-06",
+            "local": "Everton",
+            "visitante": "Coventry",
+            "marcador": "3-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Coventry",
+            "visitante": "Sunderland",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Coventry",
+            "visitante": "Fulham",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-19",
+            "local": "Tottenham",
+            "visitante": "Coventry",
+            "marcador": "3-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-12",
+            "local": "Coventry",
+            "visitante": "Newcastle",
+            "marcador": "4-1",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 12.2,
+          "tiros_puerta": 3.4,
+          "corners": 3.2,
+          "amarillas": 1.4,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 8,
+        "goles_contra": 9,
+        "puntos": 5,
+        "dias_descanso": 23,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Ipswich",
+            "visitante": "Bournemouth",
+            "marcador": "1-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Hull",
+            "visitante": "Ipswich",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-23",
+            "local": "Ipswich",
+            "visitante": "Nott'm Forest",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Man City",
+            "visitante": "Ipswich",
+            "marcador": "3-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Ipswich",
+            "visitante": "Fulham",
+            "marcador": "2-1",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 10.2,
+          "tiros_puerta": 3.2,
+          "corners": 2.0,
+          "amarillas": 2.0,
+          "rojas": 0.0
+        }
+      },
+      "enfrentamientos": [],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 10,
+            "recinto": 5,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 48,
+            "recinto": 24,
             "identificado": true
           }
         },

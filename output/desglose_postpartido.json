@@ -1,9 +1,9 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-17T23:28:47.016067+00:00",
+  "calculado_utc": "2026-11-18T08:20:26.835059+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-17T23:28:47.016067+00:00",
+    "calculado_utc": "2026-11-18T08:20:26.835059+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
@@ -5377,6 +5377,50 @@
           "clave": "SP1|202611302000|espanyol|getafe|Goles equipo|Getafe: menos de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Getafe: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612012000|coventry|ipswich",
+      "liga": "Premier League",
+      "local": "Coventry City",
+      "visitante": "Ipswich Town",
+      "fecha_utc": "2026-12-01T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612012000|coventry|ipswich|Hándicap 2 vías (medio gol)|Coventry City +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Coventry City +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612012000|coventry|ipswich|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612012000|coventry|ipswich|Goles equipo|Coventry City: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Coventry City: más de 0,5 goles",
           "estado": "PENDIENTE",
           "resultado": "",
           "valor_real": "",

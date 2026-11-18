@@ -1,8 +1,868 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-17T23:28:47.016067+00:00",
+  "actualizado_utc": "2026-11-18T08:20:26.835059+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "140342",
+      "jugador": "Diego Mariño",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "236153",
+      "jugador": "Lluis López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "283862",
+      "jugador": "Carlos Neva",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "209592",
+      "jugador": "Jesús Vallejo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "297361",
+      "jugador": "Antonio Pacheco Ruiz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "331513",
+      "jugador": "Ortu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "356770",
+      "jugador": "Víctor Valverde Da Silva",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "388337",
+      "jugador": "Lorenzo Aguado",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "279697",
+      "jugador": "Mario Soberón",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "282682",
+      "jugador": "Roberto González",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "375419",
+      "jugador": "Álex Rubio",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "381354",
+      "jugador": "Agustín Albarracín",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "411953",
+      "jugador": "Antonio Moreno",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "240648",
+      "jugador": "Carlos Marín",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "399605",
+      "jugador": "Joaquín Domingo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "403331",
+      "jugador": "Daniel Bernabeu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "371567",
+      "jugador": "Capi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "300877",
+      "jugador": "Pepe Sanchez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "423018",
+      "jugador": "Fabio Garcia-Moreno",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "409512",
+      "jugador": "Antonio Velilla",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "374612",
+      "jugador": "Javi Villar",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "Albacete",
+      "jugador_id": "207352",
+      "jugador": "Agus Medina",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "329669",
+      "jugador": "Coke Carrillo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "421889",
+      "jugador": "Anxo Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "5323812",
+      "jugador": "Raúl Chirveches Sánchez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "3100792",
+      "jugador": "Frank Germain Jonathan Miller",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "330605",
+      "jugador": "Stefan Bajcetic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "414292",
+      "jugador": "Andrés Antañón",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "333981",
+      "jugador": "Jan Oliveras",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "411412",
+      "jugador": "Vladimir Silva",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "367442",
+      "jugador": "Alvaro Marin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "415036",
+      "jugador": "Ángel Arcos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "405521",
+      "jugador": "Óscar Marcos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "408018",
+      "jugador": "Seyni Ndiaye",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "388287",
+      "jugador": "Alexis Olmedo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "3100796",
+      "jugador": "Jorge Pérez-Lafuente Rey",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "3100798",
+      "jugador": "Noah Rodríguez Guallar",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "376424",
+      "jugador": "Marcos González",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "194253",
+      "jugador": "Hugo López",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "3143478",
+      "jugador": "David Sueiro Muiños",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "3107949",
+      "jugador": "Angel Davila Outerelo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "414291",
+      "jugador": "Pablo Meixús",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883305",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-16T19:30:00+00:00",
+      "local": "Albacete",
+      "visitante": "RC Celta Fortuna",
+      "equipo": "RC Celta Fortuna",
+      "jugador_id": "357201",
+      "jugador": "Caio Albado Barone",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
     {
       "event_id": "401883137",
       "liga": "SP2",
@@ -49204,10 +50064,10 @@
       "fuente": "ESPN summary público no oficial"
     }
   ],
-  "eventos_consultados": 0,
-  "eventos_con_jugadores": 0,
+  "eventos_consultados": 1,
+  "eventos_con_jugadores": 1,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 57,
-  "jugadores_con_algun_dato": 2460
+  "partidos_archivados": 58,
+  "jugadores_con_algun_dato": 2503
 }

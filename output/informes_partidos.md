@@ -787,7 +787,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 48.4% / 24.8% / 26.8%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-18T06:54:36+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -2677,6 +2677,50 @@
 
 ---
 
+## Coventry City – Ipswich Town
+
+**Premier League · 2026-12-01T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 47.9% | 24.2% | 27.9% | 66.3% |
+
+### Forma, descanso y estadísticas
+
+**Coventry City:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · D · D · V
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 12,2, a puerta 3,4, córners 3,2, amarillas 1,4
+
+**Ipswich Town:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · E · D · V
+- Días desde el último partido liguero registrado: 23
+- Medias recientes: Tiros 10,2, a puerta 3,2, córners 2,0, amarillas 2,0
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Coventry City +1,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Coventry City: más de 0,5 goles** (Goles equipo): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Bayern Munich – FC Cologne
 
 **Bundesliga · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -4310,7 +4354,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-18T08:10:44+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
