@@ -385,6 +385,55 @@ class ConservativeCoverageFixesTests(unittest.TestCase):
         self.assertTrue(result["cuotas"])
         self.assertEqual(len([u for u in calls if "/fixtures?" in u]),1)
 
+    def test_calendar_window_never_exceeds_one_day_even_for_both_extremes(self):
+        from urllib.parse import urlsplit,parse_qs
+        # 28-hour windows previously caused invalid_time_window (HTTP 400).
+        # Two same-day fixtures near both extremes cannot fit both ±2h,
+        # so preserve the original UTC day, without sending a second request.
+        games=[
+            {**MATCH,"id":"early","fecha_utc":"2026-11-20T00:20:00Z"},
+            {**MATCH,"id":"late","fecha_utc":"2026-11-20T23:40:00Z"},
+        ]
+        windows=[]
+        def strict_provider(url,headers):
+            if "/fixtures?" in url:
+                qs=parse_qs(urlsplit(url).query)
+                start,end=(int(qs[k][0]) for k in ("start_time","end_time"))
+                windows.append((start,end))
+                if end-start>86400:
+                    raise RuntimeError("invalid_time_window")
+                return {"success":1,"data":[]}
+            raise AssertionError(url)
+        result=get_five_odds(games,NOW,FIVE_ENV,strict_provider)
+        self.assertEqual(windows and len(windows),1)
+        self.assertEqual(windows[0][1]-windows[0][0],86400)
+        self.assertEqual(result["auditoria"]["errores"],0)
+        self.assertEqual(result["auditoria"]["consultas"],1)
+        self.assertEqual(result["estado"],"SIN_COINCIDENCIAS")
+
+    def test_calendar_midnight_shift_is_also_bounded_to_24_hours(self):
+        from urllib.parse import urlsplit,parse_qs
+        match={**MATCH,"id":"near-midnight",
+               "fecha_utc":"2026-11-20T00:45:00Z"}
+        event={**five_event(),"kickoff_utc":"2026-11-19T23:45:00Z"}
+        windows=[]
+        def strict_provider(url,headers):
+            if "/fixtures?" in url:
+                qs=parse_qs(urlsplit(url).query)
+                start,end=(int(qs[k][0]) for k in ("start_time","end_time"))
+                windows.append((start,end))
+                self.assertEqual(end-start,86400)
+                return {"success":1,"data":[event]}
+            if "/odds" in url:return five_prices()
+            raise AssertionError(url)
+        result=get_five_odds([match],NOW,FIVE_ENV,strict_provider)
+        self.assertEqual(result["estado"],"CON_CUOTAS")
+        self.assertEqual(result["auditoria"]["errores"],0)
+        self.assertEqual(result["auditoria"]["consultas"],2)
+        self.assertEqual(len(windows),1)
+        midnight=datetime(2026,11,20,tzinfo=timezone.utc).timestamp()
+        self.assertLess(windows[0][0],midnight)
+
     def test_calendar_kickoff_conflict_does_not_attach_odds_and_is_diagnosed(self):
         event={**five_event(),"kickoff_utc":"2026-11-20T16:00:00Z"}
         calls=[]
