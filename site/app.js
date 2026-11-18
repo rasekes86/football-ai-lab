@@ -10,6 +10,7 @@ import { radarSnapshot } from "./radar.mjs";
 import { realOddsSnapshot, oddsCoverageSnapshot } from "./real_odds.mjs";
 import { renderPerformanceView, confirmedOutcome } from "./performance_view.mjs";
 import { renderHomeView } from "./home.mjs";
+import { installTheme } from "./theme.mjs";
 import { renderMatchDetail } from "./match_detail.mjs";
 import { additionalStatus } from "./additional_status.mjs";
 import { renderResultsMobile } from "./results_mobile.mjs";
@@ -1190,5 +1191,6 @@ function wire() {
   if(VIEWS.includes(initial))changeView(initial);
   else changeView("home");
 }
+installTheme(document,(()=>{try{return window.localStorage;}catch{return null;}})());
 wire();
 refreshData();

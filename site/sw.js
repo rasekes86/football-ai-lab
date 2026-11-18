@@ -3,11 +3,11 @@
  * No push subscriptions or background data reads.
  */
 const CACHE_PREFIX = "football-ai-lab-shell-";
-const CACHE_NAME = CACHE_PREFIX + "v10-20261118-fair-odds-roi";
+const CACHE_NAME = CACHE_PREFIX + "v11-20261118-light-theme-crests";
 const ROOT = new URL(self.registration.scope);
 
 const SHELL_FILES = [
-  "./", "index.html", "styles.css", "app.js",
+  "./", "index.html", "styles.css", "theme.css", "app.js", "theme.mjs",
   "data.mjs", "feed_loader.mjs", "markets.mjs", "future_markets.mjs",
   "reliability.mjs", "radar.mjs", "real_odds.mjs",
   "performance.mjs", "performance_view.mjs", "home.mjs", "match_detail.mjs", "additional_status.mjs", "results_mobile.mjs",
