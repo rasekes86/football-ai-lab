@@ -63,6 +63,10 @@ PROVIDER_TEAM_ALIASES={
     "fsv mainz":"mainz","schalke 04":"schalke",
     "fc schalke 04":"schalke","hsv hamburg":"hamburg",
     "hull city afc":"hull","coventry city fc":"coventry",
+    # Equivalencias explícitas del primer equipo. "Celta Fortuna"/"Celta B"
+    # mantienen un identificador DIFERENTE y nunca se equiparan al Celta.
+    "rc celta de vigo":"celta","real club celta de vigo":"celta",
+    "celta de vigo":"celta","athletic club de bilbao":"ath bilbao",
 }
 PROVIDER_LEAGUE_ALIASES={
     "english premier league":"E0","england premier league":"E0",
@@ -139,6 +143,15 @@ def _num(v):
 
 def _league_code(name):
     clean=normalize_team(name)
+    # Algunos proveedores añaden la TEMPORADA al nombre oficial. Quitar
+    # únicamente sufijos inequívocos 2026/2027 o 2026-27, nunca "II"
+    # ni divisiones de otro nivel.
+    season=re.fullmatch(r"(.+?)\s+(20\d{2})\s+(20\d{2}|\d{2})",clean)
+    if season:
+        start=int(season.group(2))
+        end=int(season.group(3))
+        if end==(start+1 if len(season.group(3))==4 else (start+1)%100):
+            clean=season.group(1)
     if clean in PROVIDER_LEAGUE_ALIASES:
         return PROVIDER_LEAGUE_ALIASES[clean]
     for code,aliases in LEAGUE_ALIASES.items():
@@ -373,9 +386,17 @@ def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
             same_clock=[row for row in selected
                         if FIVE_CODES.get(row.get("liga"))==code and kick
                         and abs(_dt(row["fecha_utc"])-kick)<=MAX_DIFF]
+            same_teams=[row for row in selected
+                        if FIVE_CODES.get(row.get("liga"))==code
+                        and _same_team(row.get("local"),home)
+                        and _same_team(row.get("visitante"),away)]
             if any(_same_team(row.get("local"),away) and
                    _same_team(row.get("visitante"),home) for row in same_clock):
                 mismatch_reasons[code]["orden_local_visitante"]+=1
+            elif same_teams:
+                # Nunca adjuntar una cuota si el calendario de la fuente
+                # no coincide: el desacuerdo horario necesita verificación.
+                mismatch_reasons[code]["mismos_equipos_hora_incompatible"]+=1
             elif same_clock:
                 mismatch_reasons[code]["equipos"]+=1
             else:
@@ -392,14 +413,18 @@ def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
     # Free does not permit include=odds in fixture lists.
     extra_pages=0
     for day in days:
-        begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)
+        # Un encuentro cercano a medianoche puede diferir hasta dos
+        # horas entre fuentes. Ampliar VENTANA, no tolerancia de emparejamiento
+        # ni número de peticiones; mismo fixture de fecha adyacente.
+        begin=datetime.combine(day,datetime.min.time(),tzinfo=timezone.utc)-MAX_DIFF
+        end=begin+timedelta(days=1)+2*MAX_DIFF
         for page in (1,2):
             if page==2:
                 if extra_pages>=2:break
                 extra_pages+=1
             params=urlencode({
                 "start_time":int(begin.timestamp()),
-                "end_time":int((begin+timedelta(days=1)).timestamp()),
+                "end_time":int(end.timestamp()),
                 "status":"scheduled","per_page":100,"page":page,
             })
             try:
@@ -481,6 +506,21 @@ def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
                 request_errors["liga_especifica"]+=1
 
     for ident in ambiguous:candidates.pop(ident,None)
+    # No seguir buscando el MISMO calendario sin cambios cada dos horas.
+    # Se marca exclusivamente cuando la API respondió sin errores y se
+    # agotaron las rutas de descubrimiento para esa liga. No se marca si
+    # hay empate ambiguo de proveedor o fallback incompleto.
+    unresolved_fallback=set(needed)-set(targeted_codes)
+    marked_no_event=0
+    if not audit["errores"]:
+        for match in selected:
+            ident=match["id"]
+            if (ident not in candidates and ident not in ambiguous
+                    and FIVE_CODES[match["liga"]] not in unresolved_fallback):
+                ledger.mark(ident,False,"SIN_EVENTO_VERIFICADO")
+                marked_no_event+=1
+    audit["partidos_sin_evento_verificado"]=marked_no_event
+    audit["reintento_sin_evento_horas"]=6
     by_league=defaultdict(list)
     for match,event in candidates.values():
         by_league[match["liga"]].append((match,event))
