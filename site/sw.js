@@ -3,7 +3,7 @@
  * No push subscriptions or background data reads.
  */
 const CACHE_PREFIX = "football-ai-lab-shell-";
-const CACHE_NAME = CACHE_PREFIX + "v9-20261118-additional-status";
+const CACHE_NAME = CACHE_PREFIX + "v10-20261118-fair-odds-roi";
 const ROOT = new URL(self.registration.scope);
 
 const SHELL_FILES = [
