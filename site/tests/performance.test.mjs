@@ -34,6 +34,59 @@ test("solo tres selecciones originales por encuentro, no un cuarto análisis ni 
   assert.equal(perf.safeguards.ignoredTopDuplicates,1);
 });
 
+test("Top 3: ROI justo a partir de probabilidad archivada, sin consultas ni cuotas reales",()=>{
+  const picks=[
+    row(1,{estado:"FINALIZADO",resultado:"1",probabilidad:"0.80"}),
+    row(2,{estado:"FINALIZADO",resultado:"0",probabilidad:"0.70"}),
+    row(3,{estado:"FINALIZADO",resultado:"1",probabilidad:"0.60"}),
+  ];
+  const s=performanceSnapshot(model(picks,[]),{},NOW);
+  const expected=(1/.8-1)-1+(1/.6-1);
+  assert.equal(s.top.settled,3);
+  assert.equal(s.top.fairCount,3);
+  assert.ok(Math.abs(s.top.fairProfit-expected)<1e-12);
+  assert.ok(Math.abs(s.top.fairRoi-expected/3)<1e-12);
+  assert.equal(s.top.profit,null); // No bookmaker Top3 ROI.
+  assert.equal(s.top.roi,null);
+  assert.equal(s.combined.financialCount,3);
+  assert.ok(Math.abs(s.combined.profit-expected)<1e-12);
+  assert.ok(Math.abs(s.combined.roi-expected/3)<1e-12);
+  assert.equal(s.rows.filter(x=>x.group==="Top 3").length,3);
+  assert.ok(s.rows.some(x=>x.price===1/.8&&x.return===(1/.8-1)));
+});
+test("ROI mixto 3+1 suma tres cuotas justas y una adicional histórica solamente",()=>{
+  const picks=[
+    row(1,{estado:"FINALIZADO",resultado:"1",probabilidad:"0.8"}),
+    row(2,{estado:"FINALIZADO",resultado:"0",probabilidad:"0.7"}),
+    row(3,{estado:"FINALIZADO",resultado:"1",probabilidad:"0.6"}),
+    row(4,{estado:"FINALIZADO",resultado:"1",probabilidad:"0.9"}),
+  ];
+  const extras=[odd({estado:"FINALIZADO",resultado:"1",cuota_decimal:"1.90",
+      tipo_cuota:"OFRECIDA_API_REGISTRADA"})];
+  const s=performanceSnapshot(model(picks,extras),{},NOW);
+  const expected=(1/.8-1)-1+(1/.6-1)+.90;
+  assert.equal(s.top.fairCount,3);
+  assert.equal(s.additional.financialCount,1);
+  assert.equal(s.combined.financialCount,4);
+  assert.ok(Math.abs(s.combined.profit-expected)<1e-12);
+  assert.ok(Math.abs(s.combined.roi-expected/4)<1e-12);
+});
+test("cuotas justas ausentes e insuficiencia estadística NO se convierten en pérdidas",()=>{
+  const picks=[
+    row(1,{estado:"FINALIZADO",resultado:"1",probabilidad:""}),
+    row(2,{estado:"ESTADISTICA_NO_DISPONIBLE",resultado:"",probabilidad:"0.75"}),
+    row(3,{estado:"FINALIZADO",resultado:"0",probabilidad:"0.80"}),
+  ];
+  const s=performanceSnapshot(model(picks,[]),{},NOW);
+  assert.equal(s.top.settled,2);
+  assert.equal(s.top.fairCount,1);
+  assert.equal(s.top.fairUnavailable,1);
+  assert.equal(s.top.fairProfit,-1);
+  assert.equal(s.top.fairRoi,-1);
+  assert.equal(s.combined.financialCount,1);
+  assert.equal(s.rows.filter(r=>r.group==="Top 3"&&r.return===null).length,2);
+});
+
 test("adicional solo si fue archivada antes del partido, cuota superior a 1,50 y máximo una por encuentro",()=>{
   const rows=[odd({estado:"FINALIZADO",resultado:"1"}),
     odd({clave:"SP2|fixture|other",cuota_decimal:"2.50",estado:"FINALIZADO",resultado:"1",

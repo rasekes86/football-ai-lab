@@ -76,7 +76,7 @@ function ledger(rows){
     const source=additional?(row.tipo_cuota==="INDICATIVA_NO_VERIFICADA"?
       "Precio orientativo, no acreditado":row.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
       "Cuota API registrada":"Sin origen de cuota"):
-      "Sin cuota real asignada al Top 3";
+      "Cuota justa del modelo (= 1 / probabilidad archivada), NO ofertada por una casa";
     // Timestamp is the published OBSERVATION time, never a claimed bet placement.
     const observed=Number.isFinite(Date.parse(row.fecha_cuota_utc||""))?
       quoteFmt.format(new Date(row.fecha_cuota_utc)):"";
@@ -84,12 +84,14 @@ function ledger(rows){
       [row.bookmaker,row.proveedor_cuota,observed?"captura "+observed:"",
        row.marca_tiempo_tipo==="CAPTURA_NO_ACTUALIZACION"?"sin hora de cambio del bookmaker":""]
         .filter(Boolean).join(" · "):"";
-    const price=additional?decimal.format(row.price):"—";
-    const balance=additional&&row.return!==null?units(row.return):"—";
+    const price=row.price!==null&&Number.isFinite(row.price)?
+      decimal.format(row.price):"—";
+    const balance=row.return!==null?units(row.return):"—";
     return '<tr><td><div class="main-cell">'+escape(row.local)+' – '+escape(row.visitante)+
       '</div><div class="sub-cell">'+escape(day(row.fecha_utc))+' · '+escape(row.liga)+
       '</div></td><td class="pick-cell"><div class="main-cell">'+escape(row.seleccion)+
-      '</div><div class="sub-cell">'+escape(row.group)+(additional?' · cuota '+price:'')+
+      '</div><div class="sub-cell">'+escape(row.group)+
+      (price!=="—"?' · '+(additional?'cuota archivada ':'cuota justa teórica ')+price:'')+
       ' · '+escape(source)+(evidence?' · '+escape(evidence):'')+'</div></td><td>'+confirmedOutcome(row)+
       '</td><td class="performance-return">'+escape(balance)+
       '</td><td><button type="button" class="row-link" data-open-id="'+escape(row.id)+
@@ -133,13 +135,13 @@ function automatedAudit(model,league){
 
 export function renderPerformanceView(model,filters={},limit=36,now=new Date()){
   const info=performanceSnapshot(model,filters,now);
-  const top=info.top,additional=info.additional;
+  const top=info.top,additional=info.additional,combined=info.combined;
   return {
     topKpis:
       metric("Aciertos confirmados",count(top.hits)+" / "+count(top.settled),"Solo Top 3 congelado",true)+
       metric("Tasa de acierto",rate(top.accuracy),"Sin contar los pendientes")+
-      metric("Archivadas",count(top.registered),"Máximo tres por partido")+
-      metric("Sin liquidar",count(top.unresolved),"No son fallos"),
+      metric("Balance cuota justa",units(top.fairProfit),count(top.fairCount)+" selecciones liquidadas · 1 u.")+
+      metric("ROI cuota justa",rate(top.fairRoi),"Hipótesis del modelo, no cuota real"),
     extraKpis:
       metric("Aciertos confirmados",count(additional.hits)+" / "+count(additional.settled),"Una adicional por partido",true)+
       metric("Tasa de acierto",rate(additional.accuracy),"Solo resultados finales")+
@@ -147,6 +149,15 @@ export function renderPerformanceView(model,filters={},limit=36,now=new Date()){
       metric("ROI simulado",rate(additional.roi),"No equivale a dinero ganado"),
     topChart:topGraph(info.timeline),
     extraChart:profitGraph(info.timeline),
+    topFairEvidence:"Top 3: "+count(top.registered)+" archivadas, "+
+      count(top.unresolved)+" pendientes, "+count(top.fairCount)+
+      " simulaciones liquidadas. Precio hipotético = 1 / probabilidad original, "+
+      "sin margen de bookmaker: la rentabilidad real sería desconocida.",
+    combinedEvidence:"SIMULACIÓN MIXTA 3+1 · "+count(combined.financialCount)+
+      " unidades simuladas ("+count(combined.topCount)+" Top 3 a cuota justa y "+
+      count(combined.additionalCount)+" adicionales a cuota archivada). "+
+      "Balance: "+units(combined.profit)+" · ROI: "+rate(combined.roi)+
+      ". No equivale a un ROI real ni se compraron estas cuotas.",
     extraEvidence:"Resultados liquidados: "+count(additional.settled)+
       " · Cuotas orientativas sin prueba histórica: "+count(additional.indicativeCount)+
       " · Cuotas registradas por API: "+count(additional.observedCount)+

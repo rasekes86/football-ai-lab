@@ -101,9 +101,13 @@ function rowIcon(r){
 }
 function pickLine(r){
   const s=visualState(r);
+  const quoted=r.group==="Top 3"&&r.price!==null&&Number.isFinite(r.price);
+  const fairInfo=quoted?'<small class="results-v2-fair-note">Cuota justa simulada '+
+    oddsFmt.format(r.price)+(r.return!==null?' · '+esc(units(r.return)):' · sin liquidar')+
+    '</small>':"";
   return '<div class="results-v2-pick-line"><span class="results-v2-pick-icon '+s+
-    '" aria-hidden="true">'+rowIcon(r)+'</span><span>'+esc(r.seleccion||"Selección")+
-    '</span>'+statusBadge(r)+'</div>';
+    '" aria-hidden="true">'+rowIcon(r)+'</span><span class="results-v2-pick-text">'+
+    esc(r.seleccion||"Selección")+fairInfo+'</span>'+statusBadge(r)+'</div>';
 }
 function fixture(group){
   const resolved=group.top.filter(r=>result(r)!=="pending");
@@ -111,6 +115,8 @@ function fixture(group){
   const extra=group.extra;
   const hasExtra=Boolean(extra);
   const scoreText=score(group.match);
+  const pricedTop=group.top.filter(r=>r.return!==null);
+  const topProfit=pricedTop.reduce((sum,r)=>sum+r.return,0);
   const extraType=extra?.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
     "Cuota API observada":"Cuota orientativa";
   const odd=hasExtra&&Number.isFinite(Number(extra.price))?
@@ -123,7 +129,9 @@ function fixture(group){
     (scoreText?'<b>'+esc(scoreText)+'</b>':'')+'</div>'+
     '<div class="results-v2-groups"><div><span>TOP 3</span>'+
     '<strong>'+fmt.format(wins)+' aciertos / '+fmt.format(resolved.length)+' resueltos</strong>'+
-    '<small>'+fmt.format(group.top.length-resolved.length)+' sin liquidar</small></div>'+
+    '<small>'+fmt.format(group.top.length-resolved.length)+' sin liquidar</small>'+
+    (pricedTop.length?'<small>Balance cuota justa · '+esc(units(topProfit))+
+      ' ('+fmt.format(pricedTop.length)+' verificadas)</small>':"")+'</div>'+
     '<div class="results-v2-fixture-extra '+(extra?visualState(extra):"pending")+'"><span>ADICIONAL +1,50</span>'+
     (hasExtra?
       '<small class="results-v2-fixture-market">'+esc(extra.mercado||"Mercado")+'</small>'+
@@ -189,12 +197,22 @@ export function renderResultsMobile(info={},matches=[],limit=6,additionalLimit=8
     profit:null,indicativeSettled:0,observedSettled:0};
   const recent=recentResultGroups(info,matches,limit);
   const additionalCards=archivedAdditionalCards(info,additionalLimit,now);
-  const balance='<div class="results-v2-balance"><div><span>SIMULACIÓN DE LAS ADICIONALES</span>'+
+  const combined=info.combined||{profit:null,roi:null,financialCount:0};
+  const balance='<div class="results-v2-balance results-v2-balance-3plus1">'+
+    '<div class="results-v2-balance-line"><span>TOP 3 · CUOTA JUSTA SIMULADA</span>'+
+    '<strong>'+esc(units(top.fairProfit??null))+'</strong>'+
+    '<small>ROI: '+esc(accuracy(top.fairRoi??null))+
+    ' · '+fmt.format(top.fairCount||0)+' resultados a 1 u.</small></div>'+
+    '<div class="results-v2-balance-line"><span>ADICIONALES · CUOTAS ARCHIVADAS</span>'+
     '<strong>'+esc(units(extra.profit))+'</strong>'+
-    '<small>1 unidad por selección liquidada; no se ha apostado dinero real.</small></div>'+
-    '<div class="results-v2-origin"><span>'+
-    fmt.format(extra.observedSettled||0)+' cuotas API liquidadas</span><span>'+
-    fmt.format(extra.indicativeSettled||0)+' cuotas indicativas liquidadas</span></div></div>';
+    '<small>ROI: '+esc(accuracy(extra.roi??null))+' · '+
+    fmt.format(extra.observedSettled||0)+' cuotas API liquidadas · '+
+    fmt.format(extra.indicativeSettled||0)+' cuotas indicativas liquidadas</small></div>'+
+    '<div class="results-v2-balance-line combined"><span>CONJUNTO 3+1 · SIMULACIÓN MIXTA</span>'+
+    '<strong>'+esc(units(combined.profit))+'</strong>'+
+    '<small>ROI simulado: '+esc(accuracy(combined.roi))+
+    ' · '+fmt.format(combined.financialCount||0)+' unidades liquidadas</small></div>'+
+    '<p class="results-v2-balance-warning">El Top 3 utiliza 1/probabilidad del modelo, NO cuotas reales de casas. La adicional usa su cuota archivada. Son escenarios hipotéticos, no rentabilidad demostrada.</p></div>';
   return {
     scorecards:scoreboard("TOP 3 ORIGINAL",top,"top")+
       scoreboard("UNA ADICIONAL +1,50",extra,"extra"),

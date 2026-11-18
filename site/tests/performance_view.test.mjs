@@ -40,6 +40,25 @@ test("el panel distingue un acierto validado del precio no acreditado",()=>{
   assert.match(page.extraEvidence,/Resultados liquidados: 1/);
   assert.equal(page.hasMore,false);
 });
+test("ROI simulado Top3 y 3+1 aparece etiquetado como precio NO ofrecido",()=>{
+  const a={...original,probabilidad:"0.8",resultado:"1"};
+  const b={...original,clave:original.clave+"|b",probabilidad:"0.6",resultado:"0"};
+  const c={...original,clave:original.clave+"|c",probabilidad:"0.7",resultado:"1"};
+  const view=renderPerformanceView({archivedPicks:[a,b,c],allOdds:[
+    {...indicative,cuota_decimal:"1.90",resultado:"0"}
+  ]},{},36,when);
+  assert.match(view.topKpis,/Balance cuota justa/);
+  assert.match(view.topKpis,/ROI cuota justa/);
+  assert.match(view.topFairEvidence,/rentabilidad real sería desconocida/);
+  assert.match(view.combinedEvidence,/SIMULACIÓN MIXTA 3\+1/);
+  assert.equal(view.snapshot.top.fairCount,3);
+  assert.equal(view.snapshot.combined.financialCount,4);
+  assert.match(view.ledger,/cuota justa teórica/);
+  assert.match(view.ledger,/NO ofertada/);
+  assert.match(view.ledger,/1,25/);
+  assert.match(view.ledger,/performance-return/);
+});
+
 test("HTML de origen y nombres de mercado se escapan al mostrar las apuestas",()=>{
   const bad={...original,seleccion:'<img src=x onerror=alert(1)>'};
   const page=renderPerformanceView({archivedPicks:[bad],allOdds:[]},{},36,when);

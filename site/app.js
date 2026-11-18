@@ -566,6 +566,8 @@ function renderPerformance() {
   },state.performanceLimit);
   inner("performanceTopKpis",view.topKpis);
   inner("performanceExtraKpis",view.extraKpis);
+  $("performanceTopFairEvidence").textContent=view.topFairEvidence;
+  $("performanceCombinedEvidence").textContent=view.combinedEvidence;
   const mobile=renderResultsMobile(view.snapshot,state.data.matches,state.resultsRecentLimit,state.resultsAdditionalLimit);
   inner("performanceMobileSummary",mobile.scorecards);
   inner("resultsMobileBalance",mobile.balance);

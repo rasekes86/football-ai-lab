@@ -393,11 +393,11 @@
           </div>
           <div class="performance-columns">
             <article class="panel performance-block performance-top-block">
-              <div class="panel-heading"><div><span class="overline">01 / PREDICCIONES ARCHIVADAS</span><h3>Top 3 · aciertos confirmados</h3></div><span class="panel-mini">SIN CUOTAS INVENTADAS</span></div>
+              <div class="panel-heading"><div><span class="overline">01 / PREDICCIONES ARCHIVADAS</span><h3>Top 3 · aciertos y simulación</h3></div><span class="panel-mini">CUOTA JUSTA · NO OFRECIDA</span></div>
               <div id="performanceTopKpis" class="kpi-grid"></div>
               <div class="performance-plot-title">Acierto por periodo</div>
               <div id="performanceTopChart" class="performance-periods"></div>
-              <p class="fine-print">Solo contabilizamos aciertos y fallos de las tres selecciones archivadas. No calculamos ROI con la «cuota justa» del modelo.</p>
+              <p class="fine-print" id="performanceTopFairEvidence">La simulación de ROI del Top 3 aplica 1 / probabilidad congelada, no precios de bookmakers. No mide rentabilidad real.</p>
             </article>
             <article class="panel performance-block performance-extra-block">
               <div class="panel-heading"><div><span class="overline">02 / UNA ADICIONAL POR PARTIDO</span><h3>Cuota &gt;1,50 · resultado confirmado</h3></div><span class="panel-mini">1 U. HIPOTÉTICA</span></div>
@@ -408,6 +408,7 @@
               <div id="performanceAutoAudit" class="performance-auto-audit" role="status"></div>
             </article>
           </div>
+          <div class="panel performance-combined-panel"><div class="panel-heading"><div><span class="overline">03 / CONJUNTO 3+1</span><h3>Balance simulado conjunto</h3></div><span class="panel-mini">SOLO RESULTADOS VERIFICADOS</span></div><p class="performance-combined-note" id="performanceCombinedEvidence">Top 3 a cuota justa del modelo y adicional a cuota archivada. No se utilizan cuotas reales del Top 3.</p></div>
           <div class="panel performance-by-league-panel">
             <div class="panel-heading"><div><span class="overline">COMPARADOR</span><h3>Rendimiento por liga</h3></div><span class="panel-mini">DOS BALANCES SEPARADOS</span></div>
             <div id="performanceLeagueTable" class="performance-league-grid"></div>
@@ -415,12 +416,12 @@
           <div class="panel table-panel performance-ledger-panel">
             <div class="panel-heading"><div><span class="overline">AUDITORÍA POSTPARTIDO · 3 + 1</span><h3>Selecciones y resultados</h3></div><span class="panel-mini" id="performanceCount">—</span></div>
             <div class="table-scroll"><table class="data-table"><thead><tr>
-              <th>Fecha / encuentro</th><th>Grupo y pronóstico</th><th>Resultado verificado</th><th>Balance adicional</th><th></th>
+              <th>Fecha / encuentro</th><th>Grupo, pronóstico y cuota</th><th>Resultado verificado</th><th>Balance simulado</th><th></th>
             </tr></thead><tbody id="performanceRows"></tbody></table></div>
             <div class="load-wrap"><button type="button" id="performanceMore" class="btn btn-outline" hidden>Mostrar más selecciones ↓</button></div>
           </div>
           </div>
-          <div class="explanation"><strong>Cómo lo verificamos.</strong> «Acierto confirmado» o «Fallo confirmado» se determina con el marcador final y, si el mercado lo exige, estadísticas finales comprobadas. La validación de una cuota es independiente. Los precios orientativos anteriores al partido generan únicamente simulaciones, nunca rentabilidad real.</div>
+          <div class="explanation"><strong>Cómo lo verificamos.</strong> «Acierto confirmado» o «Fallo confirmado» se determina con el marcador final y, si el mercado lo exige, estadísticas finales comprobadas. La validación de una cuota es independiente. En el Top 3 calculamos cuotas justas a partir de las probabilidades originales, sin comprobar precios de casas. La adicional conserva la cuota archivada. Los balances son escenarios hipotéticos y no rentabilidad real.</div>
         </section>
 
         <section class="view" id="view-realodds" aria-labelledby="realOddsTitle" hidden>

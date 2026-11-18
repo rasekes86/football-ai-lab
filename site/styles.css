@@ -1630,3 +1630,24 @@ body{background:#061522}
   .match-filters .field-search{grid-column:span 2}
   .extra-status-chip{font-size:9px}
 }
+
+/* 3+1: simulations are deliberately separated from verified bookmaker prices. */
+.performance-combined-panel{margin:0 0 18px;padding:20px 22px;background:#122a38;border:1px solid #35566b}
+.performance-combined-panel .panel-heading{margin-bottom:10px}
+.performance-combined-note{font-size:12px;color:#b9cbd5;line-height:1.7;margin:0}
+.results-v2-balance-3plus1{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch!important;gap:11px!important}
+.results-v2-balance-line{min-width:0;display:flex;flex-direction:column;gap:7px;padding:9px 8px}
+.results-v2-balance-line>span{font-size:10px;font-weight:800;letter-spacing:.5px;color:#bad0da;line-height:1.5}
+.results-v2-balance-line strong{font-size:clamp(19px,2.6vw,27px);letter-spacing:-.6px;font-variant-numeric:tabular-nums}
+.results-v2-balance-line small{font-size:10px;line-height:1.5;color:#adc3ce}
+.results-v2-balance-line.combined{background:#173d36;border:1px solid #497764;border-radius:11px}
+.results-v2-balance-line.combined>span{color:#c2e9b6}
+.results-v2-balance-warning{grid-column:1/-1;font-size:10px;line-height:1.65;color:#adc1ce;margin:0;padding:10px 8px 0;border-top:1px solid #345264}
+.results-v2-pick-text{display:flex;flex-direction:column;gap:3px;min-width:0}
+.results-v2-fair-note{font-size:10px;color:#b9ccd7;line-height:1.4}
+@media(max-width:740px){
+  .results-v2-balance-3plus1{grid-template-columns:1fr 1fr;gap:8px!important}
+  .results-v2-balance-line.combined{grid-column:1/-1}
+  .results-v2-balance-line{padding:10px 7px}
+  .results-v2-balance-warning{font-size:10px}
+}

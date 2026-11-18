@@ -11,7 +11,8 @@ on:
   pull_request:
     paths:
       - 'src/football_ai_lab/**'
-      - 'tests/test_odds_scheduler.py'
+      - 'tests/**'
+      - 'site/**'
       - '.github/workflows/odds-refresh.yml'
 permissions:
   contents: write
