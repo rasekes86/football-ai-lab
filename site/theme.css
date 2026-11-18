@@ -1,0 +1,114 @@
+/* Appearance overrides; original dark theme remains the default. */
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;padding:7px 12px;border:1px solid var(--stroke);border-radius:10px;background:var(--surface-2);color:var(--text);font-size:12px;font-weight:800;white-space:nowrap;transition:background .16s,border-color .16s}
+.theme-toggle:hover{border-color:var(--lime);background:var(--surface-3)}
+.theme-toggle-icon{font-size:19px;line-height:1;min-width:18px;text-align:center}
+.theme-toggle:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+/* Home: significantly larger shields, with ample room for labels. */
+.home-teams{min-height:95px}
+.home-teams>span{gap:10px}
+.home-teams .crest-shell{width:62px;height:62px;min-width:62px;flex:0 0 62px;border-radius:16px;font-size:15px}
+.home-teams .crest-shell .team-crest{padding:5px}
+.home-teams>span>strong{font-size:14px;line-height:1.32}
+.home-teams>b{font-size:13px}
+@media(max-width:800px){
+  .topbar .theme-toggle{min-width:41px;width:41px;min-height:41px;padding:5px;border-radius:10px}
+  .theme-toggle-label{display:none}
+  .theme-toggle-icon{font-size:24px}
+  .home-teams{min-height:84px;gap:7px}
+  .home-teams .crest-shell{width:54px;height:54px;min-width:54px;flex-basis:54px;border-radius:13px;font-size:13px}
+  .home-teams>span>strong{font-size:13px}
+}
+@media(max-width:390px){
+  .home-teams .crest-shell{width:49px;height:49px;min-width:49px;flex-basis:49px;border-radius:12px}
+  .home-teams>span>strong{font-size:12px}
+  .home-teams>span{gap:6px}
+  .home-teams{gap:5px}
+}
+/* Light colors are opt-in. */
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f3f6fb;--sidebar:#fff;--surface:#fff;--surface-2:#f5f8fc;
+  --surface-3:#ecf2f8;--stroke:#ccd8e4;--stroke-soft:rgba(49,82,109,.17);
+  --text:#17293c;--muted:#52677b;--dim:#687e92;--lime:#c7254b;
+  --lime-dark:#f8e6ea;--cyan:#137f94;--red:#bb2944;--amber:#93611d;
+  --shadow:0 14px 32px rgba(31,59,82,.09);
+}
+[data-theme="light"] body,[data-theme="light"] .workspace{background:var(--bg);color:var(--text)}
+[data-theme="light"] .sidebar{background:linear-gradient(165deg,#fff,#f8fafd);border-color:#dce5ed}
+[data-theme="light"] .sidebar-bottom{background:linear-gradient(140deg,#f8edf2,#f0f6fd);border-color:#dee4ee}
+[data-theme="light"] .sidebar-advanced summary{color:#526a7d}
+[data-theme="light"] .sidebar-advanced summary:hover{background:#edf2f8}
+[data-theme="light"] .nav-link{color:#445e72}
+[data-theme="light"] .nav-link:hover{background:#eef3f8;color:#142d42}
+[data-theme="light"] .nav-link.active{background:linear-gradient(90deg,#fbe8ee,#fff6f8);border-color:#edbfc9;color:#bd2447}
+[data-theme="light"] .nav-link.active .nav-symbol{color:#bd2447}
+[data-theme="light"] .nav-counter{background:#eaf0f6}
+[data-theme="light"] .topbar{background:#fff;border-color:#dce5ed}
+[data-theme="light"] .topbar-kicker,[data-theme="light"] .overline{color:#b72a4d}
+[data-theme="light"] .topbar-rule{color:#8297aa}
+[data-theme="light"] .mobile-brand{color:#17293c}
+[data-theme="light"] .mobile-brand strong span{color:#c7254b}
+[data-theme="light"] .theme-toggle{background:#f5f7fb;border-color:#ccd9e3;color:#203f55}
+[data-theme="light"] .theme-toggle:hover{background:#fcebf1;border-color:#c7254b;color:#a91940}
+[data-theme="light"] .refresh-btn,[data-theme="light"] .topbar .refresh-btn{color:#3b566d}
+[data-theme="light"] .sync-status{background:#e5f5ed;border-color:#b8dbc6;color:#1d6845}
+[data-theme="light"] .sync-status.warning{background:#fff3db;border-color:#e6d4a1;color:#815a16}
+[data-theme="light"] .sync-status.error{background:#ffe8e9;border-color:#e6b5be;color:#a52740}
+[data-theme="light"] .score-bottom-nav{background:#fff;border-color:#d6e0e8;box-shadow:0 -7px 26px rgba(26,51,77,.09)}
+[data-theme="light"] .score-tab{color:#667e92}
+[data-theme="light"] .score-tab.active{color:#c7254b}
+[data-theme="light"] .score-tab:hover{color:#a81e41}
+[data-theme="light"] .pwa-install-btn{background:#fcebf0;color:#af2345;border-color:#f0b3c1}
+[data-theme="light"] .pwa-install-help,[data-theme="light"] .pwa-install-help button{background:#fff;color:var(--text);border-color:#d1dee8}
+[data-theme="light"] .pwa-install-help p,[data-theme="light"] .pwa-install-help small{color:var(--muted)}
+[data-theme="light"] .pwa-offline-banner{background:#fff4e5;color:#815d20;border-color:#e7d0ac}
+[data-theme="light"] .error-banner{background:#fff0f0;border-color:#e7acb4;color:#912f43}
+
+/* Home cards use white surfaces, charcoal typography and restrained accents. */
+[data-theme="light"] .home-hero{background:linear-gradient(120deg,#fff,#fcecf2 54%,#edf4fc);border-color:#e7dbe7}
+[data-theme="light"] .home-hero:after{border-color:rgba(203,48,91,.07)}
+[data-theme="light"] .home-eyebrow,[data-theme="light"] .home-hero h1 em{color:#b32449}
+[data-theme="light"] .home-published,[data-theme="light"] .home-hero p{color:#566e82}
+[data-theme="light"] .home-stat{background:#fff;border-color:#d9e2ed;box-shadow:0 6px 20px rgba(37,67,95,.035)}
+[data-theme="light"] .home-stat>span{color:#607587}
+[data-theme="light"] .home-stat strong{color:#17293c}
+[data-theme="light"] .home-stat small{color:#6a8094}
+[data-theme="light"] .home-section-heading div>span,[data-theme="light"] .more-section-label{color:#6e8295}
+[data-theme="light"] .home-section-heading button{color:#b32347}
+[data-theme="light"] .home-section-heading button:hover{color:#801a35}
+[data-theme="light"] .home-fixture{background:#fff;border-color:#dbe3ec;box-shadow:0 8px 23px rgba(24,61,85,.055)}
+[data-theme="light"] .home-match-head{color:#536d82}
+[data-theme="light"] .home-match-head time{color:#264457}
+[data-theme="light"] .home-teams>b{color:#8298ac}
+[data-theme="light"] .team-monogram,[data-theme="light"] .home-teams .crest-shell{background:#edf3f9;border-color:#d5e0eb;color:#35536a}
+[data-theme="light"] .crest-shell.has-crest,[data-theme="light"] .home-teams .crest-shell.has-crest{background:#fff;border-color:#dce5eb}
+[data-theme="light"] .home-extra{background:#eef8f2;border-color:#b7d8c5;color:#205c43}
+[data-theme="light"] .home-extra .home-label{color:#217d52}
+[data-theme="light"] .home-odds small{color:#567a66}
+[data-theme="light"] .home-extra-empty{background:#f3f7fa;border-color:#d7e2eb;color:#526a7f}
+[data-theme="light"] .home-extra-empty small{color:#617b8d}
+[data-theme="light"] .home-extra-empty.unviable{background:#fff6e8;border-color:#ead5a6;color:#805a1c}
+[data-theme="light"] .home-extra-empty.unviable strong{color:#805719}
+[data-theme="light"] .home-pick-details{border-color:#dbe4ed}
+[data-theme="light"] .home-pick-details summary{color:#2c455b}
+[data-theme="light"] .home-pick-details summary::after{color:#c7254b}
+[data-theme="light"] .home-pick{border-color:#e4ebf1}
+[data-theme="light"] .home-pick strong{color:#213f55}
+[data-theme="light"] .home-muted,[data-theme="light"] .home-empty{color:#657c8f}
+[data-theme="light"] .home-empty{background:#fff;border-color:#d8e3ea}
+[data-theme="light"] .home-open{background:#f0f5f9;border-color:#d4e1e9;color:#24455c}
+[data-theme="light"] .home-open span{color:#bd2348}
+[data-theme="light"] .home-open:hover{background:#e7f0f7}
+[data-theme="light"] .home-recent-row{background:#fff;color:var(--text);border-color:#d7e3eb}
+[data-theme="light"] .home-recent-row:hover{background:#f8fafc}
+[data-theme="light"] .home-recent-row small{color:#667f91}
+[data-theme="light"] .home-advanced-link{background:#f9f1f6;color:var(--text);border-color:#ebd7e5}
+[data-theme="light"] .home-advanced-link:hover{background:#f8e7f0}
+[data-theme="light"] .home-advanced-link small,[data-theme="light"] .home-disclaimer{color:#667d91}
+[data-theme="light"] .home-advanced-link>span:last-child{color:#bd2348}
+[data-theme="light"] .more-header p{color:var(--muted)}
+[data-theme="light"] .more-item{background:#fff;border-color:#dae5eb;color:#21364b}
+[data-theme="light"] .more-item:hover{background:#f4f8fb}
+[data-theme="light"] .more-item small{color:#62788b}
+[data-theme="light"] .more-icon{background:#fbe8ee;color:#ba2047}
+[data-theme="light"] .more-chevron{color:#71899b}
