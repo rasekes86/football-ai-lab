@@ -51,9 +51,8 @@ test("sin evaluaciones no inventa resultados o calibración",()=>{
   assert.equal(s.metrics.acierto_pct,null);
   assert.deepEqual(s.metrics.calibracion,[]);
   assert.equal(s.uniqueEnough,false);
-  assert.equal(s.remainingGames,28);
-  assert.equal(s.metrics.brier_equilibrado_partidos,.2);
-  assert.equal(s.metrics.estado_calibracion,"INSUFICIENTES_PARTIDOS");
+  assert.equal(s.remainingGames,30);
+  assert.equal(s.metrics.brier_equilibrado_partidos,null);
 });
 test("agregación prospectiva por mercado y liga",()=>{
   const s=reliabilitySnapshot(doc,{market:"corners",league:"LaLiga"});
@@ -63,6 +62,9 @@ test("agregación prospectiva por mercado y liga",()=>{
   assert.equal(s.leagues.length,1);
   assert.equal(s.recent.length,2);
   assert.equal(s.uniqueEnough,false);
+  assert.equal(s.remainingGames,28);
+  assert.equal(s.metrics.brier_equilibrado_partidos,.2);
+  assert.equal(s.metrics.estado_calibracion,"INSUFICIENTES_PARTIDOS");
 });
 test("calidad retrospectiva filtrada tanto por mercado como liga",()=>{
   const s=reliabilitySnapshot(doc,{market:"corners",league:"LaLiga",quality:"audited"});
