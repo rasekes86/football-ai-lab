@@ -8,6 +8,7 @@ FREE_BUDGET=48  # Del máximo de 60/h dejamos 12 de margen.
 MIN_INTERVAL=3.2  # Menos de 20 peticiones/minuto.
 PRICED_HOURS=4
 EMPTY_HOURS=2
+UNMATCHED_HOURS=6  # Proveedor sin evento equivalente: evitar escanear cada dos horas
 
 
 def parse(value):
@@ -30,7 +31,8 @@ def due_matches(fixtures,state,now,days=5):
             continue
         record=previous.get(ident) or {}
         last=parse(record.get("consultado_utc"))
-        hours=PRICED_HOURS if record.get("con_cuotas") else EMPTY_HOURS
+        hours=(UNMATCHED_HOURS if record.get("motivo_consulta")=="SIN_EVENTO_VERIFICADO"
+               else PRICED_HOURS if record.get("con_cuotas") else EMPTY_HOURS)
         if last and timedelta(0)<=now-last<timedelta(hours=hours):
             skipped+=1
             continue
@@ -76,9 +78,12 @@ class RequestLedger:
         self.calls.append(self.clock())
         return True
 
-    def mark(self,ident,priced):
-        self.fixtures[ident]={"consultado_utc":self.clock().isoformat(),
-                              "con_cuotas":bool(priced)}
+    def mark(self,ident,priced,reason=None):
+        record={"consultado_utc":self.clock().isoformat(),
+                "con_cuotas":bool(priced)}
+        if reason:
+            record["motivo_consulta"]=str(reason)
+        self.fixtures[ident]=record
 
     def export(self):
         now=self.clock()
