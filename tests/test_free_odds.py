@@ -350,6 +350,67 @@ class ProviderLeagueFallbackTests(unittest.TestCase):
         self.assertTrue(any("page=2" in u for u in called))
 
 
+class ConservativeCoverageFixesTests(unittest.TestCase):
+    def test_verified_celta_alias_never_matches_celta_fortuna(self):
+        from football_ai_lab.free_odds import _same_team
+        self.assertTrue(_same_team("Celta Vigo","Real Club Celta de Vigo"))
+        self.assertTrue(_same_team("RC Celta","Celta de Vigo"))
+        self.assertFalse(_same_team("RC Celta Fortuna","Real Club Celta de Vigo"))
+
+    def test_season_suffixed_league_preserves_division(self):
+        from football_ai_lab.free_odds import _league_code
+        self.assertEqual(_league_code("Spanish La Liga 2026/2027"),"SP1")
+        self.assertEqual(_league_code("Germany Bundesliga I 2026-27"),"D1")
+        self.assertIsNone(_league_code("Germany Bundesliga II 2026-27"))
+
+    def test_midnight_border_does_not_need_an_extra_calendar_request(self):
+        from urllib.parse import urlsplit,parse_qs
+        kickoff="2026-11-20T00:45:00Z"
+        provider="2026-11-19T23:45:00Z"
+        match={**MATCH,"id":"midnight","fecha_utc":kickoff}
+        event={**five_event(),"kickoff_utc":provider}
+        calls=[]
+        def fetch(url,headers):
+            calls.append(url)
+            if "/fixtures?" in url:
+                qs=parse_qs(urlsplit(url).query)
+                when=int(datetime.fromisoformat(provider.replace("Z","+00:00")).timestamp())
+                inside=int(qs["start_time"][0])<=when<int(qs["end_time"][0])
+                return {"success":1,"data":[event] if inside else []}
+            if "/odds" in url:return five_prices()
+            raise AssertionError(url)
+        result=get_five_odds([match],NOW,FIVE_ENV,fetch)
+        self.assertEqual(result["estado"],"CON_CUOTAS")
+        self.assertEqual(result["auditoria"]["consultas"],2)
+        self.assertTrue(result["cuotas"])
+        self.assertEqual(len([u for u in calls if "/fixtures?" in u]),1)
+
+    def test_calendar_kickoff_conflict_does_not_attach_odds_and_is_diagnosed(self):
+        event={**five_event(),"kickoff_utc":"2026-11-20T16:00:00Z"}
+        calls=[]
+        def fetch(url,headers):
+            calls.append(url)
+            if "/fixtures?" in url:return {"success":1,"data":[event]}
+            raise AssertionError("No se debe consultar cuota con hora incompatible")
+        result=get_five_odds([MATCH],NOW,FIVE_ENV,fetch)
+        audit=result["auditoria"]
+        self.assertEqual(result["cuotas"],[])
+        self.assertEqual(audit["consultas"],1)
+        self.assertEqual(audit["cobertura_ligas"]["LaLiga"]["motivos_descartados"].get(
+            "mismos_equipos_hora_incompatible"),1)
+        self.assertEqual(audit["partidos_sin_evento_verificado"],1)
+        self.assertEqual(result["estado_consultas"]["fixtures"][FID]["motivo_consulta"],
+                         "SIN_EVENTO_VERIFICADO")
+
+    def test_provider_error_does_not_mark_unmatched_or_mutate_history(self):
+        def broken(url,headers):
+            raise RuntimeError("Proveedor fuera de servicio")
+        result=get_five_odds([MATCH],NOW,FIVE_ENV,broken)
+        self.assertGreater(result["auditoria"]["errores"],0)
+        self.assertEqual(result["auditoria"]["partidos_sin_evento_verificado"],0)
+        self.assertNotIn(FID,result["estado_consultas"]["fixtures"])
+
+
 class OfficialBundesligaNamingTests(unittest.TestCase):
     """La Bundesliga I publicada por el proveedor no debe perderse en la API."""
 
