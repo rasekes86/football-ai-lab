@@ -42,11 +42,12 @@ El workflow «Vigilar salud de Football AI Lab» en
 | Análisis o evaluación caducados | >36 horas |
 | Cuotas sin actualizar, proveedor activado, partidos en próximos 5 días | >9 horas |
 | Errores recurrentes del calendario | >=2 errores en cada una de 2 capturas nuevas y consecutivas |
+| Errores repetidos de cualquier fase del proveedor | >=2 errores por ronda en 2 capturas nuevas, sin duplicar alerta de calendario |
 | Liquidaciones retrasadas | >=2 encuentros distintos siguen PENDIENTE más de 48 horas |
 | Análisis o refresco de cuotas fallidos en GitHub | Avisar hasta que ese workflow específico vuelva a pasar |
 | No existe una apuesta adicional viable, hay una pérdida o faltan estadísticas finales | No se considera fallo operativo |
 
-Los errores de calendario de una ronda aislada no generan aviso. El aviso
+Los errores del proveedor de una ronda aislada no generan aviso. El aviso
 de recuperación requiere una ejecución posterior satisfactoria o una
 captura nueva sin el problema. Las cotizaciones no ofrecidas no cuentan
 como fallo ni como precio real.
