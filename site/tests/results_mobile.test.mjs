@@ -39,6 +39,24 @@ test("Top 3 and additional results have independent scoreboards",()=>{
   assert.match(r.scorecards,/50\s*%/); // Top 3: one out of two verified outcomes
   assert.match(r.scorecards,/100\s*%/); // Additional: one out of one, separate rate
 });
+test("mobile shows three independent balance scenarios and per-pick fair quote",()=>{
+  const topRows=[
+    top(1,"FINALIZADO","1",{probabilidad:"0.80"}),
+    top(2,"FINALIZADO","0",{probabilidad:"0.70"}),
+    top(3,"FINALIZADO","1",{probabilidad:"0.60"})
+  ];
+  const x=snapshot(topRows,[extra("FINALIZADO","1",{cuota_decimal:"1.90"})]);
+  const screen=renderResultsMobile(x,[],6);
+  assert.match(screen.balance,/TOP 3 · CUOTA JUSTA SIMULADA/);
+  assert.match(screen.balance,/ADICIONALES · CUOTAS ARCHIVADAS/);
+  assert.match(screen.balance,/CONJUNTO 3\\+1 · SIMULACIÓN MIXTA/);
+  assert.match(screen.balance,/ROI simulado/);
+  assert.match(screen.balance,/NO cuotas reales/);
+  assert.match(screen.recent,/Cuota justa simulada 1,25/);
+  assert.match(screen.recent,/Balance cuota justa/);
+  assert.equal(x.combined.financialCount,4);
+});
+
 test("only genuine settled outcomes enter recent; missing stats stay pending",()=>{
   const x=snapshot([top(1,"ESTADISTICA_NO_DISPONIBLE",""),
     top(2,"RESULTADO_NO_DISPONIBLE","")],[extra()]);
