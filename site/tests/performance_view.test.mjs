@@ -49,14 +49,14 @@ test("ROI simulado Top3 y 3+1 aparece etiquetado como precio NO ofrecido",()=>{
   ]},{},36,when);
   assert.match(view.topKpis,/Balance cuota justa/);
   assert.match(view.topKpis,/ROI cuota justa/);
-  assert.match(view.topFairEvidence,/no precios de bookmakers/);
+  assert.match(view.topFairEvidence,/rentabilidad real sería desconocida/);
   assert.match(view.combinedEvidence,/SIMULACIÓN MIXTA 3\+1/);
   assert.equal(view.snapshot.top.fairCount,3);
   assert.equal(view.snapshot.combined.financialCount,4);
   assert.match(view.ledger,/cuota justa teórica/);
   assert.match(view.ledger,/NO ofertada/);
   assert.match(view.ledger,/1,25/);
-  assert.match(view.ledger,/Balance/);
+  assert.match(view.ledger,/performance-return/);
 });
 
 test("HTML de origen y nombres de mercado se escapan al mostrar las apuestas",()=>{
