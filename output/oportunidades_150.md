@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 39 · **Finalizadas:** 5 · **Pendientes:** 34
+**Registradas:** 42 · **Finalizadas:** 5 · **Pendientes:** 37
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -45,6 +45,9 @@
 | Girona – Eibar | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 60.9% | 2.08 | Pendiente | — |
 | RC Celta Fortuna – Real Valladolid | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.1% | 1.73 | Pendiente | — |
 | Marseille – Le Mans | Sí (OFRECIDA_API_REGISTRADA) | 64.2% | 1.67 | Pendiente | — |
+| FC Andorra – Leganés | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.8% | 2.00 | Pendiente | — |
+| Córdoba – Real Oviedo | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.8% | 2.25 | Pendiente | — |
+| Burgos – Albacete | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 71.2% | 1.75 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
