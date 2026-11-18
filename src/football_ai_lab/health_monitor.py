@@ -197,7 +197,8 @@ def run(target=Path("output"), now=None, env=None, sender=send,
     enabled = _flag(env.get("HEALTH_ALERTS_ENABLED"), True)
     token = str(env.get("TELEGRAM_BOT_TOKEN") or "").strip()
     chat = str(env.get("TELEGRAM_CHAT_ID") or "").strip()
-    report["notificadas"] = old if old is not None else []
+    # None means "initial welcome not confirmed yet": retry on next run.
+    report["notificadas"] = old
     report["ultima_entrega_utc"] = previous.get("ultima_entrega_utc")
     report["envio"] = "SIN_NOVEDADES"
     message = alert_text(issues, now, recovered=bool(old and not current), initial=initial)
