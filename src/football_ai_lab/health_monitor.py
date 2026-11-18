@@ -90,8 +90,8 @@ def assess(target, now, previous=None, *, odds_enabled=True,
     detail["cuotas_utc"] = capture.isoformat() if capture else None
     detail["consultas_utc"] = odds_run.isoformat() if odds_run else None
     if odds_enabled and relevant:
-        latest = max((x for x in (capture, odds_run) if x), default=None)
-        if latest is None or latest > now + timedelta(minutes=5) or now - latest > ODDS_LIMIT:
+        # An updated ledger is not proof of a fresh bookmaker snapshot.
+        if capture is None or capture > now + timedelta(minutes=5) or now - capture > ODDS_LIMIT:
             issues.append(_issue("CUOTAS_SIN_ACTUALIZAR", "ALTA",
                 "Hay partidos próximos, pero el refresco de cuotas lleva más de 9 horas sin actualizarse."))
         if provider.get("estado") in ("SIN_CLAVE", "DESACTIVADO"):
@@ -131,12 +131,22 @@ def assess(target, now, previous=None, *, odds_enabled=True,
             f"{len(delayed)} partidos llevan más de 48 horas pendientes de liquidación "
             "(se cuentan partidos distintos, no selecciones)."))
 
-    if source_conclusion and source_conclusion != "success":
-        if source_workflow in ("Analisis futbol diario", "Refresco escalonado de cuotas"):
-            key = "FALLO_ANALISIS" if source_workflow == "Analisis futbol diario" else "FALLO_REFRESCO"
-            issues.append(_issue(key, "ALTA",
-                f"GitHub Actions informa de una ejecución {source_conclusion} en "
-                f"{source_workflow}."))
+    # A failed workflow stays unresolved until THAT workflow succeeds;
+    # a later unrelated monitoring tick must not falsely clear the incident.
+    failures = dict(previous.get("fallos_workflow") or {})
+    valid_sources = ("Analisis futbol diario", "Refresco escalonado de cuotas")
+    if source_workflow in valid_sources and source_conclusion:
+        if source_conclusion == "success":
+            failures.pop(source_workflow, None)
+        elif source_conclusion in ("failure", "timed_out", "cancelled"):
+            failures[source_workflow] = source_conclusion
+    for name, failure in sorted(failures.items()):
+        if name not in valid_sources:
+            continue
+        key = "FALLO_ANALISIS" if name == valid_sources[0] else "FALLO_REFRESCO"
+        issues.append(_issue(key, "ALTA",
+            f"GitHub Actions informa de una ejecución {failure} en {name}; "
+            "pendiente de la siguiente ejecución satisfactoria."))
     issues.sort(key=lambda x: x["codigo"])
     return {
         "version": 1,
@@ -146,6 +156,7 @@ def assess(target, now, previous=None, *, odds_enabled=True,
         "detalle": detail,
         "ultima_captura_revisada": marker or previous_capture,
         "racha_calendario": streak,
+        "fallos_workflow": failures,
     }
 
 def alert_text(issues, now, *, recovered=False, initial=False):
