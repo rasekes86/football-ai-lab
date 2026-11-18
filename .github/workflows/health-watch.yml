@@ -1,5 +1,9 @@
 name: Vigilar salud de Football AI Lab
 on:
+  # Inicializa la vigilancia al publicar su workflow por primera vez.
+  push:
+    branches: [main]
+    paths: ['.github/workflows/health-watch.yml']
   workflow_run:
     workflows:
       - "Analisis futbol diario"
