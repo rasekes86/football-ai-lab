@@ -5,8 +5,10 @@
  *  - Top 3: first three original frozen selections per game; never candidates
  *    from exploratory, market forecast, or post-hoc calculations.
  *  - Additional: first unique pre-match frozen selection >1.50 per fixture.
- *  - No fictitious top-three ROI from "cuota justa"; real bookmaker odds
- *    must have been explicitly and prospectively attached to that pick.
+ *  - The Top 3 may have a distinctly labeled FAIR-ODDS SIMULATION based
+ *    only on the original, pre-match model probability: 1 / p.
+ *    Such prices are NOT bookmaker quotes and cannot prove real-world ROI.
+ *  - Original Top 3 selections, their probabilities and results stay fixed.
  *  - No pending/missing outcomes are treated as losing bets.
  *  - Indicative quoted prices remain a separate hypothetical scenario.
  */
@@ -109,6 +111,19 @@ function returns(row){
   if(price===null||price<=1.50||price>1000)return null;
   return row.resultado==="1"||row.resultado===1 ? price-1 : -1;
 }
+/** Pricing a model prediction for an illustrative 1-unit simulation.
+ * This does not constitute a real or offered bookmaker quote.
+ */
+export function fairOdds(row){
+  const p=numberOrNull(row?.probabilidad);
+  return p!==null&&Number.isFinite(p)&&p>0&&p<=1?1/p:null;
+}
+export function fairReturn(row){
+  if(!settled(row))return null;
+  const price=fairOdds(row);
+  if(price===null)return null;
+  return String(row.resultado)==="1"?price-1:-1;
+}
 function countOutcomes(rows){
   const done=rows.filter(settled);
   const hits=done.filter(row=>String(row.resultado)==="1").length;
@@ -121,9 +136,25 @@ function countOutcomes(rows){
 }
 function summaryTop(rows){
   const basic=countOutcomes(rows);
+  const fairDone=rows.filter(x=>fairReturn(x)!==null);
+  const fairCount=fairDone.length;
+  const fairProfit=fairCount?fairDone.reduce((sum,x)=>sum+fairReturn(x),0):null;
   return {...basic,
-    financialCount:0,profit:null,roi:null,
-    financeReason:"No se atribuyen cuotas justas del modelo a ofertas de casas de apuestas."};
+    financialCount:0,profit:null,roi:null, // ROI de bookmaker: NO DISPONIBLE
+    fairCount,fairProfit,fairStake:fairCount,
+    fairRoi:fairCount?fairProfit/fairCount:null,
+    fairUnavailable:basic.settled-fairCount,
+    financeReason:"Simulación hipotética con cuota justa = 1 / probabilidad originalmente archivada. No son cuotas de bookmaker; no demuestra rentabilidad real."};
+}
+function summaryCombined(top,additional){
+  const count=top.fairCount+additional.financialCount;
+  const profit=count?(top.fairProfit??0)+(additional.profit??0):null;
+  return {
+    financialCount:count,stake:count,profit,
+    roi:count?profit/count:null,
+    topCount:top.fairCount,additionalCount:additional.financialCount,
+    note:"SIMULACIÓN MIXTA. Top 3 a cuota justa del modelo; adicional a cuota archivada (API observada o indicativa). No refleja precios disponibles ni ganancias reales."
+  };
 }
 function summaryExtra(rows){
   const basic=countOutcomes(rows);
@@ -182,9 +213,11 @@ function series(topRows,extraRows,grain){
 }
 function ledger(topRows,extraRows){
   const combined=[
-    ...topRows.map((r)=>({...r,group:"Top 3",price:null,return:null})),
+    ...topRows.map((r)=>({...r,group:"Top 3",price:fairOdds(r),
+      return:fairReturn(r),priceKind:"CUOTA_JUSTA_MODELO_NO_OFRECIDA"})),
     ...extraRows.map((r)=>({...r,group:"Adicional +1,50",
-      price:numberOrNull(r.cuota_decimal),return:returns(r)}))
+      price:numberOrNull(r.cuota_decimal),return:returns(r),
+      priceKind:r.tipo_cuota}))
   ];
   return combined.sort((a,b)=>parsedDate(b.fecha_utc)-parsedDate(a.fecha_utc)
     ||String(a.id).localeCompare(String(b.id),"es")
@@ -198,8 +231,11 @@ export function performanceSnapshot(model={},filters={},now=new Date()){
   const topRows=top.picks.filter(r=>inScope(r,now,filters));
   const extraRows=extra.picks.filter(r=>inScope(r,now,filters));
   const grain=filters.granularity==="month"?"month":"week";
+  const topSummary=summaryTop(topRows);
+  const additionalSummary=summaryExtra(extraRows);
   return {
-    top:summaryTop(topRows),additional:summaryExtra(extraRows),
+    top:topSummary,additional:additionalSummary,
+    combined:summaryCombined(topSummary,additionalSummary),
     byLeague:LEAGUES.map(league=>({
       name:league,
       top:summaryTop(topRows.filter(x=>x.liga===league)),
