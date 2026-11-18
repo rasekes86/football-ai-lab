@@ -8,7 +8,10 @@ const EMPTY=Object.freeze({
   registradas:0,pendientes:0,sin_marcador:0,sin_estadistica:0,
   muestra:0,partidos_unicos:0,aciertos:0,acierto_pct:null,
   probabilidad_media_pct:null,brier:null,logloss:null,ece:null,
-  sesgo_pct:null,calibracion:[],evidencia:"SIN_MUESTRA"
+  sesgo_pct:null,calibracion:[],evidencia:"SIN_MUESTRA",
+  brier_equilibrado_partidos:null,logloss_equilibrado_partidos:null,
+  sesgo_equilibrado_pct:null,partidos_para_umbral:30,
+  estado_calibracion:"NO_EVALUABLE"
 });
 function pick(report,market,league,quality){
   if(!report)return EMPTY;
@@ -47,6 +50,7 @@ export function reliabilitySnapshot(report,filters={}){
     metrics:{...EMPTY,...metrics},
     leagues,recent,quality,market,league,
     uniqueEnough:Number(metrics?.partidos_unicos||0)>=30,
-    note:"Varias líneas del mismo encuentro están correlacionadas: la muestra de selecciones no equivale a partidos independientes."
+    remainingGames:Math.max(0,30-Number(metrics?.partidos_unicos||0)),
+    note:"Cada partido pesa igual en el Brier equilibrado. Varias líneas del mismo encuentro están correlacionadas: la muestra de selecciones no equivale a partidos independientes."
   };
 }
