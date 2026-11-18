@@ -30,6 +30,7 @@ def fixtures(path, *, clock=None, calendar=0, pending=None):
         "auditoria": {"fuentes_gratuitas": [{
             "proveedor": "5DollarFootballAPI",
             "estado": "PARCIAL" if calendar else "CON_CUOTAS",
+            "errores": calendar,
             "errores_por_fase": {"calendario": calendar}
         }]}})
     save(path / "estado_consultas_cuotas.json", {"actualizado_utc": stamp(-1)})
@@ -92,6 +93,33 @@ class HealthMonitorTests(unittest.TestCase):
         resolved = assess(self.path, NOW, second)
         self.assertEqual(resolved["racha_calendario"], 0)
         self.assertNotIn("CALENDARIO_ERRORES_REPETIDOS", codes(resolved))
+
+    def test_repeated_bookmaker_errors_in_other_phases_also_alert(self):
+        odds = json.loads((self.path / "cuotas_reales_verificadas.json").read_text())
+        provider = odds["auditoria"]["fuentes_gratuitas"][0]
+        provider["errores"] = 3
+        provider["errores_por_fase"] = {"cuotas": 3}
+        save(self.path / "cuotas_reales_verificadas.json", odds)
+        first = assess(self.path, NOW)
+        self.assertEqual(first["racha_proveedor"], 1)
+        self.assertNotIn("PROVEEDOR_ERRORES_REPETIDOS", codes(first))
+        odds["capturado_utc"] = stamp(0)
+        save(self.path / "cuotas_reales_verificadas.json", odds)
+        second = assess(self.path, NOW, first)
+        self.assertIn("PROVEEDOR_ERRORES_REPETIDOS", codes(second))
+        self.assertNotIn("CALENDARIO_ERRORES_REPETIDOS", codes(second))
+
+    def test_additional_awaiting_settlement_counts_as_second_game(self):
+        pending = [{"id": "top-game", "fecha_utc": stamp(-70), "estado": "PENDIENTE"}]
+        fixtures(self.path, pending=pending)
+        with (self.path / "seguimiento_oportunidades_150.csv").open(
+                "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["id", "fecha_utc", "estado"])
+            writer.writeheader()
+            writer.writerow({"id":"extra-game", "fecha_utc":stamp(-80), "estado":"PENDIENTE"})
+        report=assess(self.path, NOW)
+        self.assertIn("LIQUIDACION_RETRASADA", codes(report))
+        self.assertEqual(report["detalle"]["partidos_sin_liquidar_48h"],2)
 
     def test_settlement_alert_uses_distinct_matches_and_respects_missing_stats(self):
         pending = [{"id": "A", "fecha_utc": stamp(-80), "estado": "PENDIENTE"},
