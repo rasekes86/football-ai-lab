@@ -37,6 +37,18 @@ class Tests(unittest.TestCase):
         self.assertEqual(due_matches([match("a")],ledger.export(),NOW+timedelta(hours=1))[0],[])
         self.assertEqual(len(due_matches([match("a")],ledger.export(),NOW+timedelta(hours=4))[0]),1)
 
+    def test_provider_no_match_cooldown_is_six_hours_without_changing_two_hour_rhythm(self):
+        ledger=RequestLedger({},NOW)
+        ledger.mark("missing",False,"SIN_EVENTO_VERIFICADO")
+        ledger.mark("no-price",False)
+        state=ledger.export()
+        due,skipped=due_matches([match("missing"),match("no-price")],state,
+                                NOW+timedelta(hours=2,minutes=1))
+        self.assertEqual([x["id"] for x in due],["no-price"])
+        self.assertEqual(skipped,1)
+        due,_=due_matches([match("missing")],state,NOW+timedelta(hours=6))
+        self.assertEqual([x["id"] for x in due],["missing"])
+
     def test_frozen_additional_never_queries_bookmaker(self):
         fixture=match("frozen")
         called=[]
