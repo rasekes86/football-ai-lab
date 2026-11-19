@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-18T16:27:38.116165+00:00",
+  "timestamp_utc": "2026-11-19T16:34:13.343181+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -436,10 +436,9 @@
     },
     {
       "equipo": "Leeds",
-      "bajas_reportadas": 8,
+      "bajas_reportadas": 6,
       "estados": {
         "unavailable": 5,
-        "doubtful": 2,
         "injured": 1
       }
     },
@@ -480,11 +479,11 @@
     },
     {
       "equipo": "Nott'm Forest",
-      "bajas_reportadas": 9,
+      "bajas_reportadas": 10,
       "estados": {
         "doubtful": 2,
         "unavailable": 5,
-        "injured": 2
+        "injured": 3
       }
     },
     {
@@ -501,8 +500,7 @@
       "bajas_reportadas": 10,
       "estados": {
         "unavailable": 5,
-        "injured": 3,
-        "doubtful": 2
+        "injured": 5
       }
     }
   ],

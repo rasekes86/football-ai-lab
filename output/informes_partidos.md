@@ -752,6 +752,102 @@
 
 ---
 
+## Real Sociedad – Real Madrid
+
+**LaLiga · 2026-12-02T18:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 24.0% | 22.8% | 53.2% | 62.7% |
+
+### Forma, descanso y estadísticas
+
+**Real Sociedad:** posición 5 · 22 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 16,2, a puerta 4,8, córners 5,8, amarillas 2,0
+
+**Real Madrid:** posición 2 · 30 puntos.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 15,4, a puerta 7,0, córners 5,4, amarillas 2,6
+
+### Enfrentamientos previos
+- 2026-08-26: Real Madrid 4-1 Sociedad
+- 2026-02-14: Real Madrid 4-1 Sociedad
+- 2025-09-13: Sociedad 1-2 Real Madrid
+- 2025-05-24: Real Madrid 2-0 Sociedad
+- 2024-09-14: Sociedad 0-2 Real Madrid
+
+### Tres selecciones del modelo (experimentales)
+1. **Real Sociedad: menos de 2,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 86.0% · cuota justa 1.16; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Real Madrid: más de 0,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Barcelona – Atlético Madrid
+
+**LaLiga · 2026-12-02T20:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 66.5% | 19.3% | 14.2% | 64.1% |
+
+### Forma, descanso y estadísticas
+
+**Barcelona:** posición 1 · 33 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 18,2, a puerta 7,0, córners 5,0, amarillas 2,0
+
+**Atlético Madrid:** posición 3 · 28 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: D · V · V · V · V
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 16,2, a puerta 5,2, córners 6,4, amarillas 3,2
+
+### Enfrentamientos previos
+- 2026-11-08: Ath Madrid 1-2 Barcelona
+- 2026-04-04: Ath Madrid 1-2 Barcelona
+- 2025-12-02: Barcelona 3-1 Ath Madrid
+- 2025-03-16: Ath Madrid 2-4 Barcelona
+- 2024-12-21: Barcelona 1-2 Ath Madrid
+
+### Tres selecciones del modelo (experimentales)
+1. **1X: Barcelona o empate** (Doble oportunidad): 85.8% · cuota justa 1.17; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 1,5 goles** (Total goles): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## FC Andorra – Leganés
 
 **Segunda División · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -787,7 +883,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 48.4% / 24.8% / 26.8%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-18T15:10:18+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-19T16:25:48+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -2721,6 +2817,380 @@
 
 ---
 
+## Chelsea – Crystal Palace
+
+**Premier League · 2026-12-02T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 49.2% | 25.8% | 25.0% | 52.7% |
+
+### Forma, descanso y estadísticas
+
+**Chelsea:** posición 5 · 16 puntos.
+- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 12,8, a puerta 6,2, córners 4,4, amarillas 2,6
+
+**Crystal Palace:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · D · V
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 11,2, a puerta 4,0, córners 4,2, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-01-25: Crystal Palace 1-3 Chelsea
+- 2025-08-17: Chelsea 0-0 Crystal Palace
+- 2025-01-04: Crystal Palace 1-1 Chelsea
+- 2024-09-01: Chelsea 1-1 Crystal Palace
+- 2024-02-12: Crystal Palace 1-3 Chelsea
+
+### Tres selecciones del modelo (experimentales)
+1. **Menos de 4,5 goles** (Total goles): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Chelsea: más de 0,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **1X: Chelsea o empate** (Doble oportunidad): 75.0% · cuota justa 1.33; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Hull City – Nottingham Forest
+
+**Premier League · 2026-12-02T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 41.6% | 26.4% | 31.9% | 52.1% |
+
+### Forma, descanso y estadísticas
+
+**Hull City:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 3E · 2D; secuencia: D · E · E · D · E
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 8,4, a puerta 2,4, córners 4,8, amarillas 2,0
+
+**Nottingham Forest:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: V · D · E · D · D
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 16,2, a puerta 3,8, córners 5,6, amarillas 1,4
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Nottingham Forest: menos de 2,5 goles** (Goles equipo): 86.0% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Hull City +1,5** (Hándicap 2 vías (medio gol)): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Liverpool – Sunderland
+
+**Premier League · 2026-12-02T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 54.5% | 25.5% | 20.0% | 48.7% |
+
+### Forma, descanso y estadísticas
+
+**Liverpool:** posición 4 · 18 puntos.
+- Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 16,8, a puerta 4,6, córners 6,4, amarillas 3,0
+
+**Sunderland:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: V · D · E · D · D
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 11,2, a puerta 2,2, córners 4,0, amarillas 2,0
+
+### Enfrentamientos previos
+- 2026-02-11: Sunderland 0-1 Liverpool
+- 2025-12-03: Liverpool 1-1 Sunderland
+
+### Tres selecciones del modelo (experimentales)
+1. **Sunderland +2,5** (Hándicap 2 vías (medio gol)): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Liverpool: más de 0,5 goles** (Goles equipo): 81.6% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Sunderland: menos de 1,5 goles** (Goles equipo): 76.2% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Manchester City – Leeds United
+
+**Premier League · 2026-12-02T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 66.2% | 20.9% | 12.9% | 60.2% |
+
+### Forma, descanso y estadísticas
+
+**Manchester City:** posición 3 · 21 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · D · D · V · V
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 16,4, a puerta 5,4, córners 6,0, amarillas 1,8
+
+**Leeds United:** posición 9 · 14 puntos.
+- Últimos partidos: 1V · 2E · 2D; secuencia: V · D · E · E · D
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 12,0, a puerta 3,8, córners 4,2, amarillas 2,2
+
+### Enfrentamientos previos
+- 2026-02-28: Leeds 0-1 Man City
+- 2025-11-29: Man City 3-2 Leeds
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 1,5 goles** (Total goles): 81.7% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Leeds United: menos de 1,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 79.1% · cuota justa 1.26; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## AFC Bournemouth – Brighton & Hove Albion
+
+**Premier League · 2026-12-02T20:15:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 41.0% | 27.3% | 31.8% | 46.8% |
+
+### Forma, descanso y estadísticas
+
+**AFC Bournemouth:** posición 7 · 15 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 14,8, a puerta 4,6, córners 5,4, amarillas 2,6
+
+**Brighton & Hove Albion:** posición 2 · 22 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 14,8, a puerta 4,6, córners 4,8, amarillas 2,4
+
+### Enfrentamientos previos
+- 2026-01-19: Brighton 1-1 Bournemouth
+- 2025-09-13: Bournemouth 2-1 Brighton
+- 2025-02-25: Brighton 2-1 Bournemouth
+- 2024-11-23: Bournemouth 1-2 Brighton
+- 2024-04-28: Bournemouth 3-0 Brighton
+
+### Tres selecciones del modelo (experimentales)
+1. **AFC Bournemouth +1,5** (Hándicap 2 vías (medio gol)): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **AFC Bournemouth: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 74.8% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Aston Villa – Everton
+
+**Premier League · 2026-12-02T20:15:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 43.3% | 28.4% | 28.3% | 40.4% |
+
+### Forma, descanso y estadísticas
+
+**Aston Villa:** posición 10 · 13 puntos.
+- Últimos partidos: 2V · 3E · 0D; secuencia: E · E · V · V · E
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 14,2, a puerta 4,2, córners 3,8, amarillas 2,0
+
+**Everton:** posición 6 · 16 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
+- Días desde el último partido liguero registrado: 26
+- Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-01-18: Aston Villa 0-1 Everton
+- 2025-09-13: Everton 0-0 Aston Villa
+- 2025-01-15: Everton 0-1 Aston Villa
+- 2024-09-14: Aston Villa 3-2 Everton
+- 2024-01-14: Everton 0-0 Aston Villa
+
+### Tres selecciones del modelo (experimentales)
+1. **Aston Villa: menos de 2,5 goles** (Goles equipo): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Everton +1,5** (Hándicap 2 vías (medio gol)): 81.4% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Brentford – Arsenal
+
+**Premier League · 2026-12-02T20:15:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 29.0% | 28.0% | 43.1% | 42.8% |
+
+### Forma, descanso y estadísticas
+
+**Brentford:** posición 8 · 14 puntos.
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
+
+**Arsenal:** posición 1 · 27 puntos.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 14,6, a puerta 4,8, córners 6,2, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-02-12: Brentford 1-1 Arsenal
+- 2025-12-03: Arsenal 2-0 Brentford
+- 2025-04-12: Arsenal 1-1 Brentford
+- 2025-01-01: Brentford 1-3 Arsenal
+- 2024-03-09: Arsenal 2-1 Brentford
+
+### Tres selecciones del modelo (experimentales)
+1. **Arsenal: menos de 2,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Brentford +1,5** (Hándicap 2 vías (medio gol)): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 78.0% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Newcastle United – Manchester United
+
+**Premier League · 2026-12-02T20:15:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 37.5% | 25.4% | 37.1% | 59.9% |
+
+### Forma, descanso y estadísticas
+
+**Newcastle United:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: E · D · V · D · D
+- Días desde el último partido liguero registrado: 25
+- Medias recientes: Tiros 14,2, a puerta 3,2, córners 4,2, amarillas 3,8
+
+**Manchester United:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 3E · 2D; secuencia: E · D · D · E · E
+- Días desde el último partido liguero registrado: 24
+- Medias recientes: Tiros 16,0, a puerta 5,2, córners 5,4, amarillas 3,4
+
+### Enfrentamientos previos
+- 2026-03-04: Newcastle 2-1 Man United
+- 2025-12-26: Man United 1-0 Newcastle
+- 2025-04-13: Newcastle 4-1 Man United
+- 2024-12-30: Man United 0-2 Newcastle
+- 2024-05-15: Man United 3-2 Newcastle
+
+### Tres selecciones del modelo (experimentales)
+1. **Manchester United +1,5** (Hándicap 2 vías (medio gol)): 81.6% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 81.5% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Newcastle United: menos de 2,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Bayern Munich – FC Cologne
 
 **Bundesliga · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -4354,7 +4824,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-18T15:57:46+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-19T15:58:53+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-18T16:27:38.116165+00:00",
+  "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -3071,6 +3071,352 @@
           "local": {
             "todos": 88,
             "recinto": 44,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 126,
+            "recinto": 63,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401882698",
+      "liga": "SP1",
+      "fecha_utc": "2026-12-02T18:00:00+00:00",
+      "local": "Real Sociedad",
+      "visitante": "Real Madrid",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 4,
+        "e": 0,
+        "d": 1,
+        "goles_favor": 12,
+        "goles_contra": 7,
+        "puntos": 12,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Sociedad",
+            "visitante": "Vallecano",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-11-01",
+            "local": "Ath Bilbao",
+            "visitante": "Sociedad",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Sociedad",
+            "visitante": "Levante",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Malaga",
+            "visitante": "Sociedad",
+            "marcador": "2-5",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Sociedad",
+            "visitante": "La Coruna",
+            "marcador": "3-2",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 16.2,
+          "tiros_puerta": 4.8,
+          "corners": 5.8,
+          "amarillas": 2.0,
+          "rojas": 0.2
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 5,
+        "e": 0,
+        "d": 0,
+        "goles_favor": 13,
+        "goles_contra": 2,
+        "puntos": 15,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Valencia",
+            "visitante": "Real Madrid",
+            "marcador": "0-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-11-01",
+            "local": "Santander",
+            "visitante": "Real Madrid",
+            "marcador": "0-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Barcelona",
+            "visitante": "Real Madrid",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Real Madrid",
+            "visitante": "Sevilla",
+            "marcador": "4-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Real Madrid",
+            "visitante": "Villarreal",
+            "marcador": "1-0",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 15.4,
+          "tiros_puerta": 7.0,
+          "corners": 5.4,
+          "amarillas": 2.6,
+          "rojas": 0.2
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-08-26",
+          "local": "Real Madrid",
+          "visitante": "Sociedad",
+          "marcador": "4-1"
+        },
+        {
+          "fecha": "2026-02-14",
+          "local": "Real Madrid",
+          "visitante": "Sociedad",
+          "marcador": "4-1"
+        },
+        {
+          "fecha": "2025-09-13",
+          "local": "Sociedad",
+          "visitante": "Real Madrid",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-05-24",
+          "local": "Real Madrid",
+          "visitante": "Sociedad",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2024-09-14",
+          "local": "Sociedad",
+          "visitante": "Real Madrid",
+          "marcador": "0-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 126,
+            "recinto": 63,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 126,
+            "recinto": 64,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401882700",
+      "liga": "SP1",
+      "fecha_utc": "2026-12-02T20:30:00+00:00",
+      "local": "Barcelona",
+      "visitante": "Atlético Madrid",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 4,
+        "e": 0,
+        "d": 1,
+        "goles_favor": 17,
+        "goles_contra": 6,
+        "puntos": 12,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Ath Madrid",
+            "visitante": "Barcelona",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Barcelona",
+            "visitante": "Alaves",
+            "marcador": "6-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Barcelona",
+            "visitante": "Real Madrid",
+            "marcador": "1-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Betis",
+            "visitante": "Barcelona",
+            "marcador": "2-5",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Barcelona",
+            "visitante": "Getafe",
+            "marcador": "3-0",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 18.2,
+          "tiros_puerta": 7.0,
+          "corners": 5.0,
+          "amarillas": 2.0,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 4,
+        "e": 0,
+        "d": 1,
+        "goles_favor": 7,
+        "goles_contra": 3,
+        "puntos": 12,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Ath Madrid",
+            "visitante": "Barcelona",
+            "marcador": "1-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Levante",
+            "visitante": "Ath Madrid",
+            "marcador": "0-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Ath Madrid",
+            "visitante": "La Coruna",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Espanol",
+            "visitante": "Ath Madrid",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Alaves",
+            "visitante": "Ath Madrid",
+            "marcador": "1-2",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 16.2,
+          "tiros_puerta": 5.2,
+          "corners": 6.4,
+          "amarillas": 3.2,
+          "rojas": 0.0
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-11-08",
+          "local": "Ath Madrid",
+          "visitante": "Barcelona",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2026-04-04",
+          "local": "Ath Madrid",
+          "visitante": "Barcelona",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-12-02",
+          "local": "Barcelona",
+          "visitante": "Ath Madrid",
+          "marcador": "3-1"
+        },
+        {
+          "fecha": "2025-03-16",
+          "local": "Ath Madrid",
+          "visitante": "Barcelona",
+          "marcador": "2-4"
+        },
+        {
+          "fecha": "2024-12-21",
+          "local": "Barcelona",
+          "visitante": "Ath Madrid",
+          "marcador": "1-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 126,
+            "recinto": 63,
             "identificado": true
           },
           "visitante": {
@@ -9854,6 +10200,1323 @@
           "visitante": {
             "todos": 48,
             "recinto": 24,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879222",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Crystal Palace",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 3,
+        "e": 0,
+        "d": 2,
+        "goles_favor": 9,
+        "goles_contra": 4,
+        "puntos": 9,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Sunderland",
+            "visitante": "Chelsea",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Chelsea",
+            "visitante": "Man United",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Chelsea",
+            "visitante": "Tottenham",
+            "marcador": "0-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Everton",
+            "visitante": "Chelsea",
+            "marcador": "0-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Chelsea",
+            "visitante": "Bournemouth",
+            "marcador": "5-1",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 12.8,
+          "tiros_puerta": 6.2,
+          "corners": 4.4,
+          "amarillas": 2.6,
+          "rojas": 0.2
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 0,
+        "d": 4,
+        "goles_favor": 4,
+        "goles_contra": 13,
+        "puntos": 3,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Crystal Palace",
+            "visitante": "Liverpool",
+            "marcador": "1-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Tottenham",
+            "visitante": "Crystal Palace",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Crystal Palace",
+            "visitante": "Newcastle",
+            "marcador": "0-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Brighton",
+            "visitante": "Crystal Palace",
+            "marcador": "5-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Crystal Palace",
+            "visitante": "Nott'm Forest",
+            "marcador": "3-1",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 11.2,
+          "tiros_puerta": 4.0,
+          "corners": 4.2,
+          "amarillas": 1.8,
+          "rojas": 0.2
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-01-25",
+          "local": "Crystal Palace",
+          "visitante": "Chelsea",
+          "marcador": "1-3"
+        },
+        {
+          "fecha": "2025-08-17",
+          "local": "Chelsea",
+          "visitante": "Crystal Palace",
+          "marcador": "0-0"
+        },
+        {
+          "fecha": "2025-01-04",
+          "local": "Crystal Palace",
+          "visitante": "Chelsea",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-09-01",
+          "local": "Chelsea",
+          "visitante": "Crystal Palace",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-02-12",
+          "local": "Crystal Palace",
+          "visitante": "Chelsea",
+          "marcador": "1-3"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879220",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "local": "Hull City",
+      "visitante": "Nottingham Forest",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 0,
+        "e": 3,
+        "d": 2,
+        "goles_favor": 5,
+        "goles_contra": 7,
+        "puntos": 3,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Arsenal",
+            "visitante": "Hull",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Hull",
+            "visitante": "Ipswich",
+            "marcador": "2-2",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Hull",
+            "visitante": "Brentford",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Fulham",
+            "visitante": "Hull",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Hull",
+            "visitante": "Everton",
+            "marcador": "2-2",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 8.4,
+          "tiros_puerta": 2.4,
+          "corners": 4.8,
+          "amarillas": 2.0,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 5,
+        "goles_contra": 8,
+        "puntos": 4,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Nott'm Forest",
+            "visitante": "Man City",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Brentford",
+            "visitante": "Nott'm Forest",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-23",
+            "local": "Ipswich",
+            "visitante": "Nott'm Forest",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Nott'm Forest",
+            "visitante": "Arsenal",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Crystal Palace",
+            "visitante": "Nott'm Forest",
+            "marcador": "3-1",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 16.2,
+          "tiros_puerta": 3.8,
+          "corners": 5.6,
+          "amarillas": 1.4,
+          "rojas": 0.0
+        }
+      },
+      "enfrentamientos": [],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 10,
+            "recinto": 5,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879219",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Sunderland",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 3,
+        "e": 0,
+        "d": 2,
+        "goles_favor": 7,
+        "goles_contra": 6,
+        "puntos": 9,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Crystal Palace",
+            "visitante": "Liverpool",
+            "marcador": "1-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-11-01",
+            "local": "Liverpool",
+            "visitante": "Arsenal",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Liverpool",
+            "visitante": "Brighton",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Brentford",
+            "visitante": "Liverpool",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Liverpool",
+            "visitante": "Man City",
+            "marcador": "0-3",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 16.8,
+          "tiros_puerta": 4.6,
+          "corners": 6.4,
+          "amarillas": 3.0,
+          "rojas": 0.2
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 2,
+        "goles_contra": 7,
+        "puntos": 4,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Sunderland",
+            "visitante": "Chelsea",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Coventry",
+            "visitante": "Sunderland",
+            "marcador": "3-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Sunderland",
+            "visitante": "Leeds",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Bournemouth",
+            "visitante": "Sunderland",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Sunderland",
+            "visitante": "Brighton",
+            "marcador": "0-2",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 11.2,
+          "tiros_puerta": 2.2,
+          "corners": 4.0,
+          "amarillas": 2.0,
+          "rojas": 0.4
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-02-11",
+          "local": "Sunderland",
+          "visitante": "Liverpool",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-12-03",
+          "local": "Liverpool",
+          "visitante": "Sunderland",
+          "marcador": "1-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 48,
+            "recinto": 24,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879218",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "local": "Manchester City",
+      "visitante": "Leeds United",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 2,
+        "e": 0,
+        "d": 3,
+        "goles_favor": 8,
+        "goles_contra": 8,
+        "puntos": 6,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Nott'm Forest",
+            "visitante": "Man City",
+            "marcador": "3-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Man City",
+            "visitante": "Brighton",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Aston Villa",
+            "visitante": "Man City",
+            "marcador": "2-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Man City",
+            "visitante": "Ipswich",
+            "marcador": "3-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Liverpool",
+            "visitante": "Man City",
+            "marcador": "0-3",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 16.4,
+          "tiros_puerta": 5.4,
+          "corners": 6.0,
+          "amarillas": 1.8,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 3,
+        "goles_contra": 5,
+        "puntos": 5,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Leeds",
+            "visitante": "Tottenham",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Bournemouth",
+            "visitante": "Leeds",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Sunderland",
+            "visitante": "Leeds",
+            "marcador": "0-0",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Leeds",
+            "visitante": "Man United",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Arsenal",
+            "visitante": "Leeds",
+            "marcador": "2-1",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 12.0,
+          "tiros_puerta": 3.8,
+          "corners": 4.2,
+          "amarillas": 2.2,
+          "rojas": 0.0
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-02-28",
+          "local": "Leeds",
+          "visitante": "Man City",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-11-29",
+          "local": "Man City",
+          "visitante": "Leeds",
+          "marcador": "3-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 48,
+            "recinto": 24,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879223",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Brighton & Hove Albion",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 4,
+        "e": 0,
+        "d": 1,
+        "goles_favor": 10,
+        "goles_contra": 6,
+        "puntos": 12,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Ipswich",
+            "visitante": "Bournemouth",
+            "marcador": "1-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Bournemouth",
+            "visitante": "Leeds",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Man United",
+            "visitante": "Bournemouth",
+            "marcador": "0-3",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Bournemouth",
+            "visitante": "Sunderland",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Chelsea",
+            "visitante": "Bournemouth",
+            "marcador": "5-1",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 14.8,
+          "tiros_puerta": 4.6,
+          "corners": 5.4,
+          "amarillas": 2.6,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 4,
+        "e": 0,
+        "d": 1,
+        "goles_favor": 10,
+        "goles_contra": 2,
+        "puntos": 12,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Brighton",
+            "visitante": "Brentford",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Man City",
+            "visitante": "Brighton",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Liverpool",
+            "visitante": "Brighton",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Brighton",
+            "visitante": "Crystal Palace",
+            "marcador": "5-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Sunderland",
+            "visitante": "Brighton",
+            "marcador": "0-2",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 14.8,
+          "tiros_puerta": 4.6,
+          "corners": 4.8,
+          "amarillas": 2.4,
+          "rojas": 0.2
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-01-19",
+          "local": "Brighton",
+          "visitante": "Bournemouth",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2025-09-13",
+          "local": "Bournemouth",
+          "visitante": "Brighton",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2025-02-25",
+          "local": "Brighton",
+          "visitante": "Bournemouth",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2024-11-23",
+          "local": "Bournemouth",
+          "visitante": "Brighton",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2024-04-28",
+          "local": "Bournemouth",
+          "visitante": "Brighton",
+          "marcador": "3-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401878751",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Everton",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 2,
+        "e": 3,
+        "d": 0,
+        "goles_favor": 10,
+        "goles_contra": 8,
+        "puntos": 9,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Man United",
+            "visitante": "Aston Villa",
+            "marcador": "4-4",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Aston Villa",
+            "visitante": "Fulham",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Aston Villa",
+            "visitante": "Man City",
+            "marcador": "2-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Newcastle",
+            "visitante": "Aston Villa",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Aston Villa",
+            "visitante": "Brentford",
+            "marcador": "2-2",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 14.2,
+          "tiros_puerta": 4.2,
+          "corners": 3.8,
+          "amarillas": 2.0,
+          "rojas": 0.0
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 2,
+        "e": 1,
+        "d": 2,
+        "goles_favor": 6,
+        "goles_contra": 7,
+        "puntos": 7,
+        "dias_descanso": 26,
+        "ultimos": [
+          {
+            "fecha": "2026-11-06",
+            "local": "Everton",
+            "visitante": "Coventry",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-11-02",
+            "local": "Newcastle",
+            "visitante": "Everton",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Arsenal",
+            "visitante": "Everton",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Everton",
+            "visitante": "Chelsea",
+            "marcador": "0-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-11",
+            "local": "Hull",
+            "visitante": "Everton",
+            "marcador": "2-2",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 12.0,
+          "tiros_puerta": 5.4,
+          "corners": 4.2,
+          "amarillas": 1.8,
+          "rojas": 0.0
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-01-18",
+          "local": "Aston Villa",
+          "visitante": "Everton",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-09-13",
+          "local": "Everton",
+          "visitante": "Aston Villa",
+          "marcador": "0-0"
+        },
+        {
+          "fecha": "2025-01-15",
+          "local": "Everton",
+          "visitante": "Aston Villa",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2024-09-14",
+          "local": "Aston Villa",
+          "visitante": "Everton",
+          "marcador": "3-2"
+        },
+        {
+          "fecha": "2024-01-14",
+          "local": "Everton",
+          "visitante": "Aston Villa",
+          "marcador": "0-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401878750",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "local": "Brentford",
+      "visitante": "Arsenal",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 2,
+        "d": 2,
+        "goles_favor": 6,
+        "goles_contra": 7,
+        "puntos": 5,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Brighton",
+            "visitante": "Brentford",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Brentford",
+            "visitante": "Nott'm Forest",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Hull",
+            "visitante": "Brentford",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Brentford",
+            "visitante": "Liverpool",
+            "marcador": "1-2",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Aston Villa",
+            "visitante": "Brentford",
+            "marcador": "2-2",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 10.0,
+          "tiros_puerta": 2.6,
+          "corners": 3.4,
+          "amarillas": 2.6,
+          "rojas": 0.6
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 5,
+        "e": 0,
+        "d": 0,
+        "goles_favor": 7,
+        "goles_contra": 1,
+        "puntos": 15,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Arsenal",
+            "visitante": "Hull",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-11-01",
+            "local": "Liverpool",
+            "visitante": "Arsenal",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Arsenal",
+            "visitante": "Everton",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Nott'm Forest",
+            "visitante": "Arsenal",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Arsenal",
+            "visitante": "Leeds",
+            "marcador": "2-1",
+            "resultado": "V"
+          }
+        ],
+        "medias": {
+          "tiros": 14.6,
+          "tiros_puerta": 4.8,
+          "corners": 6.2,
+          "amarillas": 1.8,
+          "rojas": 0.0
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-02-12",
+          "local": "Brentford",
+          "visitante": "Arsenal",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2025-12-03",
+          "local": "Arsenal",
+          "visitante": "Brentford",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2025-04-12",
+          "local": "Arsenal",
+          "visitante": "Brentford",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2025-01-01",
+          "local": "Brentford",
+          "visitante": "Arsenal",
+          "marcador": "1-3"
+        },
+        {
+          "fecha": "2024-03-09",
+          "local": "Arsenal",
+          "visitante": "Brentford",
+          "marcador": "2-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401879217",
+      "liga": "E0",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "local": "Newcastle United",
+      "visitante": "Manchester United",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-02",
+      "local_datos": {
+        "partidos": 5,
+        "v": 1,
+        "e": 1,
+        "d": 3,
+        "goles_favor": 4,
+        "goles_contra": 7,
+        "puntos": 4,
+        "dias_descanso": 25,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Fulham",
+            "visitante": "Newcastle",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-11-02",
+            "local": "Newcastle",
+            "visitante": "Everton",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Crystal Palace",
+            "visitante": "Newcastle",
+            "marcador": "0-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Newcastle",
+            "visitante": "Aston Villa",
+            "marcador": "0-1",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-12",
+            "local": "Coventry",
+            "visitante": "Newcastle",
+            "marcador": "4-1",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 14.2,
+          "tiros_puerta": 3.2,
+          "corners": 4.2,
+          "amarillas": 3.8,
+          "rojas": 0.2
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 0,
+        "e": 3,
+        "d": 2,
+        "goles_favor": 6,
+        "goles_contra": 11,
+        "puntos": 3,
+        "dias_descanso": 24,
+        "ultimos": [
+          {
+            "fecha": "2026-11-08",
+            "local": "Man United",
+            "visitante": "Aston Villa",
+            "marcador": "4-4",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Chelsea",
+            "visitante": "Man United",
+            "marcador": "2-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-25",
+            "local": "Man United",
+            "visitante": "Bournemouth",
+            "marcador": "0-3",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-18",
+            "local": "Leeds",
+            "visitante": "Man United",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Man United",
+            "visitante": "Tottenham",
+            "marcador": "1-1",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 16.0,
+          "tiros_puerta": 5.2,
+          "corners": 5.4,
+          "amarillas": 3.4,
+          "rojas": 0.2
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-03-04",
+          "local": "Newcastle",
+          "visitante": "Man United",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2025-12-26",
+          "local": "Man United",
+          "visitante": "Newcastle",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-04-13",
+          "local": "Newcastle",
+          "visitante": "Man United",
+          "marcador": "4-1"
+        },
+        {
+          "fecha": "2024-12-30",
+          "local": "Man United",
+          "visitante": "Newcastle",
+          "marcador": "0-2"
+        },
+        {
+          "fecha": "2024-05-15",
+          "local": "Man United",
+          "visitante": "Newcastle",
+          "marcador": "3-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
             "identificado": true
           }
         },

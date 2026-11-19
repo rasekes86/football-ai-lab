@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-18T16:27:38.116165+00:00",
+  "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
   "estado": "SIN_XG_VERIFICADO",
   "partidos": [],
   "consultas_xg": 5,
@@ -14,45 +14,45 @@
   "diagnosticos": [
     {
       "liga": "SP1",
-      "evento": "401882809",
-      "local": "Sevilla",
-      "visitante": "Alavés",
+      "evento": "401882808",
+      "local": "Valencia",
+      "visitante": "Real Madrid",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "E0",
-      "evento": "401879242",
-      "local": "Everton",
-      "visitante": "Coventry City",
+      "evento": "401878757",
+      "local": "Nottingham Forest",
+      "visitante": "Manchester City",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "D1",
-      "evento": "401884739",
-      "local": "Hamburg SV",
-      "visitante": "Borussia Mönchengladbach",
+      "evento": "401884743",
+      "local": "VfB Stuttgart",
+      "visitante": "Werder Bremen",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "I1",
-      "evento": "401874815",
-      "local": "Venezia",
-      "visitante": "Udinese",
+      "evento": "401874803",
+      "local": "AS Roma",
+      "visitante": "Sassuolo",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "F1",
-      "evento": "401876405",
-      "local": "Toulouse",
-      "visitante": "Strasbourg",
+      "evento": "401876407",
+      "local": "Paris Saint-Germain",
+      "visitante": "Troyes",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0

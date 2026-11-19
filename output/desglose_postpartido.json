@@ -1,9 +1,9 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-18T16:27:38.116165+00:00",
+  "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-18T16:27:38.116165+00:00",
+    "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
@@ -5421,6 +5421,446 @@
           "clave": "E0|202612012000|coventry|ipswich|Goles equipo|Coventry City: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Coventry City: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202612021800|sociedad|real madrid",
+      "liga": "LaLiga",
+      "local": "Real Sociedad",
+      "visitante": "Real Madrid",
+      "fecha_utc": "2026-12-02T18:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202612021800|sociedad|real madrid|Goles equipo|Real Sociedad: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Sociedad: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202612021800|sociedad|real madrid|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202612021800|sociedad|real madrid|Goles equipo|Real Madrid: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Real Madrid: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612021930|chelsea|crystal palace",
+      "liga": "Premier League",
+      "local": "Chelsea",
+      "visitante": "Crystal Palace",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612021930|chelsea|crystal palace|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|chelsea|crystal palace|Goles equipo|Chelsea: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Chelsea: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|chelsea|crystal palace|Doble oportunidad|1X: Chelsea o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Chelsea o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612021930|hull|nott m forest",
+      "liga": "Premier League",
+      "local": "Hull City",
+      "visitante": "Nottingham Forest",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612021930|hull|nott m forest|Goles equipo|Nottingham Forest: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Nottingham Forest: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|hull|nott m forest|Hándicap 2 vías (medio gol)|Hull City +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Hull City +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|hull|nott m forest|Total goles|Menos de 4,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612021930|liverpool|sunderland",
+      "liga": "Premier League",
+      "local": "Liverpool",
+      "visitante": "Sunderland",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612021930|liverpool|sunderland|Hándicap 2 vías (medio gol)|Sunderland +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Sunderland +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|liverpool|sunderland|Goles equipo|Liverpool: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Liverpool: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|liverpool|sunderland|Goles equipo|Sunderland: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Sunderland: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612021930|man city|leeds",
+      "liga": "Premier League",
+      "local": "Manchester City",
+      "visitante": "Leeds United",
+      "fecha_utc": "2026-12-02T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612021930|man city|leeds|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|man city|leeds|Goles equipo|Leeds United: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Leeds United: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612021930|man city|leeds|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612022015|aston villa|everton",
+      "liga": "Premier League",
+      "local": "Aston Villa",
+      "visitante": "Everton",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612022015|aston villa|everton|Goles equipo|Aston Villa: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Aston Villa: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|aston villa|everton|Hándicap 2 vías (medio gol)|Everton +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Everton +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|aston villa|everton|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612022015|bournemouth|brighton",
+      "liga": "Premier League",
+      "local": "AFC Bournemouth",
+      "visitante": "Brighton & Hove Albion",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612022015|bournemouth|brighton|Hándicap 2 vías (medio gol)|AFC Bournemouth +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "AFC Bournemouth +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|bournemouth|brighton|Goles equipo|AFC Bournemouth: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "AFC Bournemouth: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|bournemouth|brighton|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612022015|brentford|arsenal",
+      "liga": "Premier League",
+      "local": "Brentford",
+      "visitante": "Arsenal",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612022015|brentford|arsenal|Goles equipo|Arsenal: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Arsenal: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|brentford|arsenal|Hándicap 2 vías (medio gol)|Brentford +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Brentford +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|brentford|arsenal|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612022015|newcastle|man united",
+      "liga": "Premier League",
+      "local": "Newcastle United",
+      "visitante": "Manchester United",
+      "fecha_utc": "2026-12-02T20:15:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612022015|newcastle|man united|Hándicap 2 vías (medio gol)|Manchester United +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Manchester United +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|newcastle|man united|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612022015|newcastle|man united|Goles equipo|Newcastle United: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Newcastle United: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202612022030|barcelona|ath madrid",
+      "liga": "LaLiga",
+      "local": "Barcelona",
+      "visitante": "Atlético Madrid",
+      "fecha_utc": "2026-12-02T20:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202612022030|barcelona|ath madrid|Doble oportunidad|1X: Barcelona o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Barcelona o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202612022030|barcelona|ath madrid|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202612022030|barcelona|ath madrid|Total goles|Más de 1,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
           "estado": "PENDIENTE",
           "resultado": "",
           "valor_real": "",
