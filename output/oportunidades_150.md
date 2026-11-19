@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 46 · **Finalizadas:** 5 · **Pendientes:** 41
+**Registradas:** 48 · **Finalizadas:** 5 · **Pendientes:** 43
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -52,6 +52,8 @@
 | Ceuta – Almería | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.6% | 2.15 | Pendiente | — |
 | Brentford – Everton | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.8% | 2.10 | Pendiente | — |
 | Monza – Fiorentina | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 70.0% | 1.53 | Pendiente | — |
+| Borussia Mönchengladbach – Borussia Dortmund | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.0% | 1.73 | Pendiente | — |
+| Paris FC – Angers | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.3% | 1.53 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
