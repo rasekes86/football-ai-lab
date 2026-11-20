@@ -1,32 +1,24 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-20T13:12:31.167234+00:00",
-  "estado": "INCIDENCIAS",
-  "incidencias": [
-    {
-      "codigo": "CUOTAS_SIN_ACTUALIZAR",
-      "severidad": "ALTA",
-      "descripcion": "Hay partidos próximos, pero el refresco de cuotas lleva más de 9 horas sin actualizarse."
-    }
-  ],
+  "comprobado_utc": "2026-11-20T13:36:30.372324+00:00",
+  "estado": "CORRECTO",
+  "incidencias": [],
   "detalle": {
     "analisis_utc": "2026-11-19T16:34:13.343181+00:00",
     "partidos_proximos": 54,
-    "cuotas_utc": "2026-11-20T03:43:32.805605+00:00",
-    "consultas_utc": "2026-11-20T03:44:08.257204+00:00",
+    "cuotas_utc": "2026-11-20T13:35:40.155582+00:00",
+    "consultas_utc": "2026-11-20T13:36:15.670273+00:00",
     "errores_calendario_ultima_ronda": 0,
     "errores_totales_proveedor_ultima_ronda": 0,
     "racha_calendario": 0,
     "racha_proveedor": 0,
     "partidos_sin_liquidar_48h": 0
   },
-  "ultima_captura_revisada": "2026-11-20T03:43:32.805605+00:00",
+  "ultima_captura_revisada": "2026-11-20T13:35:40.155582+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
   "fallos_workflow": {},
-  "notificadas": [
-    "CUOTAS_SIN_ACTUALIZAR"
-  ],
-  "ultima_entrega_utc": "2026-11-20T13:12:31.167234+00:00",
+  "notificadas": [],
+  "ultima_entrega_utc": "2026-11-20T13:36:30.372324+00:00",
   "envio": "ENTREGADO"
 }
