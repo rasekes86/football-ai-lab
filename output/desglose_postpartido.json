@@ -1,9 +1,9 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
+  "calculado_utc": "2026-11-20T16:08:55.222409+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
+    "calculado_utc": "2026-11-20T16:08:55.222409+00:00",
     "objetivos_conteo": 2,
     "completos": 2,
     "incompletos": 0,
@@ -5861,6 +5861,50 @@
           "clave": "SP1|202612022030|barcelona|ath madrid|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "E0|202612032000|tottenham|fulham",
+      "liga": "Premier League",
+      "local": "Tottenham Hotspur",
+      "visitante": "Fulham",
+      "fecha_utc": "2026-12-03T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "E0|202612032000|tottenham|fulham|Goles equipo|Tottenham Hotspur: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Tottenham Hotspur: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612032000|tottenham|fulham|Hándicap 2 vías (medio gol)|Tottenham Hotspur +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Tottenham Hotspur +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "E0|202612032000|tottenham|fulham|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
           "estado": "PENDIENTE",
           "resultado": "",
           "valor_real": "",

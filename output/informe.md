@@ -1,8 +1,8 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-19T16:34:13.343181+00:00
+**UTC:** 2026-11-20T16:08:55.222409+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 121
+**Próximos partidos con pronóstico:** 122
 **Descartados por insuficiencia de datos:** 8
 **Históricos evaluados:** 5
 **Brier 1X2 medio:** 0.1916
@@ -78,6 +78,7 @@
 | Premier League | 2026-12-02T20:15 | Aston Villa - Everton | 43.3% | 28.4% | 28.3% |
 | Premier League | 2026-12-02T20:15 | Brentford - Arsenal | 29.0% | 28.0% | 43.1% |
 | Premier League | 2026-12-02T20:15 | Newcastle United - Manchester United | 37.5% | 25.4% | 37.1% |
+| Premier League | 2026-12-03T20:00 | Tottenham Hotspur - Fulham | 36.9% | 27.6% | 35.5% |
 | Bundesliga | 2026-11-20T19:30 | Bayern Munich - FC Cologne | 81.0% | 13.5% | 5.6% |
 | Bundesliga | 2026-11-21T14:30 | 1. FC Union Berlin - RB Leipzig | 35.5% | 23.9% | 40.6% |
 | Bundesliga | 2026-11-21T14:30 | Borussia Mönchengladbach - Borussia Dortmund | 20.1% | 22.0% | 57.9% |
@@ -154,12 +155,12 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **2** / 121. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **2** / 122. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **126**
+Pronósticos archivados: **127**
 Resultados reales verificados: **5**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
@@ -189,13 +190,13 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **46**; finalizadas: **5**; pendientes: **41**.
+Selecciones archivadas: **48**; finalizadas: **5**; pendientes: **43**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **378** selecciones archivadas antes del partido; **15** resueltas.
+Seguimiento real del Top 3: **381** selecciones archivadas antes del partido; **15** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 4416 líneas congeladas, 16 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 4454 líneas congeladas, 16 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

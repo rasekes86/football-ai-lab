@@ -883,7 +883,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 48.4% / 24.8% / 26.8%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-19T16:25:48+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-20T16:07:20+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3191,6 +3191,54 @@
 
 ---
 
+## Tottenham Hotspur – Fulham
+
+**Premier League · 2026-12-03T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 36.9% | 27.6% | 35.5% | 45.4% |
+
+### Forma, descanso y estadísticas
+
+**Tottenham Hotspur:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · V · E
+- Días desde el último partido liguero registrado: 26
+- Medias recientes: Tiros 16,8, a puerta 5,0, córners 7,4, amarillas 2,0
+
+**Fulham:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 2E · 1D; secuencia: E · E · V · V · D
+- Días desde el último partido liguero registrado: 26
+- Medias recientes: Tiros 13,6, a puerta 4,8, córners 6,2, amarillas 2,2
+
+### Enfrentamientos previos
+- 2026-03-01: Fulham 2-1 Tottenham
+- 2025-11-29: Tottenham 1-2 Fulham
+- 2025-03-16: Fulham 2-0 Tottenham
+- 2024-12-01: Tottenham 1-1 Fulham
+- 2024-03-16: Fulham 3-0 Tottenham
+
+### Tres selecciones del modelo (experimentales)
+1. **Tottenham Hotspur: menos de 2,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Tottenham Hotspur +1,5** (Hándicap 2 vías (medio gol)): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 75.9% · cuota justa 1.32; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Bayern Munich – FC Cologne
 
 **Bundesliga · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -4824,7 +4872,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-19T15:58:53+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-20T16:07:18+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

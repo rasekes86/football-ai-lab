@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-19T16:34:13.343181+00:00",
+  "timestamp_utc": "2026-11-20T16:08:55.222409+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -334,19 +334,17 @@
       "equipo": "Arsenal",
       "bajas_reportadas": 8,
       "estados": {
-        "injured": 1,
+        "injured": 2,
         "unavailable": 5,
-        "doubtful": 1,
         "suspended": 1
       }
     },
     {
       "equipo": "Aston Villa",
-      "bajas_reportadas": 12,
+      "bajas_reportadas": 10,
       "estados": {
         "unavailable": 7,
-        "doubtful": 3,
-        "injured": 2
+        "injured": 3
       }
     },
     {
@@ -361,34 +359,33 @@
       "equipo": "Brentford",
       "bajas_reportadas": 8,
       "estados": {
-        "doubtful": 3,
-        "injured": 4,
+        "injured": 6,
+        "doubtful": 1,
         "suspended": 1
       }
     },
     {
       "equipo": "Brighton",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 10,
       "estados": {
         "unavailable": 5,
-        "injured": 6,
-        "doubtful": 2
+        "injured": 4,
+        "doubtful": 1
       }
     },
     {
       "equipo": "Chelsea",
-      "bajas_reportadas": 14,
+      "bajas_reportadas": 12,
       "estados": {
-        "doubtful": 2,
         "unavailable": 7,
         "injured": 5
       }
     },
     {
       "equipo": "Coventry City",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 15,
       "estados": {
-        "doubtful": 2,
+        "doubtful": 4,
         "unavailable": 7,
         "injured": 4
       }
@@ -412,19 +409,19 @@
     },
     {
       "equipo": "Fulham",
-      "bajas_reportadas": 3,
+      "bajas_reportadas": 4,
       "estados": {
-        "unavailable": 2,
-        "injured": 1
+        "injured": 2,
+        "unavailable": 2
       }
     },
     {
       "equipo": "Hull City",
-      "bajas_reportadas": 17,
+      "bajas_reportadas": 15,
       "estados": {
         "unavailable": 9,
         "injured": 5,
-        "doubtful": 3
+        "doubtful": 1
       }
     },
     {
@@ -444,18 +441,18 @@
     },
     {
       "equipo": "Liverpool",
-      "bajas_reportadas": 12,
+      "bajas_reportadas": 11,
       "estados": {
         "unavailable": 5,
-        "injured": 5,
+        "injured": 4,
         "doubtful": 2
       }
     },
     {
       "equipo": "Man City",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 11,
       "estados": {
-        "doubtful": 2,
+        "doubtful": 3,
         "unavailable": 7,
         "injured": 1
       }
@@ -488,11 +485,10 @@
     },
     {
       "equipo": "Spurs",
-      "bajas_reportadas": 15,
+      "bajas_reportadas": 14,
       "estados": {
         "injured": 5,
-        "unavailable": 9,
-        "doubtful": 1
+        "unavailable": 9
       }
     },
     {

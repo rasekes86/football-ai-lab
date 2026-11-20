@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-19T16:34:13.343181+00:00",
+  "calculado_utc": "2026-11-20T16:08:55.222409+00:00",
   "partidos": [
     {
       "id": "401882805",
@@ -11505,6 +11505,179 @@
           "local": "Man United",
           "visitante": "Newcastle",
           "marcador": "3-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "lesiones": {
+        "estado": "CONTEXTO_EXTERNO_NO_CONFIRMADO",
+        "nota": "Las bajas y alineaciones nunca se infieren de los marcadores históricos."
+      }
+    },
+    {
+      "id": "401878749",
+      "liga": "E0",
+      "fecha_utc": "2026-12-03T20:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Fulham",
+      "version": "prepartido-history-0.5",
+      "fecha_corte": "2026-12-03",
+      "local_datos": {
+        "partidos": 5,
+        "v": 3,
+        "e": 1,
+        "d": 1,
+        "goles_favor": 8,
+        "goles_contra": 3,
+        "puntos": 10,
+        "dias_descanso": 26,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Leeds",
+            "visitante": "Tottenham",
+            "marcador": "1-0",
+            "resultado": "D"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Tottenham",
+            "visitante": "Crystal Palace",
+            "marcador": "2-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Chelsea",
+            "visitante": "Tottenham",
+            "marcador": "0-2",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-19",
+            "local": "Tottenham",
+            "visitante": "Coventry",
+            "marcador": "3-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Man United",
+            "visitante": "Tottenham",
+            "marcador": "1-1",
+            "resultado": "E"
+          }
+        ],
+        "medias": {
+          "tiros": 16.8,
+          "tiros_puerta": 5.0,
+          "corners": 7.4,
+          "amarillas": 2.0,
+          "rojas": 0.2
+        }
+      },
+      "visitante_datos": {
+        "partidos": 5,
+        "v": 2,
+        "e": 2,
+        "d": 1,
+        "goles_favor": 5,
+        "goles_contra": 4,
+        "puntos": 8,
+        "dias_descanso": 26,
+        "ultimos": [
+          {
+            "fecha": "2026-11-07",
+            "local": "Fulham",
+            "visitante": "Newcastle",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-31",
+            "local": "Aston Villa",
+            "visitante": "Fulham",
+            "marcador": "1-1",
+            "resultado": "E"
+          },
+          {
+            "fecha": "2026-10-24",
+            "local": "Coventry",
+            "visitante": "Fulham",
+            "marcador": "0-1",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-17",
+            "local": "Fulham",
+            "visitante": "Hull",
+            "marcador": "1-0",
+            "resultado": "V"
+          },
+          {
+            "fecha": "2026-10-10",
+            "local": "Ipswich",
+            "visitante": "Fulham",
+            "marcador": "2-1",
+            "resultado": "D"
+          }
+        ],
+        "medias": {
+          "tiros": 13.6,
+          "tiros_puerta": 4.8,
+          "corners": 6.2,
+          "amarillas": 2.2,
+          "rojas": 0.2
+        }
+      },
+      "enfrentamientos": [
+        {
+          "fecha": "2026-03-01",
+          "local": "Fulham",
+          "visitante": "Tottenham",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2025-11-29",
+          "local": "Tottenham",
+          "visitante": "Fulham",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-03-16",
+          "local": "Fulham",
+          "visitante": "Tottenham",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2024-12-01",
+          "local": "Tottenham",
+          "visitante": "Fulham",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-03-16",
+          "local": "Fulham",
+          "visitante": "Tottenham",
+          "marcador": "3-0"
         }
       ],
       "calidad": {

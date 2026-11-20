@@ -1,108 +1,108 @@
 {
-  "utc": "2026-11-19T16:34:13.343181+00:00",
+  "utc": "2026-11-20T16:08:55.222409+00:00",
   "modo": "automatización Python — sin LLM en cada ejecución",
   "agentes": [
     {
       "agente": "datos",
       "estado": "OK",
-      "detalle": "6 ligas; 129 encuentros en 14 días",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
+      "detalle": "6 ligas; 130 encuentros en 14 días",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
       "registros": 7293
     },
     {
       "agente": "marcadores_finales",
       "estado": "OK",
       "detalle": "Oficiales: 0; ESPN: 0; sin marcador: 0",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
       "registros": 5
     },
     {
       "agente": "estadisticas_finales",
       "estado": "OK",
       "detalle": "Conteos: 2/2 partidos completos; campos ESPN: 0",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
       "registros": 2
     },
     {
       "agente": "contexto",
       "estado": "PARCIAL",
       "detalle": "Machina Sports: 5 ligas; lesiones sólo Premier si disponibles",
-      "utc": "2026-11-19T16:34:13.343181+00:00"
+      "utc": "2026-11-20T16:08:55.222409+00:00"
     },
     {
       "agente": "jugadores",
       "estado": "CON_HISTORICO_PARCIAL",
       "detalle": "2503 registros; 1817 participaciones verificadas; sin apuestas individuales",
-      "utc": "2026-11-19T16:34:13.343181+00:00"
+      "utc": "2026-11-20T16:08:55.222409+00:00"
     },
     {
       "agente": "predictor",
       "estado": "OK",
       "detalle": "Ensemble Poisson 70% / Elo 30%. Descartados: 8",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 121
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 122
     },
     {
       "agente": "cuotas_reales",
       "estado": "CON_CUOTAS",
-      "detalle": "Proveedor opt-in: []; 166 comparaciones verificadas. Sin clave no se fabrican precios.",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 264
+      "detalle": "Proveedor opt-in: []; 138 comparaciones verificadas. Sin clave no se fabrican precios.",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 218
     },
     {
       "agente": "auditoria_mercados_futuros",
       "estado": "OK",
-      "detalle": "Archivo propio: 362 nuevas líneas, 16/4416 evaluadas; no modifica el Top 3 original",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 4416
+      "detalle": "Archivo propio: 38 nuevas líneas, 16/4454 evaluadas; no modifica el Top 3 original",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 4454
     },
     {
       "agente": "oportunidades_150",
       "estado": "OK",
-      "detalle": "46 cotizaciones archivadas; 5 mercados liquidados; API prepartido: 39; referencias indicativas: 5; nuevas adicionales de API: 0; sin opcion valida: 13",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 46
+      "detalle": "48 cotizaciones archivadas; 5 mercados liquidados; API prepartido: 41; referencias indicativas: 5; nuevas adicionales de API: 0; sin opcion valida: 11",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 48
     },
     {
       "agente": "selector",
       "estado": "OK",
-      "detalle": "121 partidos; 35 líneas de conteos aptas retrospectivamente; jugadores no habilitados",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 363
+      "detalle": "122 partidos; 35 líneas de conteos aptas retrospectivamente; jugadores no habilitados",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 366
     },
     {
       "agente": "mercado",
       "estado": "REFERENCIAS",
       "detalle": "InferSports keyless: 2 coincidencias (máximo tres consultas); The Odds API: sin clave",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
       "registros": 2
     },
     {
       "agente": "auditor",
       "estado": "OK",
       "detalle": "Walk-forward: solo resultados anteriores a cada partido, comparación con baseline",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
       "registros": 601
     },
     {
       "agente": "evaluador",
       "estado": "OK",
-      "detalle": "5 finales verificados, 121 pendientes",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 126
+      "detalle": "5 finales verificados, 122 pendientes",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 127
     },
     {
       "agente": "mercados_prospectivos",
       "estado": "OK",
-      "detalle": "15 selecciones terminadas, 363 pendientes; no confundir con backtest",
-      "utc": "2026-11-19T16:34:13.343181+00:00",
-      "registros": 378
+      "detalle": "15 selecciones terminadas, 366 pendientes; no confundir con backtest",
+      "utc": "2026-11-20T16:08:55.222409+00:00",
+      "registros": 381
     },
     {
       "agente": "publicador",
       "estado": "OK",
       "detalle": "Archivos de salida escritos en output",
-      "utc": "2026-11-19T16:34:13.343181+00:00"
+      "utc": "2026-11-20T16:08:55.222409+00:00"
     }
   ]
 }
