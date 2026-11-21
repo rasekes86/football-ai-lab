@@ -213,14 +213,14 @@ export function renderMatchDetail(match,crest=()=>"",now=new Date()){
     '<div class="match-v2-team">'+crest(match.liga,match.visitante)+
     '<strong>'+escape(match.visitante)+'</strong></div></div></header>'+
     '<div class="match-v2-kpis">'+
-    kpi("TOP 3 · ACERTADAS",String(d.wins)+' / '+String(d.finished),
+    kpi(match.promotedToAdditional?"TOP 2 · ACERTADAS":"TOP 3 · ACERTADAS",String(d.wins)+' / '+String(d.finished),
       d.notFinished+' sin liquidar')+
     kpi("ADICIONAL +1,50",d.extra?escape(outcome(d.extra).label):
         escape(additionalStatus(match,now)?.label||"Sin selección"),
       d.extra?(d.extraFinished?"Resultado deportivo confirmado":"Pendiente de verificación"):
         "No archivada")+'</div>'+
     '<section class="match-v2-section"><div class="match-v2-section-heading">'+
-    '<div><span>01 · PREDICCIONES CONGELADAS</span><h3>Top 3 del partido</h3></div>'+
+    '<div><span>01 · PREDICCIONES CONGELADAS</span><h3>'+(match.promotedToAdditional?'Top 2 activo + adicional':'Top 3 del partido')+'</h3></div>'+
     '<small>'+d.picks.length+' seleccionadas</small></div>'+
     (d.picks.length?d.picks.map((p,i)=>detailPick(p,i,match.breakdown)).join(""):
       '<div class="match-v2-empty">Todavía no hay un Top 3 archivado para este partido.</div>')+
@@ -234,7 +234,7 @@ export function renderMatchDetail(match,crest=()=>"",now=new Date()){
     '<details class="match-v2-accordion"><summary><span>'+
     '<strong>Cómo se comprueban los pronósticos</strong>'+
     '<small>Fuentes, aciertos y cuotas</small></span><span aria-hidden="true">⌄</span></summary>'+
-    '<div class="match-v2-method"><p>Solo las tres primeras selecciones archivadas y una adicional anterior al partido. '+
+    '<div class="match-v2-method"><p>Se cuentan hasta tres selecciones originales y una adicional anterior al partido; si coinciden mercado y selección, solo se cuenta como adicional (2+1). '+
     'Un resultado pendiente o sin estadísticas no cuenta como fallo.</p>'+
     '<p>Las cuotas indicativas no son ofertas verificadas. '+
     'El balance de 1 unidad, cuando existe, es una simulación sin dinero apostado.</p>'+
