@@ -1,40 +1,40 @@
 {
   "version": "xgboost-temporal-0.5",
-  "as_of_utc": "2026-11-16T16:27:17.237419+00:00",
+  "as_of_utc": "2026-11-21T15:54:57.339082+00:00",
   "status": "VALIDADO_RETROSPECTIVAMENTE",
-  "historic_rows": 6770,
+  "historic_rows": 6771,
   "train_rows": 5407,
-  "validation_rows": 1363,
+  "validation_rows": 1364,
   "split_date": "2026-02-21",
   "warnings": [
     "Estas métricas no son pruebas prospectivas ni rentabilidad.",
     "El modelo NO participa en el consenso Poisson/Elo hasta una revisión independiente."
   ],
   "holdout_start": "2026-02-21",
-  "holdout_end": "2026-11-15",
+  "holdout_end": "2026-11-16",
   "xgboost_holdout": {
-    "brier": 0.201931,
-    "logloss": 1.013699
+    "brier": 0.201908,
+    "logloss": 1.013598
   },
   "frecuencia_historica": {
-    "brier": 0.214905,
-    "logloss": 1.066209
+    "brier": 0.214864,
+    "logloss": 1.066037
   },
   "beats_frequency_brier": true,
   "comparacion_misma_muestra": {
-    "muestra": 1299,
+    "muestra": 1300,
     "nota": "Solo partidos comunes del mismo holdout posterior al entrenamiento.",
     "xgboost": {
-      "brier": 0.202366,
-      "logloss": 1.015726
+      "brier": 0.202341,
+      "logloss": 1.015618
     },
     "poisson_elo": {
-      "brier": 0.199203,
-      "logloss": 1.001029
+      "brier": 0.199163,
+      "logloss": 1.00086
     },
     "frecuencia_historica": {
-      "brier": 0.214868,
-      "logloss": 1.065903
+      "brier": 0.214826,
+      "logloss": 1.065722
     }
   },
   "calibracion_diagnostica": {
@@ -53,9 +53,9 @@
       },
       {
         "rango": "0.4-0.6",
-        "n": 572,
-        "estimado": 0.488,
-        "observado": 0.4895
+        "n": 573,
+        "estimado": 0.4879,
+        "observado": 0.4904
       },
       {
         "rango": "0.6-0.8",
@@ -79,9 +79,9 @@
       },
       {
         "rango": "0.2-0.4",
-        "n": 1194,
+        "n": 1195,
         "estimado": 0.2744,
-        "observado": 0.2462
+        "observado": 0.246
       },
       {
         "rango": "0.4-0.6",
@@ -99,9 +99,9 @@
       },
       {
         "rango": "0.2-0.4",
-        "n": 695,
+        "n": 696,
         "estimado": 0.2902,
-        "observado": 0.2978
+        "observado": 0.2974
       },
       {
         "rango": "0.4-0.6",
@@ -120,6 +120,6 @@
   "predictions": 109,
   "comparacion_futuros": {
     "partidos_comunes": 107,
-    "discrepancias_15pp_o_mas": 8
+    "discrepancias_15pp_o_mas": 9
   }
 }
