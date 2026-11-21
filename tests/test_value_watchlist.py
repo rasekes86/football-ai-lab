@@ -196,7 +196,7 @@ class ValueWatchlistTests(unittest.TestCase):
                 self.assertEqual(freeze([],{"selecciones":[]},[self.match],
                                  self.now,comparisons={"comparaciones":[value]}),[])
 
-    def test_only_one_bookmaker_one_extra_not_the_same_frozen_top3(self):
+    def test_exact_frozen_top3_pick_can_be_selected_as_additional_once(self):
         base=self._price_comparison()
         other=dict(base,bookmaker="OtherBook",bookmaker_id="other",
                    cuota_real=1.95,evento_id="event-2")
@@ -204,11 +204,13 @@ class ValueWatchlistTests(unittest.TestCase):
               "seleccion":"Menos de 2,5 goles"}]
         rows=freeze([],{"selecciones":[]},[self.match],self.now,
                     comparisons={"comparaciones":[base,other]},top3=top)
-        self.assertEqual(rows,[])
-        rows=freeze([],{"selecciones":[]},[self.match],self.now,
-                    comparisons={"comparaciones":[base,other]})
         self.assertEqual(len(rows),1)
         self.assertEqual(rows[0]["bookmaker_id"],"other")
+        self.assertEqual(rows[0]["mercado"],top[0]["mercado"])
+        self.assertEqual(rows[0]["seleccion"],top[0]["seleccion"])
+        again=freeze(rows,{"selecciones":[]},[self.match],
+                     self.now,comparisons={"comparaciones":[base,other]},top3=top)
+        self.assertEqual(again,rows)  # congelada antes del partido
 
     def test_existing_manual_offer_never_relabelled_as_verified_api(self):
         previous=freeze([],self.manual,[self.match],self.now)
