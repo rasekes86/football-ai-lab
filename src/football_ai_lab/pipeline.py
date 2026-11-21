@@ -422,10 +422,8 @@ def main(argv=None) -> None:
     write_csv(target/"historico_adicionales_teoricas.csv",OFFER_FIELDS,frozen_fourth)
     tracked_fourth=evaluate_fourth_reference(frozen_fourth,settlement_histories,now)
     write_csv(target/"seguimiento_adicionales_teoricas.csv",OFFER_FIELDS,tracked_fourth)
-    book.mark("cuarta_referencia","OK",
-              f'{len(frozen_fourth)} selecciones teóricas archivadas; '
-              f'{sum(x.get("estado")=="FINALIZADO" for x in tracked_fourth)} liquidadas; '
-              "sin cuotas ofrecidas",len(frozen_fourth))
+    LOG.info("Cuarta referencia: %s teóricas archivadas; %s liquidadas, sin cuotas ofrecidas",
+             len(frozen_fourth),sum(x.get("estado")=="FINALIZADO" for x in tracked_fourth))
     # Secondary 3+1 track: real bookmaker prices were captured and compared
     # above during this SAME authorized run. Freeze a single eligible additional
     # per fixture before kickoff; the immutable original Top 3 stays untouched.
