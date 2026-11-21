@@ -11,6 +11,15 @@ export function additionalStatus(match, now = new Date()) {
     code:"ASSIGNED", style:"assigned", label:"Adicional asignada",
     explanation:"Selección y cuota archivadas; no se vuelven a consultar."
   };
+  const theoretical = (match.odds || []).some(row =>
+    row?.id === match.id &&
+    row.tipo_cuota === "CUOTA_JUSTA_TEORICA_NO_OFRECIDA" &&
+    Number(row.cuota_justa) > 1.50 &&
+    Date.parse(row.archivado_utc || "") < kick);
+  if (theoretical) return {
+    code:"THEORETICAL", style:"assigned", label:"Cuarta selección teórica",
+    explanation:"Pronóstico prepartido archivado con cuota justa matemática; NO es una oferta de casa de apuestas."
+  };
   if (!Number.isFinite(kick) || kick <= now.getTime()) return null;
   switch (match.additionalAudit) {
     case "NO_SUPERA_FILTROS":
