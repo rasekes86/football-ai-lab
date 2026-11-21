@@ -121,6 +121,22 @@ class HealthMonitorTests(unittest.TestCase):
         self.assertIn("LIQUIDACION_RETRASADA", codes(report))
         self.assertEqual(report["detalle"]["partidos_sin_liquidar_48h"],2)
 
+    def test_morning_alert_detects_two_overdue_matches_before_48h(self):
+        pending = [
+            {"id": "A", "fecha_utc": stamp(-11), "estado": "PENDIENTE"},
+            {"id": "A", "fecha_utc": stamp(-11), "estado": "PENDIENTE"},
+            {"id": "B", "fecha_utc": stamp(-12), "estado": "PENDIENTE"},
+            {"id": "C", "fecha_utc": stamp(-15), "estado": "ESTADISTICA_NO_DISPONIBLE"},
+        ]
+        fixtures(self.path, pending=pending)
+        report = assess(self.path, NOW)
+        self.assertIn("LIQUIDACION_MATINAL_PENDIENTE", codes(report))
+        self.assertNotIn("LIQUIDACION_RETRASADA", codes(report))
+        self.assertEqual(report["detalle"]["partidos_sin_liquidar_10h"], 2)
+        self.assertEqual(report["detalle"]["partidos_sin_liquidar_48h"], 0)
+        fixtures(self.path, pending=pending[:2])
+        self.assertNotIn("LIQUIDACION_MATINAL_PENDIENTE", codes(assess(self.path, NOW)))
+
     def test_settlement_alert_uses_distinct_matches_and_respects_missing_stats(self):
         pending = [{"id": "A", "fecha_utc": stamp(-80), "estado": "PENDIENTE"},
                    {"id": "A", "fecha_utc": stamp(-80), "estado": "PENDIENTE"},
