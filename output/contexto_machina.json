@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-21T09:24:18.930717+00:00",
+  "timestamp_utc": "2026-11-21T15:22:18.153388+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -21,8 +21,8 @@
         {
           "nombre": "Manchester City",
           "posicion": 3,
-          "puntos": 21,
-          "jugados": 10
+          "puntos": 22,
+          "jugados": 11
         },
         {
           "nombre": "Liverpool",
@@ -114,13 +114,13 @@
           "jugados": 12
         },
         {
-          "nombre": "Villarreal",
+          "nombre": "Alavés",
           "posicion": 8,
-          "puntos": 15,
-          "jugados": 12
+          "puntos": 16,
+          "jugados": 13
         },
         {
-          "nombre": "Deportivo",
+          "nombre": "Villarreal",
           "posicion": 9,
           "puntos": 15,
           "jugados": 12
@@ -341,10 +341,11 @@
     },
     {
       "equipo": "Aston Villa",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 11,
       "estados": {
         "unavailable": 7,
-        "injured": 3
+        "injured": 3,
+        "doubtful": 1
       }
     },
     {
@@ -383,20 +384,19 @@
     },
     {
       "equipo": "Coventry City",
-      "bajas_reportadas": 15,
+      "bajas_reportadas": 13,
       "estados": {
-        "doubtful": 4,
         "unavailable": 7,
-        "injured": 4
+        "injured": 4,
+        "doubtful": 2
       }
     },
     {
       "equipo": "Crystal Palace",
-      "bajas_reportadas": 12,
+      "bajas_reportadas": 11,
       "estados": {
         "unavailable": 7,
         "injured": 3,
-        "doubtful": 1,
         "suspended": 1
       }
     },
@@ -450,9 +450,9 @@
     },
     {
       "equipo": "Man City",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 9,
       "estados": {
-        "doubtful": 3,
+        "doubtful": 1,
         "unavailable": 7,
         "injured": 1
       }
@@ -476,9 +476,8 @@
     },
     {
       "equipo": "Nott'm Forest",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 8,
       "estados": {
-        "doubtful": 2,
         "unavailable": 5,
         "injured": 3
       }

@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 49 · **Finalizadas:** 9 · **Pendientes:** 40
+**Registradas:** 49 · **Finalizadas:** 10 · **Pendientes:** 39
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -14,7 +14,7 @@
 | Athletic Club – Espanyol | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.1% | 2.02 | Acertada | 1.025 |
 | Rayo Vallecano – Valencia | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.2% | 1.80 | Pendiente | — |
 | Sevilla – Real Betis | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.9% | 2.10 | Pendiente | — |
-| Manchester City – Fulham | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 67.2% | 1.67 | Pendiente | — |
+| Manchester City – Fulham | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 67.2% | 1.67 | Acertada | 0.667 |
 | Bayern Munich – FC Cologne | Sí (OFRECIDA_API_REGISTRADA) | 57.7% | 1.91 | Acertada | 0.909 |
 | Como – Cagliari | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.6% | 1.61 | Pendiente | — |
 | Lazio – Lecce | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.7% | 2.38 | Pendiente | — |
