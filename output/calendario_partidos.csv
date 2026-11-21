@@ -1,1 +1,131 @@
 id,fecha_utc,liga,local,visitante,origen_calendario,primera_captura_utc,pronostico_disponible_al_registrar
+E0|202611211230|man city|fulham,2026-11-21T12:30:00+00:00,Premier League,Manchester City,Fulham,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611211300|alaves|deportivo,2026-11-21T13:00:00+00:00,LaLiga,Alavés,Deportivo,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+SP2|202611211300|sabadell|granada,2026-11-21T13:00:00+00:00,Segunda División,CD Sabadell,Granada,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611211400|como|cagliari,2026-11-21T14:00:00+00:00,Serie A,Como,Cagliari,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611211400|lazio|lecce,2026-11-21T14:00:00+00:00,Serie A,Lazio,Lecce,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611211430|ein frankfurt|hoffenheim,2026-11-21T14:30:00+00:00,Bundesliga,Eintracht Frankfurt,TSG Hoffenheim,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611211430|leverkusen|paderborn,2026-11-21T14:30:00+00:00,Bundesliga,Bayer Leverkusen,SC Paderborn 07,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+D1|202611211430|m gladbach|dortmund,2026-11-21T14:30:00+00:00,Bundesliga,Borussia Mönchengladbach,Borussia Dortmund,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611211430|sv elversberg|freiburg,2026-11-21T14:30:00+00:00,Bundesliga,SV Elversberg,SC Freiburg,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+D1|202611211430|union berlin|leipzig,2026-11-21T14:30:00+00:00,Bundesliga,1. FC Union Berlin,RB Leipzig,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611211500|aston villa|sunderland,2026-11-21T15:00:00+00:00,Premier League,Aston Villa,Sunderland,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611211500|bournemouth|nott m forest,2026-11-21T15:00:00+00:00,Premier League,AFC Bournemouth,Nottingham Forest,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611211500|chelsea|leeds,2026-11-21T15:00:00+00:00,Premier League,Chelsea,Leeds United,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611211500|coventry|crystal palace,2026-11-21T15:00:00+00:00,Premier League,Coventry City,Crystal Palace,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611211500|tottenham|ipswich,2026-11-21T15:00:00+00:00,Premier League,Tottenham Hotspur,Ipswich Town,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611211515|vallecano|valencia,2026-11-21T15:15:00+00:00,LaLiga,Rayo Vallecano,Valencia,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611211515|sociedad b|cadiz,2026-11-21T15:15:00+00:00,Segunda División,Real Sociedad II,Cádiz,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611211615|nice|paris sg,2026-11-21T16:15:00+00:00,Ligue 1,Nice,Paris Saint-Germain,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611211700|parma|roma,2026-11-21T17:00:00+00:00,Serie A,Parma,AS Roma,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611211730|schalke 04|stuttgart,2026-11-21T17:30:00+00:00,Bundesliga,Schalke 04,VfB Stuttgart,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+E0|202611211730|newcastle|arsenal,2026-11-21T17:30:00+00:00,Premier League,Newcastle United,Arsenal,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611211730|sevilla|betis,2026-11-21T17:30:00+00:00,LaLiga,Sevilla,Real Betis,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611211730|castellon|eldense,2026-11-21T17:30:00+00:00,Segunda División,Castellón,Eldense,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611211945|lens|toulouse,2026-11-21T19:45:00+00:00,Ligue 1,Lens,Toulouse,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611211945|lille|lyon,2026-11-21T19:45:00+00:00,Ligue 1,Lille,Lyon,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611211945|monaco|auxerre,2026-11-21T19:45:00+00:00,Ligue 1,AS Monaco,AJ Auxerre,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611211945|strasbourg|brest,2026-11-21T19:45:00+00:00,Ligue 1,Strasbourg,Brest,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611211945|napoli|torino,2026-11-21T19:45:00+00:00,Serie A,Napoli,Torino,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611212000|real madrid|celta,2026-11-21T20:00:00+00:00,LaLiga,Real Madrid,Celta Vigo,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611212000|tenerife|mallorca,2026-11-21T20:00:00+00:00,Segunda División,Tenerife,Mallorca,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611221130|juventus|venezia,2026-11-22T11:30:00+00:00,Serie A,Juventus,Venezia,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611221300|barcelona|villarreal,2026-11-22T13:00:00+00:00,LaLiga,Barcelona,Villarreal,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611221300|cordoba|oviedo,2026-11-22T13:00:00+00:00,Segunda División,Córdoba,Real Oviedo,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611221400|hull|brighton,2026-11-22T14:00:00+00:00,Premier League,Hull City,Brighton & Hove Albion,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611221400|paris fc|angers,2026-11-22T14:00:00+00:00,Ligue 1,Paris FC,Angers,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611221400|bologna|udinese,2026-11-22T14:00:00+00:00,Serie A,Bologna,Udinese,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611221400|sassuolo|genoa,2026-11-22T14:00:00+00:00,Serie A,Sassuolo,Genoa,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611221430|augsburg|mainz,2026-11-22T14:30:00+00:00,Bundesliga,FC Augsburg,Mainz,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611221515|racing|sociedad,2026-11-22T15:15:00+00:00,LaLiga,Racing Santander,Real Sociedad,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+SP2|202611221515|sp gijon|las palmas,2026-11-22T15:15:00+00:00,Segunda División,Sporting Gijón,Las Palmas,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611221615|lorient|rennes,2026-11-22T16:15:00+00:00,Ligue 1,Lorient,Stade Rennais,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611221630|werder bremen|hamburg,2026-11-22T16:30:00+00:00,Bundesliga,Werder Bremen,Hamburg SV,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611221630|liverpool|man united,2026-11-22T16:30:00+00:00,Premier League,Liverpool,Manchester United,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611221700|milan|frosinone,2026-11-22T17:00:00+00:00,Serie A,AC Milan,Frosinone,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611221730|osasuna|malaga,2026-11-22T17:30:00+00:00,LaLiga,Osasuna,Málaga,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611221730|celta b|valladolid,2026-11-22T17:30:00+00:00,Segunda División,RC Celta Fortuna,Real Valladolid,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611221730|girona|eibar,2026-11-22T17:30:00+00:00,Segunda División,Girona,Eibar,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611221945|marseille|le mans,2026-11-22T19:45:00+00:00,Ligue 1,Marseille,Le Mans,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611221945|atalanta|inter,2026-11-22T19:45:00+00:00,Serie A,Atalanta,Internazionale,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611222000|getafe|ath madrid,2026-11-22T20:00:00+00:00,LaLiga,Getafe,Atlético Madrid,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611222000|burgos|albacete,2026-11-22T20:00:00+00:00,Segunda División,Burgos,Albacete,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611231930|ceuta|almeria,2026-11-23T19:30:00+00:00,Segunda División,Ceuta,Almería,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611231945|monza|fiorentina,2026-11-23T19:45:00+00:00,Serie A,Monza,Fiorentina,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611232000|brentford|everton,2026-11-23T20:00:00+00:00,Premier League,Brentford,Everton,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611232000|levante|elche,2026-11-23T20:00:00+00:00,LaLiga,Levante,Elche,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611271930|werder bremen|m gladbach,2026-11-27T19:30:00+00:00,Bundesliga,Werder Bremen,Borussia Mönchengladbach,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611271930|leganes|sabadell,2026-11-27T19:30:00+00:00,Segunda División,Leganés,CD Sabadell,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611271945|brest|paris fc,2026-11-27T19:45:00+00:00,Ligue 1,Brest,Paris FC,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611271945|venezia|bologna,2026-11-27T19:45:00+00:00,Serie A,Venezia,Bologna,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611272000|nott m forest|chelsea,2026-11-27T20:00:00+00:00,Premier League,Nottingham Forest,Chelsea,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611272000|levante|racing,2026-11-27T20:00:00+00:00,LaLiga,Levante,Racing Santander,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+SP1|202611281300|betis|vallecano,2026-11-28T13:00:00+00:00,LaLiga,Real Betis,Rayo Vallecano,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611281300|las palmas|andorra,2026-11-28T13:00:00+00:00,Segunda División,Las Palmas,FC Andorra,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611281400|frosinone|parma,2026-11-28T14:00:00+00:00,Serie A,Frosinone,Parma,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611281430|fc koln|sv elversberg,2026-11-28T14:30:00+00:00,Bundesliga,FC Cologne,SV Elversberg,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+D1|202611281430|hamburg|bayern munich,2026-11-28T14:30:00+00:00,Bundesliga,Hamburg SV,Bayern Munich,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611281430|mainz|union berlin,2026-11-28T14:30:00+00:00,Bundesliga,Mainz,1. FC Union Berlin,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611281430|paderborn|schalke 04,2026-11-28T14:30:00+00:00,Bundesliga,SC Paderborn 07,Schalke 04,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611281500|leeds|coventry,2026-11-28T15:00:00+00:00,Premier League,Leeds United,Coventry City,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611281500|man united|brentford,2026-11-28T15:00:00+00:00,Premier League,Manchester United,Brentford,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611281515|malaga|ath bilbao,2026-11-28T15:15:00+00:00,LaLiga,Málaga,Athletic Club,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611281515|albacete|tenerife,2026-11-28T15:15:00+00:00,Segunda División,Albacete,Tenerife,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611281515|eldense|girona,2026-11-28T15:15:00+00:00,Segunda División,Eldense,Girona,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611281615|angers|lens,2026-11-28T16:15:00+00:00,Ligue 1,Angers,Lens,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611281700|torino|lazio,2026-11-28T17:00:00+00:00,Serie A,Torino,Lazio,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611281730|stuttgart|ein frankfurt,2026-11-28T17:30:00+00:00,Bundesliga,VfB Stuttgart,Eintracht Frankfurt,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611281730|ipswich|aston villa,2026-11-28T17:30:00+00:00,Premier League,Ipswich Town,Aston Villa,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611281730|elche|ath madrid,2026-11-28T17:30:00+00:00,LaLiga,Elche,Atlético Madrid,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611281730|eibar|burgos,2026-11-28T17:30:00+00:00,Segunda División,Eibar,Burgos,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611281945|le havre|strasbourg,2026-11-28T19:45:00+00:00,Ligue 1,Le Havre AC,Strasbourg,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611281945|le mans|lille,2026-11-28T19:45:00+00:00,Ligue 1,Le Mans,Lille,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611281945|nice|troyes,2026-11-28T19:45:00+00:00,Ligue 1,Nice,Troyes,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611281945|paris sg|lorient,2026-11-28T19:45:00+00:00,Ligue 1,Paris Saint-Germain,Lorient,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611281945|inter|genoa,2026-11-28T19:45:00+00:00,Serie A,Internazionale,Genoa,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611282000|real madrid|alaves,2026-11-28T20:00:00+00:00,LaLiga,Real Madrid,Alavés,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611282000|valladolid|sociedad b,2026-11-28T20:00:00+00:00,Segunda División,Real Valladolid,Real Sociedad II,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611291130|udinese|fiorentina,2026-11-29T11:30:00+00:00,Serie A,Udinese,Fiorentina,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611291200|everton|liverpool,2026-11-29T12:00:00+00:00,Premier League,Everton,Liverpool,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611291300|valencia|osasuna,2026-11-29T13:00:00+00:00,LaLiga,Valencia,Osasuna,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611291300|granada|ceuta,2026-11-29T13:00:00+00:00,Segunda División,Granada,Ceuta,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611291400|auxerre|marseille,2026-11-29T14:00:00+00:00,Ligue 1,AJ Auxerre,Marseille,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611291400|sassuolo|napoli,2026-11-29T14:00:00+00:00,Serie A,Sassuolo,Napoli,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611291405|brighton|newcastle,2026-11-29T14:05:00+00:00,Premier League,Brighton & Hove Albion,Newcastle United,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611291405|crystal palace|hull,2026-11-29T14:05:00+00:00,Premier League,Crystal Palace,Hull City,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611291405|fulham|bournemouth,2026-11-29T14:05:00+00:00,Premier League,Fulham,AFC Bournemouth,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611291405|sunderland|tottenham,2026-11-29T14:05:00+00:00,Premier League,Sunderland,Tottenham Hotspur,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611291430|freiburg|leipzig,2026-11-29T14:30:00+00:00,Bundesliga,SC Freiburg,RB Leipzig,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611291515|deportivo|barcelona,2026-11-29T15:15:00+00:00,LaLiga,Deportivo,Barcelona,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+SP2|202611291515|mallorca|castellon,2026-11-29T15:15:00+00:00,Segunda División,Mallorca,Castellón,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611291615|toulouse|rennes,2026-11-29T16:15:00+00:00,Ligue 1,Toulouse,Stade Rennais,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611291630|hoffenheim|augsburg,2026-11-29T16:30:00+00:00,Bundesliga,TSG Hoffenheim,FC Augsburg,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202611291630|arsenal|man city,2026-11-29T16:30:00+00:00,Premier League,Arsenal,Manchester City,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611291700|roma|monza,2026-11-29T17:00:00+00:00,Serie A,AS Roma,Monza,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611291730|celta|villarreal,2026-11-29T17:30:00+00:00,LaLiga,Celta Vigo,Villarreal,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611291730|cadiz|cordoba,2026-11-29T17:30:00+00:00,Segunda División,Cádiz,Córdoba,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202611291830|dortmund|leverkusen,2026-11-29T18:30:00+00:00,Bundesliga,Borussia Dortmund,Bayer Leverkusen,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+F1|202611291945|lyon|monaco,2026-11-29T19:45:00+00:00,Ligue 1,Lyon,AS Monaco,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611291945|como|juventus,2026-11-29T19:45:00+00:00,Serie A,Como,Juventus,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611292000|sociedad|sevilla,2026-11-29T20:00:00+00:00,LaLiga,Real Sociedad,Sevilla,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611292000|almeria|sp gijon,2026-11-29T20:00:00+00:00,Segunda División,Almería,Sporting Gijón,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611301730|lecce|atalanta,2026-11-30T17:30:00+00:00,Serie A,Lecce,Atalanta,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP2|202611301930|oviedo|celta b,2026-11-30T19:30:00+00:00,Segunda División,Real Oviedo,RC Celta Fortuna,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202611301945|cagliari|milan,2026-11-30T19:45:00+00:00,Serie A,Cagliari,AC Milan,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202611302000|espanyol|getafe,2026-11-30T20:00:00+00:00,LaLiga,Espanyol,Getafe,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612012000|coventry|ipswich,2026-12-01T20:00:00+00:00,Premier League,Coventry City,Ipswich Town,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202612021800|sociedad|real madrid,2026-12-02T18:00:00+00:00,LaLiga,Real Sociedad,Real Madrid,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612021930|chelsea|crystal palace,2026-12-02T19:30:00+00:00,Premier League,Chelsea,Crystal Palace,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612021930|hull|nott m forest,2026-12-02T19:30:00+00:00,Premier League,Hull City,Nottingham Forest,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612021930|liverpool|sunderland,2026-12-02T19:30:00+00:00,Premier League,Liverpool,Sunderland,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612021930|man city|leeds,2026-12-02T19:30:00+00:00,Premier League,Manchester City,Leeds United,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612022015|aston villa|everton,2026-12-02T20:15:00+00:00,Premier League,Aston Villa,Everton,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612022015|bournemouth|brighton,2026-12-02T20:15:00+00:00,Premier League,AFC Bournemouth,Brighton & Hove Albion,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612022015|brentford|arsenal,2026-12-02T20:15:00+00:00,Premier League,Brentford,Arsenal,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612022015|newcastle|man united,2026-12-02T20:15:00+00:00,Premier League,Newcastle United,Manchester United,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202612022030|barcelona|ath madrid,2026-12-02T20:30:00+00:00,LaLiga,Barcelona,Atlético Madrid,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+E0|202612032000|tottenham|fulham,2026-12-03T20:00:00+00:00,Premier League,Tottenham Hotspur,Fulham,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+D1|202612041930|bayern munich|paderborn,2026-12-04T19:30:00+00:00,Bundesliga,Bayern Munich,SC Paderborn 07,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,NO
+F1|202612041945|toulouse|paris sg,2026-12-04T19:45:00+00:00,Ligue 1,Toulouse,Paris Saint-Germain,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+I1|202612041945|bologna|roma,2026-12-04T19:45:00+00:00,Serie A,Bologna,AS Roma,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI
+SP1|202612042000|alaves|espanyol,2026-12-04T20:00:00+00:00,LaLiga,Alavés,Espanyol,ESPN (no oficial),2026-11-21T15:53:23.361588+00:00,SI

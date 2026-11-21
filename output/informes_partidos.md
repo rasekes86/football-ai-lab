@@ -36,7 +36,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 27.3% / 27.5% / 45.2%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:20:45+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:49:14+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3285,7 +3285,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 12.6% / 13.0% / 74.4%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:21:23+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:50:17+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -4179,7 +4179,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 23.6% / 20.8% / 55.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:22:57+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:53:54+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

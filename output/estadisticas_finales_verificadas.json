@@ -1,16 +1,16 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-21T15:22:18.153388+00:00",
+  "calculado_utc": "2026-11-21T15:53:23.361588+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-21T15:22:18.153388+00:00",
+    "calculado_utc": "2026-11-21T15:53:23.361588+00:00",
     "objetivos_conteo": 6,
     "completos": 2,
     "incompletos": 4,
-    "scoreboards_consultados": 5,
-    "summaries_consultados": 5,
-    "campos_recuperados": 20,
-    "campos_recuperados_cache": 50,
+    "scoreboards_consultados": 4,
+    "summaries_consultados": 4,
+    "campos_recuperados": 0,
+    "campos_recuperados_cache": 70,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
     "partidos_con_faltas": 11,
@@ -146,7 +146,7 @@
       "goles_visitante": 1,
       "event_id": "401884736",
       "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736",
-      "verificado_utc": "2026-11-21T15:22:18.153388+00:00",
+      "verificado_utc": "2026-11-21T15:53:23.361588+00:00",
       "estadisticas": {
         "home_shots": 17,
         "home_on_target": 1,
@@ -192,7 +192,7 @@
       "goles_visitante": 1,
       "event_id": "401882805",
       "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805",
-      "verificado_utc": "2026-11-21T15:22:18.153388+00:00",
+      "verificado_utc": "2026-11-21T15:53:23.361588+00:00",
       "estadisticas": {
         "home_shots": 17,
         "home_on_target": 6,
@@ -215,7 +215,7 @@
       "goles_visitante": 3,
       "event_id": "401883112",
       "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112",
-      "verificado_utc": "2026-11-21T15:22:18.153388+00:00",
+      "verificado_utc": "2026-11-21T15:53:23.361588+00:00",
       "estadisticas": {
         "home_shots": 23,
         "home_on_target": 8,
@@ -238,7 +238,7 @@
       "goles_visitante": 1,
       "event_id": "401879233",
       "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233",
-      "verificado_utc": "2026-11-21T15:22:18.153388+00:00",
+      "verificado_utc": "2026-11-21T15:53:23.361588+00:00",
       "estadisticas": {
         "home_shots": 15,
         "home_on_target": 3,
