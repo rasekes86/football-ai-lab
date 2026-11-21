@@ -62,6 +62,7 @@ jobs:
             'seguimiento_selecciones.csv': {'id','clave','resultado','estado'},
             'seguimiento.csv': {'id','estado','resultado_real'},
             'seguimiento_oportunidades_150.csv': {'id','estado','retorno_simulado_unidad'},
+            'seguimiento_adicionales_teoricas.csv': {'id','estado','probabilidad','tipo_cuota'},
           }
           for name, fields in required.items():
               with (out/name).open(newline='',encoding='utf-8-sig') as f:
@@ -102,9 +103,9 @@ jobs:
           sys.path.insert(0, 'site/scripts')
           from publish_feeds import FILES
           out = Path('site/published')
-          assert len(FILES) == 17
+          assert len(FILES) == 18
           assert all((out / name).is_file() for name in FILES)
-          print('Los 17 feeds estarán disponibles en el mismo dominio de GitHub Pages.')
+          print('Los 18 feeds estarán disponibles en el mismo dominio de GitHub Pages.')
           PY
       - name: Preparar sitio
         run: |
