@@ -77,6 +77,20 @@ def _target(row):
     return None
 
 
+def quote_needed_ids(archived, existing, now):
+    """Partidos donde falta precio de al menos un Top 3 compatible, prepartido."""
+    now = _utc(now)
+    if now is None:
+        return set()
+    have = {r.get("clave") for r in existing or []}
+    return {row["id"] for row in archived or []
+            if row.get("id") and row.get("clave") not in have
+            and _target(row) is not None
+            and (kickoff := _utc(row.get("fecha_utc"))) is not None
+            and (saved := _utc(row.get("archivado_utc"))) is not None
+            and saved < kickoff and now < kickoff}
+
+
 def _compatible(pick, quote, now):
     target = _target(pick)
     if target is None or not isinstance(quote, dict):
