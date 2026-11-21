@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-21T17:15:20.445607+00:00",
-  "estado": "CORRECTO",
-  "incidencias": [],
+  "comprobado_utc": "2026-11-21T20:40:27.721786+00:00",
+  "estado": "INCIDENCIAS",
+  "incidencias": [
+    {
+      "codigo": "FALLO_REFRESCO",
+      "severidad": "ALTA",
+      "descripcion": "GitHub Actions informa de una ejecución failure en Refresco escalonado de cuotas; pendiente de la siguiente ejecución satisfactoria."
+    }
+  ],
   "detalle": {
     "analisis_utc": "2026-11-21T17:13:57.600685+00:00",
-    "partidos_proximos": 34,
+    "partidos_proximos": 24,
     "cuotas_utc": "2026-11-21T15:22:18.153388+00:00",
     "consultas_utc": "2026-11-21T15:23:16.553585+00:00",
     "errores_calendario_ultima_ronda": 0,
@@ -18,8 +24,12 @@
   "ultima_captura_revisada": "2026-11-21T15:22:18.153388+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
-  "fallos_workflow": {},
-  "notificadas": [],
-  "ultima_entrega_utc": "2026-11-21T09:24:14.828524+00:00",
-  "envio": "SIN_NOVEDADES"
+  "fallos_workflow": {
+    "Refresco escalonado de cuotas": "failure"
+  },
+  "notificadas": [
+    "FALLO_REFRESCO"
+  ],
+  "ultima_entrega_utc": "2026-11-21T20:40:27.721786+00:00",
+  "envio": "ENTREGADO"
 }
