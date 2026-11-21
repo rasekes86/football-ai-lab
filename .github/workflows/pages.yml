@@ -56,6 +56,7 @@ jobs:
           out=Path('output')
           required = {
             'predicciones.csv': {'id','liga','fecha_utc','local','visitante'},
+            'calendario_partidos.csv': {'id','liga','fecha_utc','local','visitante','primera_captura_utc'},
             'historico_predicciones.csv': {'id','fecha_analisis_utc'},
             'selecciones.csv': {'id','seleccion','mercado','probabilidad'},
             'historico_selecciones.csv': {'id','clave','archivado_utc'},
@@ -103,9 +104,9 @@ jobs:
           sys.path.insert(0, 'site/scripts')
           from publish_feeds import FILES
           out = Path('site/published')
-          assert len(FILES) == 18
+          assert len(FILES) == 19
           assert all((out / name).is_file() for name in FILES)
-          print('Los 18 feeds estarán disponibles en el mismo dominio de GitHub Pages.')
+          print('Los 19 feeds estarán disponibles en el mismo dominio de GitHub Pages.')
           PY
       - name: Preparar sitio
         run: |
