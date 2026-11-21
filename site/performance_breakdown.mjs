@@ -72,9 +72,11 @@ function groupBy(rows,keyFn){
   }
   return groups;
 }
-export function breakdownSnapshot(snapshot={}){
+export function breakdownSnapshot(snapshot={},asOf=new Date()){
+  const today=madridDay(asOf instanceof Date?asOf.toISOString():asOf);
   const rows=(Array.isArray(snapshot.rows)?snapshot.rows:[])
-    .filter(r=>r?.id&&r?.liga&&LEAGUES.includes(r.liga)&&madridDay(r.fecha_utc));
+    .filter(r=>r?.id&&r?.liga&&LEAGUES.includes(r.liga)&&madridDay(r.fecha_utc))
+    .filter(r=>!today||madridDay(r.fecha_utc)<=today);
   const days=[...groupBy(rows,r=>madridDay(r.fecha_utc)).entries()]
     .sort(([a],[b])=>b.localeCompare(a))
     .map(([key,group])=>({key,...summary(group),
@@ -130,7 +132,7 @@ function card(title,subtitle,stats,detail){
     '</article>';
 }
 export function renderPerformanceBreakdown(snapshot={},options={}){
-  const data=breakdownSnapshot(snapshot);
+  const data=breakdownSnapshot(snapshot,options.asOf??new Date());
   const max=Math.max(1,Math.min(365,Number(options.dayLimit)||12));
   const filteredLeagues=data.leagues.filter(x=>!options.league||x.name===options.league);
   const days=data.days.slice(0,max).map(d=>card(
