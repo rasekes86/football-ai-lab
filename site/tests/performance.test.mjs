@@ -168,3 +168,27 @@ test("no mezclar de exploradores ni actualizar apuestas retroactivamente",()=>{
   assert.equal(x.additional.profit,null);
   assert.equal(x.safeguards.excludesExploratory,true);
 });
+
+test("coincidencia exacta Top 3 y adicional cuenta 2+1 sin modificar archivo",()=>{
+  const picks=[
+    row(1,{mercado:"Total goles",seleccion:"Menos de 2,5 goles",probabilidad:"0.80",estado:"FINALIZADO",resultado:"1"}),
+    row(2,{mercado:"Doble oportunidad",seleccion:"1X: Tenerife o empate",probabilidad:"0.70",estado:"FINALIZADO",resultado:"0"}),
+    row(3,{mercado:"Ambos marcan",seleccion:"Sí",probabilidad:"0.60",estado:"FINALIZADO",resultado:"1"})
+  ];
+  const additional=odd({mercado:"Total goles",seleccion:"Menos de 2,5 goles",
+    estado:"FINALIZADO",resultado:"1",cuota_decimal:"1.90",tipo_cuota:"OFRECIDA_API_REGISTRADA"});
+  const frozen=JSON.stringify(picks);
+  const s=performanceSnapshot(model(picks,[additional]),{},NOW);
+  assert.equal(s.top.registered,2);
+  assert.equal(s.top.settled,2);
+  assert.equal(s.additional.settled,1);
+  assert.equal(s.combined.financialCount,3);
+  assert.equal(s.safeguards.promotedTopToAdditional,1);
+  assert.equal(s.rows.filter(r=>r.group==="Top 3").length,2);
+  assert.equal(s.rows.find(r=>r.group==="Adicional +1,50").promotedTop,true);
+  assert.equal(JSON.stringify(picks),frozen,"El Top 3 original no se modifica");
+  // Misma familia pero línea diferente: NO es una apuesta repetida.
+  const other=performanceSnapshot(model(picks,[{...additional,seleccion:"Menos de 3,5 goles"}]),{},NOW);
+  assert.equal(other.top.registered,3);
+  assert.equal(other.combined.financialCount,4);
+});
