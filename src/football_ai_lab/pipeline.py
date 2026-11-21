@@ -26,6 +26,7 @@ from .market_prospective import summary as selections_summary, FIELDS as MARKET_
 from .full_report import build_all as all_dossiers, markdown as dossier_markdown
 from .player_data import collect as collect_players
 from .player_readiness import report as player_coverage
+from .fourth_reference import freeze as freeze_fourth_reference, evaluate as evaluate_fourth_reference
 from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offers
 from .value_watchlist import selection_audit as audit_offer_selection
 from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
@@ -224,6 +225,7 @@ def main(argv=None) -> None:
         past_snapshots=(read_csv(target/"historico_predicciones.csv")
             +read_csv(target/"historico_selecciones.csv")
             +read_csv(target/"historico_oportunidades_150.csv")
+            +read_csv(target/"historico_adicionales_teoricas.csv")
             +read_csv(target/"historico_mercados_futuros.csv"))
         settlement_histories,check=augment_results(histories,past_snapshots,now)
         book.mark("marcadores_finales","OK" if not check["sin_marcador"] else "PARCIAL",
@@ -413,6 +415,17 @@ def main(argv=None) -> None:
         json.dumps(detail,ensure_ascii=False,indent=2),encoding="utf-8")
     (target/"evaluacion_selecciones.json").write_text(
         json.dumps(market_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Archive a separate fourth model-only prediction before kickoff.
+    # Real +1.50 quotations keep their own immutable ledger and precedence.
+    previous_fourth=read_csv(target/"historico_adicionales_teoricas.csv")
+    frozen_fourth=freeze_fourth_reference(predicted,previous_fourth,selections_frozen,now)
+    write_csv(target/"historico_adicionales_teoricas.csv",OFFER_FIELDS,frozen_fourth)
+    tracked_fourth=evaluate_fourth_reference(frozen_fourth,settlement_histories,now)
+    write_csv(target/"seguimiento_adicionales_teoricas.csv",OFFER_FIELDS,tracked_fourth)
+    book.mark("cuarta_referencia","OK",
+              f'{len(frozen_fourth)} selecciones teóricas archivadas; '
+              f'{sum(x.get("estado")=="FINALIZADO" for x in tracked_fourth)} liquidadas; '
+              "sin cuotas ofrecidas",len(frozen_fourth))
     # Secondary 3+1 track: real bookmaker prices were captured and compared
     # above during this SAME authorized run. Freeze a single eligible additional
     # per fixture before kickoff; the immutable original Top 3 stays untouched.
