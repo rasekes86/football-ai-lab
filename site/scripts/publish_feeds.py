@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 FILES = (
     "predicciones.csv",
+    "calendario_partidos.csv",
     "historico_predicciones.csv",
     "selecciones.csv",
     "historico_selecciones.csv",
