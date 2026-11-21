@@ -11,6 +11,7 @@ on:
       - '.github/workflows/daily.yml'
   schedule:
     # Liquidar los encuentros del dia anterior durante la madrugada.
+    # Comprobación extraordinaria solicitada: resultados finalizados de las seis ligas (21-11-2026).
     - cron: '37 4 * * *'
     # Segunda pasada matinal si ESPN publica marcadores o estadisticas mas tarde.
     - cron: '17 7 * * *'
