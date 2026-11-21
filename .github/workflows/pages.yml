@@ -104,9 +104,9 @@ jobs:
           sys.path.insert(0, 'site/scripts')
           from publish_feeds import FILES
           out = Path('site/published')
-          assert len(FILES) == 19
+          assert len(FILES) == 21
           assert all((out / name).is_file() for name in FILES)
-          print('Los 19 feeds estarán disponibles en el mismo dominio de GitHub Pages.')
+          print('Los 21 feeds estarán disponibles en el mismo dominio de GitHub Pages.')
           PY
       - name: Preparar sitio
         run: |
