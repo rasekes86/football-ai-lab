@@ -41,7 +41,7 @@ jobs:
           set -o pipefail
           (node --check site/data.mjs && node --check site/match_detail.mjs && node --test site/tests/*.test.mjs) 2>&1 | tee /tmp/football-node-tests.log
       - name: Diagnóstico temporal de pruebas fallidas
-        if: ${{ failure() && github.event_name != 'pull_request' }}
+        if: ${{ always() && github.event_name != 'pull_request' }}
         run: |
           git fetch origin main
           git reset --hard origin/main
