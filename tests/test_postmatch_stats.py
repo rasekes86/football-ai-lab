@@ -190,6 +190,25 @@ class PostmatchTests(unittest.TestCase):
             self.assertEqual(audit["exploracion"]["objetivos_detalle"][0][
                 "campos_ausentes"],["home_corners","away_corners"])
 
+    def test_no_primary_selections_does_not_inherit_exploratory_denominator(self):
+        extra=self.rows[1]  # sólo mercado exploratorio de córners
+        stats=summary()
+        for team in stats["boxscore"]["teams"]:
+            team["statistics"]=[
+                x for x in team["statistics"] if x["name"]!="cornerKicks"
+            ]
+        with tempfile.TemporaryDirectory() as root:
+            _,audit,_=enrich_statistics(
+                self.games,[extra],NOW,Path(root)/"missing.json",
+                fetcher=lambda url:self.provider(url,box=stats),
+                primary_archived=[])
+            self.assertEqual(audit["objetivos_conteo"],0)
+            self.assertEqual(audit["completos"],0)
+            self.assertEqual(audit["incompletos"],0)
+            self.assertEqual(audit["objetivos_detalle"],[])
+            self.assertEqual(audit["exploracion"]["objetivos_conteo"],1)
+            self.assertEqual(audit["exploracion"]["incompletos"],1)
+
     def test_csv_field_priority_and_partial_metrics(self):
         history={"SP2":[dict(self.games["SP2"][0],home_shots=15,away_shots=12,
             home_corners=8,away_corners=None)]}
