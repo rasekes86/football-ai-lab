@@ -1,16 +1,16 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-21T22:13:13.001581+00:00",
+  "calculado_utc": "2026-11-21T22:19:57.038472+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-21T22:13:13.001581+00:00",
+    "calculado_utc": "2026-11-21T22:19:57.038472+00:00",
     "objetivos_conteo": 28,
-    "completos": 2,
-    "incompletos": 26,
+    "completos": 13,
+    "incompletos": 15,
     "scoreboards_consultados": 9,
-    "summaries_consultados": 18,
-    "campos_recuperados": 60,
-    "campos_recuperados_cache": 240,
+    "summaries_consultados": 26,
+    "campos_recuperados": 62,
+    "campos_recuperados_cache": 300,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
     "objetivos_detalle": [
@@ -46,16 +46,10 @@
         "local_normalizado": "bayern munich",
         "visitante_normalizado": "fc koln",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
+          "on_target"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "1-1"
       },
@@ -65,16 +59,11 @@
         "local_normalizado": "ath bilbao",
         "visitante_normalizado": "espanyol",
         "metricas_requeridas": [
-          "corners",
           "on_target",
-          "shots",
           "yellow"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-1"
       },
@@ -84,16 +73,10 @@
         "local_normalizado": "andorra",
         "visitante_normalizado": "leganes",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
+          "shots"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "1-3"
       },
@@ -103,208 +86,12 @@
         "local_normalizado": "ein frankfurt",
         "visitante_normalizado": "hoffenheim",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
+          "on_target"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "1-0"
-      },
-      {
-        "liga_codigo": "D1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "m gladbach",
-        "visitante_normalizado": "dortmund",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "0-1"
-      },
-      {
-        "liga_codigo": "D1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "union berlin",
-        "visitante_normalizado": "leipzig",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "1-5"
-      },
-      {
-        "liga_codigo": "E0",
-        "fecha": "2026-11-21",
-        "local_normalizado": "aston villa",
-        "visitante_normalizado": "sunderland",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "0-0"
-      },
-      {
-        "liga_codigo": "E0",
-        "fecha": "2026-11-21",
-        "local_normalizado": "bournemouth",
-        "visitante_normalizado": "nott m forest",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "2-0"
-      },
-      {
-        "liga_codigo": "E0",
-        "fecha": "2026-11-21",
-        "local_normalizado": "chelsea",
-        "visitante_normalizado": "leeds",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "1-4"
-      },
-      {
-        "liga_codigo": "E0",
-        "fecha": "2026-11-21",
-        "local_normalizado": "man city",
-        "visitante_normalizado": "fulham",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "1-1"
-      },
-      {
-        "liga_codigo": "E0",
-        "fecha": "2026-11-21",
-        "local_normalizado": "newcastle",
-        "visitante_normalizado": "arsenal",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "2-2"
-      },
-      {
-        "liga_codigo": "E0",
-        "fecha": "2026-11-21",
-        "local_normalizado": "tottenham",
-        "visitante_normalizado": "ipswich",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "2-0"
-      },
-      {
-        "liga_codigo": "F1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "lens",
-        "visitante_normalizado": "toulouse",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "1-1"
-      },
-      {
-        "liga_codigo": "F1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "lille",
-        "visitante_normalizado": "lyon",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "0-1"
       },
       {
         "liga_codigo": "F1",
@@ -312,37 +99,12 @@
         "local_normalizado": "monaco",
         "visitante_normalizado": "auxerre",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
           "yellow"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "1-1"
-      },
-      {
-        "liga_codigo": "F1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "nice",
-        "visitante_normalizado": "paris sg",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "2-3"
       },
       {
         "liga_codigo": "F1",
@@ -350,100 +112,12 @@
         "local_normalizado": "strasbourg",
         "visitante_normalizado": "brest",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
           "yellow"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-1"
-      },
-      {
-        "liga_codigo": "I1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "como",
-        "visitante_normalizado": "cagliari",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "2-0"
-      },
-      {
-        "liga_codigo": "I1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "lazio",
-        "visitante_normalizado": "lecce",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "3-0"
-      },
-      {
-        "liga_codigo": "I1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "napoli",
-        "visitante_normalizado": "torino",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners",
-          "home_on_target",
-          "away_on_target",
-          "home_shots",
-          "away_shots",
-          "home_yellow",
-          "away_yellow"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "1-0"
-      },
-      {
-        "liga_codigo": "I1",
-        "fecha": "2026-11-21",
-        "local_normalizado": "parma",
-        "visitante_normalizado": "roma",
-        "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
-        ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
-        "marcador_verificado": true,
-        "marcador": "1-5"
       },
       {
         "liga_codigo": "SP1",
@@ -451,16 +125,11 @@
         "local_normalizado": "real madrid",
         "visitante_normalizado": "celta",
         "metricas_requeridas": [
-          "corners",
           "on_target",
-          "shots",
-          "yellow"
+          "shots"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "2-1"
       },
@@ -470,16 +139,10 @@
         "local_normalizado": "sevilla",
         "visitante_normalizado": "betis",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
+          "on_target"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "1-1"
       },
@@ -489,16 +152,11 @@
         "local_normalizado": "vallecano",
         "visitante_normalizado": "valencia",
         "metricas_requeridas": [
-          "corners",
           "on_target",
-          "shots",
-          "yellow"
+          "shots"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-1"
       },
@@ -508,16 +166,10 @@
         "local_normalizado": "castellon",
         "visitante_normalizado": "eldense",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
+          "shots"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "2-0"
       },
@@ -527,16 +179,10 @@
         "local_normalizado": "sociedad b",
         "visitante_normalizado": "cadiz",
         "metricas_requeridas": [
-          "corners",
-          "on_target",
-          "shots",
-          "yellow"
+          "shots"
         ],
-        "campos_ausentes": [
-          "home_corners",
-          "away_corners"
-        ],
-        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-3"
       }
@@ -544,15 +190,464 @@
     "incompletos_por_motivo": {
       "SIN_MARCADOR_VERIFICADO": 0,
       "DUPLICADO_HISTORICO": 0,
-      "ESTADISTICAS_INCOMPLETAS": 26
+      "ESTADISTICAS_INCOMPLETAS": 0
     },
-    "partidos_con_faltas": 34,
+    "exploracion": {
+      "objetivos_conteo": 28,
+      "completos": 28,
+      "incompletos": 0,
+      "objetivos_detalle": [
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-15",
+          "local_normalizado": "granada",
+          "visitante_normalizado": "las palmas",
+          "metricas_requeridas": [
+            "shots"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-0"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-15",
+          "local_normalizado": "tenerife",
+          "visitante_normalizado": "ceuta",
+          "metricas_requeridas": [
+            "shots"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-0"
+        },
+        {
+          "liga_codigo": "D1",
+          "fecha": "2026-11-20",
+          "local_normalizado": "bayern munich",
+          "visitante_normalizado": "fc koln",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-1"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-20",
+          "local_normalizado": "ath bilbao",
+          "visitante_normalizado": "espanyol",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-1"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-20",
+          "local_normalizado": "andorra",
+          "visitante_normalizado": "leganes",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-3"
+        },
+        {
+          "liga_codigo": "D1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "ein frankfurt",
+          "visitante_normalizado": "hoffenheim",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-0"
+        },
+        {
+          "liga_codigo": "D1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "m gladbach",
+          "visitante_normalizado": "dortmund",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-1"
+        },
+        {
+          "liga_codigo": "D1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "union berlin",
+          "visitante_normalizado": "leipzig",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-5"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-21",
+          "local_normalizado": "aston villa",
+          "visitante_normalizado": "sunderland",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-0"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-21",
+          "local_normalizado": "bournemouth",
+          "visitante_normalizado": "nott m forest",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-0"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-21",
+          "local_normalizado": "chelsea",
+          "visitante_normalizado": "leeds",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-4"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-21",
+          "local_normalizado": "man city",
+          "visitante_normalizado": "fulham",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-1"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-21",
+          "local_normalizado": "newcastle",
+          "visitante_normalizado": "arsenal",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-2"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-21",
+          "local_normalizado": "tottenham",
+          "visitante_normalizado": "ipswich",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-0"
+        },
+        {
+          "liga_codigo": "F1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "lens",
+          "visitante_normalizado": "toulouse",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-1"
+        },
+        {
+          "liga_codigo": "F1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "lille",
+          "visitante_normalizado": "lyon",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-1"
+        },
+        {
+          "liga_codigo": "F1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "monaco",
+          "visitante_normalizado": "auxerre",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-1"
+        },
+        {
+          "liga_codigo": "F1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "nice",
+          "visitante_normalizado": "paris sg",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-3"
+        },
+        {
+          "liga_codigo": "F1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "strasbourg",
+          "visitante_normalizado": "brest",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-1"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "como",
+          "visitante_normalizado": "cagliari",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-0"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "lazio",
+          "visitante_normalizado": "lecce",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "3-0"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "napoli",
+          "visitante_normalizado": "torino",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-0"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "parma",
+          "visitante_normalizado": "roma",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-5"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "real madrid",
+          "visitante_normalizado": "celta",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-1"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "sevilla",
+          "visitante_normalizado": "betis",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-1"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-21",
+          "local_normalizado": "vallecano",
+          "visitante_normalizado": "valencia",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-1"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-21",
+          "local_normalizado": "castellon",
+          "visitante_normalizado": "eldense",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-0"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-21",
+          "local_normalizado": "sociedad b",
+          "visitante_normalizado": "cadiz",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-3"
+        }
+      ]
+    },
+    "partidos_con_faltas": 35,
     "objetivos_faltas": 35,
     "limites": {
       "scoreboards": 24,
-      "summaries": 18
+      "summaries": 32
     },
-    "nota": "Solo estadísticas de partidos finalizados e identidades y marcadores concordantes. La ausencia se conserva, nunca equivale a cero. No contamina pronósticos."
+    "nota": "El total principal corresponde a conteos del Top 3 y las adicionales archivadas. Los mercados exploratorios tienen una auditoría independiente. Solo partidos finalizados y estadísticas verificadas; valores ausentes nunca equivalen a cero."
   },
   "partidos": [
     {
@@ -1109,10 +1204,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 5,
+          "visitante": 0,
+          "total": 5,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1212,10 +1309,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 1,
+          "total": 8,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1418,10 +1517,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 9,
+          "visitante": 2,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1521,10 +1622,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 6,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1727,10 +1830,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 3,
+          "visitante": 3,
+          "total": 6,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1830,10 +1935,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 9,
+          "visitante": 3,
+          "total": 12,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1933,10 +2040,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 9,
+          "visitante": 5,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2036,10 +2145,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 7,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2139,10 +2250,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 4,
+          "visitante": 8,
+          "total": 12,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2242,10 +2355,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 2,
+          "total": 9,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2345,10 +2460,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 6,
+          "visitante": 4,
+          "total": 10,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2448,10 +2565,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 3,
+          "visitante": 2,
+          "total": 5,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2654,10 +2773,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 6,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2757,10 +2878,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 5,
+          "total": 13,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2860,10 +2983,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 1,
+          "total": 8,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2963,10 +3088,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 1,
+          "visitante": 5,
+          "total": 6,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876398"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3066,10 +3193,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 3,
+          "visitante": 8,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874967"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3169,10 +3298,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 6,
+          "visitante": 3,
+          "total": 9,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879232"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3272,10 +3403,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 2,
+          "total": 9,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3375,10 +3508,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 9,
+          "visitante": 1,
+          "total": 10,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3478,10 +3613,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 9,
+          "visitante": 5,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3581,10 +3718,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 7,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3684,10 +3823,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 3,
+          "visitante": 0,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3787,10 +3928,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 1,
+          "total": 9,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3872,45 +4015,57 @@
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 22,
+          "visitante": 12,
+          "total": 34,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+          ]
         },
         "on_target": {
           "nombre": "Tiros a puerta",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 10,
+          "visitante": 2,
+          "total": 12,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+          ]
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 5,
+          "total": 13,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 2,
+          "visitante": 1,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+          ]
         },
         "red": {
           "nombre": "Tarjetas rojas",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+          ]
         },
         "fouls": {
           "nombre": "Faltas cometidas",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 13,
+          "visitante": 8,
+          "total": 21,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+          ]
         }
       },
       "selecciones": [
@@ -3983,10 +4138,12 @@
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 3,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
