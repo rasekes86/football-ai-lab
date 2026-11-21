@@ -1,5 +1,5 @@
 Refresco escalonado de cuotas — diagnóstico de pruebas
-Ejecutado: 2026-11-21T21:00:46Z
+Ejecutado: 2026-11-21T21:01:25Z
 === /tmp/football-python-tests.log ===
 test_rotate_unseen_first (test_odds_scheduler.Tests.test_rotate_unseen_first) ... ok
 test_settled_results_never_overwritten (test_odds_scheduler.Tests.test_settled_results_never_overwritten) ... ok
@@ -98,99 +98,79 @@ test_six_leagues_one_price_each_no_backfill_or_top3_change (test_value_watchlist
 test_unqueried_private_api_is_not_a_failed_bet_screen (test_value_watchlist.ValueWatchlistTests.test_unqueried_private_api_is_not_a_failed_bet_screen) ... ok
 
 ----------------------------------------------------------------------
-Ran 217 tests in 0.228s
+Ran 217 tests in 0.336s
 
 OK
 === /tmp/football-node-tests.log ===
-  ...
-# Subtest: additional list contains only original first frozen quote, not alternatives or exploratory prices
-ok 116 - additional list contains only original first frozen quote, not alternatives or exploratory prices
   ---
-  duration_ms: 0.488777
+  duration_ms: 0.835937
   type: 'test'
   ...
-# Subtest: pending soonest future extras first, then most recent past; load more is accurate
-ok 117 - pending soonest future extras first, then most recent past; load more is accurate
+# Subtest: no prices invented when missing: show explicit absence
+not ok 39 - no prices invented when missing: show explicit absence
   ---
-  duration_ms: 0.400442
+  duration_ms: 1.753727
+  type: 'test'
+  location: '/home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:67:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The input did not match the regular expression /Pendiente de consulta/. Input:
+    
+    '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="missing">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual: '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="missing">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
+  operator: 'match'
+  stack: |-
+    TestContext.<anonymous> (file:///home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:70:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: homepage flags rejected extra without pretending it was unqueried
+not ok 40 - homepage flags rejected extra without pretending it was unqueried
+  ---
+  duration_ms: 0.39173
+  type: 'test'
+  location: '/home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:75:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The input did not match the regular expression /Sin adicional viable/. Input:
+    
+    '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="no-viable">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual: '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="no-viable">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
+  operator: 'match'
+  stack: |-
+    TestContext.<anonymous> (file:///home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:79:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: untrusted strings escaped within homepage, not executable markup
+ok 41 - untrusted strings escaped within homepage, not executable markup
+  ---
+  duration_ms: 0.571975
   type: 'test'
   ...
-# Subtest: additional titles and market values are escaped in immediately visible cards
-ok 118 - additional titles and market values are escaped in immediately visible cards
-  ---
-  duration_ms: 0.239263
-  type: 'test'
-  ...
-# Subtest: additional outcomes are unmistakable without expanding: win, loss, pending, unverified
-ok 119 - additional outcomes are unmistakable without expanding: win, loss, pending, unverified
-  ---
-  duration_ms: 0.353947
-  type: 'test'
-  ...
-# Subtest: settled fixture status visible and distinct from a pending or missing selection
-ok 120 - settled fixture status visible and distinct from a pending or missing selection
-  ---
-  duration_ms: 0.201428
-  type: 'test'
-  ...
-# Subtest: los futuros se muestran de más cercano a más lejano, incluso si vienen desordenados
-ok 121 - los futuros se muestran de más cercano a más lejano, incluso si vienen desordenados
-  ---
-  duration_ms: 9.706477
-  type: 'test'
-  ...
-# Subtest: Todos: próximos primero, después el histórico más reciente
-ok 122 - Todos: próximos primero, después el histórico más reciente
-  ---
-  duration_ms: 0.305891
-  type: 'test'
-  ...
-# Subtest: Ya disputados: orden cronológico inverso, sin perturbar el futuro
-ok 123 - Ya disputados: orden cronológico inverso, sin perturbar el futuro
-  ---
-  duration_ms: 0.153489
-  type: 'test'
-  ...
-# Subtest: datos inválidos al final, sin impedir que se muestren partidos válidos
-ok 124 - datos inválidos al final, sin impedir que se muestren partidos válidos
-  ---
-  duration_ms: 0.200979
-  type: 'test'
-  ...
-# Subtest: filtro inicial de Partidos prioriza próximos partidos sin orden contrario
-ok 125 - filtro inicial de Partidos prioriza próximos partidos sin orden contrario
-  ---
-  duration_ms: 0.950296
-  type: 'test'
-  ...
-# Subtest: only explicit light preference enables light theme
-ok 126 - only explicit light preference enables light theme
-  ---
-  duration_ms: 0.842704
-  type: 'test'
-  ...
-# Subtest: light mode restores across app startup and switches back to dark
-ok 127 - light mode restores across app startup and switches back to dark
-  ---
-  duration_ms: 0.510768
-  type: 'test'
-  ...
-# Subtest: denied storage cannot break appearance switch
-ok 128 - denied storage cannot break appearance switch
-  ---
-  duration_ms: 0.248531
-  type: 'test'
-  ...
-# Subtest: app shell caches both appearance assets and loads light palette after dark
-ok 129 - app shell caches both appearance assets and loads light palette after dark
-  ---
-  duration_ms: 1.045844
-  type: 'test'
-  ...
+# Subtest: catálogo visible incluye las estadísticas solicitadas
+ok 42 - catálogo visible incluye las estadísticas solicitadas
+--- Resumen ---
 # Subtest: applying theme works even when optional controls are unavailable
 ok 130 - applying theme works even when optional controls are unavailable
   ---
-  duration_ms: 0.154018
+  duration_ms: 0.237673
   type: 'test'
   ...
 1..130
@@ -201,4 +181,4 @@ ok 130 - applying theme works even when optional controls are unavailable
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 521.845765
+# duration_ms 659.424687
