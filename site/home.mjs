@@ -52,7 +52,7 @@ export function homeSnapshot(model={},now=new Date()){
   };
 }
 
-function matchCard(m,crest){
+function matchCard(m,crest,now){
   const picks=(m.picks||[]).slice(0,3);
   const extra=additional(m);
   const price=extra?oddsFmt.format(Number(extra.cuota_decimal)):"";
@@ -61,13 +61,14 @@ function matchCard(m,crest){
     '</span><strong>'+ (numberOrNull(p.probabilidad)===null?"—":
       pctFmt.format(Number(p.probabilidad)))+'</strong></div>'
   ).join(""):'<p class="home-muted">Top 3 todavía no archivado.</p>';
+  const status=extra?null:additionalStatus(m,now);
   const extraRow=extra?
     '<div class="home-extra"><div><span class="home-label">ADICIONAL +1,50</span>'+
     '<strong>'+escape(extra.seleccion)+'</strong></div>'+
     '<span class="home-odds"><small>CUOTA REGISTRADA</small><b>'+escape(price)+'</b></span></div>':
-    '<div class="home-extra home-extra-empty '+escape(additionalStatus(m)?.style||"pending")+'">'+
-    '<span><strong>'+escape(additionalStatus(m)?.label||"Sin adicional archivada")+'</strong>'+
-    '<small>'+escape(additionalStatus(m)?.explanation||"No consta una cuota verificada.")+'</small></span></div>';
+    '<div class="home-extra home-extra-empty '+escape(status?.style||"pending")+'">'+
+    '<span><strong>'+escape(status?.label||"Sin adicional archivada")+'</strong>'+
+    '<small>'+escape(status?.explanation||"No consta una cuota verificada.")+'</small></span></div>';
   return '<article class="home-fixture">'+
     '<div class="home-match-head"><span>'+escape(m.liga)+'</span>'+
     '<time>'+escape(date(m.fecha_utc))+'</time></div>'+
@@ -103,7 +104,7 @@ export function renderHomeView(model={},crest=()=>"",now=new Date()){
     '<div class="home-stat"><span>ACIERTOS ADICIONALES</span><strong>'+extraRate+'</strong><small>'+top.hits+'/'+top.settled+' aciertos Top 3</small></div>';
   return {
     stats,
-    upcoming:data.next.length?data.next.map(m=>matchCard(m,crest)).join(""):
+    upcoming:data.next.length?data.next.map(m=>matchCard(m,crest,now)).join(""):
       '<p class="home-empty">No hay encuentros próximos publicados. Consulta Partidos o actualiza los datos.</p>',
     recent:data.recent.length?data.recent.map(recentCard).join(""):
       '<p class="home-empty">Todavía no hay resultados finales suficientes.</p>',
