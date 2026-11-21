@@ -16,6 +16,7 @@ from .telegram_notify import send
 
 DAILY_LIMIT = timedelta(hours=36)
 ODDS_LIMIT = timedelta(hours=9)
+EARLY_SETTLEMENT_GRACE = timedelta(hours=10)
 SETTLEMENT_GRACE = timedelta(hours=48)
 MIN_CALENDAR_ERRORS = 2
 MIN_CALENDAR_ROUNDS = 2
@@ -128,21 +129,29 @@ def assess(target, now, previous=None, *, odds_enabled=True,
     detail["racha_calendario"] = streak
     detail["racha_proveedor"] = generic_streak
 
-    # Delay only PENDIENTE after 48h in at least TWO distinct matches,
-    # considering the TOP 3 and the single frozen additional per fixture.
-    # Never treat unavailable final statistics as a wrong forecast.
-    delayed = {
-        str(row.get("id") or "")
-        for row in picks
-        if row.get("id") and row.get("estado") == "PENDIENTE"
-        and (kick := _dt(row.get("fecha_utc")))
-        and now - kick > SETTLEMENT_GRACE
-    }
+    # Contar partidos distintos, no las cuatro selecciones del mismo partido.
+    # Una ronda nocturna omitida requiere aviso antes de las 48 horas.
+    # Estadisticas ausentes no equivalen a pronosticos fallidos.
+    def pending_older_than(grace):
+        return {
+            str(row.get("id") or "")
+            for row in picks
+            if row.get("id") and row.get("estado") == "PENDIENTE"
+            and (kick := _dt(row.get("fecha_utc")))
+            and now - kick > grace
+        }
+    early = pending_older_than(EARLY_SETTLEMENT_GRACE)
+    delayed = pending_older_than(SETTLEMENT_GRACE)
+    detail["partidos_sin_liquidar_10h"] = len(early)
     detail["partidos_sin_liquidar_48h"] = len(delayed)
     if len(delayed) >= 2:
         issues.append(_issue("LIQUIDACION_RETRASADA", "MEDIA",
             f"{len(delayed)} partidos llevan más de 48 horas pendientes de liquidación "
             "(se cuentan partidos distintos, no selecciones)."))
+    elif len(early) >= 2:
+        issues.append(_issue("LIQUIDACION_MATINAL_PENDIENTE", "MEDIA",
+            f"{len(early)} partidos llevan más de 10 horas sin liquidar; "
+            "revisar la ronda postpartido nocturna de GitHub Actions."))
 
     # A failed workflow stays unresolved until THAT workflow succeeds;
     # a later unrelated monitoring tick must not falsely clear the incident.
