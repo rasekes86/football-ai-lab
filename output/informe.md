@@ -1,15 +1,14 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-20T16:08:55.222409+00:00
+**UTC:** 2026-11-21T07:46:08.990890+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 122
-**Descartados por insuficiencia de datos:** 8
-**Históricos evaluados:** 5
-**Brier 1X2 medio:** 0.1916
+**Próximos partidos con pronóstico:** 121
+**Descartados por insuficiencia de datos:** 9
+**Históricos evaluados:** 9
+**Brier 1X2 medio:** 0.2359
 
 | Liga | Fecha UTC | Partido | Local | Empate | Visitante |
 |---|---|---|---:|---:|---:|
-| LaLiga | 2026-11-20T20:00 | Athletic Club - Espanyol | 45.1% | 26.5% | 28.3% |
 | LaLiga | 2026-11-21T15:15 | Rayo Vallecano - Valencia | 48.2% | 26.8% | 25.0% |
 | LaLiga | 2026-11-21T17:30 | Sevilla - Real Betis | 32.1% | 25.8% | 42.2% |
 | LaLiga | 2026-11-21T20:00 | Real Madrid - Celta Vigo | 59.5% | 24.3% | 16.2% |
@@ -27,7 +26,7 @@
 | LaLiga | 2026-11-30T20:00 | Espanyol - Getafe | 43.6% | 29.4% | 27.0% |
 | LaLiga | 2026-12-02T18:00 | Real Sociedad - Real Madrid | 24.0% | 22.8% | 53.2% |
 | LaLiga | 2026-12-02T20:30 | Barcelona - Atlético Madrid | 66.5% | 19.3% | 14.2% |
-| Segunda División | 2026-11-20T19:30 | FC Andorra - Leganés | 47.6% | 24.4% | 28.0% |
+| LaLiga | 2026-12-04T20:00 | Alavés - Espanyol | 43.0% | 25.6% | 31.5% |
 | Segunda División | 2026-11-21T13:00 | CD Sabadell - Granada | 44.0% | 26.0% | 29.9% |
 | Segunda División | 2026-11-21T15:15 | Real Sociedad II - Cádiz | 44.8% | 25.5% | 29.8% |
 | Segunda División | 2026-11-21T17:30 | Castellón - Eldense | 65.3% | 20.6% | 14.1% |
@@ -79,7 +78,6 @@
 | Premier League | 2026-12-02T20:15 | Brentford - Arsenal | 29.0% | 28.0% | 43.1% |
 | Premier League | 2026-12-02T20:15 | Newcastle United - Manchester United | 37.5% | 25.4% | 37.1% |
 | Premier League | 2026-12-03T20:00 | Tottenham Hotspur - Fulham | 36.9% | 27.6% | 35.5% |
-| Bundesliga | 2026-11-20T19:30 | Bayern Munich - FC Cologne | 81.0% | 13.5% | 5.6% |
 | Bundesliga | 2026-11-21T14:30 | 1. FC Union Berlin - RB Leipzig | 35.5% | 23.9% | 40.6% |
 | Bundesliga | 2026-11-21T14:30 | Borussia Mönchengladbach - Borussia Dortmund | 20.1% | 22.0% | 57.9% |
 | Bundesliga | 2026-11-21T14:30 | Eintracht Frankfurt - TSG Hoffenheim | 45.3% | 22.1% | 32.6% |
@@ -113,7 +111,7 @@
 | Serie A | 2026-11-29T19:45 | Como - Juventus | 46.6% | 25.9% | 27.5% |
 | Serie A | 2026-11-30T17:30 | Lecce - Atalanta | 24.3% | 24.7% | 51.0% |
 | Serie A | 2026-11-30T19:45 | Cagliari - AC Milan | 24.9% | 26.6% | 48.5% |
-| Ligue 1 | 2026-11-20T19:45 | Troyes - Le Havre AC | 41.3% | 25.2% | 33.5% |
+| Serie A | 2026-12-04T19:45 | Bologna - AS Roma | 24.5% | 23.5% | 52.0% |
 | Ligue 1 | 2026-11-21T16:15 | Nice - Paris Saint-Germain | 22.0% | 22.7% | 55.3% |
 | Ligue 1 | 2026-11-21T19:45 | AS Monaco - AJ Auxerre | 60.4% | 21.3% | 18.3% |
 | Ligue 1 | 2026-11-21T19:45 | Lens - Toulouse | 49.3% | 24.6% | 26.0% |
@@ -131,6 +129,7 @@
 | Ligue 1 | 2026-11-29T14:00 | AJ Auxerre - Marseille | 31.1% | 26.9% | 42.0% |
 | Ligue 1 | 2026-11-29T16:15 | Toulouse - Stade Rennais | 41.9% | 22.5% | 35.6% |
 | Ligue 1 | 2026-11-29T19:45 | Lyon - AS Monaco | 53.1% | 22.5% | 24.4% |
+| Ligue 1 | 2026-12-04T19:45 | Toulouse - Paris Saint-Germain | 20.6% | 22.4% | 57.1% |
 
 ## Avisos
 
@@ -155,17 +154,17 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **2** / 122. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **3** / 121. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **127**
-Resultados reales verificados: **5**
+Pronósticos archivados: **130**
+Resultados reales verificados: **9**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
-Brier prospectivo: **0.19161**; log loss: **0.95462**. Acierto del favorito: **80.0%**.
+Brier prospectivo: **0.23594**; log loss: **1.12953**. Acierto del favorito: **55.6%**.
 
 ## Encuentros descartados
 
@@ -177,6 +176,7 @@ Brier prospectivo: **0.19161**; log loss: **0.95462**. Acierto del favorito: **8
 - SV Elversberg - SC Freiburg: historial insuficiente o nombre desconocido
 - Schalke 04 - VfB Stuttgart: historial insuficiente o nombre desconocido
 - FC Cologne - SV Elversberg: historial insuficiente o nombre desconocido
+- Bayern Munich - SC Paderborn 07: historial insuficiente o nombre desconocido
 
 ## Selector de mercados · probabilidades experimentales
 
@@ -190,13 +190,13 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **48**; finalizadas: **5**; pendientes: **43**.
+Selecciones archivadas: **48**; finalizadas: **9**; pendientes: **39**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **381** selecciones archivadas antes del partido; **15** resueltas.
+Seguimiento real del Top 3: **390** selecciones archivadas antes del partido; **27** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 4454 líneas congeladas, 16 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 4574 líneas congeladas, 136 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

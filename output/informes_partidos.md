@@ -1,52 +1,5 @@
 # Football AI Lab — dossiers completos de la jornada
 
-## Athletic Club – Espanyol
-
-**LaLiga · 2026-11-20T20:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 45.1% | 26.5% | 28.3% | 42.9% |
-
-### Forma, descanso y estadísticas
-
-**Athletic Club:** posición 7 · 16 puntos.
-- Últimos partidos: 2V · 2E · 1D; secuencia: E · V · V · D · E
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 14,0, a puerta 3,4, córners 5,2, amarillas 1,6
-
-**Espanyol:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · V · D · D · E
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 9,2, a puerta 2,8, córners 4,4, amarillas 3,6
-
-### Enfrentamientos previos
-- 2026-05-13: Espanol 2-0 Ath Bilbao
-- 2025-12-22: Ath Bilbao 1-2 Espanol
-- 2025-02-16: Espanol 1-1 Ath Bilbao
-- 2024-10-19: Ath Bilbao 4-1 Espanol
-
-### Tres selecciones del modelo (experimentales)
-1. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 86.7% · cuota justa 1.15; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Athletic Club: menos de 2,5 goles** (Goles equipo): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 83.5% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 53.2% / 25.9% / 20.8%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Rayo Vallecano – Valencia
 
 **LaLiga · 2026-11-21T15:15:00+00:00 · modelo poisson70-elo30-0.2**
@@ -717,7 +670,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Espanyol:** clasificación no disponible en datos recuperados.
+**Espanyol:** posición 10 · 15 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: E · V · D · D · E
 - Días desde el último partido liguero registrado: 23
 - Medias recientes: Tiros 9,2, a puerta 2,8, córners 4,4, amarillas 3,6
@@ -848,42 +801,42 @@
 
 ---
 
-## FC Andorra – Leganés
+## Alavés – Espanyol
 
-**Segunda División · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+**LaLiga · 2026-12-04T20:00:00+00:00 · modelo poisson70-elo30-0.2**
 
 ### Probabilidades del modelo principal
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 47.6% | 24.4% | 28.0% | 48.2% |
+| 43.0% | 25.6% | 31.5% | 49.0% |
 
 ### Forma, descanso y estadísticas
 
-**FC Andorra:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 1E · 3D; secuencia: D · E · D · D · V
-- Días desde el último partido liguero registrado: 6
-- Medias recientes: Tiros 13,8, a puerta 6,2, córners 5,2, amarillas 3,6
+**Alavés:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 2E · 3D; secuencia: E · D · E · D · D
+- Días desde el último partido liguero registrado: 28
+- Medias recientes: Tiros 12,4, a puerta 4,2, córners 3,6, amarillas 1,8
 
-**Leganés:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 1E · 3D; secuencia: V · D · D · E · D
-- Días desde el último partido liguero registrado: 7
-- Medias recientes: Tiros 13,4, a puerta 5,2, córners 5,4, amarillas 4,4
+**Espanyol:** posición 10 · 15 puntos.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · V · D · D · E
+- Días desde el último partido liguero registrado: 27
+- Medias recientes: Tiros 9,2, a puerta 2,8, córners 4,4, amarillas 3,6
 
 ### Enfrentamientos previos
-- 2026-04-26: Leganes 0-4 Andorra
-- 2025-10-04: Andorra 1-2 Leganes
-- 2024-01-14: Andorra 2-3 Leganes
-- 2023-08-13: Leganes 0-1 Andorra
+- 2026-01-30: Espanol 1-2 Alaves
+- 2025-11-02: Alaves 2-1 Espanol
+- 2025-02-22: Alaves 0-1 Espanol
+- 2024-09-14: Espanol 3-2 Alaves
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 85.1% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **FC Andorra: menos de 2,5 goles** (Goles equipo): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 75.6% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **Alavés +1,5** (Hándicap 2 vías (medio gol)): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 19,5 tiros totales** (Tiros totales): 84.2% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 84.1% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 48.4% / 24.8% / 26.8%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-20T16:07:20+00:00)
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -927,7 +880,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 39.4% / 29.0% / 31.7%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T07:46:51+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -1880,7 +1833,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 67.5% / 16.6% / 15.9%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T07:46:50+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3239,53 +3192,6 @@
 
 ---
 
-## Bayern Munich – FC Cologne
-
-**Bundesliga · 2026-11-20T19:30:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 81.0% | 13.5% | 5.6% | 82.5% |
-
-### Forma, descanso y estadísticas
-
-**Bayern Munich:** posición 1 · 21 puntos.
-- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · V · V · E
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 25,0, a puerta 10,0, córners 7,8, amarillas 1,0
-
-**FC Cologne:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · E · D · V
-- Días desde el último partido liguero registrado: 12
-- Medias recientes: Tiros 13,6, a puerta 4,6, córners 4,6, amarillas 2,8
-
-### Enfrentamientos previos
-- 2026-05-16: Bayern Munich 5-1 FC Koln
-- 2026-01-14: FC Koln 1-3 Bayern Munich
-- 2024-04-13: Bayern Munich 2-0 FC Koln
-- 2023-11-24: FC Koln 0-1 Bayern Munich
-
-### Tres selecciones del modelo (experimentales)
-1. **12: gana uno de los dos** (Doble oportunidad): 86.5% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-2. **Más de 2,5 goles** (Total goles): 82.5% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 7,5 tiros a puerta totales** (Tiros a puerta totales): 81.0% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 83.0% / 8.3% / 8.7%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## 1. FC Union Berlin – RB Leipzig
 
 **Bundesliga · 2026-11-21T14:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -3588,7 +3494,7 @@
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 13,4, a puerta 4,0, córners 4,4, amarillas 2,0
 
-**Bayern Munich:** posición 1 · 21 puntos.
+**Bayern Munich:** posición 1 · 22 puntos.
 - Últimos partidos: 3V · 2E · 0D; secuencia: V · E · V · V · E
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 25,0, a puerta 10,0, córners 7,8, amarillas 1,0
@@ -3935,7 +3841,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 55.3% / 28.1% / 16.6%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T07:35:38+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -4840,39 +4746,43 @@
 
 ---
 
-## Troyes – Le Havre AC
+## Bologna – AS Roma
 
-**Ligue 1 · 2026-11-20T19:45:00+00:00 · modelo poisson70-elo30-0.2**
+**Serie A · 2026-12-04T19:45:00+00:00 · modelo poisson70-elo30-0.2**
 
 ### Probabilidades del modelo principal
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 41.3% | 25.2% | 33.5% | 52.4% |
+| 24.5% | 23.5% | 52.0% | 47.1% |
 
 ### Forma, descanso y estadísticas
 
-**Troyes:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 1E · 3D; secuencia: D · V · E · D · D
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 11,4, a puerta 3,8, córners 3,8, amarillas 2,4
+**Bologna:** posición 8 · 17 puntos.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
+- Días desde el último partido liguero registrado: 27
+- Medias recientes: Tiros 14,6, a puerta 5,8, córners 6,2, amarillas 2,6
 
-**Le Havre AC:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 12
-- Medias recientes: Tiros 17,8, a puerta 5,0, córners 5,0, amarillas 1,4
+**AS Roma:** posición 3 · 27 puntos.
+- Últimos partidos: 4V · 1E · 0D; secuencia: V · V · V · E · V
+- Días desde el último partido liguero registrado: 27
+- Medias recientes: Tiros 20,2, a puerta 7,0, córners 7,8, amarillas 2,0
 
 ### Enfrentamientos previos
-- No disponibles en el histórico consultado
+- 2026-04-25: Bologna 0-2 Roma
+- 2025-08-23: Roma 1-0 Bologna
+- 2025-01-12: Bologna 2-2 Roma
+- 2024-11-10: Roma 2-3 Bologna
+- 2024-04-22: Roma 1-3 Bologna
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Troyes: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Le Havre AC +1,5** (Hándicap 2 vías (medio gol)): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **AS Roma: más de 0,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Bologna: menos de 1,5 goles** (Goles equipo): 76.8% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 76.5% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 30.4% / 30.9% / 38.7%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-20T16:07:18+00:00)
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -5665,6 +5575,54 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 49.1% / 28.6% / 22.3%. No sustituye al modelo principal.
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Toulouse – Paris Saint-Germain
+
+**Ligue 1 · 2026-12-04T19:45:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 20.6% | 22.4% | 57.1% | 59.9% |
+
+### Forma, descanso y estadísticas
+
+**Toulouse:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 2E · 1D; secuencia: V · D · E · V · E
+- Días desde el último partido liguero registrado: 28
+- Medias recientes: Tiros 10,4, a puerta 4,8, córners 4,0, amarillas 2,6
+
+**Paris Saint-Germain:** posición 1 · 23 puntos.
+- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
+- Días desde el último partido liguero registrado: 27
+- Medias recientes: Tiros 17,4, a puerta 8,4, córners 5,0, amarillas 1,0
+
+### Enfrentamientos previos
+- 2026-04-03: Paris SG 3-1 Toulouse
+- 2025-08-30: Toulouse 3-6 Paris SG
+- 2025-02-15: Toulouse 0-1 Paris SG
+- 2024-11-22: Paris SG 3-0 Toulouse
+- 2024-05-12: Paris SG 1-3 Toulouse
+
+### Tres selecciones del modelo (experimentales)
+1. **Paris Saint-Germain: más de 0,5 goles** (Goles equipo): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Toulouse +2,5** (Hándicap 2 vías (medio gol)): 82.6% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 81.5% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar

@@ -1,20 +1,20 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-20T16:08:55.222409+00:00",
+  "calculado_utc": "2026-11-21T07:46:08.990890+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-20T16:08:55.222409+00:00",
-    "objetivos_conteo": 2,
+    "calculado_utc": "2026-11-21T07:46:08.990890+00:00",
+    "objetivos_conteo": 5,
     "completos": 2,
-    "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "incompletos": 3,
+    "scoreboards_consultados": 4,
+    "summaries_consultados": 4,
+    "campos_recuperados": 40,
     "campos_recuperados_cache": 10,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
-    "partidos_con_faltas": 5,
-    "objetivos_faltas": 5,
+    "partidos_con_faltas": 9,
+    "objetivos_faltas": 9,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
@@ -135,6 +135,98 @@
         "away_yellow": 5,
         "away_red": 0,
         "away_fouls": 15
+      }
+    },
+    {
+      "liga_codigo": "D1",
+      "fecha": "2026-11-20",
+      "local": "Bayern Munich",
+      "visitante": "FC Cologne",
+      "goles_local": 1,
+      "goles_visitante": 1,
+      "event_id": "401884736",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736",
+      "verificado_utc": "2026-11-21T07:46:08.990890+00:00",
+      "estadisticas": {
+        "home_shots": 17,
+        "home_on_target": 1,
+        "home_yellow": 1,
+        "home_red": 0,
+        "home_fouls": 6,
+        "away_shots": 7,
+        "away_on_target": 4,
+        "away_yellow": 2,
+        "away_red": 0,
+        "away_fouls": 3
+      }
+    },
+    {
+      "liga_codigo": "F1",
+      "fecha": "2026-11-20",
+      "local": "Troyes",
+      "visitante": "Le Havre AC",
+      "goles_local": 3,
+      "goles_visitante": 1,
+      "event_id": "401876395",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876395",
+      "verificado_utc": "2026-11-21T07:46:08.990890+00:00",
+      "estadisticas": {
+        "home_shots": 19,
+        "home_on_target": 7,
+        "home_yellow": 2,
+        "home_red": 0,
+        "home_fouls": 19,
+        "away_shots": 7,
+        "away_on_target": 3,
+        "away_yellow": 3,
+        "away_red": 1,
+        "away_fouls": 22
+      }
+    },
+    {
+      "liga_codigo": "SP1",
+      "fecha": "2026-11-20",
+      "local": "Athletic Club",
+      "visitante": "Espanyol",
+      "goles_local": 0,
+      "goles_visitante": 1,
+      "event_id": "401882805",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805",
+      "verificado_utc": "2026-11-21T07:46:08.990890+00:00",
+      "estadisticas": {
+        "home_shots": 17,
+        "home_on_target": 6,
+        "home_yellow": 3,
+        "home_red": 0,
+        "home_fouls": 16,
+        "away_shots": 6,
+        "away_on_target": 3,
+        "away_yellow": 1,
+        "away_red": 0,
+        "away_fouls": 13
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-20",
+      "local": "FC Andorra",
+      "visitante": "Leganés",
+      "goles_local": 1,
+      "goles_visitante": 3,
+      "event_id": "401883112",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112",
+      "verificado_utc": "2026-11-21T07:46:08.990890+00:00",
+      "estadisticas": {
+        "home_shots": 23,
+        "home_on_target": 8,
+        "home_yellow": 4,
+        "home_red": 1,
+        "home_fouls": 10,
+        "away_shots": 10,
+        "away_on_target": 7,
+        "away_yellow": 3,
+        "away_red": 0,
+        "away_fouls": 14
       }
     }
   ]

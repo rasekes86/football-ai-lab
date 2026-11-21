@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-20T16:08:55.222409+00:00",
+  "timestamp_utc": "2026-11-21T07:46:08.990890+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -111,7 +111,7 @@
           "nombre": "Athletic Club",
           "posicion": 7,
           "puntos": 16,
-          "jugados": 11
+          "jugados": 12
         },
         {
           "nombre": "Villarreal",
@@ -126,10 +126,10 @@
           "jugados": 12
         },
         {
-          "nombre": "Racing Santander",
+          "nombre": "Espanyol",
           "posicion": 10,
-          "puntos": 14,
-          "jugados": 12
+          "puntos": 15,
+          "jugados": 13
         }
       ]
     },
@@ -139,8 +139,8 @@
         {
           "nombre": "Bayern Munich",
           "posicion": 1,
-          "puntos": 21,
-          "jugados": 9
+          "puntos": 22,
+          "jugados": 10
         },
         {
           "nombre": "Borussia Dortmund",
@@ -459,11 +459,11 @@
     },
     {
       "equipo": "Man Utd",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 13,
       "estados": {
         "injured": 5,
-        "unavailable": 4,
-        "doubtful": 2
+        "doubtful": 4,
+        "unavailable": 4
       }
     },
     {
