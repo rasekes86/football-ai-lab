@@ -7,9 +7,9 @@ import { feedSources, fetchPublishedFeed } from "../feed_loader.mjs";
 
 const ROOT = "https://rasekes86.github.io/football-ai-lab/published/";
 
-test("all 18 feeds are safe public CSV/JSON names and mirrored explicitly", () => {
+test("all 19 feeds are safe public CSV/JSON names and mirrored explicitly", () => {
   const filenames = Object.values(FEEDS);
-  assert.equal(filenames.length, 18);
+  assert.equal(filenames.length, 19);
   const source = readFileSync(fileURLToPath(new URL("../scripts/publish_feeds.py", import.meta.url)), "utf8");
   for (const filename of filenames) {
     assert.match(source, new RegExp('"' + filename.replaceAll(".", "\\.") + '"'));
