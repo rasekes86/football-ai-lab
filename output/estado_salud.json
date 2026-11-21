@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-21T09:16:23.468537+00:00",
+  "comprobado_utc": "2026-11-21T09:16:59.756850+00:00",
   "estado": "INCIDENCIAS",
   "incidencias": [
     {
       "codigo": "FALLO_ANALISIS",
       "severidad": "ALTA",
-      "descripcion": "GitHub Actions informa de una ejecución cancelled en Analisis futbol diario; pendiente de la siguiente ejecución satisfactoria."
+      "descripcion": "GitHub Actions informa de una ejecución failure en Analisis futbol diario; pendiente de la siguiente ejecución satisfactoria."
     }
   ],
   "detalle": {
@@ -25,11 +25,11 @@
   "racha_calendario": 0,
   "racha_proveedor": 0,
   "fallos_workflow": {
-    "Analisis futbol diario": "cancelled"
+    "Analisis futbol diario": "failure"
   },
   "notificadas": [
     "FALLO_ANALISIS"
   ],
   "ultima_entrega_utc": "2026-11-21T09:16:23.468537+00:00",
-  "envio": "ENTREGADO"
+  "envio": "SIN_NOVEDADES"
 }
