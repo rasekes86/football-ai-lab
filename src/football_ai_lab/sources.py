@@ -84,15 +84,20 @@ def load_history(league: str, today: date) -> list[dict]:
     return sorted(distinct.values(), key=lambda r: r["date"])
 
 
-def parse_espn_events(body: bytes, league: str, today: date) -> list[dict]:
+def parse_espn_events(body: bytes, league: str, today: date, include_started: bool = False) -> list[dict]:
     out = []
     now = datetime.now(timezone.utc)
     for event in json.loads(body).get("events", []):
         try:
-            if event["status"]["type"]["name"] not in {"STATUS_SCHEDULED", "STATUS_PRE"}:
+            status = event["status"]["type"]["name"]
+            # A fixture calendar includes live/final games; no predictions
+            # after kickoff. Exclude events that won't be played.
+            if status in {"STATUS_CANCELED", "STATUS_POSTPONED", "STATUS_ABANDONED"}:
+                continue
+            if not include_started and status not in {"STATUS_SCHEDULED", "STATUS_PRE"}:
                 continue
             kickoff = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
-            if kickoff < now:
+            if kickoff < now and not include_started:
                 continue
             competitors = event["competitions"][0]["competitors"]
             home = next(x for x in competitors if x["homeAway"] == "home")["team"]["displayName"]
@@ -103,13 +108,15 @@ def parse_espn_events(body: bytes, league: str, today: date) -> list[dict]:
     return out
 
 
-def load_fixtures(league: str, today: date, days: int = 7) -> list[dict]:
+def load_fixtures(league: str, today: date, days: int = 7,
+                  include_started: bool = False) -> list[dict]:
     seen = {}
     for offset in range(days):
         d = today + timedelta(days=offset)
         url = ESPN_URL.format(code=LEAGUES[league][1]) + "?" + urlencode({"dates": d.strftime("%Y%m%d")})
         try:
-            for event in parse_espn_events(http_read(url), league, today):
+            for event in parse_espn_events(http_read(url), league, today,
+                                           include_started=include_started):
                 key = event["event_id"] or str((event["kickoff"], event["home"], event["away"]))
                 seen[key] = event
         except Exception as exc:
