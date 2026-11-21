@@ -64,7 +64,7 @@ class Top3OddsTests(unittest.TestCase):
             quote(local="Otro"), quote(resultado="over"),
             quote(cuota=1.0), quote(proveedor="DESCONOCIDO"),
             quote(capturado_utc="2026-11-22T18:00:00+00:00"),
-            quote(evento_id=""), quote(archivado_utc=""),
+            quote(evento_id=""), quote(fuente="http://invalid.example"),
         ]
         self.assertEqual(freeze_top3_quotes([original], {"cuotas": bad}, [], NOW), [])
 
