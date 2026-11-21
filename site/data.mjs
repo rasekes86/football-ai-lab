@@ -15,6 +15,7 @@ export const FEEDS = Object.freeze({
   seguimiento_selecciones: "seguimiento_selecciones.csv",
   seguimiento: "seguimiento.csv",
   cuotas: "seguimiento_oportunidades_150.csv",
+  cuota_teorica: "seguimiento_adicionales_teoricas.csv",
   evaluacion_selecciones: "evaluacion_selecciones.json",
   evaluacion_cuotas: "evaluacion_oportunidades_150.json",
   evaluacion_real: "evaluacion_real.json",
@@ -159,6 +160,7 @@ export function buildModel(feeds, now = new Date()) {
   const archived = groupBy(source("historico_selecciones"), "id");
   const evaluated = groupBy(source("seguimiento_selecciones"), "id");
   const odds = groupBy(source("cuotas"), "id");
+  const theoreticalOdds = groupBy(source("cuota_teorica"), "id");
   const breakdown = new Map((feeds.desglose_postpartido?.partidos || []).map(item => [item.id, item]));
   const followups = new Map(source("seguimiento").map(x => [x.id, x]));
   const map = new Map();
@@ -183,12 +185,14 @@ export function buildModel(feeds, now = new Date()) {
   for (const row of source("historico_selecciones")) add(row, "pick");
   for (const row of source("seguimiento")) add(row, "followup");
   for (const row of source("cuotas")) add(row, "odds");
+  for (const row of source("cuota_teorica")) add(row, "odds");
   for (const row of source("selecciones")) add(row, "pick");
 
   const matches = [...map.values()].map(m => {
     // Registrado primero antes del partido: nunca sustituir por recálculos.
     m.originalPicks = pickSorted(evaluated.get(m.id) || archived.get(m.id) || liveSelections.get(m.id) || []);
-    m.odds = odds.get(m.id) || [];
+    m.odds = odds.get(m.id) || theoreticalOdds.get(m.id) || [];
+    m.additionalTheoretical = theoreticalOdds.get(m.id)?.[0] || null;
     const chosenExtra = frozenAdditionalPerMatch(m.odds).get(m.id);
     m.promotedToAdditional = m.originalPicks.some(p=>sameArchivedSelection(p,chosenExtra));
     m.picks = chosenExtra ? m.originalPicks.filter(p=>!sameArchivedSelection(p,chosenExtra)) : m.originalPicks;
@@ -221,6 +225,7 @@ export function buildModel(feeds, now = new Date()) {
   return {
     matches, futureMatches, settledMatches, currentIds,
     archivedPicks:activeArchivedPicks, originalArchivedPicks:archivedPicks, allOdds,
+    theoreticalOdds: source("cuota_teorica"),
     marketHistory: Array.isArray(feeds.mercados_historicos?.partidos) ?
       feeds.mercados_historicos.partidos : [],
     marketCoverage: feeds.mercados_historicos?.cobertura || {},
