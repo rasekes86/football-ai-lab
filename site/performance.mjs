@@ -22,6 +22,7 @@ export const PERFORMANCE_RANGES = Object.freeze([
 ]);
 
 export const PERFORMANCE_GROUPS = Object.freeze([
+  {value:"day",label:"Por día"},
   {value:"week",label:"Por semana"},
   {value:"month",label:"Por mes"}
 ]);
@@ -44,6 +45,7 @@ function localDay(raw){
 function bucketOf(ms,granularity){
   const day=localDay(ms);
   if(!day)return null;
+  if(granularity==="day")return day;
   if(granularity==="month")return day.slice(0,7);
   const utc=new Date(day+"T00:00:00Z");
   utc.setUTCDate(utc.getUTCDate()-(utc.getUTCDay()+6)%7);
@@ -239,7 +241,7 @@ export function performanceSnapshot(model={},filters={},now=new Date()){
   const topRows=effectiveTopPicks(top.picks,extra.picks).filter(r=>inScope(r,now,filters));
   const promoted=extraRows.map(r=>({...r,
     promotedTop:top.picks.some(p=>sameArchivedSelection(p,r))}));
-  const grain=filters.granularity==="month"?"month":"week";
+  const grain=filters.granularity==="day"?"day":filters.granularity==="month"?"month":"week";
   const topSummary=summaryTop(topRows);
   const additionalSummary=summaryExtra(extraRows);
   return {
