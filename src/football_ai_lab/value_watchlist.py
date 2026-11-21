@@ -228,10 +228,9 @@ def _compared_candidates(matches:list[dict],comparisons:dict|list[dict],
     for row in rows:
         if isinstance(row,dict) and row.get("fixture_id"):
             by_fixture[row["fixture_id"]].append(row)
-    frozen_top={
-        (r.get("id"),r.get("mercado"),r.get("seleccion"))
-        for r in (top3 or []) if isinstance(r,dict)
-    }
+    # Una misma selección puede ofrecer cuota real >1,50 y estar en el Top 3.
+    # Se permite como adicional: al contabilizar, se elimina del Top 3 ACTIVO,
+    # no del histórico congelado (la prueba exacta incluye mercado y línea).
     selected=[]
     for match in matches:
         if not isinstance(match,dict) or not match.get("id"):
@@ -240,9 +239,8 @@ def _compared_candidates(matches:list[dict],comparisons:dict|list[dict],
         for quote in by_fixture.get(match["id"],[]):
             candidate=_verified_comparison(match,quote,now)
             if candidate is None:continue
-            forecast=candidate["forecast"]
-            if (match["id"],forecast["mercado"],forecast["seleccion"]) in frozen_top:
-                continue
+            # No descartar coincidencias con el Top 3: en la app e informes
+            # se cuenta como adicional y se retira del Top 3 activo.
             options.append(candidate)
         # Objetivo 3+1: maximizar la probabilidad estimada de ACIERTO entre
         # cotizaciones reales >1,50 que superan calidad y EV mínimo.
@@ -387,7 +385,7 @@ def selection_audit(previous:list[dict],current:list[dict],matches:list[dict],
         "probabilidad_minima":MIN_AUTO_PROB,
         "ev_teorico_estrictamente_mayor_que":MIN_AUTO_EV,
         "antiguedad_maxima_horas":MAX_QUOTE_HOURS,
-        "top3_original":"Nunca se modifica ni se duplica la misma seleccion exacta",
+        "top3_original":"Archivo inmutable; si la adicional repite mercado y seleccion, se excluye del Top 3 activo (2+1)",
         "historico":"Primera adicional valida archivada antes del inicio; inmutable salvo revisión excepcional del usuario antes del encuentro",
         "orden_seleccion":"Mayor probabilidad del modelo entre cuotas verificadas >1,50 y EV>3%, con calidad mínima",
         "calibracion":"NO_CALIBRADA: muestra prospectiva insuficiente; no confundir probabilidad estimada con acierto probado"
