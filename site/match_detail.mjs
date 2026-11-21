@@ -225,7 +225,9 @@ export function renderMatchDetail(match,crest=()=>"",now=new Date()){
     '<div><span>01 · PREDICCIONES CONGELADAS</span><h3>'+(match.promotedToAdditional?'Top 2 activo + adicional':'Top 3 del partido')+'</h3></div>'+
     '<small>'+d.picks.length+' seleccionadas</small></div>'+
     (d.picks.length?d.picks.map((p,i)=>detailPick(p,i,match.breakdown)).join(""):
-      '<div class="match-v2-empty">Todavía no hay un Top 3 archivado para este partido.</div>')+
+      '<div class="match-v2-empty">'+(match.fixtureOnly?
+         'Encuentro del calendario sin suficiente historial para archivar un Top 3 fiable. No se fabrican predicciones retroactivas.':
+         'Todavía no hay un Top 3 archivado para este partido.')+'</div>')+
     '</section><section class="match-v2-section"><div class="match-v2-section-heading">'+
     '<div><span>02 · CUOTA PREPARTIDO</span><h3>La adicional</h3></div></div>'+
     detailAdditional(d.extra,match,now)+'</section>'+
