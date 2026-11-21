@@ -117,6 +117,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
+      # GitHub puede tardar unos segundos en indexar el artefacto recién
+      # subido; sin este margen deploy-pages devuelve falsamente 0 artefactos.
+      - name: Esperar indexación del artefacto de Pages
+        run: sleep 12
       - name: Publicar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
