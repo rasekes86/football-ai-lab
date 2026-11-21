@@ -19,7 +19,7 @@ from .verified_results import _pending_fixtures, _final_espn, _key
 LOG = logging.getLogger(__name__)
 VERSION = "postmatch-stats-1.0"
 MAX_SCOREBOARD_DAYS = 24
-MAX_SUMMARIES = 18
+MAX_SUMMARIES = 32  # Tope de recuperaciones públicas, sin proveedores de pago
 COUNTS = ("shots", "on_target", "corners", "yellow", "red", "fouls")
 ALIASES = {
     "shots": ("totalShots", "shots"),
