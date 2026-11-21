@@ -19,7 +19,7 @@ def pick(key, outcome="1", status="FINALIZADO", **kwargs):
     row = {"id": "SP1|fixture", "clave": key, "liga": "LaLiga",
            "local": "Sevilla", "visitante": "Real Betis",
            "fecha_utc": KICK, "archivado_utc": SAVED,
-           "mercado": "Total goles", "seleccion": "Menos de 2,5 goles",
+           "mercado": "Total goles", "seleccion": "Pronóstico " + str(key),
            "estado": status, "resultado": outcome, "probabilidad": "0.58"}
     row.update(kwargs)
     return row
@@ -47,6 +47,18 @@ class Telegram3Plus1Tests(unittest.TestCase):
         self.assertIn("NO cuenta como fallo",message)
         self.assertNotIn("ganancia real",message)
         self.assertIn("top:top1",state["reported_keys"])
+        self.assertIn("extra:extra",state["reported_keys"])
+
+    def test_promoted_top_is_not_counted_or_notified_twice(self):
+        top=[pick("top1",seleccion="Menos de 2,5 goles"),
+             pick("top2",seleccion="Más de 0,5 goles"),
+             pick("top3",seleccion="Ambos marcan: Sí")]
+        linked=extra(seleccion="Menos de 2,5 goles")
+        _,state,meta=alerts.digest(top,[linked],{},NOW)
+        self.assertEqual(meta["top"],{"total":2,"resolved":2,"hits":2,"pending":0})
+        self.assertEqual(meta["extra"]["resolved"],1)
+        self.assertEqual(meta["notificados"],3)
+        self.assertNotIn("top:top1",state["reported_keys"])
         self.assertIn("extra:extra",state["reported_keys"])
 
     def test_no_repeat_on_same_or_next_execution(self):
