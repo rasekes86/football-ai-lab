@@ -341,8 +341,8 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
                               "ESTADISTICAS_INCOMPLETAS")}
     report = {
         "version": VERSION, "calculado_utc": now.isoformat(),
-        "objetivos_conteo": len(wanted), "completos": covered,
-        "incompletos": len(wanted)-covered, "scoreboards_consultados": scoreboards,
+        "objetivos_conteo": len(objectives), "completos": covered,
+        "incompletos": len(objectives)-covered, "scoreboards_consultados": scoreboards,
         "summaries_consultados": summaries, "campos_recuperados": fresh,
         "campos_recuperados_cache": reused,
         "conflictos_marcador": mismatched, "fallos_fuente": failures,
