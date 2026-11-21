@@ -34,41 +34,12 @@ jobs:
           node-version: '22'
       - name: Verificar modelo y cuotas con datos de prueba, sin APIs
         run: |
-          set -o pipefail
-          python -m unittest discover -s tests -v 2>&1 | tee /tmp/football-python-tests.log
+          python -m unittest discover -s tests -v
       - name: Verificar los módulos de la web y las adicionales
         run: |
-          set -o pipefail
-          (node --check site/data.mjs && node --check site/match_detail.mjs && node --test site/tests/*.test.mjs) 2>&1 | tee /tmp/football-node-tests.log
-      - name: Diagnóstico temporal de pruebas fallidas
-        if: ${{ always() && github.event_name != 'pull_request' }}
-        run: |
-          git fetch origin main
-          git reset --hard origin/main
-          mkdir -p output
-          {
-            echo "Refresco escalonado de cuotas — diagnóstico de pruebas"
-            echo "Ejecutado: $(date -u +%FT%TZ)"
-            for file in /tmp/football-python-tests.log /tmp/football-node-tests.log; do
-              if [ -s "$file" ]; then
-                echo "=== $file ==="
-                if [ "$file" = /tmp/football-node-tests.log ]; then
-                  grep -E -A 32 -B 5 '^not ok [0-9]+' "$file" || true
-                  echo "--- Resumen ---"
-                  tail -n 15 "$file"
-                else
-                  tail -n 100 "$file"
-                fi
-              fi
-            done
-          } > output/diagnostico_tests_cuotas.txt
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output/diagnostico_tests_cuotas.txt
-          if ! git diff --cached --quiet; then
-            git commit -m 'Captura diagnóstico temporal de pruebas del refresco [skip ci]'
-            git push
-          fi
+          node --check site/data.mjs
+          node --check site/match_detail.mjs
+          node --test site/tests/*.test.mjs
   refresh:
     if: github.event_name != 'pull_request'
     needs: tests
