@@ -64,7 +64,7 @@ def run(target=Path("output"),now=None,env=None):
         previous_offers,frozen,selections,compared,now,frozen_top,
         consultation_state=state,previous_audit=prior_audit)
     captured_top3=freeze_top3_quotes(frozen_top,quotes,previous_top3_quotes,now)
-    additional=(read_csv(target/"seguimiento_oportunidades_150.csv")+
+    additional=(tracked+
                 read_csv(target/"seguimiento_adicionales_teoricas.csv"))
     tracked_top3=settle_top3_quotes(
         captured_top3,read_csv(target/"seguimiento_selecciones.csv"),
