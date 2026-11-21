@@ -999,7 +999,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague","resultsQuickLeague","breakdownLeague") {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague","resultsQuickLeague","breakdownLeague"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
