@@ -26,7 +26,9 @@ export const FEEDS = Object.freeze({
   fiabilidad_mercados_futuros: "fiabilidad_mercados_futuros.json",
   radar_contexto_equipos: "radar_contexto_equipos.json",
   cuotas_reales_verificadas: "cuotas_reales_verificadas.json",
-  comparacion_cuotas_reales: "comparacion_cuotas_reales.json"
+  comparacion_cuotas_reales: "comparacion_cuotas_reales.json",
+  top3_cuotas: "seguimiento_cuotas_top3.csv",
+  evaluacion_cuotas_top3: "evaluacion_cuotas_top3.json"
 });
 
 /** CSV RFC4180: comillas dobles, comas y saltos de línea dentro de celdas. */
@@ -242,6 +244,8 @@ export function buildModel(feeds, now = new Date()) {
     radarContextUpdated: feeds.radar_contexto_equipos?.generado_utc || null,
     realOddsRaw: feeds.cuotas_reales_verificadas || null,
     realOddsComparison: feeds.comparacion_cuotas_reales || null,
+    top3QuoteRows: source("top3_cuotas"),
+    top3QuoteAudit: feeds.evaluacion_cuotas_top3 || null,
     top, simulation, countForecasts: current.length,
     updatedAt: feeds.evaluacion_selecciones?.calculado_utc ||
       feeds.evaluacion_cuotas?.generado_utc ||
