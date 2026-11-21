@@ -10,7 +10,7 @@ const original={
   archivado_utc:"2026-11-14T12:00:00Z",mercado:"Total goles",
   seleccion:"Menos de 2,5 goles",estado:"FINALIZADO",resultado:"1"
 };
-const indicative={...original,tipo_cuota:"INDICATIVA_NO_VERIFICADA",cuota_decimal:"1.930"};
+const indicative={...original,mercado:"Ambos marcan",seleccion:"Sí",tipo_cuota:"INDICATIVA_NO_VERIFICADA",cuota_decimal:"1.930"};
 const when=new Date("2026-11-17T13:00:00Z");
 
 test("una apuesta acertada sí figura CONFIRMADA aunque la cuota sea indicativa",()=>{
