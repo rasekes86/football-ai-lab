@@ -52,6 +52,10 @@ jobs:
           python-version: '3.12'
       - name: Instalar proyecto
         run: python -m pip install -e .
+      - name: Sincronizar capturas y límite de consultas desde main
+        run: |
+          git fetch origin main
+          git restore --source=origin/main --worktree -- output
       - name: Refrescar cuotas de adicionales y Top 3 sin recotizar originales
         env:
           ENABLE_FREE_ODDS: ${{ vars.ENABLE_FREE_ODDS || 'false' }}

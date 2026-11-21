@@ -101,6 +101,18 @@ class Top3OddsTests(unittest.TestCase):
                     actualizado_utc="2026-11-20T11:00:00+00:00")
         self.assertEqual(freeze_top3_quotes([pick()], {"cuotas": [old]}, [], NOW), [])
 
+    def test_both_automations_sync_latest_persisted_output_before_calls(self):
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        for workflow in ("daily.yml", "odds-refresh.yml"):
+            txt = (root / ".github" / "workflows" / workflow).read_text(
+                encoding="utf-8")
+            self.assertIn("git fetch origin main", txt)
+            self.assertIn("git restore --source=origin/main --worktree -- output", txt)
+        refresh = (root / "src" / "football_ai_lab" / "odds_refresh.py").read_text(
+            encoding="utf-8")
+        self.assertIn("additional=(tracked+", refresh)
+
     def test_hard_rolling_hour_free_quota_cannot_be_raised_by_vars(self):
         fixture = [{
             "id": ID, "liga": "LaLiga", "local": "Local",

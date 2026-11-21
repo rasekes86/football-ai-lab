@@ -42,6 +42,14 @@ jobs:
         run: |
           python .agents/skills/predicting-football-matches/scripts/match_model.py --help
           bash .agents/skills/infersports/scripts/today.sh --limit 3
+      # El checkout apunta al SHA que inició el workflow; un refresco de
+      # cuotas puede haber archivado precios después de ese commit.
+      # Sincronizar SOLO output antes del cálculo evita perder capturas y
+      # perder el presupuesto horario compartido entre workflows.
+      - name: Leer el histórico y presupuesto más recientes
+        run: |
+          git fetch origin main
+          git restore --source=origin/main --worktree -- output
       - name: Revisión excepcional de adicionales futuras (solo una vez, con histórico)
         if: ${{ github.event_name == 'push' }}
         run: python -m football_ai_lab.odds_reselection
