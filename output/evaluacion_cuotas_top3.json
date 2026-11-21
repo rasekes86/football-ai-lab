@@ -1,0 +1,28 @@
+{
+  "version": "top3-bookmaker-prices-1.0",
+  "calculado_utc": null,
+  "selecciones_originales": 0,
+  "con_cuota_observada": 0,
+  "sin_cuota_observada": 0,
+  "pendientes_con_cuota": 0,
+  "solapadas_adicional": 0,
+  "global": {
+    "cotizadas": 0,
+    "liquidadas": 0,
+    "aciertos": 0,
+    "fallos": 0,
+    "acierto_pct": null,
+    "beneficio_hipotetico_unidades": 0,
+    "roi_hipotetico_pct": null
+  },
+  "por_liga": {},
+  "por_mercado": {},
+  "por_dia": {},
+  "presupuesto": {
+    "proveedor_principal": "5DollarFootballAPI Free",
+    "maximo_interno_hora": 24,
+    "creditos_mensuales_consumidos": 0,
+    "otros_proveedores_de_pago": "DESACTIVADOS"
+  },
+  "nota": "Sin precios inventados ni ROI de cuotas justas; pendiente del primer refresco verificado."
+}

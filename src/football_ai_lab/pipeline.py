@@ -38,6 +38,8 @@ from .postmatch_breakdown import build_breakdown
 from .market_history import build_market_history
 from .radar_context import build_radar_context
 from .real_odds import build_real_odds
+from .top3_odds import (FIELDS as TOP3_ODDS_FIELDS, quote_needed_ids,
+                        freeze_top3_quotes, settle_top3_quotes, top3_odds_report)
 import os
 from .future_market_audit import (
     FIELDS as FUTURE_AUDIT_FIELDS, archive_future_markets,
@@ -350,7 +352,11 @@ def main(argv=None) -> None:
             prior_quotes={}
     # Las adicionales congeladas no se recotizan en ninguna ejecución.
     archived_extras=read_csv(target/"historico_oportunidades_150.csv")
-    excluded_ids={row["id"] for row in archived_extras if row.get("id")}
+    old_top3_archive=read_csv(target/"historico_selecciones.csv")
+    old_top3_quotes=read_csv(target/"historico_cuotas_top3.csv")
+    top3_needed=quote_needed_ids(old_top3_archive,old_top3_quotes,now)
+    excluded_ids={row["id"] for row in archived_extras
+                  if row.get("id") and row["id"] not in top3_needed}
     real_history_file=target/"historico_cuotas_reales.json"
     if real_history_file.is_file():
         try:
@@ -460,6 +466,17 @@ def main(argv=None) -> None:
         comparisons=real_compared,top3=selections_frozen)
     write_csv(target/"historico_oportunidades_150.csv",OFFER_FIELDS,frozen_offers)
     tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,settlement_histories,now)
+    # Precios observados del Top 3 original: otra tabla, no reescribimos sus
+    # probabilidades ni el histórico original. El ROI solo usa cuotas API exactas.
+    captured_top3=freeze_top3_quotes(selections_frozen,real_quotes,old_top3_quotes,now)
+    tracked_top3_odds=settle_top3_quotes(
+        captured_top3,tracked_selections,[*tracked_offers,*tracked_fourth],now)
+    report_top3_odds=top3_odds_report(
+        selections_frozen,captured_top3,tracked_top3_odds,now,current_odds_state)
+    write_csv(target/"historico_cuotas_top3.csv",TOP3_ODDS_FIELDS,captured_top3)
+    write_csv(target/"seguimiento_cuotas_top3.csv",TOP3_ODDS_FIELDS,tracked_top3_odds)
+    (target/"evaluacion_cuotas_top3.json").write_text(
+        json.dumps(report_top3_odds,ensure_ascii=False,indent=2),encoding="utf-8")
     # Regla 2+1: la cuota adicional exacta sustituye una sola selección
     # del Top 3 ACTIVO. El histórico original de tres apuestas permanece.
     active_tracked=active_top3_for_offers(tracked_selections,tracked_offers)

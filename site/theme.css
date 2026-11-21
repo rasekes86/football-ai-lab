@@ -347,3 +347,6 @@
   .breakdown-figure>strong{font-size:16px}
   .breakdown-figure>strong small{display:block;margin-top:4px}
 }
+
+[data-theme="light"] .top3-price-kpis>div,[data-theme="light"] .top3-price-row{background:#fff;border-color:#d7e2eb}
+[data-theme="light"] .top3-price-empty{border-color:#cfdbe5}

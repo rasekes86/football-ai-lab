@@ -15,6 +15,7 @@ import { renderMatchDetail } from "./match_detail.mjs";
 import { additionalStatus } from "./additional_status.mjs";
 import { renderResultsMobile } from "./results_mobile.mjs";
 import { renderPerformanceBreakdown } from "./performance_breakdown.mjs";
+import { renderTop3ObservedPrices } from "./top3_odds_view.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -568,6 +569,9 @@ function renderPerformance() {
     range:$("performanceRange").value,
     granularity:$("performanceGranularity").value
   },state.performanceLimit);
+  const observed=renderTop3ObservedPrices(state.data,$("performanceLeague").value);
+  inner("top3ObservedSummary",observed.summary);
+  inner("top3ObservedRows",observed.rows);
   inner("performanceTopKpis",view.topKpis);
   inner("performanceExtraKpis",view.extraKpis);
   $("performanceTopFairEvidence").textContent=view.topFairEvidence;

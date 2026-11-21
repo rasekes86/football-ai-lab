@@ -345,8 +345,11 @@ def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
                    DEFAULT_FIVE_ODDS,MAX_FIVE_ODDS)
     # El plan Community debe estar habilitado explícitamente en GitHub.
     max_hour=250 if community else FREE_BUDGET
-    hourly=_bounded(env.get("FREE_ODDS_HOURLY_BUDGET") or FREE_BUDGET,
-                    FREE_BUDGET,max_hour) or FREE_BUDGET
+    # Tope duro para la cuenta Free: reserva 36 de las 60 llamadas/hora
+    # incluso si alguien configura una variable de entorno demasiado alta.
+    # Community Access no se usa para elevar automáticamente el presupuesto.
+    hourly=min(24,_bounded(env.get("FREE_ODDS_HOURLY_BUDGET") or FREE_BUDGET,
+                            FREE_BUDGET,max_hour) or FREE_BUDGET)
     ledger=RequestLedger(state,now,limit=hourly,live=(fetcher is _http))
     headers={"Authorization":f"Bearer {key}"}
     selected,skipped=due_matches(fixtures,state,now,MAX_DAYS)
