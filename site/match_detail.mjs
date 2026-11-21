@@ -27,10 +27,10 @@ const isBeforeKickoff=row=>{
   return Number.isFinite(saved)&&Number.isFinite(kickoff)&&saved<kickoff;
 };
 const validPrice=row=>{
-  const price=numberOrNull(row?.cuota_decimal);
+  const price=numberOrNull(row?.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA"?row?.cuota_justa:row?.cuota_decimal);
   return price!==null&&price>1.50&&price<=1000;
 };
-const ALLOWED_TYPES=new Set(["INDICATIVA_NO_VERIFICADA","OFRECIDA_API_REGISTRADA"]);
+const ALLOWED_TYPES=new Set(["INDICATIVA_NO_VERIFICADA","OFRECIDA_API_REGISTRADA","CUOTA_JUSTA_TEORICA_NO_OFRECIDA"]);
 
 export function archivedAdditional(match){
   if(!match?.id)return null;
@@ -111,7 +111,8 @@ function detailAdditional(row,match,now){
       '<span>'+escape(status?.explanation||"No consta una cuota adicional archivada para este partido.")+'</span>'+
       date+'</div>';
   }
-  const price=numberOrNull(row.cuota_decimal);
+  const theoretical=row.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA";
+  const price=numberOrNull(theoretical?row.cuota_justa:row.cuota_decimal);
   const stat=outcome(row);
   const api=row.tipo_cuota==="OFRECIDA_API_REGISTRADA";
   const captured=row.fecha_cuota_utc&&Number.isFinite(Date.parse(row.fecha_cuota_utc))?
@@ -126,15 +127,16 @@ function detailAdditional(row,match,now){
     '<span class="match-v2-pick-status '+stat.style+'">'+escape(stat.label)+'</span></div>'+
     '<div class="match-v2-extra-main"><div><small>'+escape(row.mercado||"Mercado")+'</small>'+
     '<strong>'+escape(row.seleccion||"Selección archivada")+'</strong></div>'+
-    '<div class="match-v2-price"><small>'+(api?"CUOTA OBSERVADA":"CUOTA INDICATIVA")+
+    '<div class="match-v2-price"><small>'+(theoretical?"CUOTA JUSTA TEÓRICA · NO OFRECIDA":api?"CUOTA OBSERVADA":"CUOTA INDICATIVA")+
     '</small><b>'+escape(priceFmt.format(price))+'</b></div></div>'+
-    '<div class="match-v2-extra-origin">'+(api?
+    '<div class="match-v2-extra-origin">'+(theoretical?
+      'Cuarta predicción del modelo; NO existe precio de bookmaker registrado.':api?
       'Cuota registrada antes del inicio; no implica una apuesta ejecutada.':
       'Referencia no acreditada por bookmaker; solo simulación.')+
     '</div>'+
     '<details class="match-v2-extra-details"><summary>Origen y seguimiento <span aria-hidden="true">⌄</span></summary>'+
-    '<div><p>'+ (provenance||"Casa y proveedor no identificados")+'</p>'+
-    '<p>Captura: '+escape(captured)+
+    '<div><p>'+ (theoretical?"Referencia matemática del modelo":provenance||"Casa y proveedor no identificados")+'</p>'+
+    '<p>'+(theoretical?"Modelo archivado":"Captura: "+escape(captured))+
     (row.marca_tiempo_tipo==="CAPTURA_NO_ACTUALIZACION"?
        ' · No es la hora de cambio en la casa.':"")+'</p>'+
     (simulated!==null?'<p>Balance hipotético de 1 unidad: <strong>'+
