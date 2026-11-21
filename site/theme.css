@@ -266,3 +266,84 @@
 [data-theme="light"] .results-v2-additional-choice small,
 [data-theme="light"] .results-v2-additional-choice strong,
 [data-theme="light"] .results-v2-additional-choice b{opacity:1}
+
+
+/* Resultados 3+1: daily and league summaries are first-class on desktop and mobile. */
+.breakdown-section{margin:17px 0 23px;padding:20px;border:1px solid var(--stroke);
+  border-radius:17px;background:var(--surface);color:var(--text)}
+.breakdown-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:16px}
+.breakdown-heading .overline{font-size:10px;letter-spacing:1px;color:var(--lime)}
+.breakdown-heading h2{font-size:clamp(21px,2.6vw,29px);letter-spacing:-.7px;margin:4px 0 0}
+.breakdown-heading p{font-size:12px;line-height:1.55;color:var(--muted);margin:0;max-width:290px}
+.breakdown-toolbar{display:flex;flex-wrap:wrap;gap:9px;align-items:end;margin-bottom:15px}
+.breakdown-toolbar>label{display:flex;flex-direction:column;gap:6px;flex:1 1 150px;max-width:260px}
+.breakdown-toolbar>label>span{font-size:10px;letter-spacing:.6px;font-weight:800;color:var(--muted)}
+.breakdown-toolbar select{width:100%;min-height:42px;border:1px solid var(--stroke);border-radius:10px;
+  padding:8px 10px;background:var(--surface-2);color:var(--text);font:inherit;font-size:12px}
+.breakdown-tabs{display:flex;padding:3px;gap:3px;background:var(--surface-2);
+  border:1px solid var(--stroke);border-radius:11px;margin-left:auto}
+.breakdown-tabs button{min-height:36px;border:0;border-radius:8px;padding:8px 13px;
+  background:transparent;color:var(--muted);font:inherit;font-size:12px;font-weight:800;cursor:pointer}
+.breakdown-tabs button.active,.breakdown-tabs button[aria-pressed=true]{background:var(--surface-3);color:var(--text);
+  box-shadow:inset 0 0 0 1px var(--stroke)}
+.breakdown-tabs button:focus-visible,.breakdown-more:focus-visible,.breakdown-toolbar select:focus-visible,
+.breakdown-details summary:focus-visible{outline:2px solid var(--lime);outline-offset:2px}
+.breakdown-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.breakdown-grid[hidden]{display:none!important}
+.breakdown-card{padding:15px;background:var(--surface-2);border:1px solid var(--stroke);
+  border-radius:13px;min-width:0}
+.breakdown-card-head{display:flex;align-items:start;justify-content:space-between;gap:9px;margin-bottom:13px}
+.breakdown-card-head>div{display:flex;flex-direction:column;gap:5px;min-width:0}
+.breakdown-card-head>div>strong{font-size:15px;line-height:1.4;text-transform:capitalize}
+.breakdown-card-head small{font-size:10px;line-height:1.4;color:var(--muted)}
+.breakdown-balance{white-space:nowrap;font-size:14px;font-weight:900;font-variant-numeric:tabular-nums}
+.breakdown-balance.positive{color:var(--lime)}.breakdown-balance.negative{color:var(--red)}
+.breakdown-balance.neutral{color:var(--muted)}
+.breakdown-card-figures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.breakdown-figure{display:flex;flex-direction:column;gap:5px;min-width:0;padding:10px;
+  border:1px solid var(--stroke-soft);border-radius:11px;background:var(--surface)}
+.breakdown-figure-label{font-size:10px;font-weight:850;letter-spacing:.5px;color:var(--muted)}
+.breakdown-figure>strong{font-size:18px;font-variant-numeric:tabular-nums;line-height:1.15}
+.breakdown-figure>strong small{font-size:11px;color:var(--lime)}
+.breakdown-figure>small{font-size:10px;line-height:1.4;color:var(--muted)}
+.breakdown-progress{height:5px;background:var(--stroke);border-radius:9px;overflow:hidden}
+.breakdown-progress>i{display:block;height:100%;background:var(--lime);border-radius:9px}
+.breakdown-card-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;
+  padding-top:12px;margin-top:12px;border-top:1px solid var(--stroke-soft);
+  font-size:10px;line-height:1.5;color:var(--muted)}
+.breakdown-card-foot strong{color:var(--text);font-weight:850}
+.breakdown-details{margin-top:13px;border-top:1px solid var(--stroke-soft);padding-top:8px}
+.breakdown-details summary{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:6px 0;cursor:pointer;font-size:11px;font-weight:850;color:var(--text)}
+.breakdown-details summary::marker{content:""}.breakdown-details summary::-webkit-details-marker{display:none}
+.breakdown-details[open] summary span{transform:rotate(180deg)}
+.breakdown-detail-rows{display:flex;flex-direction:column;gap:6px;margin-top:7px}
+.breakdown-subrow{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px;
+  padding:8px;border-radius:7px;background:var(--surface);font-size:10px;color:var(--muted)}
+.breakdown-subrow>span:first-child{font-weight:850;color:var(--text)}
+.breakdown-subrow strong{color:var(--text)}.breakdown-subrow b{color:var(--text)}
+.breakdown-more{display:block;width:100%;min-height:42px;margin-top:12px;border:1px solid var(--stroke);
+  background:var(--surface-2);color:var(--text);border-radius:10px;font-size:12px;font-weight:800;cursor:pointer}
+.breakdown-more[hidden]{display:none!important}
+.breakdown-note{margin:13px 0 0;font-size:10px;line-height:1.6;color:var(--muted)}
+.breakdown-empty{padding:20px;border:1px dashed var(--stroke);border-radius:11px;color:var(--muted);
+  font-size:12px;grid-column:1/-1}
+[data-theme="light"] .breakdown-balance.positive{color:#28734d}
+[data-theme="light"] .breakdown-balance.negative{color:#b5354c}
+[data-theme="light"] .breakdown-figure>strong small{color:#28734d}
+[data-theme="light"] .breakdown-progress>i{background:#348a5c}
+@media(max-width:1000px){.breakdown-grid{grid-template-columns:1fr}}
+@media(max-width:660px){
+  .breakdown-section{padding:14px 11px;margin:13px 0 18px}
+  .breakdown-heading{display:block;margin-bottom:13px}
+  .breakdown-heading p{margin-top:6px;max-width:none}
+  .breakdown-toolbar>label{flex:1 1 calc(50% - 6px);min-width:0}
+  .breakdown-tabs{width:100%;margin:1px 0 0}
+  .breakdown-tabs button{flex:1}
+  .breakdown-card{padding:12px}
+  .breakdown-card-head>div>strong{font-size:13px}
+  .breakdown-balance{font-size:12px}
+  .breakdown-figure{padding:9px 7px}
+  .breakdown-figure>strong{font-size:16px}
+  .breakdown-figure>strong small{display:block;margin-top:4px}
+}
