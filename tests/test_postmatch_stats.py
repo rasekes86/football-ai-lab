@@ -158,6 +158,38 @@ class PostmatchTests(unittest.TestCase):
         del data["boxscore"]["teams"][0]["statistics"][2]
         self.assertNotIn("home_corners",_parse_summary(data,"SP2",HOME,AWAY,EVENT))
 
+    def test_actual_espn_won_corners_field_supports_integer_and_zero(self):
+        self.assertEqual(_stat_map([
+            {"name":"wonCorners","displayValue":"7"}])["corners"],7)
+        self.assertEqual(_stat_map([
+            {"name":"wonCorners","value":0}])["corners"],0)
+        self.assertNotIn("corners", _stat_map([
+            {"name":"wonCorners","displayValue":"7"},
+            {"name":"cornerKicks","displayValue":"8"}
+        ]), "Conflicting source names must not invent a value")
+
+    def test_selected_top3_audit_is_not_blocked_by_exploratory_corners(self):
+        selected=[self.rows[0]]  # shots
+        explored=[self.rows[1]]  # corners, not part of Top 3 here
+        stats=summary()
+        for team in stats["boxscore"]["teams"]:
+            team["statistics"]=[
+                x for x in team["statistics"] if x["name"]!="cornerKicks"
+            ]
+        with tempfile.TemporaryDirectory() as root:
+            _, audit, _=enrich_statistics(
+                self.games,selected+explored,NOW,Path(root)/"stats.json",
+                fetcher=lambda url:self.provider(url,box=stats),
+                primary_archived=selected)
+            self.assertEqual(audit["objetivos_conteo"],1)
+            self.assertEqual(audit["completos"],1)
+            self.assertEqual(audit["incompletos"],0)
+            self.assertEqual(audit["exploracion"]["objetivos_conteo"],1)
+            self.assertEqual(audit["exploracion"]["completos"],0)
+            self.assertEqual(audit["exploracion"]["incompletos"],1)
+            self.assertEqual(audit["exploracion"]["objetivos_detalle"][0][
+                "campos_ausentes"],["home_corners","away_corners"])
+
     def test_csv_field_priority_and_partial_metrics(self):
         history={"SP2":[dict(self.games["SP2"][0],home_shots=15,away_shots=12,
             home_corners=8,away_corners=None)]}
