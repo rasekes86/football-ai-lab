@@ -27,7 +27,7 @@ from .full_report import build_all as all_dossiers, markdown as dossier_markdown
 from .player_data import collect as collect_players
 from .player_readiness import report as player_coverage
 from .fourth_reference import freeze as freeze_fourth_reference, evaluate as evaluate_fourth_reference
-from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offers
+from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offers, active_top3 as active_top3_for_offers
 from .value_watchlist import selection_audit as audit_offer_selection
 from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
@@ -444,6 +444,14 @@ def main(argv=None) -> None:
         comparisons=real_compared,top3=selections_frozen)
     write_csv(target/"historico_oportunidades_150.csv",OFFER_FIELDS,frozen_offers)
     tracked_offers,offer_evaluation=evaluate_offers(frozen_offers,settlement_histories,now)
+    # Regla 2+1: la cuota adicional exacta sustituye una sola selección
+    # del Top 3 ACTIVO. El histórico original de tres apuestas permanece.
+    active_tracked=active_top3_for_offers(tracked_selections,tracked_offers)
+    market_evaluation=selections_summary(active_tracked,now)
+    market_evaluation["top3_original_registradas"]=len(tracked_selections)
+    market_evaluation["top3_promovidas_a_adicional"]=len(tracked_selections)-len(active_tracked)
+    (target/"evaluacion_selecciones.json").write_text(
+        json.dumps(market_evaluation,ensure_ascii=False,indent=2),encoding="utf-8")
     # The public 3+1 panel can now show WHY some fixtures have no automatic
     # additional pick. No speculative odds are created when feeds are absent.
     previous_audit={}
