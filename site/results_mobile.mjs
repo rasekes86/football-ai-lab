@@ -127,7 +127,7 @@ function fixture(group){
     '<div class="results-v2-fixture-title"><strong>'+esc(group.home||"Local")+
     ' – '+esc(group.away||"Visitante")+'</strong>'+
     (scoreText?'<b>'+esc(scoreText)+'</b>':'')+'</div>'+
-    '<div class="results-v2-groups"><div><span>TOP 3</span>'+
+    '<div class="results-v2-groups"><div><span>'+(extra?.promotedTop?'TOP 2 · COINCIDE CON ADICIONAL':'TOP 3')+'</span>'+
     '<strong>'+fmt.format(wins)+' aciertos / '+fmt.format(resolved.length)+' resueltos</strong>'+
     '<small>'+fmt.format(group.top.length-resolved.length)+' sin liquidar</small>'+
     (pricedTop.length?'<small>Balance cuota justa · '+esc(units(topProfit))+
@@ -208,7 +208,7 @@ export function renderResultsMobile(info={},matches=[],limit=6,additionalLimit=8
     '<small>ROI: '+esc(accuracy(extra.roi??null))+' · '+
     fmt.format(extra.observedSettled||0)+' cuotas API liquidadas · '+
     fmt.format(extra.indicativeSettled||0)+' cuotas indicativas liquidadas</small></div>'+
-    '<div class="results-v2-balance-line combined"><span>CONJUNTO 3+1 · SIMULACIÓN MIXTA</span>'+
+    '<div class="results-v2-balance-line combined"><span>CONJUNTO 3+1 / 2+1 · SIN DUPLICADOS</span>'+
     '<strong>'+esc(units(combined.profit))+'</strong>'+
     '<small>ROI simulado: '+esc(accuracy(combined.roi))+
     ' · '+fmt.format(combined.financialCount||0)+' unidades liquidadas</small></div>'+
