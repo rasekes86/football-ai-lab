@@ -1,5 +1,5 @@
 Refresco escalonado de cuotas — diagnóstico de pruebas
-Ejecutado: 2026-11-21T21:01:25Z
+Ejecutado: 2026-11-21T21:02:27Z
 === /tmp/football-python-tests.log ===
 test_rotate_unseen_first (test_odds_scheduler.Tests.test_rotate_unseen_first) ... ok
 test_settled_results_never_overwritten (test_odds_scheduler.Tests.test_settled_results_never_overwritten) ... ok
@@ -98,87 +98,23 @@ test_six_leagues_one_price_each_no_backfill_or_top3_change (test_value_watchlist
 test_unqueried_private_api_is_not_a_failed_bet_screen (test_value_watchlist.ValueWatchlistTests.test_unqueried_private_api_is_not_a_failed_bet_screen) ... ok
 
 ----------------------------------------------------------------------
-Ran 217 tests in 0.336s
+Ran 217 tests in 0.182s
 
 OK
 === /tmp/football-node-tests.log ===
-  ---
-  duration_ms: 0.835937
-  type: 'test'
-  ...
-# Subtest: no prices invented when missing: show explicit absence
-not ok 39 - no prices invented when missing: show explicit absence
-  ---
-  duration_ms: 1.753727
-  type: 'test'
-  location: '/home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:67:1'
-  failureType: 'testCodeFailure'
-  error: |-
-    The input did not match the regular expression /Pendiente de consulta/. Input:
-    
-    '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="missing">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
-    
-  code: 'ERR_ASSERTION'
-  name: 'AssertionError'
-  expected:
-  actual: '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="missing">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
-  operator: 'match'
-  stack: |-
-    TestContext.<anonymous> (file:///home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:70:10)
-    Test.runInAsyncScope (node:async_hooks:214:14)
-    Test.run (node:internal/test_runner/test:1047:25)
-    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
-    Test.postRun (node:internal/test_runner/test:1173:19)
-    Test.run (node:internal/test_runner/test:1101:12)
-    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
-  ...
-# Subtest: homepage flags rejected extra without pretending it was unqueried
-not ok 40 - homepage flags rejected extra without pretending it was unqueried
-  ---
-  duration_ms: 0.39173
-  type: 'test'
-  location: '/home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:75:1'
-  failureType: 'testCodeFailure'
-  error: |-
-    The input did not match the regular expression /Sin adicional viable/. Input:
-    
-    '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="no-viable">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
-    
-  code: 'ERR_ASSERTION'
-  name: 'AssertionError'
-  expected:
-  actual: '<article class="home-fixture"><div class="home-match-head"><span>LaLiga</span><time>21 nov, 19:00</time></div><div class="home-teams"><span><span class="test-crest"></span><strong>Sevilla</strong></span><b>VS</b><span><span class="test-crest"></span><strong>Betis</strong></span></div><div class="home-extra home-extra-empty pending"><span><strong>Sin adicional archivada</strong><small>No consta una cuota verificada.</small></span></div><details class="home-pick-details"><summary>Ver Top 3 archivado (0)</summary><div><p class="home-muted">Top 3 todavía no archivado.</p></div></details><button type="button" class="home-open" data-open-id="no-viable">Abrir ficha del partido <span aria-hidden="true">›</span></button></article>'
-  operator: 'match'
-  stack: |-
-    TestContext.<anonymous> (file:///home/runner/work/football-ai-lab/football-ai-lab/site/tests/home.test.mjs:79:10)
-    Test.runInAsyncScope (node:async_hooks:214:14)
-    Test.run (node:internal/test_runner/test:1047:25)
-    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
-    Test.postRun (node:internal/test_runner/test:1173:19)
-    Test.run (node:internal/test_runner/test:1101:12)
-    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
-  ...
-# Subtest: untrusted strings escaped within homepage, not executable markup
-ok 41 - untrusted strings escaped within homepage, not executable markup
-  ---
-  duration_ms: 0.571975
-  type: 'test'
-  ...
-# Subtest: catálogo visible incluye las estadísticas solicitadas
-ok 42 - catálogo visible incluye las estadísticas solicitadas
 --- Resumen ---
 # Subtest: applying theme works even when optional controls are unavailable
 ok 130 - applying theme works even when optional controls are unavailable
   ---
-  duration_ms: 0.237673
+  duration_ms: 0.118819
   type: 'test'
   ...
 1..130
 # tests 130
 # suites 0
-# pass 128
-# fail 2
+# pass 130
+# fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 659.424687
+# duration_ms 401.664006
