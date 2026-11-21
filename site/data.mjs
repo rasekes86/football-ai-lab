@@ -121,7 +121,7 @@ export function matchStatus(match) {
  * effective 2+1 score, never in the immutable original selection feed.
  */
 export function sameArchivedSelection(a,b) {
-  const tidy=x=>String(x??"").normalize("NFC").trim().replace(/\\s+/g," ").toLocaleLowerCase("es");
+  const tidy=x=>String(x??"").normalize("NFC").trim().replace(/\s+/g," ").toLocaleLowerCase("es");
   return Boolean(a?.mercado && a?.seleccion && b?.mercado && b?.seleccion) &&
     a.id===b.id && tidy(a.mercado)===tidy(b.mercado) &&
     tidy(a.seleccion)===tidy(b.seleccion);
