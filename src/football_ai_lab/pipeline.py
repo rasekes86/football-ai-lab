@@ -31,6 +31,7 @@ from .value_watchlist import freeze as freeze_offers, evaluate as evaluate_offer
 from .value_watchlist import selection_audit as audit_offer_selection
 from .value_watchlist import markdown as offers_markdown, FIELDS as OFFER_FIELDS
 from .sources import LEAGUES, load_history, load_fixtures
+from .fixture_catalog import archive as archive_fixture_catalog, FIELDS as CALENDAR_FIELDS
 from .verified_results import augment_results
 from .postmatch_stats import enrich_statistics
 from .postmatch_breakdown import build_breakdown
@@ -214,7 +215,11 @@ def main(argv=None) -> None:
         histories={league:load_history(league,now.date()) for league in LEAGUES}
         if not any(histories.values()):
             raise SystemExit("Sin históricos disponibles; no se sobrescribe el último informe válido")
-        fixtures=[f for league in LEAGUES for f in load_fixtures(league,now.date(),args.days)]
+        # ESPN fixtures that have kicked off remain visible in the calendar.
+        # forecast() separately forbids predictions once kickoff has passed.
+        fixtures=[f for league in LEAGUES
+                  for f in load_fixtures(league,now.date(),args.days,
+                                         include_started=True)]
     book.mark("datos","OK",f"{len(histories)} ligas; {len(fixtures)} encuentros en {args.days} días",count=sum(map(len,histories.values())))
     # Un segundo histórico solo para liquidar resultados ya archivados; evita
     # contaminar el entrenamiento, las predicciones y el backtesting.
@@ -284,6 +289,13 @@ def main(argv=None) -> None:
                     "nota":"Métricas de partidos anteriores exclusivamente; sin inventar xG."},
                     ensure_ascii=False,indent=2),encoding="utf-8")
     predicted,rejected=forecast(histories,fixtures,now,"DEMO" if args.demo else "REAL")
+    previously=read_csv(target/"calendario_partidos.csv")
+    forecast_ids={r["id"] for r in read_csv(target/"historico_predicciones.csv")}
+    forecast_ids.update(p["id"] for p in predicted)
+    calendar=archive_fixture_catalog(previously,fixtures,now,forecast_ids)
+    write_csv(target/"calendario_partidos.csv",CALENDAR_FIELDS,calendar)
+    LOG.info("Calendario: %d partidos, %d con pronóstico anterior o actual",
+             len(calendar),sum(m["id"] in forecast_ids for m in calendar))
     book.mark("predictor","OK",f"Ensemble Poisson 70% / Elo 30%. Descartados: {len(rejected)}",len(predicted))
     # El módulo de cuotas no ejecuta peticiones sin consentimiento expreso y clave.
     events={} if args.demo else get_optional_quotes(list(LEAGUES))
