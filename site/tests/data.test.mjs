@@ -11,6 +11,25 @@ test("seis ligas disponibles y rutas oficiales de los CSV", () => {
   assert.equal(FEEDS.cuotas, "seguimiento_oportunidades_150.csv");
 });
 
+test("all Bundesliga fixtures survive even when the model has no home/away sample",()=>{
+  const fixture=(id,home,away,utc)=>({
+    id,liga:"Bundesliga",local:home,visitante:away,fecha_utc:utc,
+    primera_captura_utc:"2026-11-21T15:40:00Z"
+  });
+  const model=buildModel({calendario_partidos:[
+    fixture("D1|LEV","Bayer Leverkusen","SC Paderborn 07","2026-11-21T14:30:00Z"),
+    fixture("D1|ELV","SV Elversberg","SC Freiburg","2026-11-21T14:30:00Z"),
+    fixture("D1|S04","Schalke 04","VfB Stuttgart","2026-11-21T17:30:00Z")
+  ]},new Date("2026-11-21T15:40:00Z"));
+  assert.equal(model.matches.length,3);
+  assert.equal(model.futureMatches.length,1);
+  assert.equal(model.futureMatches[0].local,"Schalke 04");
+  assert.ok(model.matches.every(m=>m.fixtureOnly&&m.status==="SIN_PRONOSTICO"));
+  assert.equal(model.top.registered,0);
+  assert.equal(model.countForecasts,0);
+  assert.equal(model.allOdds.length,0);
+});
+
 test("CSV: comillas, separadores, CRLF y nuevas líneas dentro de celdas", () => {
   const text = '\uFEFFid,seleccion,fuente\r\nA,"Más de 2,5 goles","Casa, ""online"""\r\nB,"línea uno\nlínea dos",otro\r\n';
   assert.deepEqual(parseCsv(text), [
