@@ -12,7 +12,7 @@
  *  - No pending/missing outcomes are treated as losing bets.
  *  - Indicative quoted prices remain a separate hypothetical scenario.
  */
-import { LEAGUES, numberOrNull, settled } from "./data.mjs";
+import { LEAGUES, numberOrNull, settled, sameArchivedSelection, effectiveTopPicks } from "./data.mjs";
 
 export const PERFORMANCE_RANGES = Object.freeze([
   {value:"all",label:"Todo el histórico"},
@@ -228,8 +228,10 @@ export function performanceSnapshot(model={},filters={},now=new Date()){
   const additional=Array.isArray(model.allOdds)?model.allOdds:[];
   const top=distinctTop3(archived);
   const extra=distinctAdditional(additional);
-  const topRows=top.picks.filter(r=>inScope(r,now,filters));
   const extraRows=extra.picks.filter(r=>inScope(r,now,filters));
+  const topRows=effectiveTopPicks(top.picks,extra.picks).filter(r=>inScope(r,now,filters));
+  const promoted=extraRows.map(r=>({...r,
+    promotedTop:top.picks.some(p=>sameArchivedSelection(p,r))}));
   const grain=filters.granularity==="month"?"month":"week";
   const topSummary=summaryTop(topRows);
   const additionalSummary=summaryExtra(extraRows);
@@ -244,13 +246,14 @@ export function performanceSnapshot(model={},filters={},now=new Date()){
     timeline:series(topRows,extraRows,grain),
     selectionAudit:model.evaluations?.odds?.seleccion_automatica||null,
     granularity:grain,
-    rows:ledger(topRows,extraRows),
+    rows:ledger(topRows,promoted),
     safeguards:{
       ignoredTopInvalid:top.invalid,
       ignoredTopDuplicates:top.duplicates,
       ignoredTopBeyondThree:top.extra,
       ignoredAdditionalInvalid:extra.invalid,
       ignoredAdditionalDuplicates:extra.duplicates,
+      promotedTopToAdditional:promoted.filter(r=>r.promotedTop).length,
       excludesExploratory:true
     }
   };
