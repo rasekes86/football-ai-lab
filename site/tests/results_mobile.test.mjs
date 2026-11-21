@@ -49,7 +49,7 @@ test("mobile shows three independent balance scenarios and per-pick fair quote",
   const screen=renderResultsMobile(x,[],6);
   assert.match(screen.balance,/TOP 3 · CUOTA JUSTA SIMULADA/);
   assert.match(screen.balance,/ADICIONALES · CUOTAS ARCHIVADAS/);
-  assert.match(screen.balance,/CONJUNTO 3\+1 · SIMULACIÓN MIXTA/);
+  assert.match(screen.balance,/CONJUNTO 3\+1 \/ 2\+1 · SIN DUPLICADOS/);
   assert.match(screen.balance,/ROI simulado/);
   assert.match(screen.balance,/NO cuotas reales/);
   assert.match(screen.recent,/Cuota justa simulada 1,25/);
