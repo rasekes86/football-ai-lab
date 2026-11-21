@@ -35,8 +35,8 @@
 3. **Real Betis: menos de 2,5 goles** (Goles equipo): 83.9% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 27.3% / 27.5% / 45.2%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:49:14+00:00)
+- XGBoost experimental: 27.7% / 27.8% / 44.5%. No sustituye al modelo principal.
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T17:14:40+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -83,7 +83,7 @@
 3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 81.3% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 80.9% / 12.4% / 6.7%. No sustituye al modelo principal.
+- XGBoost experimental: 80.3% / 12.9% / 6.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -131,7 +131,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 81.7% · cuota justa 1.22; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 72.4% / 15.2% / 12.4%. No sustituye al modelo principal.
+- XGBoost experimental: 71.6% / 15.4% / 12.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -175,7 +175,7 @@
 3. **Menos de 3,5 goles** (Total goles): 77.4% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 45.4% / 31.0% / 23.6%. No sustituye al modelo principal.
+- XGBoost experimental: 45.3% / 30.6% / 24.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -268,7 +268,7 @@
 3. **Levante: más de 0,5 goles** (Goles equipo): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 43.9% / 24.0% / 32.1%. No sustituye al modelo principal.
+- XGBoost experimental: 44.4% / 24.0% / 31.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -316,7 +316,7 @@
 3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 83.6% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 57.0% / 24.5% / 18.4%. No sustituye al modelo principal.
+- XGBoost experimental: 57.2% / 24.7% / 18.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -360,7 +360,7 @@
 3. **Málaga +1,5** (Hándicap 2 vías (medio gol)): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 28.9% / 31.2% / 39.9%. No sustituye al modelo principal.
+- XGBoost experimental: 28.7% / 32.1% / 39.2%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -405,7 +405,7 @@
 3. **Más de 19,5 tiros totales** (Tiros totales): 84.2% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 17.2% / 26.5% / 56.2%. No sustituye al modelo principal.
+- XGBoost experimental: 18.0% / 26.4% / 55.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -453,7 +453,7 @@
 3. **Más de 1,5 goles** (Total goles): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 80.1% / 13.1% / 6.8%. No sustituye al modelo principal.
+- XGBoost experimental: 79.3% / 13.3% / 7.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -501,7 +501,7 @@
 3. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 81.5% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 28.3% / 34.9% / 36.8%. No sustituye al modelo principal.
+- XGBoost experimental: 27.0% / 35.0% / 37.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -549,7 +549,7 @@
 3. **Celta Vigo: menos de 2,5 goles** (Goles equipo): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 40.1% / 27.0% / 32.8%. No sustituye al modelo principal.
+- XGBoost experimental: 39.7% / 26.5% / 33.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -597,7 +597,7 @@
 3. **Real Sociedad: más de 0,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 49.7% / 29.4% / 21.0%. No sustituye al modelo principal.
+- XGBoost experimental: 49.3% / 29.4% / 21.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -644,7 +644,7 @@
 3. **Getafe: menos de 1,5 goles** (Goles equipo): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 41.1% / 32.2% / 26.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -692,7 +692,7 @@
 3. **Real Madrid: más de 0,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 24.5% / 26.2% / 49.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -740,7 +740,7 @@
 3. **Más de 1,5 goles** (Total goles): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 51.9% / 24.2% / 23.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -787,7 +787,7 @@
 3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 84.1% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 42.4% / 31.1% / 26.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -832,8 +832,8 @@
 3. **Más de 19,5 tiros totales** (Tiros totales): 85.0% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 63.3% / 25.5% / 11.1%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- XGBoost experimental: 63.8% / 25.1% / 11.1%. No sustituye al modelo principal.
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T17:14:14+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -876,7 +876,7 @@
 3. **Más de 0,5 goles** (Total goles): 80.6% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 27.5% / 21.8% / 50.7%. No sustituye al modelo principal.
+- XGBoost experimental: 28.5% / 21.8% / 49.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -921,7 +921,7 @@
 3. **Más de 21,5 tiros totales** (Tiros totales): 78.6% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 45.9% / 25.3% / 28.8%. No sustituye al modelo principal.
+- XGBoost experimental: 46.4% / 25.0% / 28.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -966,7 +966,7 @@
 3. **Las Palmas +1,5** (Hándicap 2 vías (medio gol)): 76.9% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 55.1% / 25.5% / 19.5%. No sustituye al modelo principal.
+- XGBoost experimental: 54.6% / 25.7% / 19.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1010,7 +1010,7 @@
 3. **Eibar: menos de 1,5 goles** (Goles equipo): 77.9% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 48.3% / 28.1% / 23.6%. No sustituye al modelo principal.
+- XGBoost experimental: 48.2% / 28.0% / 23.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1054,7 +1054,7 @@
 3. **Más de 1,5 goles** (Total goles): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 31.2% / 28.7% / 40.1%. No sustituye al modelo principal.
+- XGBoost experimental: 29.5% / 28.0% / 42.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1102,7 +1102,7 @@
 3. **Más de 19,5 tiros totales** (Tiros totales): 82.2% · cuota justa 1.22; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 60.8% / 22.5% / 16.7%. No sustituye al modelo principal.
+- XGBoost experimental: 60.9% / 22.1% / 16.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1147,7 +1147,7 @@
 3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 79.1% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 37.1% / 23.0% / 39.9%. No sustituye al modelo principal.
+- XGBoost experimental: 37.5% / 23.4% / 39.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1191,7 +1191,7 @@
 3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 41.4% / 25.3% / 33.3%. No sustituye al modelo principal.
+- XGBoost experimental: 41.3% / 25.2% / 33.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1236,7 +1236,7 @@
 3. **1X: Las Palmas o empate** (Doble oportunidad): 75.9% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 44.0% / 28.0% / 28.0%. No sustituye al modelo principal.
+- XGBoost experimental: 44.1% / 28.3% / 27.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1283,7 +1283,7 @@
 3. **Menos de 3,5 goles** (Total goles): 76.1% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 40.3% / 30.2% / 29.5%. No sustituye al modelo principal.
+- XGBoost experimental: 45.4% / 29.5% / 25.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1327,7 +1327,7 @@
 3. **Más de 1,5 goles** (Total goles): 73.7% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 28.1% / 27.0% / 45.0%. No sustituye al modelo principal.
+- XGBoost experimental: 28.1% / 27.5% / 44.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1375,7 +1375,7 @@
 3. **Menos de 3,5 goles** (Total goles): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 54.4% / 23.4% / 22.1%. No sustituye al modelo principal.
+- XGBoost experimental: 53.5% / 24.3% / 22.2%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1420,7 +1420,7 @@
 3. **Real Valladolid +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 58.0% / 24.0% / 17.9%. No sustituye al modelo principal.
+- XGBoost experimental: 58.2% / 24.2% / 17.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1465,7 +1465,7 @@
 3. **Granada: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 49.4% / 29.0% / 21.6%. No sustituye al modelo principal.
+- XGBoost experimental: 50.2% / 29.6% / 20.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1509,7 +1509,7 @@
 3. **Menos de 3,5 goles** (Total goles): 76.8% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 45.3% / 25.4% / 29.3%. No sustituye al modelo principal.
+- XGBoost experimental: 45.5% / 25.3% / 29.2%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1556,7 +1556,7 @@
 3. **Menos de 4,5 goles** (Total goles): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 27.5% / 21.1% / 51.4%. No sustituye al modelo principal.
+- XGBoost experimental: 27.3% / 21.6% / 51.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1603,7 +1603,7 @@
 3. **Sporting Gijón +2,5** (Hándicap 2 vías (medio gol)): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 56.5% / 21.3% / 22.2%. No sustituye al modelo principal.
+- XGBoost experimental: 56.7% / 21.3% / 21.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1647,7 +1647,7 @@
 3. **RC Celta Fortuna: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 65.1% / 21.1% / 13.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1695,8 +1695,8 @@
 3. **X2: empate o Arsenal** (Doble oportunidad): 77.4% · cuota justa 1.29; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 21.4% / 25.0% / 53.6%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- XGBoost experimental: 21.6% / 24.8% / 53.6%. No sustituye al modelo principal.
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T17:14:45+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -1739,7 +1739,7 @@
 3. **Hull City +1,5** (Hándicap 2 vías (medio gol)): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 27.5% / 22.9% / 49.6%. No sustituye al modelo principal.
+- XGBoost experimental: 27.7% / 23.6% / 48.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1764,7 +1764,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Liverpool:** posición 4 · 18 puntos.
+**Liverpool:** posición 5 · 18 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 16,8, a puerta 4,6, córners 6,4, amarillas 3,0
@@ -1787,7 +1787,7 @@
 3. **Manchester United +1,5** (Hándicap 2 vías (medio gol)): 79.1% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 46.5% / 26.8% / 26.7%. No sustituye al modelo principal.
+- XGBoost experimental: 46.7% / 26.4% / 26.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1812,12 +1812,12 @@
 
 ### Forma, descanso y estadísticas
 
-**Brentford:** posición 8 · 14 puntos.
+**Brentford:** posición 10 · 14 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
 - Días desde el último partido liguero registrado: 15
 - Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
 
-**Everton:** posición 6 · 16 puntos.
+**Everton:** posición 7 · 16 puntos.
 - Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
 - Días desde el último partido liguero registrado: 17
 - Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
@@ -1835,7 +1835,7 @@
 3. **Everton +1,5** (Hándicap 2 vías (medio gol)): 77.9% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 41.7% / 27.8% / 30.5%. No sustituye al modelo principal.
+- XGBoost experimental: 41.4% / 27.8% / 30.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1865,7 +1865,7 @@
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 16,2, a puerta 3,8, córners 5,6, amarillas 1,4
 
-**Chelsea:** posición 5 · 16 puntos.
+**Chelsea:** posición 8 · 16 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
 - Días desde el último partido liguero registrado: 19
 - Medias recientes: Tiros 12,8, a puerta 6,2, córners 4,4, amarillas 2,6
@@ -1883,7 +1883,7 @@
 3. **Menos de 3,5 goles** (Total goles): 78.4% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 31.4% / 29.7% / 39.0%. No sustituye al modelo principal.
+- XGBoost experimental: 31.1% / 29.3% / 39.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1908,7 +1908,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Leeds United:** posición 9 · 14 puntos.
+**Leeds United:** posición 6 · 17 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: V · D · E · E · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 12,0, a puerta 3,8, córners 4,2, amarillas 2,2
@@ -1927,7 +1927,7 @@
 3. **Coventry City: menos de 1,5 goles** (Goles equipo): 79.1% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 49.4% / 32.1% / 18.5%. No sustituye al modelo principal.
+- XGBoost experimental: 50.1% / 31.4% / 18.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1957,7 +1957,7 @@
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 16,0, a puerta 5,2, córners 5,4, amarillas 3,4
 
-**Brentford:** posición 8 · 14 puntos.
+**Brentford:** posición 10 · 14 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
@@ -1975,7 +1975,7 @@
 3. **Brentford +2,5** (Hándicap 2 vías (medio gol)): 84.9% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 59.0% / 21.1% / 19.9%. No sustituye al modelo principal.
+- XGBoost experimental: 59.9% / 20.6% / 19.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2005,7 +2005,7 @@
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 10,2, a puerta 3,2, córners 2,0, amarillas 2,0
 
-**Aston Villa:** posición 10 · 13 puntos.
+**Aston Villa:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 2V · 3E · 0D; secuencia: E · E · V · V · E
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 14,2, a puerta 4,2, córners 3,8, amarillas 2,0
@@ -2020,7 +2020,7 @@
 3. **Menos de 4,5 goles** (Total goles): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 25.1% / 31.2% / 43.7%. No sustituye al modelo principal.
+- XGBoost experimental: 24.8% / 30.6% / 44.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2045,12 +2045,12 @@
 
 ### Forma, descanso y estadísticas
 
-**Everton:** posición 6 · 16 puntos.
+**Everton:** posición 7 · 16 puntos.
 - Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
 - Días desde el último partido liguero registrado: 23
 - Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
 
-**Liverpool:** posición 4 · 18 puntos.
+**Liverpool:** posición 5 · 18 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 16,8, a puerta 4,6, córners 6,4, amarillas 3,0
@@ -2068,7 +2068,7 @@
 3. **Everton: menos de 2,5 goles** (Goles equipo): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 37.9% / 27.8% / 34.4%. No sustituye al modelo principal.
+- XGBoost experimental: 37.3% / 28.4% / 34.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2116,7 +2116,7 @@
 3. **Newcastle United: menos de 1,5 goles** (Goles equipo): 79.9% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 57.7% / 26.2% / 16.1%. No sustituye al modelo principal.
+- XGBoost experimental: 58.3% / 26.2% / 15.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2160,7 +2160,7 @@
 3. **Menos de 3,5 goles** (Total goles): 77.3% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 33.1% / 28.8% / 38.1%. No sustituye al modelo principal.
+- XGBoost experimental: 32.9% / 28.7% / 38.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2190,7 +2190,7 @@
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 13,6, a puerta 4,8, córners 6,2, amarillas 2,2
 
-**AFC Bournemouth:** posición 7 · 15 puntos.
+**AFC Bournemouth:** posición 4 · 18 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 14,8, a puerta 4,6, córners 5,4, amarillas 2,6
@@ -2208,7 +2208,7 @@
 3. **Fulham: más de 0,5 goles** (Goles equipo): 82.7% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 35.7% / 27.8% / 36.5%. No sustituye al modelo principal.
+- XGBoost experimental: 36.3% / 27.7% / 36.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2238,7 +2238,7 @@
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 11,2, a puerta 2,2, córners 4,0, amarillas 2,0
 
-**Tottenham Hotspur:** clasificación no disponible en datos recuperados.
+**Tottenham Hotspur:** posición 9 · 15 puntos.
 - Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · V · E
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 16,8, a puerta 5,0, córners 7,4, amarillas 2,0
@@ -2253,7 +2253,7 @@
 3. **Menos de 9,5 tiros a puerta totales** (Tiros a puerta totales): 76.2% · cuota justa 1.31; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 26.4% / 24.8% / 48.8%. No sustituye al modelo principal.
+- XGBoost experimental: 26.2% / 24.1% / 49.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2301,7 +2301,7 @@
 3. **1X: Arsenal o empate** (Doble oportunidad): 77.1% · cuota justa 1.30; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 43.6% / 39.7% / 16.7%. No sustituye al modelo principal.
+- XGBoost experimental: 44.1% / 39.9% / 16.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2345,7 +2345,7 @@
 3. **Coventry City: más de 0,5 goles** (Goles equipo): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 43.2% / 35.2% / 21.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2370,7 +2370,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Chelsea:** posición 5 · 16 puntos.
+**Chelsea:** posición 8 · 16 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: D · V · D · V · V
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 12,8, a puerta 6,2, córners 4,4, amarillas 2,6
@@ -2393,7 +2393,7 @@
 3. **1X: Chelsea o empate** (Doble oportunidad): 75.0% · cuota justa 1.33; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 59.6% / 24.1% / 16.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2437,7 +2437,7 @@
 3. **Menos de 4,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 38.7% / 30.3% / 31.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2462,7 +2462,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Liverpool:** posición 4 · 18 puntos.
+**Liverpool:** posición 5 · 18 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 16,8, a puerta 4,6, córners 6,4, amarillas 3,0
@@ -2482,7 +2482,7 @@
 3. **Sunderland: menos de 1,5 goles** (Goles equipo): 76.2% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 53.0% / 27.4% / 19.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2512,7 +2512,7 @@
 - Días desde el último partido liguero registrado: 25
 - Medias recientes: Tiros 16,4, a puerta 5,4, córners 6,0, amarillas 1,8
 
-**Leeds United:** posición 9 · 14 puntos.
+**Leeds United:** posición 6 · 17 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: V · D · E · E · D
 - Días desde el último partido liguero registrado: 25
 - Medias recientes: Tiros 12,0, a puerta 3,8, córners 4,2, amarillas 2,2
@@ -2527,7 +2527,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 79.1% · cuota justa 1.26; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 67.4% / 16.6% / 16.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2552,7 +2552,7 @@
 
 ### Forma, descanso y estadísticas
 
-**AFC Bournemouth:** posición 7 · 15 puntos.
+**AFC Bournemouth:** posición 4 · 18 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 14,8, a puerta 4,6, córners 5,4, amarillas 2,6
@@ -2575,7 +2575,7 @@
 3. **Menos de 3,5 goles** (Total goles): 74.8% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 33.3% / 26.3% / 40.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2600,12 +2600,12 @@
 
 ### Forma, descanso y estadísticas
 
-**Aston Villa:** posición 10 · 13 puntos.
+**Aston Villa:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 2V · 3E · 0D; secuencia: E · E · V · V · E
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 14,2, a puerta 4,2, córners 3,8, amarillas 2,0
 
-**Everton:** posición 6 · 16 puntos.
+**Everton:** posición 7 · 16 puntos.
 - Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
 - Días desde el último partido liguero registrado: 26
 - Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
@@ -2623,7 +2623,7 @@
 3. **Menos de 3,5 goles** (Total goles): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 44.9% / 29.3% / 25.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2648,7 +2648,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Brentford:** posición 8 · 14 puntos.
+**Brentford:** posición 10 · 14 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
@@ -2671,7 +2671,7 @@
 3. **Menos de 3,5 goles** (Total goles): 78.0% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 22.8% / 23.3% / 53.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2719,7 +2719,7 @@
 3. **Newcastle United: menos de 2,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 37.7% / 29.2% / 33.2%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2744,7 +2744,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Tottenham Hotspur:** clasificación no disponible en datos recuperados.
+**Tottenham Hotspur:** posición 9 · 15 puntos.
 - Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · V · E
 - Días desde el último partido liguero registrado: 26
 - Medias recientes: Tiros 16,8, a puerta 5,0, córners 7,4, amarillas 2,0
@@ -2767,7 +2767,7 @@
 3. **Menos de 3,5 goles** (Total goles): 75.9% · cuota justa 1.32; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 41.9% / 27.7% / 30.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2815,7 +2815,7 @@
 3. **Más de 1,5 goles** (Total goles): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 50.1% / 22.6% / 27.3%. No sustituye al modelo principal.
+- XGBoost experimental: 50.2% / 22.6% / 27.2%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2860,7 +2860,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 74.9% · cuota justa 1.34; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 45.4% / 29.3% / 25.2%. No sustituye al modelo principal.
+- XGBoost experimental: 45.4% / 29.0% / 25.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2908,7 +2908,7 @@
 3. **Werder Bremen: más de 0,5 goles** (Goles equipo): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 55.1% / 25.1% / 19.7%. No sustituye al modelo principal.
+- XGBoost experimental: 56.4% / 24.8% / 18.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -2938,7 +2938,7 @@
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 13,4, a puerta 4,0, córners 4,4, amarillas 2,0
 
-**Bayern Munich:** posición 1 · 22 puntos.
+**Bayern Munich:** posición 2 · 22 puntos.
 - Últimos partidos: 3V · 2E · 0D; secuencia: V · E · V · V · E
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 25,0, a puerta 10,0, córners 7,8, amarillas 1,0
@@ -2953,7 +2953,7 @@
 3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 73.5% · cuota justa 1.36; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 15.0% / 22.9% / 62.1%. No sustituye al modelo principal.
+- XGBoost experimental: 16.0% / 21.1% / 62.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3001,7 +3001,7 @@
 3. **1. FC Union Berlin +1,5** (Hándicap 2 vías (medio gol)): 78.0% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 48.3% / 36.0% / 15.6%. No sustituye al modelo principal.
+- XGBoost experimental: 49.0% / 35.3% / 15.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3045,7 +3045,7 @@
 3. **Schalke 04 +1,5** (Hándicap 2 vías (medio gol)): 77.7% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 45.4% / 30.1% / 24.4%. No sustituye al modelo principal.
+- XGBoost experimental: 46.8% / 29.2% / 24.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3070,12 +3070,12 @@
 
 ### Forma, descanso y estadísticas
 
-**VfB Stuttgart:** posición 8 · 12 puntos.
+**VfB Stuttgart:** posición 9 · 12 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 17,0, a puerta 6,0, córners 5,4, amarillas 1,4
 
-**Eintracht Frankfurt:** posición 10 · 12 puntos.
+**Eintracht Frankfurt:** posición 7 · 15 puntos.
 - Últimos partidos: 2V · 1E · 2D; secuencia: E · V · D · V · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 14,4, a puerta 6,4, córners 5,2, amarillas 2,0
@@ -3093,7 +3093,7 @@
 3. **Eintracht Frankfurt +2,5** (Hándicap 2 vías (medio gol)): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 61.3% / 22.1% / 16.5%. No sustituye al modelo principal.
+- XGBoost experimental: 60.3% / 22.6% / 17.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3118,12 +3118,12 @@
 
 ### Forma, descanso y estadísticas
 
-**SC Freiburg:** posición 3 · 19 puntos.
+**SC Freiburg:** posición 3 · 22 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · D · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 13,4, a puerta 4,2, córners 4,4, amarillas 2,0
 
-**RB Leipzig:** posición 4 · 18 puntos.
+**RB Leipzig:** posición 4 · 21 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · D · V
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 16,0, a puerta 7,4, córners 3,8, amarillas 0,6
@@ -3141,7 +3141,7 @@
 3. **RB Leipzig +2,5** (Hándicap 2 vías (medio gol)): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 50.5% / 22.1% / 27.4%. No sustituye al modelo principal.
+- XGBoost experimental: 49.3% / 22.7% / 28.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3166,7 +3166,7 @@
 
 ### Forma, descanso y estadísticas
 
-**TSG Hoffenheim:** posición 9 · 12 puntos.
+**TSG Hoffenheim:** posición 10 · 12 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · D · V · V · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 16,4, a puerta 5,4, córners 5,6, amarillas 1,4
@@ -3189,7 +3189,7 @@
 3. **FC Augsburg +2,5** (Hándicap 2 vías (medio gol)): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 52.2% / 24.4% / 23.4%. No sustituye al modelo principal.
+- XGBoost experimental: 52.8% / 23.8% / 23.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3214,12 +3214,12 @@
 
 ### Forma, descanso y estadísticas
 
-**Borussia Dortmund:** posición 2 · 21 puntos.
+**Borussia Dortmund:** posición 1 · 24 puntos.
 - Últimos partidos: 2V · 3E · 0D; secuencia: V · E · V · E · E
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 16,0, a puerta 5,6, córners 7,0, amarillas 1,4
 
-**Bayer Leverkusen:** posición 5 · 16 puntos.
+**Bayer Leverkusen:** posición 5 · 19 puntos.
 - Últimos partidos: 3V · 0E · 2D; secuencia: V · D · D · V · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 15,0, a puerta 5,8, córners 5,6, amarillas 2,8
@@ -3237,55 +3237,8 @@
 3. **Bayer Leverkusen +2,5** (Hándicap 2 vías (medio gol)): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 61.8% / 19.7% / 18.5%. No sustituye al modelo principal.
+- XGBoost experimental: 62.1% / 18.5% / 19.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Parma – AS Roma
-
-**Serie A · 2026-11-21T17:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 18.8% | 23.7% | 57.5% | 42.3% |
-
-### Forma, descanso y estadísticas
-
-**Parma:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 1E · 3D; secuencia: D · V · E · D · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 12,0, a puerta 3,8, córners 3,4, amarillas 1,0
-
-**AS Roma:** posición 3 · 27 puntos.
-- Últimos partidos: 4V · 1E · 0D; secuencia: V · V · V · E · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 20,2, a puerta 7,0, córners 7,8, amarillas 2,0
-
-### Enfrentamientos previos
-- 2026-05-10: Parma 2-3 Roma
-- 2025-10-29: Roma 2-1 Parma
-- 2025-02-16: Parma 0-1 Roma
-- 2024-12-22: Roma 5-0 Parma
-
-### Tres selecciones del modelo (experimentales)
-1. **Parma +2,5** (Hándicap 2 vías (medio gol)): 86.6% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Parma: menos de 1,5 goles** (Goles equipo): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **AS Roma: más de 0,5 goles** (Goles equipo): 80.0% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 12.6% / 13.0% / 74.4%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:50:17+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3332,7 +3285,7 @@
 3. **1X: Napoli o empate** (Doble oportunidad): 83.4% · cuota justa 1.20; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 60.0% / 24.6% / 15.4%. No sustituye al modelo principal.
+- XGBoost experimental: 59.8% / 24.9% / 15.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3377,7 +3330,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 80.6% · cuota justa 1.24; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 59.5% / 26.2% / 14.3%. No sustituye al modelo principal.
+- XGBoost experimental: 59.5% / 26.6% / 14.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3425,7 +3378,7 @@
 3. **Udinese +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 52.4% / 26.2% / 21.4%. No sustituye al modelo principal.
+- XGBoost experimental: 52.6% / 26.1% / 21.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3472,7 +3425,7 @@
 3. **Genoa: menos de 2,5 goles** (Goles equipo): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 37.0% / 26.3% / 36.7%. No sustituye al modelo principal.
+- XGBoost experimental: 36.7% / 26.0% / 37.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3497,7 +3450,7 @@
 
 ### Forma, descanso y estadísticas
 
-**AC Milan:** posición 4 · 24 puntos.
+**AC Milan:** posición 5 · 24 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 10,2, a puerta 4,4, córners 2,2, amarillas 1,8
@@ -3517,7 +3470,7 @@
 3. **Menos de 4,5 goles** (Total goles): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 32.0% / 31.3% / 36.7%. No sustituye al modelo principal.
+- XGBoost experimental: 31.6% / 32.9% / 35.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3565,7 +3518,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 76.0% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 22.2% / 21.3% / 56.5%. No sustituye al modelo principal.
+- XGBoost experimental: 22.2% / 21.3% / 56.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3612,7 +3565,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 76.2% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 27.6% / 25.4% / 47.0%. No sustituye al modelo principal.
+- XGBoost experimental: 27.4% / 25.3% / 47.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3657,7 +3610,7 @@
 3. **Menos de 3,5 goles** (Total goles): 77.3% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 18.0% / 22.4% / 59.6%. No sustituye al modelo principal.
+- XGBoost experimental: 17.8% / 22.6% / 59.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3701,7 +3654,7 @@
 3. **Más de 1,5 goles** (Total goles): 73.5% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 73.6% / 13.6% / 12.8%. No sustituye al modelo principal.
+- XGBoost experimental: 75.8% / 12.6% / 11.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3731,7 +3684,7 @@
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 11,6, a puerta 4,0, córners 4,2, amarillas 2,0
 
-**Lazio:** posición 1 · 29 puntos.
+**Lazio:** posición 1 · 32 puntos.
 - Últimos partidos: 4V · 1E · 0D; secuencia: E · V · V · V · V
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 14,4, a puerta 5,2, córners 4,8, amarillas 1,2
@@ -3749,7 +3702,7 @@
 3. **Torino: menos de 1,5 goles** (Goles equipo): 76.6% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 17.6% / 21.3% / 61.1%. No sustituye al modelo principal.
+- XGBoost experimental: 17.9% / 20.6% / 61.5%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3797,7 +3750,7 @@
 3. **Genoa: menos de 1,5 goles** (Goles equipo): 77.9% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 84.1% / 8.5% / 7.3%. No sustituye al modelo principal.
+- XGBoost experimental: 83.2% / 8.7% / 8.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3845,7 +3798,7 @@
 3. **Menos de 3,5 goles** (Total goles): 74.1% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 32.5% / 24.3% / 43.3%. No sustituye al modelo principal.
+- XGBoost experimental: 33.2% / 24.1% / 42.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3892,7 +3845,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 76.6% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 32.3% / 27.3% / 40.4%. No sustituye al modelo principal.
+- XGBoost experimental: 32.5% / 26.9% / 40.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3939,7 +3892,7 @@
 3. **AS Roma: más de 1,5 goles** (Goles equipo): 73.9% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 84.5% / 9.5% / 6.0%. No sustituye al modelo principal.
+- XGBoost experimental: 84.7% / 9.5% / 5.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -3964,7 +3917,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Como:** posición 5 · 23 puntos.
+**Como:** posición 4 · 26 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: D · V · V · V · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 14,4, a puerta 4,8, córners 5,4, amarillas 1,2
@@ -3986,7 +3939,7 @@
 3. **Juventus +1,5** (Hándicap 2 vías (medio gol)): 78.4% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 43.2% / 29.8% / 27.0%. No sustituye al modelo principal.
+- XGBoost experimental: 43.4% / 29.7% / 26.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4034,7 +3987,7 @@
 3. **Lecce: menos de 1,5 goles** (Goles equipo): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 33.2% / 29.7% / 37.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4064,7 +4017,7 @@
 - Días desde el último partido liguero registrado: 23
 - Medias recientes: Tiros 12,4, a puerta 4,2, córners 4,2, amarillas 2,2
 
-**AC Milan:** posición 4 · 24 puntos.
+**AC Milan:** posición 5 · 24 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 10,2, a puerta 4,4, córners 2,2, amarillas 1,8
@@ -4082,7 +4035,7 @@
 3. **Cagliari: menos de 1,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 32.4% / 31.8% / 35.9%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4130,56 +4083,8 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 76.5% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 18.2% / 18.0% / 63.8%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Nice – Paris Saint-Germain
-
-**Ligue 1 · 2026-11-21T16:15:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 22.0% | 22.7% | 55.3% | 60.4% |
-
-### Forma, descanso y estadísticas
-
-**Nice:** posición 6 · 17 puntos.
-- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · D · V
-- Días desde el último partido liguero registrado: 13
-- Medias recientes: Tiros 13,0, a puerta 5,8, córners 5,2, amarillas 3,0
-
-**Paris Saint-Germain:** posición 1 · 23 puntos.
-- Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 17,4, a puerta 8,4, córners 5,0, amarillas 1,0
-
-### Enfrentamientos previos
-- 2026-03-21: Nice 0-4 Paris SG
-- 2025-11-01: Paris SG 1-0 Nice
-- 2025-04-25: Paris SG 1-3 Nice
-- 2024-10-06: Nice 1-1 Paris SG
-- 2024-05-15: Nice 1-2 Paris SG
-
-### Tres selecciones del modelo (experimentales)
-1. **Paris Saint-Germain: más de 0,5 goles** (Goles equipo): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Nice +2,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 1,5 goles** (Total goles): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 23.6% / 20.8% / 55.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T15:53:54+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -4225,7 +4130,7 @@
 3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 75.5% · cuota justa 1.32; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 60.4% / 24.6% / 14.9%. No sustituye al modelo principal.
+- XGBoost experimental: 59.9% / 24.9% / 15.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4273,7 +4178,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 75.4% · cuota justa 1.33; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 52.4% / 20.0% / 27.5%. No sustituye al modelo principal.
+- XGBoost experimental: 52.5% / 20.3% / 27.2%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4321,7 +4226,7 @@
 3. **Lyon +1,5** (Hándicap 2 vías (medio gol)): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 42.1% / 26.3% / 31.7%. No sustituye al modelo principal.
+- XGBoost experimental: 43.1% / 26.5% / 30.4%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4369,7 +4274,7 @@
 3. **Menos de 4,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 77.3% · cuota justa 1.29; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 48.5% / 24.3% / 27.2%. No sustituye al modelo principal.
+- XGBoost experimental: 48.6% / 23.7% / 27.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4414,7 +4319,7 @@
 3. **Paris FC: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 68.3% / 18.2% / 13.4%. No sustituye al modelo principal.
+- XGBoost experimental: 68.8% / 17.9% / 13.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4461,7 +4366,7 @@
 3. **Más de 2,5 goles** (Total goles): 78.2% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 36.2% / 26.9% / 36.8%. No sustituye al modelo principal.
+- XGBoost experimental: 38.2% / 26.2% / 35.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4505,7 +4410,7 @@
 3. **Más de 2,5 goles** (Total goles): 73.5% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 61.6% / 22.1% / 16.4%. No sustituye al modelo principal.
+- XGBoost experimental: 61.9% / 21.7% / 16.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4550,7 +4455,7 @@
 3. **Menos de 3,5 goles** (Total goles): 74.6% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 46.9% / 22.5% / 30.6%. No sustituye al modelo principal.
+- XGBoost experimental: 46.9% / 22.8% / 30.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4597,7 +4502,7 @@
 3. **Lens: más de 0,5 goles** (Goles equipo): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 25.4% / 28.9% / 45.7%. No sustituye al modelo principal.
+- XGBoost experimental: 26.2% / 29.1% / 44.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4645,7 +4550,7 @@
 3. **Menos de 4,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 40.0% / 23.3% / 36.7%. No sustituye al modelo principal.
+- XGBoost experimental: 39.6% / 24.7% / 35.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4689,7 +4594,7 @@
 3. **12: gana uno de los dos** (Doble oportunidad): 75.9% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 26.3% / 28.3% / 45.4%. No sustituye al modelo principal.
+- XGBoost experimental: 26.2% / 27.6% / 46.1%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4733,7 +4638,7 @@
 3. **Troyes +1,5** (Hándicap 2 vías (medio gol)): 77.5% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 47.2% / 28.9% / 23.9%. No sustituye al modelo principal.
+- XGBoost experimental: 47.5% / 28.7% / 23.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4780,7 +4685,7 @@
 3. **Lorient +2,5** (Hándicap 2 vías (medio gol)): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 78.5% / 10.4% / 11.0%. No sustituye al modelo principal.
+- XGBoost experimental: 78.5% / 10.2% / 11.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4827,7 +4732,7 @@
 3. **Menos de 3,5 goles** (Total goles): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 25.2% / 21.0% / 53.7%. No sustituye al modelo principal.
+- XGBoost experimental: 24.3% / 20.7% / 55.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4875,7 +4780,7 @@
 3. **Toulouse +1,5** (Hándicap 2 vías (medio gol)): 82.0% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 29.7% / 23.4% / 46.9%. No sustituye al modelo principal.
+- XGBoost experimental: 31.0% / 23.1% / 46.0%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4923,7 +4828,7 @@
 3. **Más de 1,5 goles** (Total goles): 81.8% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 49.1% / 28.6% / 22.3%. No sustituye al modelo principal.
+- XGBoost experimental: 49.5% / 28.2% / 22.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -4971,7 +4876,7 @@
 3. **Más de 1,5 goles** (Total goles): 81.5% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost para este encuentro: sin predicción reciente y verificada
+- XGBoost experimental: 18.6% / 19.8% / 61.6%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar

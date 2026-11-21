@@ -1,20 +1,20 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-21T15:53:23.361588+00:00",
+  "calculado_utc": "2026-11-21T17:13:57.600685+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-21T15:53:23.361588+00:00",
-    "objetivos_conteo": 6,
+    "calculado_utc": "2026-11-21T17:13:57.600685+00:00",
+    "objetivos_conteo": 15,
     "completos": 2,
-    "incompletos": 4,
-    "scoreboards_consultados": 4,
-    "summaries_consultados": 4,
-    "campos_recuperados": 0,
+    "incompletos": 13,
+    "scoreboards_consultados": 6,
+    "summaries_consultados": 14,
+    "campos_recuperados": 100,
     "campos_recuperados_cache": 70,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
-    "partidos_con_faltas": 11,
-    "objetivos_faltas": 11,
+    "partidos_con_faltas": 21,
+    "objetivos_faltas": 21,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
@@ -1171,43 +1171,102 @@
       "local": "Como",
       "visitante": "Cagliari",
       "fecha_utc": "2026-11-21T14:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "2-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 10,
+          "visitante": 6,
+          "total": 16,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 6,
+          "visitante": 1,
+          "total": 7,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 6,
+          "visitante": 12,
+          "total": 18,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "I1|202611211400|como|cagliari|Doble oportunidad|1X: Como o empate",
           "mercado": "Doble oportunidad",
           "seleccion": "1X: Como o empate",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "H",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado H."
         },
         {
           "clave": "I1|202611211400|como|cagliari|Goles equipo|Como: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Como: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
         {
           "clave": "I1|202611211400|como|cagliari|Goles equipo|Cagliari: menos de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Cagliari: menos de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 0."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "I1|202611211400|lazio|lecce",
@@ -1215,43 +1274,102 @@
       "local": "Lazio",
       "visitante": "Lecce",
       "fecha_utc": "2026-11-21T14:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "3-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 10,
+          "visitante": 10,
+          "total": 20,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 6,
+          "visitante": 2,
+          "total": 8,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 1,
+          "visitante": 2,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 13,
+          "total": 24,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "I1|202611211400|lazio|lecce|Goles equipo|Lazio: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Lazio: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "3",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 3-0; resultado observado 3."
         },
         {
           "clave": "I1|202611211400|lazio|lecce|Doble oportunidad|1X: Lazio o empate",
           "mercado": "Doble oportunidad",
           "seleccion": "1X: Lazio o empate",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "H",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-0; resultado observado H."
         },
         {
           "clave": "I1|202611211400|lazio|lecce|Total goles|Menos de 3,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 3,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "3",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-0; resultado observado 3."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "D1|202611211430|ein frankfurt|hoffenheim",
@@ -1259,43 +1377,102 @@
       "local": "Eintracht Frankfurt",
       "visitante": "TSG Hoffenheim",
       "fecha_utc": "2026-11-21T14:30:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 21,
+          "visitante": 16,
+          "total": 37,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 6,
+          "visitante": 4,
+          "total": 10,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 1,
+          "total": 1,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 12,
+          "total": 23,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "D1|202611211430|ein frankfurt|hoffenheim|Goles equipo|Eintracht Frankfurt: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Eintracht Frankfurt: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "D1|202611211430|ein frankfurt|hoffenheim|Hándicap 2 vías (medio gol)|Eintracht Frankfurt +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Eintracht Frankfurt +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "D1|202611211430|ein frankfurt|hoffenheim|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
           "mercado": "Tiros a puerta totales",
           "seleccion": "Más de 6,5 tiros a puerta totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "10",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+          ],
+          "explicacion": "ACIERTO: Tiros a puerta: 6 local + 4 visitante = 10; línea 6.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "D1|202611211430|m gladbach|dortmund",
@@ -1303,43 +1480,102 @@
       "local": "Borussia Mönchengladbach",
       "visitante": "Borussia Dortmund",
       "fecha_utc": "2026-11-21T14:30:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "0-1",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 9,
+          "visitante": 15,
+          "total": 24,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 2,
+          "visitante": 5,
+          "total": 7,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 1,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 16,
+          "visitante": 7,
+          "total": 23,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "D1|202611211430|m gladbach|dortmund|Goles equipo|Borussia Dortmund: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Borussia Dortmund: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         },
         {
           "clave": "D1|202611211430|m gladbach|dortmund|Hándicap 2 vías (medio gol)|Borussia Mönchengladbach +2,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Borussia Mönchengladbach +2,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "-1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-1; resultado observado -1."
         },
         {
           "clave": "D1|202611211430|m gladbach|dortmund|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 0-1; resultado observado 1."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "D1|202611211430|union berlin|leipzig",
@@ -1347,43 +1583,102 @@
       "local": "1. FC Union Berlin",
       "visitante": "RB Leipzig",
       "fecha_utc": "2026-11-21T14:30:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-5",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 13,
+          "visitante": 32,
+          "total": 45,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 8,
+          "visitante": 10,
+          "total": 18,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 10,
+          "visitante": 12,
+          "total": 22,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "D1|202611211430|union berlin|leipzig|Hándicap 2 vías (medio gol)|1. FC Union Berlin +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "1. FC Union Berlin +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "-4",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 1-5; resultado observado -4."
         },
         {
           "clave": "D1|202611211430|union berlin|leipzig|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "6",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-5; resultado observado 6."
         },
         {
           "clave": "D1|202611211430|union berlin|leipzig|Goles equipo|RB Leipzig: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "RB Leipzig: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "5",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 1-5; resultado observado 5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 1
     },
     {
       "id": "E0|202611211500|aston villa|sunderland",
@@ -1391,43 +1686,102 @@
       "local": "Aston Villa",
       "visitante": "Sunderland",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "0-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 19,
+          "visitante": 7,
+          "total": 26,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 7,
+          "visitante": 1,
+          "total": 8,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 15,
+          "visitante": 20,
+          "total": 35,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "E0|202611211500|aston villa|sunderland|Hándicap 2 vías (medio gol)|Sunderland +2,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Sunderland +2,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
         {
           "clave": "E0|202611211500|aston villa|sunderland|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
         {
           "clave": "E0|202611211500|aston villa|sunderland|Goles equipo|Aston Villa: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Aston Villa: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 0-0; resultado observado 0."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "E0|202611211500|bournemouth|nott m forest",
@@ -1435,43 +1789,102 @@
       "local": "AFC Bournemouth",
       "visitante": "Nottingham Forest",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "2-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 19,
+          "visitante": 18,
+          "total": 37,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 7,
+          "visitante": 1,
+          "total": 8,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 1,
+          "visitante": 3,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 13,
+          "visitante": 15,
+          "total": 28,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "E0|202611211500|bournemouth|nott m forest|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
         {
           "clave": "E0|202611211500|bournemouth|nott m forest|Goles equipo|AFC Bournemouth: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "AFC Bournemouth: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
         {
           "clave": "E0|202611211500|bournemouth|nott m forest|Hándicap 2 vías (medio gol)|Nottingham Forest +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Nottingham Forest +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "-2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 2-0; resultado observado -2."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "E0|202611211500|chelsea|leeds",
@@ -1479,43 +1892,102 @@
       "local": "Chelsea",
       "visitante": "Leeds United",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-4",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 14,
+          "visitante": 21,
+          "total": 35,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 3,
+          "visitante": 8,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 1,
+          "visitante": 3,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 6,
+          "visitante": 15,
+          "total": 21,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "E0|202611211500|chelsea|leeds|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "5",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 1-4; resultado observado 5."
         },
         {
           "clave": "E0|202611211500|chelsea|leeds|Goles equipo|Chelsea: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Chelsea: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-4; resultado observado 1."
         },
         {
           "clave": "E0|202611211500|chelsea|leeds|Doble oportunidad|1X: Chelsea o empate",
           "mercado": "Doble oportunidad",
           "seleccion": "1X: Chelsea o empate",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "A",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 1-4; resultado observado A."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 1
     },
     {
       "id": "E0|202611211500|coventry|crystal palace",
@@ -1523,43 +1995,102 @@
       "local": "Coventry City",
       "visitante": "Crystal Palace",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "3-2",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 11,
+          "visitante": 14,
+          "total": 25,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 7,
+          "visitante": 5,
+          "total": 12,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 1,
+          "visitante": 2,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 12,
+          "visitante": 14,
+          "total": 26,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "E0|202611211500|coventry|crystal palace|Hándicap 2 vías (medio gol)|Coventry City +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Coventry City +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-2; resultado observado 1."
         },
         {
           "clave": "E0|202611211500|coventry|crystal palace|Goles equipo|Crystal Palace: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Crystal Palace: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-2; resultado observado 2."
         },
         {
           "clave": "E0|202611211500|coventry|crystal palace|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "5",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 3-2; resultado observado 5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "E0|202611211500|tottenham|ipswich",
@@ -1567,43 +2098,102 @@
       "local": "Tottenham Hotspur",
       "visitante": "Ipswich Town",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "2-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 18,
+          "visitante": 11,
+          "total": 29,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 9,
+          "visitante": 3,
+          "total": 12,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 4,
+          "visitante": 1,
+          "total": 5,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 17,
+          "visitante": 17,
+          "total": 34,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "E0|202611211500|tottenham|ipswich|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
         {
           "clave": "E0|202611211500|tottenham|ipswich|Hándicap 2 vías (medio gol)|Tottenham Hotspur +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Tottenham Hotspur +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
         {
           "clave": "E0|202611211500|tottenham|ipswich|Goles equipo|Tottenham Hotspur: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Tottenham Hotspur: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "SP1|202611211515|vallecano|valencia",

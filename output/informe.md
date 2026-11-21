@@ -1,11 +1,11 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-21T15:53:23.361588+00:00
+**UTC:** 2026-11-21T17:13:57.600685+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 107
+**Próximos partidos con pronóstico:** 105
 **Descartados por insuficiencia de datos:** 6
-**Históricos evaluados:** 11
-**Brier 1X2 medio:** 0.2498
+**Históricos evaluados:** 21
+**Brier 1X2 medio:** 0.2092
 
 | Liga | Fecha UTC | Partido | Local | Empate | Visitante |
 |---|---|---|---:|---:|---:|
@@ -79,7 +79,6 @@
 | Bundesliga | 2026-11-29T14:30 | SC Freiburg - RB Leipzig | 49.6% | 22.2% | 28.2% |
 | Bundesliga | 2026-11-29T16:30 | TSG Hoffenheim - FC Augsburg | 54.3% | 21.3% | 24.4% |
 | Bundesliga | 2026-11-29T18:30 | Borussia Dortmund - Bayer Leverkusen | 57.8% | 21.0% | 21.2% |
-| Serie A | 2026-11-21T17:00 | Parma - AS Roma | 18.8% | 23.7% | 57.5% |
 | Serie A | 2026-11-21T19:45 | Napoli - Torino | 61.9% | 21.5% | 16.6% |
 | Serie A | 2026-11-22T11:30 | Juventus - Venezia | 69.6% | 19.4% | 10.9% |
 | Serie A | 2026-11-22T14:00 | Bologna - Udinese | 41.1% | 24.4% | 34.5% |
@@ -98,7 +97,6 @@
 | Serie A | 2026-11-30T17:30 | Lecce - Atalanta | 24.3% | 24.7% | 51.0% |
 | Serie A | 2026-11-30T19:45 | Cagliari - AC Milan | 24.9% | 26.6% | 48.5% |
 | Serie A | 2026-12-04T19:45 | Bologna - AS Roma | 24.5% | 23.5% | 52.0% |
-| Ligue 1 | 2026-11-21T16:15 | Nice - Paris Saint-Germain | 22.0% | 22.7% | 55.3% |
 | Ligue 1 | 2026-11-21T19:45 | AS Monaco - AJ Auxerre | 60.4% | 21.3% | 18.3% |
 | Ligue 1 | 2026-11-21T19:45 | Lens - Toulouse | 49.3% | 24.6% | 26.0% |
 | Ligue 1 | 2026-11-21T19:45 | Lille - Lyon | 46.0% | 27.0% | 26.9% |
@@ -140,17 +138,17 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **3** / 107. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **3** / 105. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
 Pronósticos archivados: **130**
-Resultados reales verificados: **11**
+Resultados reales verificados: **21**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
-Brier prospectivo: **0.24982**; log loss: **1.18338**. Acierto del favorito: **45.5%**.
+Brier prospectivo: **0.20918**; log loss: **1.02499**. Acierto del favorito: **61.9%**.
 
 ## Encuentros descartados
 
@@ -173,13 +171,13 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **49**; finalizadas: **10**; pendientes: **39**.
+Selecciones archivadas: **49**; finalizadas: **16**; pendientes: **33**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **390** selecciones archivadas antes del partido; **33** resueltas.
+Seguimiento real del Top 3: **390** selecciones archivadas antes del partido; **63** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 4574 líneas congeladas, 182 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 4574 líneas congeladas, 480 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

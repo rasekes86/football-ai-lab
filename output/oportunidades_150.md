@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 49 · **Finalizadas:** 10 · **Pendientes:** 39
+**Registradas:** 49 · **Finalizadas:** 16 · **Pendientes:** 33
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -16,8 +16,8 @@
 | Sevilla – Real Betis | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.9% | 2.10 | Pendiente | — |
 | Manchester City – Fulham | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 67.2% | 1.67 | Acertada | 0.667 |
 | Bayern Munich – FC Cologne | Sí (OFRECIDA_API_REGISTRADA) | 57.7% | 1.91 | Acertada | 0.909 |
-| Como – Cagliari | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.6% | 1.61 | Pendiente | — |
-| Lazio – Lecce | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.7% | 2.38 | Pendiente | — |
+| Como – Cagliari | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.6% | 1.61 | Acertada | 0.615 |
+| Lazio – Lecce | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.7% | 2.38 | Fallada | -1.000 |
 | Nice – Paris Saint-Germain | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.0% | 1.85 | Pendiente | — |
 | Troyes – Le Havre AC | Sí (OFRECIDA_API_REGISTRADA) | 64.7% | 1.67 | Acertada | 0.667 |
 | Real Madrid – Celta Vigo | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 76.4% | 1.85 | Pendiente | — |
@@ -27,10 +27,10 @@
 | Real Sociedad II – Cádiz | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.6% | 1.98 | Pendiente | — |
 | Castellón – Eldense | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.3% | 1.53 | Pendiente | — |
 | Tenerife – Mallorca | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 77.2% | 1.67 | Pendiente | — |
-| Tottenham Hotspur – Ipswich Town | Sí (OFRECIDA_API_REGISTRADA) | 64.4% | 1.67 | Pendiente | — |
+| Tottenham Hotspur – Ipswich Town | Sí (OFRECIDA_API_REGISTRADA) | 64.4% | 1.67 | Fallada | -1.000 |
 | Hull City – Brighton & Hove Albion | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 50.8% | 2.20 | Pendiente | — |
 | Liverpool – Manchester United | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 72.4% | 1.67 | Pendiente | — |
-| 1. FC Union Berlin – RB Leipzig | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.5% | 1.73 | Pendiente | — |
+| 1. FC Union Berlin – RB Leipzig | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.5% | 1.73 | Fallada | -1.000 |
 | FC Augsburg – Mainz | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.3% | 1.80 | Pendiente | — |
 | Werder Bremen – Hamburg SV | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 74.6% | 1.61 | Pendiente | — |
 | Parma – AS Roma | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 78.5% | 1.61 | Pendiente | — |
@@ -52,9 +52,9 @@
 | Ceuta – Almería | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.6% | 2.15 | Pendiente | — |
 | Brentford – Everton | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.8% | 2.10 | Pendiente | — |
 | Monza – Fiorentina | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 70.0% | 1.53 | Pendiente | — |
-| Borussia Mönchengladbach – Borussia Dortmund | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.0% | 1.73 | Pendiente | — |
+| Borussia Mönchengladbach – Borussia Dortmund | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.0% | 1.73 | Acertada | 0.727 |
 | Paris FC – Angers | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.3% | 1.53 | Pendiente | — |
-| Chelsea – Leeds United | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.4% | 1.98 | Pendiente | — |
+| Chelsea – Leeds United | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.4% | 1.98 | Acertada | 0.975 |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.

@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-21T15:53:23.361588+00:00",
+  "timestamp_utc": "2026-11-21T17:13:57.600685+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -25,45 +25,45 @@
           "jugados": 11
         },
         {
-          "nombre": "Liverpool",
+          "nombre": "AFC Bournemouth",
           "posicion": 4,
+          "puntos": 18,
+          "jugados": 11
+        },
+        {
+          "nombre": "Liverpool",
+          "posicion": 5,
           "puntos": 18,
           "jugados": 10
         },
         {
-          "nombre": "Chelsea",
-          "posicion": 5,
-          "puntos": 16,
-          "jugados": 10
+          "nombre": "Leeds United",
+          "posicion": 6,
+          "puntos": 17,
+          "jugados": 11
         },
         {
           "nombre": "Everton",
-          "posicion": 6,
+          "posicion": 7,
           "puntos": 16,
           "jugados": 10
         },
         {
-          "nombre": "AFC Bournemouth",
-          "posicion": 7,
+          "nombre": "Chelsea",
+          "posicion": 8,
+          "puntos": 16,
+          "jugados": 11
+        },
+        {
+          "nombre": "Tottenham Hotspur",
+          "posicion": 9,
           "puntos": 15,
-          "jugados": 10
+          "jugados": 11
         },
         {
           "nombre": "Brentford",
-          "posicion": 8,
-          "puntos": 14,
-          "jugados": 10
-        },
-        {
-          "nombre": "Leeds United",
-          "posicion": 9,
-          "puntos": 14,
-          "jugados": 10
-        },
-        {
-          "nombre": "Aston Villa",
           "posicion": 10,
-          "puntos": 13,
+          "puntos": 14,
           "jugados": 10
         }
       ]
@@ -137,34 +137,34 @@
       "temporada": "bundesliga-2026",
       "top10": [
         {
-          "nombre": "Bayern Munich",
+          "nombre": "Borussia Dortmund",
           "posicion": 1,
+          "puntos": 24,
+          "jugados": 10
+        },
+        {
+          "nombre": "Bayern Munich",
+          "posicion": 2,
           "puntos": 22,
           "jugados": 10
         },
         {
-          "nombre": "Borussia Dortmund",
-          "posicion": 2,
-          "puntos": 21,
-          "jugados": 9
-        },
-        {
           "nombre": "SC Freiburg",
           "posicion": 3,
-          "puntos": 19,
-          "jugados": 9
+          "puntos": 22,
+          "jugados": 10
         },
         {
           "nombre": "RB Leipzig",
           "posicion": 4,
-          "puntos": 18,
-          "jugados": 9
+          "puntos": 21,
+          "jugados": 10
         },
         {
           "nombre": "Bayer Leverkusen",
           "posicion": 5,
-          "puntos": 16,
-          "jugados": 9
+          "puntos": 19,
+          "jugados": 10
         },
         {
           "nombre": "Werder Bremen",
@@ -173,28 +173,28 @@
           "jugados": 9
         },
         {
-          "nombre": "SV Elversberg",
+          "nombre": "Eintracht Frankfurt",
           "posicion": 7,
+          "puntos": 15,
+          "jugados": 10
+        },
+        {
+          "nombre": "SV Elversberg",
+          "posicion": 8,
           "puntos": 13,
-          "jugados": 9
+          "jugados": 10
         },
         {
           "nombre": "VfB Stuttgart",
-          "posicion": 8,
-          "puntos": 12,
-          "jugados": 9
-        },
-        {
-          "nombre": "TSG Hoffenheim",
           "posicion": 9,
           "puntos": 12,
           "jugados": 9
         },
         {
-          "nombre": "Eintracht Frankfurt",
+          "nombre": "TSG Hoffenheim",
           "posicion": 10,
           "puntos": 12,
-          "jugados": 9
+          "jugados": 10
         }
       ]
     },
@@ -204,8 +204,8 @@
         {
           "nombre": "Lazio",
           "posicion": 1,
-          "puntos": 29,
-          "jugados": 11
+          "puntos": 32,
+          "jugados": 12
         },
         {
           "nombre": "Internazionale",
@@ -220,15 +220,15 @@
           "jugados": 11
         },
         {
-          "nombre": "AC Milan",
+          "nombre": "Como",
           "posicion": 4,
-          "puntos": 24,
-          "jugados": 11
+          "puntos": 26,
+          "jugados": 12
         },
         {
-          "nombre": "Como",
+          "nombre": "AC Milan",
           "posicion": 5,
-          "puntos": 23,
+          "puntos": 24,
           "jugados": 11
         },
         {
@@ -253,7 +253,7 @@
           "nombre": "Cagliari",
           "posicion": 9,
           "puntos": 16,
-          "jugados": 11
+          "jugados": 12
         },
         {
           "nombre": "Napoli",
@@ -376,19 +376,20 @@
     },
     {
       "equipo": "Chelsea",
-      "bajas_reportadas": 12,
+      "bajas_reportadas": 13,
       "estados": {
         "unavailable": 7,
-        "injured": 5
+        "injured": 5,
+        "doubtful": 1
       }
     },
     {
       "equipo": "Coventry City",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 14,
       "estados": {
         "unavailable": 7,
         "injured": 4,
-        "doubtful": 2
+        "doubtful": 3
       }
     },
     {
@@ -426,8 +427,9 @@
     },
     {
       "equipo": "Ipswich Town",
-      "bajas_reportadas": 8,
+      "bajas_reportadas": 9,
       "estados": {
+        "doubtful": 1,
         "unavailable": 8
       }
     },
@@ -484,16 +486,18 @@
     },
     {
       "equipo": "Spurs",
-      "bajas_reportadas": 14,
+      "bajas_reportadas": 15,
       "estados": {
         "injured": 5,
+        "doubtful": 1,
         "unavailable": 9
       }
     },
     {
       "equipo": "Sunderland",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 11,
       "estados": {
+        "not_in_squad": 1,
         "unavailable": 5,
         "injured": 5
       }

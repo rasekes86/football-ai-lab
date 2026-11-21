@@ -1,6 +1,6 @@
 {
   "version": "dossier-0.8",
-  "calculado_utc": "2026-11-21T15:53:23.361588+00:00",
+  "calculado_utc": "2026-11-21T17:13:57.600685+00:00",
   "partidos": [
     {
       "version": "dossier-0.8",
@@ -9,7 +9,7 @@
       "liga": "LaLiga",
       "local": "Sevilla",
       "visitante": "Real Betis",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32054",
@@ -240,15 +240,15 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "27.3%",
-        "empate": "27.5%",
-        "victoria_visitante": "45.2%",
+        "victoria_local": "27.7%",
+        "empate": "27.8%",
+        "victoria_visitante": "44.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-21T15:49:14+00:00",
+          "fecha": "2026-11-21T17:14:40+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -266,7 +266,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Celta Vigo",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.59456",
@@ -498,9 +498,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "80.9%",
-        "empate": "12.4%",
-        "victoria_visitante": "6.7%",
+        "victoria_local": "80.3%",
+        "empate": "12.9%",
+        "victoria_visitante": "6.8%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -518,7 +518,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Villarreal",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.70177",
@@ -749,9 +749,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "72.4%",
-        "empate": "15.2%",
-        "victoria_visitante": "12.4%",
+        "victoria_local": "71.6%",
+        "empate": "15.4%",
+        "victoria_visitante": "12.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -769,7 +769,7 @@
       "liga": "LaLiga",
       "local": "Osasuna",
       "visitante": "Málaga",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51510",
@@ -956,9 +956,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "45.4%",
-        "empate": "31.0%",
-        "victoria_visitante": "23.6%",
+        "victoria_local": "45.3%",
+        "empate": "30.6%",
+        "victoria_visitante": "24.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -976,7 +976,7 @@
       "liga": "LaLiga",
       "local": "Getafe",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.31732",
@@ -1223,7 +1223,7 @@
       "liga": "LaLiga",
       "local": "Levante",
       "visitante": "Elche",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43604",
@@ -1423,9 +1423,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "43.9%",
+        "victoria_local": "44.4%",
         "empate": "24.0%",
-        "victoria_visitante": "32.1%",
+        "victoria_visitante": "31.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -1443,7 +1443,7 @@
       "liga": "LaLiga",
       "local": "Real Betis",
       "visitante": "Rayo Vallecano",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58329",
@@ -1670,9 +1670,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "57.0%",
-        "empate": "24.5%",
-        "victoria_visitante": "18.4%",
+        "victoria_local": "57.2%",
+        "empate": "24.7%",
+        "victoria_visitante": "18.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -1690,7 +1690,7 @@
       "liga": "LaLiga",
       "local": "Málaga",
       "visitante": "Athletic Club",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37275",
@@ -1881,9 +1881,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "28.9%",
-        "empate": "31.2%",
-        "victoria_visitante": "39.9%",
+        "victoria_local": "28.7%",
+        "empate": "32.1%",
+        "victoria_visitante": "39.2%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -1901,7 +1901,7 @@
       "liga": "LaLiga",
       "local": "Elche",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.29448",
@@ -2115,9 +2115,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "17.2%",
-        "empate": "26.5%",
-        "victoria_visitante": "56.2%",
+        "victoria_local": "18.0%",
+        "empate": "26.4%",
+        "victoria_visitante": "55.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -2135,7 +2135,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Alavés",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.72073",
@@ -2366,9 +2366,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "80.1%",
-        "empate": "13.1%",
-        "victoria_visitante": "6.8%",
+        "victoria_local": "79.3%",
+        "empate": "13.3%",
+        "victoria_visitante": "7.4%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -2386,7 +2386,7 @@
       "liga": "LaLiga",
       "local": "Valencia",
       "visitante": "Osasuna",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45500",
@@ -2614,9 +2614,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "28.3%",
-        "empate": "34.9%",
-        "victoria_visitante": "36.8%",
+        "victoria_local": "27.0%",
+        "empate": "35.0%",
+        "victoria_visitante": "37.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -2634,7 +2634,7 @@
       "liga": "LaLiga",
       "local": "Celta Vigo",
       "visitante": "Villarreal",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37297",
@@ -2856,9 +2856,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "40.1%",
-        "empate": "27.0%",
-        "victoria_visitante": "32.8%",
+        "victoria_local": "39.7%",
+        "empate": "26.5%",
+        "victoria_visitante": "33.8%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -2876,7 +2876,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Sevilla",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48229",
@@ -3107,9 +3107,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "49.7%",
+        "victoria_local": "49.3%",
         "empate": "29.4%",
-        "victoria_visitante": "21.0%",
+        "victoria_visitante": "21.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -3127,7 +3127,7 @@
       "liga": "LaLiga",
       "local": "Espanyol",
       "visitante": "Getafe",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43607",
@@ -3347,7 +3347,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "41.1%",
+        "empate": "32.2%",
+        "victoria_visitante": "26.7%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -3363,7 +3368,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Real Madrid",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24016",
@@ -3593,7 +3598,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "24.5%",
+        "empate": "26.2%",
+        "victoria_visitante": "49.3%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -3609,7 +3619,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66500",
@@ -3839,7 +3849,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "51.9%",
+        "empate": "24.2%",
+        "victoria_visitante": "23.9%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -3855,7 +3870,7 @@
       "liga": "LaLiga",
       "local": "Alavés",
       "visitante": "Espanyol",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.42973",
@@ -4084,7 +4099,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "42.4%",
+        "empate": "31.1%",
+        "victoria_visitante": "26.6%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -4100,7 +4120,7 @@
       "liga": "Segunda División",
       "local": "Castellón",
       "visitante": "Eldense",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65339",
@@ -4305,12 +4325,18 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "63.3%",
-        "empate": "25.5%",
+        "victoria_local": "63.8%",
+        "empate": "25.1%",
         "victoria_visitante": "11.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
-      "mercado_referencias": [],
+      "mercado_referencias": [
+        {
+          "proveedor": "InferSports (keyless)",
+          "fecha": "2026-11-21T17:14:14+00:00",
+          "estado": "Referencia de mercado sin margen, no cuota ofrecida"
+        }
+      ],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
         "Lesiones y alineaciones no incorporadas al predictor",
@@ -4325,7 +4351,7 @@
       "liga": "Segunda División",
       "local": "Tenerife",
       "visitante": "Mallorca",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.39095",
@@ -4512,9 +4538,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "27.5%",
+        "victoria_local": "28.5%",
         "empate": "21.8%",
-        "victoria_visitante": "50.7%",
+        "victoria_visitante": "49.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -4532,7 +4558,7 @@
       "liga": "Segunda División",
       "local": "Córdoba",
       "visitante": "Real Oviedo",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35582",
@@ -4737,9 +4763,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "45.9%",
-        "empate": "25.3%",
-        "victoria_visitante": "28.8%",
+        "victoria_local": "46.4%",
+        "empate": "25.0%",
+        "victoria_visitante": "28.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -4757,7 +4783,7 @@
       "liga": "Segunda División",
       "local": "Sporting Gijón",
       "visitante": "Las Palmas",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44863",
@@ -4962,9 +4988,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "55.1%",
-        "empate": "25.5%",
-        "victoria_visitante": "19.5%",
+        "victoria_local": "54.6%",
+        "empate": "25.7%",
+        "victoria_visitante": "19.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -4982,7 +5008,7 @@
       "liga": "Segunda División",
       "local": "Girona",
       "visitante": "Eibar",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45866",
@@ -5169,9 +5195,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "48.3%",
-        "empate": "28.1%",
-        "victoria_visitante": "23.6%",
+        "victoria_local": "48.2%",
+        "empate": "28.0%",
+        "victoria_visitante": "23.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -5189,7 +5215,7 @@
       "liga": "Segunda División",
       "local": "RC Celta Fortuna",
       "visitante": "Real Valladolid",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47631",
@@ -5376,9 +5402,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "31.2%",
-        "empate": "28.7%",
-        "victoria_visitante": "40.1%",
+        "victoria_local": "29.5%",
+        "empate": "28.0%",
+        "victoria_visitante": "42.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -5396,7 +5422,7 @@
       "liga": "Segunda División",
       "local": "Burgos",
       "visitante": "Albacete",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47296",
@@ -5619,9 +5645,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "60.8%",
-        "empate": "22.5%",
-        "victoria_visitante": "16.7%",
+        "victoria_local": "60.9%",
+        "empate": "22.1%",
+        "victoria_visitante": "16.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -5639,7 +5665,7 @@
       "liga": "Segunda División",
       "local": "Ceuta",
       "visitante": "Almería",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.29153",
@@ -5849,9 +5875,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "37.1%",
-        "empate": "23.0%",
-        "victoria_visitante": "39.9%",
+        "victoria_local": "37.5%",
+        "empate": "23.4%",
+        "victoria_visitante": "39.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -5869,7 +5895,7 @@
       "liga": "Segunda División",
       "local": "Leganés",
       "visitante": "CD Sabadell",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41026",
@@ -6056,9 +6082,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "41.4%",
-        "empate": "25.3%",
-        "victoria_visitante": "33.3%",
+        "victoria_local": "41.3%",
+        "empate": "25.2%",
+        "victoria_visitante": "33.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -6076,7 +6102,7 @@
       "liga": "Segunda División",
       "local": "Las Palmas",
       "visitante": "FC Andorra",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51181",
@@ -6281,9 +6307,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "44.0%",
-        "empate": "28.0%",
-        "victoria_visitante": "28.0%",
+        "victoria_local": "44.1%",
+        "empate": "28.3%",
+        "victoria_visitante": "27.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -6301,7 +6327,7 @@
       "liga": "Segunda División",
       "local": "Albacete",
       "visitante": "Tenerife",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49975",
@@ -6518,9 +6544,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "40.3%",
-        "empate": "30.2%",
-        "victoria_visitante": "29.5%",
+        "victoria_local": "45.4%",
+        "empate": "29.5%",
+        "victoria_visitante": "25.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -6538,7 +6564,7 @@
       "liga": "Segunda División",
       "local": "Eldense",
       "visitante": "Girona",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32426",
@@ -6726,8 +6752,8 @@
       },
       "ml": {
         "victoria_local": "28.1%",
-        "empate": "27.0%",
-        "victoria_visitante": "45.0%",
+        "empate": "27.5%",
+        "victoria_visitante": "44.4%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -6745,7 +6771,7 @@
       "liga": "Segunda División",
       "local": "Eibar",
       "visitante": "Burgos",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43530",
@@ -6963,9 +6989,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "54.4%",
-        "empate": "23.4%",
-        "victoria_visitante": "22.1%",
+        "victoria_local": "53.5%",
+        "empate": "24.3%",
+        "victoria_visitante": "22.2%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -6983,7 +7009,7 @@
       "liga": "Segunda División",
       "local": "Real Valladolid",
       "visitante": "Real Sociedad II",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43115",
@@ -7183,9 +7209,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "58.0%",
-        "empate": "24.0%",
-        "victoria_visitante": "17.9%",
+        "victoria_local": "58.2%",
+        "empate": "24.2%",
+        "victoria_visitante": "17.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -7203,7 +7229,7 @@
       "liga": "Segunda División",
       "local": "Granada",
       "visitante": "Ceuta",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57942",
@@ -7403,9 +7429,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "49.4%",
-        "empate": "29.0%",
-        "victoria_visitante": "21.6%",
+        "victoria_local": "50.2%",
+        "empate": "29.6%",
+        "victoria_visitante": "20.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -7423,7 +7449,7 @@
       "liga": "Segunda División",
       "local": "Mallorca",
       "visitante": "Castellón",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.38825",
@@ -7610,9 +7636,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "45.3%",
-        "empate": "25.4%",
-        "victoria_visitante": "29.3%",
+        "victoria_local": "45.5%",
+        "empate": "25.3%",
+        "victoria_visitante": "29.2%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -7630,7 +7656,7 @@
       "liga": "Segunda División",
       "local": "Cádiz",
       "visitante": "Córdoba",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30600",
@@ -7842,9 +7868,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "27.5%",
-        "empate": "21.1%",
-        "victoria_visitante": "51.4%",
+        "victoria_local": "27.3%",
+        "empate": "21.6%",
+        "victoria_visitante": "51.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -7862,7 +7888,7 @@
       "liga": "Segunda División",
       "local": "Almería",
       "visitante": "Sporting Gijón",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58658",
@@ -8079,9 +8105,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "56.5%",
+        "victoria_local": "56.7%",
         "empate": "21.3%",
-        "victoria_visitante": "22.2%",
+        "victoria_visitante": "21.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -8099,7 +8125,7 @@
       "liga": "Segunda División",
       "local": "Real Oviedo",
       "visitante": "RC Celta Fortuna",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56630",
@@ -8285,7 +8311,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "65.1%",
+        "empate": "21.1%",
+        "victoria_visitante": "13.9%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -8301,7 +8332,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Arsenal",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.22569",
@@ -8523,12 +8554,18 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "21.4%",
-        "empate": "25.0%",
+        "victoria_local": "21.6%",
+        "empate": "24.8%",
         "victoria_visitante": "53.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
-      "mercado_referencias": [],
+      "mercado_referencias": [
+        {
+          "proveedor": "InferSports (keyless)",
+          "fecha": "2026-11-21T17:14:45+00:00",
+          "estado": "Referencia de mercado sin margen, no cuota ofrecida"
+        }
+      ],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
         "Lesiones y alineaciones no incorporadas al predictor",
@@ -8543,7 +8580,7 @@
       "liga": "Premier League",
       "local": "Hull City",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35505",
@@ -8734,9 +8771,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "27.5%",
-        "empate": "22.9%",
-        "victoria_visitante": "49.6%",
+        "victoria_local": "27.7%",
+        "empate": "23.6%",
+        "victoria_visitante": "48.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -8754,7 +8791,7 @@
       "liga": "Premier League",
       "local": "Liverpool",
       "visitante": "Manchester United",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44288",
@@ -8769,7 +8806,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 4,
+            "posicion": 5,
             "puntos": 18,
             "jugados": 10
           },
@@ -8976,9 +9013,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "46.5%",
-        "empate": "26.8%",
-        "victoria_visitante": "26.7%",
+        "victoria_local": "46.7%",
+        "empate": "26.4%",
+        "victoria_visitante": "26.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -8996,7 +9033,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Everton",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45209",
@@ -9011,7 +9048,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 8,
+            "posicion": 10,
             "puntos": 14,
             "jugados": 10
           },
@@ -9072,7 +9109,7 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 6,
+            "posicion": 7,
             "puntos": 16,
             "jugados": 10
           },
@@ -9222,9 +9259,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "41.7%",
+        "victoria_local": "41.4%",
         "empate": "27.8%",
-        "victoria_visitante": "30.5%",
+        "victoria_visitante": "30.8%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -9242,7 +9279,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Chelsea",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30059",
@@ -9314,9 +9351,9 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 5,
+            "posicion": 8,
             "puntos": 16,
-            "jugados": 10
+            "jugados": 11
           },
           "reciente": {
             "partidos": 5,
@@ -9464,9 +9501,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "31.4%",
-        "empate": "29.7%",
-        "victoria_visitante": "39.0%",
+        "victoria_local": "31.1%",
+        "empate": "29.3%",
+        "victoria_visitante": "39.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -9484,7 +9521,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Coventry City",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54272",
@@ -9499,9 +9536,9 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 9,
-            "puntos": 14,
-            "jugados": 10
+            "posicion": 6,
+            "puntos": 17,
+            "jugados": 11
           },
           "reciente": {
             "partidos": 5,
@@ -9675,8 +9712,8 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "49.4%",
-        "empate": "32.1%",
+        "victoria_local": "50.1%",
+        "empate": "31.4%",
         "victoria_visitante": "18.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
@@ -9695,7 +9732,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Brentford",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50495",
@@ -9767,7 +9804,7 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 8,
+            "posicion": 10,
             "puntos": 14,
             "jugados": 10
           },
@@ -9917,9 +9954,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "59.0%",
-        "empate": "21.1%",
-        "victoria_visitante": "19.9%",
+        "victoria_local": "59.9%",
+        "empate": "20.6%",
+        "victoria_visitante": "19.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -9937,7 +9974,7 @@
       "liga": "Premier League",
       "local": "Ipswich Town",
       "visitante": "Aston Villa",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20387",
@@ -10008,11 +10045,7 @@
           }
         },
         "visitante": {
-          "clasificacion": {
-            "posicion": 10,
-            "puntos": 13,
-            "jugados": 10
-          },
+          "clasificacion": null,
           "reciente": {
             "partidos": 5,
             "v": 2,
@@ -10141,9 +10174,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "25.1%",
-        "empate": "31.2%",
-        "victoria_visitante": "43.7%",
+        "victoria_local": "24.8%",
+        "empate": "30.6%",
+        "victoria_visitante": "44.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -10161,7 +10194,7 @@
       "liga": "Premier League",
       "local": "Everton",
       "visitante": "Liverpool",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35507",
@@ -10176,7 +10209,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 6,
+            "posicion": 7,
             "puntos": 16,
             "jugados": 10
           },
@@ -10237,7 +10270,7 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 4,
+            "posicion": 5,
             "puntos": 18,
             "jugados": 10
           },
@@ -10387,9 +10420,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "37.9%",
-        "empate": "27.8%",
-        "victoria_visitante": "34.4%",
+        "victoria_local": "37.3%",
+        "empate": "28.4%",
+        "victoria_visitante": "34.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -10407,7 +10440,7 @@
       "liga": "Premier League",
       "local": "Brighton & Hove Albion",
       "visitante": "Newcastle United",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.55720",
@@ -10629,9 +10662,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "57.7%",
+        "victoria_local": "58.3%",
         "empate": "26.2%",
-        "victoria_visitante": "16.1%",
+        "victoria_visitante": "15.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -10649,7 +10682,7 @@
       "liga": "Premier League",
       "local": "Crystal Palace",
       "visitante": "Hull City",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35465",
@@ -10836,9 +10869,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "33.1%",
-        "empate": "28.8%",
-        "victoria_visitante": "38.1%",
+        "victoria_local": "32.9%",
+        "empate": "28.7%",
+        "victoria_visitante": "38.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -10856,7 +10889,7 @@
       "liga": "Premier League",
       "local": "Fulham",
       "visitante": "AFC Bournemouth",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41606",
@@ -10928,9 +10961,9 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 7,
-            "puntos": 15,
-            "jugados": 10
+            "posicion": 4,
+            "puntos": 18,
+            "jugados": 11
           },
           "reciente": {
             "partidos": 5,
@@ -11078,9 +11111,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "35.7%",
-        "empate": "27.8%",
-        "victoria_visitante": "36.5%",
+        "victoria_local": "36.3%",
+        "empate": "27.7%",
+        "victoria_visitante": "36.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -11098,7 +11131,7 @@
       "liga": "Premier League",
       "local": "Sunderland",
       "visitante": "Tottenham Hotspur",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.39852",
@@ -11169,7 +11202,11 @@
           }
         },
         "visitante": {
-          "clasificacion": null,
+          "clasificacion": {
+            "posicion": 9,
+            "puntos": 15,
+            "jugados": 11
+          },
           "reciente": {
             "partidos": 5,
             "v": 3,
@@ -11303,9 +11340,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "26.4%",
-        "empate": "24.8%",
-        "victoria_visitante": "48.8%",
+        "victoria_local": "26.2%",
+        "empate": "24.1%",
+        "victoria_visitante": "49.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -11323,7 +11360,7 @@
       "liga": "Premier League",
       "local": "Arsenal",
       "visitante": "Manchester City",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50235",
@@ -11549,9 +11586,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "43.6%",
-        "empate": "39.7%",
-        "victoria_visitante": "16.7%",
+        "victoria_local": "44.1%",
+        "empate": "39.9%",
+        "victoria_visitante": "16.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -11569,7 +11606,7 @@
       "liga": "Premier League",
       "local": "Coventry City",
       "visitante": "Ipswich Town",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47886",
@@ -11755,7 +11792,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "43.2%",
+        "empate": "35.2%",
+        "victoria_visitante": "21.6%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -11771,7 +11813,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Crystal Palace",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49230",
@@ -11786,9 +11828,9 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 5,
+            "posicion": 8,
             "puntos": 16,
-            "jugados": 10
+            "jugados": 11
           },
           "reciente": {
             "partidos": 5,
@@ -11992,7 +12034,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "59.6%",
+        "empate": "24.1%",
+        "victoria_visitante": "16.3%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -12008,7 +12055,7 @@
       "liga": "Premier League",
       "local": "Hull City",
       "visitante": "Nottingham Forest",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41638",
@@ -12194,7 +12241,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "38.7%",
+        "empate": "30.3%",
+        "victoria_visitante": "31.0%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -12210,7 +12262,7 @@
       "liga": "Premier League",
       "local": "Liverpool",
       "visitante": "Sunderland",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54482",
@@ -12225,7 +12277,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 4,
+            "posicion": 5,
             "puntos": 18,
             "jugados": 10
           },
@@ -12413,7 +12465,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "53.0%",
+        "empate": "27.4%",
+        "victoria_visitante": "19.5%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -12429,7 +12486,7 @@
       "liga": "Premier League",
       "local": "Manchester City",
       "visitante": "Leeds United",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66250",
@@ -12505,9 +12562,9 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 9,
-            "puntos": 14,
-            "jugados": 10
+            "posicion": 6,
+            "puntos": 17,
+            "jugados": 11
           },
           "reciente": {
             "partidos": 5,
@@ -12636,7 +12693,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "67.4%",
+        "empate": "16.6%",
+        "victoria_visitante": "16.0%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -12652,7 +12714,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.40955",
@@ -12667,9 +12729,9 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 7,
-            "puntos": 15,
-            "jugados": 10
+            "posicion": 4,
+            "puntos": 18,
+            "jugados": 11
           },
           "reciente": {
             "partidos": 5,
@@ -12877,7 +12939,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "33.3%",
+        "empate": "26.3%",
+        "victoria_visitante": "40.4%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -12893,7 +12960,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Everton",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43299",
@@ -12907,11 +12974,7 @@
       },
       "equipos": {
         "local": {
-          "clasificacion": {
-            "posicion": 10,
-            "puntos": 13,
-            "jugados": 10
-          },
+          "clasificacion": null,
           "reciente": {
             "partidos": 5,
             "v": 2,
@@ -12969,7 +13032,7 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 6,
+            "posicion": 7,
             "puntos": 16,
             "jugados": 10
           },
@@ -13118,7 +13181,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "44.9%",
+        "empate": "29.3%",
+        "victoria_visitante": "25.8%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -13134,7 +13202,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Arsenal",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.28953",
@@ -13149,7 +13217,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 8,
+            "posicion": 10,
             "puntos": 14,
             "jugados": 10
           },
@@ -13359,7 +13427,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "22.8%",
+        "empate": "23.3%",
+        "victoria_visitante": "53.9%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -13375,7 +13448,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Manchester United",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37504",
@@ -13592,7 +13665,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "37.7%",
+        "empate": "29.2%",
+        "victoria_visitante": "33.2%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -13608,7 +13686,7 @@
       "liga": "Premier League",
       "local": "Tottenham Hotspur",
       "visitante": "Fulham",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.36908",
@@ -13622,7 +13700,11 @@
       },
       "equipos": {
         "local": {
-          "clasificacion": null,
+          "clasificacion": {
+            "posicion": 9,
+            "puntos": 15,
+            "jugados": 11
+          },
           "reciente": {
             "partidos": 5,
             "v": 3,
@@ -13825,7 +13907,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "41.9%",
+        "empate": "27.7%",
+        "victoria_visitante": "30.4%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -13841,7 +13928,7 @@
       "liga": "Bundesliga",
       "local": "FC Augsburg",
       "visitante": "Mainz",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37070",
@@ -14064,9 +14151,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "50.1%",
+        "victoria_local": "50.2%",
         "empate": "22.6%",
-        "victoria_visitante": "27.3%",
+        "victoria_visitante": "27.2%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -14084,7 +14171,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Hamburg SV",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47812",
@@ -14294,8 +14381,8 @@
       },
       "ml": {
         "victoria_local": "45.4%",
-        "empate": "29.3%",
-        "victoria_visitante": "25.2%",
+        "empate": "29.0%",
+        "victoria_visitante": "25.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -14313,7 +14400,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Borussia Mönchengladbach",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47390",
@@ -14540,9 +14627,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "55.1%",
-        "empate": "25.1%",
-        "victoria_visitante": "19.7%",
+        "victoria_local": "56.4%",
+        "empate": "24.8%",
+        "victoria_visitante": "18.8%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -14560,7 +14647,7 @@
       "liga": "Bundesliga",
       "local": "Hamburg SV",
       "visitante": "Bayern Munich",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.14138",
@@ -14632,7 +14719,7 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 1,
+            "posicion": 2,
             "puntos": 22,
             "jugados": 10
           },
@@ -14774,9 +14861,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "15.0%",
-        "empate": "22.9%",
-        "victoria_visitante": "62.1%",
+        "victoria_local": "16.0%",
+        "empate": "21.1%",
+        "victoria_visitante": "62.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -14794,7 +14881,7 @@
       "liga": "Bundesliga",
       "local": "Mainz",
       "visitante": "1. FC Union Berlin",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45784",
@@ -15012,9 +15099,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "48.3%",
-        "empate": "36.0%",
-        "victoria_visitante": "15.6%",
+        "victoria_local": "49.0%",
+        "empate": "35.3%",
+        "victoria_visitante": "15.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -15032,7 +15119,7 @@
       "liga": "Bundesliga",
       "local": "SC Paderborn 07",
       "visitante": "Schalke 04",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45475",
@@ -15219,9 +15306,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "45.4%",
-        "empate": "30.1%",
-        "victoria_visitante": "24.4%",
+        "victoria_local": "46.8%",
+        "empate": "29.2%",
+        "victoria_visitante": "24.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -15239,7 +15326,7 @@
       "liga": "Bundesliga",
       "local": "VfB Stuttgart",
       "visitante": "Eintracht Frankfurt",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51530",
@@ -15254,7 +15341,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 8,
+            "posicion": 9,
             "puntos": 12,
             "jugados": 9
           },
@@ -15315,9 +15402,9 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 10,
-            "puntos": 12,
-            "jugados": 9
+            "posicion": 7,
+            "puntos": 15,
+            "jugados": 10
           },
           "reciente": {
             "partidos": 5,
@@ -15465,9 +15552,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "61.3%",
-        "empate": "22.1%",
-        "victoria_visitante": "16.5%",
+        "victoria_local": "60.3%",
+        "empate": "22.6%",
+        "victoria_visitante": "17.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -15485,7 +15572,7 @@
       "liga": "Bundesliga",
       "local": "SC Freiburg",
       "visitante": "RB Leipzig",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49592",
@@ -15501,8 +15588,8 @@
         "local": {
           "clasificacion": {
             "posicion": 3,
-            "puntos": 19,
-            "jugados": 9
+            "puntos": 22,
+            "jugados": 10
           },
           "reciente": {
             "partidos": 5,
@@ -15562,8 +15649,8 @@
         "visitante": {
           "clasificacion": {
             "posicion": 4,
-            "puntos": 18,
-            "jugados": 9
+            "puntos": 21,
+            "jugados": 10
           },
           "reciente": {
             "partidos": 5,
@@ -15711,9 +15798,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "50.5%",
-        "empate": "22.1%",
-        "victoria_visitante": "27.4%",
+        "victoria_local": "49.3%",
+        "empate": "22.7%",
+        "victoria_visitante": "28.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -15731,7 +15818,7 @@
       "liga": "Bundesliga",
       "local": "TSG Hoffenheim",
       "visitante": "FC Augsburg",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54256",
@@ -15746,9 +15833,9 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 9,
+            "posicion": 10,
             "puntos": 12,
-            "jugados": 9
+            "jugados": 10
           },
           "reciente": {
             "partidos": 5,
@@ -15958,8 +16045,8 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "52.2%",
-        "empate": "24.4%",
+        "victoria_local": "52.8%",
+        "empate": "23.8%",
         "victoria_visitante": "23.4%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
@@ -15978,7 +16065,7 @@
       "liga": "Bundesliga",
       "local": "Borussia Dortmund",
       "visitante": "Bayer Leverkusen",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57792",
@@ -15993,9 +16080,9 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 2,
-            "puntos": 21,
-            "jugados": 9
+            "posicion": 1,
+            "puntos": 24,
+            "jugados": 10
           },
           "reciente": {
             "partidos": 5,
@@ -16055,8 +16142,8 @@
         "visitante": {
           "clasificacion": {
             "posicion": 5,
-            "puntos": 16,
-            "jugados": 9
+            "puntos": 19,
+            "jugados": 10
           },
           "reciente": {
             "partidos": 5,
@@ -16209,254 +16296,12 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "61.8%",
-        "empate": "19.7%",
-        "victoria_visitante": "18.5%",
+        "victoria_local": "62.1%",
+        "empate": "18.5%",
+        "victoria_visitante": "19.4%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
-      "limitaciones": [
-        "xG auténtico no integrado en las probabilidades",
-        "Lesiones y alineaciones no incorporadas al predictor",
-        "No se ha demostrado ventaja frente a cuotas reales"
-      ],
-      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
-    },
-    {
-      "version": "dossier-0.8",
-      "id": "I1|202611211700|parma|roma",
-      "fecha_utc": "2026-11-21T17:00:00+00:00",
-      "liga": "Serie A",
-      "local": "Parma",
-      "visitante": "AS Roma",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
-      "modelo": "poisson70-elo30-0.2",
-      "probabilidades": {
-        "local": "0.18836",
-        "empate": "0.23695",
-        "visitante": "0.57469",
-        "mas_2_5": "0.42295"
-      },
-      "goles_estimados": {
-        "local": "0.764",
-        "visitante": "1.608"
-      },
-      "equipos": {
-        "local": {
-          "clasificacion": null,
-          "reciente": {
-            "partidos": 5,
-            "v": 1,
-            "e": 1,
-            "d": 3,
-            "goles_favor": 5,
-            "goles_contra": 7,
-            "puntos": 4,
-            "dias_descanso": 14,
-            "ultimos": [
-              {
-                "fecha": "2026-11-07",
-                "local": "Parma",
-                "visitante": "Bologna",
-                "marcador": "1-2",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-11-02",
-                "local": "Atalanta",
-                "visitante": "Parma",
-                "marcador": "0-3",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-28",
-                "local": "Parma",
-                "visitante": "Udinese",
-                "marcador": "0-0",
-                "resultado": "E"
-              },
-              {
-                "fecha": "2026-10-24",
-                "local": "Lazio",
-                "visitante": "Parma",
-                "marcador": "2-1",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-19",
-                "local": "Parma",
-                "visitante": "Torino",
-                "marcador": "0-3",
-                "resultado": "D"
-              }
-            ],
-            "medias": {
-              "tiros": 12.0,
-              "tiros_puerta": 3.8,
-              "corners": 3.4,
-              "amarillas": 1.0,
-              "rojas": 0.0
-            }
-          }
-        },
-        "visitante": {
-          "clasificacion": {
-            "posicion": 3,
-            "puntos": 27,
-            "jugados": 11
-          },
-          "reciente": {
-            "partidos": 5,
-            "v": 4,
-            "e": 1,
-            "d": 0,
-            "goles_favor": 17,
-            "goles_contra": 7,
-            "puntos": 13,
-            "dias_descanso": 14,
-            "ultimos": [
-              {
-                "fecha": "2026-11-07",
-                "local": "Roma",
-                "visitante": "Sassuolo",
-                "marcador": "3-0",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-31",
-                "local": "Udinese",
-                "visitante": "Roma",
-                "marcador": "2-5",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-27",
-                "local": "Roma",
-                "visitante": "Cagliari",
-                "marcador": "4-2",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-24",
-                "local": "Napoli",
-                "visitante": "Roma",
-                "marcador": "3-3",
-                "resultado": "E"
-              },
-              {
-                "fecha": "2026-10-17",
-                "local": "Roma",
-                "visitante": "Genoa",
-                "marcador": "2-0",
-                "resultado": "V"
-              }
-            ],
-            "medias": {
-              "tiros": 20.2,
-              "tiros_puerta": 7.0,
-              "corners": 7.8,
-              "amarillas": 2.0,
-              "rojas": 0.2
-            }
-          }
-        }
-      },
-      "cara_a_cara": [
-        {
-          "fecha": "2026-05-10",
-          "local": "Parma",
-          "visitante": "Roma",
-          "marcador": "2-3"
-        },
-        {
-          "fecha": "2025-10-29",
-          "local": "Roma",
-          "visitante": "Parma",
-          "marcador": "2-1"
-        },
-        {
-          "fecha": "2025-02-16",
-          "local": "Parma",
-          "visitante": "Roma",
-          "marcador": "0-1"
-        },
-        {
-          "fecha": "2024-12-22",
-          "local": "Roma",
-          "visitante": "Parma",
-          "marcador": "5-0"
-        }
-      ],
-      "calidad": {
-        "equipos": {
-          "local": {
-            "todos": 87,
-            "recinto": 44,
-            "identificado": true
-          },
-          "visitante": {
-            "todos": 125,
-            "recinto": 62,
-            "identificado": true
-          }
-        },
-        "motivos": [],
-        "suficiente_modelo_actual": true
-      },
-      "top_3": [
-        {
-          "mercado": "Hándicap 2 vías (medio gol)",
-          "seleccion": "Parma +2,5",
-          "familia": "resultado",
-          "probabilidad": 0.86618,
-          "cuota_justa": 1.154,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
-          "posicion": 1
-        },
-        {
-          "mercado": "Goles equipo",
-          "seleccion": "Parma: menos de 1,5 goles",
-          "familia": "goles_local",
-          "probabilidad": 0.82167,
-          "cuota_justa": 1.217,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Goles esperados del equipo",
-          "posicion": 2
-        },
-        {
-          "mercado": "Goles equipo",
-          "seleccion": "AS Roma: más de 0,5 goles",
-          "familia": "goles_visitante",
-          "probabilidad": 0.799712,
-          "cuota_justa": 1.25,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Goles esperados del equipo",
-          "posicion": 3
-        }
-      ],
-      "conteos_aprobados_retro": 4,
-      "valor_comparado": [],
-      "xg": {
-        "estado": "NO_DISPONIBLE_EN_CSV",
-        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
-      },
-      "ml": {
-        "victoria_local": "12.6%",
-        "empate": "13.0%",
-        "victoria_visitante": "74.4%",
-        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
-      },
-      "mercado_referencias": [
-        {
-          "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-21T15:50:17+00:00",
-          "estado": "Referencia de mercado sin margen, no cuota ofrecida"
-        }
-      ],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
         "Lesiones y alineaciones no incorporadas al predictor",
@@ -16471,7 +16316,7 @@
       "liga": "Serie A",
       "local": "Napoli",
       "visitante": "Torino",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.61871",
@@ -16693,9 +16538,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "60.0%",
-        "empate": "24.6%",
-        "victoria_visitante": "15.4%",
+        "victoria_local": "59.8%",
+        "empate": "24.9%",
+        "victoria_visitante": "15.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -16713,7 +16558,7 @@
       "liga": "Serie A",
       "local": "Juventus",
       "visitante": "Venezia",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.69628",
@@ -16918,8 +16763,8 @@
       },
       "ml": {
         "victoria_local": "59.5%",
-        "empate": "26.2%",
-        "victoria_visitante": "14.3%",
+        "empate": "26.6%",
+        "victoria_visitante": "14.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -16937,7 +16782,7 @@
       "liga": "Serie A",
       "local": "Bologna",
       "visitante": "Udinese",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41092",
@@ -17159,9 +17004,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "52.4%",
-        "empate": "26.2%",
-        "victoria_visitante": "21.4%",
+        "victoria_local": "52.6%",
+        "empate": "26.1%",
+        "victoria_visitante": "21.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -17179,7 +17024,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Genoa",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.38650",
@@ -17391,9 +17236,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "37.0%",
-        "empate": "26.3%",
-        "victoria_visitante": "36.7%",
+        "victoria_local": "36.7%",
+        "empate": "26.0%",
+        "victoria_visitante": "37.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -17411,7 +17256,7 @@
       "liga": "Serie A",
       "local": "AC Milan",
       "visitante": "Frosinone",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.61448",
@@ -17426,7 +17271,7 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 4,
+            "posicion": 5,
             "puntos": 24,
             "jugados": 11
           },
@@ -17619,9 +17464,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "32.0%",
-        "empate": "31.3%",
-        "victoria_visitante": "36.7%",
+        "victoria_local": "31.6%",
+        "empate": "32.9%",
+        "victoria_visitante": "35.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -17639,7 +17484,7 @@
       "liga": "Serie A",
       "local": "Atalanta",
       "visitante": "Internazionale",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26766",
@@ -17863,7 +17708,7 @@
       "ml": {
         "victoria_local": "22.2%",
         "empate": "21.3%",
-        "victoria_visitante": "56.5%",
+        "victoria_visitante": "56.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -17881,7 +17726,7 @@
       "liga": "Serie A",
       "local": "Monza",
       "visitante": "Fiorentina",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.28331",
@@ -18093,9 +17938,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "27.6%",
-        "empate": "25.4%",
-        "victoria_visitante": "47.0%",
+        "victoria_local": "27.4%",
+        "empate": "25.3%",
+        "victoria_visitante": "47.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -18113,7 +17958,7 @@
       "liga": "Serie A",
       "local": "Venezia",
       "visitante": "Bologna",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23178",
@@ -18317,9 +18162,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "18.0%",
-        "empate": "22.4%",
-        "victoria_visitante": "59.6%",
+        "victoria_local": "17.8%",
+        "empate": "22.6%",
+        "victoria_visitante": "59.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -18337,7 +18182,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Parma",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49351",
@@ -18528,9 +18373,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "73.6%",
-        "empate": "13.6%",
-        "victoria_visitante": "12.8%",
+        "victoria_local": "75.8%",
+        "empate": "12.6%",
+        "victoria_visitante": "11.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -18548,7 +18393,7 @@
       "liga": "Serie A",
       "local": "Torino",
       "visitante": "Lazio",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26098",
@@ -18621,8 +18466,8 @@
         "visitante": {
           "clasificacion": {
             "posicion": 1,
-            "puntos": 29,
-            "jugados": 11
+            "puntos": 32,
+            "jugados": 12
           },
           "reciente": {
             "partidos": 5,
@@ -18770,9 +18615,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "17.6%",
-        "empate": "21.3%",
-        "victoria_visitante": "61.1%",
+        "victoria_local": "17.9%",
+        "empate": "20.6%",
+        "victoria_visitante": "61.5%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -18790,7 +18635,7 @@
       "liga": "Serie A",
       "local": "Internazionale",
       "visitante": "Genoa",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.70334",
@@ -19012,9 +18857,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "84.1%",
-        "empate": "8.5%",
-        "victoria_visitante": "7.3%",
+        "victoria_local": "83.2%",
+        "empate": "8.7%",
+        "victoria_visitante": "8.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -19032,7 +18877,7 @@
       "liga": "Serie A",
       "local": "Udinese",
       "visitante": "Fiorentina",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.33887",
@@ -19250,9 +19095,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "32.5%",
-        "empate": "24.3%",
-        "victoria_visitante": "43.3%",
+        "victoria_local": "33.2%",
+        "empate": "24.1%",
+        "victoria_visitante": "42.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -19270,7 +19115,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Napoli",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26075",
@@ -19486,9 +19331,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "32.3%",
-        "empate": "27.3%",
-        "victoria_visitante": "40.4%",
+        "victoria_local": "32.5%",
+        "empate": "26.9%",
+        "victoria_visitante": "40.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -19506,7 +19351,7 @@
       "liga": "Serie A",
       "local": "AS Roma",
       "visitante": "Monza",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.78139",
@@ -19722,9 +19567,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "84.5%",
+        "victoria_local": "84.7%",
         "empate": "9.5%",
-        "victoria_visitante": "6.0%",
+        "victoria_visitante": "5.8%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -19742,7 +19587,7 @@
       "liga": "Serie A",
       "local": "Como",
       "visitante": "Juventus",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46585",
@@ -19757,9 +19602,9 @@
       "equipos": {
         "local": {
           "clasificacion": {
-            "posicion": 5,
-            "puntos": 23,
-            "jugados": 11
+            "posicion": 4,
+            "puntos": 26,
+            "jugados": 12
           },
           "reciente": {
             "partidos": 5,
@@ -19962,9 +19807,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "43.2%",
-        "empate": "29.8%",
-        "victoria_visitante": "27.0%",
+        "victoria_local": "43.4%",
+        "empate": "29.7%",
+        "victoria_visitante": "26.9%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -19982,7 +19827,7 @@
       "liga": "Serie A",
       "local": "Lecce",
       "visitante": "Atalanta",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24285",
@@ -20199,7 +20044,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "33.2%",
+        "empate": "29.7%",
+        "victoria_visitante": "37.1%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -20215,7 +20065,7 @@
       "liga": "Serie A",
       "local": "Cagliari",
       "visitante": "AC Milan",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24947",
@@ -20232,7 +20082,7 @@
           "clasificacion": {
             "posicion": 9,
             "puntos": 16,
-            "jugados": 11
+            "jugados": 12
           },
           "reciente": {
             "partidos": 5,
@@ -20291,7 +20141,7 @@
         },
         "visitante": {
           "clasificacion": {
-            "posicion": 4,
+            "posicion": 5,
             "puntos": 24,
             "jugados": 11
           },
@@ -20440,7 +20290,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "32.4%",
+        "empate": "31.8%",
+        "victoria_visitante": "35.9%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
@@ -20456,7 +20311,7 @@
       "liga": "Serie A",
       "local": "Bologna",
       "visitante": "AS Roma",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24482",
@@ -20681,260 +20536,13 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
-      "mercado_referencias": [],
-      "limitaciones": [
-        "xG auténtico no integrado en las probabilidades",
-        "Lesiones y alineaciones no incorporadas al predictor",
-        "No se ha demostrado ventaja frente a cuotas reales"
-      ],
-      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
-    },
-    {
-      "version": "dossier-0.8",
-      "id": "F1|202611211615|nice|paris sg",
-      "fecha_utc": "2026-11-21T16:15:00+00:00",
-      "liga": "Ligue 1",
-      "local": "Nice",
-      "visitante": "Paris Saint-Germain",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
-      "modelo": "poisson70-elo30-0.2",
-      "probabilidades": {
-        "local": "0.22030",
-        "empate": "0.22701",
-        "visitante": "0.55269",
-        "mas_2_5": "0.60364"
-      },
-      "goles_estimados": {
-        "local": "1.162",
-        "visitante": "1.960"
-      },
-      "equipos": {
-        "local": {
-          "clasificacion": {
-            "posicion": 6,
-            "puntos": 17,
-            "jugados": 10
-          },
-          "reciente": {
-            "partidos": 5,
-            "v": 4,
-            "e": 0,
-            "d": 1,
-            "goles_favor": 12,
-            "goles_contra": 6,
-            "puntos": 12,
-            "dias_descanso": 13,
-            "ultimos": [
-              {
-                "fecha": "2026-11-08",
-                "local": "Angers",
-                "visitante": "Nice",
-                "marcador": "0-2",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-30",
-                "local": "Nice",
-                "visitante": "Rennes",
-                "marcador": "5-2",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-23",
-                "local": "Brest",
-                "visitante": "Nice",
-                "marcador": "1-2",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-18",
-                "local": "Lyon",
-                "visitante": "Nice",
-                "marcador": "2-1",
-                "resultado": "D"
-              },
-              {
-                "fecha": "2026-10-11",
-                "local": "Nice",
-                "visitante": "Strasbourg",
-                "marcador": "2-1",
-                "resultado": "V"
-              }
-            ],
-            "medias": {
-              "tiros": 13.0,
-              "tiros_puerta": 5.8,
-              "corners": 5.2,
-              "amarillas": 3.0,
-              "rojas": 0.0
-            }
-          }
-        },
-        "visitante": {
-          "clasificacion": {
-            "posicion": 1,
-            "puntos": 23,
-            "jugados": 10
-          },
-          "reciente": {
-            "partidos": 5,
-            "v": 5,
-            "e": 0,
-            "d": 0,
-            "goles_favor": 14,
-            "goles_contra": 3,
-            "puntos": 15,
-            "dias_descanso": 14,
-            "ultimos": [
-              {
-                "fecha": "2026-11-07",
-                "local": "Paris SG",
-                "visitante": "Troyes",
-                "marcador": "1-0",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-30",
-                "local": "Le Havre",
-                "visitante": "Paris SG",
-                "marcador": "1-5",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-26",
-                "local": "Paris SG",
-                "visitante": "Lyon",
-                "marcador": "2-0",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-17",
-                "local": "Strasbourg",
-                "visitante": "Paris SG",
-                "marcador": "1-3",
-                "resultado": "V"
-              },
-              {
-                "fecha": "2026-10-10",
-                "local": "Paris SG",
-                "visitante": "Le Mans",
-                "marcador": "3-1",
-                "resultado": "V"
-              }
-            ],
-            "medias": {
-              "tiros": 17.4,
-              "tiros_puerta": 8.4,
-              "corners": 5.0,
-              "amarillas": 1.0,
-              "rojas": 0.0
-            }
-          }
-        }
-      },
-      "cara_a_cara": [
-        {
-          "fecha": "2026-03-21",
-          "local": "Nice",
-          "visitante": "Paris SG",
-          "marcador": "0-4"
-        },
-        {
-          "fecha": "2025-11-01",
-          "local": "Paris SG",
-          "visitante": "Nice",
-          "marcador": "1-0"
-        },
-        {
-          "fecha": "2025-04-25",
-          "local": "Paris SG",
-          "visitante": "Nice",
-          "marcador": "1-3"
-        },
-        {
-          "fecha": "2024-10-06",
-          "local": "Nice",
-          "visitante": "Paris SG",
-          "marcador": "1-1"
-        },
-        {
-          "fecha": "2024-05-15",
-          "local": "Nice",
-          "visitante": "Paris SG",
-          "marcador": "1-2"
-        }
-      ],
-      "calidad": {
-        "equipos": {
-          "local": {
-            "todos": 112,
-            "recinto": 56,
-            "identificado": true
-          },
-          "visitante": {
-            "todos": 112,
-            "recinto": 57,
-            "identificado": true
-          }
-        },
-        "motivos": [],
-        "suficiente_modelo_actual": true
-      },
-      "top_3": [
-        {
-          "mercado": "Goles equipo",
-          "seleccion": "Paris Saint-Germain: más de 0,5 goles",
-          "familia": "goles_visitante",
-          "probabilidad": 0.859142,
-          "cuota_justa": 1.164,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Goles esperados del equipo",
-          "posicion": 1
-        },
-        {
-          "mercado": "Hándicap 2 vías (medio gol)",
-          "seleccion": "Nice +2,5",
-          "familia": "resultado",
-          "probabilidad": 0.84117,
-          "cuota_justa": 1.189,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
-          "posicion": 2
-        },
-        {
-          "mercado": "Total goles",
-          "seleccion": "Más de 1,5 goles",
-          "familia": "total_goles",
-          "probabilidad": 0.818348,
-          "cuota_justa": 1.222,
-          "origen": "Poisson de goles",
-          "nivel": "MODELO_NO_CALIBRADO",
-          "motivo": "Distribución conjunta de goles del modelo",
-          "posicion": 3
-        }
-      ],
-      "conteos_aprobados_retro": 12,
-      "valor_comparado": [],
-      "xg": {
-        "estado": "NO_DISPONIBLE_EN_CSV",
-        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
-      },
       "ml": {
-        "victoria_local": "23.6%",
-        "empate": "20.8%",
-        "victoria_visitante": "55.6%",
+        "victoria_local": "18.2%",
+        "empate": "18.0%",
+        "victoria_visitante": "63.8%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
-      "mercado_referencias": [
-        {
-          "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-21T15:53:54+00:00",
-          "estado": "Referencia de mercado sin margen, no cuota ofrecida"
-        }
-      ],
+      "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",
         "Lesiones y alineaciones no incorporadas al predictor",
@@ -20949,7 +20557,7 @@
       "liga": "Ligue 1",
       "local": "AS Monaco",
       "visitante": "AJ Auxerre",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.60394",
@@ -21170,9 +20778,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "60.4%",
-        "empate": "24.6%",
-        "victoria_visitante": "14.9%",
+        "victoria_local": "59.9%",
+        "empate": "24.9%",
+        "victoria_visitante": "15.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -21190,7 +20798,7 @@
       "liga": "Ligue 1",
       "local": "Lens",
       "visitante": "Toulouse",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49343",
@@ -21408,9 +21016,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "52.4%",
-        "empate": "20.0%",
-        "victoria_visitante": "27.5%",
+        "victoria_local": "52.5%",
+        "empate": "20.3%",
+        "victoria_visitante": "27.2%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -21428,7 +21036,7 @@
       "liga": "Ligue 1",
       "local": "Lille",
       "visitante": "Lyon",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46034",
@@ -21654,9 +21262,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "42.1%",
-        "empate": "26.3%",
-        "victoria_visitante": "31.7%",
+        "victoria_local": "43.1%",
+        "empate": "26.5%",
+        "victoria_visitante": "30.4%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -21674,7 +21282,7 @@
       "liga": "Ligue 1",
       "local": "Strasbourg",
       "visitante": "Brest",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57647",
@@ -21901,9 +21509,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "48.5%",
-        "empate": "24.3%",
-        "victoria_visitante": "27.2%",
+        "victoria_local": "48.6%",
+        "empate": "23.7%",
+        "victoria_visitante": "27.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -21921,7 +21529,7 @@
       "liga": "Ligue 1",
       "local": "Paris FC",
       "visitante": "Angers",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58075",
@@ -22125,9 +21733,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "68.3%",
-        "empate": "18.2%",
-        "victoria_visitante": "13.4%",
+        "victoria_local": "68.8%",
+        "empate": "17.9%",
+        "victoria_visitante": "13.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -22145,7 +21753,7 @@
       "liga": "Ligue 1",
       "local": "Lorient",
       "visitante": "Stade Rennais",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44530",
@@ -22365,9 +21973,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "36.2%",
-        "empate": "26.9%",
-        "victoria_visitante": "36.8%",
+        "victoria_local": "38.2%",
+        "empate": "26.2%",
+        "victoria_visitante": "35.6%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -22385,7 +21993,7 @@
       "liga": "Ligue 1",
       "local": "Marseille",
       "visitante": "Le Mans",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.64687",
@@ -22576,9 +22184,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "61.6%",
-        "empate": "22.1%",
-        "victoria_visitante": "16.4%",
+        "victoria_local": "61.9%",
+        "empate": "21.7%",
+        "victoria_visitante": "16.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -22596,7 +22204,7 @@
       "liga": "Ligue 1",
       "local": "Brest",
       "visitante": "Paris FC",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41703",
@@ -22805,8 +22413,8 @@
       },
       "ml": {
         "victoria_local": "46.9%",
-        "empate": "22.5%",
-        "victoria_visitante": "30.6%",
+        "empate": "22.8%",
+        "victoria_visitante": "30.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -22824,7 +22432,7 @@
       "liga": "Ligue 1",
       "local": "Angers",
       "visitante": "Lens",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23207",
@@ -23036,9 +22644,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "25.4%",
-        "empate": "28.9%",
-        "victoria_visitante": "45.7%",
+        "victoria_local": "26.2%",
+        "empate": "29.1%",
+        "victoria_visitante": "44.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -23056,7 +22664,7 @@
       "liga": "Ligue 1",
       "local": "Le Havre AC",
       "visitante": "Strasbourg",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30519",
@@ -23274,9 +22882,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "40.0%",
-        "empate": "23.3%",
-        "victoria_visitante": "36.7%",
+        "victoria_local": "39.6%",
+        "empate": "24.7%",
+        "victoria_visitante": "35.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -23294,7 +22902,7 @@
       "liga": "Ligue 1",
       "local": "Le Mans",
       "visitante": "Lille",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26003",
@@ -23485,9 +23093,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "26.3%",
-        "empate": "28.3%",
-        "victoria_visitante": "45.4%",
+        "victoria_local": "26.2%",
+        "empate": "27.6%",
+        "victoria_visitante": "46.1%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -23505,7 +23113,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Troyes",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47106",
@@ -23696,9 +23304,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "47.2%",
-        "empate": "28.9%",
-        "victoria_visitante": "23.9%",
+        "victoria_local": "47.5%",
+        "empate": "28.7%",
+        "victoria_visitante": "23.7%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -23716,7 +23324,7 @@
       "liga": "Ligue 1",
       "local": "Paris Saint-Germain",
       "visitante": "Lorient",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65266",
@@ -23937,8 +23545,8 @@
       },
       "ml": {
         "victoria_local": "78.5%",
-        "empate": "10.4%",
-        "victoria_visitante": "11.0%",
+        "empate": "10.2%",
+        "victoria_visitante": "11.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -23956,7 +23564,7 @@
       "liga": "Ligue 1",
       "local": "AJ Auxerre",
       "visitante": "Marseille",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.31081",
@@ -24172,9 +23780,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "25.2%",
-        "empate": "21.0%",
-        "victoria_visitante": "53.7%",
+        "victoria_local": "24.3%",
+        "empate": "20.7%",
+        "victoria_visitante": "55.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -24192,7 +23800,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Stade Rennais",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41916",
@@ -24414,9 +24022,9 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "29.7%",
-        "empate": "23.4%",
-        "victoria_visitante": "46.9%",
+        "victoria_local": "31.0%",
+        "empate": "23.1%",
+        "victoria_visitante": "46.0%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
       "mercado_referencias": [],
@@ -24434,7 +24042,7 @@
       "liga": "Ligue 1",
       "local": "Lyon",
       "visitante": "AS Monaco",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.53059",
@@ -24660,8 +24268,8 @@
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
       "ml": {
-        "victoria_local": "49.1%",
-        "empate": "28.6%",
+        "victoria_local": "49.5%",
+        "empate": "28.2%",
         "victoria_visitante": "22.3%",
         "aviso": "XGBoost experimental; no mezclado con el modelo principal"
       },
@@ -24680,7 +24288,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Paris Saint-Germain",
-      "creado_utc": "2026-11-21T15:53:23.361588+00:00",
+      "creado_utc": "2026-11-21T17:13:57.600685+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20574",
@@ -24901,7 +24509,12 @@
         "estado": "NO_DISPONIBLE_EN_CSV",
         "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
       },
-      "ml": null,
+      "ml": {
+        "victoria_local": "18.6%",
+        "empate": "19.8%",
+        "victoria_visitante": "61.6%",
+        "aviso": "XGBoost experimental; no mezclado con el modelo principal"
+      },
       "mercado_referencias": [],
       "limitaciones": [
         "xG auténtico no integrado en las probabilidades",

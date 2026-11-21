@@ -1,15 +1,15 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-21T15:53:23.361588+00:00",
+  "generado_utc": "2026-11-21T17:13:57.600685+00:00",
   "registradas": 49,
-  "finalizadas": 10,
-  "pendientes": 39,
+  "finalizadas": 16,
+  "pendientes": 33,
   "resultados_no_disponibles": 0,
   "estadisticas_no_disponibles": 0,
   "excluidas": 0,
   "verificacion": {
-    "resultados_verificados": 10,
-    "resultados_pendientes_o_sin_dato": 39,
+    "resultados_verificados": 16,
+    "resultados_pendientes_o_sin_dato": 33,
     "cuotas_api_observadas_antes_del_partido": 42,
     "cuotas_indicativas_no_acreditadas": 5,
     "cuotas_api_sin_prueba_temporal": 2,
@@ -17,12 +17,12 @@
   },
   "global": {
     "registradas": 49,
-    "evaluadas": 10,
-    "aciertos": 7,
-    "acierto_pct": 70.0,
-    "brier_medio": 0.205754,
-    "retorno_simulado_unidad": 3.018,
-    "roi_simulado_pct": 30.18,
+    "evaluadas": 16,
+    "aciertos": 10,
+    "acierto_pct": 62.5,
+    "brier_medio": 0.226406,
+    "retorno_simulado_unidad": 2.335,
+    "roi_simulado_pct": 14.59,
     "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
   },
   "por_tipo_cuota": {
@@ -38,24 +38,24 @@
     },
     "OFRECIDA_API_REGISTRADA": {
       "registradas": 44,
-      "evaluadas": 5,
-      "aciertos": 4,
-      "acierto_pct": 80.0,
-      "brier_medio": 0.172704,
-      "retorno_simulado_unidad": 2.268,
-      "roi_simulado_pct": 45.36,
+      "evaluadas": 11,
+      "aciertos": 7,
+      "acierto_pct": 63.64,
+      "brier_medio": 0.220771,
+      "retorno_simulado_unidad": 1.585,
+      "roi_simulado_pct": 14.41,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },
   "por_mercado": {
     "Total goles": {
       "registradas": 41,
-      "evaluadas": 6,
-      "aciertos": 5,
-      "acierto_pct": 83.33,
-      "brier_medio": 0.188246,
-      "retorno_simulado_unidad": 3.442,
-      "roi_simulado_pct": 57.37,
+      "evaluadas": 11,
+      "aciertos": 8,
+      "acierto_pct": 72.73,
+      "brier_medio": 0.207198,
+      "retorno_simulado_unidad": 3.759,
+      "roi_simulado_pct": 34.17,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Doble oportunidad": {
@@ -70,12 +70,12 @@
     },
     "Ambos marcan": {
       "registradas": 6,
-      "evaluadas": 2,
+      "evaluadas": 3,
       "aciertos": 2,
-      "acierto_pct": 100.0,
-      "brier_medio": 0.151598,
-      "retorno_simulado_unidad": 1.576,
-      "roi_simulado_pct": 78.8,
+      "acierto_pct": 66.67,
+      "brier_medio": 0.239485,
+      "retorno_simulado_unidad": 0.576,
+      "roi_simulado_pct": 19.2,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },
@@ -102,32 +102,32 @@
     },
     "Premier League": {
       "registradas": 6,
-      "evaluadas": 1,
-      "aciertos": 1,
-      "acierto_pct": 100.0,
-      "brier_medio": 0.107823,
-      "retorno_simulado_unidad": 0.667,
-      "roi_simulado_pct": 66.7,
+      "evaluadas": 3,
+      "aciertos": 2,
+      "acierto_pct": 66.67,
+      "brier_medio": 0.249936,
+      "retorno_simulado_unidad": 0.642,
+      "roi_simulado_pct": 21.4,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Bundesliga": {
       "registradas": 5,
-      "evaluadas": 1,
-      "aciertos": 1,
-      "acierto_pct": 100.0,
-      "brier_medio": 0.178912,
-      "retorno_simulado_unidad": 0.909,
-      "roi_simulado_pct": 90.9,
+      "evaluadas": 3,
+      "aciertos": 2,
+      "acierto_pct": 66.67,
+      "brier_medio": 0.240489,
+      "retorno_simulado_unidad": 0.636,
+      "roi_simulado_pct": 21.2,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Serie A": {
       "registradas": 7,
-      "evaluadas": 0,
-      "aciertos": 0,
-      "acierto_pct": null,
-      "brier_medio": null,
-      "retorno_simulado_unidad": null,
-      "roi_simulado_pct": null,
+      "evaluadas": 2,
+      "aciertos": 1,
+      "acierto_pct": 50.0,
+      "brier_medio": 0.19021,
+      "retorno_simulado_unidad": -0.385,
+      "roi_simulado_pct": -19.25,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Ligue 1": {
@@ -152,7 +152,7 @@
     "partidos_con_adicional_archivada": 49,
     "abstenciones_sin_opcion_valida": 5,
     "partidos_no_evaluados_sin_api": 71,
-    "abstenciones_ya_archivadas": 31,
+    "abstenciones_ya_archivadas": 29,
     "sin_cuota_real_no_se_inventa": true,
     "por_liga": {
       "LaLiga": {
@@ -196,22 +196,22 @@
         "no_evaluados_sin_api": 8
       },
       "Serie A": {
-        "partidos_futuros": 19,
-        "partidos_con_comparaciones": 0,
-        "comparaciones_recibidas": 0,
-        "opciones_validas": 0,
-        "archivadas_automaticas": 0,
-        "ya_archivadas": 5,
-        "sin_opcion_valida": 3,
-        "no_evaluados_sin_api": 11
-      },
-      "Ligue 1": {
         "partidos_futuros": 18,
         "partidos_con_comparaciones": 0,
         "comparaciones_recibidas": 0,
         "opciones_validas": 0,
         "archivadas_automaticas": 0,
-        "ya_archivadas": 8,
+        "ya_archivadas": 4,
+        "sin_opcion_valida": 3,
+        "no_evaluados_sin_api": 11
+      },
+      "Ligue 1": {
+        "partidos_futuros": 17,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 7,
         "sin_opcion_valida": 0,
         "no_evaluados_sin_api": 10
       }
@@ -287,7 +287,6 @@
       "D1|202611291430|freiburg|leipzig": "SIN_CONSULTAR",
       "D1|202611291630|hoffenheim|augsburg": "SIN_CONSULTAR",
       "D1|202611291830|dortmund|leverkusen": "SIN_CONSULTAR",
-      "I1|202611211700|parma|roma": "ARCHIVADA_INMUTABLE",
       "I1|202611211945|napoli|torino": "NO_SUPERA_FILTROS",
       "I1|202611221130|juventus|venezia": "ARCHIVADA_INMUTABLE",
       "I1|202611221400|bologna|udinese": "NO_SUPERA_FILTROS",
@@ -306,7 +305,6 @@
       "I1|202611301730|lecce|atalanta": "SIN_CONSULTAR",
       "I1|202611301945|cagliari|milan": "SIN_CONSULTAR",
       "I1|202612041945|bologna|roma": "SIN_CONSULTAR",
-      "F1|202611211615|nice|paris sg": "ARCHIVADA_INMUTABLE",
       "F1|202611211945|monaco|auxerre": "ARCHIVADA_INMUTABLE",
       "F1|202611211945|lens|toulouse": "ARCHIVADA_INMUTABLE",
       "F1|202611211945|lille|lyon": "ARCHIVADA_INMUTABLE",
@@ -326,7 +324,7 @@
       "F1|202612041945|toulouse|paris sg": "SIN_CONSULTAR"
     },
     "por_estado_adicional": {
-      "ARCHIVADA_INMUTABLE": 31,
+      "ARCHIVADA_INMUTABLE": 29,
       "SIN_CONSULTAR": 71,
       "NO_SUPERA_FILTROS": 5
     },
@@ -751,12 +749,6 @@
         "partido_consultado": false,
         "comparaciones_ultima_ejecucion": 0
       },
-      "I1|202611211700|parma|roma": {
-        "estado": "ARCHIVADA_INMUTABLE",
-        "ultima_consulta_utc": "2026-11-17T23:15:53.515543+00:00",
-        "partido_consultado": true,
-        "comparaciones_ultima_ejecucion": 0
-      },
       "I1|202611211945|napoli|torino": {
         "estado": "NO_SUPERA_FILTROS",
         "ultima_consulta_utc": "2026-11-21T13:00:35.486954+00:00",
@@ -861,12 +853,6 @@
       },
       "I1|202612041945|bologna|roma": {
         "estado": "SIN_CONSULTAR",
-        "ultima_consulta_utc": null,
-        "partido_consultado": false,
-        "comparaciones_ultima_ejecucion": 0
-      },
-      "F1|202611211615|nice|paris sg": {
-        "estado": "ARCHIVADA_INMUTABLE",
         "ultima_consulta_utc": null,
         "partido_consultado": false,
         "comparaciones_ultima_ejecucion": 0
