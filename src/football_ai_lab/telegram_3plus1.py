@@ -116,6 +116,16 @@ def digest(top_rows, extra_rows, state, now, max_items=MAX_ITEMS):
     now = now.astimezone(timezone.utc)
     top = _collect(top_rows, extra=False)
     extra = _collect(extra_rows, extra=True)
+    # Una selección TOP 3 con igual mercado y línea que la adicional
+    # se informa una única vez como adicional; el archivo no se modifica.
+    extras_by_id = {r["id"]: r for r in extra}
+    def same_outcome(a, b):
+        if b is None:
+            return False
+        norm = lambda x: " ".join(str(x or "").casefold().split())
+        return (norm(a.get("mercado")) == norm(b.get("mercado")) and
+                norm(a.get("seleccion")) == norm(b.get("seleccion")))
+    top = [r for r in top if not same_outcome(r, extras_by_id.get(r["id"]))]
     totals = _summary(top, extra, now)
     previous = set(state.get("reported_keys") or [])
     events = []
@@ -135,7 +145,7 @@ def digest(top_rows, extra_rows, state, now, max_items=MAX_ITEMS):
         }
 
     parts = [
-        "⚽ Football AI Lab · Resultados confirmados 3+1",
+        "⚽ Football AI Lab · Resultados 3+1 / 2+1 sin duplicados",
         "Fecha: " + now.astimezone(MADRID).strftime("%d/%m/%Y %H:%M") + " (Madrid)",
         ("Top 3: " + str(totals["top"]["hits"]) + " aciertos / " +
          str(totals["top"]["resolved"]) + " resueltos; " +
