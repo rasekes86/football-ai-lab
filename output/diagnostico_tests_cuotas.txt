@@ -1,0 +1,204 @@
+Refresco escalonado de cuotas — diagnóstico de pruebas
+Ejecutado: 2026-11-21T21:00:46Z
+=== /tmp/football-python-tests.log ===
+test_rotate_unseen_first (test_odds_scheduler.Tests.test_rotate_unseen_first) ... ok
+test_settled_results_never_overwritten (test_odds_scheduler.Tests.test_settled_results_never_overwritten) ... ok
+test_no_data_without_activation (test_player_data.PlayerSourceTests.test_no_data_without_activation) ... ok
+test_other_match_never_assigned (test_player_data.PlayerSourceTests.test_other_match_never_assigned) ... ok
+test_real_stat_zero_vs_missing (test_player_data.PlayerSourceTests.test_real_stat_zero_vs_missing) ... ok
+test_missing_fields_do_not_mean_zero (test_player_readiness.PlayerReadinessTests.test_missing_fields_do_not_mean_zero) ... ok
+test_unused_bench_not_counted (test_player_readiness.PlayerReadinessTests.test_unused_bench_not_counted) ... ok
+test_csv_field_priority_and_partial_metrics (test_postmatch_stats.PostmatchTests.test_csv_field_priority_and_partial_metrics) ... ok
+test_four_statistics_and_goal_settled_5_of_5 (test_postmatch_stats.PostmatchTests.test_four_statistics_and_goal_settled_5_of_5) ... ok
+test_missing_is_not_zero_and_zero_is_valid (test_postmatch_stats.PostmatchTests.test_missing_is_not_zero_and_zero_is_valid) ... ok
+test_no_after_match_bets_or_future (test_postmatch_stats.PostmatchTests.test_no_after_match_bets_or_future) ... ok
+test_scoreboard_unfinished_is_not_accepted (test_postmatch_stats.PostmatchTests.test_scoreboard_unfinished_is_not_accepted) ... ok
+test_six_leagues_and_kickoff_timezone_no_crossing (test_postmatch_stats.PostmatchTests.test_six_leagues_and_kickoff_timezone_no_crossing) ... ok
+test_wrong_score_cannot_contribute (test_postmatch_stats.PostmatchTests.test_wrong_score_cannot_contribute) ... ESPN difiere del marcador comprobado: ('SP2', datetime.date(2026, 11, 15), 'tenerife', 'ceuta'); se descartan métricas
+ok
+test_wrong_teams_cannot_contribute_and_no_leak_into_untouched (test_postmatch_stats.PostmatchTests.test_wrong_teams_cannot_contribute_and_no_leak_into_untouched) ... ok
+test_first_forecast_scored_after_final (test_prospective.ProspectiveTests.test_first_forecast_scored_after_final) ... ok
+test_future_and_posthoc_cannot_score (test_prospective.ProspectiveTests.test_future_and_posthoc_cannot_score) ... ok
+test_invalid_probabilities_excluded (test_prospective.ProspectiveTests.test_invalid_probabilities_excluded) ... ok
+test_missing_result_not_assumed_lost (test_prospective.ProspectiveTests.test_missing_result_not_assumed_lost) ... ok
+test_never_score_data_from_future (test_prospective.ProspectiveTests.test_never_score_data_from_future) ... ok
+test_match_validation (test_query.OnDemandTests.test_match_validation) ... ok
+test_missing_match_never_invents (test_query.OnDemandTests.test_missing_match_never_invents) ... ok
+test_title (test_query.OnDemandTests.test_title) ... ok
+test_missing_and_valid_zero_distinct (test_radar_context.RadarContextTests.test_missing_and_valid_zero_distinct) ... ok
+test_no_history_wrong_competition_no_fantasy (test_radar_context.RadarContextTests.test_no_history_wrong_competition_no_fantasy) ... ok
+test_recent_venues_windows_and_goals (test_radar_context.RadarContextTests.test_recent_venues_windows_and_goals) ... ok
+test_repeated_source_match_doesnt_count_twice (test_radar_context.RadarContextTests.test_repeated_source_match_doesnt_count_twice) ... ok
+test_same_day_and_future_result_never_leak (test_radar_context.RadarContextTests.test_same_day_and_future_result_never_leak) ... ok
+test_timestamp_and_no_prior_forecast (test_radar_context.RadarContextTests.test_timestamp_and_no_prior_forecast) ... ok
+test_archive_first_observation_and_no_historical_fabrication (test_real_odds.RealOddsTests.test_archive_first_observation_and_no_historical_fabrication) ... ok
+test_disabled_by_default_never_contacts_api_or_leaks_secrets (test_real_odds.RealOddsTests.test_disabled_by_default_never_contacts_api_or_leaks_secrets) ... ok
+test_failed_api_is_safe_and_does_not_relabel_old_quote_as_current (test_real_odds.RealOddsTests.test_failed_api_is_safe_and_does_not_relabel_old_quote_as_current) ... ok
+test_incomplete_bookmaker_market_does_not_create_false_margin (test_real_odds.RealOddsTests.test_incomplete_bookmaker_market_does_not_create_false_margin) ... ok
+test_match_1x2_totals_price_margin_ev_source_and_no_double (test_real_odds.RealOddsTests.test_match_1x2_totals_price_margin_ev_source_and_no_double) ... ok
+test_no_substitute_different_line_or_unsupported_count_market (test_real_odds.RealOddsTests.test_no_substitute_different_line_or_unsupported_count_market) ... ok
+test_provider_league_team_direction_and_time_must_match (test_real_odds.RealOddsTests.test_provider_league_team_direction_and_time_must_match) ... ok
+test_six_leagues_budget_and_selected_league (test_real_odds.RealOddsTests.test_six_leagues_budget_and_selected_league) ... ok
+test_stale_json_cannot_be_presented_as_current (test_real_odds.RealOddsTests.test_stale_json_cannot_be_presented_as_current) ... ok
+test_aliases_avoid_confusing_reserve_and_senior_team (test_segunda_division.SegundaDivisionTests.test_aliases_avoid_confusing_reserve_and_senior_team) ... ok
+test_historical_sp2_csv (test_segunda_division.SegundaDivisionTests.test_historical_sp2_csv) ... ok
+test_missing_bookmaker_not_an_error (test_segunda_division.SegundaDivisionTests.test_missing_bookmaker_not_an_error) ... ok
+test_source_codes (test_segunda_division.SegundaDivisionTests.test_source_codes) ... ok
+test_count_cdf (test_selector.MarketSelectorTests.test_count_cdf) ... ok
+test_global_top_one_per_match (test_selector.MarketSelectorTests.test_global_top_one_per_match) ... ok
+test_invalid_or_started_match_rejected (test_selector.MarketSelectorTests.test_invalid_or_started_match_rejected) ... ok
+test_no_value_from_infersports_fair (test_selector.MarketSelectorTests.test_no_value_from_infersports_fair) ... ok
+test_poisson_distribution_and_btts_complements (test_selector.MarketSelectorTests.test_poisson_distribution_and_btts_complements) ... ok
+test_shots_are_exploratory_not_top_three (test_selector.MarketSelectorTests.test_shots_are_exploratory_not_top_three) ... ok
+test_top_3_is_sorted_and_diversified (test_selector.MarketSelectorTests.test_top_3_is_sorted_and_diversified) ... ok
+test_value_only_real_fresh_offered_1x2_price (test_selector.MarketSelectorTests.test_value_only_real_fresh_offered_1x2_price) ... ok
+test_confirmed_hit_miss_and_indicative_are_sports_outcomes (test_telegram_3plus1.Telegram3Plus1Tests.test_confirmed_hit_miss_and_indicative_are_sports_outcomes) ... ok
+test_message_capped_only_marks_included_and_does_not_leak (test_telegram_3plus1.Telegram3Plus1Tests.test_message_capped_only_marks_included_and_does_not_leak) ... ok
+test_missing_result_or_date_excluded_without_false_losses (test_telegram_3plus1.Telegram3Plus1Tests.test_missing_result_or_date_excluded_without_false_losses) ... ok
+test_never_count_fourth_top_pick_or_two_additionals (test_telegram_3plus1.Telegram3Plus1Tests.test_never_count_fourth_top_pick_or_two_additionals) ... ok
+test_no_repeat_on_same_or_next_execution (test_telegram_3plus1.Telegram3Plus1Tests.test_no_repeat_on_same_or_next_execution) ... ok
+test_preview_and_disabled_gate_never_send (test_telegram_3plus1.Telegram3Plus1Tests.test_preview_and_disabled_gate_never_send) ... ok
+test_promoted_top_is_not_counted_or_notified_twice (test_telegram_3plus1.Telegram3Plus1Tests.test_promoted_top_is_not_counted_or_notified_twice) ... ok
+test_state_only_persisted_after_confirmed_delivery (test_telegram_3plus1.Telegram3Plus1Tests.test_state_only_persisted_after_confirmed_delivery) ... ok
+test_confirmed_send_persists_without_credentials_and_no_send_on_failure (test_telegram_alerts.AlertTests.test_confirmed_send_persists_without_credentials_and_no_send_on_failure) ... ok
+test_daily_digest_contains_future_and_verified_results (test_telegram_alerts.AlertTests.test_daily_digest_contains_future_and_verified_results) ... ok
+test_defaults_and_filter_settings (test_telegram_alerts.AlertTests.test_defaults_and_filter_settings) ... ok
+test_long_message_only_marks_results_actually_shown (test_telegram_alerts.AlertTests.test_long_message_only_marks_results_actually_shown) ... ok
+test_madrid_calendar_day_and_late_results (test_telegram_alerts.AlertTests.test_madrid_calendar_day_and_late_results) ... ok
+test_main_preview_and_enabled_gate_do_not_send (test_telegram_alerts.AlertTests.test_main_preview_and_enabled_gate_do_not_send) ... ok
+test_message_is_bounded_and_removes_control_characters (test_telegram_alerts.AlertTests.test_message_is_bounded_and_removes_control_characters) ... ok
+test_missing_stats_and_unverified_not_losses (test_telegram_alerts.AlertTests.test_missing_stats_and_unverified_not_losses) ... ok
+test_scheduled_and_manual_duplicate_suppression (test_telegram_alerts.AlertTests.test_scheduled_and_manual_duplicate_suppression) ... ok
+test_upcoming_excludes_past_wrong_market_and_below_threshold (test_telegram_alerts.AlertTests.test_upcoming_excludes_past_wrong_market_and_below_threshold) ... ok
+test_bad_token_rejected (test_telegram_notify.TelegramTests.test_bad_token_rejected) ... ok
+test_http_post_with_dummy_credentials (test_telegram_notify.TelegramTests.test_http_post_with_dummy_credentials) ... ok
+test_message_no_fake_prices (test_telegram_notify.TelegramTests.test_message_no_fake_prices) ... ok
+test_active_two_plus_one_exact_selection_and_original_preserved (test_value_watchlist.ValueWatchlistTests.test_active_two_plus_one_exact_selection_and_original_preserved) ... ok
+test_additional_prioritizes_probability_over_higher_ev (test_value_watchlist.ValueWatchlistTests.test_additional_prioritizes_probability_over_higher_ev) ... ok
+test_api_quote_only_timestamped (test_value_watchlist.ValueWatchlistTests.test_api_quote_only_timestamped) ... ok
+test_api_quote_requires_pre_match_timestamp_proof (test_value_watchlist.ValueWatchlistTests.test_api_quote_requires_pre_match_timestamp_proof) ... ok
+test_auto_stale_quote_abstains_without_manually_fabricating_it (test_value_watchlist.ValueWatchlistTests.test_auto_stale_quote_abstains_without_manually_fabricating_it) ... ok
+test_automatic_selection_audit_shows_abstentions_per_league (test_value_watchlist.ValueWatchlistTests.test_automatic_selection_audit_shows_abstentions_per_league) ... ok
+test_bad_odds_or_team_rejected (test_value_watchlist.ValueWatchlistTests.test_bad_odds_or_team_rejected) ... ok
+test_exact_frozen_top3_pick_can_be_selected_as_additional_once (test_value_watchlist.ValueWatchlistTests.test_exact_frozen_top3_pick_can_be_selected_as_additional_once) ... ok
+test_exact_line_team_market_outcome_timestamp_and_provider_required (test_value_watchlist.ValueWatchlistTests.test_exact_line_team_market_outcome_timestamp_and_provider_required) ... ok
+test_existing_manual_offer_never_relabelled_as_verified_api (test_value_watchlist.ValueWatchlistTests.test_existing_manual_offer_never_relabelled_as_verified_api) ... ok
+test_initial_freeze_and_not_revised (test_value_watchlist.ValueWatchlistTests.test_initial_freeze_and_not_revised) ... ok
+test_manual_not_backfilled_after_kickoff (test_value_watchlist.ValueWatchlistTests.test_manual_not_backfilled_after_kickoff) ... ok
+test_missing_provider_or_finished_match_never_fabricates_quote (test_value_watchlist.ValueWatchlistTests.test_missing_provider_or_finished_match_never_fabricates_quote) ... ok
+test_missing_result_not_loss (test_value_watchlist.ValueWatchlistTests.test_missing_result_not_loss) ... ok
+test_no_profit_from_unverified_price (test_value_watchlist.ValueWatchlistTests.test_no_profit_from_unverified_price) ... ok
+test_no_viable_only_after_real_consultation (test_value_watchlist.ValueWatchlistTests.test_no_viable_only_after_real_consultation) ... ok
+test_outcome_verified_without_historical_bookmaker_proof (test_value_watchlist.ValueWatchlistTests.test_outcome_verified_without_historical_bookmaker_proof) ... ok
+test_push_without_api_preserves_last_real_audit (test_value_watchlist.ValueWatchlistTests.test_push_without_api_preserves_last_real_audit) ... ok
+test_real_price_automatically_frozen_and_settled (test_value_watchlist.ValueWatchlistTests.test_real_price_automatically_frozen_and_settled) ... ok
+test_real_quote_has_priority_over_new_manual_reference (test_value_watchlist.ValueWatchlistTests.test_real_quote_has_priority_over_new_manual_reference) ... ok
+test_settlement_with_hypothetical_return (test_value_watchlist.ValueWatchlistTests.test_settlement_with_hypothetical_return) ... ok
+test_six_leagues_one_price_each_no_backfill_or_top3_change (test_value_watchlist.ValueWatchlistTests.test_six_leagues_one_price_each_no_backfill_or_top3_change) ... ok
+test_unqueried_private_api_is_not_a_failed_bet_screen (test_value_watchlist.ValueWatchlistTests.test_unqueried_private_api_is_not_a_failed_bet_screen) ... ok
+
+----------------------------------------------------------------------
+Ran 217 tests in 0.228s
+
+OK
+=== /tmp/football-node-tests.log ===
+  ...
+# Subtest: additional list contains only original first frozen quote, not alternatives or exploratory prices
+ok 116 - additional list contains only original first frozen quote, not alternatives or exploratory prices
+  ---
+  duration_ms: 0.488777
+  type: 'test'
+  ...
+# Subtest: pending soonest future extras first, then most recent past; load more is accurate
+ok 117 - pending soonest future extras first, then most recent past; load more is accurate
+  ---
+  duration_ms: 0.400442
+  type: 'test'
+  ...
+# Subtest: additional titles and market values are escaped in immediately visible cards
+ok 118 - additional titles and market values are escaped in immediately visible cards
+  ---
+  duration_ms: 0.239263
+  type: 'test'
+  ...
+# Subtest: additional outcomes are unmistakable without expanding: win, loss, pending, unverified
+ok 119 - additional outcomes are unmistakable without expanding: win, loss, pending, unverified
+  ---
+  duration_ms: 0.353947
+  type: 'test'
+  ...
+# Subtest: settled fixture status visible and distinct from a pending or missing selection
+ok 120 - settled fixture status visible and distinct from a pending or missing selection
+  ---
+  duration_ms: 0.201428
+  type: 'test'
+  ...
+# Subtest: los futuros se muestran de más cercano a más lejano, incluso si vienen desordenados
+ok 121 - los futuros se muestran de más cercano a más lejano, incluso si vienen desordenados
+  ---
+  duration_ms: 9.706477
+  type: 'test'
+  ...
+# Subtest: Todos: próximos primero, después el histórico más reciente
+ok 122 - Todos: próximos primero, después el histórico más reciente
+  ---
+  duration_ms: 0.305891
+  type: 'test'
+  ...
+# Subtest: Ya disputados: orden cronológico inverso, sin perturbar el futuro
+ok 123 - Ya disputados: orden cronológico inverso, sin perturbar el futuro
+  ---
+  duration_ms: 0.153489
+  type: 'test'
+  ...
+# Subtest: datos inválidos al final, sin impedir que se muestren partidos válidos
+ok 124 - datos inválidos al final, sin impedir que se muestren partidos válidos
+  ---
+  duration_ms: 0.200979
+  type: 'test'
+  ...
+# Subtest: filtro inicial de Partidos prioriza próximos partidos sin orden contrario
+ok 125 - filtro inicial de Partidos prioriza próximos partidos sin orden contrario
+  ---
+  duration_ms: 0.950296
+  type: 'test'
+  ...
+# Subtest: only explicit light preference enables light theme
+ok 126 - only explicit light preference enables light theme
+  ---
+  duration_ms: 0.842704
+  type: 'test'
+  ...
+# Subtest: light mode restores across app startup and switches back to dark
+ok 127 - light mode restores across app startup and switches back to dark
+  ---
+  duration_ms: 0.510768
+  type: 'test'
+  ...
+# Subtest: denied storage cannot break appearance switch
+ok 128 - denied storage cannot break appearance switch
+  ---
+  duration_ms: 0.248531
+  type: 'test'
+  ...
+# Subtest: app shell caches both appearance assets and loads light palette after dark
+ok 129 - app shell caches both appearance assets and loads light palette after dark
+  ---
+  duration_ms: 1.045844
+  type: 'test'
+  ...
+# Subtest: applying theme works even when optional controls are unavailable
+ok 130 - applying theme works even when optional controls are unavailable
+  ---
+  duration_ms: 0.154018
+  type: 'test'
+  ...
+1..130
+# tests 130
+# suites 0
+# pass 128
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 521.845765
