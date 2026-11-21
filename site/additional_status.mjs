@@ -20,6 +20,10 @@ export function additionalStatus(match, now = new Date()) {
     code:"THEORETICAL", style:"assigned", label:"Cuarta selección teórica",
     explanation:"Pronóstico prepartido archivado con cuota justa matemática; NO es una oferta de casa de apuestas."
   };
+  if (match.fixtureOnly === true) return {
+    code:"NO_FORECAST",style:"unviable",label:"Solo calendario · sin pronóstico",
+    explanation:"Historial insuficiente: no se ha archivado ningún Top 3. No se generan predicciones tras el inicio."
+  };
   if (!Number.isFinite(kick) || kick <= now.getTime()) return null;
   switch (match.additionalAudit) {
     case "NO_SUPERA_FILTROS":
