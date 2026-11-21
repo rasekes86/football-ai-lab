@@ -24,7 +24,7 @@ COUNTS = ("shots", "on_target", "corners", "yellow", "red", "fouls")
 ALIASES = {
     "shots": ("totalShots", "shots"),
     "on_target": ("shotsOnTarget", "shotsOnGoal"),
-    "corners": ("cornerKicks", "corners"),
+    "corners": ("cornerKicks", "wonCorners", "corners"),
     "yellow": ("yellowCards",),
     "red": ("redCards",),
     "fouls": ("fouls", "foulsCommitted", "totalFouls"),
@@ -164,7 +164,8 @@ def _apply(game, stats, provenance):
 
 def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
                       cache_path: Path = Path("output/estadisticas_finales_verificadas.json"),
-                      fetcher=None) -> tuple[dict, dict, dict]:
+                      fetcher=None,
+                      primary_archived: list[dict] | None = None) -> tuple[dict, dict, dict]:
     """ESPN scoreboard final + summary de mismo ID/equipos/marcador.
 
     Los datos de football-data.co.uk existentes tienen prioridad, los valores
@@ -173,6 +174,8 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
     fetcher = fetcher or http_read
     output = {code: [dict(x) for x in items] for code, items in histories.items()}
     wanted = _wanted_counts(archived, now)
+    primary_wanted = (_wanted_counts(primary_archived, now)
+                      if primary_archived is not None else wanted)
     matches = {}
     duplicates = set()
     for code, games in output.items():
@@ -194,6 +197,8 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
                        if key in matches and key not in duplicates}
     requested = defaultdict(set)
     for key, metrics in wanted.items():
+        requested[key].update(metrics)
+    for key, metrics in primary_wanted.items():
         requested[key].update(metrics)
     for key, metrics in auxiliary_fouls.items():
         requested[key].update(metrics)
@@ -289,11 +294,10 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
 
     cached = list(by_key.values())
     cached.sort(key=lambda x: (x.get("fecha", ""), x.get("liga_codigo", "")))
-    # Auditoría por encuentro: separar falta de marcador, duplicado y
-    # estadísticas ausentes. Un marcador disponible no significa que las
-    # estadísticas del contrato estén completas.
-    objectives = []
-    for key, metrics in sorted(wanted.items(), key=lambda x: (x[0][1], x[0][0], x[0][2:])):
+    # Separar los mercados exploratorios de las selecciones seleccionadas.
+    # Las métricas se pueden recuperar para ambas vistas, pero el estado
+    # del Top 3 + adicional solo audita los contratos primarios.
+    def audit_target(key, metrics):
         game = matches.get(key)
         missing = [
             f"{side}_{metric}" for metric in sorted(metrics)
@@ -308,7 +312,7 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
             reason = "ESTADISTICAS_INCOMPLETAS"
         else:
             reason = "COMPLETO"
-        objectives.append({
+        return {
             "liga_codigo": key[0], "fecha": key[1].isoformat(),
             "local_normalizado": key[2], "visitante_normalizado": key[3],
             "metricas_requeridas": sorted(metrics),
@@ -317,8 +321,21 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
             "marcador": (
                 f"{game['home_goals']}-{game['away_goals']}" if game else None
             ),
-        })
+        }
+
+    def targets(dictionary):
+        return [audit_target(key, metrics)
+                for key, metrics in sorted(
+                    dictionary.items(),
+                    key=lambda x: (x[0][1], x[0][0], x[0][2:])
+                )]
+
+    objectives = targets(primary_wanted)
+    exploratory_objectives = targets(wanted)
     covered = sum(o["motivo"] == "COMPLETO" for o in objectives)
+    exploratory_complete = sum(
+        o["motivo"] == "COMPLETO" for o in exploratory_objectives
+    )
     reasons = {reason: sum(o["motivo"] == reason for o in objectives)
                for reason in ("SIN_MARCADOR_VERIFICADO", "DUPLICADO_HISTORICO",
                               "ESTADISTICAS_INCOMPLETAS")}
@@ -331,12 +348,19 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
         "conflictos_marcador": mismatched, "fallos_fuente": failures,
         "objetivos_detalle": objectives,
         "incompletos_por_motivo": reasons,
+        "exploracion": {
+            "objetivos_conteo": len(exploratory_objectives),
+            "completos": exploratory_complete,
+            "incompletos": len(exploratory_objectives)-exploratory_complete,
+            "objetivos_detalle": exploratory_objectives,
+        },
         "partidos_con_faltas": sum(
             _usable(matches[key], {"fouls"}) for key in auxiliary_fouls), 
         "objetivos_faltas": len(auxiliary_fouls),
         "limites": {"scoreboards": MAX_SCOREBOARD_DAYS, "summaries": MAX_SUMMARIES},
-        "nota": "Solo estadísticas de partidos finalizados e identidades y marcadores concordantes. "
-                "La ausencia se conserva, nunca equivale a cero. No contamina pronósticos.",
+        "nota": "El total principal corresponde a conteos del Top 3 y las adicionales archivadas. "
+                "Los mercados exploratorios tienen una auditoría independiente. "
+                "Solo partidos finalizados y estadísticas verificadas; valores ausentes nunca equivalen a cero.",
     }
     payload = {"version": VERSION, "calculado_utc": now.isoformat(),
                "auditoria": report, "partidos": cached}
