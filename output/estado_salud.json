@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-21T09:24:14.828524+00:00",
+  "comprobado_utc": "2026-11-21T09:25:35.355639+00:00",
   "estado": "CORRECTO",
   "incidencias": [],
   "detalle": {
-    "analisis_utc": "2026-11-21T09:20:30.191750+00:00",
+    "analisis_utc": "2026-11-21T09:24:18.930717+00:00",
     "partidos_proximos": 50,
     "cuotas_utc": "2026-11-21T03:28:14.016968+00:00",
     "consultas_utc": "2026-11-21T03:28:49.520431+00:00",
@@ -21,5 +21,5 @@
   "fallos_workflow": {},
   "notificadas": [],
   "ultima_entrega_utc": "2026-11-21T09:24:14.828524+00:00",
-  "envio": "ENTREGADO"
+  "envio": "SIN_NOVEDADES"
 }
