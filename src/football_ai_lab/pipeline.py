@@ -227,10 +227,11 @@ def main(argv=None) -> None:
     stats_check={"objetivos_conteo":0,"completos":0,"incompletos":0}
     stats_payload={"version":"postmatch-stats-1.0","partidos":[]}
     if not args.demo:
-        past_snapshots=(read_csv(target/"historico_predicciones.csv")
-            +read_csv(target/"historico_selecciones.csv")
+        primary_snapshots=(read_csv(target/"historico_selecciones.csv")
             +read_csv(target/"historico_oportunidades_150.csv")
-            +read_csv(target/"historico_adicionales_teoricas.csv")
+            +read_csv(target/"historico_adicionales_teoricas.csv"))
+        past_snapshots=(read_csv(target/"historico_predicciones.csv")
+            +primary_snapshots
             +read_csv(target/"historico_mercados_futuros.csv"))
         settlement_histories,check=augment_results(histories,past_snapshots,now)
         book.mark("marcadores_finales","OK" if not check["sin_marcador"] else "PARCIAL",
@@ -238,11 +239,14 @@ def main(argv=None) -> None:
                   f'sin marcador: {check["sin_marcador"]}',check["objetivos"])
         settlement_histories,stats_check,stats_payload=enrich_statistics(
             settlement_histories,past_snapshots,now,
-            cache_path=target/"estadisticas_finales_verificadas.json")
+            cache_path=target/"estadisticas_finales_verificadas.json",
+            primary_archived=primary_snapshots)
         book.mark("estadisticas_finales",
                   "OK" if not stats_check["incompletos"] else "PARCIAL",
-                  f'Conteos: {stats_check["completos"]}/{stats_check["objetivos_conteo"]} '
-                  f'partidos completos; campos ESPN: {stats_check["campos_recuperados"]}',
+                  f'Conteos 3+1: {stats_check["completos"]}/{stats_check["objetivos_conteo"]}; '
+                  f'exploración: {stats_check["exploracion"]["completos"]}/'
+                  f'{stats_check["exploracion"]["objetivos_conteo"]}; '
+                  f'campos recuperados: {stats_check["campos_recuperados"]}',
                   stats_check["objetivos_conteo"])
     context=machina_context(now) if not args.demo else {"estado":"DEMO","timestamp_utc":now.isoformat()}
     book.mark("contexto",context["estado"],
