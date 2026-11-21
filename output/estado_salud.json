@@ -1,19 +1,13 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-21T21:01:37.402189+00:00",
-  "estado": "INCIDENCIAS",
-  "incidencias": [
-    {
-      "codigo": "FALLO_REFRESCO",
-      "severidad": "ALTA",
-      "descripcion": "GitHub Actions informa de una ejecución failure en Refresco escalonado de cuotas; pendiente de la siguiente ejecución satisfactoria."
-    }
-  ],
+  "comprobado_utc": "2026-11-21T21:03:09.742214+00:00",
+  "estado": "CORRECTO",
+  "incidencias": [],
   "detalle": {
     "analisis_utc": "2026-11-21T17:13:57.600685+00:00",
     "partidos_proximos": 24,
-    "cuotas_utc": "2026-11-21T15:22:18.153388+00:00",
-    "consultas_utc": "2026-11-21T15:23:16.553585+00:00",
+    "cuotas_utc": "2026-11-21T21:02:43.539531+00:00",
+    "consultas_utc": "2026-11-21T21:02:53.470828+00:00",
     "errores_calendario_ultima_ronda": 0,
     "errores_totales_proveedor_ultima_ronda": 0,
     "racha_calendario": 0,
@@ -21,15 +15,11 @@
     "partidos_sin_liquidar_10h": 0,
     "partidos_sin_liquidar_48h": 0
   },
-  "ultima_captura_revisada": "2026-11-21T15:22:18.153388+00:00",
+  "ultima_captura_revisada": "2026-11-21T21:02:43.539531+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
-  "fallos_workflow": {
-    "Refresco escalonado de cuotas": "failure"
-  },
-  "notificadas": [
-    "FALLO_REFRESCO"
-  ],
-  "ultima_entrega_utc": "2026-11-21T20:40:27.721786+00:00",
-  "envio": "SIN_NOVEDADES"
+  "fallos_workflow": {},
+  "notificadas": [],
+  "ultima_entrega_utc": "2026-11-21T21:03:09.742214+00:00",
+  "envio": "ENTREGADO"
 }
