@@ -26,7 +26,7 @@ export const PERFORMANCE_GROUPS = Object.freeze([
   {value:"month",label:"Por mes"}
 ]);
 
-const EXPLICIT_TYPES = new Set(["INDICATIVA_NO_VERIFICADA","OFRECIDA_API_REGISTRADA"]);
+const EXPLICIT_TYPES = new Set(["INDICATIVA_NO_VERIFICADA","OFRECIDA_API_REGISTRADA","CUOTA_JUSTA_TEORICA_NO_OFRECIDA"]);
 const zoned = new Intl.DateTimeFormat("es-ES", {
   timeZone:"Europe/Madrid",year:"numeric",month:"2-digit",day:"2-digit"
 });
@@ -153,7 +153,7 @@ function summaryCombined(top,additional){
     financialCount:count,stake:count,profit,
     roi:count?profit/count:null,
     topCount:top.fairCount,additionalCount:additional.financialCount,
-    note:"SIMULACIÓN MIXTA. Top 3 a cuota justa del modelo; adicional a cuota archivada (API observada o indicativa). No refleja precios disponibles ni ganancias reales."
+    note:"SIMULACIÓN MIXTA. Top 3 y algunas adicionales usan cuota justa del modelo NO ofrecida. Otras adicionales cuentan con cuota API u orientativa archivada. No representa ganancias reales."
   };
 }
 function summaryExtra(rows){
@@ -169,6 +169,8 @@ function summaryExtra(rows){
     profit:settledPrices.length?units:null,
     roi:settledPrices.length?units/settledPrices.length:null,
     indicativeCount:indicative.length,
+    theoreticalCount:rows.filter(x=>x.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA").length,
+    theoreticalSettled:settledPrices.filter(x=>x.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA").length,
     observedCount:observed.length,
     observedSettled:observedDone.length,
     observedProfit:observedDone.length?observedProfit:null,
@@ -225,7 +227,12 @@ function ledger(topRows,extraRows){
 }
 export function performanceSnapshot(model={},filters={},now=new Date()){
   const archived=Array.isArray(model.archivedPicks)?model.archivedPicks:[];
-  const additional=Array.isArray(model.allOdds)?model.allOdds:[];
+  const priced=Array.isArray(model.allOdds)?model.allOdds:[];
+  const covered=new Set(priced.map(r=>r.id));
+  const theoretical=(Array.isArray(model.theoreticalOdds)?model.theoreticalOdds:[])
+    .filter(r=>r?.id&&!covered.has(r.id))
+    .map(r=>({...r,cuota_decimal:r.cuota_justa}));
+  const additional=[...priced,...theoretical];
   const top=distinctTop3(archived);
   const extra=distinctAdditional(additional);
   const extraRows=extra.picks.filter(r=>inScope(r,now,filters));
