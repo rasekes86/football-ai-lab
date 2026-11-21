@@ -9,6 +9,7 @@ export const LEAGUES = Object.freeze([
 
 export const FEEDS = Object.freeze({
   predicciones: "predicciones.csv",
+  calendario_partidos: "calendario_partidos.csv",
   historico_predicciones: "historico_predicciones.csv",
   selecciones: "selecciones.csv",
   historico_selecciones: "historico_selecciones.csv",
@@ -155,6 +156,7 @@ function pickSorted(rows) {
 export function buildModel(feeds, now = new Date()) {
   const source = name => Array.isArray(feeds[name]) ? feeds[name] : [];
   const current = source("predicciones");
+  const calendar = source("calendario_partidos");
   const historical = source("historico_predicciones");
   const liveSelections = groupBy(source("selecciones"), "id");
   const archived = groupBy(source("historico_selecciones"), "id");
@@ -181,6 +183,7 @@ export function buildModel(feeds, now = new Date()) {
   }
   historical.forEach(x => add(x, "historicalForecast"));
   current.forEach(x => add(x, "forecast"));
+  calendar.forEach(x => add(x, "fixture"));
   for (const row of source("seguimiento_selecciones")) add(row, "pick");
   for (const row of source("historico_selecciones")) add(row, "pick");
   for (const row of source("seguimiento")) add(row, "followup");
@@ -196,11 +199,12 @@ export function buildModel(feeds, now = new Date()) {
     const chosenExtra = frozenAdditionalPerMatch(m.odds).get(m.id);
     m.promotedToAdditional = m.originalPicks.some(p=>sameArchivedSelection(p,chosenExtra));
     m.picks = chosenExtra ? m.originalPicks.filter(p=>!sameArchivedSelection(p,chosenExtra)) : m.originalPicks;
+    m.fixtureOnly = !m.originalPicks.length && !m.historicalForecast && !m.forecast;
     m.additionalAudit = feeds.evaluacion_cuotas?.seleccion_automatica?.por_partido?.[m.id] || null;
     m.additionalAuditDetail = feeds.evaluacion_cuotas?.seleccion_automatica?.por_partido_detalle?.[m.id] || null;
     m.followup = followups.get(m.id) || null;
     m.breakdown = breakdown.get(m.id) || null;
-    m.status = matchStatus(m);
+    m.status = m.fixtureOnly ? "SIN_PRONOSTICO" : matchStatus(m);
     m.finishedPicks = m.picks.filter(settled).length;
     m.hitPicks = m.picks.filter(x => settled(x) && String(x.resultado) === "1").length;
     m.score = m.followup?.estado === "FINALIZADO"
@@ -211,7 +215,7 @@ export function buildModel(feeds, now = new Date()) {
     return m;
   }).sort((a, b) => a.kickoff - b.kickoff);
 
-  const currentIds = new Set(current.map(row => row.id));
+  const currentIds = new Set([...current,...calendar].map(row => row.id));
   const archivedPicks = source("seguimiento_selecciones").length
     ? source("seguimiento_selecciones")
     : source("historico_selecciones");
@@ -238,7 +242,7 @@ export function buildModel(feeds, now = new Date()) {
     radarContextUpdated: feeds.radar_contexto_equipos?.generado_utc || null,
     realOddsRaw: feeds.cuotas_reales_verificadas || null,
     realOddsComparison: feeds.comparacion_cuotas_reales || null,
-    top, simulation, countForecasts: currentIds.size,
+    top, simulation, countForecasts: current.length,
     updatedAt: feeds.evaluacion_selecciones?.calculado_utc ||
       feeds.evaluacion_cuotas?.generado_utc ||
       current[0]?.fecha_analisis_utc || null,
