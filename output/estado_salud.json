@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-21T20:40:27.721786+00:00",
+  "comprobado_utc": "2026-11-21T21:00:59.395929+00:00",
   "estado": "INCIDENCIAS",
   "incidencias": [
     {
@@ -31,5 +31,5 @@
     "FALLO_REFRESCO"
   ],
   "ultima_entrega_utc": "2026-11-21T20:40:27.721786+00:00",
-  "envio": "ENTREGADO"
+  "envio": "SIN_NOVEDADES"
 }
