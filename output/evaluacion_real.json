@@ -1,42 +1,42 @@
 {
   "version": "prospectivo-0.5",
-  "calculado_utc": "2026-11-21T17:13:57.600685+00:00",
+  "calculado_utc": "2026-11-21T21:05:13.992830+00:00",
   "proporcion": "1X2 prepartido archivado; Brier dividido entre 3",
   "registrados": 130,
-  "finalizados_validos": 21,
-  "pendientes": 109,
+  "finalizados_validos": 28,
+  "pendientes": 102,
   "sin_resultado": 0,
   "excluidos": 0,
   "global": {
-    "muestra": 21,
-    "brier_medio": 0.20918,
-    "logloss_medio": 1.02499,
-    "acierto_favorito_pct": 61.9,
-    "ece": 0.10371,
+    "muestra": 28,
+    "brier_medio": 0.20539,
+    "logloss_medio": 1.01408,
+    "acierto_favorito_pct": 57.1,
+    "ece": 0.04775,
     "calibracion": [
       {
         "intervalo": "0-20%",
-        "observaciones": 5,
-        "probabilidad_media": 0.1306,
-        "frecuencia_observada": 0.2
+        "observaciones": 7,
+        "probabilidad_media": 0.1402,
+        "frecuencia_observada": 0.1429
       },
       {
         "intervalo": "20-40%",
-        "observaciones": 38,
-        "probabilidad_media": 0.2678,
-        "frecuencia_observada": 0.2105
+        "observaciones": 50,
+        "probabilidad_media": 0.2639,
+        "frecuencia_observada": 0.24
       },
       {
         "intervalo": "40-60%",
-        "observaciones": 17,
-        "probabilidad_media": 0.4753,
-        "frecuencia_observada": 0.6471
+        "observaciones": 23,
+        "probabilidad_media": 0.4817,
+        "frecuencia_observada": 0.5652
       },
       {
         "intervalo": "60-80%",
-        "observaciones": 2,
-        "probabilidad_media": 0.6405,
-        "frecuencia_observada": 0.5
+        "observaciones": 3,
+        "probabilidad_media": 0.6451,
+        "frecuencia_observada": 0.6667
       },
       {
         "intervalo": "80-100%",
@@ -48,32 +48,32 @@
   },
   "por_liga": {
     "LaLiga": {
-      "muestra": 1,
-      "brier_medio": 0.2498,
-      "logloss_medio": 1.20812,
+      "muestra": 3,
+      "brier_medio": 0.27209,
+      "logloss_medio": 1.31752,
       "acierto_favorito_pct": 0.0,
-      "ece": 0.28496,
+      "ece": 0.29584,
       "calibracion": [
         {
           "intervalo": "20-40%",
-          "observaciones": 2,
-          "probabilidad_media": 0.2863,
+          "observaciones": 6,
+          "probabilidad_media": 0.2781,
           "frecuencia_observada": 0.5
         },
         {
           "intervalo": "40-60%",
-          "observaciones": 1,
-          "probabilidad_media": 0.4274,
+          "observaciones": 3,
+          "probabilidad_media": 0.4438,
           "frecuencia_observada": 0.0
         }
       ]
     },
     "Premier League": {
-      "muestra": 6,
-      "brier_medio": 0.23377,
-      "logloss_medio": 1.11915,
-      "acierto_favorito_pct": 50.0,
-      "ece": 0.08653,
+      "muestra": 7,
+      "brier_medio": 0.24178,
+      "logloss_medio": 1.15315,
+      "acierto_favorito_pct": 42.9,
+      "ece": 0.07417,
       "calibracion": [
         {
           "intervalo": "0-20%",
@@ -83,15 +83,15 @@
         },
         {
           "intervalo": "20-40%",
-          "observaciones": 11,
-          "probabilidad_media": 0.2611,
-          "frecuencia_observada": 0.2727
+          "observaciones": 13,
+          "probabilidad_media": 0.2581,
+          "frecuencia_observada": 0.3077
         },
         {
           "intervalo": "40-60%",
-          "observaciones": 5,
-          "probabilidad_media": 0.4697,
-          "frecuencia_observada": 0.6
+          "observaciones": 6,
+          "probabilidad_media": 0.4776,
+          "frecuencia_observada": 0.5
         },
         {
           "intervalo": "60-80%",
@@ -135,28 +135,28 @@
       ]
     },
     "Serie A": {
-      "muestra": 2,
-      "brier_medio": 0.08565,
-      "logloss_medio": 0.53117,
+      "muestra": 3,
+      "brier_medio": 0.08738,
+      "logloss_medio": 0.53875,
       "acierto_favorito_pct": 100.0,
-      "ece": 0.27362,
+      "ece": 0.27693,
       "calibracion": [
         {
           "intervalo": "0-20%",
-          "observaciones": 1,
-          "probabilidad_media": 0.1515,
+          "observaciones": 2,
+          "probabilidad_media": 0.1699,
           "frecuencia_observada": 0.0
         },
         {
           "intervalo": "20-40%",
-          "observaciones": 3,
-          "probabilidad_media": 0.2231,
+          "observaciones": 4,
+          "probabilidad_media": 0.2266,
           "frecuencia_observada": 0.0
         },
         {
           "intervalo": "40-60%",
-          "observaciones": 1,
-          "probabilidad_media": 0.5455,
+          "observaciones": 2,
+          "probabilidad_media": 0.5601,
           "frecuencia_observada": 1.0
         },
         {
@@ -168,50 +168,56 @@
       ]
     },
     "Ligue 1": {
-      "muestra": 1,
-      "brier_medio": 0.17365,
-      "logloss_medio": 0.8852,
+      "muestra": 2,
+      "brier_medio": 0.13685,
+      "logloss_medio": 0.73908,
       "acierto_favorito_pct": 100.0,
-      "ece": 0.39158,
+      "ece": 0.34489,
       "calibracion": [
         {
           "intervalo": "20-40%",
-          "observaciones": 2,
-          "probabilidad_media": 0.2937,
+          "observaciones": 4,
+          "probabilidad_media": 0.2587,
           "frecuencia_observada": 0.0
         },
         {
           "intervalo": "40-60%",
-          "observaciones": 1,
-          "probabilidad_media": 0.4126,
+          "observaciones": 2,
+          "probabilidad_media": 0.4827,
           "frecuencia_observada": 1.0
         }
       ]
     },
     "Segunda División": {
-      "muestra": 7,
-      "brier_medio": 0.2154,
-      "logloss_medio": 1.05861,
-      "acierto_favorito_pct": 57.1,
-      "ece": 0.01709,
+      "muestra": 9,
+      "brier_medio": 0.20206,
+      "logloss_medio": 1.00348,
+      "acierto_favorito_pct": 55.6,
+      "ece": 0.05015,
       "calibracion": [
         {
           "intervalo": "0-20%",
-          "observaciones": 1,
-          "probabilidad_media": 0.1795,
+          "observaciones": 2,
+          "probabilidad_media": 0.1597,
           "frecuencia_observada": 0.0
         },
         {
           "intervalo": "20-40%",
-          "observaciones": 14,
-          "probabilidad_media": 0.2795,
-          "frecuencia_observada": 0.2857
+          "observaciones": 17,
+          "probabilidad_media": 0.2746,
+          "frecuencia_observada": 0.2941
         },
         {
           "intervalo": "40-60%",
-          "observaciones": 6,
-          "probabilidad_media": 0.4846,
-          "frecuencia_observada": 0.5
+          "observaciones": 7,
+          "probabilidad_media": 0.4796,
+          "frecuencia_observada": 0.4286
+        },
+        {
+          "intervalo": "60-80%",
+          "observaciones": 1,
+          "probabilidad_media": 0.6542,
+          "frecuencia_observada": 1.0
         }
       ]
     }
@@ -239,35 +245,35 @@
       ]
     },
     "poisson70-elo30-0.2": {
-      "muestra": 20,
-      "brier_medio": 0.20715,
-      "logloss_medio": 1.01583,
-      "acierto_favorito_pct": 65.0,
-      "ece": 0.12315,
+      "muestra": 27,
+      "brier_medio": 0.20374,
+      "logloss_medio": 1.00689,
+      "acierto_favorito_pct": 59.3,
+      "ece": 0.06007,
       "calibracion": [
         {
           "intervalo": "0-20%",
-          "observaciones": 5,
-          "probabilidad_media": 0.1306,
-          "frecuencia_observada": 0.2
+          "observaciones": 7,
+          "probabilidad_media": 0.1402,
+          "frecuencia_observada": 0.1429
         },
         {
           "intervalo": "20-40%",
-          "observaciones": 36,
-          "probabilidad_media": 0.2668,
-          "frecuencia_observada": 0.1944
+          "observaciones": 48,
+          "probabilidad_media": 0.263,
+          "frecuencia_observada": 0.2292
         },
         {
           "intervalo": "40-60%",
-          "observaciones": 16,
-          "probabilidad_media": 0.4783,
-          "frecuencia_observada": 0.6875
+          "observaciones": 22,
+          "probabilidad_media": 0.4841,
+          "frecuencia_observada": 0.5909
         },
         {
           "intervalo": "60-80%",
-          "observaciones": 2,
-          "probabilidad_media": 0.6405,
-          "frecuencia_observada": 0.5
+          "observaciones": 3,
+          "probabilidad_media": 0.6451,
+          "frecuencia_observada": 0.6667
         },
         {
           "intervalo": "80-100%",

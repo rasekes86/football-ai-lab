@@ -1,35 +1,35 @@
 {
   "version": "market-prospective-0.8",
-  "calculado_utc": "2026-11-21T17:13:57.600685+00:00",
+  "calculado_utc": "2026-11-21T21:05:13.992830+00:00",
   "registradas": 390,
-  "finalizadas": 63,
-  "pendientes": 327,
+  "finalizadas": 84,
+  "pendientes": 306,
   "sin_resultado": 0,
   "sin_estadistica": 0,
   "excluidas": 0,
   "global": {
-    "muestra": 63,
-    "acierto_pct": 76.19,
-    "brier": 0.184875,
-    "logloss": 0.559852,
-    "ece": 0.09824,
+    "muestra": 84,
+    "acierto_pct": 78.57,
+    "brier": 0.170996,
+    "logloss": 0.528764,
+    "ece": 0.079796,
     "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
   },
   "por_mercado": {
     "Tiros a puerta totales": {
-      "muestra": 3,
-      "acierto_pct": 66.67,
-      "brier": 0.235192,
-      "logloss": 0.666649,
-      "ece": 0.165395,
+      "muestra": 5,
+      "acierto_pct": 80.0,
+      "brier": 0.148204,
+      "logloss": 0.457126,
+      "ece": 0.045994,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Goles equipo": {
-      "muestra": 22,
-      "acierto_pct": 81.82,
-      "brier": 0.149242,
-      "logloss": 0.47355,
-      "ece": 0.084325,
+      "muestra": 30,
+      "acierto_pct": 86.67,
+      "brier": 0.116976,
+      "logloss": 0.395953,
+      "ece": 0.042932,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Tarjetas amarillas totales": {
@@ -40,54 +40,54 @@
       "ece": 0.165186,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
-    "Doble oportunidad": {
+    "Tiros totales": {
       "muestra": 6,
-      "acierto_pct": 66.67,
-      "brier": 0.241646,
-      "logloss": 0.699606,
-      "ece": 0.14592,
-      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
-    },
-    "Total goles": {
-      "muestra": 15,
-      "acierto_pct": 73.33,
-      "brier": 0.207699,
-      "logloss": 0.618113,
-      "ece": 0.158775,
+      "acierto_pct": 83.33,
+      "brier": 0.145633,
+      "logloss": 0.474249,
+      "ece": 0.06687,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Hándicap 2 vías (medio gol)": {
-      "muestra": 13,
-      "acierto_pct": 69.23,
-      "brier": 0.228637,
-      "logloss": 0.663489,
-      "ece": 0.129407,
+      "muestra": 17,
+      "acierto_pct": 64.71,
+      "brier": 0.266119,
+      "logloss": 0.764672,
+      "ece": 0.183466,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
-    "Tiros totales": {
-      "muestra": 3,
-      "acierto_pct": 100.0,
-      "brier": 0.031109,
-      "logloss": 0.192457,
-      "ece": 0.174713,
+    "Doble oportunidad": {
+      "muestra": 8,
+      "acierto_pct": 75.0,
+      "brier": 0.190052,
+      "logloss": 0.575532,
+      "ece": 0.063727,
+      "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
+    },
+    "Total goles": {
+      "muestra": 17,
+      "acierto_pct": 76.47,
+      "brier": 0.186347,
+      "logloss": 0.566012,
+      "ece": 0.121214,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     }
   },
   "por_liga": {
     "LaLiga": {
-      "muestra": 3,
+      "muestra": 9,
       "acierto_pct": 100.0,
-      "brier": 0.022509,
-      "logloss": 0.161996,
-      "ece": 0.149455,
+      "brier": 0.02172,
+      "logloss": 0.158977,
+      "ece": 0.146903,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Premier League": {
-      "muestra": 18,
-      "acierto_pct": 72.22,
-      "brier": 0.200561,
-      "logloss": 0.590451,
-      "ece": 0.108853,
+      "muestra": 21,
+      "acierto_pct": 76.19,
+      "brier": 0.176971,
+      "logloss": 0.535435,
+      "ece": 0.066894,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Bundesliga": {
@@ -99,53 +99,53 @@
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Serie A": {
-      "muestra": 6,
-      "acierto_pct": 83.33,
-      "brier": 0.137774,
-      "logloss": 0.444821,
-      "ece": 0.129055,
+      "muestra": 9,
+      "acierto_pct": 77.78,
+      "brier": 0.183203,
+      "logloss": 0.566679,
+      "ece": 0.184719,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Ligue 1": {
-      "muestra": 3,
-      "acierto_pct": 33.33,
-      "brier": 0.474539,
-      "logloss": 1.263563,
-      "ece": 0.5089,
+      "muestra": 6,
+      "acierto_pct": 66.67,
+      "brier": 0.25028,
+      "logloss": 0.719323,
+      "ece": 0.174227,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Segunda División": {
-      "muestra": 21,
-      "acierto_pct": 95.24,
-      "brier": 0.070419,
-      "logloss": 0.293096,
-      "ece": 0.142219,
+      "muestra": 27,
+      "acierto_pct": 88.89,
+      "brier": 0.113365,
+      "logloss": 0.39938,
+      "ece": 0.093092,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     }
   },
   "por_origen": {
     "Modelo de conteos con auditoría temporal": {
-      "muestra": 7,
-      "acierto_pct": 85.71,
-      "brier": 0.118027,
-      "logloss": 0.393981,
-      "ece": 0.031656,
+      "muestra": 12,
+      "acierto_pct": 83.33,
+      "brier": 0.136842,
+      "logloss": 0.442639,
+      "ece": 0.038834,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Poisson de goles": {
-      "muestra": 50,
-      "acierto_pct": 76.0,
-      "brier": 0.187422,
-      "logloss": 0.566303,
-      "ece": 0.113566,
+      "muestra": 64,
+      "acierto_pct": 78.12,
+      "brier": 0.175018,
+      "logloss": 0.539066,
+      "ece": 0.091594,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     },
     "Consenso Poisson/Elo": {
-      "muestra": 6,
-      "acierto_pct": 66.67,
-      "brier": 0.241646,
-      "logloss": 0.699606,
-      "ece": 0.14592,
+      "muestra": 8,
+      "acierto_pct": 75.0,
+      "brier": 0.190052,
+      "logloss": 0.575532,
+      "ece": 0.063727,
       "advertencia": "Muestra pequeña: no permite inferir ventaja rentable"
     }
   },

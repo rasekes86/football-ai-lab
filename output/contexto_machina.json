@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-21T17:13:57.600685+00:00",
+  "timestamp_utc": "2026-11-21T21:05:13.992830+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -9,8 +9,8 @@
         {
           "nombre": "Arsenal",
           "posicion": 1,
-          "puntos": 27,
-          "jugados": 10
+          "puntos": 28,
+          "jugados": 11
         },
         {
           "nombre": "Brighton & Hove Albion",
@@ -92,8 +92,8 @@
         {
           "nombre": "Real Betis",
           "posicion": 4,
-          "puntos": 26,
-          "jugados": 12
+          "puntos": 27,
+          "jugados": 13
         },
         {
           "nombre": "Real Sociedad",
@@ -104,8 +104,8 @@
         {
           "nombre": "Sevilla",
           "posicion": 6,
-          "puntos": 18,
-          "jugados": 12
+          "puntos": 19,
+          "jugados": 13
         },
         {
           "nombre": "Athletic Club",
@@ -179,16 +179,16 @@
           "jugados": 10
         },
         {
-          "nombre": "SV Elversberg",
+          "nombre": "VfB Stuttgart",
           "posicion": 8,
           "puntos": 13,
           "jugados": 10
         },
         {
-          "nombre": "VfB Stuttgart",
+          "nombre": "SV Elversberg",
           "posicion": 9,
-          "puntos": 12,
-          "jugados": 9
+          "puntos": 13,
+          "jugados": 10
         },
         {
           "nombre": "TSG Hoffenheim",
@@ -208,15 +208,15 @@
           "jugados": 12
         },
         {
-          "nombre": "Internazionale",
+          "nombre": "AS Roma",
           "posicion": 2,
-          "puntos": 28,
-          "jugados": 11
+          "puntos": 30,
+          "jugados": 12
         },
         {
-          "nombre": "AS Roma",
+          "nombre": "Internazionale",
           "posicion": 3,
-          "puntos": 27,
+          "puntos": 28,
           "jugados": 11
         },
         {
@@ -269,8 +269,8 @@
         {
           "nombre": "Paris Saint-Germain",
           "posicion": 1,
-          "puntos": 23,
-          "jugados": 10
+          "puntos": 26,
+          "jugados": 11
         },
         {
           "nombre": "Lille",
@@ -300,7 +300,7 @@
           "nombre": "Nice",
           "posicion": 6,
           "puntos": 17,
-          "jugados": 10
+          "jugados": 11
         },
         {
           "nombre": "AS Monaco",
@@ -334,9 +334,9 @@
       "equipo": "Arsenal",
       "bajas_reportadas": 8,
       "estados": {
+        "doubtful": 1,
         "injured": 2,
-        "unavailable": 5,
-        "suspended": 1
+        "unavailable": 5
       }
     },
     {
@@ -394,11 +394,12 @@
     },
     {
       "equipo": "Crystal Palace",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 13,
       "estados": {
         "unavailable": 7,
         "injured": 3,
-        "suspended": 1
+        "doubtful": 1,
+        "suspended": 2
       }
     },
     {
@@ -470,9 +471,10 @@
     },
     {
       "equipo": "Newcastle",
-      "bajas_reportadas": 6,
+      "bajas_reportadas": 7,
       "estados": {
         "injured": 2,
+        "doubtful": 1,
         "unavailable": 4
       }
     },
