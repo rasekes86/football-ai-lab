@@ -36,7 +36,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 71.6% / 15.4% / 12.9%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T20:56:13+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T21:48:52+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -334,7 +334,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Real Madrid:** posición 2 · 30 puntos.
+**Real Madrid:** posición 2 · 33 puntos.
 - Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 15,4, a puerta 7,0, córners 5,4, amarillas 2,6
@@ -578,7 +578,7 @@
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 16,2, a puerta 4,8, córners 5,8, amarillas 2,0
 
-**Real Madrid:** posición 2 · 30 puntos.
+**Real Madrid:** posición 2 · 33 puntos.
 - Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
 - Días desde el último partido liguero registrado: 25
 - Medias recientes: Tiros 15,4, a puerta 7,0, córners 5,4, amarillas 2,6
@@ -737,7 +737,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.4% / 25.0% / 28.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T21:01:36+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T22:04:48+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3050,7 +3050,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 59.5% / 26.6% / 14.0%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T20:56:13+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-21T22:06:10+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3074,7 +3074,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Bologna:** posición 8 · 17 puntos.
+**Bologna:** posición 9 · 17 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
 - Días desde el último partido liguero registrado: 15
 - Medias recientes: Tiros 14,6, a puerta 5,8, córners 6,2, amarillas 2,6
@@ -3314,7 +3314,7 @@
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 12,4, a puerta 3,6, córners 3,4, amarillas 1,0
 
-**Bologna:** posición 8 · 17 puntos.
+**Bologna:** posición 9 · 17 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 14,6, a puerta 5,8, córners 6,2, amarillas 2,6
@@ -3547,7 +3547,7 @@
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 8,6, a puerta 2,0, córners 3,2, amarillas 1,6
 
-**Napoli:** posición 10 · 15 puntos.
+**Napoli:** posición 8 · 18 puntos.
 - Últimos partidos: 1V · 2E · 2D; secuencia: E · D · V · E · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 16,6, a puerta 6,6, córners 5,2, amarillas 1,4
@@ -3731,7 +3731,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Cagliari:** posición 9 · 16 puntos.
+**Cagliari:** posición 10 · 16 puntos.
 - Últimos partidos: 1V · 0E · 4D; secuencia: V · D · D · D · D
 - Días desde el último partido liguero registrado: 23
 - Medias recientes: Tiros 12,4, a puerta 4,2, córners 4,2, amarillas 2,2
@@ -3779,7 +3779,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Bologna:** posición 8 · 17 puntos.
+**Bologna:** posición 9 · 17 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
 - Días desde el último partido liguero registrado: 27
 - Medias recientes: Tiros 14,6, a puerta 5,8, córners 6,2, amarillas 2,6
@@ -3877,7 +3877,7 @@
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 9,6, a puerta 2,4, córners 4,2, amarillas 1,6
 
-**Stade Rennais:** posición 8 · 16 puntos.
+**Stade Rennais:** posición 9 · 16 puntos.
 - Últimos partidos: 2V · 0E · 3D; secuencia: D · D · V · D · V
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 16,2, a puerta 6,6, córners 6,4, amarillas 2,4
@@ -3919,7 +3919,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Marseille:** posición 4 · 18 puntos.
+**Marseille:** posición 5 · 18 puntos.
 - Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 13,2, a puerta 4,6, córners 4,4, amarillas 1,4
@@ -3963,7 +3963,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Brest:** posición 9 · 15 puntos.
+**Brest:** posición 6 · 18 puntos.
 - Últimos partidos: 3V · 1E · 1D; secuencia: V · V · D · E · V
 - Días desde el último partido liguero registrado: 19
 - Medias recientes: Tiros 13,0, a puerta 5,6, córners 2,4, amarillas 1,6
@@ -4147,7 +4147,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Nice:** posición 6 · 17 puntos.
+**Nice:** posición 7 · 17 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · D · V
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 13,0, a puerta 5,8, córners 5,2, amarillas 3,0
@@ -4243,7 +4243,7 @@
 - Días desde el último partido liguero registrado: 22
 - Medias recientes: Tiros 10,2, a puerta 4,0, córners 3,4, amarillas 2,0
 
-**Marseille:** posición 4 · 18 puntos.
+**Marseille:** posición 5 · 18 puntos.
 - Últimos partidos: 5V · 0E · 0D; secuencia: V · V · V · V · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 13,2, a puerta 4,6, córners 4,4, amarillas 1,4
@@ -4290,7 +4290,7 @@
 - Días desde el último partido liguero registrado: 23
 - Medias recientes: Tiros 10,4, a puerta 4,8, córners 4,0, amarillas 2,6
 
-**Stade Rennais:** posición 8 · 16 puntos.
+**Stade Rennais:** posición 9 · 16 puntos.
 - Últimos partidos: 2V · 0E · 3D; secuencia: D · D · V · D · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 16,2, a puerta 6,6, córners 6,4, amarillas 2,4
@@ -4333,12 +4333,12 @@
 
 ### Forma, descanso y estadísticas
 
-**Lyon:** posición 5 · 17 puntos.
+**Lyon:** posición 4 · 20 puntos.
 - Últimos partidos: 2V · 0E · 3D; secuencia: D · V · D · V · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 12,2, a puerta 4,2, córners 4,2, amarillas 0,8
 
-**AS Monaco:** posición 7 · 16 puntos.
+**AS Monaco:** posición 8 · 17 puntos.
 - Últimos partidos: 0V · 3E · 2D; secuencia: E · D · E · D · E
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 13,4, a puerta 3,8, córners 4,6, amarillas 2,2

@@ -1,15 +1,15 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-21T21:05:13.992830+00:00",
+  "generado_utc": "2026-11-21T22:13:13.001581+00:00",
   "registradas": 49,
-  "finalizadas": 22,
-  "pendientes": 27,
+  "finalizadas": 28,
+  "pendientes": 21,
   "resultados_no_disponibles": 0,
   "estadisticas_no_disponibles": 0,
   "excluidas": 0,
   "verificacion": {
-    "resultados_verificados": 22,
-    "resultados_pendientes_o_sin_dato": 27,
+    "resultados_verificados": 28,
+    "resultados_pendientes_o_sin_dato": 21,
     "cuotas_api_observadas_antes_del_partido": 42,
     "cuotas_indicativas_no_acreditadas": 5,
     "cuotas_api_sin_prueba_temporal": 2,
@@ -17,12 +17,12 @@
   },
   "global": {
     "registradas": 49,
-    "evaluadas": 22,
-    "aciertos": 13,
-    "acierto_pct": 59.09,
-    "brier_medio": 0.245465,
-    "retorno_simulado_unidad": 1.768,
-    "roi_simulado_pct": 8.04,
+    "evaluadas": 28,
+    "aciertos": 18,
+    "acierto_pct": 64.29,
+    "brier_medio": 0.226674,
+    "retorno_simulado_unidad": 4.368,
+    "roi_simulado_pct": 15.6,
     "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
   },
   "por_tipo_cuota": {
@@ -38,24 +38,24 @@
     },
     "OFRECIDA_API_REGISTRADA": {
       "registradas": 44,
-      "evaluadas": 17,
-      "aciertos": 10,
-      "acierto_pct": 58.82,
-      "brier_medio": 0.247424,
-      "retorno_simulado_unidad": 1.018,
-      "roi_simulado_pct": 5.99,
+      "evaluadas": 23,
+      "aciertos": 15,
+      "acierto_pct": 65.22,
+      "brier_medio": 0.224037,
+      "retorno_simulado_unidad": 3.618,
+      "roi_simulado_pct": 15.73,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },
   "por_mercado": {
     "Total goles": {
       "registradas": 41,
-      "evaluadas": 17,
-      "aciertos": 11,
-      "acierto_pct": 64.71,
-      "brier_medio": 0.238642,
-      "retorno_simulado_unidad": 3.192,
-      "roi_simulado_pct": 18.78,
+      "evaluadas": 22,
+      "aciertos": 15,
+      "acierto_pct": 68.18,
+      "brier_medio": 0.219929,
+      "retorno_simulado_unidad": 5.042,
+      "roi_simulado_pct": 22.92,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Doble oportunidad": {
@@ -70,34 +70,34 @@
     },
     "Ambos marcan": {
       "registradas": 6,
-      "evaluadas": 3,
-      "aciertos": 2,
-      "acierto_pct": 66.67,
-      "brier_medio": 0.239485,
-      "retorno_simulado_unidad": 0.576,
-      "roi_simulado_pct": 19.2,
+      "evaluadas": 4,
+      "aciertos": 3,
+      "acierto_pct": 75.0,
+      "brier_medio": 0.220894,
+      "retorno_simulado_unidad": 1.326,
+      "roi_simulado_pct": 33.15,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },
   "por_liga": {
     "Segunda División": {
       "registradas": 14,
-      "evaluadas": 8,
-      "aciertos": 4,
-      "acierto_pct": 50.0,
-      "brier_medio": 0.233194,
-      "retorno_simulado_unidad": -0.717,
-      "roi_simulado_pct": -8.96,
+      "evaluadas": 9,
+      "aciertos": 5,
+      "acierto_pct": 55.56,
+      "brier_medio": 0.213037,
+      "retorno_simulado_unidad": -0.05,
+      "roi_simulado_pct": -0.56,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "LaLiga": {
       "registradas": 8,
-      "evaluadas": 3,
-      "aciertos": 3,
+      "evaluadas": 4,
+      "aciertos": 4,
       "acierto_pct": 100.0,
-      "brier_medio": 0.186291,
-      "retorno_simulado_unidad": 2.925,
-      "roi_simulado_pct": 97.5,
+      "brier_medio": 0.153671,
+      "retorno_simulado_unidad": 3.775,
+      "roi_simulado_pct": 94.38,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     },
     "Premier League": {
@@ -132,12 +132,12 @@
     },
     "Ligue 1": {
       "registradas": 9,
-      "evaluadas": 2,
-      "aciertos": 1,
-      "acierto_pct": 50.0,
-      "brier_medio": 0.254293,
-      "retorno_simulado_unidad": -0.333,
-      "roi_simulado_pct": -16.65,
+      "evaluadas": 6,
+      "aciertos": 4,
+      "acierto_pct": 66.67,
+      "brier_medio": 0.224606,
+      "retorno_simulado_unidad": 0.75,
+      "roi_simulado_pct": 12.5,
       "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
     }
   },

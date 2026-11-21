@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-21T21:05:13.992830+00:00",
+  "timestamp_utc": "2026-11-21T22:13:13.001581+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -80,8 +80,8 @@
         {
           "nombre": "Real Madrid",
           "posicion": 2,
-          "puntos": 30,
-          "jugados": 12
+          "puntos": 33,
+          "jugados": 13
         },
         {
           "nombre": "Atlético Madrid",
@@ -244,22 +244,22 @@
           "jugados": 11
         },
         {
-          "nombre": "Bologna",
+          "nombre": "Napoli",
           "posicion": 8,
+          "puntos": 18,
+          "jugados": 12
+        },
+        {
+          "nombre": "Bologna",
+          "posicion": 9,
           "puntos": 17,
           "jugados": 11
         },
         {
           "nombre": "Cagliari",
-          "posicion": 9,
+          "posicion": 10,
           "puntos": 16,
           "jugados": 12
-        },
-        {
-          "nombre": "Napoli",
-          "posicion": 10,
-          "puntos": 15,
-          "jugados": 11
         }
       ]
     },
@@ -276,7 +276,7 @@
           "nombre": "Lille",
           "posicion": 2,
           "puntos": 21,
-          "jugados": 10
+          "jugados": 11
         },
         {
           "nombre": "Paris FC",
@@ -285,39 +285,39 @@
           "jugados": 10
         },
         {
-          "nombre": "Marseille",
+          "nombre": "Lyon",
           "posicion": 4,
+          "puntos": 20,
+          "jugados": 11
+        },
+        {
+          "nombre": "Marseille",
+          "posicion": 5,
           "puntos": 18,
           "jugados": 10
         },
         {
-          "nombre": "Lyon",
-          "posicion": 5,
-          "puntos": 17,
-          "jugados": 10
+          "nombre": "Brest",
+          "posicion": 6,
+          "puntos": 18,
+          "jugados": 11
         },
         {
           "nombre": "Nice",
-          "posicion": 6,
+          "posicion": 7,
           "puntos": 17,
           "jugados": 11
         },
         {
           "nombre": "AS Monaco",
-          "posicion": 7,
-          "puntos": 16,
-          "jugados": 10
+          "posicion": 8,
+          "puntos": 17,
+          "jugados": 11
         },
         {
           "nombre": "Stade Rennais",
-          "posicion": 8,
-          "puntos": 16,
-          "jugados": 10
-        },
-        {
-          "nombre": "Brest",
           "posicion": 9,
-          "puntos": 15,
+          "puntos": 16,
           "jugados": 10
         },
         {

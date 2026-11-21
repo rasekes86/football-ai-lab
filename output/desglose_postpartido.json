@@ -1,20 +1,553 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-21T21:05:13.992830+00:00",
+  "calculado_utc": "2026-11-21T22:13:13.001581+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-21T21:05:13.992830+00:00",
-    "objetivos_conteo": 22,
+    "calculado_utc": "2026-11-21T22:13:13.001581+00:00",
+    "objetivos_conteo": 28,
     "completos": 2,
-    "incompletos": 20,
+    "incompletos": 26,
     "scoreboards_consultados": 9,
     "summaries_consultados": 18,
-    "campos_recuperados": 70,
-    "campos_recuperados_cache": 170,
+    "campos_recuperados": 60,
+    "campos_recuperados_cache": 240,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
-    "partidos_con_faltas": 28,
-    "objetivos_faltas": 28,
+    "objetivos_detalle": [
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-15",
+        "local_normalizado": "granada",
+        "visitante_normalizado": "las palmas",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "1-0"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-15",
+        "local_normalizado": "tenerife",
+        "visitante_normalizado": "ceuta",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "2-0"
+      },
+      {
+        "liga_codigo": "D1",
+        "fecha": "2026-11-20",
+        "local_normalizado": "bayern munich",
+        "visitante_normalizado": "fc koln",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-1"
+      },
+      {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-20",
+        "local_normalizado": "ath bilbao",
+        "visitante_normalizado": "espanyol",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-1"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-20",
+        "local_normalizado": "andorra",
+        "visitante_normalizado": "leganes",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-3"
+      },
+      {
+        "liga_codigo": "D1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "ein frankfurt",
+        "visitante_normalizado": "hoffenheim",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-0"
+      },
+      {
+        "liga_codigo": "D1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "m gladbach",
+        "visitante_normalizado": "dortmund",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-1"
+      },
+      {
+        "liga_codigo": "D1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "union berlin",
+        "visitante_normalizado": "leipzig",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-5"
+      },
+      {
+        "liga_codigo": "E0",
+        "fecha": "2026-11-21",
+        "local_normalizado": "aston villa",
+        "visitante_normalizado": "sunderland",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-0"
+      },
+      {
+        "liga_codigo": "E0",
+        "fecha": "2026-11-21",
+        "local_normalizado": "bournemouth",
+        "visitante_normalizado": "nott m forest",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-0"
+      },
+      {
+        "liga_codigo": "E0",
+        "fecha": "2026-11-21",
+        "local_normalizado": "chelsea",
+        "visitante_normalizado": "leeds",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-4"
+      },
+      {
+        "liga_codigo": "E0",
+        "fecha": "2026-11-21",
+        "local_normalizado": "man city",
+        "visitante_normalizado": "fulham",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-1"
+      },
+      {
+        "liga_codigo": "E0",
+        "fecha": "2026-11-21",
+        "local_normalizado": "newcastle",
+        "visitante_normalizado": "arsenal",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-2"
+      },
+      {
+        "liga_codigo": "E0",
+        "fecha": "2026-11-21",
+        "local_normalizado": "tottenham",
+        "visitante_normalizado": "ipswich",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-0"
+      },
+      {
+        "liga_codigo": "F1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "lens",
+        "visitante_normalizado": "toulouse",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-1"
+      },
+      {
+        "liga_codigo": "F1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "lille",
+        "visitante_normalizado": "lyon",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-1"
+      },
+      {
+        "liga_codigo": "F1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "monaco",
+        "visitante_normalizado": "auxerre",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-1"
+      },
+      {
+        "liga_codigo": "F1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "nice",
+        "visitante_normalizado": "paris sg",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-3"
+      },
+      {
+        "liga_codigo": "F1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "strasbourg",
+        "visitante_normalizado": "brest",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-1"
+      },
+      {
+        "liga_codigo": "I1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "como",
+        "visitante_normalizado": "cagliari",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-0"
+      },
+      {
+        "liga_codigo": "I1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "lazio",
+        "visitante_normalizado": "lecce",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "3-0"
+      },
+      {
+        "liga_codigo": "I1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "napoli",
+        "visitante_normalizado": "torino",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners",
+          "home_on_target",
+          "away_on_target",
+          "home_shots",
+          "away_shots",
+          "home_yellow",
+          "away_yellow"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-0"
+      },
+      {
+        "liga_codigo": "I1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "parma",
+        "visitante_normalizado": "roma",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-5"
+      },
+      {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "real madrid",
+        "visitante_normalizado": "celta",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-1"
+      },
+      {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "sevilla",
+        "visitante_normalizado": "betis",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "1-1"
+      },
+      {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-21",
+        "local_normalizado": "vallecano",
+        "visitante_normalizado": "valencia",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-1"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-21",
+        "local_normalizado": "castellon",
+        "visitante_normalizado": "eldense",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "2-0"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-21",
+        "local_normalizado": "sociedad b",
+        "visitante_normalizado": "cadiz",
+        "metricas_requeridas": [
+          "corners",
+          "on_target",
+          "shots",
+          "yellow"
+        ],
+        "campos_ausentes": [
+          "home_corners",
+          "away_corners"
+        ],
+        "motivo": "ESTADISTICAS_INCOMPLETAS",
+        "marcador_verificado": true,
+        "marcador": "0-3"
+      }
+    ],
+    "incompletos_por_motivo": {
+      "SIN_MARCADOR_VERIFICADO": 0,
+      "DUPLICADO_HISTORICO": 0,
+      "ESTADISTICAS_INCOMPLETAS": 26
+    },
+    "partidos_con_faltas": 34,
+    "objetivos_faltas": 35,
     "limites": {
       "scoreboards": 24,
       "summaries": 18
@@ -1941,8 +2474,8 @@
         "fouls": {
           "nombre": "Faltas cometidas",
           "local": 6,
-          "visitante": 15,
-          "total": 21,
+          "visitante": 16,
+          "total": 22,
           "fuentes": [
             "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
           ]
@@ -2922,43 +3455,102 @@
       "local": "Lens",
       "visitante": "Toulouse",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-1",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 22,
+          "visitante": 9,
+          "total": 31,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 8,
+          "visitante": 5,
+          "total": 13,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 15,
+          "total": 26,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "F1|202611211945|lens|toulouse|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
         {
           "clave": "F1|202611211945|lens|toulouse|Goles equipo|Lens: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Lens: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
         {
           "clave": "F1|202611211945|lens|toulouse|Doble oportunidad|12: gana uno de los dos",
           "mercado": "Doble oportunidad",
           "seleccion": "12: gana uno de los dos",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "D",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 1-1; resultado observado D."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "F1|202611211945|lille|lyon",
@@ -2966,43 +3558,102 @@
       "local": "Lille",
       "visitante": "Lyon",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "0-1",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 14,
+          "visitante": 9,
+          "total": 23,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 5,
+          "visitante": 6,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 0,
+          "visitante": 1,
+          "total": 1,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 13,
+          "visitante": 12,
+          "total": 25,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "F1|202611211945|lille|lyon|Goles equipo|Lille: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Lille: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-1; resultado observado 0."
         },
         {
           "clave": "F1|202611211945|lille|lyon|Total goles|Menos de 3,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 3,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         },
         {
           "clave": "F1|202611211945|lille|lyon|Hándicap 2 vías (medio gol)|Lyon +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Lyon +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "F1|202611211945|monaco|auxerre",
@@ -3010,43 +3661,102 @@
       "local": "AS Monaco",
       "visitante": "AJ Auxerre",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-1",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 15,
+          "visitante": 6,
+          "total": 21,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 4,
+          "visitante": 2,
+          "total": 6,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 0,
+          "visitante": 1,
+          "total": 1,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 14,
+          "total": 25,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "F1|202611211945|monaco|auxerre|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
         {
           "clave": "F1|202611211945|monaco|auxerre|Doble oportunidad|1X: AS Monaco o empate",
           "mercado": "Doble oportunidad",
           "seleccion": "1X: AS Monaco o empate",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "D",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-1; resultado observado D."
         },
         {
           "clave": "F1|202611211945|monaco|auxerre|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
           "mercado": "Tarjetas amarillas totales",
           "seleccion": "Más de 2,5 tarjetas amarillas totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "1",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+          ],
+          "explicacion": "FALLO: Tarjetas amarillas: 0 local + 1 visitante = 1; línea 2.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "F1|202611211945|strasbourg|brest",
@@ -3054,43 +3764,102 @@
       "local": "Strasbourg",
       "visitante": "Brest",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "0-1",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 15,
+          "visitante": 16,
+          "total": 31,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 5,
+          "visitante": 2,
+          "total": 7,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 3,
+          "visitante": 1,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 15,
+          "visitante": 17,
+          "total": 32,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "F1|202611211945|strasbourg|brest|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 0-1; resultado observado 1."
         },
         {
           "clave": "F1|202611211945|strasbourg|brest|Hándicap 2 vías (medio gol)|Brest +2,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Brest +2,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         },
         {
           "clave": "F1|202611211945|strasbourg|brest|Tarjetas amarillas totales|Menos de 4,5 tarjetas amarillas totales",
           "mercado": "Tarjetas amarillas totales",
           "seleccion": "Menos de 4,5 tarjetas amarillas totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "4",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+          ],
+          "explicacion": "ACIERTO: Tarjetas amarillas: 3 local + 1 visitante = 4; línea 4.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "I1|202611211945|napoli|torino",
@@ -3098,43 +3867,92 @@
       "local": "Napoli",
       "visitante": "Torino",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        }
+      },
       "selecciones": [
         {
           "clave": "I1|202611211945|napoli|torino|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "I1|202611211945|napoli|torino|Goles equipo|Napoli: más de 0,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Napoli: más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "I1|202611211945|napoli|torino|Doble oportunidad|1X: Napoli o empate",
           "mercado": "Doble oportunidad",
           "seleccion": "1X: Napoli o empate",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "H",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado H."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "SP1|202611212000|real madrid|celta",
@@ -3142,43 +3960,102 @@
       "local": "Real Madrid",
       "visitante": "Celta Vigo",
       "fecha_utc": "2026-11-21T20:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "2-1",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 24,
+          "visitante": 8,
+          "total": 32,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 7,
+          "visitante": 4,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 1,
+          "visitante": 2,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 4,
+          "visitante": 13,
+          "total": 17,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP1|202611212000|real madrid|celta|Hándicap 2 vías (medio gol)|Celta Vigo +2,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Celta Vigo +2,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "-1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-1; resultado observado -1."
         },
         {
           "clave": "SP1|202611212000|real madrid|celta|Tiros totales|Más de 19,5 tiros totales",
           "mercado": "Tiros totales",
           "seleccion": "Más de 19,5 tiros totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "32",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ],
+          "explicacion": "ACIERTO: Tiros totales: 24 local + 8 visitante = 32; línea 19.5."
         },
         {
           "clave": "SP1|202611212000|real madrid|celta|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
           "mercado": "Tiros a puerta totales",
           "seleccion": "Más de 6,5 tiros a puerta totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "11",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+          ],
+          "explicacion": "ACIERTO: Tiros a puerta: 7 local + 4 visitante = 11; línea 6.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "SP2|202611212000|tenerife|mallorca",
@@ -3186,43 +4063,102 @@
       "local": "Tenerife",
       "visitante": "Mallorca",
       "fecha_utc": "2026-11-21T20:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "0-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 10,
+          "visitante": 10,
+          "total": 20,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": null,
+          "visitante": null,
+          "total": null,
+          "fuentes": []
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 3,
+          "total": 5,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 16,
+          "visitante": 10,
+          "total": 26,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP2|202611212000|tenerife|mallorca|Hándicap 2 vías (medio gol)|Mallorca +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Mallorca +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
         {
           "clave": "SP2|202611212000|tenerife|mallorca|Goles equipo|Mallorca: menos de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Mallorca: menos de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
         {
           "clave": "SP2|202611212000|tenerife|mallorca|Total goles|Más de 0,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 0-0; resultado observado 0."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "I1|202611221130|juventus|venezia",
