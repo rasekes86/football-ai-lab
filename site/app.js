@@ -108,10 +108,10 @@ function matchPill(match) {
   const status = match.status;
   const label = ({
     FINALIZADO: "TOP 3 LIQUIDADO", PARCIAL: "REVISIÓN PARCIAL",
-    SIN_DATOS: "FALTAN DATOS", PENDIENTE: "PENDIENTE"
+    SIN_DATOS: "FALTAN DATOS", SIN_PRONOSTICO: "SOLO CALENDARIO", PENDIENTE: "PENDIENTE"
   })[status] || "PENDIENTE";
   const css = ({
-    FINALIZADO: "final", PARCIAL: "partial", SIN_DATOS: "missing", PENDIENTE: ""
+    FINALIZADO: "final", PARCIAL: "partial", SIN_DATOS: "missing", SIN_PRONOSTICO: "missing", PENDIENTE: ""
   })[status] || "";
   return `<span class="status-pill ${css}">${label}</span>`;
 }
@@ -216,7 +216,7 @@ function agendaGame(m){
   const pickText=picks.length?picks.map(p=>
     "<span class=\"agenda-game-pick\">"+
     escapeHtml(p.seleccion)+" <strong>"+percent(numberOrNull(p.probabilidad))+"</strong></span>"
-  ).join(""):"<span class=\"agenda-game-pick empty-pick\">Top 3 no publicado</span>";
+  ).join(""):"<span class=\"agenda-game-pick empty-pick\">Sin pronóstico estadístico suficiente</span>";
   const add=additionalStatus(m);
   const addTag=add?'<span class="extra-status-chip '+escapeHtml(add.style)+'">'+
     escapeHtml(add.label)+'</span>':"";
