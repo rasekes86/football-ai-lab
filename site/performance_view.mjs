@@ -75,7 +75,8 @@ function ledger(rows){
     const additional=row.group!=="Top 3";
     const source=additional?(row.tipo_cuota==="INDICATIVA_NO_VERIFICADA"?
       "Precio orientativo, no acreditado":row.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
-      "Cuota API registrada":"Sin origen de cuota"):
+      "Cuota API registrada":row.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA"?
+      "Cuota justa teórica del modelo; NO ofrecida por bookmaker":"Sin origen de cuota"):
       "Cuota justa del modelo (= 1 / probabilidad archivada), NO ofertada por una casa";
     // Timestamp is the published OBSERVATION time, never a claimed bet placement.
     const observed=Number.isFinite(Date.parse(row.fecha_cuota_utc||""))?
@@ -91,7 +92,7 @@ function ledger(rows){
       '</div><div class="sub-cell">'+escape(day(row.fecha_utc))+' · '+escape(row.liga)+
       '</div></td><td class="pick-cell"><div class="main-cell">'+escape(row.seleccion)+
       '</div><div class="sub-cell">'+escape(row.group)+
-      (price!=="—"?' · '+(additional?'cuota archivada ':'cuota justa teórica ')+price:'')+
+      (price!=="—"?' · '+(additional&&row.tipo_cuota!=="CUOTA_JUSTA_TEORICA_NO_OFRECIDA"?'cuota archivada ':'cuota justa teórica ')+price:'')+
       ' · '+escape(source)+(evidence?' · '+escape(evidence):'')+'</div></td><td>'+confirmedOutcome(row)+
       '</td><td class="performance-return">'+escape(balance)+
       '</td><td><button type="button" class="row-link" data-open-id="'+escape(row.id)+
