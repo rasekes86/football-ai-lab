@@ -52,7 +52,13 @@ jobs:
             for file in /tmp/football-python-tests.log /tmp/football-node-tests.log; do
               if [ -s "$file" ]; then
                 echo "=== $file ==="
-                tail -n 100 "$file"
+                if [ "$file" = /tmp/football-node-tests.log ]; then
+                  grep -E -A 32 -B 5 '^not ok [0-9]+' "$file" || true
+                  echo "--- Resumen ---"
+                  tail -n 15 "$file"
+                else
+                  tail -n 100 "$file"
+                fi
               fi
             done
           } > output/diagnostico_tests_cuotas.txt
