@@ -118,7 +118,8 @@ function fixture(group){
   const pricedTop=group.top.filter(r=>r.return!==null);
   const topProfit=pricedTop.reduce((sum,r)=>sum+r.return,0);
   const extraType=extra?.tipo_cuota==="OFRECIDA_API_REGISTRADA"?
-    "Cuota API observada":"Cuota orientativa";
+    "Cuota API observada":extra?.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA"?
+    "Cuota justa teórica · NO ofrecida":"Cuota orientativa";
   const odd=hasExtra&&Number.isFinite(Number(extra.price))?
     oddsFmt.format(Number(extra.price)):"";
   return '<article class="results-v2-fixture">'+
@@ -170,6 +171,7 @@ export function archivedAdditionalCards(info={},limit=8,now=new Date()){
     const p=Number.isFinite(Number(row.price))&&Number(row.price)>1.5?
       oddsFmt.format(Number(row.price)):"—";
     const isApi=row.tipo_cuota==="OFRECIDA_API_REGISTRADA";
+    const isTheoretical=row.tipo_cuota==="CUOTA_JUSTA_TEORICA_NO_OFRECIDA";
     const label=visualState(row);
     return '<article class="results-v2-additional-card '+label+'">'+
       '<div class="results-v2-additional-meta"><span>'+esc(row.liga||"Competición")+
@@ -178,7 +180,7 @@ export function archivedAdditionalCards(info={},limit=8,now=new Date()){
       ' – '+esc(row.visitante||"Visitante")+'</div>'+
       '<div class="results-v2-additional-choice"><div><small>'+esc(row.mercado||"Mercado archivado")+
       '</small><strong>'+esc(row.seleccion||"Selección no publicada")+'</strong></div>'+
-      '<div class="results-v2-additional-quote"><small>'+(isApi?"CUOTA API":"CUOTA INDICATIVA")+
+      '<div class="results-v2-additional-quote"><small>'+(isTheoretical?"CUOTA JUSTA TEÓRICA":isApi?"CUOTA API":"CUOTA INDICATIVA")+
       '</small><b>'+esc(p)+'</b></div></div>'+
       '<div class="results-v2-additional-bottom">'+statusBadge(row,"results-v2-additional-outcome results-status")+
       '<button type="button" data-open-id="'+esc(row.id)+'">Ver ficha <span aria-hidden="true">›</span></button></div>'+
@@ -212,7 +214,7 @@ export function renderResultsMobile(info={},matches=[],limit=6,additionalLimit=8
     '<strong>'+esc(units(combined.profit))+'</strong>'+
     '<small>ROI simulado: '+esc(accuracy(combined.roi))+
     ' · '+fmt.format(combined.financialCount||0)+' unidades liquidadas</small></div>'+
-    '<p class="results-v2-balance-warning">El Top 3 utiliza 1/probabilidad del modelo, NO cuotas reales de casas. La adicional usa su cuota archivada. Son escenarios hipotéticos, no rentabilidad demostrada.</p></div>';
+    '<p class="results-v2-balance-warning">El Top 3 y algunas cuartas selecciones utilizan cuota justa matemática 1/probabilidad NO ofrecida. Las adicionales con precio real se identifican como API. Todos los balances son simulaciones, no rentabilidad demostrada.</p></div>';
   return {
     scorecards:scoreboard("TOP 3 ORIGINAL",top,"top")+
       scoreboard("UNA ADICIONAL +1,50",extra,"extra"),
