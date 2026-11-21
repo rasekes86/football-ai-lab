@@ -369,6 +369,27 @@
               <p>Solo las tres selecciones originales por partido y una adicional de cuota superior a 1,50. Aciertos y fallos verificados tras el encuentro, sin contar pronósticos exploratorios.</p>
             </div><div class="intro-art" aria-hidden="true">3<span>+1</span></div>
           </div>
+          <section class="breakdown-section" aria-labelledby="resultsBreakdownTitle">
+            <div class="breakdown-heading">
+              <div><span class="overline">ESTADÍSTICAS · 3+1</span><h2 id="resultsBreakdownTitle">Por día y por liga</h2></div>
+              <p>Solo pronósticos archivados antes del partido y resultados comprobados.</p>
+            </div>
+            <div class="breakdown-toolbar">
+              <label><span>COMPETICIÓN</span><select id="breakdownLeague" aria-label="Liga de las estadísticas"><option value="">Todas las ligas</option></select></label>
+              <label><span>PERIODO</span><select id="breakdownRange" aria-label="Periodo de las estadísticas">
+                <option value="all">Todo el histórico</option><option value="30">30 días</option>
+                <option value="90">90 días</option><option value="365">365 días</option>
+              </select></label>
+              <div class="breakdown-tabs" role="group" aria-label="Agrupar estadísticas">
+                <button type="button" data-breakdown-mode="day" class="active" aria-pressed="true">Por día</button>
+                <button type="button" data-breakdown-mode="league" aria-pressed="false">Por liga</button>
+              </div>
+            </div>
+            <div id="breakdownDays" class="breakdown-grid" aria-live="polite">Preparando jornadas…</div>
+            <div id="breakdownLeagues" class="breakdown-grid" aria-live="polite" hidden></div>
+            <button id="breakdownMore" type="button" class="breakdown-more" hidden>Ver jornadas anteriores <span aria-hidden="true">⌄</span></button>
+            <p class="breakdown-note">Acierto = selección verificada; los pendientes no son fallos. Los balances y ROI son hipotéticos, con 1 unidad por selección liquidada. Top 3 usa cuota justa del modelo (no ofrecida); la adicional usa su cuota archivada. Sin apuestas reales.</p>
+          </section>
           <div class="results-v2-mobile">
             <div class="results-v2-toolbar">
               <label class="results-v2-filter"><span>COMPETICIÓN</span><select id="resultsQuickLeague" aria-label="Filtrar resultados por competición"><option value="">Todas las ligas</option></select></label>
@@ -398,7 +419,7 @@
               <option value="90">Últimos 90 días</option><option value="365">Últimos 365 días</option>
             </select></label>
             <label class="field"><span>EVOLUCIÓN</span><select id="performanceGranularity">
-              <option value="week">Semanal</option><option value="month">Mensual</option>
+              <option value="day">Diaria</option><option value="week">Semanal</option><option value="month">Mensual</option>
             </select></label>
           </div>
           <div class="performance-columns">

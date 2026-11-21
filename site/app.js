@@ -14,6 +14,7 @@ import { installTheme } from "./theme.mjs";
 import { renderMatchDetail } from "./match_detail.mjs";
 import { additionalStatus } from "./additional_status.mjs";
 import { renderResultsMobile } from "./results_mobile.mjs";
+import { renderPerformanceBreakdown } from "./performance_breakdown.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
 
@@ -67,6 +68,8 @@ const state = {
   performanceLimit: 36,
   resultsRecentLimit: 6,
   resultsAdditionalLimit: 8,
+  breakdownMode: "day",
+  breakdownLimit: 12,
   errors: [],
   lastFocus: null,
   crests: {}
@@ -569,6 +572,21 @@ function renderPerformance() {
   inner("performanceExtraKpis",view.extraKpis);
   $("performanceTopFairEvidence").textContent=view.topFairEvidence;
   $("performanceCombinedEvidence").textContent=view.combinedEvidence;
+  const breakdown=renderPerformanceBreakdown(view.snapshot,{
+    dayLimit:state.breakdownLimit,league:$("performanceLeague").value
+  });
+  inner("breakdownDays",breakdown.days);
+  inner("breakdownLeagues",breakdown.leagues);
+  $("breakdownDays").hidden=state.breakdownMode!=="day";
+  $("breakdownLeagues").hidden=state.breakdownMode!=="league";
+  $("breakdownMore").hidden=state.breakdownMode!=="day"||!breakdown.hasMore;
+  $("breakdownLeague").value=$("performanceLeague").value;
+  $("breakdownRange").value=$("performanceRange").value;
+  document.querySelectorAll("[data-breakdown-mode]").forEach(button=>{
+    const selected=button.dataset.breakdownMode===state.breakdownMode;
+    button.classList.toggle("active",selected);
+    button.setAttribute("aria-pressed",String(selected));
+  });
   const mobile=renderResultsMobile(view.snapshot,state.data.matches,state.resultsRecentLimit,state.resultsAdditionalLimit);
   inner("performanceMobileSummary",mobile.scorecards);
   inner("resultsMobileBalance",mobile.balance);
@@ -981,7 +999,7 @@ function renderModel() {
 function renderAll() {
   if (!state.data) return;
   const markets=[...new Set(state.data.archivedPicks.map(r=>r.mercado))].filter(Boolean).sort((a,b)=>a.localeCompare(b,"es"));
-  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague","resultsQuickLeague"]) {
+  for (const id of ["leagueFilter","historyLeagueFilter","marketLeagueFilter","radarLeagueFilter","realOddsLeague","performanceLeague","resultsQuickLeague","breakdownLeague"]) {
     const prior=$(id).value;
     insertOptions(id,LEAGUES);
     $(id).value=prior;
@@ -1117,6 +1135,23 @@ function wire() {
   for(const id of ["performanceLeague","performanceRange","performanceGranularity"]){
     $(id).addEventListener("change",()=>{state.performanceLimit=36;state.resultsRecentLimit=6;state.resultsAdditionalLimit=8;renderPerformance();});
   }
+  $("breakdownLeague").addEventListener("change",e=>{
+    $("performanceLeague").value=e.target.value;
+    state.breakdownLimit=12;renderPerformance();
+  });
+  $("breakdownRange").addEventListener("change",e=>{
+    $("performanceRange").value=e.target.value;
+    state.breakdownLimit=12;renderPerformance();
+  });
+  document.querySelectorAll("[data-breakdown-mode]").forEach(button=>
+    button.addEventListener("click",()=>{
+      state.breakdownMode=button.dataset.breakdownMode;
+      renderPerformance();
+    })
+  );
+  $("breakdownMore").addEventListener("click",()=>{
+    state.breakdownLimit+=12;renderPerformance();
+  });
   $("resultsQuickLeague").addEventListener("change",e=>{
     $("performanceLeague").value=e.target.value;
     state.performanceLimit=36;
