@@ -1,6 +1,6 @@
 {
   "version": "value-watchlist-0.9",
-  "generado_utc": "2026-11-21T08:27:25.289511+00:00",
+  "generado_utc": "2026-11-21T09:20:30.191750+00:00",
   "registradas": 48,
   "finalizadas": 9,
   "pendientes": 39,
@@ -1079,7 +1079,7 @@
       "probabilidad_minima": 0.5,
       "ev_teorico_estrictamente_mayor_que": 0.03,
       "antiguedad_maxima_horas": 6,
-      "top3_original": "Nunca se modifica ni se duplica la misma seleccion exacta",
+      "top3_original": "Archivo inmutable; si la adicional repite mercado y seleccion, se excluye del Top 3 activo (2+1)",
       "historico": "Primera adicional valida archivada antes del inicio; inmutable salvo revisión excepcional del usuario antes del encuentro",
       "orden_seleccion": "Mayor probabilidad del modelo entre cuotas verificadas >1,50 y EV>3%, con calidad mínima",
       "calibracion": "NO_CALIBRADA: muestra prospectiva insuficiente; no confundir probabilidad estimada con acierto probado"
