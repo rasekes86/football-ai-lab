@@ -421,6 +421,31 @@ def freeze(previous:list[dict],manual:dict,matches:list[dict],now:datetime,
         covered.add(row["id"])
     return old
 
+def active_top3(top_rows:list[dict],additional_rows:list[dict])->list[dict]:
+    """Only one active stake per exact selection; preserve original archive.
+
+    A pre-match additional with valid archived price takes over the matching
+    Top 3 market and exact line.  The original Top 3 CSV remains untouched.
+    """
+    def identity(row):
+        tidy=lambda value:" ".join(str(value or "").casefold().split())
+        return row.get("id"),tidy(row.get("mercado")),tidy(row.get("seleccion"))
+
+    chosen={}
+    ordered=sorted(additional_rows,key=lambda row:str(row.get("archivado_utc") or ""))
+    for row in ordered:
+        if row.get("tipo_cuota") not in (INDICATIVE,API) or _valid_price(row.get("cuota_decimal")) is None:
+            continue
+        try:
+            if not _utc(row["archivado_utc"])<_utc(row["fecha_utc"]):
+                continue
+        except (KeyError,TypeError,ValueError):
+            continue
+        if row.get("id") and row["id"] not in chosen:
+            chosen[row["id"]]=identity(row)
+    return [r for r in top_rows if identity(r)!=chosen.get(r.get("id"))]
+
+
 def evaluate(rows:list[dict],histories:dict,now:datetime)->tuple[list[dict],dict]:
     """Se reaprovecha la liquidación de resultados ya probada."""
     updated=settle(rows,histories,now)
