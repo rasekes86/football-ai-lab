@@ -31,6 +31,8 @@ FILES = (
     "radar_contexto_equipos.json",
     "cuotas_reales_verificadas.json",
     "comparacion_cuotas_reales.json",
+    "seguimiento_cuotas_top3.csv",
+    "evaluacion_cuotas_top3.json",
 )
 
 
