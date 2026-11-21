@@ -86,6 +86,9 @@ class PostmatchTests(unittest.TestCase):
                 self.games,self.rows,NOW,cache,fetcher=self.provider)
             self.assertEqual(audit["objetivos_conteo"],1)
             self.assertEqual(audit["completos"],1)
+            self.assertEqual(audit["objetivos_detalle"][0]["motivo"],"COMPLETO")
+            self.assertEqual(audit["objetivos_detalle"][0]["campos_ausentes"],[])
+            self.assertEqual(audit["incompletos_por_motivo"]["ESTADISTICAS_INCOMPLETAS"],0)
             self.assertEqual(audit["scoreboards_consultados"],1)
             self.assertEqual(audit["summaries_consultados"],1)
             self.assertEqual(audit["campos_recuperados"],12)
@@ -131,6 +134,8 @@ class PostmatchTests(unittest.TestCase):
                 fetcher=lambda url:self.provider(url,sb=scoreboard(hg=5,ag=0)))
             self.assertEqual(audit["conflictos_marcador"],1)
             self.assertEqual(audit["completos"],0)
+            self.assertEqual(audit["objetivos_detalle"][0]["motivo"],"ESTADISTICAS_INCOMPLETAS")
+            self.assertIn("home_shots", audit["objetivos_detalle"][0]["campos_ausentes"])
             self.assertEqual(settle(self.rows,out,NOW)[0]["estado"],
                              "ESTADISTICA_NO_DISPONIBLE")
 
