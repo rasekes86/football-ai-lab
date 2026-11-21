@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-21T16:14:05.152818+00:00",
+  "comprobado_utc": "2026-11-21T17:15:20.445607+00:00",
   "estado": "CORRECTO",
   "incidencias": [],
   "detalle": {
-    "analisis_utc": "2026-11-21T15:53:23.361588+00:00",
-    "partidos_proximos": 36,
+    "analisis_utc": "2026-11-21T17:13:57.600685+00:00",
+    "partidos_proximos": 34,
     "cuotas_utc": "2026-11-21T15:22:18.153388+00:00",
     "consultas_utc": "2026-11-21T15:23:16.553585+00:00",
     "errores_calendario_ultima_ronda": 0,
