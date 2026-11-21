@@ -212,6 +212,28 @@ class ValueWatchlistTests(unittest.TestCase):
                      self.now,comparisons={"comparaciones":[base,other]},top3=top)
         self.assertEqual(again,rows)  # congelada antes del partido
 
+    def test_active_two_plus_one_exact_selection_and_original_preserved(self):
+        from football_ai_lab.value_watchlist import active_top3
+        m=self.match
+        top=[
+            {"id":m["id"],"mercado":"Total goles","seleccion":"Menos de 2,5 goles"},
+            {"id":m["id"],"mercado":"Ambos marcan","seleccion":"Sí"},
+            {"id":m["id"],"mercado":"Total goles","seleccion":"Más de 0,5 goles"},
+        ]
+        extra={"id":m["id"],"mercado":"Total goles","seleccion":"Menos de 2,5 goles",
+               "archivado_utc":self.now.isoformat(),"fecha_utc":m["fecha_utc"],
+               "cuota_decimal":"1.91","tipo_cuota":"OFRECIDA_API_REGISTRADA"}
+        active=active_top3(top,[extra])
+        self.assertEqual(len(active),2)
+        self.assertEqual(len(top),3)
+        self.assertEqual(active[0]["seleccion"],"Sí")
+        diff=active_top3(top,[{**extra,"seleccion":"Menos de 3,5 goles"}])
+        self.assertEqual(len(diff),3)
+        invalid=active_top3(top,[{**extra,"cuota_decimal":"1.50"}])
+        self.assertEqual(len(invalid),3)
+        late=active_top3(top,[{**extra,"archivado_utc":m["fecha_utc"]}])
+        self.assertEqual(len(late),3)
+
     def test_existing_manual_offer_never_relabelled_as_verified_api(self):
         previous=freeze([],self.manual,[self.match],self.now)
         after=freeze(previous,{"selecciones":[]},[self.match],
