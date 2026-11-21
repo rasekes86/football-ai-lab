@@ -19,6 +19,7 @@ FILES = (
     "seguimiento_selecciones.csv",
     "seguimiento.csv",
     "seguimiento_oportunidades_150.csv",
+    "seguimiento_adicionales_teoricas.csv",
     "evaluacion_selecciones.json",
     "evaluacion_oportunidades_150.json",
     "evaluacion_real.json",
