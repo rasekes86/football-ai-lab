@@ -289,8 +289,39 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
 
     cached = list(by_key.values())
     cached.sort(key=lambda x: (x.get("fecha", ""), x.get("liga_codigo", "")))
-    covered = sum(key in matches and key not in duplicates and
-                  _usable(matches[key], metrics) for key, metrics in wanted.items())
+    # Auditoría por encuentro: separar falta de marcador, duplicado y
+    # estadísticas ausentes. Un marcador disponible no significa que las
+    # estadísticas del contrato estén completas.
+    objectives = []
+    for key, metrics in sorted(wanted.items(), key=lambda x: (x[0][1], x[0][0], x[0][2:])):
+        game = matches.get(key)
+        missing = [
+            f"{side}_{metric}" for metric in sorted(metrics)
+            for side in ("home", "away")
+            if not game or _integer(game.get(f"{side}_{metric}")) is None
+        ]
+        if key in duplicates:
+            reason = "DUPLICADO_HISTORICO"
+        elif game is None:
+            reason = "SIN_MARCADOR_VERIFICADO"
+        elif missing:
+            reason = "ESTADISTICAS_INCOMPLETAS"
+        else:
+            reason = "COMPLETO"
+        objectives.append({
+            "liga_codigo": key[0], "fecha": key[1].isoformat(),
+            "local_normalizado": key[2], "visitante_normalizado": key[3],
+            "metricas_requeridas": sorted(metrics),
+            "campos_ausentes": missing, "motivo": reason,
+            "marcador_verificado": game is not None,
+            "marcador": (
+                f"{game['home_goals']}-{game['away_goals']}" if game else None
+            ),
+        })
+    covered = sum(o["motivo"] == "COMPLETO" for o in objectives)
+    reasons = {reason: sum(o["motivo"] == reason for o in objectives)
+               for reason in ("SIN_MARCADOR_VERIFICADO", "DUPLICADO_HISTORICO",
+                              "ESTADISTICAS_INCOMPLETAS")}
     report = {
         "version": VERSION, "calculado_utc": now.isoformat(),
         "objetivos_conteo": len(wanted), "completos": covered,
@@ -298,6 +329,8 @@ def enrich_statistics(histories: dict, archived: list[dict], now: datetime,
         "summaries_consultados": summaries, "campos_recuperados": fresh,
         "campos_recuperados_cache": reused,
         "conflictos_marcador": mismatched, "fallos_fuente": failures,
+        "objetivos_detalle": objectives,
+        "incompletos_por_motivo": reasons,
         "partidos_con_faltas": sum(
             _usable(matches[key], {"fouls"}) for key in auxiliary_fouls), 
         "objetivos_faltas": len(auxiliary_fouls),
