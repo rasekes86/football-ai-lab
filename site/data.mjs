@@ -115,6 +115,37 @@ export function matchStatus(match) {
   return "PENDIENTE";
 }
 
+/**
+ * Exact archived outcome equivalence: market AND selection/line.
+ * A matching bookmaker additional replaces that Top 3 entry in the
+ * effective 2+1 score, never in the immutable original selection feed.
+ */
+export function sameArchivedSelection(a,b) {
+  const tidy=x=>String(x??"").normalize("NFC").trim().replace(/\\s+/g," ").toLocaleLowerCase("es");
+  return Boolean(a?.mercado && a?.seleccion && b?.mercado && b?.seleccion) &&
+    a.id===b.id && tidy(a.mercado)===tidy(b.mercado) &&
+    tidy(a.seleccion)===tidy(b.seleccion);
+}
+
+export function frozenAdditionalPerMatch(rows=[]) {
+  const choices=(rows||[]).filter(row=>{
+    const price=numberOrNull(row?.cuota_decimal);
+    const saved=Date.parse(row?.archivado_utc||"");
+    const kick=Date.parse(row?.fecha_utc||"");
+    return Boolean(row?.id) && ["OFRECIDA_API_REGISTRADA","INDICATIVA_NO_VERIFICADA"].includes(row?.tipo_cuota)
+      && price!==null && price>1.5 && price<=1000 && Number.isFinite(saved) && Number.isFinite(kick) && saved<kick;
+  }).sort((a,b)=>Date.parse(a.archivado_utc)-Date.parse(b.archivado_utc)||
+    String(a.clave||"").localeCompare(String(b.clave||""),"es"));
+  const first=new Map();
+  for(const row of choices)if(!first.has(row.id))first.set(row.id,row);
+  return first;
+}
+
+export function effectiveTopPicks(topRows=[],extras=[]) {
+  const chosen=frozenAdditionalPerMatch(extras);
+  return topRows.filter(row=>!sameArchivedSelection(row,chosen.get(row.id)));
+}
+
 function pickSorted(rows) {
   return [...rows].sort((a, b) => (numberOrNull(a.posicion) ?? 100) - (numberOrNull(b.posicion) ?? 100));
 }
@@ -156,8 +187,11 @@ export function buildModel(feeds, now = new Date()) {
 
   const matches = [...map.values()].map(m => {
     // Registrado primero antes del partido: nunca sustituir por recálculos.
-    m.picks = pickSorted(evaluated.get(m.id) || archived.get(m.id) || liveSelections.get(m.id) || []);
+    m.originalPicks = pickSorted(evaluated.get(m.id) || archived.get(m.id) || liveSelections.get(m.id) || []);
     m.odds = odds.get(m.id) || [];
+    const chosenExtra = frozenAdditionalPerMatch(m.odds).get(m.id);
+    m.promotedToAdditional = m.originalPicks.some(p=>sameArchivedSelection(p,chosenExtra));
+    m.picks = chosenExtra ? m.originalPicks.filter(p=>!sameArchivedSelection(p,chosenExtra)) : m.originalPicks;
     m.additionalAudit = feeds.evaluacion_cuotas?.seleccion_automatica?.por_partido?.[m.id] || null;
     m.additionalAuditDetail = feeds.evaluacion_cuotas?.seleccion_automatica?.por_partido_detalle?.[m.id] || null;
     m.followup = followups.get(m.id) || null;
@@ -178,13 +212,15 @@ export function buildModel(feeds, now = new Date()) {
     ? source("seguimiento_selecciones")
     : source("historico_selecciones");
   const allOdds = source("cuotas");
-  const top = calculateMetrics(archivedPicks);
+  const activeArchivedPicks = effectiveTopPicks(archivedPicks, allOdds);
+  const top = calculateMetrics(activeArchivedPicks);
   const simulation = calculateOdds(allOdds);
   const settledMatches = matches.filter(x => x.status === "FINALIZADO" || x.status === "PARCIAL");
   const futureMatches = matches.filter(x => currentIds.has(x.id) && x.kickoff > now.getTime());
 
   return {
-    matches, futureMatches, settledMatches, currentIds, archivedPicks, allOdds,
+    matches, futureMatches, settledMatches, currentIds,
+    archivedPicks:activeArchivedPicks, originalArchivedPicks:archivedPicks, allOdds,
     marketHistory: Array.isArray(feeds.mercados_historicos?.partidos) ?
       feeds.mercados_historicos.partidos : [],
     marketCoverage: feeds.mercados_historicos?.cobertura || {},
@@ -208,7 +244,7 @@ export function buildModel(feeds, now = new Date()) {
       postmatch: feeds.desglose_postpartido || null
     },
     leagues: LEAGUES.map(name => {
-      const all = archivedPicks.filter(row => row.liga === name);
+      const all = activeArchivedPicks.filter(row => row.liga === name);
       const s = calculateMetrics(all);
       return { name, ...s, currentMatches: futureMatches.filter(x => x.liga === name).length };
     })
