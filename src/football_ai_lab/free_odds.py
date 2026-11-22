@@ -317,7 +317,7 @@ def _five_fixture_rows(match, event_id, odds_payload, now):
     return output
 
 
-def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
+def get_five_odds(fixtures,now,env=None,fetcher=None,state=None,priority_ids=None):
     """Small, bounded free-tier discovery; only verified identical fixtures get prices.
 
     1. Date-window fixture pages (up to two pages per day).
@@ -352,7 +352,7 @@ def get_five_odds(fixtures,now,env=None,fetcher=None,state=None):
                             FREE_BUDGET,max_hour) or FREE_BUDGET)
     ledger=RequestLedger(state,now,limit=hourly,live=(fetcher is _http))
     headers={"Authorization":f"Bearer {key}"}
-    selected,skipped=due_matches(fixtures,state,now,MAX_DAYS)
+    selected,skipped=due_matches(fixtures,state,now,MAX_DAYS,priority_ids=priority_ids)
     audit["partidos_saltados_por_captura_reciente"]=skipped
     audit["partidos_pendientes_por_consultar"]=len(selected)
     audit["limite_interno_solicitudes_hora"]=hourly
@@ -784,9 +784,10 @@ def get_api_football_odds(fixtures,now,env=None,fetcher=None,exclude_ids=None,pr
     return {"estado":audit["estado"],"cuotas":quotes,"auditoria":audit}
 
 
-def collect_free_odds(fixtures,now,env=None,five_fetcher=None,api_fetcher=None,state=None):
+def collect_free_odds(fixtures,now,env=None,five_fetcher=None,api_fetcher=None,state=None,priority_ids=None):
     env=env or {}
-    primary=get_five_odds(fixtures,now,env=env,fetcher=five_fetcher,state=state)
+    primary=get_five_odds(fixtures,now,env=env,fetcher=five_fetcher,state=state,
+                          priority_ids=priority_ids)
     # El respaldo puede aportar mercados distintos, como amarillas explícitas,
     # aun cuando la fuente principal tenga córners del mismo partido.
     # API-Football is secondary: prefer fixtures with no observed 5Dollar
