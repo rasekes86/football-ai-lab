@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-22T10:06:14.945675+00:00",
+  "actualizado_utc": "2026-11-22T10:08:55.549516+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -53504,8 +53504,8 @@
       "fuente": "ESPN summary público no oficial"
     }
   ],
-  "eventos_consultados": 4,
-  "eventos_con_jugadores": 4,
+  "eventos_consultados": 0,
+  "eventos_con_jugadores": 0,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
   "partidos_archivados": 62,
