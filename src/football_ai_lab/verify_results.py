@@ -25,6 +25,7 @@ from .value_watchlist import FIELDS as OFFER_FIELDS, evaluate as eval_offers, su
 from .top3_odds import FIELDS as TOP3_FIELDS, settle_top3_quotes, top3_odds_report
 from .telegram_3plus1 import _collect, _date, _finished
 from .telegram_notify import send
+from .result_details import build_details, preview
 
 ROOT = Path("output")
 LOG = logging.getLogger(__name__)
@@ -89,18 +90,37 @@ def make_summary(top, extra, prior_top, prior_extra, now):
  new=sum(_finished(r,now) and kind+":"+r["clave"] not in prior for kind,rows
          in (("top",top),("extra",extra)) for r in rows)
  a,b=count(top),count(extra)
+ matches,match_totals=build_details(top,extra,old_top,old_extra,now)
+ show,_=preview(matches)
  stamp=now.astimezone(ZoneInfo("Europe/Madrid")).strftime("%d/%m/%Y %H:%M")
- lines=["✅ Football AI Lab · Verificación terminada",
+ main_lines=["✅ Football AI Lab · Verificación terminada",
         "Hora: "+stamp+" (Madrid)",
         "Nuevas selecciones liquidadas: "+str(new),"",
-        "Últimos 7 días · Top 3 y adicional >1,50",
+        "Últimos 7 días · SOLO Top 3 y adicional >1,50",
         "🎯 Top 3: "+str(a["aciertos"])+" aciertos · "+str(a["fallos"])+" fallos · "+str(a["pendientes"])+" pendientes",
         "💶 Adicional: "+str(b["aciertos"])+" aciertos · "+str(b["fallos"])+" fallos · "+str(b["pendientes"])+" pendientes","",
-        "Sin marcador o estadística verificados = pendiente, nunca fallo.",
-        "Rentabilidad y cuotas, si figuran, son simulaciones.",
-        "https://rasekes86.github.io/football-ai-lab/#performance"]
- return {"version":1,"verificado_utc":now.isoformat(),"nuevas_liquidaciones":new,
-         "top3":a,"adicional":b,"mensaje":"\n".join(lines)}
+        "Partidos con pronósticos: "+str(match_totals["con_selecciones"])+
+        " · Revisables (+2 h): "+str(match_totals["revisables"]),
+        "✅ Liquidados: "+str(match_totals["liquidados"])+
+        " · 🟡 Parciales: "+str(match_totals["parciales"])+
+        " · ⏳ Pendientes: "+str(match_totals["pendientes"])+
+        " · 🕒 En espera: "+str(match_totals["en_espera"]),"",
+        "Detalle (pendientes y nuevas liquidaciones primero):"]
+ footer=["","Revisable: se han consultado fuentes y/o datos guardados, no necesariamente una API por partido.",
+         "Sin resultado confirmado = pendiente, nunca fallo.",
+         "No se incluyen partidos sin pronósticos archivados.",
+         "https://rasekes86.github.io/football-ai-lab/#performance"]
+ # El resumen nunca debe superar el límite de Telegram.
+ for visible in range(len(show),-1,-1):
+  count_hidden=len(matches)-visible
+  more=[f"…y {count_hidden} partidos más: consulta /detalle."] if count_hidden else []
+  message="\n".join(main_lines+show[:visible]+more+footer)
+  if len(message)<=3900:break
+ else:
+  raise RuntimeError("El resumen mínimo supera el límite de Telegram")
+ return {"version":2,"verificado_utc":now.isoformat(),"nuevas_liquidaciones":new,
+         "top3":a,"adicional":b,"partidos_resumen":match_totals,
+         "partidos":matches,"mensaje":message}
 
 def verify(root=ROOT,now=None,loader=load_history,marks=augment_results,stats=enrich_statistics):
  now=now or datetime.now(timezone.utc)
