@@ -40,6 +40,45 @@ async function dataFor(action,fetcher){
  }));
  return Object.fromEntries(results);
 }
+
+const GH_WORKFLOW="https://api.github.com/repos/rasekes86/football-ai-lab/actions/workflows/verify-results.yml";
+const ghHeaders=token=>({
+ "Accept":"application/vnd.github+json",
+ "Authorization":"Bearer "+token,
+ "X-GitHub-Api-Version":"2022-11-28",
+ "User-Agent":"football-ai-lab-telegram"
+});
+/** Solo invocado tras validar firma de Telegram, chat privado e identidad. */
+export async function requestVerification(env,fetcher=fetch,now=new Date()){
+ const token=String(env?.GITHUB_DISPATCH_TOKEN||"").trim();
+ if(!token)return "⚠️ La verificación necesita configurar GITHUB_DISPATCH_TOKEN en el Worker. No he iniciado una revisión.";
+ try{
+  const runs=await fetcher(GH_WORKFLOW+"/runs?per_page=5",{
+   headers:ghHeaders(token)});
+  if(!runs.ok)return "⚠️ No puedo consultar el estado en GitHub. Comprueba permisos Actions del token.";
+  const payload=await runs.json();
+  if(!Array.isArray(payload.workflow_runs))
+   return "⚠️ GitHub no devolvió un estado válido; no se ha iniciado nada.";
+  for(const run of payload.workflow_runs){
+   const at=Date.parse(run.created_at||"");
+   if(run.head_branch!=="main"||!Number.isFinite(at))continue;
+   if(["queued","in_progress","waiting","pending","requested"].includes(run.status))
+    return "⏳ Ya hay una verificación en marcha. Te avisaré con el resultado.";
+   if(at<=now.getTime()+60000&&now.getTime()-at<15*60000)
+    return "⏳ Ya solicitaste una verificación en los últimos 15 minutos. No se duplicarán consultas.";
+  }
+  const result=await fetcher(GH_WORKFLOW+"/dispatches",{
+   method:"POST",headers:{...ghHeaders(token),"Content-Type":"application/json"},
+   body:JSON.stringify({ref:"main"})
+  });
+  if(result.status!==204)
+   return "⚠️ GitHub no aceptó iniciar la verificación. Revisa la autorización del token.";
+  return "🔄 GitHub ha recibido la solicitud. Se comprobarán los partidos finalizados sin rehacer pronósticos ni cuotas. El resumen 3+1 llegará a este chat.";
+ }catch{
+  return "⚠️ Fallo de conexión con GitHub. No se ha confirmado ninguna ejecución.";
+ }
+}
+
 async function telegram(method,body,env,fetcher){
  const res=await fetcher("https://api.telegram.org/bot"+env.TELEGRAM_BOT_TOKEN+"/"+method,{
   method:"POST",headers:{"Content-Type":"application/json"},
@@ -82,7 +121,10 @@ export async function handle(request,env,fetcher=fetch){
   catch{ /* La navegación es válida aunque Telegram no confirme el spinner. */ }
  }
  let card;
- try{card=reply(action,await dataFor(action,fetcher),new Date());}
+ try{card=action==="verify"?{
+  text:await requestVerification(env,fetcher,new Date()),
+  reply_markup:reply("results",{},new Date()).reply_markup
+ }:reply(action,await dataFor(action,fetcher),new Date());}
  catch{
   card=reply("help",{},new Date());
   card.text="⚠️ No puedo leer los datos actualizados de GitHub ahora. "+

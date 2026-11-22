@@ -56,6 +56,18 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Guardar autorización GitHub en Cloudflare (si está configurada)
+        env:
+          DISPATCH_TOKEN: ${{ secrets.GITHUB_DISPATCH_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        working-directory: telegram-bot
+        run: |
+          if [ -z "$DISPATCH_TOKEN" ]; then
+            echo "Sin token de despacho: las consultas Telegram siguen disponibles."
+            exit 0
+          fi
+          printf '%s' "$DISPATCH_TOKEN" | npx --yes wrangler@4 secret put GITHUB_DISPATCH_TOKEN
       - name: Registrar el webhook de Telegram sin revelar el token
         env:
           WORKER_URL: ${{ steps.deploy.outputs.deployment-url }}
@@ -96,6 +108,7 @@ jobs:
               {"command":"mercados","description":"Elegir mercado"},
               {"command":"cuotas","description":"Cuotas reales superiores a 1,50"},
               {"command":"resultados","description":"Seguimiento prospectivo"},
+              {"command":"comprobar","description":"Verificar partidos terminados"},
               {"command":"ayuda","description":"Ayuda"}
           ]})
           print("Webhook interactivo conectado correctamente; sin publicar credenciales.")

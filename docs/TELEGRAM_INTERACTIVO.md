@@ -121,3 +121,31 @@ En Cloudflare puedes desactivar el Worker; también puedes quitar el
 webhook con `deleteWebhook` desde la Bot API de Telegram, usando tu
 token en privado. No elimines las credenciales existentes de GitHub
 si quieres seguir recibiendo los informes diarios.
+
+## Verificación manual de partidos
+
+El nuevo botón **🔄 Comprobar** y el comando `/comprobar` lanzan
+`.github/workflows/verify-results.yml`. Solo se vuelven a comprobar
+partidos finalizados con pronósticos archivados antes del inicio. Se
+actualizan archivos de seguimiento, no los `historico_*`, ni se recalculan
+pronósticos o solicitan cuotas nuevas. El bot envía el balance de los
+últimos siete días, con Top 3 y una adicional registrada superior a 1,50,
+aunque no haya nuevas liquidaciones. Resultados ausentes nunca son fallos.
+
+La comprobación requiere **un permiso adicional** para llamar GitHub Actions.
+Crea un token personal de GitHub de granularidad fina en
+https://github.com/settings/personal-access-tokens/new
+y limítalo al repositorio `rasekes86/football-ai-lab`, con permiso
+**Actions: Read and write**. No envíes el token por chat.
+
+Guárdalo en los secretos de Actions del repositorio como
+`GITHUB_DISPATCH_TOKEN` en
+https://github.com/rasekes86/football-ai-lab/settings/secrets/actions
+y después vuelve a ejecutar `telegram-bot.yml` con **Run workflow**.
+El despliegue transfiere el token como secreto cifrado al Worker.
+Si falta, el botón muestra un aviso y no afirma haber iniciado nada.
+El Worker debe estar desplegado y conectado para recibir el botón.
+
+La misma verificación puede iniciarse sin Telegram desde
+https://github.com/rasekes86/football-ai-lab/actions/workflows/verify-results.yml
+pulsando **Run workflow**, sin token personal adicional.
