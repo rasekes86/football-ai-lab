@@ -33,5 +33,7 @@ jobs:
           node --check site/app.js
           node --check site/performance.mjs
           node --check site/performance_breakdown.mjs
+          node --check site/model_audit.mjs
+          node --check site/top3_odds_view.mjs
       - name: Verificar estadísticas diarias y por liga
-        run: node --test tests/test_performance_breakdown.mjs
+        run: node --test tests/test_performance_breakdown.mjs site/tests/model_audit.test.mjs
