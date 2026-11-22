@@ -230,6 +230,29 @@ def _aggregate(rows):
     }
 
 
+def _coverage_details(archived, captured, now):
+    """Count exact price capture without guessing whether a market was queried."""
+    priced = {str(r.get("clave")) for r in captured or [] if r.get("clave")}
+    by_market = defaultdict(lambda: {
+        "originales": 0, "capturadas": 0, "no_equivalentes": 0,
+        "futuras_sin_captura": 0, "sin_prueba_prepartido": 0
+    })
+    for row in archived or []:
+        if not row.get("clave"):
+            continue
+        r = by_market[str(row.get("mercado") or "Sin mercado")]
+        r["originales"] += 1
+        if str(row["clave"]) in priced:
+            r["capturadas"] += 1
+        elif _target(row) is None:
+            r["no_equivalentes"] += 1
+        elif (kick := _utc(row.get("fecha_utc"))) is not None and kick > now:
+            r["futuras_sin_captura"] += 1
+        else:
+            r["sin_prueba_prepartido"] += 1
+    return dict(sorted(by_market.items()))
+
+
 def top3_odds_report(archived, captured, tracked, now, state=None):
     now = _utc(now)
     if now is None:
@@ -256,6 +279,8 @@ def top3_odds_report(archived, captured, tracked, now, state=None):
         "global": _aggregate([r for r in tracked if r.get("estado") != "SOLAPADA_ADICIONAL"]),
         "por_liga": {k: _aggregate(v) for k, v in sorted(leagues.items())},
         "por_mercado": {k: _aggregate(v) for k, v in sorted(markets.items())},
+        "cobertura_contratos": _coverage_details(archived, captured, now),
+        "cobertura_nota": "Sin captura no confirma que se haya consultado; ningún mercado se sustituye por otro.",
         "por_dia": {k: _aggregate(v) for k, v in sorted(days.items(), reverse=True)},
         "presupuesto": {
             "proveedor_principal": "5DollarFootballAPI Free",
