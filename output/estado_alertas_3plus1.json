@@ -52,7 +52,23 @@
     "top:I1|202611211400|lazio|lecce|Doble oportunidad|1X: Lazio o empate",
     "top:I1|202611211400|lazio|lecce|Goles equipo|Lazio: menos de 2,5 goles",
     "top:I1|202611211400|lazio|lecce|Total goles|Menos de 3,5 goles",
-    "extra:D1|202611211430|m gladbach|dortmund|Total goles|Menos de 3,5 goles"
+    "extra:D1|202611211430|m gladbach|dortmund|Total goles|Menos de 3,5 goles",
+    "extra:D1|202611211430|union berlin|leipzig|Total goles|Menos de 3,5 goles",
+    "top:D1|202611211430|ein frankfurt|hoffenheim|Goles equipo|Eintracht Frankfurt: más de 0,5 goles",
+    "top:D1|202611211430|ein frankfurt|hoffenheim|Hándicap 2 vías (medio gol)|Eintracht Frankfurt +1,5",
+    "top:D1|202611211430|ein frankfurt|hoffenheim|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+    "top:D1|202611211430|m gladbach|dortmund|Goles equipo|Borussia Dortmund: más de 0,5 goles",
+    "top:D1|202611211430|m gladbach|dortmund|Hándicap 2 vías (medio gol)|Borussia Mönchengladbach +2,5",
+    "top:D1|202611211430|m gladbach|dortmund|Total goles|Más de 1,5 goles",
+    "top:D1|202611211430|union berlin|leipzig|Goles equipo|RB Leipzig: menos de 2,5 goles",
+    "top:D1|202611211430|union berlin|leipzig|Hándicap 2 vías (medio gol)|1. FC Union Berlin +1,5",
+    "top:D1|202611211430|union berlin|leipzig|Total goles|Más de 1,5 goles",
+    "extra:E0|202611211500|chelsea|leeds|Total goles|Más de 2,5 goles",
+    "extra:E0|202611211500|tottenham|ipswich|Ambos marcan|Sí",
+    "top:E0|202611211500|aston villa|sunderland|Goles equipo|Aston Villa: más de 0,5 goles",
+    "top:E0|202611211500|aston villa|sunderland|Hándicap 2 vías (medio gol)|Sunderland +2,5",
+    "top:E0|202611211500|aston villa|sunderland|Total goles|Menos de 4,5 goles",
+    "top:E0|202611211500|bournemouth|nott m forest|Goles equipo|AFC Bournemouth: menos de 2,5 goles"
   ],
-  "last_delivery_utc": "2026-11-22T12:50:51.098750+00:00"
+  "last_delivery_utc": "2026-11-22T15:18:34.542545+00:00"
 }
