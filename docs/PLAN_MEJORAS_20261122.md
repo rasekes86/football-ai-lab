@@ -15,7 +15,7 @@
 | 1. Adicionales NBA | Referencia comparativa, sin mezclar ligas o deportes | Diagnóstico por mercados y versión, separado del Top 3 | Solo adicionales reales; no retocar contratos antiguos; no reajustar umbrales con muestra pequeña |
 | 2. Cuotas Top 3 fútbol | Prioridad de partidos con contrato exactamente comparable; estados por mercado | Mantener la adicional real aparte de cuotas matemáticas | Misma cuota de peticiones por hora y mismos cooldowns; sin precios inventados |
 | 3. Datos diarios | Desglose existente por día y liga, sin duplicar módulos | Nuevo desglose por noche NBA, mercado y versión | Vista estable con fechas de Madrid; pendientes no son fallos |
-| 4. Salud | Indicador de antigüedad de la publicación y fuentes no disponibles | Indicador de antigüedad, pendientes y siguiente cron **previsto** | No confundir publicación con ejecución programada; la vigilancia existente sigue operando |
+| 4. Salud | Indicador de antigüedad y recuperación programada si el análisis supera 26 h, con comprobación de ejecuciones y máximo un despacho cada 12 h | Indicador de antigüedad, pendientes y siguiente cron **previsto** | No confundir publicación con ejecución programada; la vigilancia existente sigue operando |
 | 5. Calibración | Probabilidad archivada frente a acierto por origen/franja | Comparación por franja y modelo | Solo selecciones originales liquidadas; sin mezclar retrospectivo y prospectivo |
 | 6. Móvil y navegación | Diagnósticos dentro del panel avanzado, plegables | Auditoría plegable con dos métricas principales separadas | Fichas existentes y filtros básicos intactos; sin sobrecargar la portada |
 
