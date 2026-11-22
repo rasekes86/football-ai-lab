@@ -1,0 +1,84 @@
+name: Verificar resultados desde Telegram
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: football-ai-daily
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar motor
+        run: python -m pip install -e .
+      - name: Pruebas de verificacion manual
+        run: python -m unittest discover -s tests -p 'test_verify_results_manual.py' -v
+      - name: Obtener resultados existentes sin borrar el histórico
+        run: |
+          git fetch origin main
+          git restore --source=origin/main --worktree -- output
+      - name: Liquidar solo los partidos finalizados
+        run: python -m football_ai_lab.verify_results
+      - name: Publicar solo archivos derivados, con control de concurrencia
+        run: |
+          files=(
+            seguimiento.csv evaluacion_real.json seguimiento_selecciones.csv
+            evaluacion_selecciones.json desglose_postpartido.json
+            estadisticas_finales_verificadas.json seguimiento_oportunidades_150.csv
+            evaluacion_oportunidades_150.json oportunidades_150.md
+            seguimiento_adicionales_teoricas.csv seguimiento_cuotas_top3.csv
+            evaluacion_cuotas_top3.json seguimiento_mercados_futuros.csv
+            fiabilidad_mercados_futuros.json verificacion_resultados_telegram.json
+          )
+          paths=()
+          for name in "${files[@]}"; do paths+=("output/$name"); done
+          tar -cf /tmp/results-only.tar "${paths[@]}"
+          git fetch origin main
+          if ! git diff --quiet HEAD origin/main -- src tests data .github pyproject.toml; then
+            echo "::error::El código cambió; no sobrescribimos resultados calculados con una versión anterior."
+            exit 1
+          fi
+          git reset --hard origin/main
+          tar -xf /tmp/results-only.tar
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "${paths[@]}"
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualiza resultados 3+1 bajo demanda [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Enviar resumen a Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m football_ai_lab.verify_results --notify
+      - name: Alertar de fallo sin afirmar resultados
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import os
+          from football_ai_lab.telegram_notify import send
+          token=os.environ.get("TELEGRAM_BOT_TOKEN","")
+          chat=os.environ.get("TELEGRAM_CHAT_ID","")
+          if token and chat:
+              try:
+                  send("⚠️ Football AI Lab: no se pudo completar la verificación manual. "
+                       "No hay resultados nuevos confirmados. Consulta GitHub Actions.",
+                       token,chat)
+              except Exception:
+                  print("Error enviando alerta de fallo.")
+          PY
