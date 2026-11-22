@@ -55,7 +55,12 @@ export async function requestVerification(env,fetcher=fetch,now=new Date()){
  try{
   const runs=await fetcher(GH_WORKFLOW+"/runs?per_page=5",{
    headers:ghHeaders(token)});
-  if(!runs.ok)return "⚠️ No puedo consultar el estado en GitHub. Comprueba permisos Actions del token.";
+  if(!runs.ok){
+   if(runs.status===401)return "⚠️ GitHub HTTP 401: el token ha caducado, se ha revocado o es inválido.";
+   if(runs.status===403)return "⚠️ GitHub HTTP 403: el token no tiene acceso de lectura a Actions.";
+   if(runs.status===404)return "⚠️ GitHub HTTP 404: el token no puede ver el workflow de resultados o el repositorio.";
+   return "⚠️ GitHub HTTP "+runs.status+": no se pudo consultar el estado del workflow. No se ha iniciado ninguna ejecución.";
+  }
   const payload=await runs.json();
   if(!Array.isArray(payload.workflow_runs))
    return "⚠️ GitHub no devolvió un estado válido; no se ha iniciado nada.";
@@ -71,8 +76,15 @@ export async function requestVerification(env,fetcher=fetch,now=new Date()){
    method:"POST",headers:{...ghHeaders(token),"Content-Type":"application/json"},
    body:JSON.stringify({ref:"main"})
   });
-  if(result.status!==204)
-   return "⚠️ GitHub no aceptó iniciar la verificación. Revisa la autorización del token.";
+  if(result.status!==204){
+   // Solo se comunican códigos HTTP, nunca la respuesta de GitHub ni credenciales.
+   if(result.status===401)return "⚠️ GitHub HTTP 401: token inválido, revocado o caducado. No se ha iniciado la comprobación.";
+   if(result.status===403)return "⚠️ GitHub HTTP 403: el token puede consultar Actions, pero no tiene permiso para ejecutar workflows. Revisa que FOOTBALL_ACTIONS_TOKEN tenga Actions → Read and write (Lectura y escritura) y acceso a este repositorio.";
+   if(result.status===404)return "⚠️ GitHub HTTP 404: no encuentra el workflow de comprobación o el token no tiene acceso suficiente al repositorio.";
+   if(result.status===422)return "⚠️ GitHub HTTP 422: la definición del workflow de resultados no admite la ejecución solicitada. Revisa que exista workflow_dispatch en main.";
+   if(result.status===429)return "⏳ GitHub HTTP 429: límite temporal de peticiones; vuelve a intentarlo más tarde.";
+   return "⚠️ GitHub HTTP "+result.status+": no ha aceptado el lanzamiento. Sin resultados nuevos confirmados.";
+  }
   return "🔄 GitHub ha recibido la solicitud. Se comprobarán los partidos finalizados sin rehacer pronósticos ni cuotas. El resumen 3+1 llegará a este chat.";
  }catch{
   return "⚠️ Fallo de conexión con GitHub. No se ha confirmado ninguna ejecución.";
