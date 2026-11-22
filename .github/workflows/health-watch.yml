@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: football-ai-health
@@ -36,6 +37,15 @@ jobs:
           python-version: '3.12'
       - name: Probar el monitor sin red
         run: PYTHONPATH=src python -m unittest discover -s tests -p 'test_health_monitor.py' -v
+      - name: Probar reglas del reintento sin red
+        run: PYTHONPATH=src python -m unittest discover -s tests -p 'test_auto_recovery.py' -v
+      - name: Recuperar cron diario ausente (sin consultar cuotas)
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PYTHONPATH: src
+        run: python -m football_ai_lab.recovery
       - name: Comprobar artefactos y alertar Telegram (sin consultar cuotas)
         env:
           PYTHONPATH: src
