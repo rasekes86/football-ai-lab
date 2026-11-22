@@ -26,12 +26,16 @@ jobs:
   deploy:
     if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # workflow_run debe usar el último commit que contiene los CSV publicados.
+          ref: main
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
