@@ -58,7 +58,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: Guardar autorización GitHub en Cloudflare (si está configurada)
         env:
-          DISPATCH_TOKEN: ${{ secrets.GITHUB_DISPATCH_TOKEN }}
+          DISPATCH_TOKEN: ${{ secrets.FOOTBALL_ACTIONS_TOKEN }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         working-directory: telegram-bot
@@ -67,7 +67,7 @@ jobs:
             echo "Sin token de despacho: las consultas Telegram siguen disponibles."
             exit 0
           fi
-          printf '%s' "$DISPATCH_TOKEN" | npx --yes wrangler@4 secret put GITHUB_DISPATCH_TOKEN
+          printf '%s' "$DISPATCH_TOKEN" | npx --yes wrangler@4 secret put FOOTBALL_ACTIONS_TOKEN
       - name: Registrar el webhook de Telegram sin revelar el token
         env:
           WORKER_URL: ${{ steps.deploy.outputs.deployment-url }}

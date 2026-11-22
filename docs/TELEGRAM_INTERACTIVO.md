@@ -139,7 +139,7 @@ y limítalo al repositorio `rasekes86/football-ai-lab`, con permiso
 **Actions: Read and write**. No envíes el token por chat.
 
 Guárdalo en los secretos de Actions del repositorio como
-`GITHUB_DISPATCH_TOKEN` en
+`FOOTBALL_ACTIONS_TOKEN` en
 https://github.com/rasekes86/football-ai-lab/settings/secrets/actions
 y después vuelve a ejecutar `telegram-bot.yml` con **Run workflow**.
 El despliegue transfiere el token como secreto cifrado al Worker.
