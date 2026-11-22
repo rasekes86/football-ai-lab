@@ -1,8 +1,8 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-22T10:08:55.549516+00:00
+**UTC:** 2026-11-22T12:49:16.027541+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 123
+**Próximos partidos con pronóstico:** 122
 **Descartados por insuficiencia de datos:** 6
 **Históricos evaluados:** 35
 **Brier 1X2 medio:** 0.2110
@@ -94,7 +94,6 @@
 | Bundesliga | 2026-12-05T14:30 | RB Leipzig - Mainz | 60.5% | 20.1% | 19.4% |
 | Bundesliga | 2026-12-05T14:30 | SC Freiburg - TSG Hoffenheim | 50.9% | 21.3% | 27.8% |
 | Bundesliga | 2026-12-05T17:30 | Eintracht Frankfurt - Werder Bremen | 47.2% | 23.5% | 29.2% |
-| Serie A | 2026-11-22T11:30 | Juventus - Venezia | 69.6% | 19.4% | 10.9% |
 | Serie A | 2026-11-22T14:00 | Bologna - Udinese | 41.1% | 24.4% | 34.5% |
 | Serie A | 2026-11-22T14:00 | Sassuolo - Genoa | 38.6% | 24.2% | 37.2% |
 | Serie A | 2026-11-22T17:00 | AC Milan - Frosinone | 61.4% | 21.1% | 17.4% |
@@ -156,7 +155,7 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **3** / 123. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **3** / 122. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real

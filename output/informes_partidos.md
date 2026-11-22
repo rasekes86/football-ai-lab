@@ -36,7 +36,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 71.6% / 15.4% / 12.9%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T10:09:18+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T12:50:05+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -878,7 +878,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.4% / 25.0% / 28.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T10:07:26+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T12:49:33+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -1829,7 +1829,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 27.7% / 23.6% / 48.7%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T12:50:07+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3936,51 +3936,6 @@
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Juventus – Venezia
-
-**Serie A · 2026-11-22T11:30:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 69.6% | 19.4% | 10.9% | 50.7% |
-
-### Forma, descanso y estadísticas
-
-**Juventus:** posición 7 · 18 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: E · V · D · V · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 14,0, a puerta 3,6, córners 8,4, amarillas 1,4
-
-**Venezia:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 0E · 3D; secuencia: V · D · D · D · V
-- Días desde el último partido liguero registrado: 16
-- Medias recientes: Tiros 12,4, a puerta 3,6, córners 3,4, amarillas 1,0
-
-### Enfrentamientos previos
-- 2025-05-25: Venezia 2-3 Juventus
-- 2024-12-14: Juventus 2-2 Venezia
-
-### Tres selecciones del modelo (experimentales)
-1. **Venezia: menos de 1,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 86.3% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 80.6% · cuota justa 1.24; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 59.5% / 26.6% / 14.0%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T10:06:28+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
