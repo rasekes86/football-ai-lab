@@ -105,3 +105,32 @@ test("chat ajeno no puede activar verificación aunque mande el comando",async()
  assert.equal(res.status,200);
  assert.equal(network,false);
 });
+
+
+test("GitHub informa el código seguro de rechazo sin revelar secretos ni mensajes externos",async()=>{
+ const {requestVerification}=await import("../src/index.mjs");
+ const token="fake-sensitive-token-for-tests";
+ const cases=[
+  [401,"token inválido"],
+  [403,"Actions"],
+  [404,"no encuentra el workflow"],
+  [422,"workflow_dispatch"],
+  [429,"límite temporal"],
+  [500,"HTTP 500"]
+ ];
+ for(const [status,phrase] of cases){
+  const mock=async url=>url.includes("/runs?")?
+   new Response(JSON.stringify({workflow_runs:[]}),{status:200}):
+   new Response(JSON.stringify({message:"Secret from external source "+token}),{status});
+  const text=await requestVerification({FOOTBALL_ACTIONS_TOKEN:token},mock,new Date());
+  assert.match(text,new RegExp(phrase,"i"),"Caso HTTP "+status);
+  assert.doesNotMatch(text,new RegExp(token));
+  assert.doesNotMatch(text,/Secret from external source/);
+ }
+});
+test("error de lectura de Actions se distingue del permiso de ejecución",async()=>{
+ const {requestVerification}=await import("../src/index.mjs");
+ const mock=async()=>new Response(null,{status:403});
+ const text=await requestVerification({FOOTBALL_ACTIONS_TOKEN:"test"},mock,new Date());
+ assert.match(text,/lectura a Actions/);
+});
