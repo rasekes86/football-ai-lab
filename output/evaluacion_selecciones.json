@@ -1,9 +1,9 @@
 {
   "version": "market-prospective-0.8",
-  "calculado_utc": "2026-11-21T23:34:51.044596+00:00",
-  "registradas": 390,
+  "calculado_utc": "2026-11-22T10:06:14.945675+00:00",
+  "registradas": 474,
   "finalizadas": 105,
-  "pendientes": 285,
+  "pendientes": 369,
   "sin_resultado": 0,
   "sin_estadistica": 0,
   "excluidas": 0,
@@ -150,6 +150,6 @@
     }
   },
   "advertencia": "Solo las primeras selecciones guardadas ANTES del partido. Sin usar resultados retrospectivos como pronósticos reales.",
-  "top3_original_registradas": 390,
+  "top3_original_registradas": 474,
   "top3_promovidas_a_adicional": 0
 }
