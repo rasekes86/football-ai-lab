@@ -36,7 +36,23 @@
     "extra:SP1|202611202000|ath bilbao|espanyol|Total goles|Menos de 2,5 goles",
     "top:SP1|202611202000|ath bilbao|espanyol|Goles equipo|Athletic Club: menos de 2,5 goles",
     "top:SP1|202611202000|ath bilbao|espanyol|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
-    "top:SP1|202611202000|ath bilbao|espanyol|Tiros a puerta totales|Más de 5,5 tiros a puerta totales"
+    "top:SP1|202611202000|ath bilbao|espanyol|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+    "extra:E0|202611211230|man city|fulham|Total goles|Menos de 3,5 goles",
+    "top:E0|202611211230|man city|fulham|Doble oportunidad|1X: Manchester City o empate",
+    "top:E0|202611211230|man city|fulham|Goles equipo|Fulham: menos de 1,5 goles",
+    "top:E0|202611211230|man city|fulham|Total goles|Menos de 4,5 goles",
+    "top:SP2|202611211300|sabadell|granada|Goles equipo|CD Sabadell: menos de 2,5 goles",
+    "top:SP2|202611211300|sabadell|granada|Hándicap 2 vías (medio gol)|Granada +1,5",
+    "top:SP2|202611211300|sabadell|granada|Total goles|Menos de 3,5 goles",
+    "extra:I1|202611211400|como|cagliari|Total goles|Menos de 3,5 goles",
+    "extra:I1|202611211400|lazio|lecce|Total goles|Menos de 2,5 goles",
+    "top:I1|202611211400|como|cagliari|Doble oportunidad|1X: Como o empate",
+    "top:I1|202611211400|como|cagliari|Goles equipo|Cagliari: menos de 1,5 goles",
+    "top:I1|202611211400|como|cagliari|Goles equipo|Como: más de 0,5 goles",
+    "top:I1|202611211400|lazio|lecce|Doble oportunidad|1X: Lazio o empate",
+    "top:I1|202611211400|lazio|lecce|Goles equipo|Lazio: menos de 2,5 goles",
+    "top:I1|202611211400|lazio|lecce|Total goles|Menos de 3,5 goles",
+    "extra:D1|202611211430|m gladbach|dortmund|Total goles|Menos de 3,5 goles"
   ],
-  "last_delivery_utc": "2026-11-21T15:23:29.303973+00:00"
+  "last_delivery_utc": "2026-11-22T12:50:51.098750+00:00"
 }
