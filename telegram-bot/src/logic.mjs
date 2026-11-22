@@ -23,7 +23,8 @@ const base=[bt("🏠 Menú","menu")];
 const topMenu=[
  [bt("📅 Próximos partidos","p:0"),bt("🏟️ Ligas","leagues")],
  [bt("📊 Mercados","markets"),bt("💶 Cuotas >1,50","q")],
- [bt("✅ Resultados","results"),bt("❔ Ayuda","help")]
+ [bt("✅ Resultados","results"),bt("🔄 Comprobar","verify")],
+ [bt("❔ Ayuda","help")]
 ];
 export const pct=x=>number(x)!==null?(x*100).toFixed(1).replace(".",",")+" %":"—";
 export const dec=x=>number(x)!==null?x.toFixed(2).replace(".",","):"—";
@@ -216,12 +217,13 @@ function results(source){
     (number(global.acierto_pct)!==null?dec(global.acierto_pct)+" %":"—")+
     "\nBrier: "+dec(global.brier):
    "Todavía no hay muestra prospectiva suficiente para calcular fiabilidad.")+
-  "\n\nNo contamos resultados ausentes como fallos.",[base]);
+  "\n\nNo contamos resultados ausentes como fallos.",[
+   [bt("🔄 Comprobar resultados ahora","verify")],base]);
 }
 function help(){
  return output("❔ Puedes usar los botones o escribir:\n\n"+
   "«próximos», «mañana», «Tenerife», «Tenerife Ceuta», «goles», "+
-  "«córners», «cuotas 1,50», «resultados»,\n"+
+  "«córners», «cuotas 1,50», «resultados», «/comprobar»,\n"+
   "«Analízame los partidos de Segunda de mañana»,\n"+
   "«Goles de Primera hoy».\n\n"+
   "El bot entiende preguntas sencillas sobre los datos publicados. "+
@@ -308,6 +310,7 @@ export function interpret(text){
  if(!q||["start","menu","hola","inicio","buenas"].includes(q))return "menu";
  // Los comandos anteriores conservan su comportamiento y las consultas
  // compuestas no sustituyen las fuentes de cuotas o fiabilidad.
+ if(/\b(comprobar|verificar|actualizar resultados)\b/.test(q))return "verify";
  if(/cuota|precio|1 50|bookmaker/.test(q))return "q";
  if(/resultado|acierto|calibracion|balance|fiabilidad|fallo/.test(q))return "results";
  const league=questionLeague(q),key=questionMarket(q);
@@ -352,6 +355,8 @@ export function reply(action,feeds={},now=new Date()){
  if(action==="leagues")return leagues();
  if(action==="markets")return markets();
  if(action==="results")return results(feeds.reliability||{});
+ if(action==="verify")return output("🔄 Comprobación de partidos terminados: solo Top 3 + adicional >1,50.",[
+   [bt("🔄 Solicitar comprobación","verify")],base]);
  const source=feeds.forecast||{};
  if(!isFresh(source,now))return output("⚠️ No encuentro un pronóstico prepartido reciente.\n"+
   "Revisa GitHub Actions; no mostraré datos antiguos como actuales.",[base]);
