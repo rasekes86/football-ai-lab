@@ -24,6 +24,15 @@ class Tests(unittest.TestCase):
         self.assertEqual([x["id"] for x in due],["new","old","empty"])
         self.assertEqual(skipped,1)
 
+    def test_priority_for_compatible_top3_only_within_existing_quota(self):
+        base=[match("other"),match("top3"),match("already")]
+        state={"fixtures":{"already":{"consultado_utc":NOW.isoformat(),"con_cuotas":True}}}
+        ordered,skipped=due_matches(base,state,NOW,priority_ids={"top3"})
+        self.assertEqual([x["id"] for x in ordered],["top3","other"])
+        self.assertEqual(skipped,1)
+        original,_=due_matches(base,state,NOW)
+        self.assertEqual(len(original),len(ordered),"Do not increase API demand")
+
     def test_hourly_budget_persists(self):
         ledger=RequestLedger({},NOW)
         self.assertTrue(all(ledger.take() for _ in range(48)))
