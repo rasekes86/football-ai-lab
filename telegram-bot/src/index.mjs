@@ -9,6 +9,7 @@ const SOURCES={
  dossier:"informes_partidos.json",
  reliability:"fiabilidad_mercados_futuros.json",
  odds:"comparacion_cuotas_reales.json",
+ verification:"verificacion_resultados_telegram.json",
 };
 function hex(buffer){
  return Array.from(new Uint8Array(buffer),b=>b.toString(16).padStart(2,"0")).join("");
@@ -22,8 +23,9 @@ function same(a,b){
  return d===0;
 }
 async function dataFor(action,fetcher){
- const requireForecast=!(["menu","help","leagues","markets","results"].includes(action));
- const keys=["results"].includes(action)?["reliability"]:
+ const detail=(action==="detail"||/^d:(all|pend|liquid):\d{1,3}$/.test(action));
+ const requireForecast=!(["menu","help","leagues","markets","results"].includes(action)||detail);
+ const keys=detail?["verification"]:["results"].includes(action)?["reliability"]:
   requireForecast?["forecast",...(
    action.startsWith("c:")?["dossier"]:
    action==="q"||action.startsWith("q:")?["odds"]:[]
