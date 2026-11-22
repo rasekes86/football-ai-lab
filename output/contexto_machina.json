@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-22T15:17:33.350348+00:00",
+  "timestamp_utc": "2026-11-22T20:41:25.284331+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -16,7 +16,7 @@
           "nombre": "Brighton & Hove Albion",
           "posicion": 2,
           "puntos": 22,
-          "jugados": 10
+          "jugados": 11
         },
         {
           "nombre": "Manchester City",
@@ -25,16 +25,16 @@
           "jugados": 11
         },
         {
-          "nombre": "AFC Bournemouth",
+          "nombre": "Liverpool",
           "posicion": 4,
-          "puntos": 18,
+          "puntos": 21,
           "jugados": 11
         },
         {
-          "nombre": "Liverpool",
+          "nombre": "AFC Bournemouth",
           "posicion": 5,
           "puntos": 18,
-          "jugados": 10
+          "jugados": 11
         },
         {
           "nombre": "Leeds United",
@@ -99,7 +99,7 @@
           "nombre": "Real Sociedad",
           "posicion": 5,
           "puntos": 22,
-          "jugados": 12
+          "jugados": 13
         },
         {
           "nombre": "Sevilla",
@@ -108,25 +108,25 @@
           "jugados": 13
         },
         {
-          "nombre": "Athletic Club",
+          "nombre": "Racing Santander",
           "posicion": 7,
+          "puntos": 17,
+          "jugados": 13
+        },
+        {
+          "nombre": "Athletic Club",
+          "posicion": 8,
           "puntos": 16,
           "jugados": 12
         },
         {
           "nombre": "Alavés",
-          "posicion": 8,
+          "posicion": 9,
           "puntos": 16,
           "jugados": 13
         },
         {
           "nombre": "Villarreal",
-          "posicion": 9,
-          "puntos": 15,
-          "jugados": 13
-        },
-        {
-          "nombre": "Espanyol",
           "posicion": 10,
           "puntos": 15,
           "jugados": 13
@@ -169,8 +169,8 @@
         {
           "nombre": "Werder Bremen",
           "posicion": 6,
-          "puntos": 15,
-          "jugados": 9
+          "puntos": 18,
+          "jugados": 10
         },
         {
           "nombre": "Eintracht Frankfurt",
@@ -191,7 +191,7 @@
           "jugados": 10
         },
         {
-          "nombre": "TSG Hoffenheim",
+          "nombre": "FC Augsburg",
           "posicion": 10,
           "puntos": 12,
           "jugados": 10
@@ -220,16 +220,16 @@
           "jugados": 11
         },
         {
-          "nombre": "Como",
+          "nombre": "AC Milan",
           "posicion": 4,
-          "puntos": 26,
+          "puntos": 27,
           "jugados": 12
         },
         {
-          "nombre": "AC Milan",
+          "nombre": "Como",
           "posicion": 5,
-          "puntos": 24,
-          "jugados": 11
+          "puntos": 26,
+          "jugados": 12
         },
         {
           "nombre": "Juventus",
@@ -241,7 +241,7 @@
           "nombre": "Frosinone",
           "posicion": 7,
           "puntos": 20,
-          "jugados": 11
+          "jugados": 12
         },
         {
           "nombre": "Napoli",
@@ -252,11 +252,11 @@
         {
           "nombre": "Bologna",
           "posicion": 9,
-          "puntos": 17,
-          "jugados": 11
+          "puntos": 18,
+          "jugados": 12
         },
         {
-          "nombre": "Cagliari",
+          "nombre": "Genoa",
           "posicion": 10,
           "puntos": 16,
           "jugados": 12
@@ -273,16 +273,16 @@
           "jugados": 11
         },
         {
-          "nombre": "Lille",
+          "nombre": "Paris FC",
           "posicion": 2,
-          "puntos": 21,
+          "puntos": 23,
           "jugados": 11
         },
         {
-          "nombre": "Paris FC",
+          "nombre": "Lille",
           "posicion": 3,
-          "puntos": 20,
-          "jugados": 10
+          "puntos": 21,
+          "jugados": 11
         },
         {
           "nombre": "Lyon",
@@ -317,14 +317,14 @@
         {
           "nombre": "Stade Rennais",
           "posicion": 9,
-          "puntos": 16,
-          "jugados": 10
+          "puntos": 17,
+          "jugados": 11
         },
         {
           "nombre": "Lorient",
           "posicion": 10,
-          "puntos": 15,
-          "jugados": 10
+          "puntos": 16,
+          "jugados": 11
         }
       ]
     }
@@ -367,9 +367,10 @@
     },
     {
       "equipo": "Brighton",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 11,
       "estados": {
         "unavailable": 5,
+        "suspended": 1,
         "injured": 4,
         "doubtful": 1
       }
@@ -462,11 +463,12 @@
     },
     {
       "equipo": "Man Utd",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 11,
       "estados": {
         "injured": 5,
-        "doubtful": 4,
-        "unavailable": 4
+        "doubtful": 1,
+        "unavailable": 4,
+        "suspended": 1
       }
     },
     {
