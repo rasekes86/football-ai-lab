@@ -19,9 +19,10 @@ def parse(value):
         return None
 
 
-def due_matches(fixtures,state,now,days=5):
+def due_matches(fixtures,state,now,days=5,priority_ids=None):
     """Devuelve primero partidos nunca consultados y luego capturas caducadas."""
     previous=(state or {}).get("fixtures") or {}
+    priority=set(priority_ids or ())
     due=[]
     skipped=0
     for m in fixtures:
@@ -36,9 +37,12 @@ def due_matches(fixtures,state,now,days=5):
         if last and timedelta(0)<=now-last<timedelta(hours=hours):
             skipped+=1
             continue
-        due.append((0 if last is None else 1,
+        # Reutiliza el MISMO cupo: antes los partidos con un Top 3
+        # pendiente de cuota exacta, sin alterar tiempos de enfriamiento.
+        due.append((0 if ident in priority else 1,
+                    0 if last is None else 1,
                     last or now-timedelta(days=10),kick,str(ident),m))
-    due.sort(key=lambda row:row[:4])
+    due.sort(key=lambda row:row[:5])
     return [row[-1] for row in due],skipped
 
 

@@ -24,6 +24,20 @@ export function renderTop3ObservedPrices(model={}, league="") {
     (model.archivedPicks||[]).filter(r=>r.liga===league).length:
     (audit.selecciones_originales||0);
   const ready=Boolean(audit.calculado_utc);
+  const coverage=Object.entries(audit.cobertura_contratos||{})
+    .filter(([,entry])=>entry&&entry.originales>0)
+    .sort((a,b)=>b[1].originales-a[1].originales);
+  const diagnostic=coverage.length?
+    '<details class="quote-coverage"><summary>¿Por qué faltan cuotas del Top 3?</summary>'+
+      coverage.map(([market,x])=>
+        '<div class="quote-coverage-line"><strong>'+escape(market)+'</strong><span>'+
+        x.capturadas+'/'+x.originales+' capturadas · '+x.no_equivalentes+
+        ' sin equivalente exacto · '+x.futuras_sin_captura+
+        ' futuras sin captura · '+x.sin_prueba_prepartido+
+        ' sin prueba prepartido</span></div>').join('')+
+      '<small>No tener captura no significa necesariamente que se consultara el mercado. No se fabrican cuotas.</small></details>':
+    '<small class="quote-coverage">Diagnóstico por contrato disponible después de la siguiente publicación de cuotas.</small>';
+
   const summary=`
     <div class="top3-price-kpis">
       <div><span>Con cuota prepartido</span><strong>${seen} / ${original}</strong></div>
@@ -52,5 +66,5 @@ export function renderTop3ObservedPrices(model={}, league="") {
       <small>${escape(status)}</small></div>
     </article>`;
   }).join(""):`<p class="top3-price-empty">Todavía no hay cuotas de bookmaker capturadas para este filtro. El Top 3 original sigue disponible sin cambios.</p>`;
-  return {summary,rows};
+  return {summary:summary+diagnostic,rows};
 }

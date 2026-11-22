@@ -97,6 +97,7 @@
             <p>Próximos encuentros, tus selecciones archivadas y resultados confirmados. Todo lo demás, a un toque.</p>
           </header>
           <div class="home-stats" id="homeStats" aria-live="polite"><p class="home-muted">Cargando resumen 3+1…</p></div>
+          <div id="footballHealth" aria-live="polite"></div>
           <div class="home-section-heading"><div><span>01 · TU AGENDA</span><h2>Próximos partidos</h2></div><button type="button" data-go="fixtures">Ver todos ›</button></div>
           <div id="homeUpcoming" class="home-fixtures" aria-live="polite"><p class="home-empty">Cargando próximos partidos…</p></div>
           <div class="home-section-heading"><div><span>02 · RESULTADOS</span><h2>Últimos verificados</h2></div><button type="button" data-go="performance">Ver balance ›</button></div>
@@ -446,6 +447,14 @@
               <p class="fine-print" id="performanceExtraEvidence"></p>
               <div id="performanceAutoAudit" class="performance-auto-audit" role="status"></div>
             </article>
+          </div>
+          <div class="panel model-audit-panel">
+            <div class="panel-heading"><div><span class="overline">AUDITORÍA DE PROBABILIDADES ORIGINALES</span><h3>¿Está calibrado el Top 3?</h3></div><span class="panel-mini">SOLO PROSPECTIVO</span></div>
+            <div id="modelAuditSummary"></div>
+            <details class="model-audit-details"><summary>Aciertos y probabilidad por origen del modelo</summary><div id="modelAuditOrigin"></div></details>
+            <details class="model-audit-details"><summary>Calibración por franjas de probabilidad</summary><div id="modelAuditBands"></div></details>
+            <div id="modelAuditPricing"></div>
+            <p class="fine-print">La tasa de acierto no equivale a rentabilidad. Las muestras pequeñas no autorizan a ajustar retroactivamente el modelo. Solo cuenta el Top 3 original; la adicional se evalúa aparte.</p>
           </div>
           <div class="panel performance-combined-panel"><div class="panel-heading"><div><span class="overline">03 / CONJUNTO 3+1</span><h3>Balance simulado conjunto</h3></div><span class="panel-mini">SOLO RESULTADOS VERIFICADOS</span></div><p class="performance-combined-note" id="performanceCombinedEvidence">Top 3 a cuota justa del modelo y adicional a cuota archivada. No se utilizan cuotas reales del Top 3.</p></div>
           <div class="panel performance-by-league-panel">

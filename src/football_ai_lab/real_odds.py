@@ -438,7 +438,7 @@ def archive_snapshots(previous,quotes_payload,now):
 
 def build_real_odds(fixtures,now,existing=None,env=None,fetcher=None,
                     five_fetcher=None,api_fetcher=None,state=None,prior_quotes=None,
-                    excluded_ids=None):
+                    excluded_ids=None,priority_ids=None):
     """Unifica fuentes sin cambiar los pronósticos ni modificar el Top3.
 
     Sin claves o banderas no hay consultas HTTP. Cada fuente conserva
@@ -450,7 +450,8 @@ def build_real_odds(fixtures,now,existing=None,env=None,fetcher=None,
     available=[m for m in fixtures if m.get("id") not in excluded]
     original=retrieve_odds(available,now,env=env,fetcher=fetcher)
     free=collect_free_odds(available,now,env=env,
-                           five_fetcher=five_fetcher,api_fetcher=api_fetcher,state=state)
+                           five_fetcher=five_fetcher,api_fetcher=api_fetcher,state=state,
+                           priority_ids=priority_ids)
     quotes=[*original["cuotas"],*free["cuotas"]]
     five_audit=free["auditoria"]["fuentes_gratuitas"][0]
     attempted=set(five_audit.get("ids_consultados",[]))

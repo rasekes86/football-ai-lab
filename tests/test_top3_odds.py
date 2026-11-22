@@ -57,6 +57,16 @@ class Top3OddsTests(unittest.TestCase):
         self.assertEqual(changed, prices, "First observed price is immutable")
         self.assertTrue(all(field in prices[0] for field in FIELDS))
 
+    def test_coverage_diagnoses_unsupported_without_implying_api_request(self):
+        unsupported=pick("Doble oportunidad",{"tipo":"doble","pick":"X2"})
+        compatible=pick()
+        report=top3_odds_report([unsupported,compatible],[],[],NOW)
+        x=report["cobertura_contratos"]
+        self.assertEqual(x["Doble oportunidad"]["no_equivalentes"],1)
+        self.assertEqual(x["Total goles"]["futuras_sin_captura"],1)
+        self.assertEqual(x["Total goles"]["capturadas"],0)
+        self.assertIn("Sin captura no confirma",report["cobertura_nota"])
+
     def test_reject_wrong_line_market_team_and_after_kickoff(self):
         original = pick()
         bad = [

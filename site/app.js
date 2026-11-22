@@ -15,6 +15,7 @@ import { renderMatchDetail } from "./match_detail.mjs";
 import { additionalStatus } from "./additional_status.mjs";
 import { renderResultsMobile } from "./results_mobile.mjs";
 import { renderPerformanceBreakdown } from "./performance_breakdown.mjs";
+import { modelAudit,renderModelAudit,analysisHealth,renderAnalysisHealth } from "./model_audit.mjs";
 import { renderTop3ObservedPrices } from "./top3_odds_view.mjs";
 import { orderMatchesByKickoff } from "./schedule.mjs";
 import { agendaDays, agendaSelection, agendaGroups } from "./agenda.mjs";
@@ -208,6 +209,7 @@ async function refreshData() {
   $("updatedLabel").textContent = "Última publicación: " +
     (state.data.updatedAt ? displayDate(state.data.updatedAt) : "sin fecha");
   $("navMatchCount").textContent = integer(state.data.futureMatches.length);
+  inner("footballHealth",renderAnalysisHealth(analysisHealth(state.data.updatedAt,state.errors,new Date())));
   renderAll();
 }
 
@@ -569,6 +571,15 @@ function renderPerformance() {
     range:$("performanceRange").value,
     granularity:$("performanceGranularity").value
   },state.performanceLimit);
+  const modelQuality=renderModelAudit(modelAudit(state.data,{
+    league:$("performanceLeague").value,
+    range:$("performanceRange").value,
+    at:new Date()
+  }));
+  inner("modelAuditSummary",modelQuality.summary);
+  inner("modelAuditOrigin",modelQuality.origin);
+  inner("modelAuditBands",modelQuality.bands);
+  inner("modelAuditPricing",modelQuality.pricing);
   const observed=renderTop3ObservedPrices(state.data,$("performanceLeague").value);
   inner("top3ObservedSummary",observed.summary);
   inner("top3ObservedRows",observed.rows);
