@@ -21,7 +21,7 @@ from .market_prospective import FIELDS as PICK_FIELDS, settle, summary as pick_s
 from .prospective import TRACK_FIELDS, evaluate as eval_legacy, summarize as sum_legacy
 from .future_market_audit import FIELDS as FUTURE_FIELDS, settle_future_markets, audit_future_markets
 from .fourth_reference import evaluate as eval_fourth
-from .value_watchlist import OFFER_FIELDS, evaluate as eval_offers, summary as sum_offers, active_top3, markdown
+from .value_watchlist import FIELDS as OFFER_FIELDS, evaluate as eval_offers, summary as sum_offers, active_top3, markdown
 from .top3_odds import FIELDS as TOP3_FIELDS, settle_top3_quotes, top3_odds_report
 from .telegram_3plus1 import _collect, _date, _finished
 from .telegram_notify import send
