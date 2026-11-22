@@ -1669,3 +1669,25 @@ body{background:#061522}
 .top3-price-empty{padding:16px;border:1px dashed var(--stroke);border-radius:10px;color:var(--muted);font-size:13px}
 @media(max-width:820px){.top3-price-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.top3-price-row-right{max-width:125px}}
 @media(max-width:400px){.top3-price-kpis>div{padding:10px}.top3-price-row{gap:8px}}
+
+/* Auditoría progresiva: una sola lectura rápida; detalles colapsados. */
+.model-audit-panel{margin:16px 0}
+.model-audit-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding:12px 0}
+.model-audit-head strong{font-size:24px}
+.model-audit-head small{max-width:580px;color:var(--muted,#9aa9b6)}
+.model-audit-details{padding:12px 0;border-top:1px solid var(--border,var(--line,#485665))}
+.model-audit-details summary{cursor:pointer;font-weight:750}
+.model-audit-row{display:flex;gap:15px;justify-content:space-between;padding:10px;border-top:1px solid var(--border,var(--line,#485665));margin-top:7px}
+.model-audit-row span{display:block}
+.model-audit-row small{display:block;font-size:11px;color:var(--muted,#9aa9b6)}
+.model-audit-row b{font-size:15px}
+.model-audit-row span:last-child{text-align:right}
+.football-health{padding:10px 14px;margin:9px 0 18px;display:flex;align-items:center;gap:8px 15px;flex-wrap:wrap;border:1px solid var(--border,var(--line,#485665));border-radius:12px;font-size:12px}
+.football-health span{color:var(--muted,#9aa9b6)}
+.football-health-alert{border-color:var(--yellow,#dc9d46)}
+.quote-coverage{margin:13px 0;padding:12px;border-radius:12px;border:1px solid var(--border,var(--line,#425065));font-size:12px}
+.quote-coverage summary{font-weight:800;cursor:pointer;padding:7px 2px}
+.quote-coverage-line{display:flex;gap:8px;justify-content:space-between;align-items:baseline;border-top:1px solid var(--border,var(--line,#425065));padding:9px 0}
+.quote-coverage-line strong{flex-basis:40%;font-size:12px}
+.quote-coverage-line span{flex:1;color:var(--muted,#8e9cab);font-size:11px}
+@media(max-width:700px){.quote-coverage-line{display:block}.quote-coverage-line strong{display:block}.model-audit-row{display:block}.model-audit-row span:last-child{text-align:left}}
