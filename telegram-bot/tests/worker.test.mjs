@@ -85,7 +85,7 @@ test("despacho aceptado y protección contra repetición en 15 minutos",async()=
   if(url.includes("/dispatches")){sent++;return new Response(null,{status:204});}
   throw Error("URL inesperada");
  };
- const arg={GITHUB_DISPATCH_TOKEN:"test-not-secret"};
+ const arg={FOOTBALL_ACTIONS_TOKEN:"test-not-secret"};
  const now=new Date("2026-11-22T20:01:00Z");
  assert.match(await requestVerification(arg,transport,now),/recibido/);
  assert.equal(sent,1);
@@ -101,7 +101,7 @@ test("chat ajeno no puede activar verificación aunque mande el comando",async()
                 from:{id:99},text:"/comprobar"}};
  let network=false;
  const res=await handle(message(request,await hookSecret(token)),
-  {...env,GITHUB_DISPATCH_TOKEN:"test"},()=>{network=true;throw Error("no");});
+  {...env,FOOTBALL_ACTIONS_TOKEN:"test"},()=>{network=true;throw Error("no");});
  assert.equal(res.status,200);
  assert.equal(network,false);
 });
