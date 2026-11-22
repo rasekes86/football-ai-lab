@@ -109,6 +109,7 @@ jobs:
               {"command":"cuotas","description":"Cuotas reales superiores a 1,50"},
               {"command":"resultados","description":"Seguimiento prospectivo"},
               {"command":"comprobar","description":"Verificar partidos terminados"},
+              {"command":"detalle","description":"Partidos comprobados y pendientes"},
               {"command":"ayuda","description":"Ayuda"}
           ]})
           print("Webhook interactivo conectado correctamente; sin publicar credenciales.")

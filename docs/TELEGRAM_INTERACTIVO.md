@@ -149,3 +149,29 @@ El Worker debe estar desplegado y conectado para recibir el botón.
 La misma verificación puede iniciarse sin Telegram desde
 https://github.com/rasekes86/football-ai-lab/actions/workflows/verify-results.yml
 pulsando **Run workflow**, sin token personal adicional.
+
+## Nuevo informe por partido: `/detalle`
+
+Después de `/comprobar`, el mensaje de Telegram identifica **cuántos
+partidos con selecciones registradas** se han revisado, cuántos están
+liquidados, parcialmente liquidados, pendientes y aún dentro del margen
+de dos horas desde el inicio. También muestra los encuentros pendientes
+y las nuevas liquidaciones más recientes.
+
+El comando **`/detalle`** y el botón **«📋 Detalle por partido»**
+permiten recorrer páginas de cinco encuentros, filtrando por todos,
+pendientes y liquidados. Cada uno muestra la fecha de Madrid, nombres,
+liga, número de selecciones Top 3/adicional resueltas y motivo de cada
+pendiente: sin marcador final verificado, sin estadísticas finales
+contrastadas, margen inicial de dos horas, datos inválidos o sin
+liquidación concluyente.
+
+El informe íntegro, sin truncarlo por los límites de Telegram, se
+guarda en `output/verificacion_resultados_telegram.json` y solo cubre
+los **últimos siete días de partidos con selecciones prospectivas**.
+Los encuentros sin pronósticos archivados NO forman parte de este
+inventario. La etiqueta «revisable» significa que ha pasado el margen
+mínimo de dos horas y que se han procesado fuentes históricas,
+verificaciones previas o ESPN; no afirma que se haya llamado en tiempo
+real a una API para cada partido. Los registros congelados del Top 3,
+las adicionales y el histórico de cuotas permanecen intactos.

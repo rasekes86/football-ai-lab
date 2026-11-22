@@ -24,7 +24,7 @@ const topMenu=[
  [bt("📅 Próximos partidos","p:0"),bt("🏟️ Ligas","leagues")],
  [bt("📊 Mercados","markets"),bt("💶 Cuotas >1,50","q")],
  [bt("✅ Resultados","results"),bt("🔄 Comprobar","verify")],
- [bt("❔ Ayuda","help")]
+ [bt("📋 Detalle por partido","detail"),bt("❔ Ayuda","help")]
 ];
 export const pct=x=>number(x)!==null?(x*100).toFixed(1).replace(".",",")+" %":"—";
 export const dec=x=>number(x)!==null?x.toFixed(2).replace(".",","):"—";
@@ -218,7 +218,8 @@ function results(source){
     "\nBrier: "+dec(global.brier):
    "Todavía no hay muestra prospectiva suficiente para calcular fiabilidad.")+
   "\n\nNo contamos resultados ausentes como fallos.",[
-   [bt("🔄 Comprobar resultados ahora","verify")],base]);
+   [bt("🔄 Comprobar resultados ahora","verify")],
+   [bt("📋 Ver detalle por partido","detail")],base]);
 }
 function help(){
  return output("❔ Puedes usar los botones o escribir:\n\n"+
@@ -305,9 +306,62 @@ function naturalDigest(list,action,now){
   "Pulsa un partido para ver todos sus mercados.",rows);
 }
 
+
+function verificationDetails(source,filter="all",page=0,now=new Date()){
+ const when=instant(source?.verificado_utc);
+ const full=Array.isArray(source?.partidos)?source.partidos:[];
+ if(when===null||!Array.isArray(source?.partidos))
+  return output("📋 Todavía no hay detalle por partido publicado.\n"+
+   "Ejecuta /comprobar y consulta este apartado cuando termine la revisión.",[
+   [bt("🔄 Comprobar","verify")],base]);
+ const age=now.getTime()-when;
+ const stale=(age>48*3600*1000||age< -300000);
+ const valid=x=>x&&typeof x==="object"&&
+  ["LIQUIDADO","PARCIAL","PENDIENTE","EN_ESPERA"].includes(x.estado);
+ const all=full.filter(valid);
+ const pending=filter==="pend",liquid=filter==="liquid";
+ const list=all.filter(m=>pending?m.estado!=="LIQUIDADO":liquid?m.estado==="LIQUIDADO":true);
+ const perPage=5,last=Math.max(0,Math.ceil(list.length/perPage)-1);
+ const index=Math.max(0,Math.min(last,Number(page)||0));
+ const part=list.slice(index*perPage,(index+1)*perPage);
+ const rows=[
+  [bt("Todos","d:all:0"),bt("Pendientes","d:pend:0"),bt("Liquidados","d:liquid:0")]
+ ];
+ const nav=[];
+ if(index>0)nav.push(bt("◀ Anterior","d:"+filter+":"+(index-1)));
+ if(index<last)nav.push(bt("Siguiente ▶","d:"+filter+":"+(index+1)));
+ if(nav.length)rows.push(nav);
+ rows.push([bt("🔄 Comprobar","verify"),bt("🏠 Menú","menu")]);
+ const status={LIQUIDADO:"✅ Liquidado",PARCIAL:"🟡 Parcial",
+               PENDIENTE:"⏳ Pendiente",EN_ESPERA:"🕒 En espera"};
+ const items=part.map(m=>{
+  const reason=Array.isArray(m.motivos)?m.motivos.filter(x=>typeof x==="string").slice(0,3).join("; "):"";
+  const top=m.top3||{},extra=m.adicional||{};
+  return status[m.estado]+" · "+showDate(m.fecha_utc)+"\n"+
+   short(String(m.local||""),31)+" – "+short(String(m.visitante||""),31)+" ("+short(String(m.liga||""),25)+")\n"+
+   "Top 3 "+Number(top.liquidadas||0)+"/"+Number(top.registradas||0)+
+   " · Adicional "+Number(extra.liquidadas||0)+"/"+Number(extra.registradas||0)+
+   (Number(m.nuevas_liquidaciones)>0?" · "+m.nuevas_liquidaciones+" nuevas":"")+
+   (reason?"\nMotivo: "+short(reason,180):"");
+ });
+ const counts=source.partidos_resumen||{};
+ const heading="📋 Partidos con pronósticos · Últimos 7 días\n"+
+  "Última revisión: "+showDate(source.verificado_utc)+" (Madrid)"+
+  (stale?" · ⚠️ Datos antiguos":"")+"\n"+
+  "Revisables (+2h): "+String(counts.revisables??"—")+
+  " · Liquidados: "+String(counts.liquidados??"—")+
+  " · Parciales: "+String(counts.parciales??"—")+
+  " · Pendientes: "+String(counts.pendientes??"—")+
+  " · En espera: "+String(counts.en_espera??"—");
+ return output(heading+"\n\n"+(items.join("\n\n")||"Sin partidos en este filtro.")+
+  "\n\nPágina "+(index+1)+"/"+(last+1)+
+  ". Solo partidos con pronósticos registrados antes del inicio.",rows);
+}
+
 export function interpret(text){
  const q=flat(text);
  if(!q||["start","menu","hola","inicio","buenas"].includes(q))return "menu";
+ if(q==="detalle"||q==="detalle partidos"||q==="detalle resultados"||q==="partidos comprobados"||q==="ver detalle")return "detail";
  // Los comandos anteriores conservan su comportamiento y las consultas
  // compuestas no sustituyen las fuentes de cuotas o fiabilidad.
  if(/\b(comprobar|verificar|actualizar resultados)\b/.test(q))return "verify";
@@ -355,6 +409,11 @@ export function reply(action,feeds={},now=new Date()){
  if(action==="leagues")return leagues();
  if(action==="markets")return markets();
  if(action==="results")return results(feeds.reliability||{});
+ if(action==="detail")return verificationDetails(feeds.verification||{},"all",0,now);
+ if(/^d:(all|pend|liquid):\d{1,3}$/.test(action)){
+  const [,filter,page]=action.split(":");
+  return verificationDetails(feeds.verification||{},filter,Number(page),now);
+ }
  if(action==="verify")return output("🔄 Comprobación de partidos terminados: solo Top 3 + adicional >1,50.",[
    [bt("🔄 Solicitar comprobación","verify")],base]);
  const source=feeds.forecast||{};

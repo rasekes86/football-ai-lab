@@ -134,3 +134,30 @@ test("error de lectura de Actions se distingue del permiso de ejecución",async(
  const text=await requestVerification({FOOTBALL_ACTIONS_TOKEN:"test"},mock,new Date());
  assert.match(text,/lectura a Actions/);
 });
+
+
+test("el detalle usa un JSON público sin iniciar Actions ni consultar cuotas",async()=>{
+ const request={message:{message_id:29,chat:{id:234567890,type:"private"},
+  from:{id:234567890},text:"/detalle"}};
+ const calls=[];
+ const transport=async (url,options)=>{
+  calls.push(url);
+  if(url.includes("raw.githubusercontent.com"))
+   return new Response(JSON.stringify({
+    verificado_utc:"2026-11-16T19:00:00Z",
+    partidos_resumen:{revisables:1,liquidados:0,parciales:0,pendientes:1,en_espera:0},
+    partidos:[{id:"one",fecha_utc:"2026-11-16T13:00:00Z",liga:"LaLiga",
+     local:"Equipo A",visitante:"Equipo B",estado:"PENDIENTE",
+     top3:{liquidadas:0,registradas:3},adicional:{liquidadas:0,registradas:1},
+     motivos:["Sin marcador final contrastado"]}]
+   }),{headers:{"Content-Type":"application/json"},status:200});
+  return new Response(JSON.stringify({ok:true,result:{}}),
+   {headers:{"Content-Type":"application/json"}});
+ };
+ const res=await handle(message(request,await hookSecret(token)),env,transport);
+ assert.equal(res.status,200);
+ assert.ok(calls.some(url=>url.endsWith("/output/verificacion_resultados_telegram.json")));
+ assert.ok(calls.some(url=>url.includes("/sendMessage")));
+ assert.equal(calls.some(url=>url.includes("/dispatches")),false);
+ assert.equal(calls.some(url=>url.includes("pronosticos_mercados_futuros")),false);
+});
