@@ -1,15 +1,14 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-22T12:49:16.027541+00:00
+**UTC:** 2026-11-22T15:17:33.350348+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 122
-**Descartados por insuficiencia de datos:** 6
-**Históricos evaluados:** 35
-**Brier 1X2 medio:** 0.2110
+**Próximos partidos con pronóstico:** 114
+**Descartados por insuficiencia de datos:** 5
+**Históricos evaluados:** 38
+**Brier 1X2 medio:** 0.2024
 
 | Liga | Fecha UTC | Partido | Local | Empate | Visitante |
 |---|---|---|---:|---:|---:|
-| LaLiga | 2026-11-22T13:00 | Barcelona - Villarreal | 70.2% | 18.3% | 11.5% |
 | LaLiga | 2026-11-22T17:30 | Osasuna - Málaga | 51.5% | 25.1% | 23.4% |
 | LaLiga | 2026-11-22T20:00 | Getafe - Atlético Madrid | 31.7% | 29.0% | 39.3% |
 | LaLiga | 2026-11-23T20:00 | Levante - Elche | 43.6% | 23.5% | 32.9% |
@@ -27,8 +26,6 @@
 | LaLiga | 2026-12-05T15:15 | Rayo Vallecano - Levante | 49.7% | 26.7% | 23.6% |
 | LaLiga | 2026-12-05T17:30 | Villarreal - Real Sociedad | 56.5% | 21.4% | 22.1% |
 | LaLiga | 2026-12-05T20:00 | Barcelona - Celta Vigo | 66.8% | 21.3% | 11.9% |
-| Segunda División | 2026-11-22T13:00 | Córdoba - Real Oviedo | 35.6% | 25.1% | 39.3% |
-| Segunda División | 2026-11-22T15:15 | Sporting Gijón - Las Palmas | 44.9% | 24.5% | 30.6% |
 | Segunda División | 2026-11-22T17:30 | Girona - Eibar | 45.9% | 25.9% | 28.2% |
 | Segunda División | 2026-11-22T17:30 | RC Celta Fortuna - Real Valladolid | 47.6% | 22.5% | 29.9% |
 | Segunda División | 2026-11-22T20:00 | Burgos - Albacete | 47.3% | 28.5% | 24.2% |
@@ -48,7 +45,6 @@
 | Segunda División | 2026-12-05T15:15 | CD Sabadell - Eibar | 40.9% | 28.2% | 30.9% |
 | Segunda División | 2026-12-05T17:30 | FC Andorra - Real Oviedo | 32.8% | 24.8% | 42.4% |
 | Segunda División | 2026-12-05T20:00 | Tenerife - Eldense | 49.3% | 27.2% | 23.5% |
-| Premier League | 2026-11-22T14:00 | Hull City - Brighton & Hove Albion | 35.5% | 27.0% | 37.5% |
 | Premier League | 2026-11-22T16:30 | Liverpool - Manchester United | 44.3% | 26.8% | 29.0% |
 | Premier League | 2026-11-23T20:00 | Brentford - Everton | 45.2% | 27.7% | 27.1% |
 | Premier League | 2026-11-27T20:00 | Nottingham Forest - Chelsea | 30.1% | 27.8% | 42.2% |
@@ -78,7 +74,6 @@
 | Premier League | 2026-12-05T15:00 | Manchester United - Coventry City | 57.9% | 22.8% | 19.3% |
 | Premier League | 2026-12-05T17:30 | Nottingham Forest - Brighton & Hove Albion | 28.4% | 28.3% | 43.3% |
 | Premier League | 2026-12-05T20:00 | Brentford - Manchester City | 32.6% | 26.3% | 41.2% |
-| Bundesliga | 2026-11-22T14:30 | FC Augsburg - Mainz | 37.1% | 23.6% | 39.3% |
 | Bundesliga | 2026-11-22T16:30 | Werder Bremen - Hamburg SV | 47.8% | 25.1% | 27.1% |
 | Bundesliga | 2026-11-27T19:30 | Werder Bremen - Borussia Mönchengladbach | 47.4% | 24.6% | 28.0% |
 | Bundesliga | 2026-11-28T14:30 | Hamburg SV - Bayern Munich | 14.1% | 18.9% | 66.9% |
@@ -94,8 +89,6 @@
 | Bundesliga | 2026-12-05T14:30 | RB Leipzig - Mainz | 60.5% | 20.1% | 19.4% |
 | Bundesliga | 2026-12-05T14:30 | SC Freiburg - TSG Hoffenheim | 50.9% | 21.3% | 27.8% |
 | Bundesliga | 2026-12-05T17:30 | Eintracht Frankfurt - Werder Bremen | 47.2% | 23.5% | 29.2% |
-| Serie A | 2026-11-22T14:00 | Bologna - Udinese | 41.1% | 24.4% | 34.5% |
-| Serie A | 2026-11-22T14:00 | Sassuolo - Genoa | 38.6% | 24.2% | 37.2% |
 | Serie A | 2026-11-22T17:00 | AC Milan - Frosinone | 61.4% | 21.1% | 17.4% |
 | Serie A | 2026-11-22T19:45 | Atalanta - Internazionale | 26.8% | 24.0% | 49.3% |
 | Serie A | 2026-11-23T19:45 | Monza - Fiorentina | 28.3% | 23.8% | 47.9% |
@@ -113,7 +106,6 @@
 | Serie A | 2026-12-05T14:00 | Monza - Como | 13.9% | 20.9% | 65.3% |
 | Serie A | 2026-12-05T17:00 | Frosinone - Internazionale | 22.1% | 21.1% | 56.8% |
 | Serie A | 2026-12-05T19:45 | Napoli - Lecce | 61.2% | 22.8% | 16.0% |
-| Ligue 1 | 2026-11-22T14:00 | Paris FC - Angers | 58.1% | 23.5% | 18.4% |
 | Ligue 1 | 2026-11-22T16:15 | Lorient - Stade Rennais | 44.5% | 21.4% | 34.1% |
 | Ligue 1 | 2026-11-22T19:45 | Marseille - Le Mans | 64.7% | 18.9% | 16.4% |
 | Ligue 1 | 2026-11-27T19:45 | Brest - Paris FC | 41.7% | 25.9% | 32.4% |
@@ -155,21 +147,20 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **3** / 122. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **1** / 114. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
 Pronósticos archivados: **158**
-Resultados reales verificados: **35**
+Resultados reales verificados: **38**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
-Brier prospectivo: **0.21101**; log loss: **1.0395**. Acierto del favorito: **51.4%**.
+Brier prospectivo: **0.20243**; log loss: **1.00389**. Acierto del favorito: **52.6%**.
 
 ## Encuentros descartados
 
-- Racing Santander - Real Sociedad: historial insuficiente o nombre desconocido
 - Levante - Racing Santander: historial insuficiente o nombre desconocido
 - Deportivo - Barcelona: historial insuficiente o nombre desconocido
 - Racing Santander - Deportivo: historial insuficiente o nombre desconocido
@@ -188,13 +179,13 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **49**; finalizadas: **28**; pendientes: **21**.
+Selecciones archivadas: **49**; finalizadas: **31**; pendientes: **18**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **474** selecciones archivadas antes del partido; **105** resueltas.
+Seguimiento real del Top 3: **474** selecciones archivadas antes del partido; **114** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 5596 líneas congeladas, 1120 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 5596 líneas congeladas, 1252 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

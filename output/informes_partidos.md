@@ -1,53 +1,5 @@
 # Football AI Lab — dossiers completos de la jornada
 
-## Barcelona – Villarreal
-
-**LaLiga · 2026-11-22T13:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 70.2% | 18.3% | 11.5% | 66.8% |
-
-### Forma, descanso y estadísticas
-
-**Barcelona:** posición 1 · 33 puntos.
-- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 18,2, a puerta 7,0, córners 5,0, amarillas 2,0
-
-**Villarreal:** posición 9 · 15 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · E · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 18,0, a puerta 5,0, córners 7,6, amarillas 2,4
-
-### Enfrentamientos previos
-- 2026-02-28: Barcelona 4-1 Villarreal
-- 2025-12-21: Villarreal 0-2 Barcelona
-- 2025-05-18: Barcelona 2-3 Villarreal
-- 2024-09-22: Villarreal 1-5 Barcelona
-- 2024-01-27: Barcelona 3-5 Villarreal
-
-### Tres selecciones del modelo (experimentales)
-1. **Más de 1,5 goles** (Total goles): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 84.4% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **12: gana uno de los dos** (Doble oportunidad): 81.7% · cuota justa 1.22; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 71.6% / 15.4% / 12.9%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T12:50:05+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Osasuna – Málaga
 
 **LaLiga · 2026-11-22T17:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -621,7 +573,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Barcelona:** posición 1 · 33 puntos.
+**Barcelona:** posición 1 · 36 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 18,2, a puerta 7,0, córners 5,0, amarillas 2,0
@@ -809,7 +761,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Barcelona:** posición 1 · 33 puntos.
+**Barcelona:** posición 1 · 36 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
 - Días desde el último partido liguero registrado: 27
 - Medias recientes: Tiros 18,2, a puerta 7,0, córners 5,0, amarillas 2,0
@@ -833,96 +785,6 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Córdoba – Real Oviedo
-
-**Segunda División · 2026-11-22T13:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 35.6% | 25.1% | 39.3% | 47.2% |
-
-### Forma, descanso y estadísticas
-
-**Córdoba:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 2E · 0D; secuencia: E · V · E · V · V
-- Días desde el último partido liguero registrado: 8
-- Medias recientes: Tiros 16,6, a puerta 6,0, córners 8,8, amarillas 3,8
-
-**Real Oviedo:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: D · V · D · E · V
-- Días desde el último partido liguero registrado: 8
-- Medias recientes: Tiros 17,4, a puerta 6,6, córners 5,2, amarillas 3,4
-
-### Enfrentamientos previos
-- 2025-04-20: Cordoba 0-0 Oviedo
-- 2024-12-21: Oviedo 2-3 Cordoba
-
-### Tres selecciones del modelo (experimentales)
-1. **Real Oviedo +1,5** (Hándicap 2 vías (medio gol)): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Oviedo: menos de 2,5 goles** (Goles equipo): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 21,5 tiros totales** (Tiros totales): 78.6% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 46.4% / 25.0% / 28.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T12:49:33+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Sporting Gijón – Las Palmas
-
-**Segunda División · 2026-11-22T15:15:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 44.9% | 24.5% | 30.6% | 48.9% |
-
-### Forma, descanso y estadísticas
-
-**Sporting Gijón:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 2V · 1E · 2D; secuencia: E · D · V · D · V
-- Días desde el último partido liguero registrado: 8
-- Medias recientes: Tiros 14,6, a puerta 5,2, córners 4,8, amarillas 3,4
-
-**Las Palmas:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · V · V · D
-- Días desde el último partido liguero registrado: 7
-- Medias recientes: Tiros 10,4, a puerta 4,2, córners 5,2, amarillas 3,4
-
-### Enfrentamientos previos
-- 2026-03-22: Las Palmas 1-0 Sp Gijon
-- 2025-11-02: Sp Gijon 0-0 Las Palmas
-
-### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 82.5% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Sporting Gijón: menos de 2,5 goles** (Goles equipo): 80.7% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Las Palmas +1,5** (Hándicap 2 vías (medio gol)): 76.9% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 54.6% / 25.7% / 19.7%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1797,50 +1659,6 @@
 
 ---
 
-## Hull City – Brighton & Hove Albion
-
-**Premier League · 2026-11-22T14:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 35.5% | 27.0% | 37.5% | 49.2% |
-
-### Forma, descanso y estadísticas
-
-**Hull City:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 3E · 2D; secuencia: D · E · E · D · E
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 8,4, a puerta 2,4, córners 4,8, amarillas 2,0
-
-**Brighton & Hove Albion:** posición 2 · 22 puntos.
-- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 14,8, a puerta 4,6, córners 4,8, amarillas 2,4
-
-### Enfrentamientos previos
-- No disponibles en el histórico consultado
-
-### Tres selecciones del modelo (experimentales)
-1. **Brighton & Hove Albion: menos de 2,5 goles** (Goles equipo): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Hull City: menos de 2,5 goles** (Goles equipo): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Hull City +1,5** (Hándicap 2 vías (medio gol)): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 27.7% / 23.6% / 48.7%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T12:50:07+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Liverpool – Manchester United
 
 **Premier League · 2026-11-22T16:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -1877,7 +1695,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.7% / 26.4% / 26.9%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T15:18:03+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3193,54 +3011,6 @@
 
 ---
 
-## FC Augsburg – Mainz
-
-**Bundesliga · 2026-11-22T14:30:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 37.1% | 23.6% | 39.3% | 61.0% |
-
-### Forma, descanso y estadísticas
-
-**FC Augsburg:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 2E · 3D; secuencia: D · D · E · D · E
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 19,2, a puerta 6,2, córners 5,0, amarillas 1,8
-
-**Mainz:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · V · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 14,2, a puerta 4,4, córners 5,8, amarillas 3,0
-
-### Enfrentamientos previos
-- 2026-02-07: Mainz 2-0 Augsburg
-- 2025-09-20: Augsburg 1-4 Mainz
-- 2025-02-08: Mainz 0-0 Augsburg
-- 2024-09-20: Augsburg 2-3 Mainz
-- 2024-02-17: Mainz 1-0 Augsburg
-
-### Tres selecciones del modelo (experimentales)
-1. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 83.9% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Mainz +1,5** (Hándicap 2 vías (medio gol)): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 1,5 goles** (Total goles): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 50.2% / 22.6% / 27.2%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Werder Bremen – Hamburg SV
 
 **Bundesliga · 2026-11-22T16:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -3947,101 +3717,6 @@
 
 ---
 
-## Bologna – Udinese
-
-**Serie A · 2026-11-22T14:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 41.1% | 24.4% | 34.5% | 50.2% |
-
-### Forma, descanso y estadísticas
-
-**Bologna:** posición 9 · 17 puntos.
-- Últimos partidos: 4V · 0E · 1D; secuencia: V · V · V · V · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 14,6, a puerta 5,8, córners 6,2, amarillas 2,6
-
-**Udinese:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
-- Días desde el último partido liguero registrado: 16
-- Medias recientes: Tiros 14,8, a puerta 4,8, córners 5,2, amarillas 1,2
-
-### Enfrentamientos previos
-- 2026-02-23: Bologna 1-0 Udinese
-- 2025-11-22: Udinese 0-3 Bologna
-- 2025-04-28: Udinese 0-0 Bologna
-- 2024-08-18: Bologna 1-1 Udinese
-- 2024-04-28: Bologna 1-1 Udinese
-
-### Tres selecciones del modelo (experimentales)
-1. **Bologna: menos de 2,5 goles** (Goles equipo): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 86.6% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Udinese +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 52.6% / 26.1% / 21.3%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Sassuolo – Genoa
-
-**Serie A · 2026-11-22T14:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 38.6% | 24.2% | 37.2% | 52.1% |
-
-### Forma, descanso y estadísticas
-
-**Sassuolo:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 8,6, a puerta 2,0, córners 3,2, amarillas 1,6
-
-**Genoa:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 0E · 2D; secuencia: D · V · V · V · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 12,0, a puerta 3,0, córners 3,4, amarillas 1,4
-
-### Enfrentamientos previos
-- 2026-04-12: Genoa 2-1 Sassuolo
-- 2025-11-03: Sassuolo 1-2 Genoa
-- 2024-05-12: Genoa 2-1 Sassuolo
-- 2023-12-22: Sassuolo 1-2 Genoa
-
-### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Sassuolo: menos de 2,5 goles** (Goles equipo): 83.9% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Genoa: menos de 2,5 goles** (Goles equipo): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 36.7% / 26.0% / 37.3%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## AC Milan – Frosinone
 
 **Serie A · 2026-11-22T17:00:00+00:00 · modelo poisson70-elo30-0.2**
@@ -4059,7 +3734,7 @@
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 10,2, a puerta 4,4, córners 2,2, amarillas 1,8
 
-**Frosinone:** posición 6 · 20 puntos.
+**Frosinone:** posición 7 · 20 puntos.
 - Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · E · V
 - Días desde el último partido liguero registrado: 15
 - Medias recientes: Tiros 24,0, a puerta 9,2, córners 8,8, amarillas 1,0
@@ -4239,7 +3914,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Frosinone:** posición 6 · 20 puntos.
+**Frosinone:** posición 7 · 20 puntos.
 - Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · E · V
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 24,0, a puerta 9,2, córners 8,8, amarillas 1,0
@@ -4526,7 +4201,7 @@
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 14,4, a puerta 4,8, córners 5,4, amarillas 1,2
 
-**Juventus:** posición 7 · 18 puntos.
+**Juventus:** posición 6 · 21 puntos.
 - Últimos partidos: 2V · 1E · 2D; secuencia: E · V · D · V · D
 - Días desde el último partido liguero registrado: 21
 - Medias recientes: Tiros 14,0, a puerta 3,6, córners 8,4, amarillas 1,4
@@ -4757,7 +4432,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Frosinone:** posición 6 · 20 puntos.
+**Frosinone:** posición 7 · 20 puntos.
 - Últimos partidos: 3V · 1E · 1D; secuencia: D · V · V · E · V
 - Días desde el último partido liguero registrado: 28
 - Medias recientes: Tiros 24,0, a puerta 9,2, córners 8,8, amarillas 1,0
@@ -4826,51 +4501,6 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
-## Paris FC – Angers
-
-**Ligue 1 · 2026-11-22T14:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 58.1% | 23.5% | 18.4% | 50.7% |
-
-### Forma, descanso y estadísticas
-
-**Paris FC:** posición 3 · 20 puntos.
-- Últimos partidos: 3V · 0E · 2D; secuencia: V · V · D · V · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 13,8, a puerta 5,2, córners 4,2, amarillas 2,8
-
-**Angers:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 9,4, a puerta 3,6, córners 4,4, amarillas 1,4
-
-### Enfrentamientos previos
-- 2026-01-25: Paris FC 0-0 Angers
-- 2025-08-17: Angers 1-0 Paris FC
-
-### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Angers +2,5** (Hándicap 2 vías (medio gol)): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Paris FC: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 68.8% / 17.9% / 13.3%. No sustituye al modelo principal.
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar

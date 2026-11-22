@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-22T12:49:16.027541+00:00",
+  "timestamp_utc": "2026-11-22T15:17:33.350348+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -74,8 +74,8 @@
         {
           "nombre": "Barcelona",
           "posicion": 1,
-          "puntos": 33,
-          "jugados": 12
+          "puntos": 36,
+          "jugados": 13
         },
         {
           "nombre": "Real Madrid",
@@ -123,7 +123,7 @@
           "nombre": "Villarreal",
           "posicion": 9,
           "puntos": 15,
-          "jugados": 12
+          "jugados": 13
         },
         {
           "nombre": "Espanyol",
@@ -232,15 +232,15 @@
           "jugados": 11
         },
         {
-          "nombre": "Frosinone",
+          "nombre": "Juventus",
           "posicion": 6,
-          "puntos": 20,
-          "jugados": 11
+          "puntos": 21,
+          "jugados": 12
         },
         {
-          "nombre": "Juventus",
+          "nombre": "Frosinone",
           "posicion": 7,
-          "puntos": 18,
+          "puntos": 20,
           "jugados": 11
         },
         {
@@ -419,11 +419,11 @@
     },
     {
       "equipo": "Hull City",
-      "bajas_reportadas": 15,
+      "bajas_reportadas": 16,
       "estados": {
+        "doubtful": 2,
         "unavailable": 9,
-        "injured": 5,
-        "doubtful": 1
+        "injured": 5
       }
     },
     {

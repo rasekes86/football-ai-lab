@@ -1,15 +1,15 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-22T12:49:16.027541+00:00",
+  "calculado_utc": "2026-11-22T15:17:33.350348+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-22T12:49:16.027541+00:00",
-    "objetivos_conteo": 13,
-    "completos": 13,
+    "calculado_utc": "2026-11-22T15:17:33.350348+00:00",
+    "objetivos_conteo": 15,
+    "completos": 15,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 3,
+    "summaries_consultados": 3,
+    "campos_recuperados": 36,
     "campos_recuperados_cache": 362,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
@@ -185,6 +185,32 @@
         "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-3"
+      },
+      {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-22",
+        "local_normalizado": "barcelona",
+        "visitante_normalizado": "villarreal",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "3-2"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-22",
+        "local_normalizado": "cordoba",
+        "visitante_normalizado": "oviedo",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "3-0"
       }
     ],
     "incompletos_por_motivo": {
@@ -193,8 +219,8 @@
       "ESTADISTICAS_INCOMPLETAS": 0
     },
     "exploracion": {
-      "objetivos_conteo": 28,
-      "completos": 28,
+      "objetivos_conteo": 31,
+      "completos": 31,
       "incompletos": 0,
       "objetivos_detalle": [
         {
@@ -638,11 +664,59 @@
           "motivo": "COMPLETO",
           "marcador_verificado": true,
           "marcador": "0-3"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-22",
+          "local_normalizado": "juventus",
+          "visitante_normalizado": "venezia",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "4-0"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-22",
+          "local_normalizado": "barcelona",
+          "visitante_normalizado": "villarreal",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "3-2"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-22",
+          "local_normalizado": "cordoba",
+          "visitante_normalizado": "oviedo",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "3-0"
         }
       ]
     },
-    "partidos_con_faltas": 35,
-    "objetivos_faltas": 35,
+    "partidos_con_faltas": 38,
+    "objetivos_faltas": 38,
     "limites": {
       "scoreboards": 24,
       "summaries": 32
@@ -1505,6 +1579,81 @@
         "away_yellow": 3,
         "away_red": 0,
         "away_fouls": 10
+      }
+    },
+    {
+      "liga_codigo": "I1",
+      "fecha": "2026-11-22",
+      "local": "Juventus",
+      "visitante": "Venezia",
+      "goles_local": 4,
+      "goles_visitante": 0,
+      "event_id": "401875008",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008",
+      "verificado_utc": "2026-11-22T15:17:33.350348+00:00",
+      "estadisticas": {
+        "home_shots": 12,
+        "home_on_target": 8,
+        "home_corners": 5,
+        "home_yellow": 0,
+        "home_red": 0,
+        "home_fouls": 11,
+        "away_shots": 13,
+        "away_on_target": 1,
+        "away_corners": 2,
+        "away_yellow": 0,
+        "away_red": 0,
+        "away_fouls": 11
+      }
+    },
+    {
+      "liga_codigo": "SP1",
+      "fecha": "2026-11-22",
+      "local": "Barcelona",
+      "visitante": "Villarreal",
+      "goles_local": 3,
+      "goles_visitante": 2,
+      "event_id": "401882804",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804",
+      "verificado_utc": "2026-11-22T15:17:33.350348+00:00",
+      "estadisticas": {
+        "home_shots": 30,
+        "home_on_target": 9,
+        "home_corners": 10,
+        "home_yellow": 2,
+        "home_red": 0,
+        "home_fouls": 11,
+        "away_shots": 4,
+        "away_on_target": 2,
+        "away_corners": 0,
+        "away_yellow": 4,
+        "away_red": 1,
+        "away_fouls": 19
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-22",
+      "local": "Córdoba",
+      "visitante": "Real Oviedo",
+      "goles_local": 3,
+      "goles_visitante": 0,
+      "event_id": "401882300",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300",
+      "verificado_utc": "2026-11-22T15:17:33.350348+00:00",
+      "estadisticas": {
+        "home_shots": 15,
+        "home_on_target": 8,
+        "home_corners": 7,
+        "home_yellow": 3,
+        "home_red": 0,
+        "home_fouls": 16,
+        "away_shots": 6,
+        "away_on_target": 2,
+        "away_corners": 4,
+        "away_yellow": 5,
+        "away_red": 0,
+        "away_fouls": 18
       }
     }
   ]

@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 49 · **Finalizadas:** 28 · **Pendientes:** 21
+**Registradas:** 49 · **Finalizadas:** 31 · **Pendientes:** 18
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -21,7 +21,7 @@
 | Nice – Paris Saint-Germain | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 62.0% | 1.85 | Fallada | -1.000 |
 | Troyes – Le Havre AC | Sí (OFRECIDA_API_REGISTRADA) | 64.7% | 1.67 | Acertada | 0.667 |
 | Real Madrid – Celta Vigo | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 76.4% | 1.85 | Acertada | 0.850 |
-| Barcelona – Villarreal | Menos de 4,5 goles (OFRECIDA_API_REGISTRADA) | 73.7% | 1.73 | Pendiente | — |
+| Barcelona – Villarreal | Menos de 4,5 goles (OFRECIDA_API_REGISTRADA) | 73.7% | 1.73 | Fallada | -1.000 |
 | Osasuna – Málaga | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 56.4% | 1.88 | Pendiente | — |
 | Getafe – Atlético Madrid | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 67.8% | 1.82 | Pendiente | — |
 | Real Sociedad II – Cádiz | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.6% | 1.98 | Fallada | -1.000 |
@@ -34,7 +34,7 @@
 | FC Augsburg – Mainz | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.3% | 1.80 | Pendiente | — |
 | Werder Bremen – Hamburg SV | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 74.6% | 1.61 | Pendiente | — |
 | Parma – AS Roma | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 78.5% | 1.61 | Fallada | -1.000 |
-| Juventus – Venezia | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.4% | 1.53 | Pendiente | — |
+| Juventus – Venezia | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.4% | 1.53 | Fallada | -1.000 |
 | AC Milan – Frosinone | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 65.7% | 1.93 | Pendiente | — |
 | Atalanta – Internazionale | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.8% | 1.80 | Pendiente | — |
 | AS Monaco – AJ Auxerre | Sí (OFRECIDA_API_REGISTRADA) | 59.4% | 1.75 | Acertada | 0.750 |
@@ -46,7 +46,7 @@
 | RC Celta Fortuna – Real Valladolid | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.1% | 1.73 | Pendiente | — |
 | Marseille – Le Mans | Sí (OFRECIDA_API_REGISTRADA) | 64.2% | 1.67 | Pendiente | — |
 | FC Andorra – Leganés | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.8% | 2.00 | Fallada | -1.000 |
-| Córdoba – Real Oviedo | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.8% | 2.25 | Pendiente | — |
+| Córdoba – Real Oviedo | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.8% | 2.25 | Fallada | -1.000 |
 | Burgos – Albacete | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 71.2% | 1.75 | Pendiente | — |
 | Levante – Elche | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 63.4% | 1.67 | Pendiente | — |
 | Ceuta – Almería | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.6% | 2.15 | Pendiente | — |

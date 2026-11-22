@@ -1,15 +1,15 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-22T12:49:16.027541+00:00",
+  "calculado_utc": "2026-11-22T15:17:33.350348+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-22T12:49:16.027541+00:00",
-    "objetivos_conteo": 13,
-    "completos": 13,
+    "calculado_utc": "2026-11-22T15:17:33.350348+00:00",
+    "objetivos_conteo": 15,
+    "completos": 15,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 3,
+    "summaries_consultados": 3,
+    "campos_recuperados": 36,
     "campos_recuperados_cache": 362,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
@@ -185,6 +185,32 @@
         "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-3"
+      },
+      {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-22",
+        "local_normalizado": "barcelona",
+        "visitante_normalizado": "villarreal",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "3-2"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-22",
+        "local_normalizado": "cordoba",
+        "visitante_normalizado": "oviedo",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "3-0"
       }
     ],
     "incompletos_por_motivo": {
@@ -193,8 +219,8 @@
       "ESTADISTICAS_INCOMPLETAS": 0
     },
     "exploracion": {
-      "objetivos_conteo": 28,
-      "completos": 28,
+      "objetivos_conteo": 31,
+      "completos": 31,
       "incompletos": 0,
       "objetivos_detalle": [
         {
@@ -638,11 +664,59 @@
           "motivo": "COMPLETO",
           "marcador_verificado": true,
           "marcador": "0-3"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-22",
+          "local_normalizado": "juventus",
+          "visitante_normalizado": "venezia",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "4-0"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-22",
+          "local_normalizado": "barcelona",
+          "visitante_normalizado": "villarreal",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "3-2"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-22",
+          "local_normalizado": "cordoba",
+          "visitante_normalizado": "oviedo",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "3-0"
         }
       ]
     },
-    "partidos_con_faltas": 35,
-    "objetivos_faltas": 35,
+    "partidos_con_faltas": 38,
+    "objetivos_faltas": 38,
     "limites": {
       "scoreboards": 24,
       "summaries": 32
@@ -4323,43 +4397,104 @@
       "local": "Juventus",
       "visitante": "Venezia",
       "fecha_utc": "2026-11-22T11:30:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "4-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 12,
+          "visitante": 13,
+          "total": 25,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 8,
+          "visitante": 1,
+          "total": 9,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 5,
+          "visitante": 2,
+          "total": 7,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 11,
+          "total": 22,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "I1|202611221130|juventus|venezia|Goles equipo|Venezia: menos de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Venezia: menos de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 4-0; resultado observado 0."
         },
         {
           "clave": "I1|202611221130|juventus|venezia|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "4",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 4-0; resultado observado 4."
         },
         {
           "clave": "I1|202611221130|juventus|venezia|Doble oportunidad|12: gana uno de los dos",
           "mercado": "Doble oportunidad",
           "seleccion": "12: gana uno de los dos",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "H",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 4-0; resultado observado H."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "SP1|202611221300|barcelona|villarreal",
@@ -4367,43 +4502,104 @@
       "local": "Barcelona",
       "visitante": "Villarreal",
       "fecha_utc": "2026-11-22T13:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "3-2",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 30,
+          "visitante": 4,
+          "total": 34,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 9,
+          "visitante": 2,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 10,
+          "visitante": 0,
+          "total": 10,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 4,
+          "total": 6,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 1,
+          "total": 1,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 19,
+          "total": 30,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP1|202611221300|barcelona|villarreal|Total goles|Más de 1,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "5",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-2; resultado observado 5."
         },
         {
           "clave": "SP1|202611221300|barcelona|villarreal|Tiros totales|Más de 19,5 tiros totales",
           "mercado": "Tiros totales",
           "seleccion": "Más de 19,5 tiros totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "34",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+          ],
+          "explicacion": "ACIERTO: Tiros totales: 30 local + 4 visitante = 34; línea 19.5."
         },
         {
           "clave": "SP1|202611221300|barcelona|villarreal|Doble oportunidad|12: gana uno de los dos",
           "mercado": "Doble oportunidad",
           "seleccion": "12: gana uno de los dos",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "H",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-2; resultado observado H."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "SP2|202611221300|cordoba|oviedo",
@@ -4411,43 +4607,104 @@
       "local": "Córdoba",
       "visitante": "Real Oviedo",
       "fecha_utc": "2026-11-22T13:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "3-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 15,
+          "visitante": 6,
+          "total": 21,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 8,
+          "visitante": 2,
+          "total": 10,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 7,
+          "visitante": 4,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 3,
+          "visitante": 5,
+          "total": 8,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 16,
+          "visitante": 18,
+          "total": 34,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP2|202611221300|cordoba|oviedo|Hándicap 2 vías (medio gol)|Real Oviedo +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Real Oviedo +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "-3",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 3-0; resultado observado -3."
         },
         {
           "clave": "SP2|202611221300|cordoba|oviedo|Goles equipo|Real Oviedo: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Real Oviedo: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 3-0; resultado observado 0."
         },
         {
           "clave": "SP2|202611221300|cordoba|oviedo|Tiros totales|Más de 21,5 tiros totales",
           "mercado": "Tiros totales",
           "seleccion": "Más de 21,5 tiros totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "21",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+          ],
+          "explicacion": "FALLO: Tiros totales: 15 local + 6 visitante = 21; línea 21.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 1
     },
     {
       "id": "E0|202611221400|hull|brighton",
