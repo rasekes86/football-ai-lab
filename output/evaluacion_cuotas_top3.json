@@ -1,1 +1,174 @@
-{"version":"top3-bookmaker-prices-1.0","calculado_utc":"2026-11-22T22:00:15.768427+00:00","selecciones_originales":474,"con_cuota_observada":22,"sin_cuota_observada":452,"pendientes_con_cuota":10,"solapadas_adicional":0,"global":{"cotizadas":22,"liquidadas":12,"aciertos":10,"fallos":2,"acierto_pct":83.33,"beneficio_hipotetico_unidades":0.009,"roi_hipotetico_pct":0.08},"por_liga":{"Bundesliga":{"cotizadas":2,"liquidadas":1,"aciertos":1,"fallos":0,"acierto_pct":100.0,"beneficio_hipotetico_unidades":0.125,"roi_hipotetico_pct":12.5},"LaLiga":{"cotizadas":4,"liquidadas":2,"aciertos":2,"fallos":0,"acierto_pct":100.0,"beneficio_hipotetico_unidades":0.34,"roi_hipotetico_pct":17.0},"Ligue 1":{"cotizadas":4,"liquidadas":2,"aciertos":1,"fallos":1,"acierto_pct":50.0,"beneficio_hipotetico_unidades":-0.778,"roi_hipotetico_pct":-38.9},"Premier League":{"cotizadas":2,"liquidadas":1,"aciertos":1,"fallos":0,"acierto_pct":100.0,"beneficio_hipotetico_unidades":0.25,"roi_hipotetico_pct":25.0},"Segunda División":{"cotizadas":3,"liquidadas":2,"aciertos":2,"fallos":0,"acierto_pct":100.0,"beneficio_hipotetico_unidades":0.622,"roi_hipotetico_pct":31.1},"Serie A":{"cotizadas":7,"liquidadas":4,"aciertos":3,"fallos":1,"acierto_pct":75.0,"beneficio_hipotetico_unidades":-0.55,"roi_hipotetico_pct":-13.75}},"por_mercado":{"Total goles":{"cotizadas":22,"liquidadas":12,"aciertos":10,"fallos":2,"acierto_pct":83.33,"beneficio_hipotetico_unidades":0.009,"roi_hipotetico_pct":0.08}},"cobertura_contratos":{"Doble oportunidad":{"originales":37,"capturadas":0,"no_equivalentes":37,"futuras_sin_captura":0,"sin_prueba_prepartido":0},"Goles equipo":{"originales":171,"capturadas":0,"no_equivalentes":171,"futuras_sin_captura":0,"sin_prueba_prepartido":0},"Hándicap 2 vías (medio gol)":{"originales":93,"capturadas":0,"no_equivalentes":93,"futuras_sin_captura":0,"sin_prueba_prepartido":0},"Tarjetas amarillas totales":{"originales":9,"capturadas":0,"no_equivalentes":0,"futuras_sin_captura":5,"sin_prueba_prepartido":4},"Tiros a puerta totales":{"originales":25,"capturadas":0,"no_equivalentes":25,"futuras_sin_captura":0,"sin_prueba_prepartido":0},"Tiros totales":{"originales":23,"capturadas":0,"no_equivalentes":23,"futuras_sin_captura":0,"sin_prueba_prepartido":0},"Total goles":{"originales":116,"capturadas":22,"no_equivalentes":0,"futuras_sin_captura":71,"sin_prueba_prepartido":23}},"cobertura_nota":"Sin captura no confirma que se haya consultado; ningún mercado se sustituye por otro.","por_dia":{"2026-11-27":{"cotizadas":3,"liquidadas":0,"aciertos":0,"fallos":0,"acierto_pct":null,"beneficio_hipotetico_unidades":0,"roi_hipotetico_pct":null},"2026-11-23":{"cotizadas":3,"liquidadas":0,"aciertos":0,"fallos":0,"acierto_pct":null,"beneficio_hipotetico_unidades":0,"roi_hipotetico_pct":null},"2026-11-22":{"cotizadas":16,"liquidadas":12,"aciertos":10,"fallos":2,"acierto_pct":83.33,"beneficio_hipotetico_unidades":0.009,"roi_hipotetico_pct":0.08}},"presupuesto":{"proveedor_principal":"5DollarFootballAPI Free","maximo_interno_hora":24,"creditos_mensuales_consumidos":0,"consultas_ultima_hora":6,"otros_proveedores_de_pago":"DESACTIVADOS"},"nota":"Cuotas observadas antes del partido por proveedor externo, no precios garantizados al usuario ni apuestas realizadas. ROI SIMULADO solo sobre precios archivados de selecciones Top 3 activas, excluyendo solapamientos con la adicional. Sin cuota exacta no hay ROI; sin resultado no hay fallo."}
+{
+  "version": "top3-bookmaker-prices-1.0",
+  "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
+  "selecciones_originales": 474,
+  "con_cuota_observada": 22,
+  "sin_cuota_observada": 452,
+  "pendientes_con_cuota": 6,
+  "solapadas_adicional": 0,
+  "global": {
+    "cotizadas": 22,
+    "liquidadas": 16,
+    "aciertos": 13,
+    "fallos": 3,
+    "acierto_pct": 81.25,
+    "beneficio_hipotetico_unidades": -0.334,
+    "roi_hipotetico_pct": -2.09
+  },
+  "por_liga": {
+    "Bundesliga": {
+      "cotizadas": 2,
+      "liquidadas": 1,
+      "aciertos": 1,
+      "fallos": 0,
+      "acierto_pct": 100.0,
+      "beneficio_hipotetico_unidades": 0.125,
+      "roi_hipotetico_pct": 12.5
+    },
+    "LaLiga": {
+      "cotizadas": 4,
+      "liquidadas": 3,
+      "aciertos": 3,
+      "fallos": 0,
+      "acierto_pct": 100.0,
+      "beneficio_hipotetico_unidades": 0.402,
+      "roi_hipotetico_pct": 13.4
+    },
+    "Ligue 1": {
+      "cotizadas": 4,
+      "liquidadas": 3,
+      "aciertos": 2,
+      "fallos": 1,
+      "acierto_pct": 66.67,
+      "beneficio_hipotetico_unidades": -0.245,
+      "roi_hipotetico_pct": -8.17
+    },
+    "Premier League": {
+      "cotizadas": 2,
+      "liquidadas": 1,
+      "aciertos": 1,
+      "fallos": 0,
+      "acierto_pct": 100.0,
+      "beneficio_hipotetico_unidades": 0.25,
+      "roi_hipotetico_pct": 25.0
+    },
+    "Segunda División": {
+      "cotizadas": 3,
+      "liquidadas": 3,
+      "aciertos": 3,
+      "fallos": 0,
+      "acierto_pct": 100.0,
+      "beneficio_hipotetico_unidades": 0.684,
+      "roi_hipotetico_pct": 22.8
+    },
+    "Serie A": {
+      "cotizadas": 7,
+      "liquidadas": 5,
+      "aciertos": 3,
+      "fallos": 2,
+      "acierto_pct": 60.0,
+      "beneficio_hipotetico_unidades": -1.55,
+      "roi_hipotetico_pct": -31.0
+    }
+  },
+  "por_mercado": {
+    "Total goles": {
+      "cotizadas": 22,
+      "liquidadas": 16,
+      "aciertos": 13,
+      "fallos": 3,
+      "acierto_pct": 81.25,
+      "beneficio_hipotetico_unidades": -0.334,
+      "roi_hipotetico_pct": -2.09
+    }
+  },
+  "cobertura_contratos": {
+    "Doble oportunidad": {
+      "originales": 37,
+      "capturadas": 0,
+      "no_equivalentes": 37,
+      "futuras_sin_captura": 0,
+      "sin_prueba_prepartido": 0
+    },
+    "Goles equipo": {
+      "originales": 171,
+      "capturadas": 0,
+      "no_equivalentes": 171,
+      "futuras_sin_captura": 0,
+      "sin_prueba_prepartido": 0
+    },
+    "Hándicap 2 vías (medio gol)": {
+      "originales": 93,
+      "capturadas": 0,
+      "no_equivalentes": 93,
+      "futuras_sin_captura": 0,
+      "sin_prueba_prepartido": 0
+    },
+    "Tarjetas amarillas totales": {
+      "originales": 9,
+      "capturadas": 0,
+      "no_equivalentes": 0,
+      "futuras_sin_captura": 5,
+      "sin_prueba_prepartido": 4
+    },
+    "Tiros a puerta totales": {
+      "originales": 25,
+      "capturadas": 0,
+      "no_equivalentes": 25,
+      "futuras_sin_captura": 0,
+      "sin_prueba_prepartido": 0
+    },
+    "Tiros totales": {
+      "originales": 23,
+      "capturadas": 0,
+      "no_equivalentes": 23,
+      "futuras_sin_captura": 0,
+      "sin_prueba_prepartido": 0
+    },
+    "Total goles": {
+      "originales": 116,
+      "capturadas": 22,
+      "no_equivalentes": 0,
+      "futuras_sin_captura": 71,
+      "sin_prueba_prepartido": 23
+    }
+  },
+  "cobertura_nota": "Sin captura no confirma que se haya consultado; ningún mercado se sustituye por otro.",
+  "por_dia": {
+    "2026-11-27": {
+      "cotizadas": 3,
+      "liquidadas": 0,
+      "aciertos": 0,
+      "fallos": 0,
+      "acierto_pct": null,
+      "beneficio_hipotetico_unidades": 0,
+      "roi_hipotetico_pct": null
+    },
+    "2026-11-23": {
+      "cotizadas": 3,
+      "liquidadas": 0,
+      "aciertos": 0,
+      "fallos": 0,
+      "acierto_pct": null,
+      "beneficio_hipotetico_unidades": 0,
+      "roi_hipotetico_pct": null
+    },
+    "2026-11-22": {
+      "cotizadas": 16,
+      "liquidadas": 16,
+      "aciertos": 13,
+      "fallos": 3,
+      "acierto_pct": 81.25,
+      "beneficio_hipotetico_unidades": -0.334,
+      "roi_hipotetico_pct": -2.09
+    }
+  },
+  "presupuesto": {
+    "proveedor_principal": "5DollarFootballAPI Free",
+    "maximo_interno_hora": 24,
+    "creditos_mensuales_consumidos": 0,
+    "consultas_ultima_hora": 6,
+    "otros_proveedores_de_pago": "DESACTIVADOS"
+  },
+  "nota": "Cuotas observadas antes del partido por proveedor externo, no precios garantizados al usuario ni apuestas realizadas. ROI SIMULADO solo sobre precios archivados de selecciones Top 3 activas, excluyendo solapamientos con la adicional. Sin cuota exacta no hay ROI; sin resultado no hay fallo."
+}

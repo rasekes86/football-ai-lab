@@ -1,15 +1,15 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-22T21:06:07.877624+00:00",
+  "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-22T21:06:07.877624+00:00",
-    "objetivos_conteo": 18,
-    "completos": 18,
+    "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
+    "objetivos_conteo": 20,
+    "completos": 20,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 4,
+    "summaries_consultados": 4,
+    "campos_recuperados": 48,
     "campos_recuperados_cache": 554,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
@@ -226,6 +226,32 @@
         "marcador": "3-2"
       },
       {
+        "liga_codigo": "SP1",
+        "fecha": "2026-11-22",
+        "local_normalizado": "getafe",
+        "visitante_normalizado": "ath madrid",
+        "metricas_requeridas": [
+          "yellow"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "0-3"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-22",
+        "local_normalizado": "burgos",
+        "visitante_normalizado": "albacete",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "1-0"
+      },
+      {
         "liga_codigo": "SP2",
         "fecha": "2026-11-22",
         "local_normalizado": "cordoba",
@@ -258,8 +284,8 @@
       "ESTADISTICAS_INCOMPLETAS": 0
     },
     "exploracion": {
-      "objetivos_conteo": 40,
-      "completos": 40,
+      "objetivos_conteo": 43,
+      "completos": 43,
       "incompletos": 0,
       "objetivos_detalle": [
         {
@@ -787,6 +813,22 @@
         {
           "liga_codigo": "I1",
           "fecha": "2026-11-22",
+          "local_normalizado": "atalanta",
+          "visitante_normalizado": "inter",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "4-4"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-22",
           "local_normalizado": "bologna",
           "visitante_normalizado": "udinese",
           "metricas_requeridas": [
@@ -865,6 +907,38 @@
           "marcador": "3-2"
         },
         {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-22",
+          "local_normalizado": "getafe",
+          "visitante_normalizado": "ath madrid",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "0-3"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-22",
+          "local_normalizado": "burgos",
+          "visitante_normalizado": "albacete",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-0"
+        },
+        {
           "liga_codigo": "SP2",
           "fecha": "2026-11-22",
           "local_normalizado": "cordoba",
@@ -898,8 +972,8 @@
         }
       ]
     },
-    "partidos_con_faltas": 51,
-    "objetivos_faltas": 51,
+    "partidos_con_faltas": 55,
+    "objetivos_faltas": 55,
     "limites": {
       "scoreboards": 24,
       "summaries": 32
@@ -6260,43 +6334,104 @@
       "local": "Marseille",
       "visitante": "Le Mans",
       "fecha_utc": "2026-11-22T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "2-3",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 11,
+          "visitante": 18,
+          "total": 29,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 5,
+          "visitante": 9,
+          "total": 14,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 2,
+          "visitante": 5,
+          "total": 7,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 3,
+          "visitante": 4,
+          "total": 7,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 14,
+          "visitante": 11,
+          "total": 25,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "F1|202611221945|marseille|le mans|Doble oportunidad|1X: Marseille o empate",
           "mercado": "Doble oportunidad",
           "seleccion": "1X: Marseille o empate",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "A",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 2-3; resultado observado A."
         },
         {
           "clave": "F1|202611221945|marseille|le mans|Goles equipo|Marseille: más de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Marseille: más de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "2",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-3; resultado observado 2."
         },
         {
           "clave": "F1|202611221945|marseille|le mans|Total goles|Más de 2,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "5",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 2-3; resultado observado 5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "I1|202611221945|atalanta|inter",
@@ -6304,42 +6439,103 @@
       "local": "Atalanta",
       "visitante": "Internazionale",
       "fecha_utc": "2026-11-22T19:45:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "4-4",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 15,
+          "visitante": 16,
+          "total": 31,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 10,
+          "visitante": 6,
+          "total": 16,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 5,
+          "visitante": 6,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 1,
+          "total": 3,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 9,
+          "visitante": 10,
+          "total": 19,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "I1|202611221945|atalanta|inter|Total goles|Menos de 4,5 goles",
           "mercado": "Total goles",
           "seleccion": "Menos de 4,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "8",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 4-4; resultado observado 8."
         },
         {
           "clave": "I1|202611221945|atalanta|inter|Goles equipo|Internazionale: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Internazionale: menos de 2,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "4",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 4-4; resultado observado 4."
         },
         {
           "clave": "I1|202611221945|atalanta|inter|Doble oportunidad|12: gana uno de los dos",
           "mercado": "Doble oportunidad",
           "seleccion": "12: gana uno de los dos",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "D",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 4-4; resultado observado D."
         }
       ],
-      "evaluadas": 0,
+      "evaluadas": 3,
       "aciertos": 0
     },
     {
@@ -6348,43 +6544,104 @@
       "local": "Getafe",
       "visitante": "Atlético Madrid",
       "fecha_utc": "2026-11-22T20:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "0-3",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 11,
+          "visitante": 20,
+          "total": 31,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 1,
+          "visitante": 10,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 2,
+          "visitante": 7,
+          "total": 9,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 2,
+          "visitante": 2,
+          "total": 4,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 1,
+          "visitante": 0,
+          "total": 1,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 11,
+          "visitante": 11,
+          "total": 22,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP1|202611222000|getafe|ath madrid|Hándicap 2 vías (medio gol)|Getafe +1,5",
           "mercado": "Hándicap 2 vías (medio gol)",
           "seleccion": "Getafe +1,5",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "0",
+          "valor_real": "-3",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "FALLO: marcador final 0-3; resultado observado -3."
         },
         {
           "clave": "SP1|202611222000|getafe|ath madrid|Total goles|Más de 0,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "3",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 0-3; resultado observado 3."
         },
         {
           "clave": "SP1|202611222000|getafe|ath madrid|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
           "mercado": "Tarjetas amarillas totales",
           "seleccion": "Más de 2,5 tarjetas amarillas totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "4",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+          ],
+          "explicacion": "ACIERTO: Tarjetas amarillas: 2 local + 2 visitante = 4; línea 2.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 2
     },
     {
       "id": "SP2|202611222000|burgos|albacete",
@@ -6392,43 +6649,104 @@
       "local": "Burgos",
       "visitante": "Albacete",
       "fecha_utc": "2026-11-22T20:00:00+00:00",
-      "marcador": null,
-      "fuente_marcador": "",
-      "estadisticas": {},
+      "marcador": "1-0",
+      "fuente_marcador": "ESPN resultado final",
+      "estadisticas": {
+        "shots": {
+          "nombre": "Tiros totales",
+          "local": 14,
+          "visitante": 20,
+          "total": 34,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ]
+        },
+        "on_target": {
+          "nombre": "Tiros a puerta",
+          "local": 3,
+          "visitante": 2,
+          "total": 5,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ]
+        },
+        "corners": {
+          "nombre": "Córners",
+          "local": 4,
+          "visitante": 7,
+          "total": 11,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ]
+        },
+        "yellow": {
+          "nombre": "Tarjetas amarillas",
+          "local": 4,
+          "visitante": 1,
+          "total": 5,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ]
+        },
+        "red": {
+          "nombre": "Tarjetas rojas",
+          "local": 0,
+          "visitante": 0,
+          "total": 0,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ]
+        },
+        "fouls": {
+          "nombre": "Faltas cometidas",
+          "local": 15,
+          "visitante": 12,
+          "total": 27,
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ]
+        }
+      },
       "selecciones": [
         {
           "clave": "SP2|202611222000|burgos|albacete|Total goles|Más de 0,5 goles",
           "mercado": "Total goles",
           "seleccion": "Más de 0,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "1",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
         {
           "clave": "SP2|202611222000|burgos|albacete|Goles equipo|Albacete: menos de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Albacete: menos de 1,5 goles",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "0",
+          "fuentes": [
+            "ESPN resultado final"
+          ],
+          "explicacion": "ACIERTO: marcador final 1-0; resultado observado 0."
         },
         {
           "clave": "SP2|202611222000|burgos|albacete|Tiros totales|Más de 19,5 tiros totales",
           "mercado": "Tiros totales",
           "seleccion": "Más de 19,5 tiros totales",
-          "estado": "PENDIENTE",
-          "resultado": "",
-          "valor_real": "",
-          "fuentes": [],
-          "explicacion": "Aún no corresponde realizar la liquidación."
+          "estado": "FINALIZADO",
+          "resultado": "1",
+          "valor_real": "34",
+          "fuentes": [
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+          ],
+          "explicacion": "ACIERTO: Tiros totales: 14 local + 20 visitante = 34; línea 19.5."
         }
       ],
-      "evaluadas": 0,
-      "aciertos": 0
+      "evaluadas": 3,
+      "aciertos": 3
     },
     {
       "id": "SP2|202611231930|ceuta|almeria",

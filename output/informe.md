@@ -1,11 +1,11 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-22T20:41:25.284331+00:00
+**UTC:** 2026-11-22T23:17:55.618825+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
 **Próximos partidos con pronóstico:** 103
 **Descartados por insuficiencia de datos:** 5
-**Históricos evaluados:** 51
-**Brier 1X2 medio:** 0.1994
+**Históricos evaluados:** 55
+**Brier 1X2 medio:** 0.2031
 
 | Liga | Fecha UTC | Partido | Local | Empate | Visitante |
 |---|---|---|---:|---:|---:|
@@ -142,11 +142,11 @@ The Odds API se desactiva sin clave y autorización. InferSports usa el acceso s
 ## Seguimiento prospectivo real
 
 Pronósticos archivados: **158**
-Resultados reales verificados: **51**
+Resultados reales verificados: **55**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
 Este apartado no incluye los backtests retrospectivos.
-Brier prospectivo: **0.19939**; log loss: **0.99598**. Acierto del favorito: **51.0%**.
+Brier prospectivo: **0.20312**; log loss: **1.01279**. Acierto del favorito: **50.9%**.
 
 ## Encuentros descartados
 
@@ -168,13 +168,13 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **49**; finalizadas: **41**; pendientes: **8**.
+Selecciones archivadas: **52**; finalizadas: **45**; pendientes: **7**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **474** selecciones archivadas antes del partido; **153** resueltas.
+Seguimiento real del Top 3: **474** selecciones archivadas antes del partido; **165** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 5596 líneas congeladas, 1682 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 5596 líneas congeladas, 1830 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

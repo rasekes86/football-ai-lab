@@ -33,7 +33,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 44.4% / 24.0% / 31.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T20:42:13+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T22:50:57+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -154,7 +154,7 @@
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 13,0, a puerta 3,2, córners 5,6, amarillas 3,0
 
-**Atlético Madrid:** posición 3 · 28 puntos.
+**Atlético Madrid:** posición 3 · 31 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: D · V · V · V · V
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 16,2, a puerta 5,2, córners 6,4, amarillas 3,2
@@ -486,7 +486,7 @@
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 18,2, a puerta 7,0, córners 5,0, amarillas 2,0
 
-**Atlético Madrid:** posición 3 · 28 puntos.
+**Atlético Madrid:** posición 3 · 31 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: D · V · V · V · V
 - Días desde el último partido liguero registrado: 24
 - Medias recientes: Tiros 16,2, a puerta 5,2, córners 6,4, amarillas 3,2
@@ -738,7 +738,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 37.5% / 23.4% / 39.1%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T20:34:15+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T23:03:56+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3431,7 +3431,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 27.4% / 25.3% / 47.3%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T20:38:54+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-22T22:44:39+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -3592,7 +3592,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Internazionale:** posición 3 · 28 puntos.
+**Internazionale:** posición 3 · 29 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
 - Días desde el último partido liguero registrado: 20
 - Medias recientes: Tiros 19,8, a puerta 6,6, córners 6,6, amarillas 1,4
@@ -4023,7 +4023,7 @@
 - Días desde el último partido liguero registrado: 28
 - Medias recientes: Tiros 24,0, a puerta 9,2, córners 8,8, amarillas 1,0
 
-**Internazionale:** posición 3 · 28 puntos.
+**Internazionale:** posición 3 · 29 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
 - Días desde el último partido liguero registrado: 27
 - Medias recientes: Tiros 19,8, a puerta 6,6, córners 6,6, amarillas 1,4

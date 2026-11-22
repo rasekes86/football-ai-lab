@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-22T20:41:25.284331+00:00",
+  "timestamp_utc": "2026-11-22T23:17:55.618825+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -86,8 +86,8 @@
         {
           "nombre": "Atlético Madrid",
           "posicion": 3,
-          "puntos": 28,
-          "jugados": 12
+          "puntos": 31,
+          "jugados": 13
         },
         {
           "nombre": "Real Betis",
@@ -216,8 +216,8 @@
         {
           "nombre": "Internazionale",
           "posicion": 3,
-          "puntos": 28,
-          "jugados": 11
+          "puntos": 29,
+          "jugados": 12
         },
         {
           "nombre": "AC Milan",
@@ -294,7 +294,7 @@
           "nombre": "Marseille",
           "posicion": 5,
           "puntos": 18,
-          "jugados": 10
+          "jugados": 11
         },
         {
           "nombre": "Brest",
