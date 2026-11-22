@@ -52,7 +52,7 @@ def run(target=Path("output"),now=None,env=None):
     excluded={r["id"] for r in previous_offers if r.get("id") and r["id"] not in needed}
     quotes,compared,historical=build_real_odds(
         future,now,existing=archive,env=env,state=state,prior_quotes=previous,
-        excluded_ids=excluded)
+        excluded_ids=excluded,priority_ids=needed)
     state=quotes.pop("estado_consultas",state)
     frozen=freeze(previous_offers,{"selecciones":[]},selections,now,
                   comparisons=compared,top3=frozen_top)
