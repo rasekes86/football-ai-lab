@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "verificado_utc": "2026-11-22T21:06:07.877624+00:00",
+  "nuevas_liquidaciones": 0,
+  "top3": {
+    "registradas": 153,
+    "aciertos": 111,
+    "fallos": 30,
+    "pendientes": 12
+  },
+  "adicional": {
+    "registradas": 41,
+    "aciertos": 18,
+    "fallos": 19,
+    "pendientes": 4
+  },
+  "mensaje": "✅ Football AI Lab · Verificación terminada\nHora: 22/11/2026 22:06 (Madrid)\nNuevas selecciones liquidadas: 0\n\nÚltimos 7 días · Top 3 y adicional >1,50\n🎯 Top 3: 111 aciertos · 30 fallos · 12 pendientes\n💶 Adicional: 18 aciertos · 19 fallos · 4 pendientes\n\nSin marcador o estadística verificados = pendiente, nunca fallo.\nRentabilidad y cuotas, si figuran, son simulaciones.\nhttps://rasekes86.github.io/football-ai-lab/#performance",
+  "fuentes": {
+    "objetivos": 51,
+    "sin_marcador": 0,
+    "estadisticas_completas": 18,
+    "estadisticas_objetivo": 18
+  }
+}
