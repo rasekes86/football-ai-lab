@@ -10,7 +10,7 @@ on:
   # Daily uses GITHUB_TOKEN to commit output; that push cannot start
   # another push workflow. workflow_run explicitly handles daily updates.
   workflow_run:
-    workflows: ['Analisis futbol diario', 'Refresco escalonado de cuotas']
+    workflows: ['Analisis futbol diario', 'Refresco escalonado de cuotas', 'Verificar resultados desde Telegram']
     types: [completed]
 
 permissions:
