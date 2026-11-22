@@ -131,3 +131,45 @@ test("comprobar no se confunde con consultar resultados",()=>{
  const resultActions=reply("results",feeds,NOW).reply_markup.inline_keyboard.flat();
  assert.ok(resultActions.some(b=>b.callback_data==="verify"));
 });
+
+
+test("detalle por partido funciona sin fuente de pronósticos futuros",()=>{
+ const verification={verificado_utc:"2026-11-16T18:00:00Z",
+  partidos_resumen:{revisables:3,liquidados:1,parciales:1,pendientes:1,en_espera:0},
+  partidos:[
+   {id:"one",fecha_utc:"2026-11-16T14:00:00Z",liga:"LaLiga",
+    local:"Getafe",visitante:"Atlético Madrid",estado:"PENDIENTE",
+    top3:{liquidadas:0,registradas:3},adicional:{liquidadas:0,registradas:1},
+    motivos:["Sin marcador final contrastado"]},
+   {id:"two",fecha_utc:"2026-11-15T14:00:00Z",liga:"Premier League",
+    local:"Arsenal",visitante:"Chelsea",estado:"PARCIAL",
+    top3:{liquidadas:2,registradas:3},adicional:{liquidadas:1,registradas:1},
+    motivos:["Faltan estadísticas finales contrastadas"]},
+   {id:"three",fecha_utc:"2026-11-14T14:00:00Z",liga:"LaLiga",
+    local:"Betis",visitante:"Sevilla",estado:"LIQUIDADO",
+    top3:{liquidadas:3,registradas:3},adicional:{liquidadas:1,registradas:1},
+    motivos:[]}
+  ]};
+ assert.equal(interpret("/detalle"),"detail");
+ assert.equal(interpret("Detalle resultados"),"detail");
+ assert.ok(reply("menu",feeds,NOW).reply_markup.inline_keyboard.flat()
+  .some(b=>b.callback_data==="detail"));
+ const text=reply("detail",{verification},NOW);
+ assert.match(text.text,/Getafe/);
+ assert.match(text.text,/Sin marcador final contrastado/);
+ assert.match(text.text,/Arsenal/);
+ assert.match(text.text,/Betis/);
+ const onlyPending=reply("d:pend:0",{verification},NOW);
+ assert.match(onlyPending.text,/Getafe/);
+ assert.match(onlyPending.text,/Arsenal/);
+ assert.doesNotMatch(onlyPending.text,/Betis/);
+ const onlyLiquid=reply("d:liquid:0",{verification},NOW);
+ assert.match(onlyLiquid.text,/Betis/);
+ assert.doesNotMatch(onlyLiquid.text,/Getafe/);
+});
+test("si no se ha publicado detalle no inventa partidos",()=>{
+ const data=reply("detail",{},NOW);
+ assert.match(data.text,/Todavía no hay detalle/);
+ assert.ok(data.reply_markup.inline_keyboard.flat()
+  .some(b=>b.callback_data==="verify"));
+});
