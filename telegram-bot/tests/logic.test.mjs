@@ -120,3 +120,14 @@ test("las consultas compuestas no exponen datos antiguos ni alteran otros comand
  assert.equal(interpret("¿Cómo van los aciertos?"),"results");
  assert.match(reply("nl:SP2:tomorrow:desconocido:0",feeds,NOW).text,/Puedes usar/);
 });
+
+
+test("comprobar no se confunde con consultar resultados",()=>{
+ assert.equal(interpret("/comprobar"),"verify");
+ assert.equal(interpret("Comprobar resultados"),"verify");
+ assert.equal(interpret("/resultados"),"results");
+ const actions=reply("menu",feeds,NOW).reply_markup.inline_keyboard.flat();
+ assert.ok(actions.some(b=>b.callback_data==="verify"));
+ const resultActions=reply("results",feeds,NOW).reply_markup.inline_keyboard.flat();
+ assert.ok(resultActions.some(b=>b.callback_data==="verify"));
+});
