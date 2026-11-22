@@ -50,8 +50,8 @@ const ghHeaders=token=>({
 });
 /** Solo invocado tras validar firma de Telegram, chat privado e identidad. */
 export async function requestVerification(env,fetcher=fetch,now=new Date()){
- const token=String(env?.GITHUB_DISPATCH_TOKEN||"").trim();
- if(!token)return "⚠️ La verificación necesita configurar GITHUB_DISPATCH_TOKEN en el Worker. No he iniciado una revisión.";
+ const token=String(env?.FOOTBALL_ACTIONS_TOKEN||"").trim();
+ if(!token)return "⚠️ La verificación necesita configurar FOOTBALL_ACTIONS_TOKEN en el Worker. No he iniciado una revisión.";
  try{
   const runs=await fetcher(GH_WORKFLOW+"/runs?per_page=5",{
    headers:ghHeaders(token)});
