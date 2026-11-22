@@ -59,3 +59,49 @@ test("webhook callbacks usan edición y contestan la pulsación",async()=>{
  assert.match(calls[1][0],/editMessageText/);
  assert.match(calls[1][1].text,/Selecciona|mercado/);
 });
+
+
+test("sin secreto GitHub el botón informa y nunca lanza acciones",async()=>{
+ const calls=[];
+ const req={message:{message_id:22,chat:{id:234567890,type:"private"},
+             from:{id:234567890},text:"/comprobar"}};
+ const transport=async (url,options)=>{
+  calls.push([url,options]);
+  return new Response(JSON.stringify({ok:true,result:{}}),
+   {headers:{"Content-Type":"application/json"}});
+ };
+ const res=await handle(message(req,await hookSecret(token)),env,transport);
+ assert.equal(res.status,200);
+ assert.equal(calls.length,1);
+ assert.doesNotMatch(calls[0][0],/github/);
+ assert.match(JSON.parse(calls[0][1].body).text,/necesita configurar/);
+});
+test("despacho aceptado y protección contra repetición en 15 minutos",async()=>{
+ const {requestVerification}=await import("../src/index.mjs");
+ const runs={workflow_runs:[]};
+ let sent=0;
+ const transport=async (url,options)=>{
+  if(url.includes("/runs?"))return new Response(JSON.stringify(runs),{status:200});
+  if(url.includes("/dispatches")){sent++;return new Response(null,{status:204});}
+  throw Error("URL inesperada");
+ };
+ const arg={GITHUB_DISPATCH_TOKEN:"test-not-secret"};
+ const now=new Date("2026-11-22T20:01:00Z");
+ assert.match(await requestVerification(arg,transport,now),/recibido/);
+ assert.equal(sent,1);
+ runs.workflow_runs=[{head_branch:"main",created_at:"2026-11-22T20:00:00Z",status:"completed"}];
+ assert.match(await requestVerification(arg,transport,now),/15 minutos/);
+ assert.equal(sent,1);
+ runs.workflow_runs[0].status="in_progress";
+ assert.match(await requestVerification(arg,transport,now),/en marcha/);
+ assert.equal(sent,1);
+});
+test("chat ajeno no puede activar verificación aunque mande el comando",async()=>{
+ const request={message:{message_id:23,chat:{id:99,type:"private"},
+                from:{id:99},text:"/comprobar"}};
+ let network=false;
+ const res=await handle(message(request,await hookSecret(token)),
+  {...env,GITHUB_DISPATCH_TOKEN:"test"},()=>{network=true;throw Error("no");});
+ assert.equal(res.status,200);
+ assert.equal(network,false);
+});
