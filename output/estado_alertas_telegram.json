@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "last_delivery_utc": "2026-11-22T15:18:32.603939+00:00",
-  "last_daily_madrid": "2026-11-22",
+  "last_delivery_utc": "2026-11-23T15:16:28.761689+00:00",
+  "last_daily_madrid": "2026-11-23",
   "reported_keys": [
     "SP2|202611161930|albacete|celta b|double|Doble oportunidad|12: gana uno de los dos",
     "SP2|202611161930|albacete|celta b|double|Doble oportunidad|1X: Albacete o empate",
@@ -32,6 +32,14 @@
     "SP1|202611221300|barcelona|villarreal|goals|Total goles|Más de 0,5 goles",
     "SP1|202611221300|barcelona|villarreal|goals|Total goles|Más de 1,5 goles",
     "SP1|202611221300|barcelona|villarreal|goals|Total goles|Más de 2,5 goles",
-    "SP1|202611221300|barcelona|villarreal|on_target|Tiros a puerta totales|Más de 5,5 tiros a puerta totales"
+    "SP1|202611221300|barcelona|villarreal|on_target|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+    "SP1|202611222000|getafe|ath madrid|corners|Córners totales|Menos de 11,5 córners totales",
+    "SP1|202611222000|getafe|ath madrid|double|Doble oportunidad|12: gana uno de los dos",
+    "SP1|202611222000|getafe|ath madrid|double|Doble oportunidad|X2: empate o Atlético Madrid",
+    "SP1|202611222000|getafe|ath madrid|goals|Total goles|Menos de 2,5 goles",
+    "SP1|202611222000|getafe|ath madrid|goals|Total goles|Menos de 3,5 goles",
+    "SP1|202611222000|getafe|ath madrid|goals|Total goles|Menos de 4,5 goles",
+    "SP1|202611222000|getafe|ath madrid|goals|Total goles|Más de 0,5 goles",
+    "SP1|202611222000|getafe|ath madrid|on_target|Tiros a puerta totales|Menos de 9,5 tiros a puerta totales"
   ]
 }
