@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-23T00:57:52.731761+00:00",
+  "comprobado_utc": "2026-11-23T03:06:38.099806+00:00",
   "estado": "CORRECTO",
   "incidencias": [],
   "detalle": {
     "analisis_utc": "2026-11-22T23:17:55.618825+00:00",
     "partidos_proximos": 9,
-    "cuotas_utc": "2026-11-22T22:00:15.768427+00:00",
-    "consultas_utc": "2026-11-22T22:00:32.439992+00:00",
+    "cuotas_utc": "2026-11-23T03:06:21.683349+00:00",
+    "consultas_utc": "2026-11-23T03:06:21.725711+00:00",
     "errores_calendario_ultima_ronda": 0,
     "errores_totales_proveedor_ultima_ronda": 0,
     "racha_calendario": 0,
@@ -15,7 +15,7 @@
     "partidos_sin_liquidar_10h": 0,
     "partidos_sin_liquidar_48h": 0
   },
-  "ultima_captura_revisada": "2026-11-22T22:00:15.768427+00:00",
+  "ultima_captura_revisada": "2026-11-23T03:06:21.683349+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
   "fallos_workflow": {},
