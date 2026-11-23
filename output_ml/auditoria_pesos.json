@@ -3,10 +3,10 @@
   "estado": "COMPARACION_COMPLETADA",
   "peso_produccion": 0.3,
   "se_aplica_automaticamente": false,
-  "observaciones": 770,
-  "entrenamiento": 492,
-  "prueba_posterior": 278,
-  "fecha_corte": "2026-09-26",
+  "observaciones": 771,
+  "entrenamiento": 450,
+  "prueba_posterior": 321,
+  "fecha_corte": "2026-10-03",
   "pesos_candidatos": [
     0.0,
     0.15,
@@ -16,44 +16,44 @@
   ],
   "entrenamiento_por_peso": {
     "0.0": {
-      "muestra": 492,
-      "brier": 0.201569,
-      "logloss": 1.011974
+      "muestra": 450,
+      "brier": 0.19997,
+      "logloss": 1.00523
     },
     "0.15": {
-      "muestra": 492,
-      "brier": 0.201542,
-      "logloss": 1.011811
+      "muestra": 450,
+      "brier": 0.199894,
+      "logloss": 1.004844
     },
     "0.3": {
-      "muestra": 492,
-      "brier": 0.201661,
-      "logloss": 1.012344
+      "muestra": 450,
+      "brier": 0.199962,
+      "logloss": 1.005115
     },
     "0.45": {
-      "muestra": 492,
-      "brier": 0.201926,
-      "logloss": 1.013532
+      "muestra": 450,
+      "brier": 0.200173,
+      "logloss": 1.006002
     },
     "0.6": {
-      "muestra": 492,
-      "brier": 0.202337,
-      "logloss": 1.015349
+      "muestra": 450,
+      "brier": 0.200527,
+      "logloss": 1.007481
     }
   },
   "peso_seleccionado_con_pasado": 0.15,
   "prueba_posterior_peso_base": {
-    "muestra": 278,
-    "brier": 0.190904,
-    "logloss": 0.964972
+    "muestra": 321,
+    "brier": 0.193139,
+    "logloss": 0.974088
   },
   "prueba_posterior_peso_elegido": {
-    "muestra": 278,
-    "brier": 0.191544,
-    "logloss": 0.967436
+    "muestra": 321,
+    "brier": 0.19409,
+    "logloss": 0.978153
   },
   "mejora_both_metrics_threshold": false,
   "recomendacion": "MANTENER_0_30",
   "aviso": "El holdout está usado para contrastar, no entrenar el peso. No introducir pesos sin prueba prospectiva.",
-  "calculado_utc": "2026-11-21T15:55:40.160277+00:00"
+  "calculado_utc": "2026-11-23T18:47:05.854855+00:00"
 }
