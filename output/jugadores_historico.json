@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-23T06:38:51.177037+00:00",
+  "actualizado_utc": "2026-11-23T15:14:43.281720+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -1844,6 +1844,1606 @@
       "fuente": "ESPN summary público no oficial"
     },
     {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "344517",
+      "jugador": "Robin Risser",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "329484",
+      "jugador": "Samson Baidoo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "297385",
+      "jugador": "Jhoanner Chavez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "277327",
+      "jugador": "Jean-Clair Todibo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "258871",
+      "jugador": "Michaël Cuisance",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "341720",
+      "jugador": "Yassine Titraoui",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "233199",
+      "jugador": "Matthieu Udol",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "181946",
+      "jugador": "Ruben Aguilar",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "156898",
+      "jugador": "Florian Thauvin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "215687",
+      "jugador": "Florian Sotoca",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "412217",
+      "jugador": "Mezian Soares",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "308246",
+      "jugador": "Abdallah Sima",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "350577",
+      "jugador": "Pierre Ganiou",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "286011",
+      "jugador": "Saud Abdulhamid",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "158066",
+      "jugador": "Thorgan Hazard",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "288481",
+      "jugador": "Michal Skoras",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "228557",
+      "jugador": "Amadou Haidara",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "131742",
+      "jugador": "Mathieu Gorgelin",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "333228",
+      "jugador": "Junior Kadile",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Lens",
+      "jugador_id": "393432",
+      "jugador": "Kyllian Antonio",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "324289",
+      "jugador": "Guillaume Restes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "238213",
+      "jugador": "Rasmus Nicolaisen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "77072",
+      "jugador": "Mark McKenzie",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "385000",
+      "jugador": "Christ Tapé",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "397384",
+      "jugador": "Ismail Diallo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "363538",
+      "jugador": "Niko Sigur",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "271244",
+      "jugador": "Cristian Cásseres Jr.",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "338873",
+      "jugador": "Santiago Hidalgo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "362777",
+      "jugador": "Thomas Jørgensen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "306664",
+      "jugador": "Casper Tengstedt",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "297121",
+      "jugador": "Jacen Russell-Rowe",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "252740",
+      "jugador": "Aron Donnum",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "380400",
+      "jugador": "Julián Vignolo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "399428",
+      "jugador": "Sion Oppong",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "364764",
+      "jugador": "Mathis Amougou",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "371559",
+      "jugador": "Mathys Niflore",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "290030",
+      "jugador": "Abu Francis",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "408252",
+      "jugador": "Seny Koumbassa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "408251",
+      "jugador": "Alexis Vossah",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876403",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lens",
+      "visitante": "Toulouse",
+      "equipo": "Toulouse",
+      "jugador_id": "403310",
+      "jugador": "Ilyas Azizi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "257267",
+      "jugador": "Berke Özer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "340900",
+      "jugador": "Alexsandro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "290165",
+      "jugador": "Tanguy Nianzou",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "250853",
+      "jugador": "Romain Perraud",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "318577",
+      "jugador": "Nathan Ngoy",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "179187",
+      "jugador": "Nabil Bentaleb",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "123683",
+      "jugador": "Benjamin André",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "345988",
+      "jugador": "Ngal'ayel Mukau",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "318779",
+      "jugador": "Hákon Haraldsson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "400352",
+      "jugador": "Soriba Diaoune",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "297157",
+      "jugador": "Dilane Bakwa",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "408359",
+      "jugador": "Maxima Goffi",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "88965",
+      "jugador": "Olivier Giroud",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "393321",
+      "jugador": "Isaac Cossier",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "355971",
+      "jugador": "Ethan Mbappé",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "337855",
+      "jugador": "Basar Önal",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "274277",
+      "jugador": "Ayase Ueda",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "217381",
+      "jugador": "Calvin Verdonk",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "304011",
+      "jugador": "Maurits Kjaergaard",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lille",
+      "jugador_id": "301648",
+      "jugador": "Orlando Gill",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "221278",
+      "jugador": "Dominik Greif",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "213181",
+      "jugador": "Moussa Niakhaté",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "320945",
+      "jugador": "Felix Bacher",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "285088",
+      "jugador": "Abner",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "370758",
+      "jugador": "Zachary Athekame",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "303308",
+      "jugador": "Tanner Tessmann",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "192060",
+      "jugador": "Corentin Tolisso",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "290401",
+      "jugador": "Mads Bidstrup",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "408345",
+      "jugador": "Khalis Merah",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "265953",
+      "jugador": "Keito Nakamura",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "333310",
+      "jugador": "Ernest Nuamah",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "403842",
+      "jugador": "Rémi Himbert",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "365562",
+      "jugador": "Noah Nartey",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "402949",
+      "jugador": "Alejandro Rodríguez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "419943",
+      "jugador": "Steeve Kango",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "222175",
+      "jugador": "Rémy Descamps",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "145190",
+      "jugador": "Nicolás Tagliafico",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "379066",
+      "jugador": "Kail Boudache",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "341375",
+      "jugador": "Julien Duranville",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876402",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Lille",
+      "visitante": "Lyon",
+      "equipo": "Lyon",
+      "jugador_id": "301354",
+      "jugador": "Ruben Kluivert",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
       "event_id": "401876399",
       "liga": "F1",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
@@ -2640,6 +4240,806 @@
         "yellowCards": 0.0,
         "shotsOnTarget": 0.0,
         "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "304256",
+      "jugador": "Filip Jørgensen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "224074",
+      "jugador": "Karim Coulibaly",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "305935",
+      "jugador": "Ismael Doukoure",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "359934",
+      "jugador": "Lucas Høgsberg",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "374221",
+      "jugador": "Genesis Antwi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "303787",
+      "jugador": "Sebastian Nanasi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "316560",
+      "jugador": "Dário Essugo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "378491",
+      "jugador": "Samir El Mourabet",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "3117410",
+      "jugador": "Jacobo Ortega Conde",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "348301",
+      "jugador": "Martial Godo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "379012",
+      "jugador": "Gessime Yassine",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "371973",
+      "jugador": "Milosz Piekutowski",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "418506",
+      "jugador": "Tyrese Noubissie",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "353378",
+      "jugador": "Pape Diop",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "331082",
+      "jugador": "Omari Kellyman",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "418786",
+      "jugador": "Yoann Becker",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "335877",
+      "jugador": "Mateo Del Blanco",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "368325",
+      "jugador": "Diogo Sousa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "362794",
+      "jugador": "Conrad Harder",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Strasbourg",
+      "jugador_id": "350501",
+      "jugador": "Samuel Amo-Ameyaw",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "286433",
+      "jugador": "Egil Selvik",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "180174",
+      "jugador": "Gautier Lloris",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "215574",
+      "jugador": "Lucas Tousart",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "324572",
+      "jugador": "Bradley Locko",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "164187",
+      "jugador": "Kenny Lala",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "355998",
+      "jugador": "Joseph Nonge",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "250377",
+      "jugador": "Hugo Magnetti",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "291850",
+      "jugador": "Joris Chotard",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "192015",
+      "jugador": "Ludovic Ajorque",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "365783",
+      "jugador": "Pathé Mboup",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "367360",
+      "jugador": "Noah Edjouma",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "365781",
+      "jugador": "Mathieu Patouillet",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "388421",
+      "jugador": "Ibrahim Kanté",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "259960",
+      "jugador": "Mama Baldé",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "251556",
+      "jugador": "Romain Cagnon",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "321098",
+      "jugador": "Mamady Diambou",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "359402",
+      "jugador": "Giovani Versini",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "399248",
+      "jugador": "Justin Bourgault",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "398380",
+      "jugador": "Djylian N'Guessan",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876396",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T19:45:00+00:00",
+      "local": "Strasbourg",
+      "visitante": "Brest",
+      "equipo": "Brest",
+      "jugador_id": "363150",
+      "jugador": "Luc Zogbe",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
       },
       "fuente": "ESPN summary público no oficial"
     },
@@ -3555,6 +5955,926 @@
       "titular": false,
       "entro_desde_banquillo": false,
       "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "159135",
+      "jugador": "Odisseas Vlachodimos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "334163",
+      "jugador": "Enrique Salas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "332246",
+      "jugador": "Andrés Castrín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "222037",
+      "jugador": "Gabriel Suazo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "279738",
+      "jugador": "Juan Iglesias",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "277307",
+      "jugador": "Youssouf Fofana",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "254320",
+      "jugador": "Jon Guridi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "282289",
+      "jugador": "Lucien Agoumé",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "323033",
+      "jugador": "Lucas Stassin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "288900",
+      "jugador": "Felix Correia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "259513",
+      "jugador": "Rubén Vargas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "362874",
+      "jugador": "Fran González",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "347359",
+      "jugador": "Peque",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "322993",
+      "jugador": "Robbie Ure",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "258923",
+      "jugador": "Giorgi Kochorashvili",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "215386",
+      "jugador": "Fábio Cardoso",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "5334100",
+      "jugador": "Tamiou Miguel Kpebane",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "5334099",
+      "jugador": "Marc Scuri Martí",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "356228",
+      "jugador": "Manu Bueno",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "254270",
+      "jugador": "Chidera Ejuke",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "387493",
+      "jugador": "Julio Díaz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "365821",
+      "jugador": "Isaac Romero",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Sevilla",
+      "jugador_id": "304213",
+      "jugador": "Arouna Sangante",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "283892",
+      "jugador": "Álvaro Valles",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "301526",
+      "jugador": "Natan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "145078",
+      "jugador": "Marc Bartra",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "213050",
+      "jugador": "Fran García",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "178978",
+      "jugador": "Héctor Bellerín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "143564",
+      "jugador": "Isco",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "242008",
+      "jugador": "Marc Roca",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "227714",
+      "jugador": "Pablo Fornals",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "268601",
+      "jugador": "Aitor Ruibal",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "300912",
+      "jugador": "Abde Ezzalzouli",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "281558",
+      "jugador": "Antony",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "181530",
+      "jugador": "Diego Llorente",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "395941",
+      "jugador": "Ángel Ortiz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "336480",
+      "jugador": "Valentín Gómez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "279660",
+      "jugador": "Diego Conde",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "336809",
+      "jugador": "Cucho Hernández",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "207343",
+      "jugador": "Giovani Lo Celso",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "359912",
+      "jugador": "Facundo Bernal",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "269655",
+      "jugador": "Junior Firpo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "283827",
+      "jugador": "Álvaro Fidalgo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "279790",
+      "jugador": "Troy Parrott",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "322908",
+      "jugador": "Nelson Deossa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882797",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T17:30:00+00:00",
+      "local": "Sevilla",
+      "visitante": "Real Betis",
+      "equipo": "Real Betis",
+      "jugador_id": "70224",
+      "jugador": "Rodrigo Riquelme",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -57068,6 +60388,6 @@
   "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 66,
-  "jugadores_con_algun_dato": 2853
+  "partidos_archivados": 70,
+  "jugadores_con_algun_dato": 3019
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-23T06:38:51.177037+00:00",
+  "timestamp_utc": "2026-11-23T15:14:43.281720+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -344,8 +344,8 @@
       "bajas_reportadas": 11,
       "estados": {
         "unavailable": 7,
-        "injured": 3,
-        "doubtful": 1
+        "doubtful": 2,
+        "injured": 2
       }
     },
     {
@@ -367,11 +367,11 @@
     },
     {
       "equipo": "Brighton",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 12,
       "estados": {
         "unavailable": 5,
         "suspended": 1,
-        "injured": 4,
+        "injured": 5,
         "doubtful": 1
       }
     },
@@ -420,11 +420,11 @@
     },
     {
       "equipo": "Hull City",
-      "bajas_reportadas": 16,
+      "bajas_reportadas": 17,
       "estados": {
-        "doubtful": 2,
+        "injured": 7,
         "unavailable": 9,
-        "injured": 5
+        "doubtful": 1
       }
     },
     {
@@ -454,9 +454,8 @@
     },
     {
       "equipo": "Man City",
-      "bajas_reportadas": 9,
+      "bajas_reportadas": 8,
       "estados": {
-        "doubtful": 1,
         "unavailable": 7,
         "injured": 1
       }

@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 52 · **Finalizadas:** 45 · **Pendientes:** 7
+**Registradas:** 57 · **Finalizadas:** 45 · **Pendientes:** 12
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -58,6 +58,11 @@
 | Werder Bremen – Borussia Mönchengladbach | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.6% | 1.67 | Pendiente | — |
 | Venezia – Bologna | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 56.3% | 1.88 | Pendiente | — |
 | Brest – Paris FC | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 53.0% | 2.02 | Pendiente | — |
+| Real Betis – Rayo Vallecano | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.2% | 1.61 | Pendiente | — |
+| Leeds United – Coventry City | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 53.4% | 2.10 | Pendiente | — |
+| Hamburg SV – Bayern Munich | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 52.4% | 2.10 | Pendiente | — |
+| Mainz – 1. FC Union Berlin | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 70.6% | 1.61 | Pendiente | — |
+| Frosinone – Parma | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.3% | 1.80 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.

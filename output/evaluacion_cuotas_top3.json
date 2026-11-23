@@ -1,13 +1,13 @@
 {
   "version": "top3-bookmaker-prices-1.0",
-  "calculado_utc": "2026-11-23T06:38:51.177037+00:00",
+  "calculado_utc": "2026-11-23T15:14:43.281720+00:00",
   "selecciones_originales": 531,
-  "con_cuota_observada": 22,
-  "sin_cuota_observada": 509,
-  "pendientes_con_cuota": 6,
+  "con_cuota_observada": 26,
+  "sin_cuota_observada": 505,
+  "pendientes_con_cuota": 10,
   "solapadas_adicional": 0,
   "global": {
-    "cotizadas": 22,
+    "cotizadas": 26,
     "liquidadas": 16,
     "aciertos": 13,
     "fallos": 3,
@@ -17,7 +17,7 @@
   },
   "por_liga": {
     "Bundesliga": {
-      "cotizadas": 2,
+      "cotizadas": 4,
       "liquidadas": 1,
       "aciertos": 1,
       "fallos": 0,
@@ -26,7 +26,7 @@
       "roi_hipotetico_pct": 12.5
     },
     "LaLiga": {
-      "cotizadas": 4,
+      "cotizadas": 5,
       "liquidadas": 3,
       "aciertos": 3,
       "fallos": 0,
@@ -62,7 +62,7 @@
       "roi_hipotetico_pct": 22.8
     },
     "Serie A": {
-      "cotizadas": 7,
+      "cotizadas": 8,
       "liquidadas": 5,
       "aciertos": 3,
       "fallos": 2,
@@ -73,7 +73,7 @@
   },
   "por_mercado": {
     "Total goles": {
-      "cotizadas": 22,
+      "cotizadas": 26,
       "liquidadas": 16,
       "aciertos": 13,
       "fallos": 3,
@@ -127,14 +127,23 @@
     },
     "Total goles": {
       "originales": 131,
-      "capturadas": 22,
+      "capturadas": 26,
       "no_equivalentes": 0,
-      "futuras_sin_captura": 86,
+      "futuras_sin_captura": 82,
       "sin_prueba_prepartido": 23
     }
   },
   "cobertura_nota": "Sin captura no confirma que se haya consultado; ningún mercado se sustituye por otro.",
   "por_dia": {
+    "2026-11-28": {
+      "cotizadas": 4,
+      "liquidadas": 0,
+      "aciertos": 0,
+      "fallos": 0,
+      "acierto_pct": null,
+      "beneficio_hipotetico_unidades": 0,
+      "roi_hipotetico_pct": null
+    },
     "2026-11-27": {
       "cotizadas": 3,
       "liquidadas": 0,
@@ -167,7 +176,7 @@
     "proveedor_principal": "5DollarFootballAPI Free",
     "maximo_interno_hora": 24,
     "creditos_mensuales_consumidos": 0,
-    "consultas_ultima_hora": 0,
+    "consultas_ultima_hora": 9,
     "otros_proveedores_de_pago": "DESACTIVADOS"
   },
   "nota": "Cuotas observadas antes del partido por proveedor externo, no precios garantizados al usuario ni apuestas realizadas. ROI SIMULADO solo sobre precios archivados de selecciones Top 3 activas, excluyendo solapamientos con la adicional. Sin cuota exacta no hay ROI; sin resultado no hay fallo."
