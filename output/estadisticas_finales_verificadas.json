@@ -1,16 +1,16 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
+  "calculado_utc": "2026-11-23T06:38:51.177037+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
+    "calculado_utc": "2026-11-23T06:38:51.177037+00:00",
     "objetivos_conteo": 20,
     "completos": 20,
     "incompletos": 0,
-    "scoreboards_consultados": 4,
-    "summaries_consultados": 4,
-    "campos_recuperados": 48,
-    "campos_recuperados_cache": 554,
+    "scoreboards_consultados": 0,
+    "summaries_consultados": 0,
+    "campos_recuperados": 0,
+    "campos_recuperados_cache": 602,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
     "objetivos_detalle": [

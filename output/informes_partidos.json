@@ -1,6 +1,6 @@
 {
   "version": "dossier-0.8",
-  "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
+  "calculado_utc": "2026-11-23T06:38:51.177037+00:00",
   "partidos": [
     {
       "version": "dossier-0.8",
@@ -9,7 +9,7 @@
       "liga": "LaLiga",
       "local": "Levante",
       "visitante": "Elche",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43604",
@@ -217,7 +217,7 @@
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-22T22:50:57+00:00",
+          "fecha": "2026-11-23T06:33:32+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -235,7 +235,7 @@
       "liga": "LaLiga",
       "local": "Real Betis",
       "visitante": "Rayo Vallecano",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58329",
@@ -482,7 +482,7 @@
       "liga": "LaLiga",
       "local": "Málaga",
       "visitante": "Athletic Club",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37275",
@@ -693,7 +693,7 @@
       "liga": "LaLiga",
       "local": "Elche",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.29448",
@@ -927,7 +927,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Alavés",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.72073",
@@ -1178,7 +1178,7 @@
       "liga": "LaLiga",
       "local": "Valencia",
       "visitante": "Osasuna",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45500",
@@ -1426,7 +1426,7 @@
       "liga": "LaLiga",
       "local": "Celta Vigo",
       "visitante": "Villarreal",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37297",
@@ -1668,7 +1668,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Sevilla",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48229",
@@ -1919,7 +1919,7 @@
       "liga": "LaLiga",
       "local": "Espanyol",
       "visitante": "Getafe",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43607",
@@ -2156,7 +2156,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Real Madrid",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24016",
@@ -2407,7 +2407,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66500",
@@ -2658,7 +2658,7 @@
       "liga": "LaLiga",
       "local": "Alavés",
       "visitante": "Espanyol",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.42973",
@@ -2904,7 +2904,7 @@
       "liga": "LaLiga",
       "local": "Rayo Vallecano",
       "visitante": "Levante",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49706",
@@ -3124,7 +3124,7 @@
       "liga": "LaLiga",
       "local": "Villarreal",
       "visitante": "Real Sociedad",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56470",
@@ -3375,7 +3375,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Celta Vigo",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66771",
@@ -3607,12 +3607,967 @@
     },
     {
       "version": "dossier-0.8",
+      "id": "SP1|202612061300|osasuna|elche",
+      "fecha_utc": "2026-12-06T13:00:00+00:00",
+      "liga": "LaLiga",
+      "local": "Osasuna",
+      "visitante": "Elche",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.46356",
+        "empate": "0.24825",
+        "visitante": "0.28820",
+        "mas_2_5": "0.50908"
+      },
+      "goles_estimados": {
+        "local": "1.585",
+        "visitante": "1.126"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 1,
+            "d": 3,
+            "goles_favor": 6,
+            "goles_contra": 10,
+            "puntos": 4,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Osasuna",
+                "visitante": "Ath Bilbao",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "La Coruna",
+                "visitante": "Osasuna",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-26",
+                "local": "Sevilla",
+                "visitante": "Osasuna",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Osasuna",
+                "visitante": "Santander",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Betis",
+                "visitante": "Osasuna",
+                "marcador": "5-2",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 13.8,
+              "tiros_puerta": 4.2,
+              "corners": 4.6,
+              "amarillas": 3.2,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 2,
+            "d": 2,
+            "goles_favor": 3,
+            "goles_contra": 3,
+            "puntos": 5,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Elche",
+                "visitante": "Betis",
+                "marcador": "0-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Elche",
+                "visitante": "Valencia",
+                "marcador": "0-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Vallecano",
+                "visitante": "Elche",
+                "marcador": "0-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Villarreal",
+                "visitante": "Elche",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Elche",
+                "visitante": "Celta",
+                "marcador": "0-0",
+                "resultado": "E"
+              }
+            ],
+            "medias": {
+              "tiros": 13.0,
+              "tiros_puerta": 3.2,
+              "corners": 5.6,
+              "amarillas": 3.0,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-13",
+          "local": "Elche",
+          "visitante": "Osasuna",
+          "marcador": "0-0"
+        },
+        {
+          "fecha": "2025-09-25",
+          "local": "Osasuna",
+          "visitante": "Elche",
+          "marcador": "1-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 126,
+            "recinto": 63,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 50,
+            "recinto": 25,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "familia": "on_target",
+          "probabilidad": 0.861647,
+          "cuota_justa": 1.161,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "on_target",
+          "linea": 5.5,
+          "direccion": "mas",
+          "posicion": 1
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.861267,
+          "cuota_justa": 1.161,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Tarjetas amarillas totales",
+          "seleccion": "Más de 2,5 tarjetas amarillas totales",
+          "familia": "yellow",
+          "probabilidad": 0.831695,
+          "cuota_justa": 1.202,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "yellow",
+          "linea": 2.5,
+          "direccion": "mas",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 26,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP1|202612061515|ath bilbao|real madrid",
+      "fecha_utc": "2026-12-06T15:15:00+00:00",
+      "liga": "LaLiga",
+      "local": "Athletic Club",
+      "visitante": "Real Madrid",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.24796",
+        "empate": "0.25819",
+        "visitante": "0.49386",
+        "mas_2_5": "0.44885"
+      },
+      "goles_estimados": {
+        "local": "1.017",
+        "visitante": "1.454"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 8,
+            "puntos": 16,
+            "jugados": 12
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 2,
+            "d": 1,
+            "goles_favor": 8,
+            "goles_contra": 5,
+            "puntos": 8,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Osasuna",
+                "visitante": "Ath Bilbao",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Ath Bilbao",
+                "visitante": "Sociedad",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Ath Bilbao",
+                "visitante": "Getafe",
+                "marcador": "4-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-21",
+                "local": "Levante",
+                "visitante": "Ath Bilbao",
+                "marcador": "3-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Valencia",
+                "visitante": "Ath Bilbao",
+                "marcador": "0-0",
+                "resultado": "E"
+              }
+            ],
+            "medias": {
+              "tiros": 14.0,
+              "tiros_puerta": 3.4,
+              "corners": 5.2,
+              "amarillas": 1.6,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": {
+            "posicion": 2,
+            "puntos": 33,
+            "jugados": 13
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 5,
+            "e": 0,
+            "d": 0,
+            "goles_favor": 13,
+            "goles_contra": 2,
+            "puntos": 15,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Valencia",
+                "visitante": "Real Madrid",
+                "marcador": "0-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Santander",
+                "visitante": "Real Madrid",
+                "marcador": "0-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Barcelona",
+                "visitante": "Real Madrid",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Real Madrid",
+                "visitante": "Sevilla",
+                "marcador": "4-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Real Madrid",
+                "visitante": "Villarreal",
+                "marcador": "1-0",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 15.4,
+              "tiros_puerta": 7.0,
+              "corners": 5.4,
+              "amarillas": 2.6,
+              "rojas": 0.2
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-05-23",
+          "local": "Real Madrid",
+          "visitante": "Ath Bilbao",
+          "marcador": "4-2"
+        },
+        {
+          "fecha": "2025-12-03",
+          "local": "Ath Bilbao",
+          "visitante": "Real Madrid",
+          "marcador": "0-3"
+        },
+        {
+          "fecha": "2025-04-20",
+          "local": "Real Madrid",
+          "visitante": "Ath Bilbao",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2024-12-04",
+          "local": "Ath Bilbao",
+          "visitante": "Real Madrid",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2024-03-31",
+          "local": "Real Madrid",
+          "visitante": "Ath Bilbao",
+          "marcador": "2-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 125,
+            "recinto": 63,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 126,
+            "recinto": 64,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 5,5 tiros a puerta totales",
+          "familia": "on_target",
+          "probabilidad": 0.867938,
+          "cuota_justa": 1.152,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "on_target",
+          "linea": 5.5,
+          "direccion": "mas",
+          "posicion": 1
+        },
+        {
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "familia": "shots",
+          "probabilidad": 0.827095,
+          "cuota_justa": 1.209,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "shots",
+          "linea": 19.5,
+          "direccion": "mas",
+          "posicion": 2
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Real Madrid: menos de 2,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.820302,
+          "cuota_justa": 1.219,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 26,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP1|202612061730|getafe|valencia",
+      "fecha_utc": "2026-12-06T17:30:00+00:00",
+      "liga": "LaLiga",
+      "local": "Getafe",
+      "visitante": "Valencia",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.43770",
+        "empate": "0.28827",
+        "visitante": "0.27403",
+        "mas_2_5": "0.30777"
+      },
+      "goles_estimados": {
+        "local": "1.150",
+        "visitante": "0.792"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 1,
+            "d": 3,
+            "goles_favor": 4,
+            "goles_contra": 11,
+            "puntos": 4,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Villarreal",
+                "visitante": "Getafe",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Getafe",
+                "visitante": "Sevilla",
+                "marcador": "3-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Ath Bilbao",
+                "visitante": "Getafe",
+                "marcador": "4-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Getafe",
+                "visitante": "Vallecano",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Barcelona",
+                "visitante": "Getafe",
+                "marcador": "3-0",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 8.6,
+              "tiros_puerta": 2.4,
+              "corners": 4.0,
+              "amarillas": 3.4,
+              "rojas": 0.4
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 2,
+            "d": 2,
+            "goles_favor": 4,
+            "goles_contra": 7,
+            "puntos": 5,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Valencia",
+                "visitante": "Real Madrid",
+                "marcador": "0-3",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Elche",
+                "visitante": "Valencia",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Valencia",
+                "visitante": "Villarreal",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Valencia",
+                "visitante": "Ath Bilbao",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Santander",
+                "visitante": "Valencia",
+                "marcador": "2-2",
+                "resultado": "E"
+              }
+            ],
+            "medias": {
+              "tiros": 8.8,
+              "tiros_puerta": 3.0,
+              "corners": 3.0,
+              "amarillas": 3.4,
+              "rojas": 0.4
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-01-18",
+          "local": "Getafe",
+          "visitante": "Valencia",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-08-29",
+          "local": "Valencia",
+          "visitante": "Getafe",
+          "marcador": "3-0"
+        },
+        {
+          "fecha": "2025-05-10",
+          "local": "Valencia",
+          "visitante": "Getafe",
+          "marcador": "3-0"
+        },
+        {
+          "fecha": "2024-10-27",
+          "local": "Getafe",
+          "visitante": "Valencia",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-03-09",
+          "local": "Valencia",
+          "visitante": "Getafe",
+          "marcador": "1-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 126,
+            "recinto": 63,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 126,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.867435,
+          "cuota_justa": 1.153,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Valencia: menos de 1,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.811665,
+          "cuota_justa": 1.232,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Valencia +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.811543,
+          "cuota_justa": 1.232,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 26,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP1|202612062000|ath madrid|betis",
+      "fecha_utc": "2026-12-06T20:00:00+00:00",
+      "liga": "LaLiga",
+      "local": "Atlético Madrid",
+      "visitante": "Real Betis",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.52440",
+        "empate": "0.23638",
+        "visitante": "0.23922",
+        "mas_2_5": "0.53622"
+      },
+      "goles_estimados": {
+        "local": "1.781",
+        "visitante": "1.043"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 3,
+            "puntos": 31,
+            "jugados": 13
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 4,
+            "e": 0,
+            "d": 1,
+            "goles_favor": 7,
+            "goles_contra": 3,
+            "puntos": 12,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Ath Madrid",
+                "visitante": "Barcelona",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Levante",
+                "visitante": "Ath Madrid",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Ath Madrid",
+                "visitante": "La Coruna",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Espanol",
+                "visitante": "Ath Madrid",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Alaves",
+                "visitante": "Ath Madrid",
+                "marcador": "1-2",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 16.2,
+              "tiros_puerta": 5.2,
+              "corners": 6.4,
+              "amarillas": 3.2,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": {
+            "posicion": 4,
+            "puntos": 27,
+            "jugados": 13
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 1,
+            "d": 1,
+            "goles_favor": 11,
+            "goles_contra": 8,
+            "puntos": 10,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Elche",
+                "visitante": "Betis",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Betis",
+                "visitante": "Malaga",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Celta",
+                "visitante": "Betis",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Betis",
+                "visitante": "Barcelona",
+                "marcador": "2-5",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Betis",
+                "visitante": "Osasuna",
+                "marcador": "5-2",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 16.6,
+              "tiros_puerta": 5.8,
+              "corners": 6.4,
+              "amarillas": 1.6,
+              "rojas": 0.2
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-08",
+          "local": "Ath Madrid",
+          "visitante": "Betis",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-10-27",
+          "local": "Betis",
+          "visitante": "Ath Madrid",
+          "marcador": "0-2"
+        },
+        {
+          "fecha": "2025-05-18",
+          "local": "Ath Madrid",
+          "visitante": "Betis",
+          "marcador": "4-1"
+        },
+        {
+          "fecha": "2024-10-27",
+          "local": "Betis",
+          "visitante": "Ath Madrid",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2024-03-03",
+          "local": "Ath Madrid",
+          "visitante": "Betis",
+          "marcador": "2-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 126,
+            "recinto": 63,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 126,
+            "recinto": 63,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "familia": "shots",
+          "probabilidad": 0.867248,
+          "cuota_justa": 1.153,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "shots",
+          "linea": 19.5,
+          "direccion": "mas",
+          "posicion": 1
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Real Betis +2,5",
+          "familia": "resultado",
+          "probabilidad": 0.860601,
+          "cuota_justa": 1.162,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.843919,
+          "cuota_justa": 1.185,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 26,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
       "id": "SP2|202611231930|ceuta|almeria",
       "fecha_utc": "2026-11-23T19:30:00+00:00",
       "liga": "Segunda División",
       "local": "Ceuta",
       "visitante": "Almería",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.29153",
@@ -3830,7 +4785,7 @@
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-22T23:03:56+00:00",
+          "fecha": "2026-11-23T06:39:32+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -3848,7 +4803,7 @@
       "liga": "Segunda División",
       "local": "Leganés",
       "visitante": "CD Sabadell",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41026",
@@ -4055,7 +5010,7 @@
       "liga": "Segunda División",
       "local": "Las Palmas",
       "visitante": "FC Andorra",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51181",
@@ -4280,7 +5235,7 @@
       "liga": "Segunda División",
       "local": "Albacete",
       "visitante": "Tenerife",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49975",
@@ -4517,7 +5472,7 @@
       "liga": "Segunda División",
       "local": "Eldense",
       "visitante": "Girona",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32426",
@@ -4724,7 +5679,7 @@
       "liga": "Segunda División",
       "local": "Eibar",
       "visitante": "Burgos",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43530",
@@ -4962,7 +5917,7 @@
       "liga": "Segunda División",
       "local": "Real Valladolid",
       "visitante": "Real Sociedad II",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43115",
@@ -5182,7 +6137,7 @@
       "liga": "Segunda División",
       "local": "Granada",
       "visitante": "Ceuta",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57942",
@@ -5402,7 +6357,7 @@
       "liga": "Segunda División",
       "local": "Mallorca",
       "visitante": "Castellón",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.38825",
@@ -5609,7 +6564,7 @@
       "liga": "Segunda División",
       "local": "Cádiz",
       "visitante": "Córdoba",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30600",
@@ -5841,7 +6796,7 @@
       "liga": "Segunda División",
       "local": "Almería",
       "visitante": "Sporting Gijón",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58658",
@@ -6078,7 +7033,7 @@
       "liga": "Segunda División",
       "local": "Real Oviedo",
       "visitante": "RC Celta Fortuna",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56630",
@@ -6285,7 +7240,7 @@
       "liga": "Segunda División",
       "local": "Real Sociedad II",
       "visitante": "Leganés",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44150",
@@ -6505,7 +7460,7 @@
       "liga": "Segunda División",
       "local": "CD Sabadell",
       "visitante": "Eibar",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.40946",
@@ -6707,7 +7662,7 @@
       "liga": "Segunda División",
       "local": "FC Andorra",
       "visitante": "Real Oviedo",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32779",
@@ -6927,7 +7882,7 @@
       "liga": "Segunda División",
       "local": "Tenerife",
       "visitante": "Eldense",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49259",
@@ -7154,12 +8109,1095 @@
     },
     {
       "version": "dossier-0.8",
+      "id": "SP2|202612061300|celta b|mallorca",
+      "fecha_utc": "2026-12-06T13:00:00+00:00",
+      "liga": "Segunda División",
+      "local": "RC Celta Fortuna",
+      "visitante": "Mallorca",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.39471",
+        "empate": "0.25830",
+        "visitante": "0.34699",
+        "mas_2_5": "0.43112"
+      },
+      "goles_estimados": {
+        "local": "1.278",
+        "visitante": "1.125"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 0,
+            "e": 2,
+            "d": 3,
+            "goles_favor": 5,
+            "goles_contra": 11,
+            "puntos": 2,
+            "dias_descanso": 20,
+            "ultimos": [
+              {
+                "fecha": "2026-11-16",
+                "local": "Albacete",
+                "visitante": "Celta B",
+                "marcador": "1-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-07",
+                "local": "Burgos",
+                "visitante": "Celta B",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Celta B",
+                "visitante": "Cordoba",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Girona",
+                "visitante": "Celta B",
+                "marcador": "5-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Celta B",
+                "visitante": "Tenerife",
+                "marcador": "1-1",
+                "resultado": "E"
+              }
+            ],
+            "medias": {
+              "tiros": 10.6,
+              "tiros_puerta": 3.6,
+              "corners": 3.2,
+              "amarillas": 3.6,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 3,
+            "d": 0,
+            "goles_favor": 10,
+            "goles_contra": 7,
+            "puntos": 9,
+            "dias_descanso": 22,
+            "ultimos": [
+              {
+                "fecha": "2026-11-14",
+                "local": "Mallorca",
+                "visitante": "Cordoba",
+                "marcador": "3-3",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Mallorca",
+                "visitante": "Cadiz",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Leganes",
+                "visitante": "Mallorca",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Eibar",
+                "visitante": "Mallorca",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Mallorca",
+                "visitante": "Las Palmas",
+                "marcador": "3-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 15.4,
+              "tiros_puerta": 5.4,
+              "corners": 7.2,
+              "amarillas": 2.4,
+              "rojas": 0.2
+            }
+          }
+        }
+      },
+      "cara_a_cara": [],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 14,
+            "recinto": 7,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 13,
+            "recinto": 6,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "RC Celta Fortuna +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.869439,
+          "cuota_justa": 1.15,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "RC Celta Fortuna: menos de 2,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.862148,
+          "cuota_justa": 1.16,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.778096,
+          "cuota_justa": 1.285,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 0,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP2|202612061515|castellon|almeria",
+      "fecha_utc": "2026-12-06T15:15:00+00:00",
+      "liga": "Segunda División",
+      "local": "Castellón",
+      "visitante": "Almería",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.50048",
+        "empate": "0.22807",
+        "visitante": "0.27146",
+        "mas_2_5": "0.56771"
+      },
+      "goles_estimados": {
+        "local": "1.791",
+        "visitante": "1.169"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 1,
+            "d": 1,
+            "goles_favor": 9,
+            "goles_contra": 2,
+            "puntos": 10,
+            "dias_descanso": 22,
+            "ultimos": [
+              {
+                "fecha": "2026-11-14",
+                "local": "Valladolid",
+                "visitante": "Castellon",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Burgos",
+                "visitante": "Castellon",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Castellon",
+                "visitante": "Sp Gijon",
+                "marcador": "4-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Las Palmas",
+                "visitante": "Castellon",
+                "marcador": "0-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Andorra",
+                "visitante": "Castellon",
+                "marcador": "1-0",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 12.2,
+              "tiros_puerta": 4.0,
+              "corners": 5.0,
+              "amarillas": 2.2,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 2,
+            "d": 0,
+            "goles_favor": 10,
+            "goles_contra": 6,
+            "puntos": 11,
+            "dias_descanso": 22,
+            "ultimos": [
+              {
+                "fecha": "2026-11-14",
+                "local": "Almeria",
+                "visitante": "Andorra",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-08",
+                "local": "Girona",
+                "visitante": "Almeria",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Eibar",
+                "visitante": "Almeria",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Almeria",
+                "visitante": "Oviedo",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Sociedad B",
+                "visitante": "Almeria",
+                "marcador": "2-4",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 8.8,
+              "tiros_puerta": 3.4,
+              "corners": 2.2,
+              "amarillas": 2.0,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-04-02",
+          "local": "Castellon",
+          "visitante": "Almeria",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2025-10-26",
+          "local": "Almeria",
+          "visitante": "Castellon",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-04-18",
+          "local": "Castellon",
+          "visitante": "Almeria",
+          "marcador": "4-1"
+        },
+        {
+          "fecha": "2024-09-16",
+          "local": "Almeria",
+          "visitante": "Castellon",
+          "marcador": "2-5"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 97,
+            "recinto": 47,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 98,
+            "recinto": 49,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Almería +2,5",
+          "familia": "resultado",
+          "probabilidad": 0.869607,
+          "cuota_justa": 1.15,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Castellón: más de 0,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.833207,
+          "cuota_justa": 1.2,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.821939,
+          "cuota_justa": 1.217,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 16,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP2|202612061730|ceuta|albacete",
+      "fecha_utc": "2026-12-06T17:30:00+00:00",
+      "liga": "Segunda División",
+      "local": "Ceuta",
+      "visitante": "Albacete",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.36092",
+        "empate": "0.26134",
+        "visitante": "0.37774",
+        "mas_2_5": "0.41781"
+      },
+      "goles_estimados": {
+        "local": "1.144",
+        "visitante": "1.208"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 0,
+            "e": 0,
+            "d": 5,
+            "goles_favor": 2,
+            "goles_contra": 12,
+            "puntos": 0,
+            "dias_descanso": 21,
+            "ultimos": [
+              {
+                "fecha": "2026-11-15",
+                "local": "Tenerife",
+                "visitante": "Ceuta",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-07",
+                "local": "Cordoba",
+                "visitante": "Ceuta",
+                "marcador": "3-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Ceuta",
+                "visitante": "Sp Gijon",
+                "marcador": "0-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Cadiz",
+                "visitante": "Ceuta",
+                "marcador": "3-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Ceuta",
+                "visitante": "Oviedo",
+                "marcador": "1-2",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 18.6,
+              "tiros_puerta": 4.8,
+              "corners": 8.4,
+              "amarillas": 3.6,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 4,
+            "e": 0,
+            "d": 1,
+            "goles_favor": 9,
+            "goles_contra": 4,
+            "puntos": 12,
+            "dias_descanso": 20,
+            "ultimos": [
+              {
+                "fecha": "2026-11-16",
+                "local": "Albacete",
+                "visitante": "Celta B",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-07",
+                "local": "Leganes",
+                "visitante": "Albacete",
+                "marcador": "1-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Albacete",
+                "visitante": "Sabadell",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Albacete",
+                "visitante": "Eldense",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Sp Gijon",
+                "visitante": "Albacete",
+                "marcador": "2-1",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 12.0,
+              "tiros_puerta": 3.6,
+              "corners": 7.2,
+              "amarillas": 3.2,
+              "rojas": 0.2
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-05-30",
+          "local": "Ceuta",
+          "visitante": "Albacete",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-10-12",
+          "local": "Albacete",
+          "visitante": "Ceuta",
+          "marcador": "0-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 56,
+            "recinto": 28,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 140,
+            "recinto": 70,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "familia": "shots",
+          "probabilidad": 0.864391,
+          "cuota_justa": 1.157,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "shots",
+          "linea": 19.5,
+          "direccion": "mas",
+          "posicion": 1
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Albacete +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.85913,
+          "cuota_justa": 1.164,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.788694,
+          "cuota_justa": 1.268,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 16,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP2|202612061730|sp gijon|granada",
+      "fecha_utc": "2026-12-06T17:30:00+00:00",
+      "liga": "Segunda División",
+      "local": "Sporting Gijón",
+      "visitante": "Granada",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.43514",
+        "empate": "0.25453",
+        "visitante": "0.31033",
+        "mas_2_5": "0.44411"
+      },
+      "goles_estimados": {
+        "local": "1.361",
+        "visitante": "1.092"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 1,
+            "d": 2,
+            "goles_favor": 7,
+            "goles_contra": 9,
+            "puntos": 7,
+            "dias_descanso": 22,
+            "ultimos": [
+              {
+                "fecha": "2026-11-14",
+                "local": "Sociedad B",
+                "visitante": "Sp Gijon",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-08",
+                "local": "Sp Gijon",
+                "visitante": "Valladolid",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Ceuta",
+                "visitante": "Sp Gijon",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Castellon",
+                "visitante": "Sp Gijon",
+                "marcador": "4-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Sp Gijon",
+                "visitante": "Albacete",
+                "marcador": "2-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 14.6,
+              "tiros_puerta": 5.2,
+              "corners": 4.8,
+              "amarillas": 3.4,
+              "rojas": 0.4
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 5,
+            "e": 0,
+            "d": 0,
+            "goles_favor": 8,
+            "goles_contra": 1,
+            "puntos": 15,
+            "dias_descanso": 21,
+            "ultimos": [
+              {
+                "fecha": "2026-11-15",
+                "local": "Granada",
+                "visitante": "Las Palmas",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Eldense",
+                "visitante": "Granada",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-23",
+                "local": "Granada",
+                "visitante": "Valladolid",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Granada",
+                "visitante": "Cadiz",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-12",
+                "local": "Burgos",
+                "visitante": "Granada",
+                "marcador": "0-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 10.6,
+              "tiros_puerta": 3.6,
+              "corners": 2.2,
+              "amarillas": 1.6,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-05-30",
+          "local": "Granada",
+          "visitante": "Sp Gijon",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-12-13",
+          "local": "Sp Gijon",
+          "visitante": "Granada",
+          "marcador": "1-0"
+        },
+        {
+          "fecha": "2025-01-26",
+          "local": "Granada",
+          "visitante": "Sp Gijon",
+          "marcador": "3-1"
+        },
+        {
+          "fecha": "2024-11-16",
+          "local": "Sp Gijon",
+          "visitante": "Granada",
+          "marcador": "1-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 140,
+            "recinto": 70,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 97,
+            "recinto": 49,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Sporting Gijón: menos de 2,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.842842,
+          "cuota_justa": 1.186,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "familia": "shots",
+          "probabilidad": 0.83758,
+          "cuota_justa": 1.194,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "shots",
+          "linea": 19.5,
+          "direccion": "mas",
+          "posicion": 2
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Granada +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.799123,
+          "cuota_justa": 1.251,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 16,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "SP2|202612062000|girona|valladolid",
+      "fecha_utc": "2026-12-06T20:00:00+00:00",
+      "liga": "Segunda División",
+      "local": "Girona",
+      "visitante": "Real Valladolid",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.57824",
+        "empate": "0.21748",
+        "visitante": "0.20428",
+        "mas_2_5": "0.54522"
+      },
+      "goles_estimados": {
+        "local": "1.926",
+        "visitante": "0.936"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 0,
+            "d": 2,
+            "goles_favor": 9,
+            "goles_contra": 4,
+            "puntos": 9,
+            "dias_descanso": 22,
+            "ultimos": [
+              {
+                "fecha": "2026-11-14",
+                "local": "Oviedo",
+                "visitante": "Girona",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-08",
+                "local": "Girona",
+                "visitante": "Almeria",
+                "marcador": "0-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Sociedad B",
+                "visitante": "Girona",
+                "marcador": "1-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Girona",
+                "visitante": "Celta B",
+                "marcador": "5-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Girona",
+                "visitante": "Andorra",
+                "marcador": "2-0",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 14.6,
+              "tiros_puerta": 4.6,
+              "corners": 4.6,
+              "amarillas": 2.2,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 0,
+            "d": 3,
+            "goles_favor": 9,
+            "goles_contra": 10,
+            "puntos": 6,
+            "dias_descanso": 22,
+            "ultimos": [
+              {
+                "fecha": "2026-11-14",
+                "local": "Valladolid",
+                "visitante": "Castellon",
+                "marcador": "0-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-08",
+                "local": "Sp Gijon",
+                "visitante": "Valladolid",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Valladolid",
+                "visitante": "Leganes",
+                "marcador": "4-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-23",
+                "local": "Granada",
+                "visitante": "Valladolid",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Valladolid",
+                "visitante": "Eldense",
+                "marcador": "2-3",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 13.8,
+              "tiros_puerta": 6.4,
+              "corners": 6.4,
+              "amarillas": 3.2,
+              "rojas": 0.4
+            }
+          }
+        }
+      },
+      "cara_a_cara": [],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 14,
+            "recinto": 8,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 98,
+            "recinto": 49,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Girona: más de 0,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.85427,
+          "cuota_justa": 1.171,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.837894,
+          "cuota_justa": 1.193,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Real Valladolid +2,5",
+          "familia": "resultado",
+          "probabilidad": 0.824664,
+          "cuota_justa": 1.213,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 0,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
       "id": "E0|202611232000|brentford|everton",
       "fecha_utc": "2026-11-23T20:00:00+00:00",
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Everton",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45209",
@@ -7405,7 +9443,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Chelsea",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30059",
@@ -7647,7 +9685,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Coventry City",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54272",
@@ -7858,7 +9896,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Brentford",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50495",
@@ -8100,7 +10138,7 @@
       "liga": "Premier League",
       "local": "Ipswich Town",
       "visitante": "Aston Villa",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20387",
@@ -8320,7 +10358,7 @@
       "liga": "Premier League",
       "local": "Everton",
       "visitante": "Liverpool",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35507",
@@ -8566,7 +10604,7 @@
       "liga": "Premier League",
       "local": "Brighton & Hove Albion",
       "visitante": "Newcastle United",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.55720",
@@ -8808,7 +10846,7 @@
       "liga": "Premier League",
       "local": "Crystal Palace",
       "visitante": "Hull City",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35465",
@@ -9015,7 +11053,7 @@
       "liga": "Premier League",
       "local": "Fulham",
       "visitante": "AFC Bournemouth",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41606",
@@ -9257,7 +11295,7 @@
       "liga": "Premier League",
       "local": "Sunderland",
       "visitante": "Tottenham Hotspur",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.39852",
@@ -9486,7 +11524,7 @@
       "liga": "Premier League",
       "local": "Arsenal",
       "visitante": "Manchester City",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50235",
@@ -9732,7 +11770,7 @@
       "liga": "Premier League",
       "local": "Coventry City",
       "visitante": "Ipswich Town",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47886",
@@ -9939,7 +11977,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Crystal Palace",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49230",
@@ -10181,7 +12219,7 @@
       "liga": "Premier League",
       "local": "Hull City",
       "visitante": "Nottingham Forest",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41638",
@@ -10388,7 +12426,7 @@
       "liga": "Premier League",
       "local": "Liverpool",
       "visitante": "Sunderland",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54482",
@@ -10612,7 +12650,7 @@
       "liga": "Premier League",
       "local": "Manchester City",
       "visitante": "Leeds United",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66250",
@@ -10840,7 +12878,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.40955",
@@ -11086,7 +13124,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Everton",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43299",
@@ -11328,7 +13366,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Arsenal",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.28953",
@@ -11574,7 +13612,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Manchester United",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37504",
@@ -11812,7 +13850,7 @@
       "liga": "Premier League",
       "local": "Tottenham Hotspur",
       "visitante": "Fulham",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.36908",
@@ -12054,7 +14092,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Liverpool",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37614",
@@ -12295,7 +14333,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Hull City",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49069",
@@ -12501,7 +14539,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Crystal Palace",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51997",
@@ -12734,7 +14772,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Ipswich Town",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56311",
@@ -12940,7 +14978,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Coventry City",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57901",
@@ -13142,7 +15180,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.28448",
@@ -13379,7 +15417,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Manchester City",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32582",
@@ -13615,12 +15653,705 @@
     },
     {
       "version": "dossier-0.8",
+      "id": "E0|202612061400|everton|fulham",
+      "fecha_utc": "2026-12-06T14:00:00+00:00",
+      "liga": "Premier League",
+      "local": "Everton",
+      "visitante": "Fulham",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.45748",
+        "empate": "0.27318",
+        "visitante": "0.26933",
+        "mas_2_5": "0.44355"
+      },
+      "goles_estimados": {
+        "local": "1.430",
+        "visitante": "1.021"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 7,
+            "puntos": 16,
+            "jugados": 10
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 1,
+            "d": 2,
+            "goles_favor": 6,
+            "goles_contra": 7,
+            "puntos": 7,
+            "dias_descanso": 30,
+            "ultimos": [
+              {
+                "fecha": "2026-11-06",
+                "local": "Everton",
+                "visitante": "Coventry",
+                "marcador": "3-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Newcastle",
+                "visitante": "Everton",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Arsenal",
+                "visitante": "Everton",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Everton",
+                "visitante": "Chelsea",
+                "marcador": "0-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Hull",
+                "visitante": "Everton",
+                "marcador": "2-2",
+                "resultado": "E"
+              }
+            ],
+            "medias": {
+              "tiros": 12.0,
+              "tiros_puerta": 5.4,
+              "corners": 4.2,
+              "amarillas": 1.8,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 2,
+            "d": 1,
+            "goles_favor": 5,
+            "goles_contra": 4,
+            "puntos": 8,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Fulham",
+                "visitante": "Newcastle",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Aston Villa",
+                "visitante": "Fulham",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Coventry",
+                "visitante": "Fulham",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Fulham",
+                "visitante": "Hull",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Ipswich",
+                "visitante": "Fulham",
+                "marcador": "2-1",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 13.6,
+              "tiros_puerta": 4.8,
+              "corners": 6.2,
+              "amarillas": 2.2,
+              "rojas": 0.2
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-07",
+          "local": "Fulham",
+          "visitante": "Everton",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-11-08",
+          "local": "Everton",
+          "visitante": "Fulham",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2025-05-10",
+          "local": "Fulham",
+          "visitante": "Everton",
+          "marcador": "1-3"
+        },
+        {
+          "fecha": "2024-10-26",
+          "local": "Everton",
+          "visitante": "Fulham",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-01-30",
+          "local": "Fulham",
+          "visitante": "Everton",
+          "marcador": "0-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Everton: menos de 2,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.826202,
+          "cuota_justa": 1.21,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Fulham +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.773544,
+          "cuota_justa": 1.293,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.767997,
+          "cuota_justa": 1.302,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 6,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "E0|202612061400|newcastle|sunderland",
+      "fecha_utc": "2026-12-06T14:00:00+00:00",
+      "liga": "Premier League",
+      "local": "Newcastle United",
+      "visitante": "Sunderland",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.48706",
+        "empate": "0.24919",
+        "visitante": "0.26375",
+        "mas_2_5": "0.57609"
+      },
+      "goles_estimados": {
+        "local": "1.793",
+        "visitante": "1.204"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 1,
+            "d": 3,
+            "goles_favor": 4,
+            "goles_contra": 7,
+            "puntos": 4,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Fulham",
+                "visitante": "Newcastle",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Newcastle",
+                "visitante": "Everton",
+                "marcador": "0-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Crystal Palace",
+                "visitante": "Newcastle",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Newcastle",
+                "visitante": "Aston Villa",
+                "marcador": "0-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-12",
+                "local": "Coventry",
+                "visitante": "Newcastle",
+                "marcador": "4-1",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 14.2,
+              "tiros_puerta": 3.2,
+              "corners": 4.2,
+              "amarillas": 3.8,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 1,
+            "d": 3,
+            "goles_favor": 2,
+            "goles_contra": 7,
+            "puntos": 4,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Sunderland",
+                "visitante": "Chelsea",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Coventry",
+                "visitante": "Sunderland",
+                "marcador": "3-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Sunderland",
+                "visitante": "Leeds",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Bournemouth",
+                "visitante": "Sunderland",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Sunderland",
+                "visitante": "Brighton",
+                "marcador": "0-2",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 11.2,
+              "tiros_puerta": 2.2,
+              "corners": 4.0,
+              "amarillas": 2.0,
+              "rojas": 0.4
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-03-22",
+          "local": "Newcastle",
+          "visitante": "Sunderland",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2025-12-14",
+          "local": "Sunderland",
+          "visitante": "Newcastle",
+          "marcador": "1-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 48,
+            "recinto": 24,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Newcastle United: más de 0,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.83354,
+          "cuota_justa": 1.2,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.815767,
+          "cuota_justa": 1.226,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "familia": "resultado",
+          "probabilidad": 0.75081,
+          "cuota_justa": 1.332,
+          "origen": "Consenso Poisson/Elo",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Complemento del empate",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 6,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "E0|202612061630|tottenham|arsenal",
+      "fecha_utc": "2026-12-06T16:30:00+00:00",
+      "liga": "Premier League",
+      "local": "Tottenham Hotspur",
+      "visitante": "Arsenal",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.16533",
+        "empate": "0.24830",
+        "visitante": "0.58637",
+        "mas_2_5": "0.47816"
+      },
+      "goles_estimados": {
+        "local": "0.819",
+        "visitante": "1.768"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 9,
+            "puntos": 15,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 1,
+            "d": 1,
+            "goles_favor": 8,
+            "goles_contra": 3,
+            "puntos": 10,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Leeds",
+                "visitante": "Tottenham",
+                "marcador": "1-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Tottenham",
+                "visitante": "Crystal Palace",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Chelsea",
+                "visitante": "Tottenham",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Tottenham",
+                "visitante": "Coventry",
+                "marcador": "3-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Man United",
+                "visitante": "Tottenham",
+                "marcador": "1-1",
+                "resultado": "E"
+              }
+            ],
+            "medias": {
+              "tiros": 16.8,
+              "tiros_puerta": 5.0,
+              "corners": 7.4,
+              "amarillas": 2.0,
+              "rojas": 0.2
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": {
+            "posicion": 1,
+            "puntos": 28,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 5,
+            "e": 0,
+            "d": 0,
+            "goles_favor": 7,
+            "goles_contra": 1,
+            "puntos": 15,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Arsenal",
+                "visitante": "Hull",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Liverpool",
+                "visitante": "Arsenal",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Arsenal",
+                "visitante": "Everton",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Nott'm Forest",
+                "visitante": "Arsenal",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Arsenal",
+                "visitante": "Leeds",
+                "marcador": "2-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 14.6,
+              "tiros_puerta": 4.8,
+              "corners": 6.2,
+              "amarillas": 1.8,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-22",
+          "local": "Tottenham",
+          "visitante": "Arsenal",
+          "marcador": "1-4"
+        },
+        {
+          "fecha": "2025-11-23",
+          "local": "Arsenal",
+          "visitante": "Tottenham",
+          "marcador": "4-1"
+        },
+        {
+          "fecha": "2025-01-15",
+          "local": "Arsenal",
+          "visitante": "Tottenham",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2024-09-15",
+          "local": "Tottenham",
+          "visitante": "Arsenal",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2024-04-28",
+          "local": "Tottenham",
+          "visitante": "Arsenal",
+          "marcador": "2-3"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 124,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Tottenham Hotspur +2,5",
+          "familia": "resultado",
+          "probabilidad": 0.84214,
+          "cuota_justa": 1.187,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Arsenal: más de 0,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.829326,
+          "cuota_justa": 1.206,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Tottenham Hotspur: menos de 1,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.801947,
+          "cuota_justa": 1.247,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 6,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
       "id": "D1|202611271930|werder bremen|m gladbach",
       "fecha_utc": "2026-11-27T19:30:00+00:00",
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Borussia Mönchengladbach",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47390",
@@ -13867,7 +16598,7 @@
       "liga": "Bundesliga",
       "local": "Hamburg SV",
       "visitante": "Bayern Munich",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.14138",
@@ -14101,7 +16832,7 @@
       "liga": "Bundesliga",
       "local": "Mainz",
       "visitante": "1. FC Union Berlin",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45784",
@@ -14339,7 +17070,7 @@
       "liga": "Bundesliga",
       "local": "SC Paderborn 07",
       "visitante": "Schalke 04",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45475",
@@ -14546,7 +17277,7 @@
       "liga": "Bundesliga",
       "local": "VfB Stuttgart",
       "visitante": "Eintracht Frankfurt",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51530",
@@ -14792,7 +17523,7 @@
       "liga": "Bundesliga",
       "local": "SC Freiburg",
       "visitante": "RB Leipzig",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49592",
@@ -15038,7 +17769,7 @@
       "liga": "Bundesliga",
       "local": "TSG Hoffenheim",
       "visitante": "FC Augsburg",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54256",
@@ -15285,7 +18016,7 @@
       "liga": "Bundesliga",
       "local": "Borussia Dortmund",
       "visitante": "Bayer Leverkusen",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57792",
@@ -15536,7 +18267,7 @@
       "liga": "Bundesliga",
       "local": "1. FC Union Berlin",
       "visitante": "Hamburg SV",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47845",
@@ -15756,7 +18487,7 @@
       "liga": "Bundesliga",
       "local": "Bayer Leverkusen",
       "visitante": "Borussia Mönchengladbach",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65527",
@@ -15998,7 +18729,7 @@
       "liga": "Bundesliga",
       "local": "FC Augsburg",
       "visitante": "FC Cologne",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48332",
@@ -16234,7 +18965,7 @@
       "liga": "Bundesliga",
       "local": "RB Leipzig",
       "visitante": "Mainz",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.60520",
@@ -16476,7 +19207,7 @@
       "liga": "Bundesliga",
       "local": "SC Freiburg",
       "visitante": "TSG Hoffenheim",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50904",
@@ -16718,7 +19449,7 @@
       "liga": "Bundesliga",
       "local": "Eintracht Frankfurt",
       "visitante": "Werder Bremen",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47227",
@@ -16964,7 +19695,7 @@
       "liga": "Serie A",
       "local": "Monza",
       "visitante": "Fiorentina",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.28331",
@@ -17184,7 +19915,7 @@
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-22T22:44:39+00:00",
+          "fecha": "2026-11-23T06:34:47+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -17202,7 +19933,7 @@
       "liga": "Serie A",
       "local": "Venezia",
       "visitante": "Bologna",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23178",
@@ -17426,7 +20157,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Parma",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49351",
@@ -17637,7 +20368,7 @@
       "liga": "Serie A",
       "local": "Torino",
       "visitante": "Lazio",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26098",
@@ -17879,7 +20610,7 @@
       "liga": "Serie A",
       "local": "Internazionale",
       "visitante": "Genoa",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.70334",
@@ -18125,7 +20856,7 @@
       "liga": "Serie A",
       "local": "Udinese",
       "visitante": "Fiorentina",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.33887",
@@ -18363,7 +21094,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Napoli",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26075",
@@ -18599,7 +21330,7 @@
       "liga": "Serie A",
       "local": "AS Roma",
       "visitante": "Monza",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.78139",
@@ -18835,7 +21566,7 @@
       "liga": "Serie A",
       "local": "Como",
       "visitante": "Juventus",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46585",
@@ -19075,7 +21806,7 @@
       "liga": "Serie A",
       "local": "Lecce",
       "visitante": "Atalanta",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24285",
@@ -19313,7 +22044,7 @@
       "liga": "Serie A",
       "local": "Cagliari",
       "visitante": "AC Milan",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24947",
@@ -19555,7 +22286,7 @@
       "liga": "Serie A",
       "local": "Bologna",
       "visitante": "AS Roma",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24482",
@@ -19801,7 +22532,7 @@
       "liga": "Serie A",
       "local": "Monza",
       "visitante": "Como",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.13867",
@@ -20020,7 +22751,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Internazionale",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.22119",
@@ -20243,7 +22974,7 @@
       "liga": "Serie A",
       "local": "Napoli",
       "visitante": "Lecce",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.61166",
@@ -20475,12 +23206,954 @@
     },
     {
       "version": "dossier-0.8",
+      "id": "I1|202612061130|genoa|torino",
+      "fecha_utc": "2026-12-06T11:30:00+00:00",
+      "liga": "Serie A",
+      "local": "Genoa",
+      "visitante": "Torino",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.44238",
+        "empate": "0.24783",
+        "visitante": "0.30980",
+        "mas_2_5": "0.46795"
+      },
+      "goles_estimados": {
+        "local": "1.418",
+        "visitante": "1.129"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 10,
+            "puntos": 16,
+            "jugados": 12
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 0,
+            "d": 2,
+            "goles_favor": 6,
+            "goles_contra": 5,
+            "puntos": 9,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Genoa",
+                "visitante": "Milan",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Lecce",
+                "visitante": "Genoa",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-28",
+                "local": "Genoa",
+                "visitante": "Juventus",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Genoa",
+                "visitante": "Venezia",
+                "marcador": "1-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Roma",
+                "visitante": "Genoa",
+                "marcador": "2-0",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 12.0,
+              "tiros_puerta": 3.0,
+              "corners": 3.4,
+              "amarillas": 1.4,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 1,
+            "d": 2,
+            "goles_favor": 8,
+            "goles_contra": 8,
+            "puntos": 7,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Torino",
+                "visitante": "Lecce",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Frosinone",
+                "visitante": "Torino",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-27",
+                "local": "Torino",
+                "visitante": "Como",
+                "marcador": "1-3",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-23",
+                "local": "Torino",
+                "visitante": "Monza",
+                "marcador": "3-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Parma",
+                "visitante": "Torino",
+                "marcador": "0-3",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 11.6,
+              "tiros_puerta": 4.0,
+              "corners": 4.2,
+              "amarillas": 2.0,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-22",
+          "local": "Genoa",
+          "visitante": "Torino",
+          "marcador": "3-0"
+        },
+        {
+          "fecha": "2025-10-26",
+          "local": "Torino",
+          "visitante": "Genoa",
+          "marcador": "2-1"
+        },
+        {
+          "fecha": "2025-02-08",
+          "local": "Torino",
+          "visitante": "Genoa",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-12-07",
+          "local": "Genoa",
+          "visitante": "Torino",
+          "marcador": "0-0"
+        },
+        {
+          "fecha": "2024-01-13",
+          "local": "Genoa",
+          "visitante": "Torino",
+          "marcador": "0-0"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 125,
+            "recinto": 64,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 125,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Genoa: menos de 2,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.829131,
+          "cuota_justa": 1.206,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Torino +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.790899,
+          "cuota_justa": 1.264,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.747484,
+          "cuota_justa": 1.338,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 4,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "I1|202612061400|lazio|atalanta",
+      "fecha_utc": "2026-12-06T14:00:00+00:00",
+      "liga": "Serie A",
+      "local": "Lazio",
+      "visitante": "Atalanta",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.42638",
+        "empate": "0.24378",
+        "visitante": "0.32984",
+        "mas_2_5": "0.50672"
+      },
+      "goles_estimados": {
+        "local": "1.372",
+        "visitante": "1.329"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 1,
+            "puntos": 32,
+            "jugados": 12
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 4,
+            "e": 1,
+            "d": 0,
+            "goles_favor": 14,
+            "goles_contra": 5,
+            "puntos": 13,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Napoli",
+                "visitante": "Lazio",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Lazio",
+                "visitante": "Cagliari",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-27",
+                "local": "Sassuolo",
+                "visitante": "Lazio",
+                "marcador": "2-6",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Lazio",
+                "visitante": "Parma",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Juventus",
+                "visitante": "Lazio",
+                "marcador": "0-3",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 14.4,
+              "tiros_puerta": 5.2,
+              "corners": 4.8,
+              "amarillas": 1.2,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 2,
+            "d": 2,
+            "goles_favor": 9,
+            "goles_contra": 12,
+            "puntos": 5,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Monza",
+                "visitante": "Atalanta",
+                "marcador": "0-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Atalanta",
+                "visitante": "Parma",
+                "marcador": "0-3",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-29",
+                "local": "Fiorentina",
+                "visitante": "Atalanta",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Atalanta",
+                "visitante": "Frosinone",
+                "marcador": "4-4",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Milan",
+                "visitante": "Atalanta",
+                "marcador": "3-2",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 13.8,
+              "tiros_puerta": 6.2,
+              "corners": 4.4,
+              "amarillas": 1.4,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-14",
+          "local": "Lazio",
+          "visitante": "Atalanta",
+          "marcador": "0-2"
+        },
+        {
+          "fecha": "2025-10-19",
+          "local": "Atalanta",
+          "visitante": "Lazio",
+          "marcador": "0-0"
+        },
+        {
+          "fecha": "2025-04-06",
+          "local": "Atalanta",
+          "visitante": "Lazio",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2024-12-28",
+          "local": "Lazio",
+          "visitante": "Atalanta",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-02-04",
+          "local": "Atalanta",
+          "visitante": "Lazio",
+          "marcador": "3-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 125,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 125,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.862759,
+          "cuota_justa": 1.159,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Atalanta: menos de 2,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.850383,
+          "cuota_justa": 1.176,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Lazio: menos de 2,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.840223,
+          "cuota_justa": 1.19,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 4,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "I1|202612061700|juventus|udinese",
+      "fecha_utc": "2026-12-06T17:00:00+00:00",
+      "liga": "Serie A",
+      "local": "Juventus",
+      "visitante": "Udinese",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.59879",
+        "empate": "0.21998",
+        "visitante": "0.18123",
+        "mas_2_5": "0.53995"
+      },
+      "goles_estimados": {
+        "local": "1.864",
+        "visitante": "0.976"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 6,
+            "puntos": 21,
+            "jugados": 12
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 1,
+            "d": 2,
+            "goles_favor": 6,
+            "goles_contra": 7,
+            "puntos": 7,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Fiorentina",
+                "visitante": "Juventus",
+                "marcador": "2-2",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Juventus",
+                "visitante": "Napoli",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-28",
+                "local": "Genoa",
+                "visitante": "Juventus",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Lecce",
+                "visitante": "Juventus",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Juventus",
+                "visitante": "Lazio",
+                "marcador": "0-3",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 14.0,
+              "tiros_puerta": 3.6,
+              "corners": 8.4,
+              "amarillas": 1.4,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 0,
+            "e": 1,
+            "d": 4,
+            "goles_favor": 3,
+            "goles_contra": 12,
+            "puntos": 1,
+            "dias_descanso": 30,
+            "ultimos": [
+              {
+                "fecha": "2026-11-06",
+                "local": "Venezia",
+                "visitante": "Udinese",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Udinese",
+                "visitante": "Roma",
+                "marcador": "2-5",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-28",
+                "local": "Parma",
+                "visitante": "Udinese",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Udinese",
+                "visitante": "Milan",
+                "marcador": "0-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Udinese",
+                "visitante": "Lecce",
+                "marcador": "0-3",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 14.8,
+              "tiros_puerta": 4.8,
+              "corners": 5.2,
+              "amarillas": 1.2,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-03-14",
+          "local": "Udinese",
+          "visitante": "Juventus",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-10-29",
+          "local": "Juventus",
+          "visitante": "Udinese",
+          "marcador": "3-1"
+        },
+        {
+          "fecha": "2025-05-18",
+          "local": "Juventus",
+          "visitante": "Udinese",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2024-11-02",
+          "local": "Udinese",
+          "visitante": "Juventus",
+          "marcador": "0-2"
+        },
+        {
+          "fecha": "2024-02-12",
+          "local": "Juventus",
+          "visitante": "Udinese",
+          "marcador": "0-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 125,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 125,
+            "recinto": 62,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Juventus: más de 0,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.844949,
+          "cuota_justa": 1.184,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.841394,
+          "cuota_justa": 1.189,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Udinese +2,5",
+          "familia": "resultado",
+          "probabilidad": 0.840022,
+          "cuota_justa": 1.19,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 4,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "I1|202612061945|milan|parma",
+      "fecha_utc": "2026-12-06T19:45:00+00:00",
+      "liga": "Serie A",
+      "local": "AC Milan",
+      "visitante": "Parma",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.55472",
+        "empate": "0.24995",
+        "visitante": "0.19533",
+        "mas_2_5": "0.39950"
+      },
+      "goles_estimados": {
+        "local": "1.458",
+        "visitante": "0.825"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 4,
+            "puntos": 27,
+            "jugados": 12
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 4,
+            "e": 0,
+            "d": 1,
+            "goles_favor": 12,
+            "goles_contra": 8,
+            "puntos": 12,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Genoa",
+                "visitante": "Milan",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Milan",
+                "visitante": "Inter",
+                "marcador": "3-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-28",
+                "local": "Milan",
+                "visitante": "Bologna",
+                "marcador": "2-4",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Udinese",
+                "visitante": "Milan",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Milan",
+                "visitante": "Atalanta",
+                "marcador": "3-2",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 10.2,
+              "tiros_puerta": 4.4,
+              "corners": 2.2,
+              "amarillas": 1.8,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 1,
+            "d": 3,
+            "goles_favor": 5,
+            "goles_contra": 7,
+            "puntos": 4,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Parma",
+                "visitante": "Bologna",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Atalanta",
+                "visitante": "Parma",
+                "marcador": "0-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-28",
+                "local": "Parma",
+                "visitante": "Udinese",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-24",
+                "local": "Lazio",
+                "visitante": "Parma",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-19",
+                "local": "Parma",
+                "visitante": "Torino",
+                "marcador": "0-3",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 12.0,
+              "tiros_puerta": 3.8,
+              "corners": 3.4,
+              "amarillas": 1.0,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-02-22",
+          "local": "Milan",
+          "visitante": "Parma",
+          "marcador": "0-1"
+        },
+        {
+          "fecha": "2025-11-08",
+          "local": "Parma",
+          "visitante": "Milan",
+          "marcador": "2-2"
+        },
+        {
+          "fecha": "2025-01-26",
+          "local": "Milan",
+          "visitante": "Parma",
+          "marcador": "3-2"
+        },
+        {
+          "fecha": "2024-08-24",
+          "local": "Parma",
+          "visitante": "Milan",
+          "marcador": "2-1"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 125,
+            "recinto": 62,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 87,
+            "recinto": 43,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "AC Milan: menos de 2,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.819314,
+          "cuota_justa": 1.221,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: AC Milan o empate",
+          "familia": "resultado",
+          "probabilidad": 0.80467,
+          "cuota_justa": 1.243,
+          "origen": "Consenso Poisson/Elo",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Suma de probabilidades de local y empate",
+          "posicion": 2
+        },
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.802794,
+          "cuota_justa": 1.246,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 4,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
       "id": "F1|202611271945|brest|paris fc",
       "fecha_utc": "2026-11-27T19:45:00+00:00",
       "liga": "Ligue 1",
       "local": "Brest",
       "visitante": "Paris FC",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41703",
@@ -20708,7 +24381,7 @@
       "liga": "Ligue 1",
       "local": "Angers",
       "visitante": "Lens",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23207",
@@ -20940,7 +24613,7 @@
       "liga": "Ligue 1",
       "local": "Le Havre AC",
       "visitante": "Strasbourg",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30519",
@@ -21178,7 +24851,7 @@
       "liga": "Ligue 1",
       "local": "Le Mans",
       "visitante": "Lille",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26003",
@@ -21389,7 +25062,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Troyes",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47106",
@@ -21600,7 +25273,7 @@
       "liga": "Ligue 1",
       "local": "Paris Saint-Germain",
       "visitante": "Lorient",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65266",
@@ -21840,7 +25513,7 @@
       "liga": "Ligue 1",
       "local": "AJ Auxerre",
       "visitante": "Marseille",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.31081",
@@ -22076,7 +25749,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Stade Rennais",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41916",
@@ -22318,7 +25991,7 @@
       "liga": "Ligue 1",
       "local": "Lyon",
       "visitante": "AS Monaco",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.53059",
@@ -22564,7 +26237,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Paris Saint-Germain",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20574",
@@ -22806,7 +26479,7 @@
       "liga": "Ligue 1",
       "local": "Lille",
       "visitante": "AJ Auxerre",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58422",
@@ -23037,7 +26710,7 @@
       "liga": "Ligue 1",
       "local": "AS Monaco",
       "visitante": "Angers",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.62335",
@@ -23268,7 +26941,7 @@
       "liga": "Ligue 1",
       "local": "Lens",
       "visitante": "Le Havre AC",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.59795",
@@ -23501,7 +27174,7 @@
       "liga": "Ligue 1",
       "local": "Paris FC",
       "visitante": "Le Mans",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.52350",
@@ -23707,7 +27380,7 @@
       "liga": "Ligue 1",
       "local": "Strasbourg",
       "visitante": "Lorient",
-      "creado_utc": "2026-11-22T23:17:55.618825+00:00",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.52548",
@@ -23913,6 +27586,699 @@
           "origen": "Poisson de goles",
           "nivel": "MODELO_NO_CALIBRADO",
           "motivo": "Goles esperados del equipo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 12,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "F1|202612061400|troyes|lyon",
+      "fecha_utc": "2026-12-06T14:00:00+00:00",
+      "liga": "Ligue 1",
+      "local": "Troyes",
+      "visitante": "Lyon",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.30013",
+        "empate": "0.24979",
+        "visitante": "0.45007",
+        "mas_2_5": "0.51702"
+      },
+      "goles_estimados": {
+        "local": "1.188",
+        "visitante": "1.556"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": null,
+          "reciente": {
+            "partidos": 5,
+            "v": 1,
+            "e": 1,
+            "d": 3,
+            "goles_favor": 3,
+            "goles_contra": 6,
+            "puntos": 4,
+            "dias_descanso": 29,
+            "ultimos": [
+              {
+                "fecha": "2026-11-07",
+                "local": "Paris SG",
+                "visitante": "Troyes",
+                "marcador": "1-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-31",
+                "local": "Troyes",
+                "visitante": "Le Mans",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Toulouse",
+                "visitante": "Troyes",
+                "marcador": "0-0",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Troyes",
+                "visitante": "Lens",
+                "marcador": "1-3",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Troyes",
+                "visitante": "Marseille",
+                "marcador": "0-2",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 11.4,
+              "tiros_puerta": 3.8,
+              "corners": 3.8,
+              "amarillas": 2.4,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": {
+            "posicion": 4,
+            "puntos": 20,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 0,
+            "d": 3,
+            "goles_favor": 5,
+            "goles_contra": 7,
+            "puntos": 6,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Brest",
+                "visitante": "Lyon",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Lyon",
+                "visitante": "Angers",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-26",
+                "local": "Paris SG",
+                "visitante": "Lyon",
+                "marcador": "2-0",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Lyon",
+                "visitante": "Nice",
+                "marcador": "2-1",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-09",
+                "local": "Lens",
+                "visitante": "Lyon",
+                "marcador": "2-1",
+                "resultado": "D"
+              }
+            ],
+            "medias": {
+              "tiros": 12.2,
+              "tiros_puerta": 4.2,
+              "corners": 4.2,
+              "amarillas": 0.8,
+              "rojas": 0.2
+            }
+          }
+        }
+      },
+      "cara_a_cara": [],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 10,
+            "recinto": 5,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 112,
+            "recinto": 56,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Total goles",
+          "seleccion": "Menos de 4,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.856291,
+          "cuota_justa": 1.168,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Lyon: menos de 2,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.794664,
+          "cuota_justa": 1.258,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Troyes +1,5",
+          "familia": "resultado",
+          "probabilidad": 0.76756,
+          "cuota_justa": 1.303,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Hándicap de medio gol: sin posibilidad de devolución",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 0,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "F1|202612061615|rennes|brest",
+      "fecha_utc": "2026-12-06T16:15:00+00:00",
+      "liga": "Ligue 1",
+      "local": "Stade Rennais",
+      "visitante": "Brest",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.61374",
+        "empate": "0.20613",
+        "visitante": "0.18012",
+        "mas_2_5": "0.61413"
+      },
+      "goles_estimados": {
+        "local": "2.231",
+        "visitante": "0.941"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 9,
+            "puntos": 17,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 2,
+            "e": 0,
+            "d": 3,
+            "goles_favor": 13,
+            "goles_contra": 12,
+            "puntos": 6,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Rennes",
+                "visitante": "Lille",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-30",
+                "local": "Nice",
+                "visitante": "Rennes",
+                "marcador": "5-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Rennes",
+                "visitante": "Strasbourg",
+                "marcador": "3-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Paris FC",
+                "visitante": "Rennes",
+                "marcador": "4-3",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Rennes",
+                "visitante": "Auxerre",
+                "marcador": "4-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 16.2,
+              "tiros_puerta": 6.6,
+              "corners": 6.4,
+              "amarillas": 2.4,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": {
+            "posicion": 6,
+            "puntos": 18,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 3,
+            "e": 1,
+            "d": 1,
+            "goles_favor": 11,
+            "goles_contra": 4,
+            "puntos": 10,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Brest",
+                "visitante": "Lyon",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-02",
+                "local": "Lorient",
+                "visitante": "Brest",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-23",
+                "local": "Brest",
+                "visitante": "Nice",
+                "marcador": "1-2",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-17",
+                "local": "Lille",
+                "visitante": "Brest",
+                "marcador": "1-1",
+                "resultado": "E"
+              },
+              {
+                "fecha": "2026-10-10",
+                "local": "Brest",
+                "visitante": "Angers",
+                "marcador": "5-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 13.0,
+              "tiros_puerta": 5.6,
+              "corners": 2.4,
+              "amarillas": 1.6,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-04-04",
+          "local": "Brest",
+          "visitante": "Rennes",
+          "marcador": "3-4"
+        },
+        {
+          "fecha": "2025-12-13",
+          "local": "Rennes",
+          "visitante": "Brest",
+          "marcador": "3-1"
+        },
+        {
+          "fecha": "2025-01-18",
+          "local": "Rennes",
+          "visitante": "Brest",
+          "marcador": "1-2"
+        },
+        {
+          "fecha": "2024-10-19",
+          "local": "Brest",
+          "visitante": "Rennes",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2024-04-28",
+          "local": "Rennes",
+          "visitante": "Brest",
+          "marcador": "4-5"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 112,
+            "recinto": 57,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 112,
+            "recinto": 56,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Total goles",
+          "seleccion": "Más de 1,5 goles",
+          "familia": "total_goles",
+          "probabilidad": 0.825111,
+          "cuota_justa": 1.212,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Distribución conjunta de goles del modelo",
+          "posicion": 1
+        },
+        {
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Stade Rennais o empate",
+          "familia": "resultado",
+          "probabilidad": 0.81987,
+          "cuota_justa": 1.22,
+          "origen": "Consenso Poisson/Elo",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Suma de probabilidades de local y empate",
+          "posicion": 2
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Brest: menos de 1,5 goles",
+          "familia": "goles_visitante",
+          "probabilidad": 0.757451,
+          "cuota_justa": 1.32,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 3
+        }
+      ],
+      "conteos_aprobados_retro": 12,
+      "valor_comparado": [],
+      "xg": {
+        "estado": "NO_DISPONIBLE_EN_CSV",
+        "nota": "No se inventa xG. Una fuente dedicada puede aportarlo con fecha y partido verificados."
+      },
+      "ml": null,
+      "mercado_referencias": [],
+      "limitaciones": [
+        "xG auténtico no integrado en las probabilidades",
+        "Lesiones y alineaciones no incorporadas al predictor",
+        "No se ha demostrado ventaja frente a cuotas reales"
+      ],
+      "aviso": "Estudio estadístico experimental, no recomendación ni apuesta automática."
+    },
+    {
+      "version": "dossier-0.8",
+      "id": "F1|202612061945|marseille|nice",
+      "fecha_utc": "2026-12-06T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "local": "Marseille",
+      "visitante": "Nice",
+      "creado_utc": "2026-11-23T06:38:51.177037+00:00",
+      "modelo": "poisson70-elo30-0.2",
+      "probabilidades": {
+        "local": "0.64038",
+        "empate": "0.18904",
+        "visitante": "0.17058",
+        "mas_2_5": "0.73282"
+      },
+      "goles_estimados": {
+        "local": "2.653",
+        "visitante": "1.158"
+      },
+      "equipos": {
+        "local": {
+          "clasificacion": {
+            "posicion": 5,
+            "puntos": 18,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 5,
+            "e": 0,
+            "d": 0,
+            "goles_favor": 15,
+            "goles_contra": 6,
+            "puntos": 15,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Lens",
+                "visitante": "Marseille",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-11-01",
+                "local": "Marseille",
+                "visitante": "Toulouse",
+                "marcador": "2-0",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-25",
+                "local": "Marseille",
+                "visitante": "Le Havre",
+                "marcador": "4-3",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Angers",
+                "visitante": "Marseille",
+                "marcador": "2-5",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Troyes",
+                "visitante": "Marseille",
+                "marcador": "0-2",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 13.2,
+              "tiros_puerta": 4.6,
+              "corners": 4.4,
+              "amarillas": 1.4,
+              "rojas": 0.0
+            }
+          }
+        },
+        "visitante": {
+          "clasificacion": {
+            "posicion": 7,
+            "puntos": 17,
+            "jugados": 11
+          },
+          "reciente": {
+            "partidos": 5,
+            "v": 4,
+            "e": 0,
+            "d": 1,
+            "goles_favor": 12,
+            "goles_contra": 6,
+            "puntos": 12,
+            "dias_descanso": 28,
+            "ultimos": [
+              {
+                "fecha": "2026-11-08",
+                "local": "Angers",
+                "visitante": "Nice",
+                "marcador": "0-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-30",
+                "local": "Nice",
+                "visitante": "Rennes",
+                "marcador": "5-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-23",
+                "local": "Brest",
+                "visitante": "Nice",
+                "marcador": "1-2",
+                "resultado": "V"
+              },
+              {
+                "fecha": "2026-10-18",
+                "local": "Lyon",
+                "visitante": "Nice",
+                "marcador": "2-1",
+                "resultado": "D"
+              },
+              {
+                "fecha": "2026-10-11",
+                "local": "Nice",
+                "visitante": "Strasbourg",
+                "marcador": "2-1",
+                "resultado": "V"
+              }
+            ],
+            "medias": {
+              "tiros": 13.0,
+              "tiros_puerta": 5.8,
+              "corners": 5.2,
+              "amarillas": 3.0,
+              "rojas": 0.0
+            }
+          }
+        }
+      },
+      "cara_a_cara": [
+        {
+          "fecha": "2026-04-26",
+          "local": "Marseille",
+          "visitante": "Nice",
+          "marcador": "1-1"
+        },
+        {
+          "fecha": "2025-11-21",
+          "local": "Nice",
+          "visitante": "Marseille",
+          "marcador": "1-5"
+        },
+        {
+          "fecha": "2025-01-26",
+          "local": "Nice",
+          "visitante": "Marseille",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2024-09-14",
+          "local": "Marseille",
+          "visitante": "Nice",
+          "marcador": "2-0"
+        },
+        {
+          "fecha": "2024-04-24",
+          "local": "Marseille",
+          "visitante": "Nice",
+          "marcador": "2-2"
+        }
+      ],
+      "calidad": {
+        "equipos": {
+          "local": {
+            "todos": 112,
+            "recinto": 56,
+            "identificado": true
+          },
+          "visitante": {
+            "todos": 112,
+            "recinto": 56,
+            "identificado": true
+          }
+        },
+        "motivos": [],
+        "suficiente_modelo_actual": true
+      },
+      "top_3": [
+        {
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Marseille o empate",
+          "familia": "resultado",
+          "probabilidad": 0.82942,
+          "cuota_justa": 1.206,
+          "origen": "Consenso Poisson/Elo",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Suma de probabilidades de local y empate",
+          "posicion": 1
+        },
+        {
+          "mercado": "Goles equipo",
+          "seleccion": "Marseille: más de 1,5 goles",
+          "familia": "goles_local",
+          "probabilidad": 0.742684,
+          "cuota_justa": 1.346,
+          "origen": "Poisson de goles",
+          "nivel": "MODELO_NO_CALIBRADO",
+          "motivo": "Goles esperados del equipo",
+          "posicion": 2
+        },
+        {
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 7,5 tiros a puerta totales",
+          "familia": "on_target",
+          "probabilidad": 0.739981,
+          "cuota_justa": 1.351,
+          "origen": "Modelo de conteos con auditoría temporal",
+          "nivel": "BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA",
+          "motivo": "Exploratorio: 25 partidos local, 25 visitante y 500 ligueros; superó Brier, logloss y calibración retrospectivos",
+          "muestra_local": 25,
+          "muestra_visitante": 25,
+          "metrica": "on_target",
+          "linea": 7.5,
+          "direccion": "mas",
           "posicion": 3
         }
       ],

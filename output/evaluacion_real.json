@@ -1,10 +1,10 @@
 {
   "version": "prospectivo-0.5",
-  "calculado_utc": "2026-11-22T23:17:55.618825+00:00",
+  "calculado_utc": "2026-11-23T06:38:51.177037+00:00",
   "proporcion": "1X2 prepartido archivado; Brier dividido entre 3",
-  "registrados": 158,
+  "registrados": 177,
   "finalizados_validos": 55,
-  "pendientes": 103,
+  "pendientes": 122,
   "sin_resultado": 0,
   "excluidos": 0,
   "global": {

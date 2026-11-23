@@ -158,3 +158,24 @@ I1|202612051945|napoli|lecce,2026-12-05T19:45:00+00:00,Serie A,Napoli,Lecce,ESPN
 E0|202612052000|brentford|man city,2026-12-05T20:00:00+00:00,Premier League,Brentford,Manchester City,ESPN (no oficial),2026-11-22T10:06:14.945675+00:00,SI
 SP1|202612052000|barcelona|celta,2026-12-05T20:00:00+00:00,LaLiga,Barcelona,Celta Vigo,ESPN (no oficial),2026-11-22T10:06:14.945675+00:00,SI
 SP2|202612052000|tenerife|eldense,2026-12-05T20:00:00+00:00,Segunda División,Tenerife,Eldense,ESPN (no oficial),2026-11-22T10:06:14.945675+00:00,SI
+I1|202612061130|genoa|torino,2026-12-06T11:30:00+00:00,Serie A,Genoa,Torino,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP1|202612061300|osasuna|elche,2026-12-06T13:00:00+00:00,LaLiga,Osasuna,Elche,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP2|202612061300|celta b|mallorca,2026-12-06T13:00:00+00:00,Segunda División,RC Celta Fortuna,Mallorca,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+E0|202612061400|everton|fulham,2026-12-06T14:00:00+00:00,Premier League,Everton,Fulham,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+E0|202612061400|newcastle|sunderland,2026-12-06T14:00:00+00:00,Premier League,Newcastle United,Sunderland,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+F1|202612061400|troyes|lyon,2026-12-06T14:00:00+00:00,Ligue 1,Troyes,Lyon,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+I1|202612061400|lazio|atalanta,2026-12-06T14:00:00+00:00,Serie A,Lazio,Atalanta,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+D1|202612061430|schalke 04|dortmund,2026-12-06T14:30:00+00:00,Bundesliga,Schalke 04,Borussia Dortmund,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,NO
+SP1|202612061515|ath bilbao|real madrid,2026-12-06T15:15:00+00:00,LaLiga,Athletic Club,Real Madrid,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP2|202612061515|castellon|almeria,2026-12-06T15:15:00+00:00,Segunda División,Castellón,Almería,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+F1|202612061615|rennes|brest,2026-12-06T16:15:00+00:00,Ligue 1,Stade Rennais,Brest,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+D1|202612061630|sv elversberg|stuttgart,2026-12-06T16:30:00+00:00,Bundesliga,SV Elversberg,VfB Stuttgart,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,NO
+E0|202612061630|tottenham|arsenal,2026-12-06T16:30:00+00:00,Premier League,Tottenham Hotspur,Arsenal,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+I1|202612061700|juventus|udinese,2026-12-06T17:00:00+00:00,Serie A,Juventus,Udinese,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP1|202612061730|getafe|valencia,2026-12-06T17:30:00+00:00,LaLiga,Getafe,Valencia,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP2|202612061730|ceuta|albacete,2026-12-06T17:30:00+00:00,Segunda División,Ceuta,Albacete,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP2|202612061730|sp gijon|granada,2026-12-06T17:30:00+00:00,Segunda División,Sporting Gijón,Granada,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+F1|202612061945|marseille|nice,2026-12-06T19:45:00+00:00,Ligue 1,Marseille,Nice,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+I1|202612061945|milan|parma,2026-12-06T19:45:00+00:00,Serie A,AC Milan,Parma,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP1|202612062000|ath madrid|betis,2026-12-06T20:00:00+00:00,LaLiga,Atlético Madrid,Real Betis,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP2|202612062000|girona|valladolid,2026-12-06T20:00:00+00:00,Segunda División,Girona,Real Valladolid,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
