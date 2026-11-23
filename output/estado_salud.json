@@ -1,16 +1,10 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-23T06:38:09.492787+00:00",
-  "estado": "INCIDENCIAS",
-  "incidencias": [
-    {
-      "codigo": "FALLO_ANALISIS",
-      "severidad": "ALTA",
-      "descripcion": "GitHub Actions informa de una ejecución failure en Analisis futbol diario; pendiente de la siguiente ejecución satisfactoria."
-    }
-  ],
+  "comprobado_utc": "2026-11-23T06:40:18.843272+00:00",
+  "estado": "CORRECTO",
+  "incidencias": [],
   "detalle": {
-    "analisis_utc": "2026-11-22T23:17:55.618825+00:00",
+    "analisis_utc": "2026-11-23T06:38:51.177037+00:00",
     "partidos_proximos": 9,
     "cuotas_utc": "2026-11-23T03:06:21.683349+00:00",
     "consultas_utc": "2026-11-23T03:06:21.725711+00:00",
@@ -24,12 +18,8 @@
   "ultima_captura_revisada": "2026-11-23T03:06:21.683349+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
-  "fallos_workflow": {
-    "Analisis futbol diario": "failure"
-  },
-  "notificadas": [
-    "FALLO_ANALISIS"
-  ],
-  "ultima_entrega_utc": "2026-11-23T06:38:09.492787+00:00",
+  "fallos_workflow": {},
+  "notificadas": [],
+  "ultima_entrega_utc": "2026-11-23T06:40:18.843272+00:00",
   "envio": "ENTREGADO"
 }
