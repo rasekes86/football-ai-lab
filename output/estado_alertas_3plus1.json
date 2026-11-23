@@ -84,7 +84,23 @@
     "extra:SP2|202611211515|sociedad b|cadiz|Total goles|Menos de 2,5 goles",
     "top:SP1|202611211515|vallecano|valencia|Goles equipo|Rayo Vallecano: menos de 2,5 goles",
     "top:SP1|202611211515|vallecano|valencia|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
-    "top:SP1|202611211515|vallecano|valencia|Tiros totales|Más de 19,5 tiros totales"
+    "top:SP1|202611211515|vallecano|valencia|Tiros totales|Más de 19,5 tiros totales",
+    "top:SP2|202611211515|sociedad b|cadiz|Goles equipo|Real Sociedad II: menos de 2,5 goles",
+    "top:SP2|202611211515|sociedad b|cadiz|Hándicap 2 vías (medio gol)|Real Sociedad II +1,5",
+    "top:SP2|202611211515|sociedad b|cadiz|Tiros totales|Más de 19,5 tiros totales",
+    "extra:F1|202611211615|nice|paris sg|Total goles|Menos de 3,5 goles",
+    "top:F1|202611211615|nice|paris sg|Goles equipo|Paris Saint-Germain: más de 0,5 goles",
+    "top:F1|202611211615|nice|paris sg|Hándicap 2 vías (medio gol)|Nice +2,5",
+    "top:F1|202611211615|nice|paris sg|Total goles|Más de 1,5 goles",
+    "extra:I1|202611211700|parma|roma|Total goles|Menos de 3,5 goles",
+    "top:I1|202611211700|parma|roma|Goles equipo|AS Roma: más de 0,5 goles",
+    "top:I1|202611211700|parma|roma|Goles equipo|Parma: menos de 1,5 goles",
+    "top:I1|202611211700|parma|roma|Hándicap 2 vías (medio gol)|Parma +2,5",
+    "extra:SP1|202611211730|sevilla|betis|Total goles|Menos de 2,5 goles",
+    "extra:SP2|202611211730|castellon|eldense|Total goles|Menos de 3,5 goles",
+    "top:E0|202611211730|newcastle|arsenal|Doble oportunidad|X2: empate o Arsenal",
+    "top:E0|202611211730|newcastle|arsenal|Goles equipo|Arsenal: más de 0,5 goles",
+    "top:E0|202611211730|newcastle|arsenal|Total goles|Menos de 4,5 goles"
   ],
-  "last_delivery_utc": "2026-11-23T15:16:31.151065+00:00"
+  "last_delivery_utc": "2026-11-23T19:16:21.009151+00:00"
 }
