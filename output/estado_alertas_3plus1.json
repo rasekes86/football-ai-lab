@@ -68,7 +68,23 @@
     "top:E0|202611211500|aston villa|sunderland|Goles equipo|Aston Villa: más de 0,5 goles",
     "top:E0|202611211500|aston villa|sunderland|Hándicap 2 vías (medio gol)|Sunderland +2,5",
     "top:E0|202611211500|aston villa|sunderland|Total goles|Menos de 4,5 goles",
-    "top:E0|202611211500|bournemouth|nott m forest|Goles equipo|AFC Bournemouth: menos de 2,5 goles"
+    "top:E0|202611211500|bournemouth|nott m forest|Goles equipo|AFC Bournemouth: menos de 2,5 goles",
+    "top:E0|202611211500|bournemouth|nott m forest|Hándicap 2 vías (medio gol)|Nottingham Forest +1,5",
+    "top:E0|202611211500|bournemouth|nott m forest|Total goles|Menos de 4,5 goles",
+    "top:E0|202611211500|chelsea|leeds|Doble oportunidad|1X: Chelsea o empate",
+    "top:E0|202611211500|chelsea|leeds|Goles equipo|Chelsea: más de 0,5 goles",
+    "top:E0|202611211500|chelsea|leeds|Total goles|Menos de 4,5 goles",
+    "top:E0|202611211500|coventry|crystal palace|Goles equipo|Crystal Palace: menos de 2,5 goles",
+    "top:E0|202611211500|coventry|crystal palace|Hándicap 2 vías (medio gol)|Coventry City +1,5",
+    "top:E0|202611211500|coventry|crystal palace|Total goles|Menos de 4,5 goles",
+    "top:E0|202611211500|tottenham|ipswich|Goles equipo|Tottenham Hotspur: más de 0,5 goles",
+    "top:E0|202611211500|tottenham|ipswich|Hándicap 2 vías (medio gol)|Tottenham Hotspur +1,5",
+    "top:E0|202611211500|tottenham|ipswich|Total goles|Más de 1,5 goles",
+    "extra:SP1|202611211515|vallecano|valencia|Total goles|Menos de 2,5 goles",
+    "extra:SP2|202611211515|sociedad b|cadiz|Total goles|Menos de 2,5 goles",
+    "top:SP1|202611211515|vallecano|valencia|Goles equipo|Rayo Vallecano: menos de 2,5 goles",
+    "top:SP1|202611211515|vallecano|valencia|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+    "top:SP1|202611211515|vallecano|valencia|Tiros totales|Más de 19,5 tiros totales"
   ],
-  "last_delivery_utc": "2026-11-22T15:18:34.542545+00:00"
+  "last_delivery_utc": "2026-11-23T15:16:31.151065+00:00"
 }
