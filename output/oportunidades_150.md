@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 57 · **Finalizadas:** 45 · **Pendientes:** 12
+**Registradas:** 61 · **Finalizadas:** 45 · **Pendientes:** 16
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -63,6 +63,10 @@
 | Hamburg SV – Bayern Munich | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 52.4% | 2.10 | Pendiente | — |
 | Mainz – 1. FC Union Berlin | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 70.6% | 1.61 | Pendiente | — |
 | Frosinone – Parma | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.3% | 1.80 | Pendiente | — |
+| Elche – Atlético Madrid | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 72.5% | 1.57 | Pendiente | — |
+| Ipswich Town – Aston Villa | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 65.3% | 1.61 | Pendiente | — |
+| VfB Stuttgart – Eintracht Frankfurt | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 55.2% | 2.20 | Pendiente | — |
+| Torino – Lazio | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 59.0% | 1.95 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.

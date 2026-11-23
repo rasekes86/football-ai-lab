@@ -1,50 +1,50 @@
 {
   "LaLiga": {
-    "muestra": 91,
-    "brier_modelo": 0.18997,
-    "logloss_modelo": 0.96349,
-    "brier_base": 0.21841,
-    "logloss_base": 1.08043,
+    "muestra": 94,
+    "brier_modelo": 0.1897,
+    "logloss_modelo": 0.96253,
+    "brier_base": 0.2204,
+    "logloss_base": 1.08835,
     "modelo_mejor_brier": true
   },
   "Segunda División": {
-    "muestra": 94,
-    "brier_modelo": 0.20365,
-    "logloss_modelo": 1.017,
-    "brier_base": 0.21195,
-    "logloss_base": 1.05236,
+    "muestra": 98,
+    "brier_modelo": 0.20286,
+    "logloss_modelo": 1.01467,
+    "brier_base": 0.21104,
+    "logloss_base": 1.04746,
     "modelo_mejor_brier": true
   },
   "Premier League": {
     "muestra": 101,
-    "brier_modelo": 0.20973,
-    "logloss_modelo": 1.04602,
-    "brier_base": 0.21933,
-    "logloss_base": 1.08615,
+    "brier_modelo": 0.21303,
+    "logloss_modelo": 1.05755,
+    "brier_base": 0.2195,
+    "logloss_base": 1.08663,
     "modelo_mejor_brier": true
   },
   "Bundesliga": {
-    "muestra": 94,
-    "brier_modelo": 0.18814,
-    "logloss_modelo": 0.95179,
-    "brier_base": 0.21199,
-    "logloss_base": 1.05295,
+    "muestra": 91,
+    "brier_modelo": 0.1914,
+    "logloss_modelo": 0.96185,
+    "brier_base": 0.21058,
+    "logloss_base": 1.04642,
     "modelo_mejor_brier": true
   },
   "Serie A": {
     "muestra": 120,
-    "brier_modelo": 0.17992,
-    "logloss_modelo": 0.92392,
-    "brier_base": 0.21206,
-    "logloss_base": 1.05011,
+    "brier_modelo": 0.17423,
+    "logloss_modelo": 0.90005,
+    "brier_base": 0.21118,
+    "logloss_base": 1.04613,
     "modelo_mejor_brier": true
   },
   "Ligue 1": {
     "muestra": 101,
-    "brier_modelo": 0.2046,
-    "logloss_modelo": 1.02129,
-    "brier_base": 0.21327,
-    "logloss_base": 1.05885,
+    "brier_modelo": 0.20392,
+    "logloss_modelo": 1.02094,
+    "brier_base": 0.21339,
+    "logloss_base": 1.05801,
     "modelo_mejor_brier": true
   },
   "_aviso": "Evaluación retrospectiva, no prueba prospectiva de rentabilidad. No usa cuotas."

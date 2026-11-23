@@ -1,16 +1,16 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-23T15:14:43.281720+00:00",
+  "calculado_utc": "2026-11-23T19:14:53.650794+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-23T15:14:43.281720+00:00",
+    "calculado_utc": "2026-11-23T19:14:53.650794+00:00",
     "objetivos_conteo": 20,
     "completos": 20,
     "incompletos": 0,
     "scoreboards_consultados": 0,
     "summaries_consultados": 0,
     "campos_recuperados": 0,
-    "campos_recuperados_cache": 602,
+    "campos_recuperados_cache": 110,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
     "objetivos_detalle": [

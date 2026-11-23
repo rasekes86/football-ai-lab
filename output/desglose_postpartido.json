@@ -1,16 +1,16 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-23T15:14:43.281720+00:00",
+  "calculado_utc": "2026-11-23T19:14:53.650794+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-23T15:14:43.281720+00:00",
+    "calculado_utc": "2026-11-23T19:14:53.650794+00:00",
     "objetivos_conteo": 20,
     "completos": 20,
     "incompletos": 0,
     "scoreboards_consultados": 0,
     "summaries_consultados": 0,
     "campos_recuperados": 0,
-    "campos_recuperados_cache": 602,
+    "campos_recuperados_cache": 110,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
     "objetivos_detalle": [
@@ -1513,7 +1513,7 @@
       "visitante": "FC Cologne",
       "fecha_utc": "2026-11-20T19:30:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -1521,7 +1521,7 @@
           "visitante": 7,
           "total": 24,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -1530,7 +1530,7 @@
           "visitante": 4,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -1539,7 +1539,7 @@
           "visitante": 0,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -1548,7 +1548,7 @@
           "visitante": 2,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -1557,7 +1557,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -1579,7 +1579,7 @@
           "resultado": "0",
           "valor_real": "D",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-1; resultado observado D."
         },
@@ -1591,7 +1591,7 @@
           "resultado": "0",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-1; resultado observado 2."
         },
@@ -1603,7 +1603,7 @@
           "resultado": "0",
           "valor_real": "5",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884736"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: Tiros a puerta: 1 local + 4 visitante = 5; línea 7.5."
         }
@@ -1618,7 +1618,7 @@
       "visitante": "Leganés",
       "fecha_utc": "2026-11-20T19:30:00+00:00",
       "marcador": "1-3",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -1626,7 +1626,7 @@
           "visitante": 10,
           "total": 33,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -1635,7 +1635,7 @@
           "visitante": 7,
           "total": 15,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -1644,7 +1644,7 @@
           "visitante": 1,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -1653,7 +1653,7 @@
           "visitante": 3,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -1662,7 +1662,7 @@
           "visitante": 0,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -1684,7 +1684,7 @@
           "resultado": "1",
           "valor_real": "33",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883112"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 23 local + 10 visitante = 33; línea 19.5."
         },
@@ -1696,7 +1696,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-3; resultado observado 1."
         },
@@ -1708,7 +1708,7 @@
           "resultado": "1",
           "valor_real": "A",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-3; resultado observado A."
         }
@@ -1723,7 +1723,7 @@
       "visitante": "Le Havre AC",
       "fecha_utc": "2026-11-20T19:45:00+00:00",
       "marcador": "3-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -1731,24 +1731,26 @@
           "visitante": 7,
           "total": 26,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876395"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
           "nombre": "Tiros a puerta",
           "local": 7,
-          "visitante": 3,
-          "total": 10,
+          "visitante": 2,
+          "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876395"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 7,
+          "visitante": 0,
+          "total": 7,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -1756,7 +1758,7 @@
           "visitante": 3,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876395"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -1765,7 +1767,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876395"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -1787,7 +1789,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-1; resultado observado 4."
         },
@@ -1799,7 +1801,7 @@
           "resultado": "0",
           "valor_real": "3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 3-1; resultado observado 3."
         },
@@ -1811,7 +1813,7 @@
           "resultado": "0",
           "valor_real": "-2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 3-1; resultado observado -2."
         }
@@ -1826,7 +1828,7 @@
       "visitante": "Espanyol",
       "fecha_utc": "2026-11-20T20:00:00+00:00",
       "marcador": "0-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -1834,7 +1836,7 @@
           "visitante": 6,
           "total": 23,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -1843,7 +1845,7 @@
           "visitante": 3,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -1852,7 +1854,7 @@
           "visitante": 2,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -1861,7 +1863,7 @@
           "visitante": 1,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -1870,7 +1872,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -1892,7 +1894,7 @@
           "resultado": "1",
           "valor_real": "9",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 6 local + 3 visitante = 9; línea 5.5."
         },
@@ -1904,7 +1906,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 0."
         },
@@ -1916,7 +1918,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882805"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tarjetas amarillas: 3 local + 1 visitante = 4; línea 2.5."
         }
@@ -1931,7 +1933,7 @@
       "visitante": "Fulham",
       "fecha_utc": "2026-11-21T12:30:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -1939,7 +1941,7 @@
           "visitante": 5,
           "total": 20,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -1948,7 +1950,7 @@
           "visitante": 4,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -1957,7 +1959,7 @@
           "visitante": 6,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -1966,7 +1968,7 @@
           "visitante": 3,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -1975,7 +1977,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879233"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -1997,7 +1999,7 @@
           "resultado": "1",
           "valor_real": "D",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado D."
         },
@@ -2009,7 +2011,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
@@ -2021,7 +2023,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         }
@@ -2036,7 +2038,7 @@
       "visitante": "Granada",
       "fecha_utc": "2026-11-21T13:00:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2044,7 +2046,7 @@
           "visitante": 9,
           "total": 22,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882299"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2053,15 +2055,17 @@
           "visitante": 3,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882299"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 10,
+          "visitante": 2,
+          "total": 12,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -2069,7 +2073,7 @@
           "visitante": 5,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882299"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2078,7 +2082,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882299"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2100,7 +2104,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
@@ -2112,7 +2116,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
@@ -2124,7 +2128,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 0."
         }
@@ -2139,7 +2143,7 @@
       "visitante": "Cagliari",
       "fecha_utc": "2026-11-21T14:00:00+00:00",
       "marcador": "2-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2147,7 +2151,7 @@
           "visitante": 6,
           "total": 16,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2156,7 +2160,7 @@
           "visitante": 1,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2165,7 +2169,7 @@
           "visitante": 3,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2174,7 +2178,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2183,7 +2187,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875056"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2205,7 +2209,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado H."
         },
@@ -2217,7 +2221,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -2229,7 +2233,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 0."
         }
@@ -2244,7 +2248,7 @@
       "visitante": "Lecce",
       "fecha_utc": "2026-11-21T14:00:00+00:00",
       "marcador": "3-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2252,7 +2256,7 @@
           "visitante": 10,
           "total": 20,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2261,7 +2265,7 @@
           "visitante": 2,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2270,7 +2274,7 @@
           "visitante": 3,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2279,7 +2283,7 @@
           "visitante": 2,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2288,7 +2292,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874981"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2310,7 +2314,7 @@
           "resultado": "0",
           "valor_real": "3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 3-0; resultado observado 3."
         },
@@ -2322,7 +2326,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-0; resultado observado H."
         },
@@ -2334,7 +2338,7 @@
           "resultado": "1",
           "valor_real": "3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-0; resultado observado 3."
         }
@@ -2349,7 +2353,7 @@
       "visitante": "TSG Hoffenheim",
       "fecha_utc": "2026-11-21T14:30:00+00:00",
       "marcador": "1-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2357,7 +2361,7 @@
           "visitante": 16,
           "total": 37,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2366,7 +2370,7 @@
           "visitante": 4,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2375,7 +2379,7 @@
           "visitante": 5,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2384,7 +2388,7 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2393,7 +2397,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2415,7 +2419,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
@@ -2427,7 +2431,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
@@ -2439,7 +2443,7 @@
           "resultado": "1",
           "valor_real": "10",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884734"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 6 local + 4 visitante = 10; línea 6.5."
         }
@@ -2454,7 +2458,7 @@
       "visitante": "Borussia Dortmund",
       "fecha_utc": "2026-11-21T14:30:00+00:00",
       "marcador": "0-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2462,7 +2466,7 @@
           "visitante": 15,
           "total": 24,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2471,7 +2475,7 @@
           "visitante": 5,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2480,7 +2484,7 @@
           "visitante": 7,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2489,7 +2493,7 @@
           "visitante": 1,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2498,7 +2502,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884731"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2520,7 +2524,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         },
@@ -2532,7 +2536,7 @@
           "resultado": "1",
           "valor_real": "-1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado -1."
         },
@@ -2544,7 +2548,7 @@
           "resultado": "0",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 0-1; resultado observado 1."
         }
@@ -2559,15 +2563,15 @@
       "visitante": "RB Leipzig",
       "fecha_utc": "2026-11-21T14:30:00+00:00",
       "marcador": "1-5",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
-          "local": 13,
+          "local": 14,
           "visitante": 32,
-          "total": 45,
+          "total": 46,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2576,7 +2580,7 @@
           "visitante": 10,
           "total": 18,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2585,7 +2589,7 @@
           "visitante": 8,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2594,7 +2598,7 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2603,7 +2607,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884732"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2625,7 +2629,7 @@
           "resultado": "0",
           "valor_real": "-4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-5; resultado observado -4."
         },
@@ -2637,7 +2641,7 @@
           "resultado": "1",
           "valor_real": "6",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-5; resultado observado 6."
         },
@@ -2649,7 +2653,7 @@
           "resultado": "0",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-5; resultado observado 5."
         }
@@ -2664,7 +2668,7 @@
       "visitante": "Sunderland",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
       "marcador": "0-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2672,7 +2676,7 @@
           "visitante": 7,
           "total": 26,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2681,7 +2685,7 @@
           "visitante": 1,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2690,7 +2694,7 @@
           "visitante": 2,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2699,7 +2703,7 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2708,7 +2712,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878756"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2730,7 +2734,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
@@ -2742,7 +2746,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
@@ -2754,7 +2758,7 @@
           "resultado": "0",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 0-0; resultado observado 0."
         }
@@ -2769,7 +2773,7 @@
       "visitante": "Nottingham Forest",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
       "marcador": "2-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2777,7 +2781,7 @@
           "visitante": 18,
           "total": 37,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2786,7 +2790,7 @@
           "visitante": 1,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2795,7 +2799,7 @@
           "visitante": 4,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2804,7 +2808,7 @@
           "visitante": 3,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2813,7 +2817,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879238"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2835,7 +2839,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -2847,7 +2851,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -2859,7 +2863,7 @@
           "resultado": "0",
           "valor_real": "-2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 2-0; resultado observado -2."
         }
@@ -2874,7 +2878,7 @@
       "visitante": "Leeds United",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
       "marcador": "1-4",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2882,7 +2886,7 @@
           "visitante": 21,
           "total": 35,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2891,7 +2895,7 @@
           "visitante": 8,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -2900,7 +2904,7 @@
           "visitante": 2,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -2909,7 +2913,7 @@
           "visitante": 3,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -2918,7 +2922,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879236"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -2940,7 +2944,7 @@
           "resultado": "0",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-4; resultado observado 5."
         },
@@ -2952,7 +2956,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-4; resultado observado 1."
         },
@@ -2964,7 +2968,7 @@
           "resultado": "0",
           "valor_real": "A",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-4; resultado observado A."
         }
@@ -2979,7 +2983,7 @@
       "visitante": "Crystal Palace",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
       "marcador": "3-2",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -2987,7 +2991,7 @@
           "visitante": 14,
           "total": 25,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -2996,15 +3000,17 @@
           "visitante": 5,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 4,
+          "visitante": 6,
+          "total": 10,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -3012,7 +3018,7 @@
           "visitante": 2,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3021,7 +3027,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879235"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3043,7 +3049,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-2; resultado observado 1."
         },
@@ -3055,7 +3061,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-2; resultado observado 2."
         },
@@ -3067,7 +3073,7 @@
           "resultado": "0",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 3-2; resultado observado 5."
         }
@@ -3082,7 +3088,7 @@
       "visitante": "Ipswich Town",
       "fecha_utc": "2026-11-21T15:00:00+00:00",
       "marcador": "2-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3090,7 +3096,7 @@
           "visitante": 11,
           "total": 29,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3099,7 +3105,7 @@
           "visitante": 3,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3108,7 +3114,7 @@
           "visitante": 6,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3117,7 +3123,7 @@
           "visitante": 1,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3126,7 +3132,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878754"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3148,7 +3154,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -3160,7 +3166,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -3172,7 +3178,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         }
@@ -3187,7 +3193,7 @@
       "visitante": "Valencia",
       "fecha_utc": "2026-11-21T15:15:00+00:00",
       "marcador": "0-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3195,7 +3201,7 @@
           "visitante": 11,
           "total": 32,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3204,7 +3210,7 @@
           "visitante": 2,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3213,7 +3219,7 @@
           "visitante": 5,
           "total": 13,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3222,7 +3228,7 @@
           "visitante": 1,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3231,7 +3237,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3253,7 +3259,7 @@
           "resultado": "1",
           "valor_real": "7",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 5 local + 2 visitante = 7; línea 5.5."
         },
@@ -3265,7 +3271,7 @@
           "resultado": "1",
           "valor_real": "32",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882799"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 21 local + 11 visitante = 32; línea 19.5."
         },
@@ -3277,7 +3283,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 0."
         }
@@ -3292,7 +3298,7 @@
       "visitante": "Cádiz",
       "fecha_utc": "2026-11-21T15:15:00+00:00",
       "marcador": "0-3",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3300,7 +3306,7 @@
           "visitante": 10,
           "total": 20,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3309,7 +3315,7 @@
           "visitante": 5,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3318,16 +3324,16 @@
           "visitante": 1,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
-          "local": 3,
+          "local": 7,
           "visitante": 2,
-          "total": 5,
+          "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3336,7 +3342,7 @@
           "visitante": 0,
           "total": 2,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3358,7 +3364,7 @@
           "resultado": "0",
           "valor_real": "-3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 0-3; resultado observado -3."
         },
@@ -3370,7 +3376,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-3; resultado observado 0."
         },
@@ -3382,7 +3388,7 @@
           "resultado": "1",
           "valor_real": "20",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883108"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 10 local + 10 visitante = 20; línea 19.5."
         }
@@ -3397,7 +3403,7 @@
       "visitante": "Paris Saint-Germain",
       "fecha_utc": "2026-11-21T16:15:00+00:00",
       "marcador": "2-3",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3405,7 +3411,7 @@
           "visitante": 14,
           "total": 18,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876398"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3414,7 +3420,7 @@
           "visitante": 5,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876398"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3423,7 +3429,7 @@
           "visitante": 5,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876398"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3432,7 +3438,7 @@
           "visitante": 0,
           "total": 2,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876398"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3441,7 +3447,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876398"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3463,7 +3469,7 @@
           "resultado": "1",
           "valor_real": "3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-3; resultado observado 3."
         },
@@ -3475,7 +3481,7 @@
           "resultado": "1",
           "valor_real": "-1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-3; resultado observado -1."
         },
@@ -3487,7 +3493,7 @@
           "resultado": "1",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-3; resultado observado 5."
         }
@@ -3502,7 +3508,7 @@
       "visitante": "AS Roma",
       "fecha_utc": "2026-11-21T17:00:00+00:00",
       "marcador": "1-5",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3510,7 +3516,7 @@
           "visitante": 19,
           "total": 36,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874967"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3519,7 +3525,7 @@
           "visitante": 9,
           "total": 15,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874967"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3528,7 +3534,7 @@
           "visitante": 8,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874967"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3537,7 +3543,7 @@
           "visitante": 0,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874967"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3546,7 +3552,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874967"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3568,7 +3574,7 @@
           "resultado": "0",
           "valor_real": "-4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-5; resultado observado -4."
         },
@@ -3580,7 +3586,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-5; resultado observado 1."
         },
@@ -3592,7 +3598,7 @@
           "resultado": "1",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-5; resultado observado 5."
         }
@@ -3607,7 +3613,7 @@
       "visitante": "Arsenal",
       "fecha_utc": "2026-11-21T17:30:00+00:00",
       "marcador": "2-2",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3615,7 +3621,7 @@
           "visitante": 13,
           "total": 25,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879232"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3624,7 +3630,7 @@
           "visitante": 4,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879232"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3633,7 +3639,7 @@
           "visitante": 3,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879232"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3642,7 +3648,7 @@
           "visitante": 3,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879232"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3651,7 +3657,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879232"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3673,7 +3679,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-2; resultado observado 4."
         },
@@ -3685,7 +3691,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-2; resultado observado 2."
         },
@@ -3697,7 +3703,7 @@
           "resultado": "1",
           "valor_real": "D",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-2; resultado observado D."
         }
@@ -3712,7 +3718,7 @@
       "visitante": "Real Betis",
       "fecha_utc": "2026-11-21T17:30:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3720,7 +3726,7 @@
           "visitante": 6,
           "total": 31,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3729,7 +3735,7 @@
           "visitante": 3,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3738,7 +3744,7 @@
           "visitante": 2,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3747,7 +3753,7 @@
           "visitante": 4,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3756,7 +3762,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3778,7 +3784,7 @@
           "resultado": "1",
           "valor_real": "9",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882797"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 6 local + 3 visitante = 9; línea 5.5."
         },
@@ -3790,7 +3796,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 0."
         },
@@ -3802,7 +3808,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         }
@@ -3817,7 +3823,7 @@
       "visitante": "Eldense",
       "fecha_utc": "2026-11-21T17:30:00+00:00",
       "marcador": "2-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3825,7 +3831,7 @@
           "visitante": 4,
           "total": 15,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3834,7 +3840,7 @@
           "visitante": 1,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3843,7 +3849,7 @@
           "visitante": 1,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3852,7 +3858,7 @@
           "visitante": 4,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3861,7 +3867,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3883,7 +3889,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -3895,7 +3901,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado H."
         },
@@ -3907,7 +3913,7 @@
           "resultado": "0",
           "valor_real": "15",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882301"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: Tiros totales: 11 local + 4 visitante = 15; línea 19.5."
         }
@@ -3922,7 +3928,7 @@
       "visitante": "Toulouse",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -3930,7 +3936,7 @@
           "visitante": 9,
           "total": 31,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -3939,7 +3945,7 @@
           "visitante": 5,
           "total": 13,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -3948,7 +3954,7 @@
           "visitante": 5,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -3957,7 +3963,7 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -3966,7 +3972,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876403"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -3988,7 +3994,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
@@ -4000,7 +4006,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
@@ -4012,7 +4018,7 @@
           "resultado": "0",
           "valor_real": "D",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-1; resultado observado D."
         }
@@ -4027,7 +4033,7 @@
       "visitante": "Lyon",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
       "marcador": "0-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4035,7 +4041,7 @@
           "visitante": 9,
           "total": 23,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4044,7 +4050,7 @@
           "visitante": 6,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4053,7 +4059,7 @@
           "visitante": 7,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4062,7 +4068,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4071,7 +4077,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876402"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4093,7 +4099,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 0."
         },
@@ -4105,7 +4111,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         },
@@ -4117,7 +4123,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         }
@@ -4132,7 +4138,7 @@
       "visitante": "AJ Auxerre",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4140,7 +4146,7 @@
           "visitante": 6,
           "total": 21,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4149,7 +4155,7 @@
           "visitante": 2,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4158,7 +4164,7 @@
           "visitante": 0,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4167,7 +4173,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4176,7 +4182,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4198,7 +4204,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
@@ -4210,7 +4216,7 @@
           "resultado": "1",
           "valor_real": "D",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado D."
         },
@@ -4222,7 +4228,7 @@
           "resultado": "0",
           "valor_real": "1",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876399"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: Tarjetas amarillas: 0 local + 1 visitante = 1; línea 2.5."
         }
@@ -4237,7 +4243,7 @@
       "visitante": "Brest",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
       "marcador": "0-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4245,7 +4251,7 @@
           "visitante": 16,
           "total": 31,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4254,7 +4260,7 @@
           "visitante": 2,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4263,7 +4269,7 @@
           "visitante": 1,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4272,7 +4278,7 @@
           "visitante": 1,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4281,7 +4287,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4303,7 +4309,7 @@
           "resultado": "0",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 0-1; resultado observado 1."
         },
@@ -4315,7 +4321,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-1; resultado observado 1."
         },
@@ -4327,7 +4333,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876396"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tarjetas amarillas: 3 local + 1 visitante = 4; línea 4.5."
         }
@@ -4342,7 +4348,7 @@
       "visitante": "Torino",
       "fecha_utc": "2026-11-21T19:45:00+00:00",
       "marcador": "1-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4350,7 +4356,7 @@
           "visitante": 12,
           "total": 34,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4359,7 +4365,7 @@
           "visitante": 2,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4368,7 +4374,7 @@
           "visitante": 5,
           "total": 13,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4377,7 +4383,7 @@
           "visitante": 1,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4386,7 +4392,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875067"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4408,7 +4414,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
@@ -4420,7 +4426,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
@@ -4432,7 +4438,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado H."
         }
@@ -4447,7 +4453,7 @@
       "visitante": "Celta Vigo",
       "fecha_utc": "2026-11-21T20:00:00+00:00",
       "marcador": "2-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4455,7 +4461,7 @@
           "visitante": 8,
           "total": 32,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4464,7 +4470,7 @@
           "visitante": 4,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4473,7 +4479,7 @@
           "visitante": 3,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4482,7 +4488,7 @@
           "visitante": 2,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4491,7 +4497,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4513,7 +4519,7 @@
           "resultado": "1",
           "valor_real": "-1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-1; resultado observado -1."
         },
@@ -4525,7 +4531,7 @@
           "resultado": "1",
           "valor_real": "32",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 24 local + 8 visitante = 32; línea 19.5."
         },
@@ -4537,7 +4543,7 @@
           "resultado": "1",
           "valor_real": "11",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882798"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 7 local + 4 visitante = 11; línea 6.5."
         }
@@ -4552,7 +4558,7 @@
       "visitante": "Mallorca",
       "fecha_utc": "2026-11-21T20:00:00+00:00",
       "marcador": "0-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4560,7 +4566,7 @@
           "visitante": 10,
           "total": 20,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4569,15 +4575,17 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
           "nombre": "Córners",
-          "local": null,
-          "visitante": null,
-          "total": null,
-          "fuentes": []
+          "local": 8,
+          "visitante": 5,
+          "total": 13,
+          "fuentes": [
+            "football-data.co.uk · histórico CSV"
+          ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
@@ -4585,7 +4593,7 @@
           "visitante": 3,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4594,7 +4602,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883107"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4616,7 +4624,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
@@ -4628,7 +4636,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-0; resultado observado 0."
         },
@@ -4640,7 +4648,7 @@
           "resultado": "0",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 0-0; resultado observado 0."
         }
@@ -4655,7 +4663,7 @@
       "visitante": "Venezia",
       "fecha_utc": "2026-11-22T11:30:00+00:00",
       "marcador": "4-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4663,7 +4671,7 @@
           "visitante": 13,
           "total": 25,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4672,7 +4680,7 @@
           "visitante": 1,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4681,7 +4689,7 @@
           "visitante": 2,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4690,7 +4698,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4699,7 +4707,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875008"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4721,7 +4729,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado 0."
         },
@@ -4733,7 +4741,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado 4."
         },
@@ -4745,7 +4753,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado H."
         }
@@ -4760,7 +4768,7 @@
       "visitante": "Villarreal",
       "fecha_utc": "2026-11-22T13:00:00+00:00",
       "marcador": "3-2",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4768,7 +4776,7 @@
           "visitante": 4,
           "total": 34,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4777,7 +4785,7 @@
           "visitante": 2,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4786,25 +4794,25 @@
           "visitante": 0,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
           "local": 2,
-          "visitante": 4,
-          "total": 6,
+          "visitante": 6,
+          "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
           "nombre": "Tarjetas rojas",
-          "local": 0,
+          "local": 1,
           "visitante": 1,
-          "total": 1,
+          "total": 2,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4826,7 +4834,7 @@
           "resultado": "1",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-2; resultado observado 5."
         },
@@ -4838,7 +4846,7 @@
           "resultado": "1",
           "valor_real": "34",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882804"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 30 local + 4 visitante = 34; línea 19.5."
         },
@@ -4850,7 +4858,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-2; resultado observado H."
         }
@@ -4865,7 +4873,7 @@
       "visitante": "Real Oviedo",
       "fecha_utc": "2026-11-22T13:00:00+00:00",
       "marcador": "3-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4873,7 +4881,7 @@
           "visitante": 6,
           "total": 21,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4882,7 +4890,7 @@
           "visitante": 2,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -4891,7 +4899,7 @@
           "visitante": 4,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -4900,7 +4908,7 @@
           "visitante": 5,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -4909,7 +4917,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -4931,7 +4939,7 @@
           "resultado": "0",
           "valor_real": "-3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 3-0; resultado observado -3."
         },
@@ -4943,7 +4951,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-0; resultado observado 0."
         },
@@ -4955,7 +4963,7 @@
           "resultado": "0",
           "valor_real": "21",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882300"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: Tiros totales: 15 local + 6 visitante = 21; línea 21.5."
         }
@@ -4970,7 +4978,7 @@
       "visitante": "Brighton & Hove Albion",
       "fecha_utc": "2026-11-22T14:00:00+00:00",
       "marcador": "2-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -4978,7 +4986,7 @@
           "visitante": 15,
           "total": 26,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879234"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -4987,25 +4995,25 @@
           "visitante": 8,
           "total": 13,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879234"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
           "nombre": "Córners",
           "local": 3,
-          "visitante": 5,
-          "total": 8,
+          "visitante": 4,
+          "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879234"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
           "local": 2,
-          "visitante": 2,
-          "total": 4,
+          "visitante": 4,
+          "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879234"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5014,7 +5022,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879234"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5036,7 +5044,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 0."
         },
@@ -5048,7 +5056,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         },
@@ -5060,7 +5068,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-0; resultado observado 2."
         }
@@ -5075,7 +5083,7 @@
       "visitante": "Angers",
       "fecha_utc": "2026-11-22T14:00:00+00:00",
       "marcador": "4-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5083,7 +5091,7 @@
           "visitante": 9,
           "total": 27,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876397"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5092,7 +5100,7 @@
           "visitante": 1,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876397"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5101,7 +5109,7 @@
           "visitante": 2,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876397"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5110,7 +5118,7 @@
           "visitante": 1,
           "total": 2,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876397"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5119,7 +5127,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876397"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5141,7 +5149,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado 4."
         },
@@ -5153,7 +5161,7 @@
           "resultado": "0",
           "valor_real": "-4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-0; resultado observado -4."
         },
@@ -5165,7 +5173,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado 4."
         }
@@ -5180,7 +5188,7 @@
       "visitante": "Udinese",
       "fecha_utc": "2026-11-22T14:00:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5188,7 +5196,7 @@
           "visitante": 11,
           "total": 29,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875047"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5197,7 +5205,7 @@
           "visitante": 3,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875047"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5206,7 +5214,7 @@
           "visitante": 4,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875047"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5215,7 +5223,7 @@
           "visitante": 2,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875047"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5224,7 +5232,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875047"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5246,7 +5254,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
@@ -5258,7 +5266,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         },
@@ -5270,7 +5278,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 0."
         }
@@ -5285,7 +5293,7 @@
       "visitante": "Genoa",
       "fecha_utc": "2026-11-22T14:00:00+00:00",
       "marcador": "0-2",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5293,7 +5301,7 @@
           "visitante": 11,
           "total": 36,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874960"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5302,7 +5310,7 @@
           "visitante": 5,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874960"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5311,7 +5319,7 @@
           "visitante": 3,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874960"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5320,7 +5328,7 @@
           "visitante": 0,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874960"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5329,7 +5337,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874960"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5351,7 +5359,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-2; resultado observado 2."
         },
@@ -5363,7 +5371,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-2; resultado observado 0."
         },
@@ -5375,7 +5383,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-2; resultado observado 2."
         }
@@ -5390,7 +5398,7 @@
       "visitante": "Mainz",
       "fecha_utc": "2026-11-22T14:30:00+00:00",
       "marcador": "3-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5398,7 +5406,7 @@
           "visitante": 7,
           "total": 29,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884733"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5407,7 +5415,7 @@
           "visitante": 4,
           "total": 13,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884733"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5416,7 +5424,7 @@
           "visitante": 0,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884733"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5425,7 +5433,7 @@
           "visitante": 3,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884733"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5434,7 +5442,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884733"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5456,7 +5464,7 @@
           "resultado": "1",
           "valor_real": "13",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884733"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 9 local + 4 visitante = 13; línea 6.5."
         },
@@ -5468,7 +5476,7 @@
           "resultado": "0",
           "valor_real": "-2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 3-1; resultado observado -2."
         },
@@ -5480,7 +5488,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 3-1; resultado observado 4."
         }
@@ -5495,7 +5503,7 @@
       "visitante": "Las Palmas",
       "fecha_utc": "2026-11-22T15:15:00+00:00",
       "marcador": "0-2",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5503,7 +5511,7 @@
           "visitante": 13,
           "total": 25,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882298"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5512,7 +5520,7 @@
           "visitante": 6,
           "total": 10,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882298"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5521,7 +5529,7 @@
           "visitante": 5,
           "total": 8,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882298"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5530,7 +5538,7 @@
           "visitante": 4,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882298"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5539,7 +5547,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882298"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5561,7 +5569,7 @@
           "resultado": "1",
           "valor_real": "25",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401882298"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 12 local + 13 visitante = 25; línea 19.5."
         },
@@ -5573,7 +5581,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-2; resultado observado 0."
         },
@@ -5585,7 +5593,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-2; resultado observado 2."
         }
@@ -5600,7 +5608,7 @@
       "visitante": "Stade Rennais",
       "fecha_utc": "2026-11-22T16:15:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5608,7 +5616,7 @@
           "visitante": 13,
           "total": 25,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876401"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5617,7 +5625,7 @@
           "visitante": 3,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876401"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5626,7 +5634,7 @@
           "visitante": 5,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876401"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5635,7 +5643,7 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876401"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5644,7 +5652,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876401"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5666,7 +5674,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 0."
         },
@@ -5678,7 +5686,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
@@ -5690,7 +5698,7 @@
           "resultado": "0",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 1-1; resultado observado 2."
         }
@@ -5705,15 +5713,15 @@
       "visitante": "Hamburg SV",
       "fecha_utc": "2026-11-22T16:30:00+00:00",
       "marcador": "4-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
-          "local": 18,
+          "local": 19,
           "visitante": 17,
-          "total": 35,
+          "total": 36,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884730"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5722,7 +5730,7 @@
           "visitante": 2,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884730"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5731,7 +5739,7 @@
           "visitante": 8,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884730"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5740,7 +5748,7 @@
           "visitante": 3,
           "total": 6,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884730"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5749,7 +5757,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884730"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5771,7 +5779,7 @@
           "resultado": "1",
           "valor_real": "9",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884730"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros a puerta: 7 local + 2 visitante = 9; línea 6.5."
         },
@@ -5783,7 +5791,7 @@
           "resultado": "0",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-0; resultado observado 4."
         },
@@ -5795,7 +5803,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado H."
         }
@@ -5810,7 +5818,7 @@
       "visitante": "Manchester United",
       "fecha_utc": "2026-11-22T16:30:00+00:00",
       "marcador": "4-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5818,7 +5826,7 @@
           "visitante": 10,
           "total": 38,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878755"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5827,7 +5835,7 @@
           "visitante": 3,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878755"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5836,7 +5844,7 @@
           "visitante": 5,
           "total": 20,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878755"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5845,7 +5853,7 @@
           "visitante": 0,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878755"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5854,7 +5862,7 @@
           "visitante": 1,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878755"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5876,7 +5884,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 4-0; resultado observado 4."
         },
@@ -5888,7 +5896,7 @@
           "resultado": "0",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-0; resultado observado 4."
         },
@@ -5900,7 +5908,7 @@
           "resultado": "0",
           "valor_real": "-4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-0; resultado observado -4."
         }
@@ -5915,7 +5923,7 @@
       "visitante": "Frosinone",
       "fecha_utc": "2026-11-22T17:00:00+00:00",
       "marcador": "5-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -5923,7 +5931,7 @@
           "visitante": 15,
           "total": 27,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874989"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -5932,7 +5940,7 @@
           "visitante": 3,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874989"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -5941,7 +5949,7 @@
           "visitante": 9,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874989"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -5950,7 +5958,7 @@
           "visitante": 4,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874989"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -5959,7 +5967,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874989"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -5981,7 +5989,7 @@
           "resultado": "1",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 5-1; resultado observado 5."
         },
@@ -5993,7 +6001,7 @@
           "resultado": "1",
           "valor_real": "H",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 5-1; resultado observado H."
         },
@@ -6005,7 +6013,7 @@
           "resultado": "0",
           "valor_real": "6",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 5-1; resultado observado 6."
         }
@@ -6020,7 +6028,7 @@
       "visitante": "Málaga",
       "fecha_utc": "2026-11-22T17:30:00+00:00",
       "marcador": "1-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -6028,7 +6036,7 @@
           "visitante": 5,
           "total": 16,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882801"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6037,7 +6045,7 @@
           "visitante": 0,
           "total": 2,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882801"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6046,16 +6054,16 @@
           "visitante": 1,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882801"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
           "nombre": "Tarjetas amarillas",
-          "local": 2,
+          "local": 4,
           "visitante": 0,
-          "total": 2,
+          "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882801"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6064,7 +6072,7 @@
           "visitante": 0,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882801"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6086,7 +6094,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
@@ -6098,7 +6106,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 0."
         },
@@ -6110,7 +6118,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         }
@@ -6125,7 +6133,7 @@
       "visitante": "Real Valladolid",
       "fecha_utc": "2026-11-22T17:30:00+00:00",
       "marcador": "1-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -6133,7 +6141,7 @@
           "visitante": 13,
           "total": 26,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883304"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6142,7 +6150,7 @@
           "visitante": 8,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883304"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6151,7 +6159,7 @@
           "visitante": 8,
           "total": 12,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883304"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -6160,7 +6168,7 @@
           "visitante": 5,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883304"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6169,7 +6177,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883304"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6191,7 +6199,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
@@ -6203,7 +6211,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 1."
         },
@@ -6215,7 +6223,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-1; resultado observado 2."
         }
@@ -6230,7 +6238,7 @@
       "visitante": "Eibar",
       "fecha_utc": "2026-11-22T17:30:00+00:00",
       "marcador": "2-1",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -6238,7 +6246,7 @@
           "visitante": 13,
           "total": 25,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883109"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6247,7 +6255,7 @@
           "visitante": 4,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883109"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6256,7 +6264,7 @@
           "visitante": 1,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883109"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -6265,7 +6273,7 @@
           "visitante": 3,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883109"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6274,7 +6282,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883109"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6296,7 +6304,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-1; resultado observado 2."
         },
@@ -6308,7 +6316,7 @@
           "resultado": "1",
           "valor_real": "3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-1; resultado observado 3."
         },
@@ -6320,7 +6328,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-1; resultado observado 1."
         }
@@ -6335,15 +6343,15 @@
       "visitante": "Le Mans",
       "fecha_utc": "2026-11-22T19:45:00+00:00",
       "marcador": "2-3",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
           "local": 11,
-          "visitante": 18,
-          "total": 29,
+          "visitante": 19,
+          "total": 30,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6352,7 +6360,7 @@
           "visitante": 9,
           "total": 14,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6361,7 +6369,7 @@
           "visitante": 5,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -6370,7 +6378,7 @@
           "visitante": 4,
           "total": 7,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6379,7 +6387,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876400"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6401,7 +6409,7 @@
           "resultado": "0",
           "valor_real": "A",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 2-3; resultado observado A."
         },
@@ -6413,7 +6421,7 @@
           "resultado": "1",
           "valor_real": "2",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-3; resultado observado 2."
         },
@@ -6425,7 +6433,7 @@
           "resultado": "1",
           "valor_real": "5",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 2-3; resultado observado 5."
         }
@@ -6440,7 +6448,7 @@
       "visitante": "Internazionale",
       "fecha_utc": "2026-11-22T19:45:00+00:00",
       "marcador": "4-4",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -6448,7 +6456,7 @@
           "visitante": 16,
           "total": 31,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6457,7 +6465,7 @@
           "visitante": 6,
           "total": 16,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6466,7 +6474,7 @@
           "visitante": 6,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -6475,7 +6483,7 @@
           "visitante": 1,
           "total": 3,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6484,7 +6492,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875001"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6506,7 +6514,7 @@
           "resultado": "0",
           "valor_real": "8",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-4; resultado observado 8."
         },
@@ -6518,7 +6526,7 @@
           "resultado": "0",
           "valor_real": "4",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-4; resultado observado 4."
         },
@@ -6530,7 +6538,7 @@
           "resultado": "0",
           "valor_real": "D",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 4-4; resultado observado D."
         }
@@ -6545,7 +6553,7 @@
       "visitante": "Atlético Madrid",
       "fecha_utc": "2026-11-22T20:00:00+00:00",
       "marcador": "0-3",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -6553,7 +6561,7 @@
           "visitante": 20,
           "total": 31,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6562,7 +6570,7 @@
           "visitante": 10,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6571,7 +6579,7 @@
           "visitante": 7,
           "total": 9,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -6580,7 +6588,7 @@
           "visitante": 2,
           "total": 4,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6589,7 +6597,7 @@
           "visitante": 0,
           "total": 1,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6611,7 +6619,7 @@
           "resultado": "0",
           "valor_real": "-3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "FALLO: marcador final 0-3; resultado observado -3."
         },
@@ -6623,7 +6631,7 @@
           "resultado": "1",
           "valor_real": "3",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 0-3; resultado observado 3."
         },
@@ -6635,7 +6643,7 @@
           "resultado": "1",
           "valor_real": "4",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882803"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tarjetas amarillas: 2 local + 2 visitante = 4; línea 2.5."
         }
@@ -6650,7 +6658,7 @@
       "visitante": "Albacete",
       "fecha_utc": "2026-11-22T20:00:00+00:00",
       "marcador": "1-0",
-      "fuente_marcador": "ESPN resultado final",
+      "fuente_marcador": "football-data.co.uk · histórico CSV",
       "estadisticas": {
         "shots": {
           "nombre": "Tiros totales",
@@ -6658,7 +6666,7 @@
           "visitante": 20,
           "total": 34,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "on_target": {
@@ -6667,7 +6675,7 @@
           "visitante": 2,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "corners": {
@@ -6676,7 +6684,7 @@
           "visitante": 7,
           "total": 11,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "yellow": {
@@ -6685,7 +6693,7 @@
           "visitante": 1,
           "total": 5,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "red": {
@@ -6694,7 +6702,7 @@
           "visitante": 0,
           "total": 0,
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+            "football-data.co.uk · histórico CSV"
           ]
         },
         "fouls": {
@@ -6716,7 +6724,7 @@
           "resultado": "1",
           "valor_real": "1",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 1."
         },
@@ -6728,7 +6736,7 @@
           "resultado": "1",
           "valor_real": "0",
           "fuentes": [
-            "ESPN resultado final"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: marcador final 1-0; resultado observado 0."
         },
@@ -6740,7 +6748,7 @@
           "resultado": "1",
           "valor_real": "34",
           "fuentes": [
-            "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883111"
+            "football-data.co.uk · histórico CSV"
           ],
           "explicacion": "ACIERTO: Tiros totales: 14 local + 20 visitante = 34; línea 19.5."
         }
@@ -9917,6 +9925,50 @@
       "aciertos": 0
     },
     {
+      "id": "D1|202612041930|bayern munich|paderborn",
+      "liga": "Bundesliga",
+      "local": "Bayern Munich",
+      "visitante": "SC Paderborn 07",
+      "fecha_utc": "2026-12-04T19:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202612041930|bayern munich|paderborn|Doble oportunidad|12: gana uno de los dos",
+          "mercado": "Doble oportunidad",
+          "seleccion": "12: gana uno de los dos",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202612041930|bayern munich|paderborn|Goles equipo|Bayern Munich: más de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Bayern Munich: más de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202612041930|bayern munich|paderborn|Goles equipo|SC Paderborn 07: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "SC Paderborn 07: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
       "id": "F1|202612041945|toulouse|paris sg",
       "liga": "Ligue 1",
       "local": "Toulouse",
@@ -11578,6 +11630,50 @@
           "clave": "I1|202612061400|lazio|atalanta|Goles equipo|Lazio: menos de 2,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Lazio: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "D1|202612061430|schalke 04|dortmund",
+      "liga": "Bundesliga",
+      "local": "Schalke 04",
+      "visitante": "Borussia Dortmund",
+      "fecha_utc": "2026-12-06T14:30:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "D1|202612061430|schalke 04|dortmund|Goles equipo|Borussia Dortmund: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Borussia Dortmund: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202612061430|schalke 04|dortmund|Total goles|Menos de 3,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Menos de 3,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "D1|202612061430|schalke 04|dortmund|Goles equipo|Schalke 04: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Schalke 04: menos de 1,5 goles",
           "estado": "PENDIENTE",
           "resultado": "",
           "valor_real": "",
