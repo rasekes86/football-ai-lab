@@ -1,39 +1,25 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-24T14:59:46.502224+00:00",
-  "estado": "INCIDENCIAS",
-  "incidencias": [
-    {
-      "codigo": "CUOTAS_SIN_ACTUALIZAR",
-      "severidad": "ALTA",
-      "descripcion": "Hay partidos próximos, pero el refresco de cuotas lleva más de 9 horas sin actualizarse."
-    },
-    {
-      "codigo": "LIQUIDACION_MATINAL_PENDIENTE",
-      "severidad": "MEDIA",
-      "descripcion": "4 partidos llevan más de 10 horas sin liquidar; revisar la ronda postpartido nocturna de GitHub Actions."
-    }
-  ],
+  "comprobado_utc": "2026-11-24T15:14:37.101951+00:00",
+  "estado": "CORRECTO",
+  "incidencias": [],
   "detalle": {
-    "analisis_utc": "2026-11-23T19:14:53.650794+00:00",
+    "analisis_utc": "2026-11-24T15:12:38.561765+00:00",
     "partidos_proximos": 40,
-    "cuotas_utc": "2026-11-24T03:02:41.705359+00:00",
-    "consultas_utc": "2026-11-24T03:03:10.935215+00:00",
+    "cuotas_utc": "2026-11-24T15:12:38.561765+00:00",
+    "consultas_utc": "2026-11-24T15:14:08.961756+00:00",
     "errores_calendario_ultima_ronda": 0,
     "errores_totales_proveedor_ultima_ronda": 0,
     "racha_calendario": 0,
     "racha_proveedor": 0,
-    "partidos_sin_liquidar_10h": 4,
+    "partidos_sin_liquidar_10h": 0,
     "partidos_sin_liquidar_48h": 0
   },
-  "ultima_captura_revisada": "2026-11-24T03:02:41.705359+00:00",
+  "ultima_captura_revisada": "2026-11-24T15:12:38.561765+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
   "fallos_workflow": {},
-  "notificadas": [
-    "CUOTAS_SIN_ACTUALIZAR",
-    "LIQUIDACION_MATINAL_PENDIENTE"
-  ],
-  "ultima_entrega_utc": "2026-11-24T14:59:46.502224+00:00",
+  "notificadas": [],
+  "ultima_entrega_utc": "2026-11-24T15:14:37.101951+00:00",
   "envio": "ENTREGADO"
 }
