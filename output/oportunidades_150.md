@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 66 · **Finalizadas:** 49 · **Pendientes:** 17
+**Registradas:** 71 · **Finalizadas:** 49 · **Pendientes:** 22
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -72,6 +72,11 @@
 | Brighton & Hove Albion – Newcastle United | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 74.8% | 1.57 | Pendiente | — |
 | Udinese – Fiorentina | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 54.3% | 2.10 | Pendiente | — |
 | Le Mans – Lille | Sí (OFRECIDA_API_REGISTRADA) | 56.2% | 1.91 | Pendiente | — |
+| Mallorca – Castellón | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 55.6% | 2.08 | Pendiente | — |
+| Crystal Palace – Hull City | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 56.2% | 2.10 | Pendiente | — |
+| Fulham – AFC Bournemouth | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.1% | 1.73 | Pendiente | — |
+| Sassuolo – Napoli | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.6% | 1.61 | Pendiente | — |
+| Nice – Troyes | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.0% | 2.20 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
