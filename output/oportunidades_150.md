@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 71 · **Finalizadas:** 49 · **Pendientes:** 22
+**Registradas:** 76 · **Finalizadas:** 49 · **Pendientes:** 27
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -77,6 +77,11 @@
 | Fulham – AFC Bournemouth | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.1% | 1.73 | Pendiente | — |
 | Sassuolo – Napoli | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 69.6% | 1.61 | Pendiente | — |
 | Nice – Troyes | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.0% | 2.20 | Pendiente | — |
+| Sunderland – Tottenham Hotspur | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 64.7% | 1.88 | Pendiente | — |
+| Arsenal – Manchester City | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 56.0% | 2.10 | Pendiente | — |
+| Borussia Dortmund – Bayer Leverkusen | Borussia Dortmund gana (OFRECIDA_API_REGISTRADA) | 57.8% | 2.05 | Pendiente | — |
+| AS Roma – Monza | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 60.2% | 1.98 | Pendiente | — |
+| Paris Saint-Germain – Lorient | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.3% | 1.73 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
