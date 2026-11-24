@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 61 · **Finalizadas:** 45 · **Pendientes:** 16
+**Registradas:** 62 · **Finalizadas:** 45 · **Pendientes:** 17
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -67,6 +67,7 @@
 | Ipswich Town – Aston Villa | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 65.3% | 1.61 | Pendiente | — |
 | VfB Stuttgart – Eintracht Frankfurt | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 55.2% | 2.20 | Pendiente | — |
 | Torino – Lazio | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 59.0% | 1.95 | Pendiente | — |
+| Málaga – Athletic Club | Sí (OFRECIDA_API_REGISTRADA) | 57.0% | 1.91 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
