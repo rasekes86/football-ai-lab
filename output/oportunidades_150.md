@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 62 · **Finalizadas:** 45 · **Pendientes:** 17
+**Registradas:** 66 · **Finalizadas:** 49 · **Pendientes:** 17
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -48,10 +48,10 @@
 | FC Andorra – Leganés | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.8% | 2.00 | Fallada | -1.000 |
 | Córdoba – Real Oviedo | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.8% | 2.25 | Fallada | -1.000 |
 | Burgos – Albacete | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 71.2% | 1.75 | Acertada | 0.750 |
-| Levante – Elche | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 63.4% | 1.67 | Pendiente | — |
-| Ceuta – Almería | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.6% | 2.15 | Pendiente | — |
-| Brentford – Everton | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.8% | 2.10 | Pendiente | — |
-| Monza – Fiorentina | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 70.0% | 1.53 | Pendiente | — |
+| Levante – Elche | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 63.4% | 1.67 | Fallada | -1.000 |
+| Ceuta – Almería | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 51.6% | 2.15 | Fallada | -1.000 |
+| Brentford – Everton | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 57.8% | 2.10 | Fallada | -1.000 |
+| Monza – Fiorentina | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 70.0% | 1.53 | Acertada | 0.533 |
 | Borussia Mönchengladbach – Borussia Dortmund | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 61.0% | 1.73 | Acertada | 0.727 |
 | Paris FC – Angers | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 71.3% | 1.53 | Fallada | -1.000 |
 | Chelsea – Leeds United | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 52.4% | 1.98 | Acertada | 0.975 |
@@ -68,6 +68,10 @@
 | VfB Stuttgart – Eintracht Frankfurt | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 55.2% | 2.20 | Pendiente | — |
 | Torino – Lazio | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 59.0% | 1.95 | Pendiente | — |
 | Málaga – Athletic Club | Sí (OFRECIDA_API_REGISTRADA) | 57.0% | 1.91 | Pendiente | — |
+| Granada – Ceuta | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 50.1% | 2.10 | Pendiente | — |
+| Brighton & Hove Albion – Newcastle United | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 74.8% | 1.57 | Pendiente | — |
+| Udinese – Fiorentina | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 54.3% | 2.10 | Pendiente | — |
+| Le Mans – Lille | Sí (OFRECIDA_API_REGISTRADA) | 56.2% | 1.91 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.

@@ -179,3 +179,8 @@ F1|202612061945|marseille|nice,2026-12-06T19:45:00+00:00,Ligue 1,Marseille,Nice,
 I1|202612061945|milan|parma,2026-12-06T19:45:00+00:00,Serie A,AC Milan,Parma,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
 SP1|202612062000|ath madrid|betis,2026-12-06T20:00:00+00:00,LaLiga,Atlético Madrid,Real Betis,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
 SP2|202612062000|girona|valladolid,2026-12-06T20:00:00+00:00,Segunda División,Girona,Real Valladolid,ESPN (no oficial),2026-11-23T06:38:51.177037+00:00,SI
+SP2|202612071515|burgos|cadiz,2026-12-07T15:15:00+00:00,Segunda División,Burgos,Cádiz,ESPN (no oficial),2026-11-24T15:12:38.561765+00:00,SI
+I1|202612071730|venezia|sassuolo,2026-12-07T17:30:00+00:00,Serie A,Venezia,Sassuolo,ESPN (no oficial),2026-11-24T15:12:38.561765+00:00,SI
+SP2|202612071730|cordoba|las palmas,2026-12-07T17:30:00+00:00,Segunda División,Córdoba,Las Palmas,ESPN (no oficial),2026-11-24T15:12:38.561765+00:00,SI
+I1|202612071945|fiorentina|cagliari,2026-12-07T19:45:00+00:00,Serie A,Fiorentina,Cagliari,ESPN (no oficial),2026-11-24T15:12:38.561765+00:00,SI
+SP1|202612072000|sevilla|malaga,2026-12-07T20:00:00+00:00,LaLiga,Sevilla,Málaga,ESPN (no oficial),2026-11-24T15:12:38.561765+00:00,SI

@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-23T19:14:53.650794+00:00",
+  "timestamp_utc": "2026-11-24T15:12:38.561765+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -37,16 +37,16 @@
           "jugados": 11
         },
         {
-          "nombre": "Leeds United",
+          "nombre": "Brentford",
           "posicion": 6,
           "puntos": 17,
           "jugados": 11
         },
         {
-          "nombre": "Everton",
+          "nombre": "Leeds United",
           "posicion": 7,
-          "puntos": 16,
-          "jugados": 10
+          "puntos": 17,
+          "jugados": 11
         },
         {
           "nombre": "Chelsea",
@@ -55,16 +55,16 @@
           "jugados": 11
         },
         {
-          "nombre": "Tottenham Hotspur",
+          "nombre": "Everton",
           "posicion": 9,
-          "puntos": 15,
+          "puntos": 16,
           "jugados": 11
         },
         {
-          "nombre": "Brentford",
+          "nombre": "Tottenham Hotspur",
           "posicion": 10,
-          "puntos": 14,
-          "jugados": 10
+          "puntos": 15,
+          "jugados": 11
         }
       ]
     },
@@ -341,10 +341,10 @@
     },
     {
       "equipo": "Aston Villa",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 10,
       "estados": {
         "unavailable": 7,
-        "doubtful": 2,
+        "doubtful": 1,
         "injured": 2
       }
     },
@@ -404,8 +404,9 @@
     },
     {
       "equipo": "Everton",
-      "bajas_reportadas": 3,
+      "bajas_reportadas": 4,
       "estados": {
+        "suspended": 1,
         "unavailable": 3
       }
     },
@@ -463,8 +464,8 @@
       "equipo": "Man Utd",
       "bajas_reportadas": 11,
       "estados": {
-        "injured": 5,
-        "doubtful": 1,
+        "injured": 4,
+        "doubtful": 2,
         "unavailable": 4,
         "suspended": 1
       }

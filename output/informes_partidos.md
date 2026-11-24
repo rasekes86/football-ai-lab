@@ -1,50 +1,5 @@
 # Football AI Lab — dossiers completos de la jornada
 
-## Levante – Elche
-
-**LaLiga · 2026-11-23T20:00:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 43.7% | 23.4% | 32.9% | 63.3% |
-
-### Forma, descanso y estadísticas
-
-**Levante:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · D · V · E
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 11,0, a puerta 3,4, córners 3,4, amarillas 1,8
-
-**Elche:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · D · V · E · E
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 13,0, a puerta 3,2, córners 5,6, amarillas 3,0
-
-### Enfrentamientos previos
-- 2026-01-23: Levante 3-2 Elche
-- 2025-08-29: Elche 2-0 Levante
-
-### Tres selecciones del modelo (experimentales)
-1. **Levante +1,5** (Hándicap 2 vías (medio gol)): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 1,5 goles** (Total goles): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Levante: más de 0,5 goles** (Goles equipo): 82.3% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 43.3% / 24.7% / 32.0%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-23T19:15:02+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Real Betis – Rayo Vallecano
 
 **LaLiga · 2026-11-28T13:00:00+00:00 · modelo poisson70-elo30-0.2**
@@ -53,7 +8,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 58.7% | 22.8% | 18.5% | 53.0% |
+| 58.7% | 22.8% | 18.5% | 52.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -75,9 +30,9 @@
 - 2024-03-17: Vallecano 2-0 Betis
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 84.8% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Real Betis: más de 0,5 goles** (Goles equipo): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Rayo Vallecano +2,5** (Hándicap 2 vías (medio gol)): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 85.2% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Menos de 4,5 goles** (Total goles): 84.9% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Real Betis: más de 0,5 goles** (Goles equipo): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 54.0% / 27.4% / 18.6%. No sustituye al modelo principal.
@@ -101,7 +56,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 37.5% | 24.9% | 37.6% | 53.4% |
+| 37.5% | 24.9% | 37.6% | 53.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -121,7 +76,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Menos de 4,5 goles** (Total goles): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Athletic Club: menos de 2,5 goles** (Goles equipo): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Málaga +1,5** (Hándicap 2 vías (medio gol)): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Málaga +1,5** (Hándicap 2 vías (medio gol)): 83.0% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 23.8% / 27.0% / 49.3%. No sustituye al modelo principal.
@@ -145,14 +100,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 27.5% | 25.2% | 47.3% | 49.4% |
+| 27.6% | 25.2% | 47.2% | 49.3% |
 
 ### Forma, descanso y estadísticas
 
 **Elche:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · D · V · E · E
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 13,0, a puerta 3,2, córners 5,6, amarillas 3,0
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · D · V · E
+- Días desde el último partido liguero registrado: 5
+- Medias recientes: Tiros 11,2, a puerta 3,2, córners 4,8, amarillas 3,0
 
 **Atlético Madrid:** posición 3 · 31 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
@@ -165,8 +120,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 19,5 tiros totales** (Tiros totales): 84.3% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-2. **Atlético Madrid: menos de 2,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Elche +1,5** (Hándicap 2 vías (medio gol)): 77.4% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Atlético Madrid: menos de 2,5 goles** (Goles equipo): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 79.2% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 19.0% / 26.0% / 55.1%. No sustituye al modelo principal.
@@ -190,7 +145,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 71.7% | 18.6% | 9.8% | 60.9% |
+| 71.6% | 18.6% | 9.8% | 60.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -214,7 +169,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Alavés: menos de 1,5 goles** (Goles equipo): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 82.6% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Más de 1,5 goles** (Total goles): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 80.0% / 11.5% / 8.5%. No sustituye al modelo principal.
@@ -238,7 +193,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 45.7% | 26.2% | 28.1% | 43.7% |
+| 45.7% | 26.2% | 28.1% | 43.6% |
 
 ### Forma, descanso y estadísticas
 
@@ -261,8 +216,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Valencia: menos de 2,5 goles** (Goles equipo): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 81.5% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Más de 19,5 tiros totales** (Tiros totales): 79.5% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 83.2% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 81.5% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 30.9% / 35.2% / 34.0%. No sustituye al modelo principal.
@@ -286,7 +241,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 38.0% | 24.8% | 37.3% | 54.2% |
+| 38.0% | 24.8% | 37.2% | 54.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -382,7 +337,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.3% | 29.3% | 26.3% | 28.3% |
+| 44.3% | 29.4% | 26.3% | 28.2% |
 
 ### Forma, descanso y estadísticas
 
@@ -403,7 +358,7 @@
 - 2024-12-09: Getafe 1-0 Espanol
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 0,5 goles** (Total goles): 84.3% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 0,5 goles** (Total goles): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Getafe: menos de 1,5 goles** (Goles equipo): 83.1% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 83.0% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
@@ -429,7 +384,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 23.8% | 22.7% | 53.5% | 62.5% |
+| 23.8% | 22.7% | 53.5% | 62.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -477,7 +432,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 62.4% | 20.7% | 16.9% | 62.6% |
+| 62.4% | 20.7% | 16.9% | 62.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -525,7 +480,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 42.9% | 25.7% | 31.4% | 47.4% |
+| 42.9% | 25.8% | 31.3% | 47.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -547,8 +502,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Alavés +1,5** (Hándicap 2 vías (medio gol)): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 19,5 tiros totales** (Tiros totales): 84.0% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Alavés: menos de 2,5 goles** (Goles equipo): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 86.7% · cuota justa 1.15; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 19,5 tiros totales** (Tiros totales): 84.0% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 56.4% / 23.7% / 19.9%. No sustituye al modelo principal.
@@ -572,7 +527,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 48.9% | 26.6% | 24.5% | 37.8% |
+| 49.0% | 26.6% | 24.4% | 37.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -582,9 +537,9 @@
 - Medias recientes: Tiros 17,0, a puerta 5,2, córners 5,8, amarillas 2,4
 
 **Levante:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · D · V · E
-- Días desde el último partido liguero registrado: 27
-- Medias recientes: Tiros 11,0, a puerta 3,4, córners 3,4, amarillas 1,8
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · E · D · D · V
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 12,4, a puerta 3,0, córners 3,4, amarillas 2,2
 
 ### Enfrentamientos previos
 - 2026-03-16: Vallecano 1-1 Levante
@@ -592,8 +547,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Rayo Vallecano: menos de 2,5 goles** (Goles equipo): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Levante: menos de 1,5 goles** (Goles equipo): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 82.5% · cuota justa 1.21; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Menos de 3,5 goles** (Total goles): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 54.8% / 24.3% / 20.9%. No sustituye al modelo principal.
@@ -617,7 +572,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 57.4% | 21.0% | 21.6% | 68.4% |
+| 57.4% | 21.0% | 21.6% | 68.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -639,9 +594,9 @@
 - 2024-02-23: Sociedad 1-3 Villarreal
 
 ### Tres selecciones del modelo (experimentales)
-1. **Real Sociedad: menos de 2,5 goles** (Goles equipo): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Real Sociedad: menos de 2,5 goles** (Goles equipo): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Más de 1,5 goles** (Total goles): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 84.5% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 84.4% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.7% / 21.1% / 32.2%. No sustituye al modelo principal.
@@ -665,7 +620,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 66.2% | 21.4% | 12.4% | 53.0% |
+| 66.1% | 21.5% | 12.4% | 53.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -713,7 +668,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 46.7% | 24.8% | 28.5% | 50.8% |
+| 46.6% | 24.8% | 28.6% | 50.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -723,9 +678,9 @@
 - Medias recientes: Tiros 13,8, a puerta 3,6, córners 4,6, amarillas 3,0
 
 **Elche:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · D · V · E · E
-- Días desde el último partido liguero registrado: 28
-- Medias recientes: Tiros 13,0, a puerta 3,2, córners 5,6, amarillas 3,0
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · D · D · V · E
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 11,2, a puerta 3,2, córners 4,8, amarillas 3,0
 
 ### Enfrentamientos previos
 - 2026-02-13: Elche 0-0 Osasuna
@@ -733,8 +688,8 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **Menos de 4,5 goles** (Total goles): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 85.9% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Más de 19,5 tiros totales** (Tiros totales): 80.3% · cuota justa 1.25; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 85.4% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 85.2% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 41.1% / 30.3% / 28.5%. No sustituye al modelo principal.
@@ -782,7 +737,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 86.8% · cuota justa 1.15; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 2. **Real Madrid: menos de 2,5 goles** (Goles equipo): 83.2% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 19,5 tiros totales** (Tiros totales): 82.3% · cuota justa 1.22; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 83.2% · cuota justa 1.20; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 18.8% / 21.8% / 59.4%. No sustituye al modelo principal.
@@ -830,7 +785,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Menos de 3,5 goles** (Total goles): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Valencia +1,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 5,5 tiros a puerta totales** (Tiros a puerta totales): 79.1% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 81.3% · cuota justa 1.23; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 40.5% / 30.9% / 28.7%. No sustituye al modelo principal.
@@ -854,7 +809,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 52.8% | 23.6% | 23.6% | 53.5% |
+| 52.8% | 23.6% | 23.6% | 53.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -894,40 +849,39 @@
 
 ---
 
-## Ceuta – Almería
+## Sevilla – Málaga
 
-**Segunda División · 2026-11-23T19:30:00+00:00 · modelo poisson70-elo30-0.2**
+**LaLiga · 2026-12-07T20:00:00+00:00 · modelo poisson70-elo30-0.2**
 
 ### Probabilidades del modelo principal
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 29.1% | 24.8% | 46.0% | 48.5% |
+| 49.0% | 26.6% | 24.4% | 38.5% |
 
 ### Forma, descanso y estadísticas
 
-**Ceuta:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 8
-- Medias recientes: Tiros 18,6, a puerta 4,8, córners 8,4, amarillas 3,6
+**Sevilla:** posición 6 · 19 puntos.
+- Últimos partidos: 1V · 2E · 2D; secuencia: E · E · D · V · D
+- Días desde el último partido liguero registrado: 16
+- Medias recientes: Tiros 15,6, a puerta 5,0, córners 4,6, amarillas 2,8
 
-**Almería:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · E · E · V
-- Días desde el último partido liguero registrado: 9
-- Medias recientes: Tiros 8,8, a puerta 3,4, córners 2,2, amarillas 2,0
+**Málaga:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · D · E · D
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 11,0, a puerta 4,4, córners 3,2, amarillas 2,0
 
 ### Enfrentamientos previos
-- 2026-02-01: Almeria 4-2 Ceuta
-- 2025-11-26: Ceuta 3-2 Almeria
+- No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Almería: menos de 2,5 goles** (Goles equipo): 82.3% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Más de 21,5 tiros totales** (Tiros totales): 80.4% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
-3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 79.1% · cuota justa 1.26; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Sevilla: menos de 2,5 goles** (Goles equipo): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 81.3% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Málaga: menos de 1,5 goles** (Goles equipo): 78.7% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 36.2% / 23.7% / 40.2%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-23T19:14:27+00:00)
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -965,13 +919,13 @@
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 0,5 goles** (Total goles): 85.3% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 0,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **CD Sabadell +1,5** (Hándicap 2 vías (medio gol)): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **CD Sabadell: menos de 1,5 goles** (Goles equipo): 79.8% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 38.8% / 25.2% / 36.0%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-24T14:54:03+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -991,7 +945,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 51.8% | 24.8% | 23.5% | 45.6% |
+| 51.8% | 24.8% | 23.5% | 45.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -1036,7 +990,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 49.8% | 24.7% | 25.6% | 45.3% |
+| 49.7% | 24.7% | 25.6% | 45.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -1059,7 +1013,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 19,5 tiros totales** (Tiros totales): 80.4% · cuota justa 1.24; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 2. **Albacete: menos de 2,5 goles** (Goles equipo): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 76.0% · cuota justa 1.32; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 76.0% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 51.3% / 25.7% / 23.0%. No sustituye al modelo principal.
@@ -1083,7 +1037,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 31.9% | 24.8% | 43.3% | 48.8% |
+| 31.9% | 24.8% | 43.3% | 48.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -1127,7 +1081,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.0% | 26.3% | 30.7% | 40.1% |
+| 43.0% | 26.3% | 30.7% | 40.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -1175,7 +1129,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 43.5% | 24.8% | 31.7% | 49.6% |
+| 43.5% | 24.8% | 31.7% | 49.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -1194,7 +1148,7 @@
 - 2025-11-24: Sociedad B 1-0 Valladolid
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 87.0% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Real Valladolid +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
@@ -1220,7 +1174,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 58.0% | 22.6% | 19.4% | 49.9% |
+| 58.1% | 22.6% | 19.2% | 49.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -1231,15 +1185,15 @@
 
 **Ceuta:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 14
-- Medias recientes: Tiros 18,6, a puerta 4,8, córners 8,4, amarillas 3,6
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 16,6, a puerta 4,8, córners 7,4, amarillas 4,0
 
 ### Enfrentamientos previos
 - 2026-02-20: Ceuta 2-1 Granada
 - 2025-12-07: Granada 1-1 Ceuta
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Ceuta +2,5** (Hándicap 2 vías (medio gol)): 84.2% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Granada: más de 0,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
@@ -1309,7 +1263,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 30.7% | 23.2% | 46.2% | 58.6% |
+| 30.7% | 23.2% | 46.2% | 58.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -1332,7 +1286,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Cádiz: menos de 2,5 goles** (Goles equipo): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Córdoba: más de 0,5 goles** (Goles equipo): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 4,5 goles** (Total goles): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 goles** (Total goles): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 23.7% / 21.0% / 55.3%. No sustituye al modelo principal.
@@ -1356,14 +1310,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 58.9% | 20.6% | 20.4% | 66.3% |
+| 59.1% | 20.6% | 20.3% | 66.3% |
 
 ### Forma, descanso y estadísticas
 
 **Almería:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · E · E · V
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 8,8, a puerta 3,4, córners 2,2, amarillas 2,0
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · V · E · E
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 10,2, a puerta 3,8, córners 2,4, amarillas 2,4
 
 **Sporting Gijón:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 1V · 1E · 3D; secuencia: D · E · D · V · D
@@ -1447,7 +1401,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 41.4% | 25.4% | 33.2% | 45.6% |
+| 41.4% | 25.4% | 33.2% | 45.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -1466,7 +1420,7 @@
 - 2025-11-08: Sociedad B 2-1 Leganes
 
 ### Tres selecciones del modelo (experimentales)
-1. **Más de 19,5 tiros totales** (Tiros totales): 85.1% · cuota justa 1.18; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Más de 19,5 tiros totales** (Tiros totales): 85.2% · cuota justa 1.17; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 2. **Real Sociedad II: menos de 2,5 goles** (Goles equipo): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Leganés +1,5** (Hándicap 2 vías (medio gol)): 81.0% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
@@ -1536,7 +1490,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 33.3% | 24.6% | 42.1% | 51.0% |
+| 33.4% | 24.6% | 42.1% | 51.0% |
 
 ### Forma, descanso y estadísticas
 
@@ -1672,7 +1626,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 51.2% | 22.7% | 26.1% | 56.7% |
+| 51.4% | 22.3% | 26.4% | 59.6% |
 
 ### Forma, descanso y estadísticas
 
@@ -1682,9 +1636,9 @@
 - Medias recientes: Tiros 12,0, a puerta 4,2, córners 5,4, amarillas 2,6
 
 **Almería:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · E · E · V
-- Días desde el último partido liguero registrado: 22
-- Medias recientes: Tiros 8,8, a puerta 3,4, córners 2,2, amarillas 2,0
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · V · V · E · E
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 10,2, a puerta 3,8, córners 2,4, amarillas 2,4
 
 ### Enfrentamientos previos
 - 2026-04-02: Castellon 2-0 Almeria
@@ -1693,9 +1647,9 @@
 - 2024-09-16: Almeria 2-5 Castellon
 
 ### Tres selecciones del modelo (experimentales)
-1. **Almería +2,5** (Hándicap 2 vías (medio gol)): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Castellón: más de 0,5 goles** (Goles equipo): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 4,5 goles** (Total goles): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Almería +2,5** (Hándicap 2 vías (medio gol)): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Castellón: más de 0,5 goles** (Goles equipo): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 1,5 goles** (Total goles): 81.3% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 55.7% / 20.8% / 23.5%. No sustituye al modelo principal.
@@ -1719,14 +1673,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 37.2% | 27.2% | 35.6% | 36.9% |
+| 36.3% | 26.6% | 37.0% | 39.6% |
 
 ### Forma, descanso y estadísticas
 
 **Ceuta:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 18,6, a puerta 4,8, córners 8,4, amarillas 3,6
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 16,6, a puerta 4,8, córners 7,4, amarillas 4,0
 
 **Albacete:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 4V · 0E · 1D; secuencia: D · V · V · V · V
@@ -1738,9 +1692,9 @@
 - 2025-10-12: Albacete 0-0 Ceuta
 
 ### Tres selecciones del modelo (experimentales)
-1. **Ceuta +1,5** (Hándicap 2 vías (medio gol)): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 82.5% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 21,5 tiros totales** (Tiros totales): 77.8% · cuota justa 1.28; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Albacete +1,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 80.5% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 21,5 tiros totales** (Tiros totales): 78.9% · cuota justa 1.27; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.5% / 17.5% / 36.0%. No sustituye al modelo principal.
@@ -1847,42 +1801,86 @@
 
 ---
 
-## Brentford – Everton
+## Burgos – Cádiz
 
-**Premier League · 2026-11-23T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+**Segunda División · 2026-12-07T15:15:00+00:00 · modelo poisson70-elo30-0.2**
 
 ### Probabilidades del modelo principal
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 45.3% | 27.7% | 27.0% | 42.3% |
+| 55.4% | 26.4% | 18.2% | 33.3% |
 
 ### Forma, descanso y estadísticas
 
-**Brentford:** posición 10 · 14 puntos.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
+**Burgos:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 1E · 1D; secuencia: V · D · V · E · V
 - Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
+- Medias recientes: Tiros 15,2, a puerta 4,6, córners 5,4, amarillas 2,6
 
-**Everton:** posición 7 · 16 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
-- Días desde el último partido liguero registrado: 17
-- Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
+**Cádiz:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · E · D · D · V
+- Días desde el último partido liguero registrado: 16
+- Medias recientes: Tiros 10,8, a puerta 4,4, córners 3,0, amarillas 3,0
 
 ### Enfrentamientos previos
-- 2026-04-11: Brentford 2-2 Everton
-- 2026-01-04: Everton 2-4 Brentford
-- 2025-02-26: Brentford 1-1 Everton
-- 2024-11-23: Everton 0-0 Brentford
-- 2024-04-27: Everton 1-0 Brentford
+- 2026-02-14: Burgos 1-1 Cadiz
+- 2025-10-20: Cadiz 1-3 Burgos
+- 2025-04-19: Burgos 2-2 Cadiz
+- 2024-12-19: Cadiz 1-1 Burgos
 
 ### Tres selecciones del modelo (experimentales)
-1. **Brentford: menos de 2,5 goles** (Goles equipo): 83.6% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 78.5% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Everton +1,5** (Hándicap 2 vías (medio gol)): 77.7% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Más de 0,5 goles** (Total goles): 86.9% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Cádiz: menos de 1,5 goles** (Goles equipo): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Burgos: menos de 2,5 goles** (Goles equipo): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
-- XGBoost experimental: 42.0% / 28.3% / 29.8%. No sustituye al modelo principal.
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Córdoba – Las Palmas
+
+**Segunda División · 2026-12-07T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 41.8% | 24.2% | 34.0% | 53.5% |
+
+### Forma, descanso y estadísticas
+
+**Córdoba:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 3V · 2E · 0D; secuencia: V · E · V · E · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 15,6, a puerta 7,0, córners 8,8, amarillas 4,0
+
+**Las Palmas:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 12,0, a puerta 5,2, córners 5,6, amarillas 2,8
+
+### Enfrentamientos previos
+- 2026-01-24: Las Palmas 1-2 Cordoba
+- 2025-08-25: Cordoba 1-3 Las Palmas
+
+### Tres selecciones del modelo (experimentales)
+1. **Córdoba +1,5** (Hándicap 2 vías (medio gol)): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Las Palmas: menos de 2,5 goles** (Goles equipo): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 4,5 goles** (Total goles): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar
@@ -1955,7 +1953,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Leeds United:** posición 6 · 17 puntos.
+**Leeds United:** posición 7 · 17 puntos.
 - Últimos partidos: 2V · 2E · 1D; secuencia: V · V · D · E · E
 - Días desde el último partido liguero registrado: 7
 - Medias recientes: Tiros 14,0, a puerta 4,4, córners 3,8, amarillas 2,0
@@ -1995,7 +1993,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 50.4% | 23.8% | 25.7% | 63.8% |
+| 50.2% | 23.8% | 26.0% | 63.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -2004,10 +2002,10 @@
 - Días desde el último partido liguero registrado: 6
 - Medias recientes: Tiros 15,6, a puerta 5,0, córners 5,6, amarillas 2,6
 
-**Brentford:** posición 10 · 14 puntos.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
-- Días desde el último partido liguero registrado: 20
-- Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
+**Brentford:** posición 6 · 17 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · E · D
+- Días desde el último partido liguero registrado: 5
+- Medias recientes: Tiros 11,4, a puerta 3,2, córners 4,2, amarillas 1,6
 
 ### Enfrentamientos previos
 - 2026-04-27: Man United 2-1 Brentford
@@ -2088,14 +2086,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 35.4% | 25.4% | 39.2% | 59.9% |
+| 35.2% | 25.4% | 39.4% | 59.9% |
 
 ### Forma, descanso y estadísticas
 
-**Everton:** posición 7 · 16 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
-- Días desde el último partido liguero registrado: 23
-- Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
+**Everton:** posición 9 · 16 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · V · D · D
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 9,8, a puerta 4,4, córners 3,6, amarillas 2,0
 
 **Liverpool:** posición 4 · 21 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · V · D · V · V
@@ -2285,7 +2283,7 @@
 - Días desde el último partido liguero registrado: 8
 - Medias recientes: Tiros 10,2, a puerta 1,8, córners 3,0, amarillas 2,4
 
-**Tottenham Hotspur:** posición 9 · 15 puntos.
+**Tottenham Hotspur:** posición 10 · 15 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
 - Días desde el último partido liguero registrado: 8
 - Medias recientes: Tiros 18,0, a puerta 6,2, córners 8,2, amarillas 2,2
@@ -2297,7 +2295,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Tottenham Hotspur +1,5** (Hándicap 2 vías (medio gol)): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Menos de 3,5 goles** (Total goles): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 77.3% · cuota justa 1.29; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 77.2% · cuota justa 1.29; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 19.8% / 21.7% / 58.5%. No sustituye al modelo principal.
@@ -2559,7 +2557,7 @@
 - Días desde el último partido liguero registrado: 11
 - Medias recientes: Tiros 16,4, a puerta 5,2, córners 6,4, amarillas 1,6
 
-**Leeds United:** posición 6 · 17 puntos.
+**Leeds United:** posición 7 · 17 puntos.
 - Últimos partidos: 2V · 2E · 1D; secuencia: V · V · D · E · E
 - Días desde el último partido liguero registrado: 11
 - Medias recientes: Tiros 14,0, a puerta 4,4, córners 3,8, amarillas 2,0
@@ -2643,7 +2641,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 42.3% | 28.7% | 29.0% | 39.2% |
+| 45.4% | 28.0% | 26.7% | 41.6% |
 
 ### Forma, descanso y estadísticas
 
@@ -2652,10 +2650,10 @@
 - Días desde el último partido liguero registrado: 11
 - Medias recientes: Tiros 14,0, a puerta 4,2, córners 4,8, amarillas 2,0
 
-**Everton:** posición 7 · 16 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
-- Días desde el último partido liguero registrado: 26
-- Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
+**Everton:** posición 9 · 16 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · V · D · D
+- Días desde el último partido liguero registrado: 9
+- Medias recientes: Tiros 9,8, a puerta 4,4, córners 3,6, amarillas 2,0
 
 ### Enfrentamientos previos
 - 2026-01-18: Aston Villa 0-1 Everton
@@ -2665,9 +2663,9 @@
 - 2024-01-14: Everton 0-0 Aston Villa
 
 ### Tres selecciones del modelo (experimentales)
-1. **Everton +1,5** (Hándicap 2 vías (medio gol)): 82.4% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 74.3% · cuota justa 1.35; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+1. **Aston Villa: menos de 2,5 goles** (Goles equipo): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Everton +1,5** (Hándicap 2 vías (medio gol)): 79.2% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 79.0% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 45.3% / 29.2% / 25.5%. No sustituye al modelo principal.
@@ -2691,14 +2689,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 29.8% | 27.9% | 42.3% | 43.8% |
+| 32.3% | 28.2% | 39.5% | 42.1% |
 
 ### Forma, descanso y estadísticas
 
-**Brentford:** posición 10 · 14 puntos.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
-- Días desde el último partido liguero registrado: 24
-- Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
+**Brentford:** posición 6 · 17 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · E · D
+- Días desde el último partido liguero registrado: 9
+- Medias recientes: Tiros 11,4, a puerta 3,2, córners 4,2, amarillas 1,6
 
 **Arsenal:** posición 1 · 28 puntos.
 - Últimos partidos: 4V · 1E · 0D; secuencia: E · V · V · V · V
@@ -2713,9 +2711,9 @@
 - 2024-03-09: Arsenal 2-1 Brentford
 
 ### Tres selecciones del modelo (experimentales)
-1. **Arsenal +1,5** (Hándicap 2 vías (medio gol)): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Arsenal: menos de 2,5 goles** (Goles equipo): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 77.3% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Brentford +1,5** (Hándicap 2 vías (medio gol)): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 78.6% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 9,5 tiros a puerta totales** (Tiros a puerta totales): 74.9% · cuota justa 1.33; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 25.1% / 25.9% / 49.1%. No sustituye al modelo principal.
@@ -2791,7 +2789,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Tottenham Hotspur:** posición 9 · 15 puntos.
+**Tottenham Hotspur:** posición 10 · 15 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
 - Días desde el último partido liguero registrado: 12
 - Medias recientes: Tiros 18,0, a puerta 6,2, córners 8,2, amarillas 2,2
@@ -2979,7 +2977,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Leeds United:** posición 6 · 17 puntos.
+**Leeds United:** posición 7 · 17 puntos.
 - Últimos partidos: 2V · 2E · 1D; secuencia: V · V · D · E · E
 - Días desde el último partido liguero registrado: 14
 - Medias recientes: Tiros 14,0, a puerta 4,4, córners 3,8, amarillas 2,0
@@ -3111,14 +3109,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 32.9% | 26.2% | 40.9% | 53.7% |
+| 35.6% | 26.5% | 37.9% | 52.0% |
 
 ### Forma, descanso y estadísticas
 
-**Brentford:** posición 10 · 14 puntos.
-- Últimos partidos: 1V · 2E · 2D; secuencia: D · V · E · D · E
-- Días desde el último partido liguero registrado: 27
-- Medias recientes: Tiros 10,0, a puerta 2,6, córners 3,4, amarillas 2,6
+**Brentford:** posición 6 · 17 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: V · D · V · E · D
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 11,4, a puerta 3,2, córners 4,2, amarillas 1,6
 
 **Manchester City:** posición 3 · 22 puntos.
 - Últimos partidos: 1V · 1E · 3D; secuencia: E · D · D · D · V
@@ -3133,9 +3131,9 @@
 - 2024-02-20: Man City 1-0 Brentford
 
 ### Tres selecciones del modelo (experimentales)
-1. **Brentford: menos de 2,5 goles** (Goles equipo): 84.4% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 84.3% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Manchester City +1,5** (Hándicap 2 vías (medio gol)): 84.3% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Manchester City: menos de 2,5 goles** (Goles equipo): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Brentford +1,5** (Hándicap 2 vías (medio gol)): 83.7% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 32.7% / 27.3% / 40.1%. No sustituye al modelo principal.
@@ -3159,14 +3157,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 46.2% | 27.6% | 26.2% | 42.1% |
+| 45.9% | 27.6% | 26.4% | 42.1% |
 
 ### Forma, descanso y estadísticas
 
-**Everton:** posición 7 · 16 puntos.
-- Últimos partidos: 2V · 1E · 2D; secuencia: V · V · D · D · E
-- Días desde el último partido liguero registrado: 30
-- Medias recientes: Tiros 12,0, a puerta 5,4, córners 4,2, amarillas 1,8
+**Everton:** posición 9 · 16 puntos.
+- Últimos partidos: 2V · 0E · 3D; secuencia: D · V · V · D · D
+- Días desde el último partido liguero registrado: 13
+- Medias recientes: Tiros 9,8, a puerta 4,4, córners 3,6, amarillas 2,0
 
 **Fulham:** clasificación no disponible en datos recuperados.
 - Últimos partidos: 2V · 3E · 0D; secuencia: E · E · E · V · V
@@ -3256,7 +3254,7 @@
 
 ### Forma, descanso y estadísticas
 
-**Tottenham Hotspur:** posición 9 · 15 puntos.
+**Tottenham Hotspur:** posición 10 · 15 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
 - Días desde el último partido liguero registrado: 15
 - Medias recientes: Tiros 18,0, a puerta 6,2, córners 8,2, amarillas 2,2
@@ -4041,53 +4039,6 @@
 
 ---
 
-## Monza – Fiorentina
-
-**Serie A · 2026-11-23T19:45:00+00:00 · modelo poisson70-elo30-0.2**
-
-### Probabilidades del modelo principal
-
-| Local | Empate | Visitante | Más de 2,5 goles |
-|---:|---:|---:|---:|
-| 28.1% | 23.7% | 48.1% | 52.1% |
-
-### Forma, descanso y estadísticas
-
-**Monza:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · D · V
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 12,2, a puerta 5,0, córners 3,4, amarillas 2,2
-
-**Fiorentina:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · V · E · D · D
-- Días desde el último partido liguero registrado: 15
-- Medias recientes: Tiros 15,4, a puerta 5,0, córners 5,6, amarillas 2,4
-
-### Enfrentamientos previos
-- 2025-01-13: Monza 2-1 Fiorentina
-- 2024-09-01: Fiorentina 2-2 Monza
-- 2024-05-13: Fiorentina 2-1 Monza
-- 2023-12-22: Monza 0-1 Fiorentina
-
-### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Fiorentina: más de 0,5 goles** (Goles equipo): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 76.3% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-
-### Comparación de modelos y fuentes
-- XGBoost experimental: 27.4% / 26.1% / 46.5%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-23T19:15:23+00:00)
-
-### Qué falta o conviene vigilar
-- xG auténtico no integrado en las probabilidades
-- Lesiones y alineaciones no incorporadas al predictor
-- No se ha demostrado ventaja frente a cuotas reales
-
-*No es una recomendación de apuesta ni demuestra rentabilidad.*
-
-
----
-
 ## Venezia – Bologna
 
 **Serie A · 2026-11-27T19:45:00+00:00 · modelo poisson70-elo30-0.2**
@@ -4096,7 +4047,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 23.1% | 24.2% | 52.7% | 43.7% |
+| 23.0% | 24.1% | 52.9% | 43.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -4115,13 +4066,13 @@
 - 2024-11-30: Bologna 3-0 Venezia
 
 ### Tres selecciones del modelo (experimentales)
-1. **Bologna: menos de 2,5 goles** (Goles equipo): 79.6% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Venezia: menos de 1,5 goles** (Goles equipo): 78.2% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 77.3% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Bologna: menos de 2,5 goles** (Goles equipo): 79.3% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Venezia: menos de 1,5 goles** (Goles equipo): 78.3% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 77.2% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 19.7% / 17.7% / 62.6%. No sustituye al modelo principal.
-- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-24T14:54:50+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -4141,7 +4092,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 49.1% | 24.1% | 26.8% | 48.2% |
+| 49.0% | 24.0% | 27.0% | 48.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -4159,9 +4110,9 @@
 - No disponibles en el histórico consultado
 
 ### Tres selecciones del modelo (experimentales)
-1. **Frosinone: menos de 2,5 goles** (Goles equipo): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **12: gana uno de los dos** (Doble oportunidad): 75.9% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 73.6% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Frosinone: menos de 2,5 goles** (Goles equipo): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **12: gana uno de los dos** (Doble oportunidad): 76.0% · cuota justa 1.32; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 73.5% · cuota justa 1.36; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 75.5% / 13.1% / 11.4%. No sustituye al modelo principal.
@@ -4185,7 +4136,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 25.7% | 25.3% | 49.0% | 41.0% |
+| 25.6% | 25.2% | 49.2% | 41.1% |
 
 ### Forma, descanso y estadísticas
 
@@ -4207,8 +4158,8 @@
 - 2024-02-22: Torino 0-2 Lazio
 
 ### Tres selecciones del modelo (experimentales)
-1. **Lazio: menos de 2,5 goles** (Goles equipo): 83.1% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Lazio: menos de 2,5 goles** (Goles equipo): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Torino: menos de 1,5 goles** (Goles equipo): 76.8% · cuota justa 1.30; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -4233,7 +4184,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 68.5% | 19.1% | 12.4% | 61.0% |
+| 68.5% | 19.1% | 12.5% | 60.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -4257,7 +4208,7 @@
 ### Tres selecciones del modelo (experimentales)
 1. **Más de 1,5 goles** (Total goles): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **12: gana uno de los dos** (Doble oportunidad): 80.9% · cuota justa 1.24; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Genoa: menos de 1,5 goles** (Goles equipo): 77.8% · cuota justa 1.28; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Genoa: menos de 1,5 goles** (Goles equipo): 77.7% · cuota justa 1.29; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 77.0% / 12.3% / 10.8%. No sustituye al modelo principal.
@@ -4281,7 +4232,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 33.9% | 24.8% | 41.4% | 47.5% |
+| 35.9% | 25.1% | 39.0% | 45.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -4291,9 +4242,9 @@
 - Medias recientes: Tiros 14,2, a puerta 5,0, córners 5,8, amarillas 1,4
 
 **Fiorentina:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 2E · 2D; secuencia: E · V · E · D · D
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 15,4, a puerta 5,0, córners 5,6, amarillas 2,4
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · V · E · D
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 15,0, a puerta 5,2, córners 4,8, amarillas 2,2
 
 ### Enfrentamientos previos
 - 2026-03-02: Udinese 3-0 Fiorentina
@@ -4303,9 +4254,9 @@
 - 2024-01-14: Fiorentina 2-2 Udinese
 
 ### Tres selecciones del modelo (experimentales)
-1. **Fiorentina: menos de 2,5 goles** (Goles equipo): 83.4% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Udinese +1,5** (Hándicap 2 vías (medio gol)): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 74.1% · cuota justa 1.35; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Fiorentina +1,5** (Hándicap 2 vías (medio gol)): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Fiorentina: menos de 2,5 goles** (Goles equipo): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 75.7% · cuota justa 1.32; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 35.3% / 24.9% / 39.8%. No sustituye al modelo principal.
@@ -4329,7 +4280,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 25.4% | 23.4% | 51.2% | 52.5% |
+| 25.3% | 23.3% | 51.4% | 52.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -4350,9 +4301,9 @@
 - 2023-08-27: Napoli 2-0 Sassuolo
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 85.2% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Napoli: más de 0,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **12: gana uno de los dos** (Doble oportunidad): 76.6% · cuota justa 1.31; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Napoli: más de 0,5 goles** (Goles equipo): 81.0% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **12: gana uno de los dos** (Doble oportunidad): 76.7% · cuota justa 1.30; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 26.3% / 25.1% / 48.6%. No sustituye al modelo principal.
@@ -4376,7 +4327,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 77.9% | 15.6% | 6.4% | 62.2% |
+| 77.8% | 15.6% | 6.6% | 62.1% |
 
 ### Forma, descanso y estadísticas
 
@@ -4386,9 +4337,9 @@
 - Medias recientes: Tiros 21,0, a puerta 7,8, córners 8,4, amarillas 1,6
 
 **Monza:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · D · V
-- Días desde el último partido liguero registrado: 21
-- Medias recientes: Tiros 12,2, a puerta 5,0, córners 3,4, amarillas 2,2
+- Últimos partidos: 1V · 0E · 4D; secuencia: V · D · D · D · D
+- Días desde el último partido liguero registrado: 6
+- Medias recientes: Tiros 12,0, a puerta 4,8, córners 3,6, amarillas 2,0
 
 ### Enfrentamientos previos
 - 2025-02-24: Roma 4-0 Monza
@@ -4398,7 +4349,7 @@
 
 ### Tres selecciones del modelo (experimentales)
 1. **12: gana uno de los dos** (Doble oportunidad): 84.4% · cuota justa 1.19; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-2. **Más de 1,5 goles** (Total goles): 83.0% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Más de 1,5 goles** (Total goles): 82.9% · cuota justa 1.21; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 73.7% · cuota justa 1.36; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
@@ -4423,7 +4374,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 46.5% | 26.2% | 27.3% | 37.4% |
+| 46.4% | 26.2% | 27.4% | 37.4% |
 
 ### Forma, descanso y estadísticas
 
@@ -4444,9 +4395,9 @@
 - 2024-08-19: Juventus 3-0 Como
 
 ### Tres selecciones del modelo (experimentales)
-1. **Como: menos de 2,5 goles** (Goles equipo): 85.8% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Como: menos de 2,5 goles** (Goles equipo): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Menos de 3,5 goles** (Total goles): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Juventus +1,5** (Hándicap 2 vías (medio gol)): 78.9% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Juventus +1,5** (Hándicap 2 vías (medio gol)): 79.0% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 46.5% / 30.2% / 23.4%. No sustituye al modelo principal.
@@ -4470,7 +4421,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 23.9% | 24.7% | 51.4% | 41.7% |
+| 23.8% | 24.5% | 51.6% | 41.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -4492,9 +4443,9 @@
 - 2024-05-18: Lecce 0-2 Atalanta
 
 ### Tres selecciones del modelo (experimentales)
-1. **Atalanta: menos de 2,5 goles** (Goles equipo): 81.0% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 78.9% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Lecce: menos de 1,5 goles** (Goles equipo): 78.9% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Atalanta: menos de 2,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Lecce: menos de 1,5 goles** (Goles equipo): 79.0% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 78.8% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 28.1% / 29.2% / 42.7%. No sustituye al modelo principal.
@@ -4518,7 +4469,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 24.5% | 26.6% | 48.9% | 34.6% |
+| 24.5% | 26.4% | 49.1% | 34.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -4540,9 +4491,9 @@
 - 2024-05-11: Milan 5-1 Cagliari
 
 ### Tres selecciones del modelo (experimentales)
-1. **AC Milan: menos de 2,5 goles** (Goles equipo): 86.1% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 3,5 goles** (Total goles): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Cagliari: menos de 1,5 goles** (Goles equipo): 80.8% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **AC Milan: menos de 2,5 goles** (Goles equipo): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 84.0% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Cagliari: menos de 1,5 goles** (Goles equipo): 80.9% · cuota justa 1.24; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 24.3% / 22.9% / 52.7%. No sustituye al modelo principal.
@@ -4566,7 +4517,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 24.2% | 23.3% | 52.4% | 48.1% |
+| 24.2% | 23.2% | 52.6% | 48.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -4588,9 +4539,9 @@
 - 2024-04-22: Roma 1-3 Bologna
 
 ### Tres selecciones del modelo (experimentales)
-1. **AS Roma: más de 0,5 goles** (Goles equipo): 81.1% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **12: gana uno de los dos** (Doble oportunidad): 76.7% · cuota justa 1.30; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Bologna: menos de 1,5 goles** (Goles equipo): 76.1% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Bologna +2,5** (Hándicap 2 vías (medio gol)): 86.8% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **AS Roma: más de 0,5 goles** (Goles equipo): 81.3% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Bologna: menos de 1,5 goles** (Goles equipo): 76.2% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 19.6% / 18.4% / 62.0%. No sustituye al modelo principal.
@@ -4614,14 +4565,14 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 13.7% | 20.8% | 65.5% | 49.9% |
+| 15.1% | 21.1% | 63.8% | 50.8% |
 
 ### Forma, descanso y estadísticas
 
 **Monza:** clasificación no disponible en datos recuperados.
-- Últimos partidos: 1V · 0E · 4D; secuencia: D · D · D · D · V
-- Días desde el último partido liguero registrado: 27
-- Medias recientes: Tiros 12,2, a puerta 5,0, córners 3,4, amarillas 2,2
+- Últimos partidos: 1V · 0E · 4D; secuencia: V · D · D · D · D
+- Días desde el último partido liguero registrado: 12
+- Medias recientes: Tiros 12,0, a puerta 4,8, córners 3,6, amarillas 2,0
 
 **Como:** posición 5 · 26 puntos.
 - Últimos partidos: 4V · 0E · 1D; secuencia: V · D · V · V · V
@@ -4633,9 +4584,9 @@
 - 2024-11-30: Como 1-1 Monza
 
 ### Tres selecciones del modelo (experimentales)
-1. **Menos de 4,5 goles** (Total goles): 86.7% · cuota justa 1.15; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **X2: empate o Como** (Doble oportunidad): 86.3% · cuota justa 1.16; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-3. **Como: más de 0,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Menos de 4,5 goles** (Total goles): 86.2% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Como: más de 0,5 goles** (Goles equipo): 85.4% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **X2: empate o Como** (Doble oportunidad): 84.9% · cuota justa 1.18; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 19.5% / 21.8% / 58.7%. No sustituye al modelo principal.
@@ -4659,7 +4610,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 23.3% | 20.8% | 55.9% | 69.6% |
+| 23.2% | 20.7% | 56.2% | 69.8% |
 
 ### Forma, descanso y estadísticas
 
@@ -4678,8 +4629,8 @@
 - 2023-11-12: Inter 2-0 Frosinone
 
 ### Tres selecciones del modelo (experimentales)
-1. **Frosinone +2,5** (Hándicap 2 vías (medio gol)): 83.8% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Frosinone: menos de 2,5 goles** (Goles equipo): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Frosinone +2,5** (Hándicap 2 vías (medio gol)): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Frosinone: menos de 2,5 goles** (Goles equipo): 82.2% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 74.9% · cuota justa 1.34; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
 
 ### Comparación de modelos y fuentes
@@ -4704,7 +4655,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 62.3% | 22.3% | 15.4% | 47.4% |
+| 62.2% | 22.3% | 15.5% | 47.3% |
 
 ### Forma, descanso y estadísticas
 
@@ -4726,9 +4677,9 @@
 - 2024-05-26: Napoli 0-0 Lecce
 
 ### Tres selecciones del modelo (experimentales)
-1. **1X: Napoli o empate** (Doble oportunidad): 84.6% · cuota justa 1.18; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+1. **1X: Napoli o empate** (Doble oportunidad): 84.5% · cuota justa 1.18; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
 2. **Napoli: más de 0,5 goles** (Goles equipo): 83.1% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Lecce: menos de 1,5 goles** (Goles equipo): 81.2% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Lecce: menos de 1,5 goles** (Goles equipo): 81.1% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 67.4% / 19.4% / 13.2%. No sustituye al modelo principal.
@@ -4752,7 +4703,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.5% | 24.8% | 30.7% | 46.6% |
+| 44.4% | 24.8% | 30.8% | 46.7% |
 
 ### Forma, descanso y estadísticas
 
@@ -4774,9 +4725,9 @@
 - 2024-01-13: Genoa 0-0 Torino
 
 ### Tres selecciones del modelo (experimentales)
-1. **Genoa: menos de 2,5 goles** (Goles equipo): 83.2% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Torino +1,5** (Hándicap 2 vías (medio gol)): 79.4% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Menos de 3,5 goles** (Total goles): 74.9% · cuota justa 1.33; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Genoa: menos de 2,5 goles** (Goles equipo): 83.3% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Torino +1,5** (Hándicap 2 vías (medio gol)): 79.5% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 74.9% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 36.5% / 31.2% / 32.4%. No sustituye al modelo principal.
@@ -4800,7 +4751,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 44.4% | 24.2% | 31.5% | 51.8% |
+| 44.3% | 24.1% | 31.7% | 51.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -4822,9 +4773,9 @@
 - 2024-02-04: Atalanta 3-1 Lazio
 
 ### Tres selecciones del modelo (experimentales)
-1. **Atalanta: menos de 2,5 goles** (Goles equipo): 85.7% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Menos de 4,5 goles** (Total goles): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Lazio +1,5** (Hándicap 2 vías (medio gol)): 85.1% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Atalanta: menos de 2,5 goles** (Goles equipo): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 4,5 goles** (Total goles): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Lazio +1,5** (Hándicap 2 vías (medio gol)): 85.0% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 54.9% / 31.9% / 13.1%. No sustituye al modelo principal.
@@ -4848,7 +4799,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 59.6% | 21.9% | 18.4% | 54.9% |
+| 59.6% | 21.9% | 18.5% | 54.9% |
 
 ### Forma, descanso y estadísticas
 
@@ -4870,8 +4821,8 @@
 - 2024-02-12: Juventus 0-1 Udinese
 
 ### Tres selecciones del modelo (experimentales)
-1. **Juventus: más de 0,5 goles** (Goles equipo): 84.7% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-2. **Udinese +2,5** (Hándicap 2 vías (medio gol)): 84.0% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **Juventus: más de 0,5 goles** (Goles equipo): 84.6% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Udinese +2,5** (Hándicap 2 vías (medio gol)): 84.1% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Menos de 4,5 goles** (Total goles): 83.5% · cuota justa 1.20; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
@@ -4896,7 +4847,7 @@
 
 | Local | Empate | Visitante | Más de 2,5 goles |
 |---:|---:|---:|---:|
-| 56.6% | 24.4% | 19.0% | 42.5% |
+| 56.5% | 24.3% | 19.1% | 42.5% |
 
 ### Forma, descanso y estadísticas
 
@@ -4917,12 +4868,104 @@
 - 2024-08-24: Parma 2-1 Milan
 
 ### Tres selecciones del modelo (experimentales)
-1. **1X: AC Milan o empate** (Doble oportunidad): 81.0% · cuota justa 1.24; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
-2. **AC Milan: menos de 2,5 goles** (Goles equipo): 80.1% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
-3. **Parma: menos de 1,5 goles** (Goles equipo): 79.1% · cuota justa 1.26; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+1. **1X: AC Milan o empate** (Doble oportunidad): 80.9% · cuota justa 1.24; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+2. **AC Milan: menos de 2,5 goles** (Goles equipo): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Parma: menos de 1,5 goles** (Goles equipo): 79.0% · cuota justa 1.27; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 55.7% / 28.3% / 16.0%. No sustituye al modelo principal.
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Venezia – Sassuolo
+
+**Serie A · 2026-12-07T17:30:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 36.5% | 26.4% | 37.1% | 38.9% |
+
+### Forma, descanso y estadísticas
+
+**Venezia:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · V · D · D · D
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 13,2, a puerta 3,0, córners 3,8, amarillas 0,6
+
+**Sassuolo:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 0E · 5D; secuencia: D · D · D · D · D
+- Días desde el último partido liguero registrado: 15
+- Medias recientes: Tiros 10,8, a puerta 2,2, córners 3,4, amarillas 1,6
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Sassuolo +1,5** (Hándicap 2 vías (medio gol)): 86.6% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Menos de 3,5 goles** (Total goles): 81.0% · cuota justa 1.23; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 2,5 tarjetas amarillas totales** (Tarjetas amarillas totales): 73.9% · cuota justa 1.35; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Fiorentina – Cagliari
+
+**Serie A · 2026-12-07T19:45:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 43.9% | 25.1% | 31.0% | 45.1% |
+
+### Forma, descanso y estadísticas
+
+**Fiorentina:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 2E · 2D; secuencia: D · E · V · E · D
+- Días desde el último partido liguero registrado: 14
+- Medias recientes: Tiros 15,0, a puerta 5,2, córners 4,8, amarillas 2,2
+
+**Cagliari:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 0E · 4D; secuencia: D · V · D · D · D
+- Días desde el último partido liguero registrado: 16
+- Medias recientes: Tiros 10,4, a puerta 3,4, córners 3,4, amarillas 1,8
+
+### Enfrentamientos previos
+- 2026-01-24: Fiorentina 1-2 Cagliari
+- 2025-08-24: Cagliari 1-1 Fiorentina
+- 2025-04-23: Cagliari 1-2 Fiorentina
+- 2024-12-08: Fiorentina 1-0 Cagliari
+- 2024-05-23: Cagliari 2-3 Fiorentina
+
+### Tres selecciones del modelo (experimentales)
+1. **Fiorentina: menos de 2,5 goles** (Goles equipo): 84.3% · cuota justa 1.19; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Cagliari +1,5** (Hándicap 2 vías (medio gol)): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Menos de 3,5 goles** (Total goles): 76.2% · cuota justa 1.31; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
 - Cuotas ofrecidas y referencias específicas: no disponibles en este informe
 
 ### Qué falta o conviene vigilar

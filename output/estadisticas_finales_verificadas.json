@@ -1,15 +1,15 @@
 {
   "version": "postmatch-stats-1.0",
-  "calculado_utc": "2026-11-23T19:14:53.650794+00:00",
+  "calculado_utc": "2026-11-24T15:12:38.561765+00:00",
   "auditoria": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-23T19:14:53.650794+00:00",
-    "objetivos_conteo": 20,
-    "completos": 20,
+    "calculado_utc": "2026-11-24T15:12:38.561765+00:00",
+    "objetivos_conteo": 21,
+    "completos": 21,
     "incompletos": 0,
-    "scoreboards_consultados": 0,
-    "summaries_consultados": 0,
-    "campos_recuperados": 0,
+    "scoreboards_consultados": 4,
+    "summaries_consultados": 4,
+    "campos_recuperados": 8,
     "campos_recuperados_cache": 110,
     "conflictos_marcador": 0,
     "fallos_fuente": 0,
@@ -276,6 +276,19 @@
         "motivo": "COMPLETO",
         "marcador_verificado": true,
         "marcador": "0-2"
+      },
+      {
+        "liga_codigo": "SP2",
+        "fecha": "2026-11-23",
+        "local_normalizado": "ceuta",
+        "visitante_normalizado": "almeria",
+        "metricas_requeridas": [
+          "shots"
+        ],
+        "campos_ausentes": [],
+        "motivo": "COMPLETO",
+        "marcador_verificado": true,
+        "marcador": "2-3"
       }
     ],
     "incompletos_por_motivo": {
@@ -284,8 +297,8 @@
       "ESTADISTICAS_INCOMPLETAS": 0
     },
     "exploracion": {
-      "objetivos_conteo": 43,
-      "completos": 43,
+      "objetivos_conteo": 47,
+      "completos": 47,
       "incompletos": 0,
       "objetivos_detalle": [
         {
@@ -969,11 +982,75 @@
           "motivo": "COMPLETO",
           "marcador_verificado": true,
           "marcador": "0-2"
+        },
+        {
+          "liga_codigo": "E0",
+          "fecha": "2026-11-23",
+          "local_normalizado": "brentford",
+          "visitante_normalizado": "everton",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "4-0"
+        },
+        {
+          "liga_codigo": "I1",
+          "fecha": "2026-11-23",
+          "local_normalizado": "monza",
+          "visitante_normalizado": "fiorentina",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "3-0"
+        },
+        {
+          "liga_codigo": "SP1",
+          "fecha": "2026-11-23",
+          "local_normalizado": "levante",
+          "visitante_normalizado": "elche",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "1-1"
+        },
+        {
+          "liga_codigo": "SP2",
+          "fecha": "2026-11-23",
+          "local_normalizado": "ceuta",
+          "visitante_normalizado": "almeria",
+          "metricas_requeridas": [
+            "corners",
+            "on_target",
+            "shots",
+            "yellow"
+          ],
+          "campos_ausentes": [],
+          "motivo": "COMPLETO",
+          "marcador_verificado": true,
+          "marcador": "2-3"
         }
       ]
     },
-    "partidos_con_faltas": 55,
-    "objetivos_faltas": 55,
+    "partidos_con_faltas": 59,
+    "objetivos_faltas": 59,
     "limites": {
       "scoreboards": 24,
       "summaries": 32
@@ -2336,6 +2413,106 @@
         "away_yellow": 1,
         "away_red": 0,
         "away_fouls": 12
+      }
+    },
+    {
+      "liga_codigo": "E0",
+      "fecha": "2026-11-23",
+      "local": "Brentford",
+      "visitante": "Everton",
+      "goles_local": 4,
+      "goles_visitante": 0,
+      "event_id": "401879237",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879237",
+      "verificado_utc": "2026-11-24T15:12:38.561765+00:00",
+      "estadisticas": {
+        "home_shots": 21,
+        "home_on_target": 7,
+        "home_corners": 6,
+        "home_yellow": 0,
+        "home_red": 0,
+        "home_fouls": 8,
+        "away_shots": 4,
+        "away_on_target": 2,
+        "away_corners": 3,
+        "away_yellow": 1,
+        "away_red": 1,
+        "away_fouls": 9
+      }
+    },
+    {
+      "liga_codigo": "I1",
+      "fecha": "2026-11-23",
+      "local": "Monza",
+      "visitante": "Fiorentina",
+      "goles_local": 3,
+      "goles_visitante": 0,
+      "event_id": "401875009",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875009",
+      "verificado_utc": "2026-11-24T15:12:38.561765+00:00",
+      "estadisticas": {
+        "home_shots": 13,
+        "home_on_target": 5,
+        "home_corners": 3,
+        "home_yellow": 0,
+        "home_red": 0,
+        "home_fouls": 8,
+        "away_shots": 17,
+        "away_on_target": 8,
+        "away_corners": 7,
+        "away_yellow": 1,
+        "away_red": 0,
+        "away_fouls": 13
+      }
+    },
+    {
+      "liga_codigo": "SP1",
+      "fecha": "2026-11-23",
+      "local": "Levante",
+      "visitante": "Elche",
+      "goles_local": 1,
+      "goles_visitante": 1,
+      "event_id": "401882802",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882802",
+      "verificado_utc": "2026-11-24T15:12:38.561765+00:00",
+      "estadisticas": {
+        "home_shots": 18,
+        "home_on_target": 2,
+        "home_corners": 5,
+        "home_yellow": 4,
+        "home_red": 0,
+        "home_fouls": 14,
+        "away_shots": 4,
+        "away_on_target": 2,
+        "away_corners": 1,
+        "away_yellow": 1,
+        "away_red": 0,
+        "away_fouls": 12
+      }
+    },
+    {
+      "liga_codigo": "SP2",
+      "fecha": "2026-11-23",
+      "local": "Ceuta",
+      "visitante": "Almería",
+      "goles_local": 2,
+      "goles_visitante": 3,
+      "event_id": "401883110",
+      "fuente_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883110",
+      "verificado_utc": "2026-11-24T15:12:38.561765+00:00",
+      "estadisticas": {
+        "home_shots": 18,
+        "home_on_target": 7,
+        "home_corners": 9,
+        "home_yellow": 4,
+        "home_red": 1,
+        "home_fouls": 16,
+        "away_shots": 14,
+        "away_on_target": 6,
+        "away_corners": 3,
+        "away_yellow": 3,
+        "away_red": 0,
+        "away_fouls": 16
       }
     }
   ]
