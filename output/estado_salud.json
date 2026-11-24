@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-24T15:14:37.101951+00:00",
+  "comprobado_utc": "2026-11-24T15:16:52.500730+00:00",
   "estado": "CORRECTO",
   "incidencias": [],
   "detalle": {
     "analisis_utc": "2026-11-24T15:12:38.561765+00:00",
-    "partidos_proximos": 40,
-    "cuotas_utc": "2026-11-24T15:12:38.561765+00:00",
-    "consultas_utc": "2026-11-24T15:14:08.961756+00:00",
+    "partidos_proximos": 41,
+    "cuotas_utc": "2026-11-24T15:16:03.457209+00:00",
+    "consultas_utc": "2026-11-24T15:16:35.814359+00:00",
     "errores_calendario_ultima_ronda": 0,
     "errores_totales_proveedor_ultima_ronda": 0,
     "racha_calendario": 0,
@@ -15,11 +15,11 @@
     "partidos_sin_liquidar_10h": 0,
     "partidos_sin_liquidar_48h": 0
   },
-  "ultima_captura_revisada": "2026-11-24T15:12:38.561765+00:00",
+  "ultima_captura_revisada": "2026-11-24T15:16:03.457209+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
   "fallos_workflow": {},
   "notificadas": [],
   "ultima_entrega_utc": "2026-11-24T15:14:37.101951+00:00",
-  "envio": "ENTREGADO"
+  "envio": "SIN_NOVEDADES"
 }
