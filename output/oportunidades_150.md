@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 81 · **Finalizadas:** 49 · **Pendientes:** 32
+**Registradas:** 83 · **Finalizadas:** 49 · **Pendientes:** 34
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -87,6 +87,8 @@
 | Manchester United – Brentford | Manchester United gana (OFRECIDA_API_REGISTRADA) | 50.2% | 2.10 | Pendiente | — |
 | Como – Juventus | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.6% | 2.00 | Pendiente | — |
 | AJ Auxerre – Marseille | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 78.4% | 1.57 | Pendiente | — |
+| Leganés – CD Sabadell | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 70.0% | 1.53 | Pendiente | — |
+| Lyon – AS Monaco | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 60.7% | 1.98 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
