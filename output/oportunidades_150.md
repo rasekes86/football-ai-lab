@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 86 · **Finalizadas:** 49 · **Pendientes:** 37
+**Registradas:** 89 · **Finalizadas:** 49 · **Pendientes:** 40
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -92,6 +92,9 @@
 | Las Palmas – FC Andorra | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 54.5% | 2.00 | Pendiente | — |
 | Toulouse – Stade Rennais | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 69.7% | 1.67 | Pendiente | — |
 | Lecce – Atalanta | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 78.8% | 1.53 | Pendiente | — |
+| Espanyol – Getafe | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 71.8% | 1.53 | Pendiente | — |
+| Eibar – Burgos | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 60.0% | 1.73 | Pendiente | — |
+| Cagliari – AC Milan | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 65.2% | 1.98 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
