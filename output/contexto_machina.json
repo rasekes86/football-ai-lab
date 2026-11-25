@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-24T18:53:32.917614+00:00",
+  "timestamp_utc": "2026-11-25T14:52:05.457881+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -448,8 +448,7 @@
       "bajas_reportadas": 11,
       "estados": {
         "unavailable": 5,
-        "injured": 4,
-        "doubtful": 2
+        "injured": 6
       }
     },
     {
@@ -462,12 +461,11 @@
     },
     {
       "equipo": "Man Utd",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 10,
       "estados": {
         "injured": 4,
         "doubtful": 2,
-        "unavailable": 4,
-        "suspended": 1
+        "unavailable": 4
       }
     },
     {
