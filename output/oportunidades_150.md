@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 76 · **Finalizadas:** 49 · **Pendientes:** 27
+**Registradas:** 81 · **Finalizadas:** 49 · **Pendientes:** 32
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -82,6 +82,11 @@
 | Borussia Dortmund – Bayer Leverkusen | Borussia Dortmund gana (OFRECIDA_API_REGISTRADA) | 57.8% | 2.05 | Pendiente | — |
 | AS Roma – Monza | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 60.2% | 1.98 | Pendiente | — |
 | Paris Saint-Germain – Lorient | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 73.3% | 1.73 | Pendiente | — |
+| Real Sociedad – Sevilla | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 68.0% | 1.80 | Pendiente | — |
+| Almería – Sporting Gijón | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 66.3% | 1.75 | Pendiente | — |
+| Manchester United – Brentford | Manchester United gana (OFRECIDA_API_REGISTRADA) | 50.2% | 2.10 | Pendiente | — |
+| Como – Juventus | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 62.6% | 2.00 | Pendiente | — |
+| AJ Auxerre – Marseille | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 78.4% | 1.57 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
