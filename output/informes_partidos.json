@@ -1,6 +1,6 @@
 {
   "version": "dossier-0.8",
-  "calculado_utc": "2026-11-25T14:52:05.457881+00:00",
+  "calculado_utc": "2026-11-25T17:57:52.345340+00:00",
   "partidos": [
     {
       "version": "dossier-0.8",
@@ -9,7 +9,7 @@
       "liga": "LaLiga",
       "local": "Real Betis",
       "visitante": "Rayo Vallecano",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58657",
@@ -256,7 +256,7 @@
       "liga": "LaLiga",
       "local": "Málaga",
       "visitante": "Athletic Club",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37534",
@@ -467,7 +467,7 @@
       "liga": "LaLiga",
       "local": "Elche",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.27608",
@@ -701,7 +701,7 @@
       "liga": "LaLiga",
       "local": "Real Madrid",
       "visitante": "Alavés",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.71637",
@@ -952,7 +952,7 @@
       "liga": "LaLiga",
       "local": "Valencia",
       "visitante": "Osasuna",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45716",
@@ -1200,7 +1200,7 @@
       "liga": "LaLiga",
       "local": "Celta Vigo",
       "visitante": "Villarreal",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.37975",
@@ -1447,7 +1447,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Sevilla",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47989",
@@ -1698,7 +1698,7 @@
       "liga": "LaLiga",
       "local": "Espanyol",
       "visitante": "Getafe",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44308",
@@ -1935,7 +1935,7 @@
       "liga": "LaLiga",
       "local": "Real Sociedad",
       "visitante": "Real Madrid",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23795",
@@ -2186,7 +2186,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Atlético Madrid",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.62400",
@@ -2437,7 +2437,7 @@
       "liga": "LaLiga",
       "local": "Alavés",
       "visitante": "Espanyol",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.42906",
@@ -2683,7 +2683,7 @@
       "liga": "LaLiga",
       "local": "Rayo Vallecano",
       "visitante": "Levante",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48990",
@@ -2908,7 +2908,7 @@
       "liga": "LaLiga",
       "local": "Villarreal",
       "visitante": "Real Sociedad",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57381",
@@ -3159,7 +3159,7 @@
       "liga": "LaLiga",
       "local": "Barcelona",
       "visitante": "Celta Vigo",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66148",
@@ -3401,7 +3401,7 @@
       "liga": "LaLiga",
       "local": "Osasuna",
       "visitante": "Elche",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46627",
@@ -3631,7 +3631,7 @@
       "liga": "LaLiga",
       "local": "Athletic Club",
       "visitante": "Real Madrid",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23686",
@@ -3887,7 +3887,7 @@
       "liga": "LaLiga",
       "local": "Getafe",
       "visitante": "Valencia",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.40098",
@@ -4130,7 +4130,7 @@
       "liga": "LaLiga",
       "local": "Atlético Madrid",
       "visitante": "Real Betis",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.52788",
@@ -4376,7 +4376,7 @@
       "liga": "LaLiga",
       "local": "Sevilla",
       "visitante": "Málaga",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48954",
@@ -4582,7 +4582,7 @@
       "liga": "Segunda División",
       "local": "Leganés",
       "visitante": "CD Sabadell",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41416",
@@ -4777,7 +4777,7 @@
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-25T13:49:34+00:00",
+          "fecha": "2026-11-25T16:42:36+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -4795,7 +4795,7 @@
       "liga": "Segunda División",
       "local": "Las Palmas",
       "visitante": "FC Andorra",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51756",
@@ -5020,7 +5020,7 @@
       "liga": "Segunda División",
       "local": "Albacete",
       "visitante": "Tenerife",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49744",
@@ -5257,7 +5257,7 @@
       "liga": "Segunda División",
       "local": "Eldense",
       "visitante": "Girona",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.31927",
@@ -5464,7 +5464,7 @@
       "liga": "Segunda División",
       "local": "Eibar",
       "visitante": "Burgos",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.42989",
@@ -5702,7 +5702,7 @@
       "liga": "Segunda División",
       "local": "Real Valladolid",
       "visitante": "Real Sociedad II",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43538",
@@ -5922,7 +5922,7 @@
       "liga": "Segunda División",
       "local": "Granada",
       "visitante": "Ceuta",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58120",
@@ -6142,7 +6142,7 @@
       "liga": "Segunda División",
       "local": "Mallorca",
       "visitante": "Castellón",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.38639",
@@ -6349,7 +6349,7 @@
       "liga": "Segunda División",
       "local": "Cádiz",
       "visitante": "Córdoba",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30683",
@@ -6581,7 +6581,7 @@
       "liga": "Segunda División",
       "local": "Almería",
       "visitante": "Sporting Gijón",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.59092",
@@ -6818,7 +6818,7 @@
       "liga": "Segunda División",
       "local": "Real Oviedo",
       "visitante": "RC Celta Fortuna",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56361",
@@ -7025,7 +7025,7 @@
       "liga": "Segunda División",
       "local": "Real Sociedad II",
       "visitante": "Leganés",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41361",
@@ -7250,7 +7250,7 @@
       "liga": "Segunda División",
       "local": "CD Sabadell",
       "visitante": "Eibar",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.40837",
@@ -7457,7 +7457,7 @@
       "liga": "Segunda División",
       "local": "FC Andorra",
       "visitante": "Real Oviedo",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.33352",
@@ -7677,7 +7677,7 @@
       "liga": "Segunda División",
       "local": "Tenerife",
       "visitante": "Eldense",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48599",
@@ -7914,7 +7914,7 @@
       "liga": "Segunda División",
       "local": "RC Celta Fortuna",
       "visitante": "Mallorca",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.38604",
@@ -8121,7 +8121,7 @@
       "liga": "Segunda División",
       "local": "Castellón",
       "visitante": "Almería",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51368",
@@ -8353,7 +8353,7 @@
       "liga": "Segunda División",
       "local": "Ceuta",
       "visitante": "Albacete",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.36343",
@@ -8578,7 +8578,7 @@
       "liga": "Segunda División",
       "local": "Sporting Gijón",
       "visitante": "Granada",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43046",
@@ -8815,7 +8815,7 @@
       "liga": "Segunda División",
       "local": "Girona",
       "visitante": "Real Valladolid",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.58799",
@@ -9022,7 +9022,7 @@
       "liga": "Segunda División",
       "local": "Burgos",
       "visitante": "Cádiz",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.55396",
@@ -9249,7 +9249,7 @@
       "liga": "Segunda División",
       "local": "Córdoba",
       "visitante": "Las Palmas",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41820",
@@ -9464,7 +9464,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Chelsea",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30318",
@@ -9706,7 +9706,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Coventry City",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.54422",
@@ -9917,7 +9917,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Brentford",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50206",
@@ -10159,7 +10159,7 @@
       "liga": "Premier League",
       "local": "Ipswich Town",
       "visitante": "Aston Villa",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.20383",
@@ -10379,7 +10379,7 @@
       "liga": "Premier League",
       "local": "Everton",
       "visitante": "Liverpool",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35178",
@@ -10625,7 +10625,7 @@
       "liga": "Premier League",
       "local": "Brighton & Hove Albion",
       "visitante": "Newcastle United",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.55424",
@@ -10867,7 +10867,7 @@
       "liga": "Premier League",
       "local": "Crystal Palace",
       "visitante": "Hull City",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.34891",
@@ -11074,7 +11074,7 @@
       "liga": "Premier League",
       "local": "Fulham",
       "visitante": "AFC Bournemouth",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41738",
@@ -11316,7 +11316,7 @@
       "liga": "Premier League",
       "local": "Sunderland",
       "visitante": "Tottenham Hotspur",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.39863",
@@ -11545,7 +11545,7 @@
       "liga": "Premier League",
       "local": "Arsenal",
       "visitante": "Manchester City",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50381",
@@ -11791,7 +11791,7 @@
       "liga": "Premier League",
       "local": "Coventry City",
       "visitante": "Ipswich Town",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50591",
@@ -11998,7 +11998,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Crystal Palace",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48082",
@@ -12240,7 +12240,7 @@
       "liga": "Premier League",
       "local": "Hull City",
       "visitante": "Nottingham Forest",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45620",
@@ -12447,7 +12447,7 @@
       "liga": "Premier League",
       "local": "Liverpool",
       "visitante": "Sunderland",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56337",
@@ -12671,7 +12671,7 @@
       "liga": "Premier League",
       "local": "Manchester City",
       "visitante": "Leeds United",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.63677",
@@ -12899,7 +12899,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43725",
@@ -13150,7 +13150,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Everton",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45395",
@@ -13392,7 +13392,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Arsenal",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32288",
@@ -13643,7 +13643,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Manchester United",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.40137",
@@ -13881,7 +13881,7 @@
       "liga": "Premier League",
       "local": "Tottenham Hotspur",
       "visitante": "Fulham",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.39621",
@@ -14123,7 +14123,7 @@
       "liga": "Premier League",
       "local": "Chelsea",
       "visitante": "Liverpool",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35186",
@@ -14369,7 +14369,7 @@
       "liga": "Premier League",
       "local": "AFC Bournemouth",
       "visitante": "Hull City",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48952",
@@ -14580,7 +14580,7 @@
       "liga": "Premier League",
       "local": "Aston Villa",
       "visitante": "Crystal Palace",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51687",
@@ -14818,7 +14818,7 @@
       "liga": "Premier League",
       "local": "Leeds United",
       "visitante": "Ipswich Town",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57410",
@@ -15029,7 +15029,7 @@
       "liga": "Premier League",
       "local": "Manchester United",
       "visitante": "Coventry City",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57570",
@@ -15236,7 +15236,7 @@
       "liga": "Premier League",
       "local": "Nottingham Forest",
       "visitante": "Brighton & Hove Albion",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30531",
@@ -15478,7 +15478,7 @@
       "liga": "Premier League",
       "local": "Brentford",
       "visitante": "Manchester City",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35594",
@@ -15724,7 +15724,7 @@
       "liga": "Premier League",
       "local": "Everton",
       "visitante": "Fulham",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45949",
@@ -15966,7 +15966,7 @@
       "liga": "Premier League",
       "local": "Newcastle United",
       "visitante": "Sunderland",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49208",
@@ -16186,7 +16186,7 @@
       "liga": "Premier League",
       "local": "Tottenham Hotspur",
       "visitante": "Arsenal",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.18815",
@@ -16432,7 +16432,7 @@
       "liga": "Bundesliga",
       "local": "Werder Bremen",
       "visitante": "Borussia Mönchengladbach",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.48908",
@@ -16679,7 +16679,7 @@
       "liga": "Bundesliga",
       "local": "Hamburg SV",
       "visitante": "Bayern Munich",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.14085",
@@ -16913,7 +16913,7 @@
       "liga": "Bundesliga",
       "local": "Mainz",
       "visitante": "1. FC Union Berlin",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45708",
@@ -17151,7 +17151,7 @@
       "liga": "Bundesliga",
       "local": "SC Paderborn 07",
       "visitante": "Schalke 04",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45385",
@@ -17358,7 +17358,7 @@
       "liga": "Bundesliga",
       "local": "VfB Stuttgart",
       "visitante": "Eintracht Frankfurt",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51186",
@@ -17604,7 +17604,7 @@
       "liga": "Bundesliga",
       "local": "SC Freiburg",
       "visitante": "RB Leipzig",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47414",
@@ -17850,7 +17850,7 @@
       "liga": "Bundesliga",
       "local": "TSG Hoffenheim",
       "visitante": "FC Augsburg",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.53681",
@@ -18097,7 +18097,7 @@
       "liga": "Bundesliga",
       "local": "Borussia Dortmund",
       "visitante": "Bayer Leverkusen",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.57760",
@@ -18348,7 +18348,7 @@
       "liga": "Bundesliga",
       "local": "Bayern Munich",
       "visitante": "SC Paderborn 07",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.79191",
@@ -18559,7 +18559,7 @@
       "liga": "Bundesliga",
       "local": "1. FC Union Berlin",
       "visitante": "Hamburg SV",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47353",
@@ -18784,7 +18784,7 @@
       "liga": "Bundesliga",
       "local": "Bayer Leverkusen",
       "visitante": "Borussia Mönchengladbach",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.66534",
@@ -19031,7 +19031,7 @@
       "liga": "Bundesliga",
       "local": "FC Augsburg",
       "visitante": "FC Cologne",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49552",
@@ -19267,7 +19267,7 @@
       "liga": "Bundesliga",
       "local": "RB Leipzig",
       "visitante": "Mainz",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.60878",
@@ -19514,7 +19514,7 @@
       "liga": "Bundesliga",
       "local": "SC Freiburg",
       "visitante": "TSG Hoffenheim",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.50868",
@@ -19756,7 +19756,7 @@
       "liga": "Bundesliga",
       "local": "Eintracht Frankfurt",
       "visitante": "Werder Bremen",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.47188",
@@ -20002,7 +20002,7 @@
       "liga": "Bundesliga",
       "local": "Schalke 04",
       "visitante": "Borussia Dortmund",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.22166",
@@ -20213,7 +20213,7 @@
       "liga": "Serie A",
       "local": "Venezia",
       "visitante": "Bologna",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23008",
@@ -20425,7 +20425,7 @@
       "mercado_referencias": [
         {
           "proveedor": "InferSports (keyless)",
-          "fecha": "2026-11-25T14:50:05+00:00",
+          "fecha": "2026-11-25T17:00:24+00:00",
           "estado": "Referencia de mercado sin margen, no cuota ofrecida"
         }
       ],
@@ -20443,7 +20443,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Parma",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.49029",
@@ -20654,7 +20654,7 @@
       "liga": "Serie A",
       "local": "Torino",
       "visitante": "Lazio",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.25602",
@@ -20896,7 +20896,7 @@
       "liga": "Serie A",
       "local": "Internazionale",
       "visitante": "Genoa",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.68452",
@@ -21142,7 +21142,7 @@
       "liga": "Serie A",
       "local": "Udinese",
       "visitante": "Fiorentina",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.35909",
@@ -21380,7 +21380,7 @@
       "liga": "Serie A",
       "local": "Sassuolo",
       "visitante": "Napoli",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.25308",
@@ -21616,7 +21616,7 @@
       "liga": "Serie A",
       "local": "AS Roma",
       "visitante": "Monza",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.77793",
@@ -21857,7 +21857,7 @@
       "liga": "Serie A",
       "local": "Como",
       "visitante": "Juventus",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.46390",
@@ -22097,7 +22097,7 @@
       "liga": "Serie A",
       "local": "Lecce",
       "visitante": "Atalanta",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23837",
@@ -22335,7 +22335,7 @@
       "liga": "Serie A",
       "local": "Cagliari",
       "visitante": "AC Milan",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24470",
@@ -22577,7 +22577,7 @@
       "liga": "Serie A",
       "local": "Bologna",
       "visitante": "AS Roma",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.24159",
@@ -22823,7 +22823,7 @@
       "liga": "Serie A",
       "local": "Monza",
       "visitante": "Como",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.15092",
@@ -23047,7 +23047,7 @@
       "liga": "Serie A",
       "local": "Frosinone",
       "visitante": "Internazionale",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23154",
@@ -23280,7 +23280,7 @@
       "liga": "Serie A",
       "local": "Napoli",
       "visitante": "Lecce",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.62232",
@@ -23522,7 +23522,7 @@
       "liga": "Serie A",
       "local": "Genoa",
       "visitante": "Torino",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44401",
@@ -23764,7 +23764,7 @@
       "liga": "Serie A",
       "local": "Lazio",
       "visitante": "Atalanta",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.44275",
@@ -24006,7 +24006,7 @@
       "liga": "Serie A",
       "local": "Juventus",
       "visitante": "Udinese",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.59563",
@@ -24248,7 +24248,7 @@
       "liga": "Serie A",
       "local": "AC Milan",
       "visitante": "Parma",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.56547",
@@ -24484,7 +24484,7 @@
       "liga": "Serie A",
       "local": "Venezia",
       "visitante": "Sassuolo",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.36515",
@@ -24691,7 +24691,7 @@
       "liga": "Serie A",
       "local": "Fiorentina",
       "visitante": "Cagliari",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43944",
@@ -24924,7 +24924,7 @@
       "liga": "Ligue 1",
       "local": "Brest",
       "visitante": "Paris FC",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.41852",
@@ -25152,7 +25152,7 @@
       "liga": "Ligue 1",
       "local": "Angers",
       "visitante": "Lens",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.23019",
@@ -25384,7 +25384,7 @@
       "liga": "Ligue 1",
       "local": "Le Havre AC",
       "visitante": "Strasbourg",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.30568",
@@ -25622,7 +25622,7 @@
       "liga": "Ligue 1",
       "local": "Le Mans",
       "visitante": "Lille",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.26714",
@@ -25833,7 +25833,7 @@
       "liga": "Ligue 1",
       "local": "Nice",
       "visitante": "Troyes",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.45935",
@@ -26044,7 +26044,7 @@
       "liga": "Ligue 1",
       "local": "Paris Saint-Germain",
       "visitante": "Lorient",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.65308",
@@ -26284,7 +26284,7 @@
       "liga": "Ligue 1",
       "local": "AJ Auxerre",
       "visitante": "Marseille",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.31569",
@@ -26520,7 +26520,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Stade Rennais",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.43649",
@@ -26762,7 +26762,7 @@
       "liga": "Ligue 1",
       "local": "Lyon",
       "visitante": "AS Monaco",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.53551",
@@ -27008,7 +27008,7 @@
       "liga": "Ligue 1",
       "local": "Toulouse",
       "visitante": "Paris Saint-Germain",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.19806",
@@ -27255,7 +27255,7 @@
       "liga": "Ligue 1",
       "local": "Lille",
       "visitante": "AJ Auxerre",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.55230",
@@ -27491,7 +27491,7 @@
       "liga": "Ligue 1",
       "local": "AS Monaco",
       "visitante": "Angers",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.63345",
@@ -27727,7 +27727,7 @@
       "liga": "Ligue 1",
       "local": "Lens",
       "visitante": "Le Havre AC",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.62736",
@@ -27965,7 +27965,7 @@
       "liga": "Ligue 1",
       "local": "Paris FC",
       "visitante": "Le Mans",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.52010",
@@ -28176,7 +28176,7 @@
       "liga": "Ligue 1",
       "local": "Strasbourg",
       "visitante": "Lorient",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.51544",
@@ -28412,7 +28412,7 @@
       "liga": "Ligue 1",
       "local": "Troyes",
       "visitante": "Lyon",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.32464",
@@ -28623,7 +28623,7 @@
       "liga": "Ligue 1",
       "local": "Stade Rennais",
       "visitante": "Brest",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.60389",
@@ -28869,7 +28869,7 @@
       "liga": "Ligue 1",
       "local": "Marseille",
       "visitante": "Nice",
-      "creado_utc": "2026-11-25T14:52:05.457881+00:00",
+      "creado_utc": "2026-11-25T17:57:52.345340+00:00",
       "modelo": "poisson70-elo30-0.2",
       "probabilidades": {
         "local": "0.61734",

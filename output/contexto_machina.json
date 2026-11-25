@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-25T14:52:05.457881+00:00",
+  "timestamp_utc": "2026-11-25T17:57:52.345340+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -366,12 +366,12 @@
     },
     {
       "equipo": "Brighton",
-      "bajas_reportadas": 12,
+      "bajas_reportadas": 13,
       "estados": {
+        "doubtful": 2,
         "unavailable": 5,
         "suspended": 1,
-        "injured": 5,
-        "doubtful": 1
+        "injured": 5
       }
     },
     {

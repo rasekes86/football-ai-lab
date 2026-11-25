@@ -1,11 +1,11 @@
 {
   "version": "top3-bookmaker-prices-1.0",
-  "calculado_utc": "2026-11-25T14:52:05.457881+00:00",
+  "calculado_utc": "2026-11-25T17:57:52.345340+00:00",
   "selecciones_originales": 552,
-  "con_cuota_observada": 55,
-  "sin_cuota_observada": 497,
+  "con_cuota_observada": 56,
+  "sin_cuota_observada": 496,
   "pendientes_con_cuota": 35,
-  "solapadas_adicional": 1,
+  "solapadas_adicional": 2,
   "global": {
     "cotizadas": 54,
     "liquidadas": 19,
@@ -62,7 +62,7 @@
       "roi_hipotetico_pct": 22.8
     },
     "Serie A": {
-      "cotizadas": 14,
+      "cotizadas": 15,
       "liquidadas": 6,
       "aciertos": 4,
       "fallos": 2,
@@ -73,7 +73,7 @@
   },
   "por_mercado": {
     "Total goles": {
-      "cotizadas": 55,
+      "cotizadas": 56,
       "liquidadas": 19,
       "aciertos": 15,
       "fallos": 4,
@@ -127,14 +127,23 @@
     },
     "Total goles": {
       "originales": 137,
-      "capturadas": 55,
+      "capturadas": 56,
       "no_equivalentes": 0,
-      "futuras_sin_captura": 59,
+      "futuras_sin_captura": 58,
       "sin_prueba_prepartido": 23
     }
   },
   "cobertura_nota": "Sin captura no confirma que se haya consultado; ningún mercado se sustituye por otro.",
   "por_dia": {
+    "2026-11-30": {
+      "cotizadas": 1,
+      "liquidadas": 0,
+      "aciertos": 0,
+      "fallos": 0,
+      "acierto_pct": null,
+      "beneficio_hipotetico_unidades": 0,
+      "roi_hipotetico_pct": null
+    },
     "2026-11-29": {
       "cotizadas": 18,
       "liquidadas": 0,
@@ -185,7 +194,7 @@
     "proveedor_principal": "5DollarFootballAPI Free",
     "maximo_interno_hora": 24,
     "creditos_mensuales_consumidos": 0,
-    "consultas_ultima_hora": 10,
+    "consultas_ultima_hora": 12,
     "otros_proveedores_de_pago": "DESACTIVADOS"
   },
   "nota": "Cuotas observadas antes del partido por proveedor externo, no precios garantizados al usuario ni apuestas realizadas. ROI SIMULADO solo sobre precios archivados de selecciones Top 3 activas, excluyendo solapamientos con la adicional. Sin cuota exacta no hay ROI; sin resultado no hay fallo."
