@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "last_delivery_utc": "2026-11-24T18:55:07.990389+00:00",
-  "last_daily_madrid": "2026-11-24",
+  "last_delivery_utc": "2026-11-25T14:53:43.214495+00:00",
+  "last_daily_madrid": "2026-11-25",
   "reported_keys": [
     "SP2|202611161930|albacete|celta b|double|Doble oportunidad|12: gana uno de los dos",
     "SP2|202611161930|albacete|celta b|double|Doble oportunidad|1X: Albacete o empate",
@@ -64,6 +64,14 @@
     "E0|202611232000|brentford|everton|yellow|Tarjetas amarillas totales|Más de 2,5 tarjetas amarillas totales",
     "SP1|202611232000|levante|elche|corners|Córners totales|Menos de 10,5 córners totales",
     "SP1|202611232000|levante|elche|corners|Córners totales|Menos de 11,5 córners totales",
-    "SP1|202611232000|levante|elche|double|Doble oportunidad|12: gana uno de los dos"
+    "SP1|202611232000|levante|elche|double|Doble oportunidad|12: gana uno de los dos",
+    "SP1|202611232000|levante|elche|double|Doble oportunidad|1X: Levante o empate",
+    "SP1|202611232000|levante|elche|goals|Total goles|Menos de 4,5 goles",
+    "SP1|202611232000|levante|elche|goals|Total goles|Más de 0,5 goles",
+    "SP1|202611232000|levante|elche|goals|Total goles|Más de 1,5 goles",
+    "SP1|202611232000|levante|elche|on_target|Tiros a puerta totales|Más de 5,5 tiros a puerta totales",
+    "SP1|202611232000|levante|elche|on_target|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+    "SP1|202611232000|levante|elche|on_target|Tiros a puerta totales|Más de 7,5 tiros a puerta totales",
+    "SP1|202611232000|levante|elche|shots|Tiros totales|Más de 19,5 tiros totales"
   ]
 }
