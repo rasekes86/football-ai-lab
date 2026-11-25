@@ -148,7 +148,23 @@
     "top:SP2|202611221300|cordoba|oviedo|Tiros totales|Más de 21,5 tiros totales",
     "extra:E0|202611221400|hull|brighton|Total goles|Menos de 2,5 goles",
     "extra:F1|202611221400|paris fc|angers|Total goles|Menos de 3,5 goles",
-    "top:E0|202611221400|hull|brighton|Goles equipo|Brighton & Hove Albion: menos de 2,5 goles"
+    "top:E0|202611221400|hull|brighton|Goles equipo|Brighton & Hove Albion: menos de 2,5 goles",
+    "top:E0|202611221400|hull|brighton|Goles equipo|Hull City: menos de 2,5 goles",
+    "top:E0|202611221400|hull|brighton|Hándicap 2 vías (medio gol)|Hull City +1,5",
+    "top:F1|202611221400|paris fc|angers|Goles equipo|Paris FC: más de 0,5 goles",
+    "top:F1|202611221400|paris fc|angers|Hándicap 2 vías (medio gol)|Angers +2,5",
+    "top:F1|202611221400|paris fc|angers|Total goles|Menos de 4,5 goles",
+    "top:I1|202611221400|bologna|udinese|Goles equipo|Bologna: menos de 2,5 goles",
+    "top:I1|202611221400|bologna|udinese|Hándicap 2 vías (medio gol)|Udinese +1,5",
+    "top:I1|202611221400|bologna|udinese|Total goles|Menos de 4,5 goles",
+    "top:I1|202611221400|sassuolo|genoa|Goles equipo|Genoa: menos de 2,5 goles",
+    "top:I1|202611221400|sassuolo|genoa|Goles equipo|Sassuolo: menos de 2,5 goles",
+    "top:I1|202611221400|sassuolo|genoa|Total goles|Menos de 4,5 goles",
+    "extra:D1|202611221430|augsburg|mainz|Total goles|Menos de 3,5 goles",
+    "top:D1|202611221430|augsburg|mainz|Hándicap 2 vías (medio gol)|Mainz +1,5",
+    "top:D1|202611221430|augsburg|mainz|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+    "top:D1|202611221430|augsburg|mainz|Total goles|Más de 1,5 goles",
+    "top:SP2|202611221515|sp gijon|las palmas|Goles equipo|Sporting Gijón: menos de 2,5 goles"
   ],
-  "last_delivery_utc": "2026-11-25T14:53:46.567870+00:00"
+  "last_delivery_utc": "2026-11-25T17:59:47.737897+00:00"
 }
