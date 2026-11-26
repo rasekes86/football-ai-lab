@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-25T17:57:52.345340+00:00",
+  "timestamp_utc": "2026-11-26T14:19:10.725013+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -445,10 +445,11 @@
     },
     {
       "equipo": "Liverpool",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 12,
       "estados": {
         "unavailable": 5,
-        "injured": 6
+        "injured": 6,
+        "doubtful": 1
       }
     },
     {
@@ -461,10 +462,9 @@
     },
     {
       "equipo": "Man Utd",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 8,
       "estados": {
         "injured": 4,
-        "doubtful": 2,
         "unavailable": 4
       }
     },
@@ -479,10 +479,10 @@
     },
     {
       "equipo": "Nott'm Forest",
-      "bajas_reportadas": 8,
+      "bajas_reportadas": 7,
       "estados": {
         "unavailable": 5,
-        "injured": 3
+        "injured": 2
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-25T17:57:52.345340+00:00",
+  "actualizado_utc": "2026-11-26T14:19:10.725013+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -21035,6 +21035,3446 @@
       "titular": false,
       "entro_desde_banquillo": false,
       "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "241029",
+      "jugador": "Yehvann Diouf",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "255192",
+      "jugador": "Youssouf Ndayishimiye",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "3117261",
+      "jugador": "Xavier Junior Mandza Tsiendi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "305669",
+      "jugador": "Alidu Seidu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "287078",
+      "jugador": "Hicham Boudaoui",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "164895",
+      "jugador": "Axel Witsel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "298030",
+      "jugador": "Niels Nkounkou",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "232089",
+      "jugador": "Jonathan Clauss",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "311118",
+      "jugador": "Elye Wahi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "315384",
+      "jugador": "Mohamed Amoura",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "276995",
+      "jugador": "Sofiane Diop",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "282676",
+      "jugador": "Nathan N'Goumou",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "265234",
+      "jugador": "Ali Abdi",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "239905",
+      "jugador": "Gauthier Hein",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "357425",
+      "jugador": "Djibril Coulibaly",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "176816",
+      "jugador": "Morgan Sanson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "3131927",
+      "jugador": "Aboulaye Camara",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "376344",
+      "jugador": "Hamza Koutoune",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "310859",
+      "jugador": "Teddy Boulhendi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Nice",
+      "jugador_id": "3135995",
+      "jugador": "Djelan Morana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "248699",
+      "jugador": "Matvei Safonov",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "196200",
+      "jugador": "Lucas Hernández",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "304503",
+      "jugador": "Illia Zabarnyi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "290591",
+      "jugador": "Nuno Mendes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "240233",
+      "jugador": "Achraf Hakimi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "355061",
+      "jugador": "João Neves",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "214596",
+      "jugador": "Fabián Ruiz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "345581",
+      "jugador": "Warren Zaïre-Emery",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "379088",
+      "jugador": "Senny Mayulu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "336388",
+      "jugador": "Désiré Doué",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "329690",
+      "jugador": "Maghnes Akliouche",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "229744",
+      "jugador": "Ousmane Dembélé",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "353363",
+      "jugador": "Mika Godts",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "316128",
+      "jugador": "Lucas Beraldo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "265869",
+      "jugador": "Ferran Torres",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "159047",
+      "jugador": "Marquinhos",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "287005",
+      "jugador": "Willian Pacho",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "403578",
+      "jugador": "Dro Fernández",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "288925",
+      "jugador": "Lucas Chevalier",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876398",
+      "liga": "F1",
+      "fecha_utc": "2026-11-21T16:15:00+00:00",
+      "local": "Nice",
+      "visitante": "Paris Saint-Germain",
+      "equipo": "Paris Saint-Germain",
+      "jugador_id": "288897",
+      "jugador": "Vitinha",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406381",
+      "jugador": "Lander Olasagasti",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "360178",
+      "jugador": "Kazunari Kita",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396607",
+      "jugador": "Luken Beitia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406377",
+      "jugador": "Unax Agote",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "379457",
+      "jugador": "Iñaki Rupérez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "410486",
+      "jugador": "Ibai Aguirre",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406396",
+      "jugador": "Tomás Carbonell",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396613",
+      "jugador": "Alex Marchal",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "387496",
+      "jugador": "Daniel Díaz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406383",
+      "jugador": "Gorka Carrera",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "396610",
+      "jugador": "Arkaitz Mariezkurrena",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "415441",
+      "jugador": "Unax Larrañaga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406386",
+      "jugador": "Jon Garro",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406385",
+      "jugador": "Jon Eceizabarrena",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "411583",
+      "jugador": "Iker Calderon",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "411582",
+      "jugador": "Joan Oleaga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406384",
+      "jugador": "Javier Soroeta",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "3133680",
+      "jugador": "Daniel Galilea Tellaeche",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "3127973",
+      "jugador": "Oihan Telletxea Sein",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "418089",
+      "jugador": "Andrews Adjabeng",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406389",
+      "jugador": "Gorka Gorosabel",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "406380",
+      "jugador": "Iker Ropero",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Real Sociedad II",
+      "jugador_id": "378292",
+      "jugador": "Sydney Osazuwa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "195604",
+      "jugador": "David Gil",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "3105656",
+      "jugador": "Manuel Rivera Domínguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "415372",
+      "jugador": "Noah Ukwuije",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "306347",
+      "jugador": "Giorgi Gocholeishvili",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "384598",
+      "jugador": "Borja Vázquez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "387838",
+      "jugador": "Dilan Zárate",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "341269",
+      "jugador": "Damián Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "375875",
+      "jugador": "Antonio Cordero",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "411758",
+      "jugador": "Ibon Sánchez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "397997",
+      "jugador": "García Pascual",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "354205",
+      "jugador": "Urko Izeta",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "3105657",
+      "jugador": "Roberto Rosado Márquez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "291262",
+      "jugador": "Marc-Oliver Doué",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "409477",
+      "jugador": "Manuel Fernández",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "209578",
+      "jugador": "Jokin Ezkieta",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "397417",
+      "jugador": "Juan Díaz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "361366",
+      "jugador": "Gonzalo Petit",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "394420",
+      "jugador": "Vladyslav Kopotun",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "291401",
+      "jugador": "Aimen Moueffek",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "230894",
+      "jugador": "Javi Ontiveros",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "409298",
+      "jugador": "Efe Ugiagbe",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "342140",
+      "jugador": "Bojan Kovacevic",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401883108",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Real Sociedad II",
+      "visitante": "Cádiz",
+      "equipo": "Cádiz",
+      "jugador_id": "290048",
+      "jugador": "Jandro Orellana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "207834",
+      "jugador": "Emil Audero",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "265996",
+      "jugador": "Mujaid Sadick",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "140754",
+      "jugador": "Florian Lejeune",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "276067",
+      "jugador": "Giorgi Tsitaishvili",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "287224",
+      "jugador": "Andrei Ratiu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "203711",
+      "jugador": "Unai López",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "294228",
+      "jugador": "Pathé Ciss",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "260740",
+      "jugador": "Jorge de Frutos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "264197",
+      "jugador": "Isi Palazón",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "276652",
+      "jugador": "Sergio Camello",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "276847",
+      "jugador": "Randy Nteka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "324505",
+      "jugador": "Fran Pérez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "261403",
+      "jugador": "Marash Kumbulla",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "192893",
+      "jugador": "Daniel Cárdenas",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "264078",
+      "jugador": "Pedro Díaz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "377843",
+      "jugador": "Rayane Belaid",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "319231",
+      "jugador": "Jozhua Vertrouwd",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "313024",
+      "jugador": "Alexandre Alemão",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "277292",
+      "jugador": "Adrià Pedrosa",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "158151",
+      "jugador": "Iván Balliu",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "125200",
+      "jugador": "Álvaro García",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "3115984",
+      "jugador": "Gnangoro Bouare Samake",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Rayo Vallecano",
+      "jugador_id": "386579",
+      "jugador": "Pelayo Fernández",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "165334",
+      "jugador": "Stole Dimitrievski",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "300927",
+      "jugador": "Copete",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "330552",
+      "jugador": "César Tárrega",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "222661",
+      "jugador": "Pablo Maffeo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "308728",
+      "jugador": "Arnau Martínez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "212185",
+      "jugador": "Guido Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "231603",
+      "jugador": "Pepelu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "264177",
+      "jugador": "Luis Rioja",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "253763",
+      "jugador": "Dani Raba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "211770",
+      "jugador": "Umar Sadiq",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "16340",
+      "jugador": "Javier Guerra",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "241117",
+      "jugador": "Mouctar Diakhaby",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "232803",
+      "jugador": "Aliou Dieng",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "419048",
+      "jugador": "Aaron Mayol",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "282086",
+      "jugador": "Justin de Haas",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "280806",
+      "jugador": "Harvey Elliott",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "409380",
+      "jugador": "Aimar Blázquez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "377768",
+      "jugador": "David Otorbi",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "324582",
+      "jugador": "Kayne Van Oevelen",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "248681",
+      "jugador": "Filip Ugrinic",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "157739",
+      "jugador": "Dimitri Foulquier",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "360096",
+      "jugador": "Ryunosuke Sato",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882799",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-21T15:15:00+00:00",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
+      "equipo": "Valencia",
+      "jugador_id": "267477",
+      "jugador": "Hugo Duro",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "289824",
+      "jugador": "Djordje Petrovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "346588",
+      "jugador": "António Silva",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "279155",
+      "jugador": "James Hill",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "305684",
+      "jugador": "Adrien Truffert",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "122268",
+      "jugador": "Adam Smith",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "245916",
+      "jugador": "Justin Kluivert",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "93435",
+      "jugador": "Ryan Christie",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "222776",
+      "jugador": "Tyler Adams",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "102368",
+      "jugador": "Evanilson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "243364",
+      "jugador": "Marcus Tavernier",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "357719",
+      "jugador": "Rayan",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "282675",
+      "jugador": "Bafodé Diakité",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "291613",
+      "jugador": "Amine Adli",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "240055",
+      "jugador": "Michele Di Gregorio",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "72487",
+      "jugador": "David Brooks",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "361809",
+      "jugador": "Junior Kroupi",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "332948",
+      "jugador": "Ben Gannon-Doak",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "223452",
+      "jugador": "Lewis Cook",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "314790",
+      "jugador": "Alex Scott",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "AFC Bournemouth",
+      "jugador_id": "339797",
+      "jugador": "Julio Soler",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "179497",
+      "jugador": "Matz Sels",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "238990",
+      "jugador": "Nikola Milenkovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "338894",
+      "jugador": "Murillo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "338876",
+      "jugador": "Jair Cunha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "241253",
+      "jugador": "Ryan Yates",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "298518",
+      "jugador": "James McAtee",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "291638",
+      "jugador": "Neco Williams",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "146679",
+      "jugador": "Daniel Muñoz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "307114",
+      "jugador": "Liam Delap",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "243396",
+      "jugador": "Morgan Gibbs-White",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "275842",
+      "jugador": "Dan Ndoye",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "206227",
+      "jugador": "Ola Aina",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "296321",
+      "jugador": "Arnaud Kalimuendo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "134190",
+      "jugador": "Chris Wood",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "287869",
+      "jugador": "Igor Jesus",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "233241",
+      "jugador": "John Victor",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "238886",
+      "jugador": "Xaver Schlager",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "213718",
+      "jugador": "Ibrahim Sangaré",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "343964",
+      "jugador": "Ousmane Diomande",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879238",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "AFC Bournemouth",
+      "visitante": "Nottingham Forest",
+      "equipo": "Nottingham Forest",
+      "jugador_id": "303765",
+      "jugador": "Luca Netz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -74544,10 +77984,10 @@
       "fuente": "ESPN summary público no oficial"
     }
   ],
-  "eventos_consultados": 0,
-  "eventos_con_jugadores": 0,
+  "eventos_consultados": 4,
+  "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 86,
-  "jugadores_con_algun_dato": 3727
+  "partidos_archivados": 90,
+  "jugadores_con_algun_dato": 3899
 }

@@ -1,8 +1,8 @@
 # Football AI Lab — Informe diario
 
-**UTC:** 2026-11-25T17:57:52.345340+00:00
+**UTC:** 2026-11-26T14:19:10.725013+00:00
 **Modo:** REAL — análisis experimental, sin apuesta real
-**Próximos partidos con pronóstico:** 125
+**Próximos partidos con pronóstico:** 129
 **Descartados por insuficiencia de datos:** 5
 **Históricos evaluados:** 59
 **Brier 1X2 medio:** 0.2039
@@ -28,6 +28,7 @@
 | LaLiga | 2026-12-06T17:30 | Getafe - Valencia | 40.1% | 29.1% | 30.8% |
 | LaLiga | 2026-12-06T20:00 | Atlético Madrid - Real Betis | 52.8% | 23.6% | 23.6% |
 | LaLiga | 2026-12-07T20:00 | Sevilla - Málaga | 49.0% | 26.6% | 24.4% |
+| LaLiga | 2026-12-09T19:00 | Rayo Vallecano - Athletic Club | 48.3% | 25.9% | 25.9% |
 | Segunda División | 2026-11-27T19:30 | Leganés - CD Sabadell | 41.4% | 28.6% | 30.0% |
 | Segunda División | 2026-11-28T13:00 | Las Palmas - FC Andorra | 51.8% | 24.8% | 23.5% |
 | Segunda División | 2026-11-28T15:15 | Albacete - Tenerife | 49.7% | 24.7% | 25.6% |
@@ -50,6 +51,9 @@
 | Segunda División | 2026-12-06T20:00 | Girona - Real Valladolid | 58.8% | 21.5% | 19.7% |
 | Segunda División | 2026-12-07T15:15 | Burgos - Cádiz | 55.4% | 26.4% | 18.2% |
 | Segunda División | 2026-12-07T17:30 | Córdoba - Las Palmas | 41.8% | 24.2% | 34.0% |
+| Segunda División | 2026-12-09T20:00 | Castellón - Eibar | 53.6% | 24.0% | 22.4% |
+| Segunda División | 2026-12-09T20:00 | FC Andorra - Mallorca | 36.3% | 28.2% | 35.5% |
+| Segunda División | 2026-12-09T20:00 | Granada - Tenerife | 56.5% | 23.9% | 19.6% |
 | Premier League | 2026-11-27T20:00 | Nottingham Forest - Chelsea | 30.3% | 27.8% | 41.9% |
 | Premier League | 2026-11-28T15:00 | Leeds United - Coventry City | 54.4% | 25.5% | 20.1% |
 | Premier League | 2026-11-28T15:00 | Manchester United - Brentford | 50.2% | 23.8% | 26.0% |
@@ -158,12 +162,12 @@ Comparación contra frecuencia histórica móvil de resultados 1X2. Menor Brier 
 
 ## Cuotas externas
 
-Mercados comparados: **2** / 125. Las diferencias NO son apuestas recomendadas.
+Mercados comparados: **2** / 129. Las diferencias NO son apuestas recomendadas.
 The Odds API se desactiva sin clave y autorización. InferSports usa el acceso sin clave, máximo 3 consultas por ejecución; los precios teóricos no son ofertas de casas.
 
 ## Seguimiento prospectivo real
 
-Pronósticos archivados: **184**
+Pronósticos archivados: **188**
 Resultados reales verificados: **59**
 Sin resultado en la fuente: **0**
 Excluidos por calidad/temporalidad: **0**
@@ -190,13 +194,13 @@ Top 3 de la próxima jornada: una selección por partido; no hay correlación ni
 
 ## Seguimiento de cuotas superiores a 1,50 (separado del Top 3)
 
-Selecciones archivadas: **86**; finalizadas: **49**; pendientes: **37**.
+Selecciones archivadas: **92**; finalizadas: **49**; pendientes: **43**.
 Véase output/oportunidades_150.md para los resultados por partido. Precios conversacionales NO verificados; retornos solo simulados.
 
-Seguimiento real del Top 3: **550** selecciones archivadas antes del partido; **177** resueltas.
+Seguimiento real del Top 3: **562** selecciones archivadas antes del partido; **177** resueltas.
 Informe completo de cada encuentro: output/informes_partidos.md.
 Líneas de córners/tiros/tarjetas aprobadas en backtest: **35**. Solo las aprobadas retrospectivamente pueden competir por el Top 3; no tienen validación prospectiva.
-Seguimiento futuro por mercados (FASE 4): 6538 líneas congeladas, 2000 evaluadas, independiente del Top 3.
+Seguimiento futuro por mercados (FASE 4): 6686 líneas congeladas, 2000 evaluadas, independiente del Top 3.
 Cuotas justas = valores matemáticos, NO precios ofrecidos.
 Tiros y goleadores individuales no disponibles.
 Ranking de valor vacío sin cuotas reales verificadas por mercado.

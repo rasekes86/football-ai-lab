@@ -1,5 +1,5 @@
 {
-  "calculado_utc": "2026-11-25T17:57:52.345340+00:00",
+  "calculado_utc": "2026-11-26T14:19:10.725013+00:00",
   "estado": "SIN_XG_VERIFICADO",
   "partidos": [],
   "consultas_xg": 5,
@@ -14,45 +14,45 @@
   "diagnosticos": [
     {
       "liga": "SP1",
-      "evento": "401882802",
-      "local": "Levante",
-      "visitante": "Elche",
+      "evento": "401882798",
+      "local": "Real Madrid",
+      "visitante": "Celta Vigo",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "E0",
-      "evento": "401879237",
-      "local": "Brentford",
-      "visitante": "Everton",
+      "evento": "401879232",
+      "local": "Newcastle United",
+      "visitante": "Arsenal",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "D1",
-      "evento": "401884736",
-      "local": "Bayern Munich",
-      "visitante": "FC Cologne",
+      "evento": "401884729",
+      "local": "Schalke 04",
+      "visitante": "VfB Stuttgart",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "I1",
-      "evento": "401875009",
-      "local": "Monza",
-      "visitante": "Fiorentina",
+      "evento": "401875067",
+      "local": "Napoli",
+      "visitante": "Torino",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0
     },
     {
       "liga": "F1",
-      "evento": "401876395",
-      "local": "Troyes",
-      "visitante": "Le Havre AC",
+      "evento": "401876399",
+      "local": "AS Monaco",
+      "visitante": "AJ Auxerre",
       "motivo": "Match not found on Understat",
       "fuente_declarada": "",
       "n_equipos_xg": 0

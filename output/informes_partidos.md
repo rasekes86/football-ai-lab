@@ -893,6 +893,54 @@
 
 ---
 
+## Rayo Vallecano – Athletic Club
+
+**LaLiga · 2026-12-09T19:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 48.3% | 25.9% | 25.9% | 41.8% |
+
+### Forma, descanso y estadísticas
+
+**Rayo Vallecano:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 1E · 3D; secuencia: D · D · V · D · E
+- Días desde el último partido liguero registrado: 18
+- Medias recientes: Tiros 17,0, a puerta 5,2, córners 5,8, amarillas 2,4
+
+**Athletic Club:** posición 8 · 16 puntos.
+- Últimos partidos: 2V · 1E · 2D; secuencia: D · E · V · V · D
+- Días desde el último partido liguero registrado: 19
+- Medias recientes: Tiros 15,6, a puerta 4,2, córners 5,8, amarillas 1,6
+
+### Enfrentamientos previos
+- 2026-02-28: Vallecano 1-1 Ath Bilbao
+- 2025-08-25: Ath Bilbao 1-0 Vallecano
+- 2025-04-13: Ath Bilbao 3-1 Vallecano
+- 2024-12-01: Vallecano 1-2 Ath Bilbao
+- 2024-05-25: Vallecano 0-1 Ath Bilbao
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 19,5 tiros totales** (Tiros totales): 86.0% · cuota justa 1.16; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Rayo Vallecano: menos de 2,5 goles** (Goles equipo): 81.9% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Más de 6,5 tiros a puerta totales** (Tiros a puerta totales): 80.2% · cuota justa 1.25; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
 ## Leganés – CD Sabadell
 
 **Segunda División · 2026-11-27T19:30:00+00:00 · modelo poisson70-elo30-0.2**
@@ -925,7 +973,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 38.8% / 25.2% / 36.0%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-25T16:42:36+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-26T12:43:24+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades
@@ -1878,6 +1926,142 @@
 1. **Córdoba +1,5** (Hándicap 2 vías (medio gol)): 85.6% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 2. **Las Palmas: menos de 2,5 goles** (Goles equipo): 85.5% · cuota justa 1.17; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 3. **Menos de 4,5 goles** (Total goles): 84.5% · cuota justa 1.18; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Castellón – Eibar
+
+**Segunda División · 2026-12-09T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 53.6% | 24.0% | 22.4% | 46.1% |
+
+### Forma, descanso y estadísticas
+
+**Castellón:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 4V · 1E · 0D; secuencia: V · V · E · V · V
+- Días desde el último partido liguero registrado: 18
+- Medias recientes: Tiros 12,0, a puerta 4,2, córners 5,4, amarillas 2,6
+
+**Eibar:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 3E · 2D; secuencia: D · E · E · D · E
+- Días desde el último partido liguero registrado: 17
+- Medias recientes: Tiros 15,6, a puerta 5,4, córners 3,4, amarillas 2,0
+
+### Enfrentamientos previos
+- 2026-05-31: Castellon 2-1 Eibar
+- 2025-10-12: Eibar 0-0 Castellon
+- 2025-02-15: Castellon 2-0 Eibar
+- 2024-08-17: Eibar 1-0 Castellon
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 19,5 tiros totales** (Tiros totales): 83.8% · cuota justa 1.19; procedencia Modelo de conteos con auditoría temporal; estado BACKTEST_RETROSPECTIVO_APTO_SIN_VALIDACION_PROSPECTIVA
+2. **Castellón: más de 0,5 goles** (Goles equipo): 80.2% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **1X: Castellón o empate** (Doble oportunidad): 77.6% · cuota justa 1.29; procedencia Consenso Poisson/Elo; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## FC Andorra – Mallorca
+
+**Segunda División · 2026-12-09T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 36.3% | 28.2% | 35.5% | 32.4% |
+
+### Forma, descanso y estadísticas
+
+**FC Andorra:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 0V · 1E · 4D; secuencia: D · D · E · D · D
+- Días desde el último partido liguero registrado: 19
+- Medias recientes: Tiros 15,2, a puerta 6,2, córners 5,8, amarillas 3,6
+
+**Mallorca:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 4E · 0D; secuencia: E · E · V · E · E
+- Días desde el último partido liguero registrado: 18
+- Medias recientes: Tiros 15,0, a puerta 4,6, córners 6,8, amarillas 2,8
+
+### Enfrentamientos previos
+- No disponibles en el histórico consultado
+
+### Tres selecciones del modelo (experimentales)
+1. **Más de 0,5 goles** (Total goles): 86.5% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Mallorca +1,5** (Hándicap 2 vías (medio gol)): 85.9% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Mallorca: menos de 1,5 goles** (Goles equipo): 74.8% · cuota justa 1.34; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+
+### Comparación de modelos y fuentes
+- XGBoost para este encuentro: sin predicción reciente y verificada
+- Cuotas ofrecidas y referencias específicas: no disponibles en este informe
+
+### Qué falta o conviene vigilar
+- xG auténtico no integrado en las probabilidades
+- Lesiones y alineaciones no incorporadas al predictor
+- No se ha demostrado ventaja frente a cuotas reales
+
+*No es una recomendación de apuesta ni demuestra rentabilidad.*
+
+
+---
+
+## Granada – Tenerife
+
+**Segunda División · 2026-12-09T20:00:00+00:00 · modelo poisson70-elo30-0.2**
+
+### Probabilidades del modelo principal
+
+| Local | Empate | Visitante | Más de 2,5 goles |
+|---:|---:|---:|---:|
+| 56.5% | 23.9% | 19.6% | 42.7% |
+
+### Forma, descanso y estadísticas
+
+**Granada:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 4V · 1E · 0D; secuencia: E · V · V · V · V
+- Días desde el último partido liguero registrado: 18
+- Medias recientes: Tiros 11,0, a puerta 3,6, córners 2,6, amarillas 2,2
+
+**Tenerife:** clasificación no disponible en datos recuperados.
+- Últimos partidos: 1V · 4E · 0D; secuencia: E · V · E · E · E
+- Días desde el último partido liguero registrado: 18
+- Medias recientes: Tiros 9,2, a puerta 3,0, córners 4,4, amarillas 2,6
+
+### Enfrentamientos previos
+- 2025-03-28: Tenerife 2-1 Granada
+- 2024-10-19: Granada 4-0 Tenerife
+
+### Tres selecciones del modelo (experimentales)
+1. **Tenerife +2,5** (Hándicap 2 vías (medio gol)): 86.4% · cuota justa 1.16; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+2. **Tenerife: menos de 1,5 goles** (Goles equipo): 82.1% · cuota justa 1.22; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
+3. **Granada: más de 0,5 goles** (Goles equipo): 80.3% · cuota justa 1.25; procedencia Poisson de goles; estado MODELO_NO_CALIBRADO
 
 ### Comparación de modelos y fuentes
 - XGBoost para este encuentro: sin predicción reciente y verificada
@@ -4072,7 +4256,7 @@
 
 ### Comparación de modelos y fuentes
 - XGBoost experimental: 19.7% / 17.7% / 62.6%. No sustituye al modelo principal.
-- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-25T17:00:24+00:00)
+- Mercado: Referencia de mercado sin margen, no cuota ofrecida (InferSports (keyless), fecha 2026-11-26T14:13:26+00:00)
 
 ### Qué falta o conviene vigilar
 - xG auténtico no integrado en las probabilidades

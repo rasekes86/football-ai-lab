@@ -1,9 +1,9 @@
 {
   "version": "postmatch-breakdown-1.0",
-  "calculado_utc": "2026-11-25T17:57:52.345340+00:00",
+  "calculado_utc": "2026-11-26T14:19:10.725013+00:00",
   "auditoria_estadisticas": {
     "version": "postmatch-stats-1.0",
-    "calculado_utc": "2026-11-25T17:57:52.345340+00:00",
+    "calculado_utc": "2026-11-26T14:19:10.725013+00:00",
     "objetivos_conteo": 21,
     "completos": 21,
     "incompletos": 0,
@@ -12743,6 +12743,182 @@
           "clave": "SP1|202612072000|sevilla|malaga|Goles equipo|Málaga: menos de 1,5 goles",
           "mercado": "Goles equipo",
           "seleccion": "Málaga: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP1|202612091900|vallecano|ath bilbao",
+      "liga": "LaLiga",
+      "local": "Rayo Vallecano",
+      "visitante": "Athletic Club",
+      "fecha_utc": "2026-12-09T19:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP1|202612091900|vallecano|ath bilbao|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202612091900|vallecano|ath bilbao|Goles equipo|Rayo Vallecano: menos de 2,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Rayo Vallecano: menos de 2,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP1|202612091900|vallecano|ath bilbao|Tiros a puerta totales|Más de 6,5 tiros a puerta totales",
+          "mercado": "Tiros a puerta totales",
+          "seleccion": "Más de 6,5 tiros a puerta totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202612092000|andorra|mallorca",
+      "liga": "Segunda División",
+      "local": "FC Andorra",
+      "visitante": "Mallorca",
+      "fecha_utc": "2026-12-09T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202612092000|andorra|mallorca|Total goles|Más de 0,5 goles",
+          "mercado": "Total goles",
+          "seleccion": "Más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202612092000|andorra|mallorca|Hándicap 2 vías (medio gol)|Mallorca +1,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Mallorca +1,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202612092000|andorra|mallorca|Goles equipo|Mallorca: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Mallorca: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202612092000|castellon|eibar",
+      "liga": "Segunda División",
+      "local": "Castellón",
+      "visitante": "Eibar",
+      "fecha_utc": "2026-12-09T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202612092000|castellon|eibar|Tiros totales|Más de 19,5 tiros totales",
+          "mercado": "Tiros totales",
+          "seleccion": "Más de 19,5 tiros totales",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202612092000|castellon|eibar|Goles equipo|Castellón: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Castellón: más de 0,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202612092000|castellon|eibar|Doble oportunidad|1X: Castellón o empate",
+          "mercado": "Doble oportunidad",
+          "seleccion": "1X: Castellón o empate",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        }
+      ],
+      "evaluadas": 0,
+      "aciertos": 0
+    },
+    {
+      "id": "SP2|202612092000|granada|tenerife",
+      "liga": "Segunda División",
+      "local": "Granada",
+      "visitante": "Tenerife",
+      "fecha_utc": "2026-12-09T20:00:00+00:00",
+      "marcador": null,
+      "fuente_marcador": "",
+      "estadisticas": {},
+      "selecciones": [
+        {
+          "clave": "SP2|202612092000|granada|tenerife|Hándicap 2 vías (medio gol)|Tenerife +2,5",
+          "mercado": "Hándicap 2 vías (medio gol)",
+          "seleccion": "Tenerife +2,5",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202612092000|granada|tenerife|Goles equipo|Tenerife: menos de 1,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Tenerife: menos de 1,5 goles",
+          "estado": "PENDIENTE",
+          "resultado": "",
+          "valor_real": "",
+          "fuentes": [],
+          "explicacion": "Aún no corresponde realizar la liquidación."
+        },
+        {
+          "clave": "SP2|202612092000|granada|tenerife|Goles equipo|Granada: más de 0,5 goles",
+          "mercado": "Goles equipo",
+          "seleccion": "Granada: más de 0,5 goles",
           "estado": "PENDIENTE",
           "resultado": "",
           "valor_real": "",
