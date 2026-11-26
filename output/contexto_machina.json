@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-26T14:19:10.725013+00:00",
+  "timestamp_utc": "2026-11-26T17:42:55.681155+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -376,11 +376,10 @@
     },
     {
       "equipo": "Chelsea",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 12,
       "estados": {
         "unavailable": 7,
-        "injured": 5,
-        "doubtful": 1
+        "injured": 5
       }
     },
     {
@@ -388,8 +387,8 @@
       "bajas_reportadas": 14,
       "estados": {
         "unavailable": 7,
-        "injured": 4,
-        "doubtful": 3
+        "injured": 5,
+        "doubtful": 2
       }
     },
     {

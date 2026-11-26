@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-26T14:19:10.725013+00:00",
+  "actualizado_utc": "2026-11-26T17:42:55.681155+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -24475,6 +24475,3206 @@
       "titular": false,
       "entro_desde_banquillo": true,
       "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "158626",
+      "jugador": "Emiliano Martínez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "296410",
+      "jugador": "Levi Colwill",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "270190",
+      "jugador": "Wesley Fofana",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "300331",
+      "jugador": "Pep Chavarría",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "368317",
+      "jugador": "Josh Acheampong",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "296395",
+      "jugador": "Cole Palmer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "289877",
+      "jugador": "Moisés Caicedo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "308217",
+      "jugador": "Romeo Lavia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "304871",
+      "jugador": "Emmanuel Emegha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "265653",
+      "jugador": "Morgan Rogers",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "376481",
+      "jugador": "Estêvão",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "256115",
+      "jugador": "Pedro Neto",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "408508",
+      "jugador": "Olutayo Subuloye",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "332343",
+      "jugador": "Mike Penders",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "115271",
+      "jugador": "Danny Welbeck",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "376274",
+      "jugador": "Geovany Quenda",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "127262",
+      "jugador": "Jordan Henderson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "308947",
+      "jugador": "Malo Gusto",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "320760",
+      "jugador": "Valentín Barco",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Chelsea",
+      "jugador_id": "362486",
+      "jugador": "Marco Palestra",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "307118",
+      "jugador": "James Trafford",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "212237",
+      "jugador": "Nico Elvedi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "318390",
+      "jugador": "Tarik Muharemovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "231863",
+      "jugador": "James Justin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "253173",
+      "jugador": "Ao Tanaka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "241317",
+      "jugador": "Ethan Ampadu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "250166",
+      "jugador": "Gabriel Gudmundsson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "243408",
+      "jugador": "Jayden Bogle",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "197717",
+      "jugador": "Dominic Calvert-Lewin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "270641",
+      "jugador": "Noah Okafor",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "251658",
+      "jugador": "Sean Longstaff",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "184550",
+      "jugador": "Michael Zetterer",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "265923",
+      "jugador": "Melvin Bard",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "304802",
+      "jugador": "Anton Stach",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "258956",
+      "jugador": "Lukas Nmecha",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "232325",
+      "jugador": "Joe Rodon",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "194801",
+      "jugador": "Harry Wilson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "274649",
+      "jugador": "Jaka Bijol",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "203072",
+      "jugador": "Daniel James",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879236",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Chelsea",
+      "visitante": "Leeds United",
+      "equipo": "Leeds United",
+      "jugador_id": "259653",
+      "jugador": "Brenden Aaronson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "307069",
+      "jugador": "Carl Rushworth",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "241093",
+      "jugador": "Ethan Pinnock",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "303931",
+      "jugador": "Bobby Thomas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "374220",
+      "jugador": "Stephen Mfuni",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "281139",
+      "jugador": "Milan van Ewijk",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "286967",
+      "jugador": "Jack Rudoni",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "191337",
+      "jugador": "Matt Grimes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "256015",
+      "jugador": "Victor Torp",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "194686",
+      "jugador": "Taiwo Awoniyi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "277383",
+      "jugador": "Yann Gboho",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "302002",
+      "jugador": "Tatsuhiro Sakamoto",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "366817",
+      "jugador": "Sidiki Cherif",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "258491",
+      "jugador": "Frank Onyeka",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "236912",
+      "jugador": "Gustavo Hamer",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "282647",
+      "jugador": "Ellis Simms",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "324541",
+      "jugador": "Loum Tchaouna",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "294308",
+      "jugador": "Kaine Kesler Hayden",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "240495",
+      "jugador": "Brandon Thomas-Asante",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "206172",
+      "jugador": "Jay Da Silva",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Coventry City",
+      "jugador_id": "143007",
+      "jugador": "Daniel Bentley",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "234172",
+      "jugador": "Dean Henderson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "272585",
+      "jugador": "Chris Richards",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "231718",
+      "jugador": "Axel Disasi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "300853",
+      "jugador": "Tyrick Mitchell",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "332648",
+      "jugador": "Anan Khalaili",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "219362",
+      "jugador": "Daichi Kamada",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "333419",
+      "jugador": "Adam Wharton",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "282230",
+      "jugador": "Quinten Timber",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "252747",
+      "jugador": "Jørgen Strand Larsen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "297370",
+      "jugador": "Yéremy Pino",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "273495",
+      "jugador": "Dwight McNeil",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "195738",
+      "jugador": "Walter Benítez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "315668",
+      "jugador": "Darío Osorio",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "288924",
+      "jugador": "Evann Guessand",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "197399",
+      "jugador": "Jefferson Lerma",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "168421",
+      "jugador": "Will Hughes",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "225426",
+      "jugador": "Ben Chilwell",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "386252",
+      "jugador": "Jaydee Canvot",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "266628",
+      "jugador": "Cheick Doucouré",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879235",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Coventry City",
+      "visitante": "Crystal Palace",
+      "equipo": "Crystal Palace",
+      "jugador_id": "259486",
+      "jugador": "Eddie Nketiah",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "265958",
+      "jugador": "Zion Suzuki",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "251100",
+      "jugador": "Pau Torres",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "281121",
+      "jugador": "Taylor Harwood-Bellis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "281125",
+      "jugador": "Ian Maatsen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "250945",
+      "jugador": "Aaron Wan-Bissaka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "214375",
+      "jugador": "Emiliano Buendía",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "250936",
+      "jugador": "Boubacar Kamara",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "174550",
+      "jugador": "Leon Goretzka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "308524",
+      "jugador": "Nicolas Jackson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "386992",
+      "jugador": "Johan Manzambi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "382839",
+      "jugador": "Alysson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "132233",
+      "jugador": "Marco Bizot",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "392682",
+      "jugador": "Modou Cissé",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "301524",
+      "jugador": "João Gomes",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "401451",
+      "jugador": "Brian Madjo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "152469",
+      "jugador": "Ross Barkley",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "366248",
+      "jugador": "George Hemmings",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "181312",
+      "jugador": "Tyrone Mings",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "162843",
+      "jugador": "John McGinn",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Aston Villa",
+      "jugador_id": "388522",
+      "jugador": "Ibrahim Mbaye",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "301449",
+      "jugador": "Robin Roefs",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "191574",
+      "jugador": "Luke O'Nien",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "214188",
+      "jugador": "Nordi Mukiele",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "230081",
+      "jugador": "Reinildo Mandava",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "166473",
+      "jugador": "Thomas Meunier",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "288340",
+      "jugador": "Enzo Le Fée",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "340240",
+      "jugador": "Noah Sadiki",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "410687",
+      "jugador": "Jules Ahoka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "265915",
+      "jugador": "Wilson Isidor",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "360062",
+      "jugador": "Chemsdine Talbi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "290207",
+      "jugador": "Trai Hume",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "307800",
+      "jugador": "Melker Ellborg",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "356295",
+      "jugador": "Chris Rigg",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "250543",
+      "jugador": "Kevin Danso",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "387460",
+      "jugador": "Tymur Tutierov",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "318090",
+      "jugador": "Nilson Angulo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "197627",
+      "jugador": "Alan Browne",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "215401",
+      "jugador": "Omar Alderete",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "388070",
+      "jugador": "Dayann Methalie",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878756",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Aston Villa",
+      "visitante": "Sunderland",
+      "equipo": "Sunderland",
+      "jugador_id": "340645",
+      "jugador": "Malick Fofana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "324393",
+      "jugador": "Antonín Kinsky",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "233945",
+      "jugador": "Marcos Senesi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "282583",
+      "jugador": "Jan Paul van Hecke",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "290076",
+      "jugador": "Destiny Udogie",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "268533",
+      "jugador": "Pedro Porro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "194450",
+      "jugador": "James Maddison",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "346820",
+      "jugador": "Mateus Fernandes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "266696",
+      "jugador": "Conor Gallagher",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "194115",
+      "jugador": "Dominic Solanke",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 4.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "395939",
+      "jugador": "Luca Williams-Barnett",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 4.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "266599",
+      "jugador": "Mohammed Kudus",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "272695",
+      "jugador": "Dejan Kulusevski",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "356379",
+      "jugador": "Lucas Bergvall",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "328050",
+      "jugador": "Archie Gray",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "296512",
+      "jugador": "Micky van de Ven",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "215772",
+      "jugador": "Rodrigo Bentancur",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "104943",
+      "jugador": "Andy Robertson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "126703",
+      "jugador": "Martin Dúbravka",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "303745",
+      "jugador": "Omar Marmoush",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Tottenham Hotspur",
+      "jugador_id": "304470",
+      "jugador": "Sávio",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "168746",
+      "jugador": "Christian Walton",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "243440",
+      "jugador": "Dara O'Shea",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "230963",
+      "jugador": "Issa Diop",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "283086",
+      "jugador": "Leif Davis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "215075",
+      "jugador": "Darnell Furlong",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "20975",
+      "jugador": "Julio Enciso",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "222300",
+      "jugador": "Sasa Lukic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "228393",
+      "jugador": "Exequiel Palacios",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "261598",
+      "jugador": "Zian Flemming",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "286347",
+      "jugador": "Daizen Maeda",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "336794",
+      "jugador": "Abdoul Ouattara",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "318680",
+      "jugador": "Fatawu Issahaku",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "269343",
+      "jugador": "Jack Clarke",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "181092",
+      "jugador": "Chuba Akpom",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "295370",
+      "jugador": "Jaden Philogene",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "246244",
+      "jugador": "Kjell Scherpen",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "256607",
+      "jugador": "Florentino",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "291174",
+      "jugador": "Jacob Greaves",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "322654",
+      "jugador": "Emersonn",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878754",
+      "liga": "E0",
+      "fecha_utc": "2026-11-21T15:00:00+00:00",
+      "local": "Tottenham Hotspur",
+      "visitante": "Ipswich Town",
+      "equipo": "Ipswich Town",
+      "jugador_id": "246825",
+      "jugador": "Azor Matusiwa",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
       "estadisticas": {
         "redCards": 0.0,
         "yellowCards": 0.0,
@@ -77988,6 +81188,6 @@
   "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 90,
-  "jugadores_con_algun_dato": 3899
+  "partidos_archivados": 94,
+  "jugadores_con_algun_dato": 4059
 }
