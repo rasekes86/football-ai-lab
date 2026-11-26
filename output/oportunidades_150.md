@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 89 · **Finalizadas:** 49 · **Pendientes:** 40
+**Registradas:** 90 · **Finalizadas:** 49 · **Pendientes:** 41
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -95,6 +95,7 @@
 | Espanyol – Getafe | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 71.8% | 1.53 | Pendiente | — |
 | Eibar – Burgos | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 60.0% | 1.73 | Pendiente | — |
 | Cagliari – AC Milan | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 65.2% | 1.98 | Pendiente | — |
+| Real Valladolid – Real Sociedad II | Menos de 2,5 goles (OFRECIDA_API_REGISTRADA) | 50.5% | 2.20 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
