@@ -1,6 +1,6 @@
 {
   "version": "top3-bookmaker-prices-1.0",
-  "calculado_utc": "2026-11-27T14:14:21.096134+00:00",
+  "calculado_utc": "2026-11-27T17:27:58.322332+00:00",
   "selecciones_originales": 564,
   "con_cuota_observada": 61,
   "sin_cuota_observada": 503,
@@ -203,7 +203,7 @@
     "proveedor_principal": "5DollarFootballAPI Free",
     "maximo_interno_hora": 24,
     "creditos_mensuales_consumidos": 0,
-    "consultas_ultima_hora": 10,
+    "consultas_ultima_hora": 9,
     "otros_proveedores_de_pago": "DESACTIVADOS"
   },
   "nota": "Cuotas observadas antes del partido por proveedor externo, no precios garantizados al usuario ni apuestas realizadas. ROI SIMULADO solo sobre precios archivados de selecciones Top 3 activas, excluyendo solapamientos con la adicional. Sin cuota exacta no hay ROI; sin resultado no hay fallo."

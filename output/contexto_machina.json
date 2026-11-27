@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-27T14:14:21.096134+00:00",
+  "timestamp_utc": "2026-11-27T17:27:58.322332+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -341,10 +341,9 @@
     },
     {
       "equipo": "Aston Villa",
-      "bajas_reportadas": 10,
+      "bajas_reportadas": 9,
       "estados": {
         "unavailable": 7,
-        "doubtful": 1,
         "injured": 2
       }
     },
@@ -353,8 +352,8 @@
       "bajas_reportadas": 7,
       "estados": {
         "unavailable": 2,
-        "injured": 4,
-        "doubtful": 1
+        "injured": 3,
+        "doubtful": 2
       }
     },
     {
@@ -367,9 +366,9 @@
     },
     {
       "equipo": "Brighton",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 14,
       "estados": {
-        "doubtful": 2,
+        "doubtful": 3,
         "unavailable": 5,
         "suspended": 1,
         "injured": 5
@@ -421,16 +420,15 @@
       "equipo": "Hull City",
       "bajas_reportadas": 17,
       "estados": {
-        "injured": 7,
+        "injured": 5,
         "unavailable": 9,
-        "doubtful": 1
+        "doubtful": 3
       }
     },
     {
       "equipo": "Ipswich Town",
-      "bajas_reportadas": 9,
+      "bajas_reportadas": 8,
       "estados": {
-        "doubtful": 1,
         "unavailable": 8
       }
     },
@@ -447,8 +445,8 @@
       "bajas_reportadas": 12,
       "estados": {
         "unavailable": 5,
-        "injured": 6,
-        "doubtful": 1
+        "injured": 5,
+        "doubtful": 2
       }
     },
     {
@@ -487,21 +485,21 @@
     },
     {
       "equipo": "Spurs",
-      "bajas_reportadas": 15,
+      "bajas_reportadas": 16,
       "estados": {
+        "doubtful": 2,
         "injured": 5,
-        "doubtful": 1,
         "unavailable": 9
       }
     },
     {
       "equipo": "Sunderland",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 12,
       "estados": {
         "not_in_squad": 1,
         "unavailable": 5,
         "injured": 5,
-        "doubtful": 2
+        "doubtful": 1
       }
     }
   ],

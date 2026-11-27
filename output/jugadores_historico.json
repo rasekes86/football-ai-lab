@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-27T14:14:21.096134+00:00",
+  "actualizado_utc": "2026-11-27T17:27:58.322332+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -14020,6 +14020,3426 @@
         "yellowCards": 0.0,
         "shotsOnTarget": 0.0,
         "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "192718",
+      "jugador": "Rubén Yáñez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "209736",
+      "jugador": "Jorge",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "388802",
+      "jugador": "Aimar Duñabeitia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "376421",
+      "jugador": "Andrés Cuenca",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "303933",
+      "jugador": "Guillermo Rosas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "422029",
+      "jugador": "Mata",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "311586",
+      "jugador": "Ignacio Martín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "304369",
+      "jugador": "Nikita Iosifov",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "409509",
+      "jugador": "Enol Prendes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "359913",
+      "jugador": "Andrés Ferrari",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "303829",
+      "jugador": "Gaspar Campos",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "421249",
+      "jugador": "Miguel Conde",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "415368",
+      "jugador": "Bruno Rubio",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "333166",
+      "jugador": "Egoitz Arana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "341498",
+      "jugador": "Diego Sanchez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "124228",
+      "jugador": "Mamadou Loum",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "128372",
+      "jugador": "Pablo Vázquez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "265985",
+      "jugador": "Hugo Guillamón",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "389359",
+      "jugador": "Iker Martínez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Sporting Gijón",
+      "jugador_id": "217524",
+      "jugador": "Emanuel Gularte",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "239387",
+      "jugador": "Caro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "367729",
+      "jugador": "Juanma Herzog",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "121611",
+      "jugador": "Álex Suárez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "3144268",
+      "jugador": "Adrián Rodríguez Del Rosario",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "388727",
+      "jugador": "Valentín Pezzolesi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "292774",
+      "jugador": "Manu Fuster",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "272870",
+      "jugador": "Enzo Loiodice",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "288936",
+      "jugador": "Kirian Rodríguez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "162453",
+      "jugador": "Jesé",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "265959",
+      "jugador": "Taisei Miyashiro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "280489",
+      "jugador": "Iván Jaime",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "375799",
+      "jugador": "Andrés Rodríguez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "367731",
+      "jugador": "Iñaki González",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "380670",
+      "jugador": "Jeremía Recoba",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "406376",
+      "jugador": "Adri Suárez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "241461",
+      "jugador": "Elias Romero",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "335952",
+      "jugador": "Giovanni Bonfanti",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "307916",
+      "jugador": "Marvin",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "5333407",
+      "jugador": "Jeredian José López Méndez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "136272",
+      "jugador": "Jorge Valverde",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "387901",
+      "jugador": "Mateo Acimovic",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "414085",
+      "jugador": "Iván Medina",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882298",
+      "liga": "SP2",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Sporting Gijón",
+      "visitante": "Las Palmas",
+      "equipo": "Las Palmas",
+      "jugador_id": "165671",
+      "jugador": "Jefté",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "228507",
+      "jugador": "Finn Dahmen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "266657",
+      "jugador": "Yannik Keitel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "416416",
+      "jugador": "Tim Schnitzer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "370703",
+      "jugador": "Juma Bah",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "308908",
+      "jugador": "Fabian Rieder",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "306928",
+      "jugador": "Robin Fellhauer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "399214",
+      "jugador": "Hennes Behrens",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "207623",
+      "jugador": "Marius Wolf",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "146804",
+      "jugador": "Michael Gregoritsch",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "228503",
+      "jugador": "Alexis Claude-Maurice",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "333837",
+      "jugador": "Anton Kade",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "373992",
+      "jugador": "Klaus Suso",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "332689",
+      "jugador": "Rodrigo Ribeiro",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "309634",
+      "jugador": "Tim Breithaupt",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "302793",
+      "jugador": "Seol Young-Woo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "359207",
+      "jugador": "Mert Kömür",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "333400",
+      "jugador": "Arijon Ibrahimovic",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "322693",
+      "jugador": "Nediljko Labrovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "413727",
+      "jugador": "Loris Husic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "FC Augsburg",
+      "jugador_id": "406851",
+      "jugador": "Uchenna Ogundu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "175905",
+      "jugador": "Silvan Widmer",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "290398",
+      "jugador": "Eric Martel",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "3121808",
+      "jugador": "Rael-Tshimbela Nakuzola",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "156416",
+      "jugador": "Alexander Schwolow",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "300961",
+      "jugador": "Ransford-Yeboah Königsdörffer",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "267798",
+      "jugador": "Lennard Maloney",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "134103",
+      "jugador": "Lee Jae-Sung",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "399746",
+      "jugador": "Fabio Gruber",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "307515",
+      "jugador": "Benedict Hollerbach",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "206114",
+      "jugador": "Robin Zentner",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "238906",
+      "jugador": "Stefan Posch",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "375371",
+      "jugador": "Kacper Potulski",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "154603",
+      "jugador": "Danny da Costa",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "357030",
+      "jugador": "Kaishu Sano",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "210818",
+      "jugador": "Nadiem Amiri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "307282",
+      "jugador": "Paul Nebel",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "239574",
+      "jugador": "Phillipp Mwene",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "241297",
+      "jugador": "Anthony Caci",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "234376",
+      "jugador": "Phillip Tietz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884733",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T14:30:00+00:00",
+      "local": "FC Augsburg",
+      "visitante": "Mainz",
+      "equipo": "Mainz",
+      "jugador_id": "195027",
+      "jugador": "Sheraldo Becker",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "284199",
+      "jugador": "Konstantinos Tzolakis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "356212",
+      "jugador": "Nobel Mendy",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "178051",
+      "jugador": "Semi Ajayi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "357145",
+      "jugador": "Elliot Stroud",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "231826",
+      "jugador": "Lewie Coyle",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "153613",
+      "jugador": "Matt Crooks",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "249851",
+      "jugador": "Regan Slater",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "310599",
+      "jugador": "Tim Iroegbunam",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "193010",
+      "jugador": "Oliver McBurnie",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "306557",
+      "jugador": "Mohamed-Ali Cho",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "320417",
+      "jugador": "Mohamed Belloumi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "392320",
+      "jugador": "Lucas Herrington",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "377894",
+      "jugador": "Robinio Vaz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "168424",
+      "jugador": "John Egan",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "303338",
+      "jugador": "Lucas Gourna-Douath",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "243576",
+      "jugador": "Ryan Giles",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "250478",
+      "jugador": "Sorba Thomas",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "157933",
+      "jugador": "Jack Butland",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "354149",
+      "jugador": "Jens Hjerto Dahl",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Hull City",
+      "jugador_id": "311173",
+      "jugador": "Brooke Norton-Cuffy",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "291609",
+      "jugador": "Bart Verbruggen",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "147106",
+      "jugador": "Lewis Dunk",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "364962",
+      "jugador": "Luka Vuskovic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "216017",
+      "jugador": "Olivier Boscagli",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "274285",
+      "jugador": "Costinha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "304242",
+      "jugador": "Yasin Ayari",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "387489",
+      "jugador": "Chema Andrés",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "132659",
+      "jugador": "Pascal Gross",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "278061",
+      "jugador": "Georginio Rutter",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "301327",
+      "jugador": "Maxim De Cuyper",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "192278",
+      "jugador": "Diego Gómez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "359400",
+      "jugador": "Ibrahim Osman",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "111114",
+      "jugador": "Jason Steele",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "387655",
+      "jugador": "Charalambos Kostoulas",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "348787",
+      "jugador": "Yankuba Minteh",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "328011",
+      "jugador": "Jack Hinshelwood",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "238318",
+      "jugador": "Ferdi Kadioglu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "261087",
+      "jugador": "Matt O'Riley",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "289942",
+      "jugador": "Michael Svoboda",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401879234",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Hull City",
+      "visitante": "Brighton & Hove Albion",
+      "equipo": "Brighton & Hove Albion",
+      "jugador_id": "282186",
+      "jugador": "Mats Wieffer",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "179358",
+      "jugador": "Lukasz Skorupski",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "250707",
+      "jugador": "Nicoló Casale",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "304222",
+      "jugador": "Arthur Theate",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "91873",
+      "jugador": "Matteo Darmian",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "276654",
+      "jugador": "Tommaso Pobega",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "202429",
+      "jugador": "Lewis Ferguson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "287790",
+      "jugador": "Nicolò Cambiaghi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "291560",
+      "jugador": "Nadir Zortea",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "238407",
+      "jugador": "Jens Odgaard",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "180956",
+      "jugador": "Federico Bernardeschi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "234426",
+      "jugador": "Riccardo Orsolini",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "285438",
+      "jugador": "Roberto Piccoli",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "5334138",
+      "jugador": "Kwesi Sorotu Badori",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "419966",
+      "jugador": "Giacomo Giacomone",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "410325",
+      "jugador": "Marco Libra",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "355997",
+      "jugador": "Samuel Mbangula",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "309110",
+      "jugador": "Martin Vitík",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "365160",
+      "jugador": "Mikel Amondarain",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "226211",
+      "jugador": "Artem Dovbyk",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "68070",
+      "jugador": "Lorenzo De Silvestri",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "361818",
+      "jugador": "Eivind Helland",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "228333",
+      "jugador": "Nikola Moro",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "388880",
+      "jugador": "Massimo Pessina",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Bologna",
+      "jugador_id": "331770",
+      "jugador": "Rahim Alhassane",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "258424",
+      "jugador": "Bartosz Mrozek",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "252323",
+      "jugador": "Lazar Jovanovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "118444",
+      "jugador": "David Alaba",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "360207",
+      "jugador": "Juan David Arizala",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "408146",
+      "jugador": "Giulio Vinciati",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "263508",
+      "jugador": "Bayo Youssouf",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "362376",
+      "jugador": "Unai Gómez",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "270010",
+      "jugador": "Alessandro Zanoli",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "347009",
+      "jugador": "Lennon Miller",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "93816",
+      "jugador": "Daniele Padelli",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "221436",
+      "jugador": "Mërgim Vojvoda",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "306579",
+      "jugador": "Oier Zarraga",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "258933",
+      "jugador": "Giorgi Chakvetadze",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "295476",
+      "jugador": "Maduka Okoye",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "261066",
+      "jugador": "Oumar Solet",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "384519",
+      "jugador": "Matteo Palma",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "150081",
+      "jugador": "Christian Kabasele",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "276267",
+      "jugador": "Jakub Piotrowski",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "237055",
+      "jugador": "Jesper Karlström",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "219725",
+      "jugador": "Sandi Lovric",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "193919",
+      "jugador": "Hassane Kamara",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "342837",
+      "jugador": "James Abankwah",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "251388",
+      "jugador": "Nicolò Zaniolo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401875047",
+      "liga": "I1",
+      "fecha_utc": "2026-11-22T14:00:00+00:00",
+      "local": "Bologna",
+      "visitante": "Udinese",
+      "equipo": "Udinese",
+      "jugador_id": "270817",
+      "jugador": "Jurgen Ekkelenkamp",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
       },
       "fuente": "ESPN summary público no oficial"
     },
@@ -84488,6 +87908,6 @@
   "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 98,
-  "jugadores_con_algun_dato": 4224
+  "partidos_archivados": 102,
+  "jugadores_con_algun_dato": 4395
 }
