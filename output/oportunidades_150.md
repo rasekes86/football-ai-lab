@@ -2,7 +2,7 @@
 
 **Estudio experimental: no se efectuaron apuestas ni se verificaron las cuotas indicativas.**
 
-**Registradas:** 94 · **Finalizadas:** 49 · **Pendientes:** 45
+**Registradas:** 96 · **Finalizadas:** 49 · **Pendientes:** 47
 
 | Partido | Mercado | Prob. modelo | Cuota orientativa/API | Resultado | Simulación 1 u. |
 |---|---|---:|---:|---|---:|
@@ -100,6 +100,8 @@
 | TSG Hoffenheim – FC Augsburg | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 51.3% | 2.10 | Pendiente | — |
 | Everton – Liverpool | Sí (OFRECIDA_API_REGISTRADA) | 62.0% | 1.67 | Pendiente | — |
 | Coventry City – Ipswich Town | Más de 2,5 goles (OFRECIDA_API_REGISTRADA) | 68.9% | 1.67 | Pendiente | — |
+| Real Sociedad – Real Madrid | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 59.9% | 2.00 | Pendiente | — |
+| Chelsea – Crystal Palace | Menos de 3,5 goles (OFRECIDA_API_REGISTRADA) | 64.9% | 1.61 | Pendiente | — |
 
 Las cuotas **INDICATIVA_NO_VERIFICADA** proceden de referencias conversacionales sin prueba de precio realmente ofertado. El retorno es hipotético y no mide ganancias ni calidad del precio.
 Una cuota API registrada tampoco implica que se haya realizado una apuesta.
