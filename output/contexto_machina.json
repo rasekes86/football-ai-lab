@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-26T17:42:55.681155+00:00",
+  "timestamp_utc": "2026-11-27T14:14:21.096134+00:00",
   "fuente": "sports-skills / Machina Sports",
   "estado": "PARCIAL",
   "clasificaciones": {
@@ -350,10 +350,11 @@
     },
     {
       "equipo": "Bournemouth",
-      "bajas_reportadas": 6,
+      "bajas_reportadas": 7,
       "estados": {
         "unavailable": 2,
-        "injured": 4
+        "injured": 4,
+        "doubtful": 1
       }
     },
     {
@@ -393,11 +394,10 @@
     },
     {
       "equipo": "Crystal Palace",
-      "bajas_reportadas": 13,
+      "bajas_reportadas": 12,
       "estados": {
         "unavailable": 7,
         "injured": 3,
-        "doubtful": 1,
         "suspended": 2
       }
     },
@@ -411,9 +411,9 @@
     },
     {
       "equipo": "Fulham",
-      "bajas_reportadas": 4,
+      "bajas_reportadas": 5,
       "estados": {
-        "injured": 2,
+        "injured": 3,
         "unavailable": 2
       }
     },
@@ -461,10 +461,11 @@
     },
     {
       "equipo": "Man Utd",
-      "bajas_reportadas": 8,
+      "bajas_reportadas": 9,
       "estados": {
         "injured": 4,
-        "unavailable": 4
+        "unavailable": 4,
+        "doubtful": 1
       }
     },
     {
@@ -495,11 +496,12 @@
     },
     {
       "equipo": "Sunderland",
-      "bajas_reportadas": 11,
+      "bajas_reportadas": 13,
       "estados": {
         "not_in_squad": 1,
         "unavailable": 5,
-        "injured": 5
+        "injured": 5,
+        "doubtful": 2
       }
     }
   ],

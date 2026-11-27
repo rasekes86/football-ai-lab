@@ -1,1 +1,1155 @@
-{"version":"value-watchlist-0.9","generado_utc":"2026-11-27T09:03:55.378253+00:00","registradas":94,"finalizadas":49,"pendientes":45,"resultados_no_disponibles":0,"estadisticas_no_disponibles":0,"excluidas":0,"verificacion":{"resultados_verificados":49,"resultados_pendientes_o_sin_dato":45,"cuotas_api_observadas_antes_del_partido":87,"cuotas_indicativas_no_acreditadas":5,"cuotas_api_sin_prueba_temporal":2,"nota":"El marcador y la liquidación pueden estar verificados aunque la cuota sea una referencia no acreditada. Terminar el partido no demuestra retroactivamente el precio ofrecido."},"global":{"registradas":94,"evaluadas":49,"aciertos":24,"acierto_pct":48.98,"brier_medio":0.277564,"retorno_simulado_unidad":-5.907,"roi_simulado_pct":-12.06,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"por_tipo_cuota":{"INDICATIVA_NO_VERIFICADA":{"registradas":5,"evaluadas":5,"aciertos":3,"acierto_pct":60.0,"brier_medio":0.238804,"retorno_simulado_unidad":0.75,"roi_simulado_pct":15.0,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"OFRECIDA_API_REGISTRADA":{"registradas":89,"evaluadas":44,"aciertos":21,"acierto_pct":47.73,"brier_medio":0.281968,"retorno_simulado_unidad":-6.657,"roi_simulado_pct":-15.13,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."}},"por_mercado":{"Total goles":{"registradas":81,"evaluadas":41,"aciertos":19,"acierto_pct":46.34,"brier_medio":0.29038,"retorno_simulado_unidad":-6.6,"roi_simulado_pct":-16.1,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"Doble oportunidad":{"registradas":2,"evaluadas":2,"aciertos":0,"acierto_pct":0.0,"brier_medio":0.312433,"retorno_simulado_unidad":-2.0,"roi_simulado_pct":-100.0,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"Ambos marcan":{"registradas":9,"evaluadas":6,"aciertos":5,"acierto_pct":83.33,"brier_medio":0.178364,"retorno_simulado_unidad":2.693,"roi_simulado_pct":44.88,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"1X2":{"registradas":2,"evaluadas":0,"aciertos":0,"acierto_pct":null,"brier_medio":null,"retorno_simulado_unidad":null,"roi_simulado_pct":null,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."}},"por_liga":{"Segunda División":{"registradas":22,"evaluadas":14,"aciertos":6,"acierto_pct":42.86,"brier_medio":0.235789,"retorno_simulado_unidad":-3.3,"roi_simulado_pct":-23.57,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"LaLiga":{"registradas":13,"evaluadas":8,"aciertos":5,"acierto_pct":62.5,"brier_medio":0.276233,"retorno_simulado_unidad":1.65,"roi_simulado_pct":20.62,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"Premier League":{"registradas":16,"evaluadas":6,"aciertos":3,"acierto_pct":50.0,"brier_medio":0.308365,"retorno_simulado_unidad":-0.158,"roi_simulado_pct":-2.63,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"Bundesliga":{"registradas":11,"evaluadas":5,"aciertos":2,"acierto_pct":40.0,"brier_medio":0.330697,"retorno_simulado_unidad":-1.364,"roi_simulado_pct":-27.28,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"Serie A":{"registradas":16,"evaluadas":7,"aciertos":2,"acierto_pct":28.57,"brier_medio":0.363304,"retorno_simulado_unidad":-3.852,"roi_simulado_pct":-55.03,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."},"Ligue 1":{"registradas":16,"evaluadas":9,"aciertos":6,"acierto_pct":66.67,"brier_medio":0.22699,"retorno_simulado_unidad":1.117,"roi_simulado_pct":12.41,"advertencia":"Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."}},"nota":"Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro.","seleccion_automatica":{"estado":"EVALUADO","comparaciones_recibidas":109,"partidos_con_comparaciones":8,"partidos_con_opcion_valida":2,"nuevas_automaticas":0,"partidos_ya_archivados":94,"partidos_con_adicional_archivada":94,"abstenciones_sin_opcion_valida":12,"partidos_no_evaluados_sin_api":72,"abstenciones_ya_archivadas":45,"sin_cuota_real_no_se_inventa":true,"por_liga":{"LaLiga":{"partidos_futuros":20,"partidos_con_comparaciones":2,"comparaciones_recibidas":28,"opciones_validas":1,"archivadas_automaticas":0,"ya_archivadas":5,"sin_opcion_valida":3,"no_evaluados_sin_api":12},"Segunda División":{"partidos_futuros":25,"partidos_con_comparaciones":1,"comparaciones_recibidas":13,"opciones_validas":0,"archivadas_automaticas":0,"ya_archivadas":8,"sin_opcion_valida":3,"no_evaluados_sin_api":14},"Premier League":{"partidos_futuros":30,"partidos_con_comparaciones":0,"comparaciones_recibidas":0,"opciones_validas":0,"archivadas_automaticas":0,"ya_archivadas":10,"sin_opcion_valida":1,"no_evaluados_sin_api":19},"Bundesliga":{"partidos_futuros":16,"partidos_con_comparaciones":2,"comparaciones_recibidas":27,"opciones_validas":1,"archivadas_automaticas":0,"ya_archivadas":6,"sin_opcion_valida":2,"no_evaluados_sin_api":8},"Serie A":{"partidos_futuros":20,"partidos_con_comparaciones":1,"comparaciones_recibidas":15,"opciones_validas":0,"archivadas_automaticas":0,"ya_archivadas":9,"sin_opcion_valida":1,"no_evaluados_sin_api":10},"Ligue 1":{"partidos_futuros":18,"partidos_con_comparaciones":2,"comparaciones_recibidas":26,"opciones_validas":0,"archivadas_automaticas":0,"ya_archivadas":7,"sin_opcion_valida":2,"no_evaluados_sin_api":9}},"por_partido":{"SP1|202611281300|betis|vallecano":"ARCHIVADA_INMUTABLE","SP1|202611281515|malaga|ath bilbao":"ARCHIVADA_INMUTABLE","SP1|202611281730|elche|ath madrid":"ARCHIVADA_INMUTABLE","SP1|202611282000|real madrid|alaves":"SIN_CUOTAS_COMPATIBLES","SP1|202611291300|valencia|osasuna":"NO_SUPERA_FILTROS","SP1|202611291730|celta|villarreal":"SIN_CUOTAS_COMPATIBLES","SP1|202611292000|sociedad|sevilla":"ARCHIVADA_INMUTABLE","SP1|202611302000|espanyol|getafe":"ARCHIVADA_INMUTABLE","SP1|202612021800|sociedad|real madrid":"SIN_CONSULTAR","SP1|202612022030|barcelona|ath madrid":"SIN_CONSULTAR","SP1|202612042000|alaves|espanyol":"SIN_CONSULTAR","SP1|202612051515|vallecano|levante":"SIN_CONSULTAR","SP1|202612051730|villarreal|sociedad":"SIN_CONSULTAR","SP1|202612052000|barcelona|celta":"SIN_CONSULTAR","SP1|202612061300|osasuna|elche":"SIN_CONSULTAR","SP1|202612061515|ath bilbao|real madrid":"SIN_CONSULTAR","SP1|202612061730|getafe|valencia":"SIN_CONSULTAR","SP1|202612062000|ath madrid|betis":"SIN_CONSULTAR","SP1|202612072000|sevilla|malaga":"SIN_CONSULTAR","SP1|202612091900|vallecano|ath bilbao":"SIN_CONSULTAR","SP2|202611271930|leganes|sabadell":"ARCHIVADA_INMUTABLE","SP2|202611281300|las palmas|andorra":"ARCHIVADA_INMUTABLE","SP2|202611281515|albacete|tenerife":"SIN_CUOTAS_COMPATIBLES","SP2|202611281515|eldense|girona":"NO_SUPERA_FILTROS","SP2|202611281730|eibar|burgos":"ARCHIVADA_INMUTABLE","SP2|202611282000|valladolid|sociedad b":"ARCHIVADA_INMUTABLE","SP2|202611291300|granada|ceuta":"ARCHIVADA_INMUTABLE","SP2|202611291515|mallorca|castellon":"ARCHIVADA_INMUTABLE","SP2|202611291730|cadiz|cordoba":"SIN_CUOTAS_COMPATIBLES","SP2|202611292000|almeria|sp gijon":"ARCHIVADA_INMUTABLE","SP2|202611301930|oviedo|celta b":"ARCHIVADA_INMUTABLE","SP2|202612051300|sociedad b|leganes":"SIN_CONSULTAR","SP2|202612051515|sabadell|eibar":"SIN_CONSULTAR","SP2|202612051730|andorra|oviedo":"SIN_CONSULTAR","SP2|202612052000|tenerife|eldense":"SIN_CONSULTAR","SP2|202612061300|celta b|mallorca":"SIN_CONSULTAR","SP2|202612061515|castellon|almeria":"SIN_CONSULTAR","SP2|202612061730|ceuta|albacete":"SIN_CONSULTAR","SP2|202612061730|sp gijon|granada":"SIN_CONSULTAR","SP2|202612062000|girona|valladolid":"SIN_CONSULTAR","SP2|202612071515|burgos|cadiz":"SIN_CONSULTAR","SP2|202612071730|cordoba|las palmas":"SIN_CONSULTAR","SP2|202612092000|castellon|eibar":"SIN_CONSULTAR","SP2|202612092000|andorra|mallorca":"SIN_CONSULTAR","SP2|202612092000|granada|tenerife":"SIN_CONSULTAR","E0|202611272000|nott m forest|chelsea":"SIN_CUOTAS_COMPATIBLES","E0|202611281500|leeds|coventry":"ARCHIVADA_INMUTABLE","E0|202611281500|man united|brentford":"ARCHIVADA_INMUTABLE","E0|202611281730|ipswich|aston villa":"ARCHIVADA_INMUTABLE","E0|202611291200|everton|liverpool":"ARCHIVADA_INMUTABLE","E0|202611291405|brighton|newcastle":"ARCHIVADA_INMUTABLE","E0|202611291405|crystal palace|hull":"ARCHIVADA_INMUTABLE","E0|202611291405|fulham|bournemouth":"ARCHIVADA_INMUTABLE","E0|202611291405|sunderland|tottenham":"ARCHIVADA_INMUTABLE","E0|202611291630|arsenal|man city":"ARCHIVADA_INMUTABLE","E0|202612012000|coventry|ipswich":"ARCHIVADA_INMUTABLE","E0|202612021930|chelsea|crystal palace":"SIN_CONSULTAR","E0|202612021930|hull|nott m forest":"SIN_CONSULTAR","E0|202612021930|liverpool|sunderland":"SIN_CONSULTAR","E0|202612021930|man city|leeds":"SIN_CONSULTAR","E0|202612022015|bournemouth|brighton":"SIN_CONSULTAR","E0|202612022015|aston villa|everton":"SIN_CONSULTAR","E0|202612022015|brentford|arsenal":"SIN_CONSULTAR","E0|202612022015|newcastle|man united":"SIN_CONSULTAR","E0|202612032000|tottenham|fulham":"SIN_CONSULTAR","E0|202612051230|chelsea|liverpool":"SIN_CONSULTAR","E0|202612051500|bournemouth|hull":"SIN_CONSULTAR","E0|202612051500|aston villa|crystal palace":"SIN_CONSULTAR","E0|202612051500|leeds|ipswich":"SIN_CONSULTAR","E0|202612051500|man united|coventry":"SIN_CONSULTAR","E0|202612051730|nott m forest|brighton":"SIN_CONSULTAR","E0|202612052000|brentford|man city":"SIN_CONSULTAR","E0|202612061400|everton|fulham":"SIN_CONSULTAR","E0|202612061400|newcastle|sunderland":"SIN_CONSULTAR","E0|202612061630|tottenham|arsenal":"SIN_CONSULTAR","D1|202611271930|werder bremen|m gladbach":"ARCHIVADA_INMUTABLE","D1|202611281430|hamburg|bayern munich":"ARCHIVADA_INMUTABLE","D1|202611281430|mainz|union berlin":"ARCHIVADA_INMUTABLE","D1|202611281430|paderborn|schalke 04":"NO_SUPERA_FILTROS","D1|202611281730|stuttgart|ein frankfurt":"ARCHIVADA_INMUTABLE","D1|202611291430|freiburg|leipzig":"SIN_CUOTAS_COMPATIBLES","D1|202611291630|hoffenheim|augsburg":"ARCHIVADA_INMUTABLE","D1|202611291830|dortmund|leverkusen":"ARCHIVADA_INMUTABLE","D1|202612041930|bayern munich|paderborn":"SIN_CONSULTAR","D1|202612051430|union berlin|hamburg":"SIN_CONSULTAR","D1|202612051430|leverkusen|m gladbach":"SIN_CONSULTAR","D1|202612051430|augsburg|fc koln":"SIN_CONSULTAR","D1|202612051430|leipzig|mainz":"SIN_CONSULTAR","D1|202612051430|freiburg|hoffenheim":"SIN_CONSULTAR","D1|202612051730|ein frankfurt|werder bremen":"SIN_CONSULTAR","D1|202612061430|schalke 04|dortmund":"SIN_CONSULTAR","I1|202611271945|venezia|bologna":"ARCHIVADA_INMUTABLE","I1|202611281400|frosinone|parma":"ARCHIVADA_INMUTABLE","I1|202611281700|torino|lazio":"ARCHIVADA_INMUTABLE","I1|202611281945|inter|genoa":"NO_SUPERA_FILTROS","I1|202611291130|udinese|fiorentina":"ARCHIVADA_INMUTABLE","I1|202611291400|sassuolo|napoli":"ARCHIVADA_INMUTABLE","I1|202611291700|roma|monza":"ARCHIVADA_INMUTABLE","I1|202611291945|como|juventus":"ARCHIVADA_INMUTABLE","I1|202611301730|lecce|atalanta":"ARCHIVADA_INMUTABLE","I1|202611301945|cagliari|milan":"ARCHIVADA_INMUTABLE","I1|202612041945|bologna|roma":"SIN_CONSULTAR","I1|202612051400|monza|como":"SIN_CONSULTAR","I1|202612051700|frosinone|inter":"SIN_CONSULTAR","I1|202612051945|napoli|lecce":"SIN_CONSULTAR","I1|202612061130|genoa|torino":"SIN_CONSULTAR","I1|202612061400|lazio|atalanta":"SIN_CONSULTAR","I1|202612061700|juventus|udinese":"SIN_CONSULTAR","I1|202612061945|milan|parma":"SIN_CONSULTAR","I1|202612071730|venezia|sassuolo":"SIN_CONSULTAR","I1|202612071945|fiorentina|cagliari":"SIN_CONSULTAR","F1|202611271945|brest|paris fc":"ARCHIVADA_INMUTABLE","F1|202611281615|angers|lens":"NO_SUPERA_FILTROS","F1|202611281945|le havre|strasbourg":"NO_SUPERA_FILTROS","F1|202611281945|le mans|lille":"ARCHIVADA_INMUTABLE","F1|202611281945|nice|troyes":"ARCHIVADA_INMUTABLE","F1|202611281945|paris sg|lorient":"ARCHIVADA_INMUTABLE","F1|202611291400|auxerre|marseille":"ARCHIVADA_INMUTABLE","F1|202611291615|toulouse|rennes":"ARCHIVADA_INMUTABLE","F1|202611291945|lyon|monaco":"ARCHIVADA_INMUTABLE","F1|202612041945|toulouse|paris sg":"SIN_CONSULTAR","F1|202612051615|lille|auxerre":"SIN_CONSULTAR","F1|202612051945|monaco|angers":"SIN_CONSULTAR","F1|202612051945|lens|le havre":"SIN_CONSULTAR","F1|202612051945|paris fc|le mans":"SIN_CONSULTAR","F1|202612051945|strasbourg|lorient":"SIN_CONSULTAR","F1|202612061400|troyes|lyon":"SIN_CONSULTAR","F1|202612061615|rennes|brest":"SIN_CONSULTAR","F1|202612061945|marseille|nice":"SIN_CONSULTAR"},"por_estado_adicional":{"ARCHIVADA_INMUTABLE":45,"SIN_CUOTAS_COMPATIBLES":6,"NO_SUPERA_FILTROS":6,"SIN_CONSULTAR":72},"por_partido_detalle":{"SP1|202611281300|betis|vallecano":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-27T09:04:11.781690+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":13},"SP1|202611281515|malaga|ath bilbao":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T03:03:07.656826+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP1|202611281730|elche|ath madrid":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T19:15:54.212212+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP1|202611282000|real madrid|alaves":{"estado":"SIN_CUOTAS_COMPATIBLES","ultima_consulta_utc":"2026-11-27T09:04:08.893572+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP1|202611291300|valencia|osasuna":{"estado":"NO_SUPERA_FILTROS","ultima_consulta_utc":"2026-11-27T09:04:27.783469+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":15},"SP1|202611291730|celta|villarreal":{"estado":"SIN_CUOTAS_COMPATIBLES","ultima_consulta_utc":"2026-11-26T14:20:30.137999+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP1|202611292000|sociedad|sevilla":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T01:04:23.738148+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP1|202611302000|espanyol|getafe":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T21:58:35.535537+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP1|202612021800|sociedad|real madrid":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612022030|barcelona|ath madrid":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612042000|alaves|espanyol":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612051515|vallecano|levante":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612051730|villarreal|sociedad":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612052000|barcelona|celta":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612061300|osasuna|elche":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612061515|ath bilbao|real madrid":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612061730|getafe|valencia":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612062000|ath madrid|betis":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612072000|sevilla|malaga":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP1|202612091900|vallecano|ath bilbao":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202611271930|leganes|sabadell":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T11:43:04.674308+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611281300|las palmas|andorra":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T14:53:18.796272+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611281515|albacete|tenerife":{"estado":"SIN_CUOTAS_COMPATIBLES","ultima_consulta_utc":"2026-11-26T14:26:17.611170+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611281515|eldense|girona":{"estado":"NO_SUPERA_FILTROS","ultima_consulta_utc":"2026-11-27T09:04:24.475083+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":13},"SP2|202611281730|eibar|burgos":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T21:58:48.312867+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611282000|valladolid|sociedad b":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-26T04:22:53.059899+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611291300|granada|ceuta":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:14:03.499645+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611291515|mallorca|castellon":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:16:26.194964+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611291730|cadiz|cordoba":{"estado":"SIN_CUOTAS_COMPATIBLES","ultima_consulta_utc":"2026-11-26T23:18:01.939144+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611292000|almeria|sp gijon":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T01:04:39.690810+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202611301930|oviedo|celta b":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-26T14:20:46.014064+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"SP2|202612051300|sociedad b|leganes":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612051515|sabadell|eibar":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612051730|andorra|oviedo":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612052000|tenerife|eldense":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612061300|celta b|mallorca":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612061515|castellon|almeria":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612061730|ceuta|albacete":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612061730|sp gijon|granada":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612062000|girona|valladolid":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612071515|burgos|cadiz":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612071730|cordoba|las palmas":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612092000|castellon|eibar":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612092000|andorra|mallorca":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"SP2|202612092000|granada|tenerife":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202611272000|nott m forest|chelsea":{"estado":"SIN_CUOTAS_COMPATIBLES","ultima_consulta_utc":"2026-11-27T09:04:08.893594+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611281500|leeds|coventry":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T15:16:03.324242+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611281500|man united|brentford":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T01:04:26.961473+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611281730|ipswich|aston villa":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T19:15:57.470576+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611291200|everton|liverpool":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-26T23:18:08.214369+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611291405|brighton|newcastle":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:14:08.961396+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611291405|crystal palace|hull":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:16:13.442465+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611291405|fulham|bournemouth":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:16:29.447799+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611291405|sunderland|tottenham":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T18:54:40.133801+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202611291630|arsenal|man city":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T18:54:56.120077+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202612012000|coventry|ipswich":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-26T23:17:48.969349+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"E0|202612021930|chelsea|crystal palace":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612021930|hull|nott m forest":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612021930|liverpool|sunderland":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612021930|man city|leeds":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612022015|bournemouth|brighton":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612022015|aston villa|everton":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612022015|brentford|arsenal":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612022015|newcastle|man united":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612032000|tottenham|fulham":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612051230|chelsea|liverpool":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612051500|bournemouth|hull":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612051500|aston villa|crystal palace":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612051500|leeds|ipswich":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612051500|man united|coventry":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612051730|nott m forest|brighton":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612052000|brentford|man city":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612061400|everton|fulham":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612061400|newcastle|sunderland":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"E0|202612061630|tottenham|arsenal":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202611271930|werder bremen|m gladbach":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-22T22:00:25.860246+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"D1|202611281430|hamburg|bayern munich":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-27T09:04:14.912055+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":14},"D1|202611281430|mainz|union berlin":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T15:16:14.828053+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"D1|202611281430|paderborn|schalke 04":{"estado":"NO_SUPERA_FILTROS","ultima_consulta_utc":"2026-11-27T09:04:30.946477+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":13},"D1|202611281730|stuttgart|ein frankfurt":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T19:16:01.192046+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"D1|202611291430|freiburg|leipzig":{"estado":"SIN_CUOTAS_COMPATIBLES","ultima_consulta_utc":"2026-11-26T14:26:11.382496+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"D1|202611291630|hoffenheim|augsburg":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-26T14:20:52.377443+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"D1|202611291830|dortmund|leverkusen":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T18:54:59.136552+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"D1|202612041930|bayern munich|paderborn":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612051430|union berlin|hamburg":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612051430|leverkusen|m gladbach":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612051430|augsburg|fc koln":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612051430|leipzig|mainz":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612051430|freiburg|hoffenheim":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612051730|ein frankfurt|werder bremen":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"D1|202612061430|schalke 04|dortmund":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202611271945|venezia|bologna":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-22T22:00:29.059402+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611281400|frosinone|parma":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T15:16:08.800744+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611281700|torino|lazio":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-23T19:16:05.634920+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611281945|inter|genoa":{"estado":"NO_SUPERA_FILTROS","ultima_consulta_utc":"2026-11-27T09:04:18.244598+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":15},"I1|202611291130|udinese|fiorentina":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:13:56.047116+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611291400|sassuolo|napoli":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:16:19.847685+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611291700|roma|monza":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T18:54:46.345086+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611291945|como|juventus":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T01:04:33.381974+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611301730|lecce|atalanta":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T17:59:21.694486+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202611301945|cagliari|milan":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T21:58:42.216540+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"I1|202612041945|bologna|roma":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612051400|monza|como":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612051700|frosinone|inter":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612051945|napoli|lecce":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612061130|genoa|torino":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612061400|lazio|atalanta":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612061700|juventus|udinese":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612061945|milan|parma":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612071730|venezia|sassuolo":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"I1|202612071945|fiorentina|cagliari":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202611271945|brest|paris fc":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-22T22:00:32.439802+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202611281615|angers|lens":{"estado":"NO_SUPERA_FILTROS","ultima_consulta_utc":"2026-11-27T09:04:21.325702+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":13},"F1|202611281945|le havre|strasbourg":{"estado":"NO_SUPERA_FILTROS","ultima_consulta_utc":"2026-11-27T09:04:34.122235+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":13},"F1|202611281945|le mans|lille":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:13:59.376777+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202611281945|nice|troyes":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T15:16:22.980929+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202611281945|paris sg|lorient":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-24T18:54:49.526032+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202611291400|auxerre|marseille":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T01:04:36.547476+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202611291615|toulouse|rennes":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T14:53:15.666579+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202611291945|lyon|monaco":{"estado":"ARCHIVADA_INMUTABLE","ultima_consulta_utc":"2026-11-25T11:43:01.736744+00:00","partido_consultado":true,"comparaciones_ultima_ejecucion":0},"F1|202612041945|toulouse|paris sg":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612051615|lille|auxerre":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612051945|monaco|angers":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612051945|lens|le havre":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612051945|paris fc|le mans":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612051945|strasbourg|lorient":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612061400|troyes|lyon":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612061615|rennes|brest":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0},"F1|202612061945|marseille|nice":{"estado":"SIN_CONSULTAR","ultima_consulta_utc":null,"partido_consultado":false,"comparaciones_ultima_ejecucion":0}},"reglas":{"maximo_por_partido":1,"cuota_decimal_estrictamente_mayor_que":1.5,"probabilidad_minima":0.5,"ev_teorico_estrictamente_mayor_que":0.03,"antiguedad_maxima_horas":6,"top3_original":"Archivo inmutable; si la adicional repite mercado y seleccion, se excluye del Top 3 activo (2+1)","historico":"Primera adicional valida archivada antes del inicio; inmutable salvo revisión excepcional del usuario antes del encuentro","orden_seleccion":"Mayor probabilidad del modelo entre cuotas verificadas >1,50 y EV>3%, con calidad mínima","calibracion":"NO_CALIBRADA: muestra prospectiva insuficiente; no confundir probabilidad estimada con acierto probado"},"advertencia":"La ordenación prioriza probabilidad estimada, no calibrada prospectivamente. El valor esperado usa probabilidades experimentales no calibradas. Las cuotas son observaciones prepartido, no ofertas ejecutadas. No existe ventaja economica demostrada."}}
+{
+  "version": "value-watchlist-0.9",
+  "generado_utc": "2026-11-27T14:14:21.096134+00:00",
+  "registradas": 94,
+  "finalizadas": 49,
+  "pendientes": 45,
+  "resultados_no_disponibles": 0,
+  "estadisticas_no_disponibles": 0,
+  "excluidas": 0,
+  "verificacion": {
+    "resultados_verificados": 49,
+    "resultados_pendientes_o_sin_dato": 45,
+    "cuotas_api_observadas_antes_del_partido": 87,
+    "cuotas_indicativas_no_acreditadas": 5,
+    "cuotas_api_sin_prueba_temporal": 2,
+    "nota": "El marcador y la liquidación pueden estar verificados aunque la cuota sea una referencia no acreditada. Terminar el partido no demuestra retroactivamente el precio ofrecido."
+  },
+  "global": {
+    "registradas": 94,
+    "evaluadas": 49,
+    "aciertos": 24,
+    "acierto_pct": 48.98,
+    "brier_medio": 0.277564,
+    "retorno_simulado_unidad": -5.907,
+    "roi_simulado_pct": -12.06,
+    "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+  },
+  "por_tipo_cuota": {
+    "INDICATIVA_NO_VERIFICADA": {
+      "registradas": 5,
+      "evaluadas": 5,
+      "aciertos": 3,
+      "acierto_pct": 60.0,
+      "brier_medio": 0.238804,
+      "retorno_simulado_unidad": 0.75,
+      "roi_simulado_pct": 15.0,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "OFRECIDA_API_REGISTRADA": {
+      "registradas": 89,
+      "evaluadas": 44,
+      "aciertos": 21,
+      "acierto_pct": 47.73,
+      "brier_medio": 0.281968,
+      "retorno_simulado_unidad": -6.657,
+      "roi_simulado_pct": -15.13,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    }
+  },
+  "por_mercado": {
+    "Total goles": {
+      "registradas": 81,
+      "evaluadas": 41,
+      "aciertos": 19,
+      "acierto_pct": 46.34,
+      "brier_medio": 0.29038,
+      "retorno_simulado_unidad": -6.6,
+      "roi_simulado_pct": -16.1,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Doble oportunidad": {
+      "registradas": 2,
+      "evaluadas": 2,
+      "aciertos": 0,
+      "acierto_pct": 0.0,
+      "brier_medio": 0.312433,
+      "retorno_simulado_unidad": -2.0,
+      "roi_simulado_pct": -100.0,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Ambos marcan": {
+      "registradas": 9,
+      "evaluadas": 6,
+      "aciertos": 5,
+      "acierto_pct": 83.33,
+      "brier_medio": 0.178364,
+      "retorno_simulado_unidad": 2.693,
+      "roi_simulado_pct": 44.88,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "1X2": {
+      "registradas": 2,
+      "evaluadas": 0,
+      "aciertos": 0,
+      "acierto_pct": null,
+      "brier_medio": null,
+      "retorno_simulado_unidad": null,
+      "roi_simulado_pct": null,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    }
+  },
+  "por_liga": {
+    "Segunda División": {
+      "registradas": 22,
+      "evaluadas": 14,
+      "aciertos": 6,
+      "acierto_pct": 42.86,
+      "brier_medio": 0.235789,
+      "retorno_simulado_unidad": -3.3,
+      "roi_simulado_pct": -23.57,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "LaLiga": {
+      "registradas": 13,
+      "evaluadas": 8,
+      "aciertos": 5,
+      "acierto_pct": 62.5,
+      "brier_medio": 0.276233,
+      "retorno_simulado_unidad": 1.65,
+      "roi_simulado_pct": 20.62,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Premier League": {
+      "registradas": 16,
+      "evaluadas": 6,
+      "aciertos": 3,
+      "acierto_pct": 50.0,
+      "brier_medio": 0.308365,
+      "retorno_simulado_unidad": -0.158,
+      "roi_simulado_pct": -2.63,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Bundesliga": {
+      "registradas": 11,
+      "evaluadas": 5,
+      "aciertos": 2,
+      "acierto_pct": 40.0,
+      "brier_medio": 0.330697,
+      "retorno_simulado_unidad": -1.364,
+      "roi_simulado_pct": -27.28,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Serie A": {
+      "registradas": 16,
+      "evaluadas": 7,
+      "aciertos": 2,
+      "acierto_pct": 28.57,
+      "brier_medio": 0.363304,
+      "retorno_simulado_unidad": -3.852,
+      "roi_simulado_pct": -55.03,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    },
+    "Ligue 1": {
+      "registradas": 16,
+      "evaluadas": 9,
+      "aciertos": 6,
+      "acierto_pct": 66.67,
+      "brier_medio": 0.22699,
+      "retorno_simulado_unidad": 1.117,
+      "roi_simulado_pct": 12.41,
+      "advertencia": "Retorno HIPOTÉTICO de 1 unidad por selección, no dinero apostado, no beneficio real ni ventaja financiera demostrada."
+    }
+  },
+  "nota": "Las referencias sin fecha ni oferta contrastada se liquidan solo como escenario hipotético; jamás como rentabilidad o cuota real. Las selecciones quedan congeladas antes del encuentro.",
+  "seleccion_automatica": {
+    "estado": "EVALUADO",
+    "comparaciones_recibidas": 111,
+    "partidos_con_comparaciones": 8,
+    "partidos_con_opcion_valida": 2,
+    "nuevas_automaticas": 0,
+    "partidos_ya_archivados": 94,
+    "partidos_con_adicional_archivada": 94,
+    "abstenciones_sin_opcion_valida": 12,
+    "partidos_no_evaluados_sin_api": 72,
+    "abstenciones_ya_archivadas": 45,
+    "sin_cuota_real_no_se_inventa": true,
+    "por_liga": {
+      "LaLiga": {
+        "partidos_futuros": 20,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 26,
+        "opciones_validas": 1,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 5,
+        "sin_opcion_valida": 3,
+        "no_evaluados_sin_api": 12
+      },
+      "Segunda División": {
+        "partidos_futuros": 25,
+        "partidos_con_comparaciones": 1,
+        "comparaciones_recibidas": 15,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 8,
+        "sin_opcion_valida": 3,
+        "no_evaluados_sin_api": 14
+      },
+      "Premier League": {
+        "partidos_futuros": 30,
+        "partidos_con_comparaciones": 0,
+        "comparaciones_recibidas": 0,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 10,
+        "sin_opcion_valida": 1,
+        "no_evaluados_sin_api": 19
+      },
+      "Bundesliga": {
+        "partidos_futuros": 16,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 29,
+        "opciones_validas": 1,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 6,
+        "sin_opcion_valida": 2,
+        "no_evaluados_sin_api": 8
+      },
+      "Serie A": {
+        "partidos_futuros": 20,
+        "partidos_con_comparaciones": 1,
+        "comparaciones_recibidas": 15,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 9,
+        "sin_opcion_valida": 1,
+        "no_evaluados_sin_api": 10
+      },
+      "Ligue 1": {
+        "partidos_futuros": 18,
+        "partidos_con_comparaciones": 2,
+        "comparaciones_recibidas": 26,
+        "opciones_validas": 0,
+        "archivadas_automaticas": 0,
+        "ya_archivadas": 7,
+        "sin_opcion_valida": 2,
+        "no_evaluados_sin_api": 9
+      }
+    },
+    "por_partido": {
+      "SP1|202611281300|betis|vallecano": "ARCHIVADA_INMUTABLE",
+      "SP1|202611281515|malaga|ath bilbao": "ARCHIVADA_INMUTABLE",
+      "SP1|202611281730|elche|ath madrid": "ARCHIVADA_INMUTABLE",
+      "SP1|202611282000|real madrid|alaves": "SIN_CUOTAS_COMPATIBLES",
+      "SP1|202611291300|valencia|osasuna": "SIN_CUOTAS_COMPATIBLES",
+      "SP1|202611291730|celta|villarreal": "NO_SUPERA_FILTROS",
+      "SP1|202611292000|sociedad|sevilla": "ARCHIVADA_INMUTABLE",
+      "SP1|202611302000|espanyol|getafe": "ARCHIVADA_INMUTABLE",
+      "SP1|202612021800|sociedad|real madrid": "SIN_CONSULTAR",
+      "SP1|202612022030|barcelona|ath madrid": "SIN_CONSULTAR",
+      "SP1|202612042000|alaves|espanyol": "SIN_CONSULTAR",
+      "SP1|202612051515|vallecano|levante": "SIN_CONSULTAR",
+      "SP1|202612051730|villarreal|sociedad": "SIN_CONSULTAR",
+      "SP1|202612052000|barcelona|celta": "SIN_CONSULTAR",
+      "SP1|202612061300|osasuna|elche": "SIN_CONSULTAR",
+      "SP1|202612061515|ath bilbao|real madrid": "SIN_CONSULTAR",
+      "SP1|202612061730|getafe|valencia": "SIN_CONSULTAR",
+      "SP1|202612062000|ath madrid|betis": "SIN_CONSULTAR",
+      "SP1|202612072000|sevilla|malaga": "SIN_CONSULTAR",
+      "SP1|202612091900|vallecano|ath bilbao": "SIN_CONSULTAR",
+      "SP2|202611271930|leganes|sabadell": "ARCHIVADA_INMUTABLE",
+      "SP2|202611281300|las palmas|andorra": "ARCHIVADA_INMUTABLE",
+      "SP2|202611281515|albacete|tenerife": "NO_SUPERA_FILTROS",
+      "SP2|202611281515|eldense|girona": "SIN_CUOTAS_COMPATIBLES",
+      "SP2|202611281730|eibar|burgos": "ARCHIVADA_INMUTABLE",
+      "SP2|202611282000|valladolid|sociedad b": "ARCHIVADA_INMUTABLE",
+      "SP2|202611291300|granada|ceuta": "ARCHIVADA_INMUTABLE",
+      "SP2|202611291515|mallorca|castellon": "ARCHIVADA_INMUTABLE",
+      "SP2|202611291730|cadiz|cordoba": "SIN_CUOTAS_COMPATIBLES",
+      "SP2|202611292000|almeria|sp gijon": "ARCHIVADA_INMUTABLE",
+      "SP2|202611301930|oviedo|celta b": "ARCHIVADA_INMUTABLE",
+      "SP2|202612051300|sociedad b|leganes": "SIN_CONSULTAR",
+      "SP2|202612051515|sabadell|eibar": "SIN_CONSULTAR",
+      "SP2|202612051730|andorra|oviedo": "SIN_CONSULTAR",
+      "SP2|202612052000|tenerife|eldense": "SIN_CONSULTAR",
+      "SP2|202612061300|celta b|mallorca": "SIN_CONSULTAR",
+      "SP2|202612061515|castellon|almeria": "SIN_CONSULTAR",
+      "SP2|202612061730|ceuta|albacete": "SIN_CONSULTAR",
+      "SP2|202612061730|sp gijon|granada": "SIN_CONSULTAR",
+      "SP2|202612062000|girona|valladolid": "SIN_CONSULTAR",
+      "SP2|202612071515|burgos|cadiz": "SIN_CONSULTAR",
+      "SP2|202612071730|cordoba|las palmas": "SIN_CONSULTAR",
+      "SP2|202612092000|castellon|eibar": "SIN_CONSULTAR",
+      "SP2|202612092000|andorra|mallorca": "SIN_CONSULTAR",
+      "SP2|202612092000|granada|tenerife": "SIN_CONSULTAR",
+      "E0|202611272000|nott m forest|chelsea": "SIN_CUOTAS_COMPATIBLES",
+      "E0|202611281500|leeds|coventry": "ARCHIVADA_INMUTABLE",
+      "E0|202611281500|man united|brentford": "ARCHIVADA_INMUTABLE",
+      "E0|202611281730|ipswich|aston villa": "ARCHIVADA_INMUTABLE",
+      "E0|202611291200|everton|liverpool": "ARCHIVADA_INMUTABLE",
+      "E0|202611291405|brighton|newcastle": "ARCHIVADA_INMUTABLE",
+      "E0|202611291405|crystal palace|hull": "ARCHIVADA_INMUTABLE",
+      "E0|202611291405|fulham|bournemouth": "ARCHIVADA_INMUTABLE",
+      "E0|202611291405|sunderland|tottenham": "ARCHIVADA_INMUTABLE",
+      "E0|202611291630|arsenal|man city": "ARCHIVADA_INMUTABLE",
+      "E0|202612012000|coventry|ipswich": "ARCHIVADA_INMUTABLE",
+      "E0|202612021930|chelsea|crystal palace": "SIN_CONSULTAR",
+      "E0|202612021930|hull|nott m forest": "SIN_CONSULTAR",
+      "E0|202612021930|liverpool|sunderland": "SIN_CONSULTAR",
+      "E0|202612021930|man city|leeds": "SIN_CONSULTAR",
+      "E0|202612022015|bournemouth|brighton": "SIN_CONSULTAR",
+      "E0|202612022015|aston villa|everton": "SIN_CONSULTAR",
+      "E0|202612022015|brentford|arsenal": "SIN_CONSULTAR",
+      "E0|202612022015|newcastle|man united": "SIN_CONSULTAR",
+      "E0|202612032000|tottenham|fulham": "SIN_CONSULTAR",
+      "E0|202612051230|chelsea|liverpool": "SIN_CONSULTAR",
+      "E0|202612051500|bournemouth|hull": "SIN_CONSULTAR",
+      "E0|202612051500|aston villa|crystal palace": "SIN_CONSULTAR",
+      "E0|202612051500|leeds|ipswich": "SIN_CONSULTAR",
+      "E0|202612051500|man united|coventry": "SIN_CONSULTAR",
+      "E0|202612051730|nott m forest|brighton": "SIN_CONSULTAR",
+      "E0|202612052000|brentford|man city": "SIN_CONSULTAR",
+      "E0|202612061400|everton|fulham": "SIN_CONSULTAR",
+      "E0|202612061400|newcastle|sunderland": "SIN_CONSULTAR",
+      "E0|202612061630|tottenham|arsenal": "SIN_CONSULTAR",
+      "D1|202611271930|werder bremen|m gladbach": "ARCHIVADA_INMUTABLE",
+      "D1|202611281430|hamburg|bayern munich": "ARCHIVADA_INMUTABLE",
+      "D1|202611281430|mainz|union berlin": "ARCHIVADA_INMUTABLE",
+      "D1|202611281430|paderborn|schalke 04": "SIN_CUOTAS_COMPATIBLES",
+      "D1|202611281730|stuttgart|ein frankfurt": "ARCHIVADA_INMUTABLE",
+      "D1|202611291430|freiburg|leipzig": "NO_SUPERA_FILTROS",
+      "D1|202611291630|hoffenheim|augsburg": "ARCHIVADA_INMUTABLE",
+      "D1|202611291830|dortmund|leverkusen": "ARCHIVADA_INMUTABLE",
+      "D1|202612041930|bayern munich|paderborn": "SIN_CONSULTAR",
+      "D1|202612051430|union berlin|hamburg": "SIN_CONSULTAR",
+      "D1|202612051430|leverkusen|m gladbach": "SIN_CONSULTAR",
+      "D1|202612051430|augsburg|fc koln": "SIN_CONSULTAR",
+      "D1|202612051430|leipzig|mainz": "SIN_CONSULTAR",
+      "D1|202612051430|freiburg|hoffenheim": "SIN_CONSULTAR",
+      "D1|202612051730|ein frankfurt|werder bremen": "SIN_CONSULTAR",
+      "D1|202612061430|schalke 04|dortmund": "SIN_CONSULTAR",
+      "I1|202611271945|venezia|bologna": "ARCHIVADA_INMUTABLE",
+      "I1|202611281400|frosinone|parma": "ARCHIVADA_INMUTABLE",
+      "I1|202611281700|torino|lazio": "ARCHIVADA_INMUTABLE",
+      "I1|202611281945|inter|genoa": "NO_SUPERA_FILTROS",
+      "I1|202611291130|udinese|fiorentina": "ARCHIVADA_INMUTABLE",
+      "I1|202611291400|sassuolo|napoli": "ARCHIVADA_INMUTABLE",
+      "I1|202611291700|roma|monza": "ARCHIVADA_INMUTABLE",
+      "I1|202611291945|como|juventus": "ARCHIVADA_INMUTABLE",
+      "I1|202611301730|lecce|atalanta": "ARCHIVADA_INMUTABLE",
+      "I1|202611301945|cagliari|milan": "ARCHIVADA_INMUTABLE",
+      "I1|202612041945|bologna|roma": "SIN_CONSULTAR",
+      "I1|202612051400|monza|como": "SIN_CONSULTAR",
+      "I1|202612051700|frosinone|inter": "SIN_CONSULTAR",
+      "I1|202612051945|napoli|lecce": "SIN_CONSULTAR",
+      "I1|202612061130|genoa|torino": "SIN_CONSULTAR",
+      "I1|202612061400|lazio|atalanta": "SIN_CONSULTAR",
+      "I1|202612061700|juventus|udinese": "SIN_CONSULTAR",
+      "I1|202612061945|milan|parma": "SIN_CONSULTAR",
+      "I1|202612071730|venezia|sassuolo": "SIN_CONSULTAR",
+      "I1|202612071945|fiorentina|cagliari": "SIN_CONSULTAR",
+      "F1|202611271945|brest|paris fc": "ARCHIVADA_INMUTABLE",
+      "F1|202611281615|angers|lens": "NO_SUPERA_FILTROS",
+      "F1|202611281945|le havre|strasbourg": "NO_SUPERA_FILTROS",
+      "F1|202611281945|le mans|lille": "ARCHIVADA_INMUTABLE",
+      "F1|202611281945|nice|troyes": "ARCHIVADA_INMUTABLE",
+      "F1|202611281945|paris sg|lorient": "ARCHIVADA_INMUTABLE",
+      "F1|202611291400|auxerre|marseille": "ARCHIVADA_INMUTABLE",
+      "F1|202611291615|toulouse|rennes": "ARCHIVADA_INMUTABLE",
+      "F1|202611291945|lyon|monaco": "ARCHIVADA_INMUTABLE",
+      "F1|202612041945|toulouse|paris sg": "SIN_CONSULTAR",
+      "F1|202612051615|lille|auxerre": "SIN_CONSULTAR",
+      "F1|202612051945|monaco|angers": "SIN_CONSULTAR",
+      "F1|202612051945|lens|le havre": "SIN_CONSULTAR",
+      "F1|202612051945|paris fc|le mans": "SIN_CONSULTAR",
+      "F1|202612051945|strasbourg|lorient": "SIN_CONSULTAR",
+      "F1|202612061400|troyes|lyon": "SIN_CONSULTAR",
+      "F1|202612061615|rennes|brest": "SIN_CONSULTAR",
+      "F1|202612061945|marseille|nice": "SIN_CONSULTAR"
+    },
+    "por_estado_adicional": {
+      "ARCHIVADA_INMUTABLE": 45,
+      "SIN_CUOTAS_COMPATIBLES": 6,
+      "NO_SUPERA_FILTROS": 6,
+      "SIN_CONSULTAR": 72
+    },
+    "por_partido_detalle": {
+      "SP1|202611281300|betis|vallecano": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-27T14:16:00.821098+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 13
+      },
+      "SP1|202611281515|malaga|ath bilbao": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T03:03:07.656826+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202611281730|elche|ath madrid": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T19:15:54.212212+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202611282000|real madrid|alaves": {
+        "estado": "SIN_CUOTAS_COMPATIBLES",
+        "ultima_consulta_utc": "2026-11-27T09:04:08.893572+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202611291300|valencia|osasuna": {
+        "estado": "SIN_CUOTAS_COMPATIBLES",
+        "ultima_consulta_utc": "2026-11-27T09:04:27.783469+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202611291730|celta|villarreal": {
+        "estado": "NO_SUPERA_FILTROS",
+        "ultima_consulta_utc": "2026-11-27T14:15:44.633846+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 13
+      },
+      "SP1|202611292000|sociedad|sevilla": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T01:04:23.738148+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202611302000|espanyol|getafe": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T21:58:35.535537+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612021800|sociedad|real madrid": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612022030|barcelona|ath madrid": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612042000|alaves|espanyol": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612051515|vallecano|levante": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612051730|villarreal|sociedad": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612052000|barcelona|celta": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612061300|osasuna|elche": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612061515|ath bilbao|real madrid": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612061730|getafe|valencia": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612062000|ath madrid|betis": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612072000|sevilla|malaga": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP1|202612091900|vallecano|ath bilbao": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611271930|leganes|sabadell": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T11:43:04.674308+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611281300|las palmas|andorra": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T14:53:18.796272+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611281515|albacete|tenerife": {
+        "estado": "NO_SUPERA_FILTROS",
+        "ultima_consulta_utc": "2026-11-27T14:15:57.440927+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 15
+      },
+      "SP2|202611281515|eldense|girona": {
+        "estado": "SIN_CUOTAS_COMPATIBLES",
+        "ultima_consulta_utc": "2026-11-27T09:04:24.475083+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611281730|eibar|burgos": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T21:58:48.312867+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611282000|valladolid|sociedad b": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-26T04:22:53.059899+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611291300|granada|ceuta": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:14:03.499645+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611291515|mallorca|castellon": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:16:26.194964+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611291730|cadiz|cordoba": {
+        "estado": "SIN_CUOTAS_COMPATIBLES",
+        "ultima_consulta_utc": "2026-11-26T23:18:01.939144+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611292000|almeria|sp gijon": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T01:04:39.690810+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202611301930|oviedo|celta b": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-26T14:20:46.014064+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612051300|sociedad b|leganes": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612051515|sabadell|eibar": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612051730|andorra|oviedo": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612052000|tenerife|eldense": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612061300|celta b|mallorca": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612061515|castellon|almeria": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612061730|ceuta|albacete": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612061730|sp gijon|granada": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612062000|girona|valladolid": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612071515|burgos|cadiz": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612071730|cordoba|las palmas": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612092000|castellon|eibar": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612092000|andorra|mallorca": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "SP2|202612092000|granada|tenerife": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611272000|nott m forest|chelsea": {
+        "estado": "SIN_CUOTAS_COMPATIBLES",
+        "ultima_consulta_utc": "2026-11-27T09:04:08.893594+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611281500|leeds|coventry": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T15:16:03.324242+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611281500|man united|brentford": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T01:04:26.961473+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611281730|ipswich|aston villa": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T19:15:57.470576+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611291200|everton|liverpool": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-26T23:18:08.214369+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611291405|brighton|newcastle": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:14:08.961396+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611291405|crystal palace|hull": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:16:13.442465+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611291405|fulham|bournemouth": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:16:29.447799+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611291405|sunderland|tottenham": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T18:54:40.133801+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202611291630|arsenal|man city": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T18:54:56.120077+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612012000|coventry|ipswich": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-26T23:17:48.969349+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612021930|chelsea|crystal palace": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612021930|hull|nott m forest": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612021930|liverpool|sunderland": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612021930|man city|leeds": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612022015|bournemouth|brighton": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612022015|aston villa|everton": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612022015|brentford|arsenal": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612022015|newcastle|man united": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612032000|tottenham|fulham": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612051230|chelsea|liverpool": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612051500|bournemouth|hull": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612051500|aston villa|crystal palace": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612051500|leeds|ipswich": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612051500|man united|coventry": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612051730|nott m forest|brighton": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612052000|brentford|man city": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612061400|everton|fulham": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612061400|newcastle|sunderland": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "E0|202612061630|tottenham|arsenal": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202611271930|werder bremen|m gladbach": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-22T22:00:25.860246+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202611281430|hamburg|bayern munich": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-27T14:16:04.956392+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 14
+      },
+      "D1|202611281430|mainz|union berlin": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T15:16:14.828053+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202611281430|paderborn|schalke 04": {
+        "estado": "SIN_CUOTAS_COMPATIBLES",
+        "ultima_consulta_utc": "2026-11-27T09:04:30.946477+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202611281730|stuttgart|ein frankfurt": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T19:16:01.192046+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202611291430|freiburg|leipzig": {
+        "estado": "NO_SUPERA_FILTROS",
+        "ultima_consulta_utc": "2026-11-27T14:15:47.823871+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 15
+      },
+      "D1|202611291630|hoffenheim|augsburg": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-26T14:20:52.377443+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202611291830|dortmund|leverkusen": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T18:54:59.136552+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612041930|bayern munich|paderborn": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612051430|union berlin|hamburg": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612051430|leverkusen|m gladbach": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612051430|augsburg|fc koln": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612051430|leipzig|mainz": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612051430|freiburg|hoffenheim": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612051730|ein frankfurt|werder bremen": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "D1|202612061430|schalke 04|dortmund": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611271945|venezia|bologna": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-22T22:00:29.059402+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611281400|frosinone|parma": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T15:16:08.800744+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611281700|torino|lazio": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-23T19:16:05.634920+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611281945|inter|genoa": {
+        "estado": "NO_SUPERA_FILTROS",
+        "ultima_consulta_utc": "2026-11-27T14:15:51.128549+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 15
+      },
+      "I1|202611291130|udinese|fiorentina": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:13:56.047116+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611291400|sassuolo|napoli": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:16:19.847685+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611291700|roma|monza": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T18:54:46.345086+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611291945|como|juventus": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T01:04:33.381974+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611301730|lecce|atalanta": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T17:59:21.694486+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202611301945|cagliari|milan": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T21:58:42.216540+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612041945|bologna|roma": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612051400|monza|como": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612051700|frosinone|inter": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612051945|napoli|lecce": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612061130|genoa|torino": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612061400|lazio|atalanta": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612061700|juventus|udinese": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612061945|milan|parma": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612071730|venezia|sassuolo": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "I1|202612071945|fiorentina|cagliari": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611271945|brest|paris fc": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-22T22:00:32.439802+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611281615|angers|lens": {
+        "estado": "NO_SUPERA_FILTROS",
+        "ultima_consulta_utc": "2026-11-27T14:15:54.301587+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 13
+      },
+      "F1|202611281945|le havre|strasbourg": {
+        "estado": "NO_SUPERA_FILTROS",
+        "ultima_consulta_utc": "2026-11-27T14:16:07.222927+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 13
+      },
+      "F1|202611281945|le mans|lille": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:13:59.376777+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611281945|nice|troyes": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T15:16:22.980929+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611281945|paris sg|lorient": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-24T18:54:49.526032+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611291400|auxerre|marseille": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T01:04:36.547476+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611291615|toulouse|rennes": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T14:53:15.666579+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202611291945|lyon|monaco": {
+        "estado": "ARCHIVADA_INMUTABLE",
+        "ultima_consulta_utc": "2026-11-25T11:43:01.736744+00:00",
+        "partido_consultado": true,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612041945|toulouse|paris sg": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612051615|lille|auxerre": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612051945|monaco|angers": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612051945|lens|le havre": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612051945|paris fc|le mans": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612051945|strasbourg|lorient": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612061400|troyes|lyon": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612061615|rennes|brest": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      },
+      "F1|202612061945|marseille|nice": {
+        "estado": "SIN_CONSULTAR",
+        "ultima_consulta_utc": null,
+        "partido_consultado": false,
+        "comparaciones_ultima_ejecucion": 0
+      }
+    },
+    "reglas": {
+      "maximo_por_partido": 1,
+      "cuota_decimal_estrictamente_mayor_que": 1.5,
+      "probabilidad_minima": 0.5,
+      "ev_teorico_estrictamente_mayor_que": 0.03,
+      "antiguedad_maxima_horas": 6,
+      "top3_original": "Archivo inmutable; si la adicional repite mercado y seleccion, se excluye del Top 3 activo (2+1)",
+      "historico": "Primera adicional valida archivada antes del inicio; inmutable salvo revisión excepcional del usuario antes del encuentro",
+      "orden_seleccion": "Mayor probabilidad del modelo entre cuotas verificadas >1,50 y EV>3%, con calidad mínima",
+      "calibracion": "NO_CALIBRADA: muestra prospectiva insuficiente; no confundir probabilidad estimada con acierto probado"
+    },
+    "advertencia": "La ordenación prioriza probabilidad estimada, no calibrada prospectivamente. El valor esperado usa probabilidades experimentales no calibradas. Las cuotas son observaciones prepartido, no ofertas ejecutadas. No existe ventaja economica demostrada."
+  }
+}

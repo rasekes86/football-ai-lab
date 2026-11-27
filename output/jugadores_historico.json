@@ -1,6 +1,6 @@
 {
   "version": "players-source-0.8",
-  "actualizado_utc": "2026-11-26T17:42:55.681155+00:00",
+  "actualizado_utc": "2026-11-27T14:14:21.096134+00:00",
   "estado": "CON_HISTORICO_PARCIAL",
   "registros": [
     {
@@ -10712,6 +10712,3306 @@
       "equipo": "Frosinone",
       "jugador_id": "347409",
       "jugador": "Seydou Fini",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "282646",
+      "jugador": "Karl Hein",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "232477",
+      "jugador": "Marco Friedl",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "275844",
+      "jugador": "Amos Pieper",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "282388",
+      "jugador": "Olivier Deman",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "334374",
+      "jugador": "Arthur",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "371689",
+      "jugador": "Chuki",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "261363",
+      "jugador": "Ludovit Reis",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "297292",
+      "jugador": "Youri Regeer",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "170257",
+      "jugador": "Niclas Füllkrug",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "340639",
+      "jugador": "Justin Njinmah",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "312112",
+      "jugador": "Eren Dinkci",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "195082",
+      "jugador": "Alexander Schlager",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "3106924",
+      "jugador": "Paul Bright Max Erevbenagie",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "399865",
+      "jugador": "Mick Schmetgens",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "399747",
+      "jugador": "Dariusz Stalmach",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "234153",
+      "jugador": "Cedric Itten",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "305821",
+      "jugador": "Oskar Wójcik",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "3100710",
+      "jugador": "Darwin Kaan Soylu",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "186026",
+      "jugador": "Niklas Stark",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Werder Bremen",
+      "jugador_id": "415744",
+      "jugador": "Kenny Quetant",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "180162",
+      "jugador": "Daniel Heuer Fernandes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "271130",
+      "jugador": "Sebastiaan Bornauw",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "309840",
+      "jugador": "Warmed Omari",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "284835",
+      "jugador": "Nicolás Capaldo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "243626",
+      "jugador": "Miro Muheim",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "297750",
+      "jugador": "Albert Grønbaek",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "332878",
+      "jugador": "Martin Adeline",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "313361",
+      "jugador": "David Møller Wolfe",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "325024",
+      "jugador": "Zakaria El Ouahdi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "384471",
+      "jugador": "Alexander Røssing-Lelesiit",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "232662",
+      "jugador": "Patson Daka",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "304258",
+      "jugador": "Sander Tangvik",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "289769",
+      "jugador": "Terem Moffi",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "88865",
+      "jugador": "Fabio Vieira",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "377704",
+      "jugador": "Kofi Amoako",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "238542",
+      "jugador": "Bakery Jatta",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "410645",
+      "jugador": "Louis Lemke",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "376056",
+      "jugador": "Otto Stange",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "3115345",
+      "jugador": "Jason-Dean Bissi Mouelle",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401884730",
+      "liga": "D1",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Werder Bremen",
+      "visitante": "Hamburg SV",
+      "equipo": "Hamburg SV",
+      "jugador_id": "307725",
+      "jugador": "Mario Vuskovic",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "196876",
+      "jugador": "Alisson Becker",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "157892",
+      "jugador": "Virgil van Dijk",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "355980",
+      "jugador": "Jérémy Jacquet",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "323110",
+      "jugador": "Milos Kerkez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "270821",
+      "jugador": "Ronald Araujo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "303748",
+      "jugador": "Florian Wirtz",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "249299",
+      "jugador": "Alexis Mac Allister",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "257206",
+      "jugador": "Dominik Szoboszlai",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 7.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "235662",
+      "jugador": "Alexander Isak",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "379588",
+      "jugador": "Rio Ngumoha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "328238",
+      "jugador": "Bradley Barcola",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "326230",
+      "jugador": "James McConnell",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "397545",
+      "jugador": "Víctor Muñoz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "281119",
+      "jugador": "Jeremie Frimpong",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "234306",
+      "jugador": "Federico Chiesa",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "226177",
+      "jugador": "Kostas Tsimikas",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "274742",
+      "jugador": "Giorgi Mamardashvili",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "350661",
+      "jugador": "Lewis Koumas",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "102053",
+      "jugador": "Joe Gomez",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Liverpool",
+      "jugador_id": "356075",
+      "jugador": "Trey Nyoni",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "301425",
+      "jugador": "Senne Lammens",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "239349",
+      "jugador": "Matthijs de Ligt",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "340206",
+      "jugador": "Leny Yoro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "233937",
+      "jugador": "Lisandro Martínez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "238902",
+      "jugador": "Diogo Dalot",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "124091",
+      "jugador": "Bruno Fernandes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "328466",
+      "jugador": "Kobbie Mainoo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "193297",
+      "jugador": "Youri Tielemans",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "259902",
+      "jugador": "Matheus Cunha",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "366781",
+      "jugador": "Patrick Dorgu",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "271170",
+      "jugador": "Bryan Mbeumo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "356044",
+      "jugador": "Ayden Heaven",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "314858",
+      "jugador": "Andrey Santos",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "276327",
+      "jugador": "Joshua Zirkzee",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "358180",
+      "jugador": "Shea Lacey",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "239350",
+      "jugador": "Noussair Mazraoui",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "42250",
+      "jugador": "Tom Heaton",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "291630",
+      "jugador": "Amad Diallo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "157073",
+      "jugador": "Harry Maguire",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401878755",
+      "liga": "E0",
+      "fecha_utc": "2026-11-22T16:30:00+00:00",
+      "local": "Liverpool",
+      "visitante": "Manchester United",
+      "equipo": "Manchester United",
+      "jugador_id": "231167",
+      "jugador": "Mason Mount",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "199381",
+      "jugador": "Yvon Mvogo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "265099",
+      "jugador": "Montassar Talbi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "368592",
+      "jugador": "Nosa Obaretin",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "345563",
+      "jugador": "Nathaniel Adjei",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "355870",
+      "jugador": "Arthur Avom",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "315215",
+      "jugador": "Noah Cadiou",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "381626",
+      "jugador": "Arsène Kouassi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "347940",
+      "jugador": "Dembo Sylla",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "258100",
+      "jugador": "Tosin Aiyegun",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "397392",
+      "jugador": "Gabin Bernardeau",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "225557",
+      "jugador": "Jean-Victor Makengo",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "416429",
+      "jugador": "Mamadou Koné",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "207369",
+      "jugador": "Bingourou Kamara",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "297345",
+      "jugador": "Souleymane Faye",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "315454",
+      "jugador": "Noah Mbamba",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "344634",
+      "jugador": "Srdjan Kuzmic",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "325992",
+      "jugador": "Théo Le Bris",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "324565",
+      "jugador": "Ibrahima Baldé",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "221548",
+      "jugador": "Alec Georgen",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Lorient",
+      "jugador_id": "309651",
+      "jugador": "Isak Jensen",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "164126",
+      "jugador": "Brice Samba",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "307713",
+      "jugador": "Charlie Cresswell",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "401410",
+      "jugador": "Gonçalo Oliveira",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "291614",
+      "jugador": "Anthony Rouault",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "372260",
+      "jugador": "Mahamadou Nagida",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "250758",
+      "jugador": "Bryan Reynolds",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "207136",
+      "jugador": "Valentin Rongier",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "268966",
+      "jugador": "Mahdi Camara",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "243844",
+      "jugador": "Sebastian Szymanski",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "282381",
+      "jugador": "Boulaye Dia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "257489",
+      "jugador": "Mousa Al-Tamari",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "223120",
+      "jugador": "Ludovic Blas",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "376339",
+      "jugador": "Abdelhamid Aït Boudlal",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "297743",
+      "jugador": "Issa Soumaré",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "313890",
+      "jugador": "Quentin Merlin",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "414191",
+      "jugador": "Kilian Belazzoug",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "355982",
+      "jugador": "Djaoui Cissé",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "398977",
+      "jugador": "Henrick Do Marcolino",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "173266",
+      "jugador": "Adrien Thomasson",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 1.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401876401",
+      "liga": "F1",
+      "fecha_utc": "2026-11-22T16:15:00+00:00",
+      "local": "Lorient",
+      "visitante": "Stade Rennais",
+      "equipo": "Stade Rennais",
+      "jugador_id": "323850",
+      "jugador": "Esteban Lepaul",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "323970",
+      "jugador": "Julen Agirrezabala",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "333927",
+      "jugador": "Jeanuël Belocian",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "361455",
+      "jugador": "Pedro Felipe",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "178237",
+      "jugador": "Jorge Salinas",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "282672",
+      "jugador": "Pablo Ramon",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "125383",
+      "jugador": "Sergio Canales",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "330545",
+      "jugador": "Iván Martín",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "107960",
+      "jugador": "Matteo Prati",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "390389",
+      "jugador": "Yassir Zabiri",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 3.0,
+        "totalShots": 4.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "284699",
+      "jugador": "Iñigo Vicente",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "417258",
+      "jugador": "Iker Luque",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "334268",
+      "jugador": "Juan Carlos Arana",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "286604",
+      "jugador": "André Almeida",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "222365",
+      "jugador": "Asier Villalibre",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "399278",
+      "jugador": "Pablo García",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "367499",
+      "jugador": "Facundo González",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "279699",
+      "jugador": "Íñigo Sainz",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "259839",
+      "jugador": "Manu",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "400222",
+      "jugador": "Simon Eriksson",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "242007",
+      "jugador": "Aarón Martín",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "3128976",
+      "jugador": "Jorge Castellanos Del Olmo",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Racing Santander",
+      "jugador_id": "289439",
+      "jugador": "Giorgi Guliashvili",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "217319",
+      "jugador": "Álex Remiro",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "355433",
+      "jugador": "Mamadou Sarr",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 1.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "235693",
+      "jugador": "Igor Zubeldia",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "265993",
+      "jugador": "Sergio Gómez",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "363039",
+      "jugador": "Héctor Fort",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 2.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "235072",
+      "jugador": "Carlos Soler",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "388601",
+      "jugador": "Jon Gorrotxategi",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "213141",
+      "jugador": "Gonçalo Guedes",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 6.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "306263",
+      "jugador": "Luka Sucic",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 5.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "341367",
+      "jugador": "Orri Óskarsson",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 3.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "229018",
+      "jugador": "Mikel Oyarzabal",
+      "titular": true,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 2.0,
+        "totalShots": 7.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "297359",
+      "jugador": "Jon Pacheco",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "406379",
+      "jugador": "Job Ochieng",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "368327",
+      "jugador": "Aitor Fraga",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "326900",
+      "jugador": "Pablo Marín",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "366885",
+      "jugador": "Jon Martín",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "283891",
+      "jugador": "Aihen Muñoz",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "307487",
+      "jugador": "Arsen Zakharyan",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 1.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "318063",
+      "jugador": "Jon Aramburu",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "256587",
+      "jugador": "Takefusa Kubo",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "312011",
+      "jugador": "Unai Marrero",
+      "titular": false,
+      "entro_desde_banquillo": false,
+      "participacion_confirmada": false,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "297371",
+      "jugador": "Beñat Turrientes",
+      "titular": false,
+      "entro_desde_banquillo": true,
+      "participacion_confirmada": true,
+      "estadisticas": {
+        "redCards": 0.0,
+        "yellowCards": 0.0,
+        "shotsOnTarget": 0.0,
+        "totalShots": 0.0
+      },
+      "fuente": "ESPN summary público no oficial"
+    },
+    {
+      "event_id": "401882800",
+      "liga": "SP1",
+      "fecha_utc": "2026-11-22T15:15:00+00:00",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
+      "equipo": "Real Sociedad",
+      "jugador_id": "366886",
+      "jugador": "Alex Lebarbier",
       "titular": false,
       "entro_desde_banquillo": false,
       "participacion_confirmada": false,
@@ -81188,6 +84488,6 @@
   "eventos_con_jugadores": 4,
   "errores": [],
   "advertencia": "Datos individuales de encuentros ya finalizados; no son pronósticos ni alineaciones confirmadas para partidos futuros.",
-  "partidos_archivados": 94,
-  "jugadores_con_algun_dato": 4059
+  "partidos_archivados": 98,
+  "jugadores_con_algun_dato": 4224
 }
