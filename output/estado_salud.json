@@ -1,8 +1,14 @@
 {
   "version": 1,
-  "comprobado_utc": "2026-11-28T02:57:51.269844+00:00",
-  "estado": "CORRECTO",
-  "incidencias": [],
+  "comprobado_utc": "2026-11-28T08:05:09.908344+00:00",
+  "estado": "INCIDENCIAS",
+  "incidencias": [
+    {
+      "codigo": "LIQUIDACION_MATINAL_PENDIENTE",
+      "severidad": "MEDIA",
+      "descripcion": "5 partidos llevan más de 10 horas sin liquidar; revisar la ronda postpartido nocturna de GitHub Actions."
+    }
+  ],
   "detalle": {
     "analisis_utc": "2026-11-27T17:27:58.322332+00:00",
     "partidos_proximos": 62,
@@ -12,14 +18,16 @@
     "errores_totales_proveedor_ultima_ronda": 0,
     "racha_calendario": 0,
     "racha_proveedor": 0,
-    "partidos_sin_liquidar_10h": 0,
+    "partidos_sin_liquidar_10h": 5,
     "partidos_sin_liquidar_48h": 0
   },
   "ultima_captura_revisada": "2026-11-28T02:57:07.235200+00:00",
   "racha_calendario": 0,
   "racha_proveedor": 0,
   "fallos_workflow": {},
-  "notificadas": [],
-  "ultima_entrega_utc": "2026-11-26T14:21:18.178483+00:00",
-  "envio": "SIN_NOVEDADES"
+  "notificadas": [
+    "LIQUIDACION_MATINAL_PENDIENTE"
+  ],
+  "ultima_entrega_utc": "2026-11-28T08:05:09.908344+00:00",
+  "envio": "ENTREGADO"
 }
